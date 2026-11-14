@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-11-14",
+  "sources": [
+    {
+      "name": "IWFDB",
+      "url": "https://iwfdb.com/",
+      "type": "catalogue",
+      "use": "découverte et recoupement des références",
+      "trust": "verification_required"
+    },
+    {
+      "name": "Gleiten.TV",
+      "url": "https://gleiten.tv/foil/test/wingfoil/",
+      "type": "specialist_video_tests",
+      "use": "essais foils et boards",
+      "trust": "contextual"
+    },
+    {
+      "name": "Foiling Magazine",
+      "url": "https://thefoilingmagazine.com/test-center",
+      "type": "independent_reviews",
+      "use": "essais contextualisés",
+      "trust": "contextual"
+    },
+    {
+      "name": "SUPboarder",
+      "url": "https://supboardermag.com/reviews-tests/",
+      "type": "comparative_reviews",
+      "use": "comparaisons boards",
+      "trust": "contextual"
+    },
+    {
+      "name": "Seabreeze",
+      "url": "https://www.seabreeze.com.au/forums/Wing-Foiling",
+      "type": "forum",
+      "use": "retours terrain et fiabilité",
+      "trust": "anecdotal"
+    },
+    {
+      "name": "Reddit r/wingfoil",
+      "url": "https://www.reddit.com/r/wingfoil/",
+      "type": "forum",
+      "use": "retours terrain et usages",
+      "trust": "anecdotal"
+    }
+  ]
+}
