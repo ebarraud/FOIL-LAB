@@ -1,8 +1,10 @@
 name: Discover Wingfoil Board and Foil Reviews
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '10 7 * * 1' # Mondays 07:10 UTC, weekly archive independent of ChatGPT automation
   push:
-    branches: [feature/gleiten-full-wingfoil-catalog]
+    branches: [main]
     paths:
       - 'video-analysis/discover.py'
       - 'video-analysis/test_discover.py'
@@ -22,11 +24,21 @@ jobs:
         run: python -m unittest discover -s video-analysis -p 'test_*.py' -v
       - name: Discover Gleiten.TV wingfoil tests
         run: python video-analysis/discover.py --sources gleiten --max-pages 12 --output video-index/gleiten.json
-      - name: Discover YouTube wingfoil tests when API key configured
+      - name: Verify YouTube discovery configuration
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python video-analysis/discover.py --sources youtube --youtube-pages 2 --output video-index/youtube.json
-      - name: Print verified inventory summary
+        run: |
+          if [ -n "$YOUTUBE_API_KEY" ]; then
+            echo "YOUTUBE_API_KEY: configured (value hidden)"
+          else
+            echo "::warning title=YouTube discovery inactive::Add the YOUTUBE_API_KEY GitHub Actions secret to enable actual YouTube search."
+          fi
+      - name: Discover YouTube reviews (24 months) when configured
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python video-analysis/discover.py --sources youtube --youtube-pages 1 --output video-index/youtube.json
+      - name: Print inventory and access status (no false success)
+        
         run: |
           python - <<'PY'
           import json
