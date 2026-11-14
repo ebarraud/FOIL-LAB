@@ -43,7 +43,7 @@ def eligible(video: dict) -> tuple[bool, str]:
 def command(video: dict, mode: str, directory: Path, language: str) -> list[str]:
     args = [
         "yt-dlp", "--no-playlist", "--no-warnings",
-        "--no-call-home", "--skip-download", "--socket-timeout", "15",
+        "--ignore-config", "--skip-download", "--socket-timeout", "15",
         "--retries", "1", "--extractor-retries", "1",
         "--no-progress", "--no-write-info-json", "--no-write-thumbnail",
     ]
