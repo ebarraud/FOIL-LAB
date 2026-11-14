@@ -44,3 +44,15 @@ Le fichier `seed_2024-2026_gleiten.json` contient **46 références candidates**
 Le premier essai réseau du workflow a renvoyé `HTTPError` pour les deux catégories Gleiten.TV sur les IP GitHub Actions. L'index automatique a donc retourné **0 résultat**, bien que les pages soient accessibles via recherche web ; la liste de 46 références est un jeu de démarrage établi séparément. Le volet YouTube a été **ignoré faute de clé API configurée**. Aucun contenu parlé n'a été récupéré ni analysé.
 
 Le filtre de date du script est glissant sur deux ans à compter de chaque exécution ; le fichier de démarrage conserve les dates fixes de cette campagne pour la traçabilité.
+
+## Activation concrète de YouTube Data API (clé nécessaire)
+
+1. Ouvrir [Google Cloud Console — projet](https://console.cloud.google.com/projectcreate) et créer (ou sélectionner) un projet Google Cloud.
+2. [Activer YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com).
+3. Ouvrir [Identifiants Google Cloud](https://console.cloud.google.com/apis/credentials), créer une **clé API** et la limiter à l'API YouTube Data v3. Pour ce job serveur GitHub Actions, **ne pas restreindre à un référent HTTP de navigateur** ; le service requiert une clé utilisable depuis le job, avec quota minimal et surveillance.
+4. Ouvrir [GitHub → FOIL-LAB → Actions secrets](https://github.com/ebarraud/FOIL-LAB/settings/secrets/actions), choisir **New repository secret**, nom exactement `YOUTUBE_API_KEY`, coller sa valeur **dans GitHub**, jamais dans un fichier du dépôt ni dans la conversation.
+5. Ouvrir [Actions → Discover Wingfoil Board and Foil Reviews](https://github.com/ebarraud/FOIL-LAB/actions/workflows/discover-wingfoil.yml), **Run workflow**, puis télécharger l'artefact `wingfoil-24-month-discovery`.
+
+Le workflow est également planifié le lundi (07:10 UTC) ; il reste honnêtement inactif sur le volet YouTube tant que le secret manque. Le module n'obtient **pas** la transcription grâce à cette clé : l'API liste les vidéos et métadonnées publiques, mais n'ouvre pas l'accès aux sous-titres d'une chaîne tierce.
+
+La découverte est volontairement limitée à une page de résultats par requête lors de chaque exécution hebdomadaire, pour préserver le quota et éviter une explosion du coût des recherches. La collecte reste non exhaustive et les résultats (titre, date, vidéo) doivent être filtrés et vérifiés avant attribution de conclusions techniques.
