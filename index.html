@@ -30,6 +30,41 @@ html{scroll-behavior:smooth}button,select,input{font:inherit}button{min-height:4
  body:not(.ux-finished) .ux-result-container{display:none!important}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* V6 — navigation par écrans, sans scroll entre sections */
+.ux-screen-nav{position:sticky;top:0;z-index:30;display:flex;overflow-x:auto;gap:7px;padding:10px 0 12px;background:#071119;scrollbar-width:thin;overscroll-behavior-x:contain}
+.ux-screen-nav button{flex:0 0 auto;background:#132a34;border:1px solid #35515c;color:#b7d2d4;border-radius:999px;padding:9px 15px;font-size:13px;font-weight:700}
+.ux-screen-nav button.active{background:#73e3cb;border-color:#73e3cb;color:#071119}
+.ux-view-heading{font-size:14px;color:#b5d1d3;font-weight:700;margin:8px 0 14px}
+body[data-screen] .layout{display:block!important}
+body[data-screen] .layout aside.controls{max-width:680px;margin:0 auto}
+body[data-screen] .ux-result-container{max-width:1100px;margin:0 auto}
+body[data-screen] [hidden]{display:none!important}
+body[data-screen] .layout>div{display:contents}
+body[data-screen] .layout>.ux-screen-nav{display:flex}
+.ux-edit{display:inline-flex;margin-bottom:15px}
+.ux-bottom-nav{display:none}
+body[data-screen] .topline a.counter{font-size:12px}
+@media(max-width:850px){
+ body[data-screen] .shell{padding:12px!important}
+ body[data-screen] .hero{padding:8px 2px 10px!important}
+ body[data-screen] .hero h1{font-size:clamp(27px,7vw,36px)!important}
+ body[data-screen] .layout{display:block!important}
+ body[data-screen] .ux-result-container{display:block!important}
+ body[data-screen] aside.controls{margin:0 auto!important}
+ .ux-screen-nav{margin:0 -12px;padding:9px 12px 11px}
+ .ux-screen-nav button{font-size:12px;padding:9px 11px}
+ .ux-bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:40;background:#0d202a;border-top:1px solid #35515c;padding:8px max(12px,env(safe-area-inset-left)) calc(8px + env(safe-area-inset-bottom));gap:9px}
+ .ux-bottom-nav button{flex:1;color:#c5dcde;background:#1c3440;border:1px solid #36515d;border-radius:12px;font-size:13px;font-weight:750;padding:9px 6px}
+ .ux-bottom-nav button.active{color:#071119;background:#73e3cb;border-color:#73e3cb}
+ body[data-screen] .ux-mobile-jump{display:none!important}
+ body[data-screen] .shell{padding-bottom:95px!important}
+}
+@media print{
+ .ux-screen-nav,.ux-bottom-nav,.ux-view-heading,.ux-edit{display:none!important}
+ body[data-screen="print"] .layout{display:block!important}
+ body[data-screen="print"] [hidden]{display:block!important}
+}
 </style></head><body><div class="shell"><div class="topline"><div class="eyebrow">FOIL LAB EXPERT · BASE VÉRIFIÉE NOVEMBRE 2026</div><a class="counter" href="#knowledgeBase" style="text-decoration:none;color:#9de6d5">Explorer la base de connaissances ↓</a></div><div class="hero"><h1>Choisir <span>le bon foil.</span><br>Pas juste des cm².</h1><p class="subtitle">Un avis technique argumenté qui aboutit à un choix restreint <b>d'ailes avant précises</b> et de <b>boards en volumes précis</b>. Les recommandations sont conditionnelles : pas de fausse garantie de décollage et pas de classement basé sur la publicité ou les vues YouTube.</p></div><div class="layout"><aside class="panel controls"><h2>Ton profil et tes contraintes</h2><p class="small">Chaque paramètre compte. Les incompatibilités et tailles non adaptées sont écartées avant classement.</p>
 <div class="field"><label>Poids en navigation <small>(avec combinaison)</small></label><input id="weight" type="range" min="45" max="125" value="78"><b id="weighttxt">78 kg</b></div>
 <div class="field"><label>Niveau technique</label><select id="level"><option value="0">0 · Débutant / premiers vols</option><option value="1">1 · Vols réguliers, jibes en cours</option><option value="2" selected>2 · Jibes fiables / intermédiaire</option><option value="3">3 · Carving / freefly / transitions avancées</option><option value="4">4 · Expert / engagement</option></select></div>
@@ -248,10 +283,10 @@ function kbMetrics(q){return q.map((n,i)=>`<div class="kb-meter"><span>${KB_LABE
 function kbAllRecords(){let out=[];for(let f of FOILS){let k=f.b+'|'+f.n,e=KB_FOILS[k];if(!e)continue;for(let size of f.sizes){let v=VERIFY[k],span=v?.span?.[size];out.push({type:'foil',key:'f|'+k+'|'+size,brand:f.b,name:f.n,size,sizeLabel:size+' cm²',width:span||null,meta:v,entry:e,tested:e.tested.includes(size)});}}for(let b of BOARDS){let k=b.b+'|'+b.n,e=KB_BOARDS[k];if(!e)continue;for(let [v,l,w] of b.sizes)out.push({type:'board',key:'b|'+k+'|'+v,brand:b.b,name:b.n,size:v,sizeLabel:v+' L',length:l,width:w,kind:b.kind,entry:e,tested:e.tested.includes(v)});}return out}
 let KB_RECORDS=kbAllRecords();
 function kbSelectedText(){let a=[...kbSelected.values()];$('kbChecked').textContent=a.length+' modèle'+(a.length>1?'s':'')+' sélectionné'+(a.length>1?'s':'')+' (maximum 4)';$('kbCompare').disabled=a.length<2;}
-function kbCard(o){let e=o.entry,conf=kbEffectiveConfidence(e,o.tested),meta=o.type==='foil'?(o.width?`Envergure ${o.width} cm · `:'Envergure non relevée · ')+(o.meta?.aspect?'AR '+o.meta.aspect+' · ':''):`${o.length} × ${fmt(o.width)} cm · ${o.kind==='midi'?'midlength':o.kind==='dw'?'downwind':'compacte'} · `;
+function kbCard(o){let e=o.entry,conf=kbEffectiveConfidence(e,o.tested),meta=o.type==='foil'?[o.width?`Envergure ${o.width} cm`:null,o.meta?.aspect?'AR '+o.meta.aspect:null].filter(Boolean).join(' · '):[Number.isFinite(o.length)&&Number.isFinite(o.width)?`${o.length} × ${fmt(o.width)} cm`:null,o.kind==='midi'?'Midlength':o.kind==='dw'?'Downwind':'Compacte'].filter(Boolean).join(' · ');
  let badge=o.tested?'Taille essayée indépendamment':e.i?'Famille testée ; taille extrapolée':'Aucun essai indépendant identifié';
  let selected=kbSelected.has(o.key);
- return `<article class="kb-entry"><div class="kb-row"><h3>${o.brand} ${o.name}</h3><b>${o.sizeLabel}</b></div><div class="kb-badges">${kbConfMarkup(conf)}<span class="kb-pill">${badge}</span></div><div class="kb-dim">${meta}${e.year}</div>${kbMetrics(e.q)}<div class="kb-note"><b>Lecture :</b> ${e.reason}</div><details><summary>Preuves, montage et limites</summary><div class="kb-detail"><b>Statut :</b> ${o.tested?e.context||'Taille essayée':e.i?'Notes issues d’un essai sur une autre taille de la même famille':'Évaluation de famille fondée surtout sur le constructeur et la géométrie'}<p><b>Montage :</b> ${e.setup}</p><p><b>Point faible :</b> ${e.lim}</p><p><b>Sources :</b> <a href="${e.f}" target="_blank" rel="noopener">Constructeur / caractéristiques</a>${e.i?' · <a target="_blank" rel="noopener" href="'+e.i+'">Essai indépendant</a>':''}</p><p><b>Limite de validité :</b> les quatre indices représentent la famille, pas une mesure distincte sur la taille ${o.sizeLabel}. ${o.type==='board'?'La stabilité au départ évolue notamment avec volume et largeur.':'La portance dépend également du stabilisateur, mât, fuselage, board et du rider.'}</p></div></details><label class="pick"><input type="checkbox" class="kb-pick" data-key="${o.key}" ${selected?'checked':''} ${!selected&&kbSelected.size>=4?'disabled':''}> Ajouter à la comparaison</label></article>`}
+ return `<article class="kb-entry"><div class="kb-row"><h3>${o.brand} ${o.name}</h3><b>${o.sizeLabel}</b></div><div class="kb-badges">${kbConfMarkup(conf)}<span class="kb-pill">${badge}</span></div><div class="kb-dim">${[meta,e.year].filter(Boolean).join(" · ")}</div>${kbMetrics(e.q)}<div class="kb-note"><b>Lecture :</b> ${e.reason}</div><details><summary>Preuves, montage et limites</summary><div class="kb-detail"><b>Statut :</b> ${o.tested?e.context||'Taille essayée':e.i?'Notes issues d’un essai sur une autre taille de la même famille':'Évaluation de famille fondée surtout sur le constructeur et la géométrie'}<p><b>Montage :</b> ${e.setup}</p>${o.type==="foil"&&!o.width?"<p><b>À vérifier avant achat :</b> l’envergure exacte de cette taille dans la fiche fabricant.</p>":""}<p><b>Point faible :</b> ${e.lim}</p><p><b>Sources :</b> <a href="${e.f}" target="_blank" rel="noopener">Constructeur / caractéristiques</a>${e.i?' · <a target="_blank" rel="noopener" href="'+e.i+'">Essai indépendant</a>':''}</p><p><b>Limite de validité :</b> les quatre indices représentent la famille, pas une mesure distincte sur la taille ${o.sizeLabel}. ${o.type==='board'?'La stabilité au départ évolue notamment avec volume et largeur.':'La portance dépend également du stabilisateur, mât, fuselage, board et du rider.'}</p></div></details><label class="pick"><input type="checkbox" class="kb-pick" data-key="${o.key}" ${selected?'checked':''} ${!selected&&kbSelected.size>=4?'disabled':''}> Ajouter à la comparaison</label></article>`}
 function renderKnowledge(){let term=$('kbSearch').value.toLowerCase().trim(),type=$('kbType').value,proof=$('kbProof').value;let rows=KB_RECORDS.filter(o=>(type==='all'||o.type===type)&&(!term||(o.brand+' '+o.name+' '+o.entry.reason+' '+o.sizeLabel).toLowerCase().includes(term))&&(proof==='all'||proof==='tested'&&o.tested||proof==='independent'&&!!o.entry.i||proof==='manufacturer'&&!!o.entry.f));
  $('kbCount').textContent=rows.length+' tailles sur '+KB_RECORDS.length; $('kbCards').innerHTML=rows.map(kbCard).join('')||'<p class="noresult">Aucune fiche trouvée pour ces filtres.</p>';
  document.querySelectorAll('.kb-pick').forEach(el=>el.addEventListener('change',()=>{let o=KB_RECORDS.find(v=>v.key===el.dataset.key);if(el.checked){if(kbSelected.size>=4){el.checked=false;return}kbSelected.set(o.key,o)}else kbSelected.delete(o.key);renderKnowledge()}));kbSelectedText();}
@@ -312,47 +347,101 @@ render();
 <script>
 (function(){
  const aside=document.querySelector('aside.controls');
- const result=aside&&aside.nextElementSibling;
- if(!aside||!result)return;
- result.classList.add('ux-result-container');result.id='ux-recommendations';
+ const result=aside?.nextElementSibling;
+ const knowledge=document.getElementById('knowledgeBase');
+ const sources=document.querySelector('.sourcesbox');
+ const research=document.getElementById('researchSources');
+ const layout=document.querySelector('.layout');
+ const hero=document.querySelector('.hero');
+ if(!aside||!result||!knowledge||!layout)return;
+ result.id='ux-recommendations';
+ result.classList.add('ux-result-container');
  const fields=[...aside.querySelectorAll('.field')];
- const groups=[
- {title:'1. Ton niveau et ton gabarit',hint:'Deux informations essentielles pour éviter les foils trop techniques.',ids:['weight','level','start']},
- {title:'2. Tes conditions et ton style',hint:'Définissons où tu navigues et ce que tu veux privilégier.',ids:['wind','water','program','priority','stability']},
- {title:'3. Ton matériel et tes contraintes',hint:'Ces précisions affinent le choix et limitent les erreurs de compatibilité.',ids:['replace','brand','hardware','boardtype','maxwidth','maxlength','budget']}
+ const stages=[
+  {key:'profil',label:'Profil',title:'Ton profil',hint:'Ton poids, ton niveau et ta technique de départ.',ids:['weight','level','start']},
+  {key:'pratique',label:'Pratique',title:'Ta pratique',hint:'Les conditions dans lesquelles tu navigues et tes objectifs.',ids:['wind','water','program','priority','stability']},
+  {key:'materiel',label:'Matériel',title:'Ton matériel',hint:'Le matériel possédé et les contraintes de ton futur équipement.',ids:['replace','brand','hardware','boardtype','maxwidth','maxlength','budget']},
+  {key:'resultats',label:'Résultats'},
+  {key:'catalogue',label:'Catalogue'},
+  {key:'sources',label:'Sources'}
  ];
- const oldTitle=aside.querySelector('h2');
- if(oldTitle)oldTitle.textContent='Trouvons ton équipement';
- const desc=aside.querySelector('p.small');if(desc)desc.textContent='3 étapes · Environ 2 minutes · Recommandations argumentées';
- const progress=document.createElement('div');progress.className='ux-progress';progress.setAttribute('aria-label','Progression du questionnaire');
- for(let i=0;i<3;i++){const d=document.createElement('div');d.className='ux-dot';progress.appendChild(d)}
- desc?.after(progress);
- const panels=groups.map((g,i)=>{
- const section=document.createElement('section');section.className='ux-step';section.dataset.step=i;
- section.innerHTML='<div class="ux-heading-row"><h3 class="ux-step-title">'+g.title+'</h3><span class="ux-count">Étape '+(i+1)+'/3</span></div><p class="ux-step-help">'+g.hint+'</p>';
- for(const id of g.ids){const field=fields.find(f=>f.querySelector('#'+id));if(field)section.appendChild(field)}
- aside.appendChild(section);return section;
+ const firstTitle=aside.querySelector('h2');
+ if(firstTitle)firstTitle.textContent='Ton équipement idéal';
+ const desc=aside.querySelector('p.small');
+ if(desc)desc.textContent='3 étapes courtes pour obtenir une sélection argumentée.';
+ const sections=stages.slice(0,3).map((stage,i)=>{
+  const section=document.createElement('section');
+  section.className='ux-step';
+  section.dataset.step=stage.key;
+  const header=document.createElement('div');
+  header.className='ux-heading-row';
+  header.innerHTML='<h3 class="ux-step-title">'+stage.title+'</h3><span class="ux-count">'+(i+1)+' / 3</span>';
+  const help=document.createElement('p');help.className='ux-step-help';help.textContent=stage.hint;
+  section.append(header,help);
+  for(const id of stage.ids){
+   const field=fields.find(f=>f.querySelector('#'+id));
+   if(field)section.appendChild(field);
+  }
+  aside.appendChild(section);
+  return section;
  });
- const nav=document.createElement('div');nav.className='ux-nav';
- const back=document.createElement('button');back.type='button';back.className='ux-back';back.textContent='Précédent';
- const next=document.createElement('button');next.type='button';next.className='ux-primary';
- nav.append(back,next);aside.append(nav);
- const note=document.createElement('p');note.className='ux-privacy';note.textContent='Conseils indicatifs : contrôle toujours la compatibilité mécanique avant l’achat.';aside.append(note);
- const jump=document.createElement('button');jump.type='button';jump.className='ux-mobile-jump';jump.textContent='Voir mes recommandations';
- result.after(jump);
- let step=0;
- function show(n){
- step=Math.max(0,Math.min(2,n));panels.forEach((p,i)=>p.hidden=i!==step);
- [...progress.children].forEach((d,i)=>d.classList.toggle('active',i<=step));
- back.hidden=step===0;next.textContent=step===2?'Voir mes recommandations':'Continuer';
- if(step<2)document.body.classList.remove('ux-finished');
+ const progress=document.createElement('div');
+ progress.className='ux-progress';progress.setAttribute('aria-label','Progression');
+ for(let i=0;i<3;i++){const dot=document.createElement('span');dot.className='ux-dot';progress.append(dot)}
+ desc?.after(progress);
+ const controls=document.createElement('div');controls.className='ux-nav';
+ const back=document.createElement('button');back.type='button';back.className='ux-back';back.textContent='Retour';
+ const next=document.createElement('button');next.type='button';next.className='ux-primary';next.textContent='Continuer';
+ controls.append(back,next);aside.append(controls);
+ const note=document.createElement('p');note.className='ux-privacy';
+ note.textContent='Les performances sont estimées à partir de sources documentées. Vérifie toujours les compatibilités avant achat.';
+ aside.append(note);
+ const nav=document.createElement('nav');nav.className='ux-screen-nav';nav.setAttribute('aria-label','Navigation FOIL LAB');
+ const navButtons=stages.map((stage,i)=>{
+  const button=document.createElement('button');button.type='button';
+  button.textContent=(i<3?(i+1)+'. ':'')+stage.label;
+  button.dataset.target=stage.key;button.addEventListener('click',()=>show(stage.key));
+  nav.append(button);return button;
+ });
+ layout.before(nav);
+ const title=document.createElement('div');title.className='ux-view-heading';title.setAttribute('aria-live','polite');
+ nav.after(title);
+ const resultsEdit=document.createElement('button');resultsEdit.type='button';resultsEdit.className='ux-back ux-edit';
+ resultsEdit.textContent='Modifier mon profil';resultsEdit.addEventListener('click',()=>show('profil'));
+ result.prepend(resultsEdit);
+ const footer=document.createElement('nav');footer.className='ux-bottom-nav';footer.setAttribute('aria-label','Accès rapides');
+ [['profil','Profil'],['resultats','Mes choix'],['catalogue','Modèles']].forEach(([key,label])=>{
+   const b=document.createElement('button');b.type='button';b.textContent=label;b.dataset.target=key;
+   b.addEventListener('click',()=>show(key));footer.append(b);
+ });
+ document.body.append(footer);
+ let current='profil';
+ function show(key){
+  if(!stages.some(x=>x.key===key))key='profil';
+  current=key;
+  const i=stages.findIndex(x=>x.key===key),question=i<3;
+  document.body.dataset.screen=key;
+  aside.hidden=!question;result.hidden=key!=='resultats';
+  knowledge.hidden=key!=='catalogue';
+  if(sources)sources.hidden=key!=='sources';
+  if(research)research.hidden=key!=='sources';
+  sections.forEach((section,j)=>section.hidden=j!==i);
+  for(let j=0;j<3;j++)progress.children[j].classList.toggle('active',j<=i);
+  back.hidden=i===0;next.textContent=i===2?'Voir mes recommandations':'Continuer';
+  title.textContent=question?'Étape '+(i+1)+' sur 3 · '+stages[i].title: key==='resultats'?'Tes recommandations personnalisées':key==='catalogue'?'Explorer les modèles':'Sources et méthodologie';
+  [...navButtons,...footer.children].forEach(b=>{
+   const active=b.dataset.target===key;b.classList.toggle('active',active);
+   if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');
+  });
+  if(hero)hero.hidden=key!=='profil';
+  window.scrollTo({top:0,behavior:'instant'});
  }
- function results(){document.body.classList.add('ux-finished');result.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}
- back.addEventListener('click',()=>show(step-1));
- next.addEventListener('click',()=>step===2?results():show(step+1));
- jump.addEventListener('click',results);
- document.querySelectorAll('[data-tab]').forEach(t=>t.addEventListener('click',()=>document.body.classList.add('ux-finished')));
- show(0);
+ back.addEventListener('click',()=>show(stages[Math.max(0,stages.findIndex(x=>x.key===current)-1)].key));
+ next.addEventListener('click',()=>show(stages[Math.min(3,stages.findIndex(x=>x.key===current)+1)].key));
+ document.querySelector('.topline a[href="#knowledgeBase"]')?.addEventListener('click',e=>{e.preventDefault();show('catalogue')});
+ document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>show('resultats')));
+ window.addEventListener('beforeprint',()=>{document.body.dataset.screen='print';aside.hidden=false;result.hidden=false;knowledge.hidden=false;if(sources)sources.hidden=false;if(research)research.hidden=false});
+ show('profil');
 })();
 </script>
 </body></html>
