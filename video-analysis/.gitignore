@@ -1,0 +1,5 @@
+*.srt
+*.vtt
+transcripts/
+results/
+__pycache__/
