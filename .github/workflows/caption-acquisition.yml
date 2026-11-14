@@ -1,0 +1,44 @@
+name: Video Caption Acquisition Pilot
+on:
+  push:
+    branches: [feature/video-caption-acquisition]
+    paths:
+      - 'video-analysis/acquire.py'
+      - 'video-analysis/test_acquire.py'
+      - 'video-analysis/manifest.json'
+      - '.github/workflows/caption-acquisition.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test analysis pipeline
+        run: python -m unittest discover -s video-analysis -p 'test_*.py' -v
+      - name: Install optional caption tool
+        run: python -m pip install --disable-pip-version-check yt-dlp
+      - name: Probe two YouTube examples
+        run: python video-analysis/acquire.py --mode probe --publisher YouTube --limit 2 --output caption-reports/youtube.json
+      - name: Probe three German test pages
+        run: python video-analysis/acquire.py --mode probe --publisher Gleiten.TV --limit 3 --output caption-reports/gleiten.json
+      - name: Print factual probe summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for f in sorted(Path("caption-reports").glob("*.json")):
+              d=json.loads(f.read_text())
+              print(f.name, [(r['id'], r['status'], r.get('reason')) for r in d['records']])
+          PY
+      - name: Upload metadata-only audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: caption-probe-audit
+          path: caption-reports/*.json
+          retention-days: 7
