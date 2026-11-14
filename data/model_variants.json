@@ -1,0 +1,2304 @@
+{
+  "schema_version": 1,
+  "generated_from": "index.html V4 knowledge base",
+  "as_of": "2026-11-14",
+  "methodology": "docs/METHODOLOGY.md",
+  "warning": "Extraction des données embarquées de V4; non validées indépendamment. Notes qualitatives héritées, non mesures.",
+  "variants": [
+    {
+      "id": "foil:AFS:Evo:950",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Evo",
+      "size_cm2": 950,
+      "year": "Gamme à confirmer",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 2,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Evo:1250",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Evo",
+      "size_cm2": 1250,
+      "year": "Gamme à confirmer",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 2,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Evo:1450",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Evo",
+      "size_cm2": 1450,
+      "year": "Gamme à confirmer",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 2,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Evo:1650",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Evo",
+      "size_cm2": 1650,
+      "year": "Gamme à confirmer",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 2,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Enduro:600",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Enduro",
+      "size_cm2": 600,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Enduro:700",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Enduro",
+      "size_cm2": 700,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Enduro:800",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Enduro",
+      "size_cm2": 800,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Enduro:900",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Enduro",
+      "size_cm2": 900,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Enduro:1000",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Enduro",
+      "size_cm2": 1000,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Enduro:1100",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Enduro",
+      "size_cm2": 1100,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Enduro:1300",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Enduro",
+      "size_cm2": 1300,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Silk V2:650",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Silk V2",
+      "size_cm2": 650,
+      "year": "V2 · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/screw-size",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Silk V2:750",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Silk V2",
+      "size_cm2": 750,
+      "year": "V2 · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://afs-foiling.com/screw-size",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Silk V2:850",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Silk V2",
+      "size_cm2": 850,
+      "year": "V2 · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/screw-size",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Silk V2:950",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Silk V2",
+      "size_cm2": 950,
+      "year": "V2 · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/screw-size",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Silk V2:1050",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Silk V2",
+      "size_cm2": 1050,
+      "year": "V2 · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/screw-size",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:AFS:Silk V2:1150",
+      "type": "foil",
+      "brand": "AFS",
+      "model": "Silk V2",
+      "size_cm2": 1150,
+      "year": "V2 · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/screw-size",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Seven Seas:1100",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Seven Seas",
+      "size_cm2": 1100,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Seven Seas:1200",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Seven Seas",
+      "size_cm2": 1200,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Seven Seas:1300",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Seven Seas",
+      "size_cm2": 1300,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Seven Seas:1400",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Seven Seas",
+      "size_cm2": 1400,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Seven Seas:1500",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Seven Seas",
+      "size_cm2": 1500,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Seven Seas:1600",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Seven Seas",
+      "size_cm2": 1600,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 3,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:SK8:550",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "SK8",
+      "size_cm2": 550,
+      "year": "V3 · 2026",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 4,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foil/front-wings/SK8.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:SK8:650",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "SK8",
+      "size_cm2": 650,
+      "year": "V3 · 2026",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 4,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foil/front-wings/SK8.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:SK8:750",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "SK8",
+      "size_cm2": 750,
+      "year": "V3 · 2026",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 4,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foil/front-wings/SK8.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:SK8:850",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "SK8",
+      "size_cm2": 850,
+      "year": "V3 · 2026",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 4,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foil/front-wings/SK8.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:SK8:950",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "SK8",
+      "size_cm2": 950,
+      "year": "V3 · 2026",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 4,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foil/front-wings/SK8.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:SK8:1050",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "SK8",
+      "size_cm2": 1050,
+      "year": "V3 · 2026",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 4,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foil/front-wings/SK8.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:SK8:1150",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "SK8",
+      "size_cm2": 1150,
+      "year": "V3 · 2026",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 4,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foil/front-wings/SK8.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Eagle:690",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Eagle",
+      "size_cm2": 690,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 5,
+        "carving": 2,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/eagle.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Eagle:790",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Eagle",
+      "size_cm2": 790,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 5,
+        "carving": 2,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/eagle.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Eagle:890",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Eagle",
+      "size_cm2": 890,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 5,
+        "carving": 2,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/eagle.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Eagle:990",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Eagle",
+      "size_cm2": 990,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 5,
+        "carving": 2,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/eagle.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Eagle:1090",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Eagle",
+      "size_cm2": 1090,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 5,
+        "carving": 2,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/eagle.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Eagle:1190",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Eagle",
+      "size_cm2": 1190,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 5,
+        "carving": 2,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/eagle.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:F-ONE:Eagle:1290",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Eagle",
+      "size_cm2": 1290,
+      "year": "Génération non normalisée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 5,
+        "carving": 2,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/en/foil/front-wings/eagle.html"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:MA Mk II:490",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size_cm2": 490,
+      "year": "Mk II · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:MA Mk II:590",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size_cm2": 590,
+      "year": "Mk II · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:MA Mk II:690",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size_cm2": 690,
+      "year": "Mk II · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:MA Mk II:790",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size_cm2": 790,
+      "year": "Mk II · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:MA Mk II:890",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size_cm2": 890,
+      "year": "Mk II · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:MA Mk II:990",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size_cm2": 990,
+      "year": "Mk II · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:MA Mk II:1190",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size_cm2": 1190,
+      "year": "Mk II · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:MA Mk II:1390",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size_cm2": 1390,
+      "year": "Mk II · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 5,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:UHA:570",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "UHA",
+      "size_cm2": 570,
+      "year": "UHA · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:UHA:670",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "UHA",
+      "size_cm2": 670,
+      "year": "UHA · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:UHA:770",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "UHA",
+      "size_cm2": 770,
+      "year": "UHA · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:UHA:870",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "UHA",
+      "size_cm2": 870,
+      "year": "UHA · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://armstrongfoils.com/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:UHA:970",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "UHA",
+      "size_cm2": 970,
+      "year": "UHA · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:UHA:1070",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "UHA",
+      "size_cm2": 1070,
+      "year": "UHA · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Armstrong:UHA:1270",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "UHA",
+      "size_cm2": 1270,
+      "year": "UHA · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 5,
+        "carving": 3,
+        "control": 5
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://armstrongfoils.com/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:KT:Nomad:700",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Nomad",
+      "size_cm2": 700,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:KT:Nomad:830",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Nomad",
+      "size_cm2": 830,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:KT:Nomad:980",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Nomad",
+      "size_cm2": 980,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:KT:Nomad:1160",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Nomad",
+      "size_cm2": 1160,
+      "year": "Référencée 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Duotone:Crest D/LAB:550",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Crest D/LAB",
+      "size_cm2": 550,
+      "year": "D/LAB · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Duotone:Crest D/LAB:675",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Crest D/LAB",
+      "size_cm2": 675,
+      "year": "D/LAB · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Duotone:Crest D/LAB:800",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Crest D/LAB",
+      "size_cm2": 800,
+      "year": "D/LAB · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 5
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Duotone:Crest D/LAB:925",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Crest D/LAB",
+      "size_cm2": 925,
+      "year": "D/LAB · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Duotone:Crest D/LAB:1050",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Crest D/LAB",
+      "size_cm2": 1050,
+      "year": "D/LAB · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 5
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Duotone:Crest D/LAB:1200",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Crest D/LAB",
+      "size_cm2": 1200,
+      "year": "D/LAB · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 5
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Slingshot:One-Lock Glide:625",
+      "type": "foil",
+      "brand": "Slingshot",
+      "model": "One-Lock Glide",
+      "size_cm2": 625,
+      "year": "One-Lock · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Slingshot:One-Lock Glide:725",
+      "type": "foil",
+      "brand": "Slingshot",
+      "model": "One-Lock Glide",
+      "size_cm2": 725,
+      "year": "One-Lock · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 4
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Slingshot:One-Lock Glide:825",
+      "type": "foil",
+      "brand": "Slingshot",
+      "model": "One-Lock Glide",
+      "size_cm2": 825,
+      "year": "One-Lock · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Slingshot:One-Lock Glide:925",
+      "type": "foil",
+      "brand": "Slingshot",
+      "model": "One-Lock Glide",
+      "size_cm2": 925,
+      "year": "One-Lock · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 4
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Slingshot:One-Lock Glide:1125",
+      "type": "foil",
+      "brand": "Slingshot",
+      "model": "One-Lock Glide",
+      "size_cm2": 1125,
+      "year": "One-Lock · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Slingshot:One-Lock Glide:1325",
+      "type": "foil",
+      "brand": "Slingshot",
+      "model": "One-Lock Glide",
+      "size_cm2": 1325,
+      "year": "One-Lock · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Slingshot:One-Lock Glide:1525",
+      "type": "foil",
+      "brand": "Slingshot",
+      "model": "One-Lock Glide",
+      "size_cm2": 1525,
+      "year": "One-Lock · 2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Cabrinha:Whippit:750",
+      "type": "foil",
+      "brand": "Cabrinha",
+      "model": "Whippit",
+      "size_cm2": 750,
+      "year": "Union · 2026",
+      "qualitative_scores": {
+        "takeoff": 2,
+        "glide": 4,
+        "carving": 5,
+        "control": 3
+      },
+      "confidence": "med",
+      "independently_tested_exact_size": true,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Cabrinha:Whippit:850",
+      "type": "foil",
+      "brand": "Cabrinha",
+      "model": "Whippit",
+      "size_cm2": 850,
+      "year": "Union · 2026",
+      "qualitative_scores": {
+        "takeoff": 2,
+        "glide": 4,
+        "carving": 5,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "foil:Cabrinha:Whippit:1000",
+      "type": "foil",
+      "brand": "Cabrinha",
+      "model": "Whippit",
+      "size_cm2": 1000,
+      "year": "Union · 2026",
+      "qualitative_scores": {
+        "takeoff": 2,
+        "glide": 4,
+        "carving": 5,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+        "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
+      ],
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+    },
+    {
+      "id": "board:F-ONE:Rocket Wing Midlength:72",
+      "type": "board",
+      "brand": "F-ONE",
+      "model": "Rocket Wing Midlength",
+      "volume_l": 72,
+      "length_cm": 178,
+      "width_cm": 47,
+      "year": "Gamme publiée en 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:F-ONE:Rocket Wing Midlength:82",
+      "type": "board",
+      "brand": "F-ONE",
+      "model": "Rocket Wing Midlength",
+      "volume_l": 82,
+      "length_cm": 183,
+      "width_cm": 48.5,
+      "year": "Gamme publiée en 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:F-ONE:Rocket Wing Midlength:95",
+      "type": "board",
+      "brand": "F-ONE",
+      "model": "Rocket Wing Midlength",
+      "volume_l": 95,
+      "length_cm": 188,
+      "width_cm": 51.3,
+      "year": "Gamme publiée en 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:F-ONE:Rocket Wing Midlength:105",
+      "type": "board",
+      "brand": "F-ONE",
+      "model": "Rocket Wing Midlength",
+      "volume_l": 105,
+      "length_cm": 193,
+      "width_cm": 53.8,
+      "year": "Gamme publiée en 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:F-ONE:Rocket Wing Midlength:115",
+      "type": "board",
+      "brand": "F-ONE",
+      "model": "Rocket Wing Midlength",
+      "volume_l": 115,
+      "length_cm": 198,
+      "width_cm": 55.9,
+      "year": "Gamme publiée en 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:F-ONE:Rocket Wing Midlength:130",
+      "type": "board",
+      "brand": "F-ONE",
+      "model": "Rocket Wing Midlength",
+      "volume_l": 130,
+      "length_cm": 203,
+      "width_cm": 58.4,
+      "year": "Gamme publiée en 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:F-ONE:Rocket Wing Midlength:150",
+      "type": "board",
+      "brand": "F-ONE",
+      "model": "Rocket Wing Midlength",
+      "volume_l": 150,
+      "length_cm": 208,
+      "width_cm": 62.2,
+      "year": "Gamme publiée en 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Mid Length Carbon:50",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Mid Length Carbon",
+      "volume_l": 50,
+      "length_cm": 161,
+      "width_cm": 48.3,
+      "year": "Gamme élargie 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/produit/planche-blackbird"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Mid Length Carbon:65",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Mid Length Carbon",
+      "volume_l": 65,
+      "length_cm": 163,
+      "width_cm": 48.3,
+      "year": "Gamme élargie 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/produit/planche-blackbird"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Mid Length Carbon:75",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Mid Length Carbon",
+      "volume_l": 75,
+      "length_cm": 167,
+      "width_cm": 52,
+      "year": "Gamme élargie 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/produit/planche-blackbird"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Mid Length Carbon:82",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Mid Length Carbon",
+      "volume_l": 82,
+      "length_cm": 173,
+      "width_cm": 54,
+      "year": "Gamme élargie 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/produit/planche-blackbird"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Mid Length Carbon:90",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Mid Length Carbon",
+      "volume_l": 90,
+      "length_cm": 182,
+      "width_cm": 55,
+      "year": "Gamme élargie 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/produit/planche-blackbird"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Mid Length Carbon:100",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Mid Length Carbon",
+      "volume_l": 100,
+      "length_cm": 190,
+      "width_cm": 57,
+      "year": "Gamme élargie 2026",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/fr/produit/planche-blackbird"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:38",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 38,
+      "length_cm": 137,
+      "width_cm": 46,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:48",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 48,
+      "length_cm": 147,
+      "width_cm": 47,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:53",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 53,
+      "length_cm": 160,
+      "width_cm": 47.8,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:58",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 58,
+      "length_cm": 173,
+      "width_cm": 48.8,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:68",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 68,
+      "length_cm": 183,
+      "width_cm": 50.3,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:78",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 78,
+      "length_cm": 185,
+      "width_cm": 52.1,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:88",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 88,
+      "length_cm": 191,
+      "width_cm": 53.8,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:108",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 108,
+      "length_cm": 198,
+      "width_cm": 57.7,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:128",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 128,
+      "length_cm": 206,
+      "width_cm": 61,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Naish:Chimera 2026:148",
+      "type": "board",
+      "brand": "Naish",
+      "model": "Chimera 2026",
+      "volume_l": 148,
+      "length_cm": 213,
+      "width_cm": 66,
+      "year": "2026",
+      "qualitative_scores": {
+        "takeoff": 4,
+        "glide": 4,
+        "carving": 4,
+        "control": 3
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.naish.com/products/chimera-2026"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:34",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 34,
+      "length_cm": 127,
+      "width_cm": 45.1,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:40",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 40,
+      "length_cm": 132,
+      "width_cm": 47,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:48",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 48,
+      "length_cm": 137,
+      "width_cm": 49.8,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:58",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 58,
+      "length_cm": 142,
+      "width_cm": 52.1,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:70",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 70,
+      "length_cm": 152,
+      "width_cm": 55.9,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:80",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 80,
+      "length_cm": 157,
+      "width_cm": 57.8,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:90",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 90,
+      "length_cm": 163,
+      "width_cm": 59.7,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:105",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 105,
+      "length_cm": 173,
+      "width_cm": 64.1,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:120",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 120,
+      "length_cm": 180,
+      "width_cm": 66.7,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:Armstrong:Wing FG:135",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Wing FG",
+      "volume_l": 135,
+      "length_cm": 188,
+      "width_cm": 69.9,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 3,
+        "glide": 3,
+        "carving": 5,
+        "control": 4
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-gb/products/wing-fg-board"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Skinny:105",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Skinny",
+      "volume_l": 105,
+      "length_cm": 250,
+      "width_cm": 43.2,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 5,
+        "carving": 2,
+        "control": 1
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/screw-size"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Skinny:115",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Skinny",
+      "volume_l": 115,
+      "length_cm": 250,
+      "width_cm": 47,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 5,
+        "carving": 2,
+        "control": 1
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/screw-size"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Skinny:110",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Skinny",
+      "volume_l": 110,
+      "length_cm": 262,
+      "width_cm": 41.9,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 5,
+        "carving": 2,
+        "control": 1
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/screw-size"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    },
+    {
+      "id": "board:AFS:Blackbird Skinny:120",
+      "type": "board",
+      "brand": "AFS",
+      "model": "Blackbird Skinny",
+      "volume_l": 120,
+      "length_cm": 262,
+      "width_cm": 45.7,
+      "year": "Gamme cataloguée",
+      "qualitative_scores": {
+        "takeoff": 5,
+        "glide": 5,
+        "carving": 2,
+        "control": 1
+      },
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://afs-foiling.com/screw-size"
+      ],
+      "note": "Notes de contribution du shape, non mesures de vitesse."
+    }
+  ]
+}
