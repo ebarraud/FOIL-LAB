@@ -38,3 +38,13 @@ Les erreurs réseau et les refus d'accès sont des résultats du test, pas des p
 ## Étape de validation suivante
 
 Après le rapport de disponibilité, traiter prioritairement les sous-titres réellement accessibles, importer les passages horodatés vers des preuves révisées et relier ces preuves à la variante exacte du modèle (taille, millésime, montage). Ne pas mettre à jour automatiquement le moteur de recommandation sans recoupement.
+
+## Utilisation depuis le téléphone
+
+L'application publiée contient aussi `/video-analysis/review.html`. Elle permet de **sélectionner un fichier SRT/VTT ou coller une transcription horodatée dans Chrome sur Android**, d'identifier localement les passages techniques et d'exporter les candidats JSON. Aucune transcription n'est envoyée au serveur. L'écran est accessible depuis la rubrique Sources de FOIL LAB.
+
+L'outil signale explicitement **zéro note validée** : il ne remplace pas une analyse éditoriale contextualisée.
+
+## Résultat réel de la première sonde GitHub
+
+Voir [REPORT_2026-11-14.md](REPORT_2026-11-14.md) : deux liens YouTube ont renvoyé des erreurs de réseau/extraction et trois pages Gleiten.TV ont été rejetées comme non prises en charge. **Aucune transcription récupérée dans ce premier lot.** Ce n'est pas la preuve que les sous-titres n'existent pas.
