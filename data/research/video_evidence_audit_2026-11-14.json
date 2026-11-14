@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "scope": "Audit de l'accessibilité du contenu des essais vidéo allemands et contre-expertise écrite",
+  "status_legend": {
+    "index_only": "titre et date de l'index consultés, aucun contenu du test traité",
+    "editorial_description_only": "texte de présentation de la vidéo consulté, pas de transcription",
+    "written_review_read": "texte d'un article de presse consulté, distinct du visionnage vidéo",
+    "transcript_analyzed": "transcription analysée avec preuves horodatées",
+    "full_video_analyzed": "vidéo réellement analysée de bout en bout"
+  },
+  "video_transcripts_analyzed": 0,
+  "full_videos_analyzed": 0,
+  "scoring_impact": "aucun, preuves encore insuffisantes",
+  "records": [
+    {
+      "title": "KT Solus 930/775",
+      "date": "2026-10-01",
+      "url": "https://gleiten.tv/foil/test/wingfoil/foil/",
+      "medium": "Gleiten.TV",
+      "status": "index_only",
+      "extracted": "Les deux tailles 930 et 775 figurent dans le titre de l’essai.",
+      "behavior": null
+    },
+    {
+      "title": "KT Halo 670/800",
+      "date": "2026-08-04",
+      "url": "https://gleiten.tv/foil/test/wingfoil/foil/",
+      "medium": "Gleiten.TV",
+      "status": "index_only",
+      "extracted": "Les tailles 670 et 800 figurent dans le titre de l’essai.",
+      "behavior": null
+    },
+    {
+      "title": "Armstrong UHA",
+      "date": "2026-02-19",
+      "url": "https://gleiten.tv/index.php/video/action/view/v/4809/page/531/",
+      "medium": "Gleiten.TV",
+      "status": "editorial_description_only",
+      "extracted": "Le descriptif annonce une comparaison de glide avec Armstrong HA et du comportement en virage ; aucun résultat comparatif précis n'est accessible dans ce texte.",
+      "behavior": null
+    },
+    {
+      "title": "GA Move foil",
+      "date": "2026-04-23",
+      "url": "https://gleiten.tv/video/4834-ga-move-foil-test-2026-english-translated-review/",
+      "medium": "Gleiten.TV",
+      "status": "editorial_description_only",
+      "extracted": "Descriptif : foil de classe AR 9, construction carbone et nouveau fuselage ; pas d'observations précises de décollage ou carving accessibles.",
+      "behavior": null
+    },
+    {
+      "title": "Duotone Glide 3.0 D/LAB 825",
+      "date": "2026-10-21",
+      "url": "https://gleiten.tv/foil/test/wingfoil/foil/",
+      "medium": "Gleiten.TV",
+      "status": "index_only",
+      "extracted": "Essai 825 cm² indexé en date du 21 octobre 2026.",
+      "behavior": null
+    },
+    {
+      "title": "Duotone Skybrid D/LAB 80L",
+      "date": "2026-06-20",
+      "url": "https://gleiten.tv/foil/test/wingfoil/",
+      "medium": "Gleiten.TV",
+      "status": "index_only",
+      "extracted": "Essai vidéo wingfoil/parawing de 80 L indexé.",
+      "behavior": null
+    },
+    {
+      "title": "North Sonar MA V2",
+      "date": "2026-08-16",
+      "url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-smooth-turns-plenty-of-control-putting-the-north-sonar-ma-v2-to-the-test/",
+      "medium": "SURF Magazin",
+      "status": "written_review_read",
+      "extracted": "Essai 1050 et 1200 cm²; envergures 85 et 87,5 cm; aspect ratio respectif 6,9 et 6,4; conclusion éditoriale sur courbes fluides et prise en main accessible.",
+      "behavior": {
+        "control": "positif éditorial, non quantifié",
+        "carving": "positif éditorial, non quantifié",
+        "takeoff": null,
+        "glide": null
+      }
+    },
+    {
+      "title": "GA Move",
+      "date": "2026-06-27",
+      "url": "https://www.surf-magazin.de/wingsurfen/foils/foils-2026-eines-fuer-alles-das-ga-move-foil-im-test/",
+      "medium": "SURF Magazin",
+      "status": "written_review_read",
+      "extracted": "Tailles 800/1000/1300 effectivement testées, allongement de famille 9,2, fuselages 60/66/72 cm et stabs 160/180/210 cm²; le magazine le classe polyvalent freeride/manœuvres/downwind.",
+      "behavior": {
+        "takeoff": null,
+        "glide": null,
+        "carving": "polyvalence alléguée, non quantifiée",
+        "control": null
+      }
+    }
+  ]
+}
