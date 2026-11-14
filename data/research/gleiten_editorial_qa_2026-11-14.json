@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "collected_on": "2026-11-14",
+  "collection": "gleiten-tv-editorial-author-qa",
+  "scope": "Statements made by editorial staff in comments below a test video; not full video transcript",
+  "source_url": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+  "reviewed_video": "Duotone Glide 3.0 D/LAB 825",
+  "video_publish_date": "2026-10-21",
+  "video_transcript_obtained": false,
+  "video_fully_watched": false,
+  "media_language": "de",
+  "claims": [
+    {
+      "id": "glide3-1100-pump-glide",
+      "model": "Duotone Glide 3.0 D/LAB",
+      "size_cm2": 1100,
+      "property": [
+        "glide",
+        "pumping"
+      ],
+      "statement_fr": "Selon l'équipe Gleiten.TV, le Glide 3.0 1100 offre une glisse et une aptitude au pumping excellentes.",
+      "kind": "editorial_answer_to_reader",
+      "speaker": "gleiten.tv",
+      "answer_date": "2026-10-23",
+      "rider_context": "En réponse au cas d'un pratiquant de 74 kg au Starnberger See avec usage prévu en vent faible, downwind et manœuvres ; ce n'est pas nécessairement le poids du testeur.",
+      "confidence": "medium_qualitative_author_answer",
+      "negative_or_limit": "Une maniabilité en virage potentiellement insuffisante pour ce pratiquant.",
+      "link": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+      "needs": [
+        "full_video_context",
+        "independent_test",
+        "precise_setup"
+      ]
+    },
+    {
+      "id": "glide3-1100-turn",
+      "model": "Duotone Glide 3.0 D/LAB",
+      "size_cm2": 1100,
+      "property": [
+        "carving"
+      ],
+      "statement_fr": "L'équipe indique que le 1100 pourrait manquer de facilité à tourner pour ce pratiquant ; l'appréciation est conditionnelle à sa pratique.",
+      "kind": "editorial_answer_to_reader",
+      "speaker": "gleiten.tv",
+      "answer_date": "2026-10-23",
+      "confidence": "medium_contextual_qualitative",
+      "link": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+      "needs": [
+        "full_video_context",
+        "independent_test"
+      ]
+    },
+    {
+      "id": "glide3-825-alternative",
+      "model": "Duotone Glide 3.0 D/LAB",
+      "size_cm2": 825,
+      "property": [
+        "carving",
+        "selection"
+      ],
+      "statement_fr": "L'équipe propose le 825 comme alternative ou complément au 1100 pour le cas discuté ; elle ne fournit pas un seuil universel de vent ou de poids.",
+      "kind": "editorial_answer_to_reader",
+      "speaker": "gleiten.tv",
+      "answer_date": "2026-10-23",
+      "confidence": "medium_contextual_qualitative",
+      "link": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+      "needs": [
+        "direct_825_test_context",
+        "wind_limit"
+      ]
+    },
+    {
+      "id": "glide3-950-afs-enduro",
+      "model": "Duotone Glide 3.0 D/LAB",
+      "size_cm2": 950,
+      "comparison": {
+        "model": "AFS Enduro",
+        "size_cm2": 1100
+      },
+      "property": [
+        "family_positioning",
+        "efficiency"
+      ],
+      "statement_fr": "L'équipe Gleiten.TV estime le Glide 3.0 950 comparable en prestations à l'AFS Enduro 1100, tout en décrivant le Glide 3.0 comme plus sportif et de conception plus récente.",
+      "kind": "editorial_answer_to_reader",
+      "speaker": "gleiten.tv",
+      "answer_date": "2026-11-01",
+      "confidence": "medium_subjective_comparison",
+      "link": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+      "needs": [
+        "comparison_protocol",
+        "conditions",
+        "independent_corroboration"
+      ]
+    },
+    {
+      "id": "glide3-early-lift-speed",
+      "model": "Duotone Glide 3.0 D/LAB",
+      "size_cm2": null,
+      "property": [
+        "takeoff",
+        "speed"
+      ],
+      "statement_fr": "À la question de savoir si la portance précoce limite la vitesse maximale, l'équipe répond que non. Aucun chiffre de vitesse ni taille précise n'est donné dans cette réponse.",
+      "kind": "editorial_answer_to_reader",
+      "speaker": "gleiten.tv",
+      "answer_date": "2026-10-21",
+      "confidence": "low_to_medium_missing_configuration",
+      "link": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+      "needs": [
+        "exact_size",
+        "speed_measurement",
+        "test_conditions"
+      ]
+    }
+  ],
+  "publication_policy": "Keep sourced qualitative author statements separate from transcribed video test, rider anecdotes and measured performance. Do not modify model scores automatically."
+}
