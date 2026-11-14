@@ -1,0 +1,29 @@
+name: Video Analysis Checks
+on:
+  pull_request:
+    paths:
+      - 'video-analysis/**'
+      - '.github/workflows/video-analysis.yml'
+  workflow_dispatch:
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run offline transcript parser tests
+        run: python -m unittest discover -s video-analysis -p 'test_*.py' -v
+      - name: Validate manifest
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path('video-analysis/manifest.json').read_text())
+          assert len({v['id'] for v in x['videos']})==len(x['videos'])
+          assert all(v['transcript_status']=='not_available_yet' for v in x['videos'])
+          print('Manifest OK',len(x['videos']))
+          PY
