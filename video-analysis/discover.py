@@ -17,8 +17,11 @@ from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
-START = date(2024, 11, 14)
-END = date(2026, 11, 14)
+END = date.today()
+try:
+    START = END.replace(year=END.year - 2)
+except ValueError:
+    START = END.replace(year=END.year - 2, day=28)
 GTV = {
     "foil": "https://gleiten.tv/foil/test/wingfoil/foil/alle/",
     "board": "https://gleiten.tv/foil/test/wingfoil/wingboard/alle/",
