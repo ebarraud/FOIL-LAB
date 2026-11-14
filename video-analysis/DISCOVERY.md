@@ -36,3 +36,11 @@ Les fichiers de sortie sont archivés en tant qu'artefacts GitHub Actions, pas i
 - https://gleiten.tv/foil/test/wingfoil/foil/alle/
 - https://gleiten.tv/foil/test/wingfoil/wingboard/alle/
 - https://developers.google.com/youtube/v3/docs/search/list
+
+## Première collecte réellement enregistrée
+
+Le fichier `seed_2024-2026_gleiten.json` contient **46 références candidates** (22 foils et 24 boards), relevées dans les index publics et datées entre août 2025 et octobre 2026. Certaines sont des traductions du même essai : elles ne doivent **pas** être traitées comme indépendantes. Ce lot n'est pas présenté comme exhaustif.
+
+Le premier essai réseau du workflow a renvoyé `HTTPError` pour les deux catégories Gleiten.TV sur les IP GitHub Actions. L'index automatique a donc retourné **0 résultat**, bien que les pages soient accessibles via recherche web ; la liste de 46 références est un jeu de démarrage établi séparément. Le volet YouTube a été **ignoré faute de clé API configurée**. Aucun contenu parlé n'a été récupéré ni analysé.
+
+Le filtre de date du script est glissant sur deux ans à compter de chaque exécution ; le fichier de démarrage conserve les dates fixes de cette campagne pour la traçabilité.
