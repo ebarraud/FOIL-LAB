@@ -2,4 +2,5 @@
 *.vtt
 transcripts/
 results/
+reports/
 __pycache__/
