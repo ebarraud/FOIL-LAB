@@ -27,7 +27,7 @@ html{scroll-behavior:smooth}button,select,input{font:inherit}button{min-height:4
  .modes{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px!important}.modes button{padding:8px 3px!important;font-size:12px!important}
  .top-buttons{flex-wrap:wrap}.panel{overflow-wrap:anywhere}#intro{scroll-margin-top:15px}
  .kb-area{scroll-margin-top:16px}
- body:not(.ux-finished) .ux-result-container{display:none!important}
+ /* Legacy V5 result visibility now managed by V6 screen navigation. */
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
@@ -41,6 +41,12 @@ body[data-screen] .layout aside.controls{max-width:680px;margin:0 auto}
 body[data-screen] .ux-result-container{max-width:1100px;margin:0 auto}
 body[data-screen] [hidden]{display:none!important}
 body[data-screen] .layout>div{display:contents}
+body[data-screen] .ux-result-container[hidden],
+body[data-screen] aside.controls[hidden],
+body[data-screen] #knowledgeBase[hidden],
+body[data-screen] .sourcesbox[hidden],
+body[data-screen] #researchSources[hidden],
+body[data-screen] .hero[hidden]{display:none!important}
 body[data-screen] .layout>.ux-screen-nav{display:flex}
 .ux-edit{display:inline-flex;margin-bottom:15px}
 .ux-bottom-nav{display:none}
@@ -50,7 +56,7 @@ body[data-screen] .topline a.counter{font-size:12px}
  body[data-screen] .hero{padding:8px 2px 10px!important}
  body[data-screen] .hero h1{font-size:clamp(27px,7vw,36px)!important}
  body[data-screen] .layout{display:block!important}
- body[data-screen] .ux-result-container{display:block!important}
+ body[data-screen="resultats"] .ux-result-container:not([hidden]){display:block!important}
  body[data-screen] aside.controls{margin:0 auto!important}
  .ux-screen-nav{margin:0 -12px;padding:9px 12px 11px}
  .ux-screen-nav button{font-size:12px;padding:9px 11px}
