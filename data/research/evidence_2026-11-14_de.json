@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "collection": "foil-lab-evidence-candidates",
+  "collected_on": "2026-11-14",
+  "language_priority": [
+    "de",
+    "en",
+    "fr"
+  ],
+  "editorial_policy": "Not imported into scoring engine without source-by-source verification. No video claimed fully watched. Missing fields null, not invented.",
+  "records": [
+    {
+      "id": "GA-Move-2026",
+      "type": "front_wing",
+      "brand": "GA",
+      "model": "Move",
+      "year": 2026,
+      "sizes_tested_cm2": [
+        800,
+        1000,
+        1300
+      ],
+      "range_cm2": [
+        600,
+        700,
+        800,
+        900,
+        1000,
+        1150,
+        1300
+      ],
+      "aspect_ratio_family": 9.2,
+      "stabilizers_cm2": [
+        160,
+        180,
+        210
+      ],
+      "fuselages_cm": [
+        60,
+        66,
+        72
+      ],
+      "design": "Front wing and front portion of fuselage are integrated (as reported by SURF)",
+      "dimensions_status": "reported_by_specialist_press",
+      "test_status": "tested_exact_sizes_reported_by_publication",
+      "judgment": "Specialist press describes the system as a versatile all-rounder; precise comparative performance scores not extracted.",
+      "performance_scores": null,
+      "performance_confidence": "insufficient_to_score",
+      "publication_date": "2026-06-27",
+      "url": "https://www.surf-magazin.de/wingsurfen/foils/foils-2026-eines-fuer-alles-das-ga-move-foil-im-test/",
+      "publisher": "SURF Magazin",
+      "language": "de",
+      "provenance": "specialist_review",
+      "verified_fields": [
+        "tested_sizes",
+        "published_size_range",
+        "family_aspect_ratio",
+        "stabilizer_options",
+        "fuselage_options"
+      ],
+      "pending": [
+        "primary_manufacturer_crosscheck",
+        "full_test_conditions",
+        "mast_interface",
+        "size_specific_scores"
+      ]
+    },
+    {
+      "id": "North-Sonar-MA-V2-2026",
+      "type": "front_wing",
+      "brand": "North",
+      "model": "Sonar MA V2",
+      "year": 2026,
+      "sizes_tested_cm2": [
+        1050,
+        1200
+      ],
+      "geometry_by_size": {
+        "1050": {
+          "span_cm": 85,
+          "aspect_ratio": 6.9
+        },
+        "1200": {
+          "span_cm": 87.5,
+          "aspect_ratio": 6.4
+        }
+      },
+      "range_cm2_min": 500,
+      "range_cm2_max": 2400,
+      "judgment": "SURF reports smooth turns and accessible handling, but this does not establish precise takeoff or glide scores.",
+      "performance_scores": null,
+      "performance_confidence": "moderate_for_review_conclusions_not_quantified",
+      "test_status": "tested_exact_sizes_reported_by_publication",
+      "publication_date": "2026-08-16",
+      "url": "https://www.surf-magazin.de/wingsurfen/foils/foils-2026-smoothe-turns-viel-kontrolle-das-north-sonar-ma-v2-im-test/",
+      "publisher": "SURF Magazin",
+      "language": "de",
+      "provenance": "specialist_review",
+      "verified_fields": [
+        "tested_sizes",
+        "span_by_size",
+        "aspect_ratio_by_size"
+      ],
+      "pending": [
+        "manufacturer_crosscheck",
+        "test_rider_conditions",
+        "assembly_compatibility"
+      ]
+    },
+    {
+      "id": "KT-Instinct-2026",
+      "type": "front_wing",
+      "brand": "KT",
+      "model": "Instinct",
+      "year": 2026,
+      "range_cm2_min": 720,
+      "range_cm2_max": 2200,
+      "sizes_tested_cm2": null,
+      "aspect_ratio_reported": {
+        "720": 8.4,
+        "920": 8.4,
+        "1120": 8.4,
+        "2200": 5
+      },
+      "judgment": "SURF calls it easy to ride, aimed at freeride and manoeuvres. Specific size tested not confirmed from accessible summary.",
+      "performance_scores": null,
+      "performance_confidence": "insufficient_to_score",
+      "test_status": "review_exists_size_not_confirmed",
+      "publication_date": "2026-09-01",
+      "url": "https://www.surf-magazin.de/wingsurfen/foils/foils-2026-ideal-fuer-freeride-und-manoever-das-kt-instinct-foil-im-test/",
+      "publisher": "SURF Magazin",
+      "language": "de",
+      "provenance": "specialist_review",
+      "pending": [
+        "exact_test_size",
+        "complete_size_list",
+        "manufacturer_crosscheck",
+        "configuration_details"
+      ]
+    },
+    {
+      "id": "KT-Drifter-5-Carbon-2026",
+      "type": "board",
+      "brand": "KT",
+      "model": "Drifter 5 Carbon",
+      "year": 2026,
+      "volume_tested_l": [
+        100
+      ],
+      "length_tested_cm": 185,
+      "range_l_min": 44,
+      "range_l_max": 115,
+      "design": "More compact than some midlength models; reviewed 100L example length 185 cm.",
+      "judgment": "SURF describes forgiving handling; exact rider and wind context remain to extract.",
+      "performance_scores": null,
+      "performance_confidence": "moderate_for_general_characterization",
+      "test_status": "tested_exact_volume_reported_by_publication",
+      "publication_date": "2026-09-18",
+      "url": "https://www.surf-magazin.de/wingsurfen/wing-boards/wingboards-2026-easy-freerider-das-kt-drifter-5-carbon-im-test/",
+      "publisher": "SURF Magazin",
+      "language": "de",
+      "provenance": "specialist_review",
+      "pending": [
+        "width_100_l",
+        "foil_setup",
+        "test_conditions",
+        "manufacturer_crosscheck"
+      ]
+    },
+    {
+      "id": "Duotone-Glide-3-DLAB-825-2026",
+      "type": "front_wing",
+      "brand": "Duotone",
+      "model": "Glide 3.0 D/LAB",
+      "year_label": "2027 product tested in 2026",
+      "sizes_tested_cm2": [
+        825
+      ],
+      "judgment": "Gleiten.TV compared with previous generation; site comments describe comparable remit to AFS Enduro but sportier feel. Comment is an editorial opinion, not measured fact.",
+      "performance_scores": null,
+      "performance_confidence": "qualitative_editorial_comment_only",
+      "test_status": "video_listing_and_page_review_not_fully_transcribed",
+      "publication_date": "2026-10-21",
+      "url": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+      "publisher": "Gleiten.TV",
+      "language": "de",
+      "provenance": "video_page_and_author_comment",
+      "pending": [
+        "full_video_review",
+        "manufacturer_geometry",
+        "mast_tail_compatibility"
+      ]
+    },
+    {
+      "id": "Duotone-Skybrid-DLAB-80-2026",
+      "type": "board",
+      "brand": "Duotone",
+      "model": "Skybrid D/LAB",
+      "year_label": "2027 product tested in 2026",
+      "volume_tested_l": [
+        80
+      ],
+      "judgment": "Tester states Armstrong UHA 870 positioning in front third of mast tracks was suitable for their setup. Does not establish universal compatibility or ideal placement.",
+      "performance_scores": null,
+      "performance_confidence": "anecdotal_test_configuration",
+      "test_status": "video_listing_and_author_QA",
+      "publication_date": "2026-06-20",
+      "url": "https://gleiten.tv/video/4874-duotone-skybrid-dlab-80l-wing-und-parawing-board-test-2026/",
+      "publisher": "Gleiten.TV",
+      "language": "de",
+      "provenance": "video_page_and_author_comment",
+      "pending": [
+        "full_video_review",
+        "rider_weight",
+        "width_dimension",
+        "mast_plate_fit"
+      ]
+    },
+    {
+      "id": "KT-Solus-2026",
+      "type": "front_wing",
+      "brand": "KT",
+      "model": "Solus",
+      "year": 2026,
+      "sizes_tested_cm2": [
+        930,
+        775
+      ],
+      "test_status": "video_indexed_sizes_not_independently_confirmed",
+      "performance_scores": null,
+      "performance_confidence": "unknown",
+      "publication_date": "2026-10-01",
+      "url": "https://gleiten.tv/foil/test/wingfoil/foil/",
+      "publisher": "Gleiten.TV",
+      "language": "de",
+      "provenance": "video_index_only",
+      "pending": [
+        "full_video_review",
+        "individual_video_url",
+        "geometry",
+        "assembly"
+      ]
+    },
+    {
+      "id": "KT-Halo-2026",
+      "type": "front_wing",
+      "brand": "KT",
+      "model": "Halo",
+      "year": 2026,
+      "sizes_tested_cm2": [
+        670,
+        800
+      ],
+      "test_status": "video_indexed_sizes_not_independently_confirmed",
+      "performance_scores": null,
+      "performance_confidence": "unknown",
+      "publication_date": "2026-08-04",
+      "url": "https://gleiten.tv/foil/test/wingfoil/foil/",
+      "publisher": "Gleiten.TV",
+      "language": "de",
+      "provenance": "video_index_only",
+      "pending": [
+        "full_video_review",
+        "individual_video_url",
+        "geometry",
+        "assembly"
+      ]
+    },
+    {
+      "id": "Duotone-Glide-2-1350-Forum-2026",
+      "type": "field_report",
+      "brand": "Duotone",
+      "model": "Glide 2.0",
+      "size_cm2": 1350,
+      "judgment": "A forum participant found easier lift and forgiving stall for early parawing sessions. Single rider report; no test protocol.",
+      "performance_scores": null,
+      "performance_confidence": "low_anecdotal",
+      "test_status": "forum_report",
+      "publication_date": "2026-09-04",
+      "url": "https://www.seabreeze.com.au/forums/Wing-Foiling/Wind-Wings/Parawing-and-Wingfoiling?fromPage=2&fromTopic=210026&page=1",
+      "publisher": "Seabreeze",
+      "language": "en",
+      "provenance": "forum",
+      "pending": [
+        "rider_weight",
+        "foil_mounting",
+        "wind_speed",
+        "independent_corroboration"
+      ]
+    }
+  ]
+}
