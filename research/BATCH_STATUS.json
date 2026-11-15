@@ -2,11 +2,11 @@
   "schema_version": 1,
   "inventory_count": 103,
   "processed": 103,
-  "transcripts_obtained": 23,
+  "transcripts_obtained": 32,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-15T18:01:54.905905+00:00",
-  "retry_status": "in_progress",
+  "updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
+  "retry_status": "provider_access_or_rate_limit",
   "retry_history": {
     "attempts": [
       {
@@ -98,9 +98,80 @@
         "at_utc": "2026-11-15T18:01:54.905905+00:00",
         "status": "timed_transcript_received",
         "returned_language": "en"
+      },
+      {
+        "video_id": "3OIRoNWHne0",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:00.584340+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "ar"
+      },
+      {
+        "video_id": "WgDFirFuKOA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:06.241211+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "yL-WLJABq_U",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:12.291813+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "mtwBUIwCP3Q",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:18.545085+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en-US"
+      },
+      {
+        "video_id": "wIPR7DOgKqQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:24.348519+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "oNue1Vm0nWA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:30.409596+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "FklAiCI22lU",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:36.532872+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "xrEGIa5cgdQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:42.538441+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "viZUrrOCL6E",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:48.480939+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "3B4fq8l_8HQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:54.219407+00:00",
+        "status": "http_error",
+        "http_status": 429,
+        "retry_after": "3426"
       }
     ],
-    "stopped_reason": null
+    "stopped_reason": "provider_access_or_rate_limit"
   },
   "results": [
     {
@@ -336,106 +407,92 @@
     {
       "video_id": "3OIRoNWHne0",
       "title": "Duotone Sky Free 120L und Free2.0 Foil 1900 TEST 2026",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
-      "last_retry": {
-        "video_id": "3OIRoNWHne0",
-        "requested_language": "auto",
-        "at_utc": "2026-11-15T18:01:25.579583+00:00",
-        "status": "http_error",
-        "http_status": 400,
-        "retry_after": null
-      },
-      "requested_language": null
+      "status": "timed_transcript_received",
+      "language": "ar",
+      "segment_count": 52,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto"
     },
     {
       "video_id": "WgDFirFuKOA",
       "title": "Indiana Dolphin foil 925 und 827 Test  2026 ( English translated review )",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
-      "last_retry": {
-        "video_id": "WgDFirFuKOA",
-        "requested_language": "auto",
-        "at_utc": "2026-11-15T18:01:30.719452+00:00",
-        "status": "http_error",
-        "http_status": 400,
-        "retry_after": null
-      },
-      "requested_language": null
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 208,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto"
     },
     {
       "video_id": "yL-WLJABq_U",
       "title": "Indiana Dolphin Foil 925 und 827 Test 2026",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 246,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "mtwBUIwCP3Q",
       "title": "GA Move Foil im Test: Allrounder aus Vollcarbon",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 374,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "wIPR7DOgKqQ",
       "title": "Duotone Skybrid Dlab 80L Wing und Parawing Board Test 2026",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 243,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "oNue1Vm0nWA",
       "title": "WING FOIL TEST GONG X-OVER V3 LAGO D’ISEO 2026 #wingfoiling #wingfoil #surf #foiling",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 5,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "FklAiCI22lU",
       "title": "TEST - NOUVEAUTES DUOTONE BOARDS/FOIL/WINGS 2026",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 591,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "xrEGIa5cgdQ",
       "title": "Indiana Marlin XXS Kite Foil Test 2026",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 191,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "viZUrrOCL6E",
       "title": "GA Move Foil Test 2026",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 217,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "3B4fq8l_8HQ",
@@ -444,7 +501,14 @@
       "language": null,
       "segment_count": null,
       "failure_type": "HTTPError",
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "3B4fq8l_8HQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:02:54.219407+00:00",
+        "status": "http_error",
+        "http_status": 429,
+        "retry_after": "3426"
+      },
       "requested_language": null
     },
     {
@@ -1147,5 +1211,6 @@
       "last_retry": null,
       "requested_language": null
     }
-  ]
+  ],
+  "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00"
 }
