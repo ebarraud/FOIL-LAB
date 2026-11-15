@@ -39,13 +39,19 @@ SEARCH_QUERIES = [
     "Gleiten TV wingboard test",
     "Nature Kite wingfoil test board foil",
     "Kiteworldshop wingfoil board foil review",
+    "wingfoil essai aile avant comparatif",
+    "wingfoil test planche avis",
+    "wingfoil foil Test Erfahrungen",
+    "wingboard Test Vergleich",
+    "wingfoil foil recensione prova",
+    "wingfoil tavola recensione test",
 ]
 VIDEO_ID = re.compile(r"/video/(\d+)(?:[-/]|$)|/index\.php/video/action/view/v/(\d+)")
 DAY = re.compile(r"\b([0-3]?\d)\.([01]?\d)\.(20\d\d)\b")
-REVIEW = re.compile(r"\b(test|tested|review|essai|comparatif|vergleich)\b", re.I)
+REVIEW = re.compile(r"\b(test|tested|review|essai|comparatif|vergleich|recensione|prova)\b", re.I)
 GENERIC = re.compile(r"\b(tutorial|how to|learn to|intro|teaser|preview|event|interview|vlog|trailer|news|unboxing)\b", re.I)
 FOIL = re.compile(r"\b(foil|frontwing|front wing|sonar|glide|halo|solus|enduro|silk)\b", re.I)
-BOARD = re.compile(r"\b(wingboard|wing board|wingfoil board|foilboard|midlength|skybrid|drifter|rocket)\b", re.I)
+BOARD = re.compile(r"\b(wingboard|wing board|wingfoil board|foilboard|midlength|skybrid|drifter|rocket|planche|tavola)\b", re.I)
 
 
 class HtmlLinks(HTMLParser):
@@ -222,6 +228,7 @@ def youtube_search(key: str, query: str, max_pages: int = 2, fetch=get_page, cha
             records[rid] = {
                 "id": rid, "url": "https://www.youtube.com/watch?v=" + video_id,
                 "title": title, "publisher": snippet.get("channelTitle"),
+                "channel_id": snippet.get("channelId"),
                 "provider": "youtube", "category": category,
                 "published_on": stamp[:10], "date_status": "youtube_api",
                 "source_status": "search_api_only",
