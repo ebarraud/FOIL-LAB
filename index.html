@@ -450,4 +450,39 @@ render();
  show('profil');
 })();
 </script>
+
+<script>
+// Attributed transcript evidence, kept separate from editorial rating scores.
+let transcriptEvidence=[];
+const evidenceEscape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function transcriptMarkup(brand,model,size){
+ const entry=transcriptEvidence.find(e=>e.model===(brand+' '+model));
+ if(!entry)return '';
+ const claims=entry.claims.filter(c=>c.source_type==='video_transcript'&&(c.sizes_cm2||[c.size_cm2]).includes(Number(size)));
+ if(!claims.length)return '';
+ const tc=s=>Math.floor(s/60)+':'+String(Math.floor(s)%60).padStart(2,'0');
+ return '<details class="tip"><summary>'+claims.length+' observations vidéo · '+size+' cm²</summary><p class="small">Propos du testeur interprétés depuis la transcription, à vérifier à l’écoute. Les observations communes restent non départagées. Ces avis ne sont pas des mesures ni des notes.</p>'+claims.map(c=>'<div class="mini"><b>'+evidenceEscape(c.size_cm2?c.size_cm2+' cm²':'Commun / non départagé : '+c.sizes_cm2.join(' / ')+' cm²')+'</b><p>'+evidenceEscape(c.statement_fr)+'</p><p class="small">Limites : '+evidenceEscape(c.limitations)+'</p><a target="_blank" rel="noopener noreferrer" href="'+evidenceEscape(c.source_url)+'">Écouter '+tc(c.start_s)+'–'+tc(c.end_s)+'</a></div>').join('')+'</details>';
+}
+const transcriptOriginalCard=kbCard;
+kbCard=function(o){return transcriptOriginalCard(o).replace('</article>',(o.type==='foil'?transcriptMarkup(o.brand,o.name,o.size):'')+'</article>')};
+const transcriptOriginalFoil=foilMarkup;
+foilMarkup=function(o,i,x){return transcriptOriginalFoil(o,i,x).replace('</article>',transcriptMarkup(o.f.b,o.f.n,o.size)+'</article>')};
+fetch('./data/research/pilot_3_video_tests_2026-11-15.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(d=>{
+ transcriptEvidence=d.entries;
+ const host=document.getElementById('researchSources');
+ if(host){
+  const panel=document.createElement('section');panel.className='tip';
+  const title=document.createElement('h3');title.textContent='Essais vidéo par taille : AFS, Duotone et KT';panel.append(title);
+  const note=document.createElement('p');note.className='small';note.textContent='30 observations minutées issues de trois transcriptions. Choisissez une taille pour consulter les sensations, montages et limites. Duotone Glide 3.0 et KT Halo sont documentés ici ; ils ne sont pas ajoutés au classement faute de fiches catalogue complètes.';panel.append(note);
+  const select=document.createElement('select');select.setAttribute('aria-label','Consulter les observations vidéo par taille');
+  const records=[];
+  for(const e of d.entries)for(const size of e.tested_sizes_cm2){const o=document.createElement('option');o.value=String(records.length);o.textContent=e.model+' · '+size+' cm²';select.append(o);records.push({e,size})}
+  const output=document.createElement('div');
+  const show=()=>{const {e,size}=records[Number(select.value)];const split=e.model.indexOf(' ');output.innerHTML=transcriptMarkup(e.model.slice(0,split),e.model.slice(split+1),size)};
+  select.addEventListener('change',show);panel.append(select,output);host.prepend(panel);show();
+ }
+ renderKnowledge();render();
+}).catch(()=>{console.warn('FOIL LAB : observations vidéo indisponibles; consulter le registre des preuves.');});
+</script>
+
 </body></html>
