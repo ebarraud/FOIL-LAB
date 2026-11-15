@@ -1,0 +1,77 @@
+name: Pilot genuine YouTube transcripts (opt-in)
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_provider_charges:
+        description: 'Authorize use of TranscriptAPI credits for real videos (yes/no)'
+        required: true
+        type: choice
+        options:
+          - 'no'
+          - 'yes'
+        default: 'no'
+      max_videos:
+        description: 'Maximum videos charged (1 to 3)'
+        required: true
+        default: '1'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify transcript parser and hosted provider tests
+        run: python -m unittest discover -s video-analysis -p 'test_*.py' -v
+      - name: Run limited hosted transcript pilot
+        env:
+          TRANSCRIPT_API_KEY: ${{ secrets.TRANSCRIPT_API_KEY }}
+          CONFIRM_CHARGES: ${{ inputs.confirm_provider_charges }}
+          MAX_VIDEOS: ${{ inputs.max_videos }}
+        run: |
+          if [ "$CONFIRM_CHARGES" = "yes" ]; then
+            python video-analysis/hosted_transcripts.py --max-requests "$MAX_VIDEOS" --allow-billable-requests
+          else
+            python video-analysis/hosted_transcripts.py --max-requests "$MAX_VIDEOS"
+          fi
+      - name: Report actual transcription status
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          path=Path('video-index/hosted-transcript-pilot.json')
+          lines=['# FOIL LAB — essai réel de transcription YouTube','']
+          if path.exists():
+              data=json.loads(path.read_text(encoding='utf-8'))
+              lines += [
+                '- Statut : **'+data['status']+'**',
+                '- Vidéos interrogées : **'+str(data['videos_attempted'])+'**',
+                '- Transcriptions horodatées reçues : **'+str(data['transcripts_obtained'])+'**',
+                '- Notes de performance mises à jour : **0**',
+                '',
+                'Des extraits contenant des mots-clés ne deviennent pas des conclusions sans validation.',
+              ]
+              for result in data['results']:
+                  lines.append('- '+result['id']+' : '+result['status'])
+          else:
+              lines.append('Aucun rapport produit — vérifier les étapes précédentes.')
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+              f.write('\n'.join(lines)+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: foil-lab-hosted-transcript-pilot
+          path: video-index/hosted-transcript-pilot.json
+          if-no-files-found: warn
+          retention-days: 7
