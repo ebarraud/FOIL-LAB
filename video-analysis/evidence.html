@@ -13,6 +13,11 @@
 <p class="warning"><strong>Attention :</strong> aucune de ces trois vidéos n'a été intégralement visionnée ou transcrite. Les observations proviennent de textes publiés par les auteurs et sont attribuées à la taille et à l'usage concernés. Aucune note du configurateur n'a été modifiée.</p>
 <section class="panel"><label for="model"><strong>Choisir un modèle de foil</strong></label><select id="model" aria-label="Choisir un modèle"><option value="">Chargement…</option></select></section>
 <div id="records" role="region" aria-live="polite"></div>
+<section class="panel" id="writtenTests" aria-label="Essais écrits supplémentaires">
+<h2>Autres essais écrits vérifiés</h2>
+<p class="subtitle">Tests complets de boards et de foils : observations attribuées aux auteurs, tailles testées et limites explicites. Cette section ne modifie pas les notes du configurateur.</p>
+<div id="writtenCards"><p class="muted">Chargement des essais…</p></div>
+</section>
 <p class="subtitle">Les propos sont reformulés brièvement et accompagnés du lien vers leur source primaire. Les comparaisons d'usages différents (surf foil, wingfoil) ne sont pas assimilées.</p>
 <p><a href="review.html">Importer une transcription réelle</a> · <a href="../index.html">Retour au configurateur</a></p></main>
 <script>
@@ -59,4 +64,26 @@ fetch('../data/research/pilot_3_video_tests_2026-11-15.json',{cache:'no-store'})
  for(const entry of d.entries){const o=el('option',entry.model);o.value=entry.id;$('model').append(o)}
  $('model').addEventListener('change',render);render();
 }).catch(err=>{$('records').append(el('p','Impossible de charger les preuves : '+err.message,'empty'));$('model').replaceChildren()});
+
+fetch('../data/research/written_test_evidence_2026.json',{cache:'no-store'})
+ .then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()})
+ .then(d=>{
+  const root=$('writtenCards');root.replaceChildren();
+  for(const rev of d.reviews){
+   const card=el('article');card.className='claim';
+   card.append(el('h2',rev.brand+' '+rev.model));
+   card.append(el('p','Catégorie : '+(rev.category==='board'?'Planche':'Foil')+' · Tailles testées : '+rev.sizes_tested.join(' / ')+(rev.size_unit||' cm²')+' · '+rev.publication_date,'subtitle'));
+   card.append(el('p','Montage / contexte : '+rev.setup,'subtitle'));
+   for(const c of rev.claims){
+    const claim=el('div');claim.className='claim';
+    claim.append(el('span',c.size?c.size+' '+(rev.size_unit||'cm²'):'Gamme ou configuration complète','pill'));
+    claim.append(el('span',c.category,'pill'));
+    claim.append(el('p',c.summary));
+    claim.append(el('p','Limites : '+c.limits,'subtitle'));
+    card.append(claim);
+   }
+   card.append(link(rev.source_url,'Lire l’essai complet de '+rev.source_author));
+   root.append(card);
+  }
+ }).catch(err=>{$('writtenCards').replaceChildren(el('p','Impossible de charger les essais écrits : '+err.message,'empty'))});
 </script></body></html>
