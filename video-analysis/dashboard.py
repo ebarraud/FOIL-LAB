@@ -43,6 +43,19 @@ def build(root=Path('.')):
         if len(vid)!=11:continue
         records.setdefault(vid,{'video_id':vid,'title':row['title'],'language':row.get('language'),'collection':'new','analysis':'needs_qualification','integration':'pending','claims':0,'discovered_on':row.get('published_on')})
     videos=list(records.values())
+    tasks=load(root/'data/research/analysis_activity.json',{}).get('tasks',[])
+    now=datetime.now(timezone.utc)
+    for video in videos:
+        task=next((t for t in tasks if t.get('video_id')==video['video_id']),None)
+        video['activity']=task
+        if task and task.get('status')=='in_progress':
+            try:
+                active=datetime.fromisoformat(task['expires_at_utc'])>now
+            except (ValueError,KeyError,TypeError):
+                active=False
+            if active:
+                video['analysis_before_activity']=video['analysis']
+                video['analysis']='in_progress'
     output={'updated_at_utc':datetime.now(timezone.utc).isoformat(),'collection_updated_at_utc':status.get('updated_at_utc'),
       'retry_not_before_utc':status.get('retry_not_before_utc'),'collection_state':status.get('retry_status'),
       'analysis_schedule':'Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.',
