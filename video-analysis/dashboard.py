@@ -68,6 +68,7 @@ def build(root=Path('.')):
     output={'updated_at_utc':datetime.now(timezone.utc).isoformat(),'collection_updated_at_utc':status.get('updated_at_utc'),
       'retry_not_before_utc':status.get('retry_not_before_utc'),'collection_state':status.get('retry_status'),
       'analysis_schedule':'Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.',
+      'monitored_publishers':[{'name':'The Kiteworld Shop','channel_id':'UCjE0wgm69FcpOsVieDqO0-A','url':'https://www.youtube.com/@kiteworldshop','status':'targeted_discovery_scheduled'}],
       'videos':videos,'improvements':[
        {'title':'Silk V2 : préserver la facilité','detail':'650 remplacée au minimum par 750 si priorité facilité ou niveau inférieur à 3. Précaution éditoriale, pas seuil mesuré.','video_id':'DMlWjjIcwss','commit':'fd8287a'},
        {'title':'Planche : éviter un sinker implicite','detail':'Priorité facilité : volume inférieur au poids écarté, sauf départ sinker explicite. Ne garantit pas la stabilité.','video_id':'NTOAhBM2Wms','commit':'ca659d2'},

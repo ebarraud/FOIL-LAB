@@ -185,7 +185,7 @@ def discover_gleiten(category: str, max_pages: int, fetch=get_page):
                                   "errors": errors, "max_pages_hit": len(pages) >= max_pages}
 
 
-def youtube_search(key: str, query: str, max_pages: int = 2, fetch=get_page):
+def youtube_search(key: str, query: str, max_pages: int = 2, fetch=get_page, channel_id=None):
     records, token, errors = {}, None, []
     for _ in range(max_pages):
         params = {
@@ -196,6 +196,8 @@ def youtube_search(key: str, query: str, max_pages: int = 2, fetch=get_page):
         }
         if token:
             params["pageToken"] = token
+        if channel_id:
+            params['channelId'] = channel_id
         endpoint = "https://www.googleapis.com/youtube/v3/search?" + urllib.parse.urlencode(params)
         try:
             response = json.loads(fetch(endpoint))
@@ -270,6 +272,11 @@ def main(argv=None):
                 items += rows
                 report["youtube"]["errors"].extend(errors)
                 time.sleep(0.15)
+            # Target this known publisher explicitly; broad search missed it.
+            rows, errors = youtube_search(key, 'wingfoil', args.youtube_pages,
+                                         channel_id='UCjE0wgm69FcpOsVieDqO0-A')
+            items += rows
+            report['youtube']['errors'].extend(errors)
     records = combine(items)
     result = {
         "schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),

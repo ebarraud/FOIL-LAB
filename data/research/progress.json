@@ -1,9 +1,17 @@
 {
-  "updated_at_utc": "2026-11-15T18:47:53.983896+00:00",
+  "updated_at_utc": "2026-11-15T18:49:29.897411+00:00",
   "collection_updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
   "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00",
   "collection_state": "provider_access_or_rate_limit",
   "analysis_schedule": "Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.",
+  "monitored_publishers": [
+    {
+      "name": "The Kiteworld Shop",
+      "channel_id": "UCjE0wgm69FcpOsVieDqO0-A",
+      "url": "https://www.youtube.com/@kiteworldshop",
+      "status": "targeted_discovery_scheduled"
+    }
+  ],
   "videos": [
     {
       "video_id": "aiWA2W7hKos",
