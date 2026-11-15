@@ -30,15 +30,21 @@ button.secondary{background:transparent;color:var(--text)}button:disabled{opacit
 <p><a href="../index.html">Retour à FOIL LAB</a></p>
 <section class="panel" aria-label="Import">
 <h2>1. Ajouter une transcription</h2>
+<label for="preset">Essai pilote — préremplir la fiche</label>
+<select id="preset"><option value="">Choisir un essai (facultatif)</option>
+<option value="afs">AFS Silk V2 — 650 / 750 / 950</option>
+<option value="duotone">Duotone Glide 3.0 D/LAB — 825</option>
+<option value="kt">KT Halo — 670 / 800</option></select>
 <label for="video">URL de la vidéo</label>
 <input id="video" type="url" placeholder="https://www.youtube.com/watch?v=..." autocomplete="url">
 <label for="title">Nom / référence du matériel</label>
 <input id="title" placeholder="Ex. Duotone Glide 3.0 D/LAB 825">
 <label for="lang">Langue du test</label>
 <select id="lang"><option value="de">Allemand</option><option value="fr">Français</option><option value="en">Anglais</option></select>
-<label for="upload">Charger un fichier de sous-titres (.srt ou .vtt)</label>
-<input id="upload" type="file" accept=".srt,.vtt,text/plain,text/vtt">
+<label for="upload">Charger un fichier de sous-titres (.srt, .vtt ou .txt horodaté)</label>
+<input id="upload" type="file" accept=".srt,.vtt,.txt,text/plain,text/vtt">
 <label for="transcript">Ou coller une transcription horodatée</label>
+<p class="hint" style="font-size:12px">Formats acceptés : SRT/VTT ou transcription YouTube copiée avec ses minutages, par exemple « 0:16 La planche décolle tôt », ou deux lignes « 0:16 » puis « La planche décolle tôt ». Un texte sans minutage est refusé pour préserver les preuves.</p>
 <textarea id="transcript" placeholder="WEBVTT
 
 00:01:02.000 --> 00:01:06.000
@@ -62,6 +68,15 @@ Der Start ist sehr einfach."></textarea>
 <script>
 (() => {
  const $=id=>document.getElementById(id);
+ const presets={
+  afs:{url:'https://www.youtube.com/watch?v=DMlWjjIcwss',title:'AFS Silk V2 — 650 / 750 / 950',lang:'fr'},
+  duotone:{url:'https://www.youtube.com/watch?v=aiWA2W7hKos',title:'Duotone Glide 3.0 D/LAB — 825',lang:'de'},
+  kt:{url:'https://www.youtube.com/watch?v=zesN5IeyRQM',title:'KT Halo — 670 / 800',lang:'de'}
+ };
+ $('preset').addEventListener('change',()=>{
+  const p=presets[$('preset').value];if(!p)return;
+  $('video').value=p.url;$('title').value=p.title;$('lang').value=p.lang;
+ });
  const patterns={
   takeoff:/d[eé]coll|take.?off|lift.?off|low.?end|fr[uü]h|abheb|starten|angleit|anpump|aufsteigen/i,
   glide:/gliss|gleit|glide|efficien|drag|speed|vitesse|tr[aä]gheit|reibung|pump/i,
@@ -73,14 +88,28 @@ Der Start ist sehr einfach."></textarea>
  const cueRx=/^\s*((?:\d{1,2}:)?\d{2}:\d{2}[.,]\d{3})\s*-->\s*((?:\d{1,2}:)?\d{2}:\d{2}[.,]\d{3})/;
  function cuesFrom(source){
   const out=[];
-  for(const block of source.replace(/^\uFEFF/,'').replace(/\r/g,'').split(/\n\s*\n/)){
+  const normalized=source.replace(/^\uFEFF/,'').replace(/\r/g,'');
+  for(const block of normalized.split(/\n\s*\n/)){
    const lines=block.split('\n');
    const idx=lines.findIndex(x=>cueRx.test(x));if(idx<0)continue;
    const match=cueRx.exec(lines[idx]);const start=convert(match[1]),end=convert(match[2]);
    const text=lines.slice(idx+1).join(' ').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
    if(text&&end>=start)out.push({start,end,text});
   }
-  return out;
+  if(out.length)return {cues:out,format:'srt_or_webvtt'};
+  const yt=[];const time=/^(?:(\d{1,2}):)?([0-5]?\d):([0-5]\d)(?:\s+(.+))?$/;
+  for(const raw of normalized.split('\n')){
+   const line=raw.trim(),m=time.exec(line);
+   if(m){
+    const start=Number(m[1]||0)*3600+Number(m[2])*60+Number(m[3]);
+    if(yt.length&&start<=yt[yt.length-1].start)continue;
+    if(yt.length)yt[yt.length-1].end=start;
+    yt.push({start,end:start,text:(m[4]||'').trim()});
+   }else if(yt.length&&line&&!/^\[[^\]]+\]$/.test(line)){
+    yt[yt.length-1].text=(yt[yt.length-1].text+' '+line).trim();
+   }
+  }
+  return {cues:yt.filter(x=>x.text),format:'youtube_timestamped_copy'};
  }
  function timestamp(url,s){
   try {const u=new URL(url);if(['youtube.com','www.youtube.com','m.youtube.com','youtu.be'].includes(u.hostname)){u.searchParams.set('t',Math.floor(s)+'s');return u.href}return u.href}
@@ -89,17 +118,17 @@ Der Start ist sehr einfach."></textarea>
  let last=null;
  $('upload').addEventListener('change',async()=>{
   const file=$('upload').files[0];if(!file)return;
-  if(!/\.(vtt|srt)$/i.test(file.name)){ $('error').textContent='Choisis un fichier SRT ou VTT.';return}
+  if(!/\.(vtt|srt|txt)$/i.test(file.name)){ $('error').textContent='Choisis un fichier SRT, VTT ou TXT horodaté.';return}
   if(file.size>2_000_000){$('error').textContent='Fichier supérieur à 2 Mo, import refusé.';return}
   $('transcript').value=await file.text();$('error').textContent='';
  });
  $('clear').addEventListener('click',()=>{
-  ['video','title','transcript','upload'].forEach(id=>$(id).value='');
+  ['preset','video','title','transcript','upload'].forEach(id=>$(id).value='');
   $('output').hidden=true;$('error').textContent='';last=null;
  });
  $('analyze').addEventListener('click',()=>{
-  $('error').textContent='';let cues=cuesFrom($('transcript').value);
-  if(!cues.length){$('error').textContent='Aucun passage horodaté reconnu. Le fichier doit être au format SRT ou WebVTT.';return}
+  $('error').textContent='';const parsed=cuesFrom($('transcript').value);let cues=parsed.cues;
+  if(!cues.length){$('error').textContent='Aucun passage horodaté reconnu. Fourni un SRT, VTT ou texte YouTube avec minutages.';return}
   const url=$('video').value.trim();
   const matches=cues.flatMap(cue=>{
     const categories=Object.entries(patterns).filter(([k,p])=>p.test(cue.text)).map(([k])=>k);
@@ -107,7 +136,7 @@ Der Start ist sehr einfach."></textarea>
   });
   last={schema_version:1,title:$('title').value.trim(),video_url:url||null,language:$('lang').value,
    source:'user_supplied_timed_transcript',full_video_watched:false,performance_scores:null,
-   timed_cues:cues.length,candidates:matches.map(({start,end,text,categories,url,status})=>({start_s:start,end_s:end,excerpt:text.slice(0,240),categories,url,status,confidence:'unassessed'}))};
+   timed_cues:cues.length,transcript_format:parsed.format,candidates:matches.map(({start,end,text,categories,url,status})=>({start_s:start,end_s:end,excerpt:text.slice(0,240),categories,url,status,confidence:'unassessed'}))};
   $('total').textContent=String(cues.length);$('candidates').textContent=String(matches.length);$('score').textContent='0';
   $('results').innerHTML=matches.length?matches.slice(0,120).map(m=>
    '<div class="entry"><div class="meta">'+(m.start.toFixed(1))+' s · '+
