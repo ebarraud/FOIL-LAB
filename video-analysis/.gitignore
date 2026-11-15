@@ -4,3 +4,11 @@ transcripts/
 results/
 reports/
 __pycache__/
+
+local-results/
+*.txt
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.webm
