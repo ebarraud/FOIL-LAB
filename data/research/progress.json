@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T18:17:57.388017+00:00",
+  "updated_at_utc": "2026-11-15T18:23:43.361959+00:00",
   "collection_updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
   "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -17,7 +17,7 @@
       "evidence_url": "video-analysis/evidence.html",
       "integration": "documented",
       "failure": null,
-      "integration_reason": null
+      "integration_reason": "Vérification à effectuer par l’assistant : génération Glide 3.0 D/LAB, fiche catalogue du 825 et interfaces des montages H130/43 et H150/40 avant ajout au moteur. Aucun seuil de poids universel déduit des testeurs de 80–90 kg."
     },
     {
       "video_id": "DMlWjjIcwss",
@@ -199,7 +199,7 @@
       "evidence_url": "video-analysis/evidence.html",
       "integration": "documented",
       "failure": null,
-      "integration_reason": null
+      "integration_reason": "Vérification à effectuer par l’assistant : génération Halo, fiches 670/800 et interfaces des fuselages 56/63. Les avis communs restent non départagés et les repères 80/90 kg ne sont pas des seuils mesurés."
     },
     {
       "video_id": "3EObhbc9v-o",
