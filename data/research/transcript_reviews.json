@@ -693,6 +693,58 @@
       "integration": "deferred",
       "integration_reason": "Aucune parole technique exploitable : ne pas inférer la performance à partir du titre ou des paroles musicales. Aucun score ni règle ajoutés. Le titre ne suffit pas à prouver une expérience indépendante.",
       "claims": []
+    },
+    {
+      "video_id": "3B4fq8l_8HQ",
+      "model": "Foil Drive Fusion + Armstrong Integrated Mast / UHA 870",
+      "language_returned": "de",
+      "transcript_sha256": "da5169dc8c71168dfe64e6c901835753c26f15409e513cdaeac8be20604c9577",
+      "review_method": "Lecture complète des segments allemands retournés, musique exclue; sans contrôle audio, mesure ou validation humaine.",
+      "scope": "electric_assist_system_not_unassisted_foil_comparison",
+      "integration": "deferred",
+      "integration_reason": "Comparaison de système assisté, hors moteur wingfoil sans propulsion. UHA 870 identifiée mais aucune isolation de ses performances; ne pas créer une plage de vent, de poids ou une autonomie garantie.",
+      "claims": [
+        {
+          "start_s": 142.4,
+          "end_s": 185.5,
+          "dimension": "assist,weight",
+          "statement_fr": "Le testeur annonce environ 8 kg pour le système Fusion avant ajout du foil et de la planche, puis évoque un ensemble transporté de 16–18 kg.",
+          "limits": "Poids déclarés, non pesés par nous; composants exacts et batterie à confirmer, ne pas affecter ce poids au seul mât.",
+          "source_url": "https://www.youtube.com/watch?v=3B4fq8l_8HQ&t=142s"
+        },
+        {
+          "start_s": 204.1,
+          "end_s": 301.1,
+          "dimension": "assist,power_limits",
+          "statement_fr": "Le testeur apprécie une commande de puissance progressive mais aimerait davantage de réserve en haut de gâchette, notamment pour certains usages à partir de 90 kg.",
+          "limits": "Conseil qualitatif sur assistance électrique, pas seuil de poids du foil ou promesse de puissance mesurée.",
+          "source_url": "https://www.youtube.com/watch?v=3B4fq8l_8HQ&t=204s"
+        },
+        {
+          "start_s": 396.2,
+          "end_s": 486.4,
+          "dimension": "setup,glide",
+          "statement_fr": "Le montage testé associe l’Integrated Mast Armstrong à une UHA 870. Le testeur rapporte peu d’influence négative ressentie du boîtier et du moteur lors des virages et connexions.",
+          "limits": "Ressenti du système complet, aucune mesure de traînée; ne pas attribuer tout le résultat à l’UHA 870 ni généraliser au wing sans moteur.",
+          "source_url": "https://www.youtube.com/watch?v=3B4fq8l_8HQ&t=396s"
+        },
+        {
+          "start_s": 497.1,
+          "end_s": 569.7,
+          "dimension": "assist,endurance_limits",
+          "statement_fr": "Le testeur rapporte une session dépassant une heure dans ses conditions et reconnaît que durée, gabarit, technique, aile et conditions sont liés.",
+          "limits": "La promesse verbale d’au moins une heure sous 100 kg n’est pas retenue comme garantie : aucun protocole ou cycle batterie comparable.",
+          "source_url": "https://www.youtube.com/watch?v=3B4fq8l_8HQ&t=497s"
+        },
+        {
+          "start_s": 665.3,
+          "end_s": 800,
+          "dimension": "assist,compatibility_limits",
+          "statement_fr": "Le changement vers d’autres supports est décrit comme moins pratique sans câble supplémentaire; le testeur souhaite aussi une adaptation plus facile des rails à différentes planches.",
+          "limits": "Expérience du lot reçu, pas une validation de compatibilité universelle. Aucune procédure de modification électrique recommandée.",
+          "source_url": "https://www.youtube.com/watch?v=3B4fq8l_8HQ&t=665s"
+        }
+      ]
     }
   ]
 }
