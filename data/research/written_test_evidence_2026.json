@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-15",
+  "scope": "Comptes rendus d'essais écrits : wingfoil boards et front wings, 24 mois",
+  "publication_policy": "Claims attributed to named article and specific tested size only; no unverified scoring or extrapolation. No video transcriptions obtained.",
+  "source_independence": "Four reviews by Hadou / Pimpyourride constitute one editorial viewpoint, not four independent sources.",
+  "reviews": [
+    {
+      "id": "gaastra-move-800-1000-2026",
+      "category": "foil",
+      "brand": "Gaastra",
+      "model": "MOVE",
+      "publication_date": "2026-07-24",
+      "source_url": "https://www.pimpyourride.fr/test-gaastra-move-foil/",
+      "source_author": "Hadou",
+      "source_type": "first_person_written_review",
+      "sizes_tested": [
+        800,
+        1000
+      ],
+      "setup": "Mât carbone UHM 85 cm, stabilisateur 160 cm², fuselages 60 et 66 cm",
+      "wingfoil_relevant": true,
+      "claims": [
+        {
+          "size": 800,
+          "category": "takeoff",
+          "summary": "Le testeur décrit un décollage progressif et précoce, avec une bonne conservation de la vitesse en wingfoil.",
+          "limits": "Ressenti individuel; ailes et planches de test, poids du rider et vent exacts non standardisés."
+        },
+        {
+          "size": 1000,
+          "category": "takeoff",
+          "summary": "La 1000 porte davantage à basse vitesse et décolle plus tôt que la 800, mais atteint plus vite sa limite de vitesse de pointe.",
+          "limits": "Comparaison qualitative interne aux deux tailles; configurations à interpréter avec le stabilisateur 160."
+        },
+        {
+          "size": null,
+          "category": "control",
+          "summary": "Le testeur préfère le fuselage court avec stab 160 pour son équilibre entre contrôle en tangage et maniabilité; le long favorise la stabilité.",
+          "limits": "Montage et usage précis, pas de valeur universelle pour toutes les tailles."
+        }
+      ]
+    },
+    {
+      "id": "kparts-aros-2026",
+      "category": "foil",
+      "brand": "K-Parts",
+      "model": "AROS",
+      "publication_date": "2026-11-02",
+      "source_url": "https://www.pimpyourride.fr/k-parts-aros-foil-review-560-680-830-980/",
+      "source_author": "Hadou",
+      "source_type": "first_person_written_review",
+      "sizes_tested": [
+        560,
+        680,
+        830,
+        980
+      ],
+      "setup": "Gamme de mâts carbone UHM et stabilisateurs Mako Pro; détails à consulter dans l'essai source",
+      "wingfoil_relevant": true,
+      "claims": [
+        {
+          "size": null,
+          "category": "glide",
+          "summary": "Le testeur présente la gamme AROS comme orientée glisse, rendement et vitesse, notamment pour downwind, parawing et wingfoil freefly.",
+          "limits": "Positionnement décrit dans l'article; ne pas attribuer à chacune des tailles des mesures de performance non disponibles."
+        }
+      ]
+    },
+    {
+      "id": "slingshot-project-drag-62-2026",
+      "category": "board",
+      "brand": "Slingshot",
+      "model": "Project Drag",
+      "publication_date": "2026-10-22",
+      "source_url": "https://www.pimpyourride.fr/slingshot-project-drag-board/",
+      "source_author": "Hadou",
+      "source_type": "first_person_written_review",
+      "sizes_tested": [
+        62
+      ],
+      "size_unit": "L",
+      "setup": "Planche 62 L, programme wingfoil et parawing, rocker continu prononcé et carène arrondie",
+      "wingfoil_relevant": true,
+      "claims": [
+        {
+          "size": 62,
+          "category": "carving",
+          "summary": "Le testeur souligne la maniabilité et l'intérêt du shape pour le surf et la tolérance aux touchettes.",
+          "limits": "Observation sur la version 62 L; les effets de la carène n'impliquent pas une amélioration quantifiée de la plage basse."
+        }
+      ]
+    },
+    {
+      "id": "takoon-slide-hollow-70-2026",
+      "category": "board",
+      "brand": "Takoon",
+      "model": "Slide Hollow",
+      "publication_date": "2026-10-19",
+      "source_url": "https://www.pimpyourride.fr/takoon-slide-hollow/",
+      "source_author": "Hadou",
+      "source_type": "first_person_written_review",
+      "sizes_tested": [
+        70
+      ],
+      "size_unit": "L",
+      "setup": "Version creuse 70 L; comparée subjectivement à une version mousse 60 L (volumes différents)",
+      "wingfoil_relevant": true,
+      "claims": [
+        {
+          "size": 70,
+          "category": "takeoff",
+          "summary": "La board est décrite comme destinée au décollage précoce dans le vent léger et à la parawing, plutôt qu'aux sauts.",
+          "limits": "Programme et ressenti du testeur; ne pas comparer quantitativement avec la 60 L, de construction et de volume différents."
+        },
+        {
+          "size": 70,
+          "category": "construction",
+          "summary": "Le testeur signale la sensibilité aux impacts, le risque d'entrée d'eau sur construction creuse et l'attention nécessaire à la valve de décompression.",
+          "limits": "Constats de conception rapportés par l'essayeur, sans historique de durabilité à long terme."
+        },
+        {
+          "size": 70,
+          "category": "setup",
+          "summary": "Le testeur aurait souhaité pouvoir avancer le foil de 3 à 4 cm supplémentaires dans les rails pour son réglage personnel.",
+          "limits": "Préférence propre au montage, au gabarit du testeur et aux foils utilisés."
+        }
+      ]
+    }
+  ],
+  "all_videos_fully_watched": false,
+  "video_transcripts_acquired": 0,
+  "performance_scores_generated": 0
+}

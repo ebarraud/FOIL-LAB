@@ -1,0 +1,55 @@
+name: Discover written wingfoil equipment reviews
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 7 * * 1'
+  push:
+    branches: [main]
+    paths:
+      - 'video-analysis/discover_written.py'
+      - 'video-analysis/test_discover_written.py'
+      - '.github/workflows/discover-written-reviews.yml'
+permissions:
+  contents: read
+jobs:
+  written-review-discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test article discovery without network
+        run: python -m unittest discover -s video-analysis -p 'test_*.py' -v
+      - name: Discover wingfoil review articles from publisher RSS or public indexes
+        run: python video-analysis/discover_written.py --output video-index/written-review-leads.json
+      - name: Print source access transparently
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          f=Path('video-index/written-review-leads.json')
+          lines=['# FOIL LAB — essais écrits','']
+          if f.exists():
+              d=json.loads(f.read_text(encoding='utf-8'))
+              lines += [
+                  f"- Articles candidats : **{d['article_leads']}**",
+                  f"- Conclusions techniques créées automatiquement : **{d['technical_assertions_created']}**",
+                  "- Un article candidat n'est pas considéré comme un essai techniquement validé.",
+                  "",
+                  "## Accès aux sources"
+              ]
+              for entry in d["source_status"]:
+                  lines.append(f"- {entry['source']}: {entry['access']} — {len(entry['errors'])} erreur(s)")
+          else:
+              lines += ['Collecte non disponible : aucun inventaire produit.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as fh:
+              fh.write('\n'.join(lines)+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: foil-lab-written-review-leads
+          path: video-index/written-review-leads.json
+          retention-days: 14
