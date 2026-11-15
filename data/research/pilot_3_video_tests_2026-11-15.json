@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "campaign": "FOIL LAB — pilot technical review evidence",
+  "as_of": "2026-11-15",
+  "window_start": "2024-11-15",
+  "window_end": "2026-11-15",
+  "summary": {
+    "models": 3,
+    "video_urls_identified": 3,
+    "video_transcripts_obtained": 0,
+    "video_audio_processed": 0,
+    "videos_fully_watched": 0,
+    "editorial_written_reviews_inspected": 1,
+    "publisher_qa_inspected": 1,
+    "model_performance_scores_updated": 0
+  },
+  "publication_policy": "Distinguish video metadata from written first-person testing and responses to readers. Do not treat blog articles or comments as video transcript. All performance assertions require visible attributed provenance.",
+  "entries": [
+    {
+      "id": "afs-silk-v2",
+      "model": "AFS Silk V2",
+      "tested_sizes_cm2": [
+        650,
+        750,
+        950
+      ],
+      "date": "2026-10-13",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=DMlWjjIcwss",
+        "publisher": "Hadou / Pimpyourride",
+        "status": "video_identified_not_transcribed",
+        "transcript_acquired": false,
+        "fully_watched": false
+      },
+      "written_source": {
+        "url": "https://www.pimpyourride.fr/afs-silk-v2-foil-review/",
+        "publisher": "Pimpyourride (Hadou)",
+        "date": "2026-10-14",
+        "type": "first_person_longform_written_test",
+        "reviewed": true,
+        "independence_note": "Author states affinity for AFS; not independent of the associated video from the same reviewer."
+      },
+      "confidence": "attributed_first_person_experience_not_instrumented",
+      "setup": {
+        "mast": "AFS Skinny 80 (also experimented with 75 and 85)",
+        "fuselage": "Advanced (used throughout review)",
+        "stabilizers": [
+          "U-Carve 140 for wing",
+          "U-Surf 135 for low-speed surf foil"
+        ],
+        "notes": "Configuration varies by test and size; avoid conflating wing and surffoil observations."
+      },
+      "claims": [
+        {
+          "size_cm2": 750,
+          "dimension": "glide,pumping,carving",
+          "statement_fr": "Le testeur indique que la 750 V2 remplace avantageusement sa 850 V1 pour sa pratique : pumping moins exigeant, rail-to-rail fluide et glisse accrue.",
+          "source_type": "written_test",
+          "evidence_status": "attributed_not_corroborated",
+          "limitations": "Expérience subjective, comparaison entre générations; conditions non quantifiées."
+        },
+        {
+          "size_cm2": 950,
+          "dimension": "low_speed,stabilizer",
+          "statement_fr": "En surf foil, l'association 950/U-Surf 135 s'est montrée beaucoup plus tolérante à basse vitesse que l'essai initial avec U-Carve 130.",
+          "source_type": "written_test",
+          "evidence_status": "attributed_not_corroborated",
+          "limitations": "Contexte surffoil, à ne pas transposer automatiquement au wingfoil."
+        },
+        {
+          "size_cm2": 650,
+          "dimension": "carving,low_end",
+          "statement_fr": "Le testeur apprécie les virages plus courts et la capacité de conserver de l'énergie dans les petites bosses en wing; il conseille un recul du foil d'environ 2–3 cm dans les rails par rapport à la 750 dans son montage.",
+          "source_type": "written_test",
+          "evidence_status": "attributed_not_corroborated",
+          "limitations": "Réglage spécifique à sa board, son gabarit et son montage, non prescription universelle."
+        },
+        {
+          "size_cm2": null,
+          "dimension": "top_speed",
+          "statement_fr": "Le testeur juge la gamme Silk V2 orientée tolérance à basse vitesse plutôt que vitesse maximale; il rapporte qu'une Armstrong MA 690 lui a paru plus rapide lors d'une comparaison.",
+          "source_type": "written_test",
+          "evidence_status": "attributed_not_corroborated",
+          "limitations": "Pas de protocole chronométré ni mesure de vitesse fournis."
+        },
+        {
+          "size_cm2": null,
+          "dimension": "construction",
+          "statement_fr": "Le testeur relève des housses fines et certaines aspérités de finition malgré un tarif élevé.",
+          "source_type": "written_test",
+          "evidence_status": "attributed_not_corroborated",
+          "limitations": "Observations sur le matériel qu'il a reçu, non preuve de défaut systématique."
+        }
+      ]
+    },
+    {
+      "id": "duotone-glide-3-dlab-825",
+      "model": "Duotone Glide 3.0 D/LAB",
+      "tested_sizes_cm2": [
+        825
+      ],
+      "date": "2026-10-21",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=aiWA2W7hKos",
+        "publisher": "Gleiten.TV",
+        "status": "video_identified_not_transcribed",
+        "transcript_acquired": false,
+        "fully_watched": false
+      },
+      "written_source": {
+        "url": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+        "publisher": "Gleiten.TV",
+        "date": "2026-10-21",
+        "type": "publisher_answers_below_video",
+        "reviewed": true
+      },
+      "confidence": "publisher_qa_contextual_not_video_transcript",
+      "claims": [
+        {
+          "size_cm2": 1100,
+          "dimension": "glide,pumping",
+          "statement_fr": "En réponse à un pratiquant, l'équipe Gleiten.TV estime la glisse et le pumping excellents sur le 1100, mais suggère qu'il pourrait manquer de maniabilité pour ses attentes.",
+          "source_type": "publisher_qa",
+          "answer_date": "2026-10-23",
+          "evidence_status": "attributed_contextual",
+          "limitations": "Il s'agit d'un conseil à un pratiquant de 74 kg, pas d'une mesure ni d'un essai 1100 indépendant."
+        },
+        {
+          "size_cm2": 825,
+          "dimension": "model_selection",
+          "statement_fr": "L'équipe propose le 825 comme alternative ou complément au 1100 dans le cas discuté.",
+          "source_type": "publisher_qa",
+          "answer_date": "2026-10-23",
+          "evidence_status": "attributed_contextual",
+          "limitations": "Pas de plage de vent ni de seuil de poids validé pour le 825."
+        },
+        {
+          "size_cm2": 950,
+          "dimension": "comparison",
+          "statement_fr": "L'équipe rapproche les prestations du Glide 3.0 950 de celles de l'AFS Enduro 1100 et décrit le Glide comme plus sportif.",
+          "source_type": "publisher_qa",
+          "answer_date": "2026-11-01",
+          "evidence_status": "attributed_contextual",
+          "limitations": "Comparaison qualitative sans protocole instrumenté."
+        }
+      ]
+    },
+    {
+      "id": "kt-halo-670-800",
+      "model": "KT Halo",
+      "tested_sizes_cm2": [
+        670,
+        800
+      ],
+      "date": "2026-08-04",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=zesN5IeyRQM",
+        "publisher": "Gleiten.TV",
+        "status": "video_identified_not_transcribed",
+        "transcript_acquired": false,
+        "fully_watched": false
+      },
+      "written_source": {
+        "url": "https://gleiten.tv/foil/test/wingfoil/foil/",
+        "publisher": "Gleiten.TV",
+        "type": "dated_video_listing",
+        "reviewed": true,
+        "date": "2026-08-04"
+      },
+      "confidence": "metadata_only_no_performance_content",
+      "claims": [],
+      "missing": [
+        "exact_test_context",
+        "real_transcript",
+        "test_rider",
+        "mast",
+        "stabilizer",
+        "wind",
+        "technical_performance_observations"
+      ],
+      "notes": "The title and date confirm a candidate equipment test; the content is NOT available in the inspected sources, so no qualitative performance claim is generated."
+    }
+  ]
+}
