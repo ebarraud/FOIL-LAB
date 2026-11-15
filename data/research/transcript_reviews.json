@@ -608,6 +608,34 @@
           "source_url": "https://www.youtube.com/watch?v=fELF_qseo4g&t=573s"
         }
       ]
+    },
+    {
+      "video_id": "z8wP9_VnM-8",
+      "model": "Foil Attitude Early Bird 1690 — introduction seulement",
+      "language_returned": "fr",
+      "transcript_sha256": "43add0ea36e09057d1a19d5e5785d15c96afd8d77d2eb189f08f40c25ab6e53f",
+      "review_method": "Lecture de tous les segments disponibles (0–environ 40 s). Le cache s’arrête avant le générique et ne fournit pas le test sur l’eau. Aucun visionnage revendiqué.",
+      "scope": "intro_only_no_on_water_evidence",
+      "integration": "deferred",
+      "integration_reason": "Le texte reçu contient seulement l’introduction et les annonces de polyvalence. Aucun résultat d’essai du 1690 exploitable : rechercher une transcription plus complète avant toute règle de niveau, programme ou portance. Le 1950 n’est cité qu’en référence à un autre essai.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 16.9,
+          "dimension": "provenance,bias",
+          "statement_fr": "Le locuteur annonce l’Early Bird 1690 et déclare apprécier la marque ainsi que son origine normande.",
+          "limits": "Affinité explicitement déclarée; ceci identifie le sujet et le contexte, pas sa performance.",
+          "source_url": "https://www.youtube.com/watch?v=z8wP9_VnM-8&t=0s"
+        },
+        {
+          "start_s": 17.1,
+          "end_s": 39.5,
+          "dimension": "announced_program_not_test_result",
+          "statement_fr": "L’introduction annonce un positionnement évolutif et polyvalent, en distinguant le 1690 d’un 1950 essayé précédemment.",
+          "limits": "Annonce avant essai. Les promesses débutant à expert et toutes disciplines ne sont pas validées par les segments disponibles.",
+          "source_url": "https://www.youtube.com/watch?v=z8wP9_VnM-8&t=17s"
+        }
+      ]
     }
   ]
 }

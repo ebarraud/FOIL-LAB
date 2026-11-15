@@ -98,11 +98,11 @@
     },
     {
       "video_id": "z8wP9_VnM-8",
-      "status": "in_progress",
-      "step": "Contrôle de complétude Early Bird 1690 : texte limité à introduction",
+      "status": "completed",
+      "step": "Introduction seule : aucune preuve de performance, reprise de transcription nécessaire",
       "started_at_utc": "2026-11-15T20:47:45.075937+00:00",
-      "updated_at_utc": "2026-11-15T20:47:45.075937+00:00",
-      "expires_at_utc": "2026-11-15T21:07:45.075937+00:00"
+      "updated_at_utc": "2026-11-15T20:47:48.347823+00:00",
+      "expires_at_utc": "2026-11-15T21:07:48.347823+00:00"
     }
   ]
 }
