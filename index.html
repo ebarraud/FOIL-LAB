@@ -109,6 +109,8 @@ body[data-screen] .topline a.counter{font-size:12px}
 
 const $=id=>document.getElementById(id);
 const FOILS=[
+ {b:'Duotone',n:'Glide 3.0 D/LAB',sizes:[825],range:[2,3,4],tags:['glide','all'],ar:'≈12, constructeur',lift:1,transcriptConditional:true,quote:'Essai 825 : glisse et pumping appréciés; H130/43 et H150/40 comparés. Le choix du montage compte.',risk:'825 seule taille analysée ici. Surface retenue par estimation nominale, sans coefficient de portance mesuré. Testeurs 80–90 kg : ce n’est pas une plage de poids garantie. Éviter de choisir cette option pour des courbes très serrées.',src:'https://www.duotonesports.com/en/ch/products/duotone-front-wing-glide-3-0-d-lab-2027-42270-3842',e:'transcription + constructeur',weightAnchor:825},
+ {b:'KT',n:'Halo',sizes:[670,800],range:[3,4],tags:['surf','jump'],ar:'≈8, constructeur',lift:1,transcriptConditional:true,quote:'Essai 670/800 : conduite joueuse surf/freestyle, avec contrôle actif du tangage selon fuselage et stabilisateur.',risk:'Le fuselage court 56 cm demande davantage de guidage; le 63 cm avec stabilisateur 161 est décrit comme plus stable sur le 670. Les observations communes ne départagent pas les deux tailles. Estimation de surface nominale, pas plage basse mesurée.',src:'https://ktfoiling.com/foils/wings/halo/',e:'transcription + constructeur',weightAnchor:800},
  {b:'AFS',n:'Evo',sizes:[950,1250,1450,1650],range:[0,1],tags:['all','light'],ar:'7,5–8,1',lift:1,quote:'Confort et décollage progressif ; la stabilité prime sur la vitesse.',risk:'À dépasser lorsque vitesse, carve et surf deviennent prioritaires.',src:'https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026',e:'constructeur',weightAnchor:1650},
  {b:'AFS',n:'Enduro',sizes:[600,700,800,900,1000,1100,1300],range:[1,2,3,4],tags:['all','light','glide','surf'],ar:'11',lift:.93,quote:'Glisse, relance et freefly. À 75 kg, AFS situe le freeride vers 1000 et le freefly vers 900.',risk:'Allongement 11 : ne pas confondre efficacité et facilité d’initiation.',src:'https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026',e:'fabricant + retours',weightAnchor:1000},
  {b:'AFS',n:'Silk V2',sizes:[650,750,850,950,1050,1150],range:[2,3,4],tags:['surf','all'],ar:'9',lift:1.02,quote:'Carving progressif et maîtrise en courbe, testé aussi par Foiling Magazine.',risk:'Moins adapté qu’un véritable foil de glisse pour le downwind longue distance.',src:'https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/',e:'essai indépendant',weightAnchor:850},
@@ -197,6 +199,7 @@ function foilOptions(x){
  for(const f of FOILS){
   if(x.l<f.range[0] || x.l>f.range[f.range.length-1])continue;
   if(x.b!=='all'&&x.b!=='other'&&x.b!==f.b)continue;
+  if(f.transcriptConditional&&x.pr==='easy')continue;
   let target=base/f.lift;
   if(f.b==='AFS'&&f.n==='Enduro'&&x.l>=2){let reference=x.p==='surf'?900:1000; target=reference*x.w/75*(x.wind<12?1.12:x.wind>23?.88:1);}
   if(f.b==='AFS'&&f.n==='Silk V2'&&x.l>=2)target=750*x.w/75*(x.wind<12?1.15:x.wind>23?.88:1);
@@ -216,6 +219,7 @@ function foilOptions(x){
   if(x.b==='other')mismatch+=3;
   if(x.replace==='wing'&&x.b==='all')mismatch+=8;
   if(x.budget==='low'&&['Crest D/LAB','UHA','Silk V2'].includes(f.n))mismatch+=3;
+  if(f.transcriptConditional){evidence.reason='Option conditionnelle fondée sur les essais, sans note de performance. La surface vient de l’estimation générale du profil et reste à confirmer en essai; les autres tailles de la gamme ne sont pas extrapolées.';evidence.url=f.n==='Halo'?'https://www.youtube.com/watch?v=zesN5IeyRQM&t=251s':'https://www.youtube.com/watch?v=aiWA2W7hKos&t=473s';}
   options.push({f,size,loss:mismatch,evidence,why:`${f.quote} Taille ${size} cm² retenue pour ton profil (cible de famille ≈ ${Math.round(target/25)*25} cm²).`,caveat:f.risk+(evidence.caution?' '+evidence.caution:'')});
  }
  return options.sort((a,b)=>a.loss-b.loss).slice(0,3);
@@ -332,6 +336,8 @@ function kbMiniMarkup(f,size,isBoard){
  let e=rec?.entry||(isBoard?KB_BOARDS:KB_FOILS)[f.b+'|'+f.n];
  if(!e)return '';
  let tested=rec?.tested??e.tested.includes(size),conf=kbEffectiveConfidence(e,tested);return `<div class="kb-reco"><div class="kb-row"><b>Profil comportemental · base de connaissances</b>${kbConfMarkup(conf)}</div>${kbMetrics(e.q)}<div class="kb-tiny">${tested?'Cette taille a été essayée indépendamment.':e.i?'Essai indépendant sur d’autres tailles seulement.':'Pas d’essai indépendant vérifié pour cette famille.'} Notes éditoriales relatives à la famille, non mesures exactes de cette taille.</div></div>`}
+VERIFY['Duotone|Glide 3.0 D/LAB']={year:'Produit 2027 · essai 2026',aspect:'≈12',primary:'https://www.duotonesports.com/en/ch/products/duotone-front-wing-glide-3-0-d-lab-2027-42270-3842',independent:'https://www.youtube.com/watch?v=aiWA2W7hKos',confidence:'Avis attribué · montage à confirmer',system:'3BS+ annoncé par le constructeur; quatrième vis. Vérifier mât et tail par référence.',note:'H150/40 : départ légèrement plus tôt ressenti; H130/43 : préférence du testeur pour glisse/pumping. Ne pas isoler le seul effet du stabilisateur.'};
+VERIFY['KT|Halo']={year:'Gamme Halo actuelle · essai 2026',aspect:'≈8',primary:'https://ktfoiling.com/foils/wings/halo/',independent:'https://www.youtube.com/watch?v=zesN5IeyRQM',confidence:'Avis attribué · montage à confirmer',system:'Vérifier interfaces, fuselage, stabilisateur et cales KT; aucune compatibilité intermarque déduite.',note:'Choix du fuselage déterminant. Conserver de la vitesse et contrôler le tangage; les conseils 80/90 kg ne sont pas des seuils validés.'};
 const kbOriginalFoilMarkup=foilMarkup;
 foilMarkup=function(o,i,x){let html=kbOriginalFoilMarkup(o,i,x);return html.replace('</article>',kbMiniMarkup(o.f,o.size,false)+'</article>')};
 const kbOriginalBoardMarkup=boardMarkup;
@@ -500,7 +506,7 @@ fetch('./data/research/pilot_3_video_tests_2026-11-15.json',{cache:'no-cache'}).
  if(host){
   const panel=document.createElement('section');panel.className='tip';
   const title=document.createElement('h3');title.textContent='Essais vidéo par taille : AFS, Duotone et KT';panel.append(title);
-  const note=document.createElement('p');note.className='small';note.textContent='30 observations minutées issues de trois transcriptions. Choisissez une taille pour consulter les sensations, montages et limites. Duotone Glide 3.0 et KT Halo sont documentés ici ; ils ne sont pas ajoutés au classement faute de fiches catalogue complètes.';panel.append(note);
+  const note=document.createElement('p');note.className='small';note.textContent='30 observations minutées issues de trois transcriptions. Choisissez une taille pour consulter les sensations, montages et limites. Glide 825 et Halo 670/800 peuvent désormais être proposés sous conditions de niveau et de programme, sans notes numériques de performance.';panel.append(note);
   const select=document.createElement('select');select.setAttribute('aria-label','Consulter les observations vidéo par taille');
   const records=[];
   for(const e of d.entries)for(const size of e.tested_sizes_cm2){const o=document.createElement('option');o.value=String(records.length);o.textContent=e.model+' · '+size+' cm²';select.append(o);records.push({e,size})}

@@ -1,0 +1,8 @@
+{
+  "checked_on": "2026-11-15",
+  "scope": "Conditional engine candidates; nominal sizing heuristic, not measured lift. No performance scores assigned.",
+  "integrations": [
+    {"video_id":"aiWA2W7hKos","model":"Duotone Glide 3.0 D/LAB","sizes_cm2":[825],"manufacturer_url":"https://www.duotonesports.com/en/ch/products/duotone-front-wing-glide-3-0-d-lab-2027-42270-3842","verified":"Product 2027, sizes 600/700/825/950/1100 and 3BS+ connection stated by manufacturer. Only 825 supported in conditional engine from reviewed test.","rule":"Intermediate and above, allround or glide; excluded for ease priority. Surface selected by existing nominal heuristic, no calibrated lift coefficient. No guaranteed weight or wind range.","limits":"Manufacturer recommendations do not establish exact compatibility of every test tail. Check full assembly. 80–90 kg describes testers, not eligibility threshold."},
+    {"video_id":"zesN5IeyRQM","model":"KT Halo","sizes_cm2":[670,800],"manufacturer_url":"https://ktfoiling.com/foils/wings/halo/","verified":"Manufacturer confirms 550/670/800/950, surf/freestyle orientation and low-end versus speed tradeoff. Only tested 670/800 enter conditional engine.","rule":"Advanced and expert, surf or jump; excluded for ease priority and lightwind programme. Existing nominal sizing heuristic only. Short fuselage handling warning retained.","limits":"Shared observations do not establish separate measured performance by size; setup and shim compatibility require reference check. No extrapolated 80/90 kg selection threshold."}
+  ]
+}

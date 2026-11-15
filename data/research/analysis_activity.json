@@ -58,19 +58,19 @@
     },
     {
       "video_id": "aiWA2W7hKos",
-      "status": "in_progress",
-      "step": "Vérification constructeur Glide 3.0 et intégration des contraintes de programme",
+      "status": "completed",
+      "step": "Glide 825 ajouté comme option conditionnelle; millésime constructeur 2027 vérifié",
       "started_at_utc": "2026-11-15T19:52:31.505692+00:00",
-      "updated_at_utc": "2026-11-15T19:52:31.505692+00:00",
-      "expires_at_utc": "2026-11-15T20:12:31.505692+00:00"
+      "updated_at_utc": "2026-11-15T19:54:32.964664+00:00",
+      "expires_at_utc": "2026-11-15T20:14:32.964664+00:00"
     },
     {
       "video_id": "zesN5IeyRQM",
-      "status": "in_progress",
-      "step": "Vérification constructeur Halo et intégration des contraintes de montage",
+      "status": "completed",
+      "step": "Halo 670/800 ajoutés au moteur sous contraintes avancé, surf/saut et montage",
       "started_at_utc": "2026-11-15T19:52:31.672166+00:00",
-      "updated_at_utc": "2026-11-15T19:52:31.672166+00:00",
-      "expires_at_utc": "2026-11-15T20:12:31.672166+00:00"
+      "updated_at_utc": "2026-11-15T19:54:33.181391+00:00",
+      "expires_at_utc": "2026-11-15T20:14:33.181391+00:00"
     }
   ]
 }

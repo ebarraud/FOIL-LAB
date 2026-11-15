@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T19:52:31.725594+00:00",
+  "updated_at_utc": "2026-11-15T19:54:33.231173+00:00",
   "collection_updated_at_utc": "2026-11-15T19:04:52.347426+00:00",
   "retry_not_before_utc": "2026-11-15T20:00:00.347426+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -200,23 +200,22 @@
       "collection": "timed_transcript_received",
       "segments": 218,
       "keyword_candidates": 25,
-      "analysis": "in_progress",
+      "analysis": "interpreted",
       "claims": 8,
       "evidence_url": "video-analysis/evidence.html",
-      "integration": "documented",
+      "integration": "integrated",
       "failure": null,
-      "integration_reason": "Vérification à effectuer par l’assistant : génération Glide 3.0 D/LAB, fiche catalogue du 825 et interfaces des montages H130/43 et H150/40 avant ajout au moteur. Aucun seuil de poids universel déduit des testeurs de 80–90 kg.",
+      "integration_reason": "Option conditionnelle intégrée au moteur, fiche constructeur contrôlée. Estimation de surface non mesurée; montage complet à confirmer.",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
         "video_id": "aiWA2W7hKos",
-        "status": "in_progress",
-        "step": "Vérification constructeur Glide 3.0 et intégration des contraintes de programme",
+        "status": "completed",
+        "step": "Glide 825 ajouté comme option conditionnelle; millésime constructeur 2027 vérifié",
         "started_at_utc": "2026-11-15T19:52:31.505692+00:00",
-        "updated_at_utc": "2026-11-15T19:52:31.505692+00:00",
-        "expires_at_utc": "2026-11-15T20:12:31.505692+00:00"
-      },
-      "analysis_before_activity": "interpreted"
+        "updated_at_utc": "2026-11-15T19:54:32.964664+00:00",
+        "expires_at_utc": "2026-11-15T20:14:32.964664+00:00"
+      }
     },
     {
       "video_id": "DMlWjjIcwss",
@@ -464,23 +463,22 @@
       "collection": "timed_transcript_received",
       "segments": 236,
       "keyword_candidates": 14,
-      "analysis": "in_progress",
+      "analysis": "interpreted",
       "claims": 10,
       "evidence_url": "video-analysis/evidence.html",
-      "integration": "documented",
+      "integration": "integrated",
       "failure": null,
-      "integration_reason": "Vérification à effectuer par l’assistant : génération Halo, fiches 670/800 et interfaces des fuselages 56/63. Les avis communs restent non départagés et les repères 80/90 kg ne sont pas des seuils mesurés.",
+      "integration_reason": "Option conditionnelle intégrée au moteur, fiche constructeur contrôlée. Estimation de surface non mesurée; montage complet à confirmer.",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
         "video_id": "zesN5IeyRQM",
-        "status": "in_progress",
-        "step": "Vérification constructeur Halo et intégration des contraintes de montage",
+        "status": "completed",
+        "step": "Halo 670/800 ajoutés au moteur sous contraintes avancé, surf/saut et montage",
         "started_at_utc": "2026-11-15T19:52:31.672166+00:00",
-        "updated_at_utc": "2026-11-15T19:52:31.672166+00:00",
-        "expires_at_utc": "2026-11-15T20:12:31.672166+00:00"
-      },
-      "analysis_before_activity": "interpreted"
+        "updated_at_utc": "2026-11-15T19:54:33.181391+00:00",
+        "expires_at_utc": "2026-11-15T20:14:33.181391+00:00"
+      }
     },
     {
       "video_id": "3EObhbc9v-o",
@@ -2011,6 +2009,11 @@
     }
   ],
   "improvements": [
+    {
+      "title": "Glide 825 et Halo 670/800 : options conditionnelles",
+      "detail": "Glide pour glisse/allround à partir du niveau intermédiaire; Halo pour surf/saut avancé. Priorité facilité exclue. Fiches constructeur contrôlées, sans notes inventées ni plage de vent garantie.",
+      "commit": "main"
+    },
     {
       "title": "Silk V2 : préserver la facilité",
       "detail": "650 remplacée au minimum par 750 si priorité facilité ou niveau inférieur à 3. Précaution éditoriale, pas seuil mesuré.",

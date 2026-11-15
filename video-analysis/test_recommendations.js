@@ -22,3 +22,16 @@ assert.equal(sandbox.boardEvidenceAllows(85,{w:85,pr:'easy',start:'auto'}),true)
 assert.equal(sandbox.boardEvidenceAllows(78,{w:85,pr:'perf',start:'auto'}),true);
 assert.equal(sandbox.boardEvidenceAllows(78,{w:85,pr:'easy',start:'sinker'}),true);
 console.log('Board ease and explicit sinker checks passed');
+
+const families=source.slice(source.indexOf('const FOILS=['),source.indexOf('const BOARDS=[')).replace('const FOILS=','globalThis.FOILS=');
+vm.runInContext(families,sandbox);
+sandbox.foilTarget=()=>825;
+const glide={...profile,b:'Duotone',p:'glide',pr:'perf',l:2};
+assert.ok(sandbox.foilOptions(glide).some(o=>o.f.n==='Glide 3.0 D/LAB'&&o.size===825));
+assert.ok(!sandbox.foilOptions({...glide,pr:'easy'}).some(o=>o.f.n==='Glide 3.0 D/LAB'));
+sandbox.foilTarget=()=>800;
+const halo={...profile,b:'KT',p:'jump',pr:'perf',l:3};
+assert.ok(sandbox.foilOptions(halo).some(o=>o.f.n==='Halo'&&o.size===800));
+assert.ok(!sandbox.foilOptions({...halo,l:1}).some(o=>o.f.n==='Halo'));
+assert.ok(!sandbox.foilOptions({...halo,p:'light'}).some(o=>o.f.n==='Halo'));
+console.log('Glide and Halo conditional recommendation checks passed');

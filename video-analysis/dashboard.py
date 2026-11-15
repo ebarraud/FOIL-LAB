@@ -43,6 +43,12 @@ def build(root=Path('.')):
         if len(vid)!=11:continue
         records.setdefault(vid,{'video_id':vid,'title':row['title'],'language':row.get('language'),'collection':'new','analysis':'needs_qualification','integration':'pending','claims':0,'discovered_on':row.get('published_on')})
     videos=list(records.values())
+    integrations=load(root/'data/research/conditional_integrations.json',{}).get('integrations',[])
+    integrated_ids={i['video_id'] for i in integrations}
+    for video in videos:
+        if video['video_id'] in integrated_ids:
+            video['integration']='integrated'
+            video['integration_reason']='Option conditionnelle intégrée au moteur, fiche constructeur contrôlée. Estimation de surface non mesurée; montage complet à confirmer.'
     publishers=load(root/'data/research/video_publishers.json',{})
     for row in load(discovery,{}).get('videos',[]):
         vid=row.get('url','').split('v=')[-1].split('&')[0]
@@ -70,6 +76,7 @@ def build(root=Path('.')):
       'analysis_schedule':'Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.',
       'monitored_publishers':load(root/'data/research/monitored_publishers.json',{}).get('publishers',[]),
       'videos':videos,'improvements':[
+       {'title':'Glide 825 et Halo 670/800 : options conditionnelles','detail':'Glide pour glisse/allround à partir du niveau intermédiaire; Halo pour surf/saut avancé. Priorité facilité exclue. Fiches constructeur contrôlées, sans notes inventées ni plage de vent garantie.','commit':'main'},
        {'title':'Silk V2 : préserver la facilité','detail':'650 remplacée au minimum par 750 si priorité facilité ou niveau inférieur à 3. Précaution éditoriale, pas seuil mesuré.','video_id':'DMlWjjIcwss','commit':'fd8287a'},
        {'title':'Planche : éviter un sinker implicite','detail':'Priorité facilité : volume inférieur au poids écarté, sauf départ sinker explicite. Ne garantit pas la stabilité.','video_id':'NTOAhBM2Wms','commit':'ca659d2'},
        {'title':'Preuves consultables par taille','detail':'30 observations pilotes minutées dans le configurateur, limites et montages visibles.','commit':'549ef77'}]}
