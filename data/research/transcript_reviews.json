@@ -682,6 +682,17 @@
           "source_url": "https://www.youtube.com/watch?v=_jPvuDQISaA&t=196s"
         }
       ]
+    },
+    {
+      "video_id": "R-__gkwwY_I",
+      "model": "GONG HIPE First — short musical",
+      "language_returned": "en-US",
+      "transcript_sha256": "f917a70d9815689d4cff50a64aacf1d89f4429b1c7f605f1bb2cd8008876c6d0",
+      "review_method": "Lecture de tous les segments disponibles (environ 0–32 s), sans contrôle vidéo. Le texte contient uniquement de la musique, aucune observation technique.",
+      "scope": "music_only_no_technical_speech",
+      "integration": "deferred",
+      "integration_reason": "Aucune parole technique exploitable : ne pas inférer la performance à partir du titre ou des paroles musicales. Aucun score ni règle ajoutés. Le titre ne suffit pas à prouver une expérience indépendante.",
+      "claims": []
     }
   ]
 }

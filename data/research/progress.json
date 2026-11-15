@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T21:17:42.065359+00:00",
+  "updated_at_utc": "2026-11-15T21:17:45.351937+00:00",
   "collection_updated_at_utc": "2026-11-15T21:05:13.133970+00:00",
   "retry_not_before_utc": "2026-11-15T22:00:00.133970+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -665,23 +665,22 @@
       "collection": "timed_transcript_received",
       "segments": 11,
       "keyword_candidates": 1,
-      "analysis": "in_progress",
+      "analysis": "interpreted",
       "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Aucune parole technique exploitable : ne pas inférer la performance à partir du titre ou des paroles musicales. Aucun score ni règle ajoutés. Le titre ne suffit pas à prouver une expérience indépendante.",
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": {
         "video_id": "R-__gkwwY_I",
-        "status": "in_progress",
-        "step": "Contrôle du texte HIPE First Short : musique seule, aucune parole technique",
+        "status": "completed",
+        "step": "Contrôle terminé : zéro observation technique, contenu musical uniquement",
         "started_at_utc": "2026-11-15T21:17:42.016522+00:00",
-        "updated_at_utc": "2026-11-15T21:17:42.016522+00:00",
-        "expires_at_utc": "2026-11-15T21:37:42.016522+00:00"
-      },
-      "analysis_before_activity": "queued"
+        "updated_at_utc": "2026-11-15T21:17:45.294827+00:00",
+        "expires_at_utc": "2026-11-15T21:37:45.294827+00:00"
+      }
     },
     {
       "video_id": "3OIRoNWHne0",

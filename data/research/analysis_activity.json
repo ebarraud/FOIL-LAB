@@ -114,11 +114,11 @@
     },
     {
       "video_id": "R-__gkwwY_I",
-      "status": "in_progress",
-      "step": "Contrôle du texte HIPE First Short : musique seule, aucune parole technique",
+      "status": "completed",
+      "step": "Contrôle terminé : zéro observation technique, contenu musical uniquement",
       "started_at_utc": "2026-11-15T21:17:42.016522+00:00",
-      "updated_at_utc": "2026-11-15T21:17:42.016522+00:00",
-      "expires_at_utc": "2026-11-15T21:37:42.016522+00:00"
+      "updated_at_utc": "2026-11-15T21:17:45.294827+00:00",
+      "expires_at_utc": "2026-11-15T21:37:45.294827+00:00"
     }
   ]
 }
