@@ -20,13 +20,18 @@ def build(root=Path('.')):
         analyses[vid]={'claims':len(claims),'url':'video-analysis/evidence.html','audio_verified':False}
     board=load(root/'data/research/board_transcript_observations_2026-11-15.json',{})
     if board.get('claims'): analyses['NTOAhBM2Wms']={'claims':len(board['claims']),'url':'data/research/board_transcript_observations_2026-11-15.json','audio_verified':False}
+    reviews=load(root/'data/research/transcript_reviews.json',{}).get('reviews',[])
+    review_by_id={r['video_id']:r for r in reviews}
+    for review in reviews:
+        analyses[review['video_id']]={'claims':len(review['claims']),'url':'data/research/transcript_reviews.json','audio_verified':False}
     for r in source:
         vid=r['video_id']; a=analyses.get(vid)
         records[vid]={'video_id':vid,'title':r['title'],'language':r.get('language'),'collection':r['status'],'segments':r.get('segment_count'),
           'keyword_candidates':r.get('candidate_count'), 'analysis':'interpreted' if a else 'queued' if r['status']=='timed_transcript_received' else 'awaiting_transcript',
           'claims':a['claims'] if a else 0,'evidence_url':a['url'] if a else None,
           'integration':'integrated' if vid in ('DMlWjjIcwss','NTOAhBM2Wms') else 'documented' if a else 'pending',
-          'failure':r.get('last_retry',{}).get('http_status',r.get('failure_type'))}
+          'failure':r.get('last_retry',{}).get('http_status',r.get('failure_type')),
+          'integration_reason':review_by_id.get(vid,{}).get('integration_reason')}
     # Merge newly discovered references without losing processed records.
     discovery=root/'video-index/youtube-details.json'
     if not discovery.exists(): discovery=root/'video-index/youtube.json'

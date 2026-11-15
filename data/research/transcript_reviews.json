@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "reviews": [
+    {
+      "video_id": "wrBJfakowLs",
+      "model": "North Sonar SF 930",
+      "size_cm2": 930,
+      "language_returned": "en-US",
+      "language_note": "Texte anglais retourné pour un essai Gleiten.TV; traduction probable. Original allemand et audio non vérifiés.",
+      "transcript_sha256": "1fbab3604e85bea04c7f91648fb6552209fb95cc2b6f04795f0a741ea515c14f",
+      "review_method": "Lecture de tous les segments du cache local, paraphrase par assistant; pas de contrôle audio.",
+      "integration": "deferred",
+      "integration_reason": "Modèle absent du catalogue moteur; compléter génération, tailles et interfaces avant classement. Traduction fortement déformée : aucune règle automatique de poids ou de stabilisateur déduite.",
+      "setup": "SF930, mât UHM 85 cm déclaré, stabilisateur Glide 122 comparé à Surf 185/215. Longueur du fuselage rendue 65mm dans la traduction : non normalisée comme fait vérifié.",
+      "claims": [
+        {"start_s":225,"end_s":278.69,"dimension":"takeoff,setup","statement_fr":"Le testeur rapporte un décollage dépendant du stabilisateur : à 90 kg dans le vent léger, le petit stabilisateur demande du pumping; un stabilisateur Surf plus grand facilite la mise en vol.","limits":"90 kg est un cas décrit, pas une plage de poids validée. Vent et vitesse non mesurés; taille Surf exacte non isolée à cet endroit."},
+        {"start_s":300.53,"end_s":340.7,"dimension":"control,setup","statement_fr":"Avec le petit stabilisateur, le testeur décrit un ensemble stable mais demandant un guidage actif en tangage. Il oriente la recherche de stabilité vers les stabilisateurs recommandés plus grands.","limits":"Traduction déformée et appréciation subjective; stabilité non quantifiée et configuration exacte à confirmer."},
+        {"start_s":446.4,"end_s":470.49,"dimension":"glide,pumping","statement_fr":"Le testeur apprécie la glisse et la relance au pumping avec le petit stabilisateur.","limits":"Aucune distance, dépense énergétique ou comparaison appariée; ne pas attribuer le résultat à la seule aile avant."},
+        {"start_s":479.86,"end_s":517.48,"dimension":"freestyle,limits","statement_fr":"Les sauts ordinaires restent possibles selon le testeur, mais il préfère la série MR pour cet usage et relève un léger délai de reprise lorsque la réception est imparfaite.","limits":"Taille MR non précisée; aucun classement chiffré ni généralisation à toutes les réceptions."},
+        {"start_s":530.89,"end_s":586.49,"dimension":"surf,control,setup","statement_fr":"Dans les vagues, le Glide 122 favorise selon le testeur une conduite agile et sportive, avec plus de contrôle en tangage à fournir qu'avec les Surf 185/215.","limits":"Observation sur le montage complet du SF930; ne prouve ni compatibilité intergénération ni niveau minimum universel."}
+      ]
+    }
+  ]
+}

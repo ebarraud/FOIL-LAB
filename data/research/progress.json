@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T18:14:08.275815+00:00",
+  "updated_at_utc": "2026-11-15T18:17:57.388017+00:00",
   "collection_updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
   "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -16,7 +16,8 @@
       "claims": 8,
       "evidence_url": "video-analysis/evidence.html",
       "integration": "documented",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "DMlWjjIcwss",
@@ -29,7 +30,8 @@
       "claims": 12,
       "evidence_url": "video-analysis/evidence.html",
       "integration": "integrated",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "aZFCW3ms_oU",
@@ -42,7 +44,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "F6BXfqM05yo",
@@ -55,7 +58,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "pPXyFWHSd-U",
@@ -68,7 +72,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "z8wP9_VnM-8",
@@ -81,7 +86,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "kHYxyUyU4qY",
@@ -94,7 +100,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "ZWb49kOlXpo",
@@ -107,7 +114,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "o-piLekjAHk",
@@ -120,7 +128,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "fELF_qseo4g",
@@ -133,7 +142,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "Bb0Nr-RXZlk",
@@ -146,7 +156,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "PkWvig5XIJ0",
@@ -159,7 +170,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "NTOAhBM2Wms",
@@ -172,7 +184,8 @@
       "claims": 3,
       "evidence_url": "data/research/board_transcript_observations_2026-11-15.json",
       "integration": "integrated",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "zesN5IeyRQM",
@@ -185,7 +198,8 @@
       "claims": 10,
       "evidence_url": "video-analysis/evidence.html",
       "integration": "documented",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "3EObhbc9v-o",
@@ -198,7 +212,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "V5rMLxpKDsg",
@@ -211,7 +226,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "FJsdHDBPLJY",
@@ -224,7 +240,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "eRK72ouHjeM",
@@ -237,7 +254,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "wrBJfakowLs",
@@ -246,11 +264,12 @@
       "collection": "timed_transcript_received",
       "segments": 199,
       "keyword_candidates": 37,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
-      "failure": null
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
+      "failure": null,
+      "integration_reason": "Modèle absent du catalogue moteur; compléter génération, tailles et interfaces avant classement. Traduction fortement déformée : aucune règle automatique de poids ou de stabilisateur déduite."
     },
     {
       "video_id": "Oaw3GuMOTb0",
@@ -263,7 +282,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "oj8HfuYygDw",
@@ -276,7 +296,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "_jPvuDQISaA",
@@ -289,7 +310,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "R-__gkwwY_I",
@@ -302,7 +324,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "3OIRoNWHne0",
@@ -315,7 +338,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "WgDFirFuKOA",
@@ -328,7 +352,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "yL-WLJABq_U",
@@ -341,7 +366,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "mtwBUIwCP3Q",
@@ -354,7 +380,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "wIPR7DOgKqQ",
@@ -367,7 +394,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "oNue1Vm0nWA",
@@ -380,7 +408,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "FklAiCI22lU",
@@ -393,7 +422,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "xrEGIa5cgdQ",
@@ -406,7 +436,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "viZUrrOCL6E",
@@ -419,7 +450,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": null
+      "failure": null,
+      "integration_reason": null
     },
     {
       "video_id": "3B4fq8l_8HQ",
@@ -432,7 +464,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": 429
+      "failure": 429,
+      "integration_reason": null
     },
     {
       "video_id": "96bNahQGX54",
@@ -445,7 +478,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "MnZAlmqfiOo",
@@ -458,7 +492,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "rVRUSW09BD4",
@@ -471,7 +506,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "P2kF4cHQEZ4",
@@ -484,7 +520,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "2rLx3Ayw9oE",
@@ -497,7 +534,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "JznK2j6Hi7k",
@@ -510,7 +548,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "Zo1awVlnOJQ",
@@ -523,7 +562,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "e3C_ZnGsEJc",
@@ -536,7 +576,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "RRHYwIpkENs",
@@ -549,7 +590,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "Hzyr_W_mJ1I",
@@ -562,7 +604,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "voesArm8I1I",
@@ -575,7 +618,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "93t-YEPyyhc",
@@ -588,7 +632,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "bN_utLvFrck",
@@ -601,7 +646,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "QepHH2KIVOY",
@@ -614,7 +660,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "-6Dnjt6GTqk",
@@ -627,7 +674,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "9m8STJfQOgE",
@@ -640,7 +688,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "l7pHqjOD_Qw",
@@ -653,7 +702,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "xpGSWpujoP0",
@@ -666,7 +716,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "HFd3tbogjio",
@@ -679,7 +730,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "egezrffjqPk",
@@ -692,7 +744,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "4znqnlzx0Dg",
@@ -705,7 +758,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "lrW4o4H05tI",
@@ -718,7 +772,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "qJ2aiAZ4XBY",
@@ -731,7 +786,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "ZjdijAoaFQo",
@@ -744,7 +800,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "5kRFfdnDyKI",
@@ -757,7 +814,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "fnhdMRiW3h4",
@@ -770,7 +828,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "pHJ6b-JRCLg",
@@ -783,7 +842,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "bPKyMCmDJ4w",
@@ -796,7 +856,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "5XCKmaXA9AY",
@@ -809,7 +870,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "laeIus1pFX4",
@@ -822,7 +884,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "DRUsTI54DDc",
@@ -835,7 +898,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "htCy_cztRcs",
@@ -848,7 +912,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "Ih5W_610mgo",
@@ -861,7 +926,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "7ZPSmL8rvaM",
@@ -874,7 +940,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "v6Jo8tO5Fq4",
@@ -887,7 +954,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "a-azQlLJlck",
@@ -900,7 +968,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "DJGIn4BwfEw",
@@ -913,7 +982,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "TdL2YcSYd1Q",
@@ -926,7 +996,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "qf2LA6Dw4QI",
@@ -939,7 +1010,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "1ywHqQRbrRY",
@@ -952,7 +1024,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "ZEsZKUqHyxE",
@@ -965,7 +1038,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "pvcTK70LaBQ",
@@ -978,7 +1052,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "ut8lby8-QrA",
@@ -991,7 +1066,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "I5UIZAT93qo",
@@ -1004,7 +1080,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "dOe3pEHakgE",
@@ -1017,7 +1094,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "K6UxTGgPgEo",
@@ -1030,7 +1108,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "92HaHWul324",
@@ -1043,7 +1122,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "RxkvTwobKGE",
@@ -1056,7 +1136,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "S2boM4B8en8",
@@ -1069,7 +1150,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "YF448nI7QHM",
@@ -1082,7 +1164,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "vqFSdEKOfFM",
@@ -1095,7 +1178,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "AIA666962GA",
@@ -1108,7 +1192,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "-1fBIIm8fpE",
@@ -1121,7 +1206,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "BsQoom43YEk",
@@ -1134,7 +1220,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "5HwPFspBteM",
@@ -1147,7 +1234,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "1YrgtfKV2kI",
@@ -1160,7 +1248,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "vqjLdNT4urA",
@@ -1173,7 +1262,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "_W2HhY4gySA",
@@ -1186,7 +1276,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "NXVH9H10YfM",
@@ -1199,7 +1290,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "E1hchZJjKAo",
@@ -1212,7 +1304,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "9G1mKOnFgxA",
@@ -1225,7 +1318,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "OJvTA8lXmDg",
@@ -1238,7 +1332,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "qIjC5-sJSro",
@@ -1251,7 +1346,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "p57zbjrPPY4",
@@ -1264,7 +1360,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "bw6RziEZQm8",
@@ -1277,7 +1374,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "9U1SMtSmTNE",
@@ -1290,7 +1388,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "rLYd4DMS3mw",
@@ -1303,7 +1402,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "xB5QMIjU6Ps",
@@ -1316,7 +1416,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "DQqbVduXDwA",
@@ -1329,7 +1430,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     },
     {
       "video_id": "F_kPaA7RGac",
@@ -1342,7 +1444,8 @@
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
-      "failure": "HTTPError"
+      "failure": "HTTPError",
+      "integration_reason": null
     }
   ],
   "improvements": [
