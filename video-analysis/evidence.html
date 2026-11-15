@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FOIL LAB — Preuves d'essais</title>
+<style>
+:root{color-scheme:dark;--bg:#07131b;--panel:#102630;--edge:#31535c;--fg:#ebf9f8;--sub:#b0c4cb;--mint:#70e1c8;--warn:#ebca88}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,Arial,sans-serif;padding:18px 13px 60px}main{max-width:920px;margin:auto}a{color:var(--mint)}h1{font-size:clamp(29px,6vw,45px);line-height:1.05;margin:12px 0}h2{font-size:21px;margin:0 0 8px}.kicker{color:var(--mint);letter-spacing:2px;font-weight:800;font-size:12px}.muted{color:var(--sub)}.panel{border:1px solid var(--edge);background:var(--panel);border-radius:16px;padding:18px;margin:14px 0}.warning{border-left:4px solid var(--warn);padding:12px 14px;background:#31291d;border-radius:7px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}.fact{padding:12px;background:#0d222c;border-radius:10px;text-align:center}.fact strong{font-size:23px;display:block}.fact span{font-size:12px;color:var(--sub)}select{width:100%;background:#0c222d;color:var(--fg);border:1px solid #59737d;padding:13px;font:inherit;border-radius:10px}.source{display:flex;gap:10px;flex-wrap:wrap;font-size:14px;margin-top:12px}.claim{border-top:1px solid var(--edge);padding:15px 0}.claim:first-child{border-top:0}.pill{font-size:11px;border-radius:20px;background:#21433f;color:#adf5e5;padding:3px 8px;display:inline-block;margin-right:5px}.low{color:var(--warn)}.subtitle{font-size:13px;color:var(--sub)}.empty{padding:18px;color:var(--warn);border:1px dashed var(--edge);border-radius:10px}.status{display:inline-block;padding:3px 9px;border:1px solid var(--edge);border-radius:30px;font-size:12px}.claim p{margin:8px 0}
+@media(max-width:380px){.panel{padding:13px}.facts{gap:4px}.fact{padding:8px}.fact strong{font-size:19px}}
+</style></head>
+<body><main><div class="kicker">FOIL LAB EXPERT · PREUVES TECHNIQUES</div>
+<h1>Les essais, sans inventer les conclusions.</h1>
+<p class="muted">Ce registre distingue les observations écrites des testeurs, leurs réponses aux lecteurs, les simples fiches vidéo et les transcriptions réellement analysées.</p>
+<div class="facts"><div class="fact"><strong id="models">–</strong><span>Modèles</span></div><div class="fact"><strong id="claims">–</strong><span>Observations</span></div><div class="fact"><strong id="transcripts">–</strong><span>Transcriptions</span></div></div>
+<p class="warning"><strong>Attention :</strong> aucune de ces trois vidéos n'a été intégralement visionnée ou transcrite. Les observations proviennent de textes publiés par les auteurs et sont attribuées à la taille et à l'usage concernés. Aucune note du configurateur n'a été modifiée.</p>
+<section class="panel"><label for="model"><strong>Choisir un modèle de foil</strong></label><select id="model" aria-label="Choisir un modèle"><option value="">Chargement…</option></select></section>
+<div id="records" role="region" aria-live="polite"></div>
+<p class="subtitle">Les propos sont reformulés brièvement et accompagnés du lien vers leur source primaire. Les comparaisons d'usages différents (surf foil, wingfoil) ne sont pas assimilées.</p>
+<p><a href="review.html">Importer une transcription réelle</a> · <a href="../index.html">Retour au configurateur</a></p></main>
+<script>
+'use strict';
+const $=(id)=>document.getElementById(id);
+let data=null;
+function el(name,text,cls){const x=document.createElement(name);if(text!==undefined)x.textContent=String(text);if(cls)x.className=cls;return x}
+function link(url,label){const a=el('a',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}
+function render(){
+ const entry=data.entries.find(e=>e.id===$('model').value);const root=$('records');root.replaceChildren();
+ if(!entry)return;
+ const card=el('section');card.className='panel';
+ card.append(el('h2',entry.model));
+ const label=el('p','Tailles identifiées : '+entry.tested_sizes_cm2.join(' / ')+' cm²','muted');card.append(label);
+ card.append(el('p','Niveau de preuve : '+(entry.confidence||'non précisé'),'subtitle'));
+ const sources=el('div');sources.className='source';
+ sources.append(link(entry.video.url,'Vidéo YouTube (non transcrite)'));
+ if(entry.written_source?.url)sources.append(link(entry.written_source.url,'Source écrite / réponses de l’auteur'));
+ card.append(sources);
+ if(!entry.claims.length){
+  card.append(el('p','Aucune conclusion technique attribuable au testeur dans les sources contrôlées. Le nom, les tailles et le lien de la vidéo sont néanmoins répertoriés.','empty'));
+ }else{
+  for(const c of entry.claims){
+   const item=el('article');item.className='claim';
+   const size=el('span',c.size_cm2?c.size_cm2+' cm²':'Gamme / non spécifique à une taille','pill');
+   const type=el('span',c.source_type==='publisher_qa'?'Réponse du testeur':'Essai écrit','pill');
+   item.append(size,type);
+   item.append(el('p',c.statement_fr));
+   item.append(el('p','Limites : '+c.limitations,'subtitle'));
+   card.append(item);
+  }
+ }
+ root.append(card);
+}
+fetch('../data/research/pilot_3_video_tests_2026-11-15.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{
+ data=d;
+ $('models').textContent=d.summary.models;
+ $('claims').textContent=d.entries.reduce((n,e)=>n+e.claims.length,0);
+ $('transcripts').textContent=d.summary.video_transcripts_obtained;
+ $('model').replaceChildren();
+ for(const entry of d.entries){const o=el('option',entry.model);o.value=entry.id;$('model').append(o)}
+ $('model').addEventListener('change',render);render();
+}).catch(err=>{$('records').append(el('p','Impossible de charger les preuves : '+err.message,'empty'));$('model').replaceChildren()});
+</script></body></html>
