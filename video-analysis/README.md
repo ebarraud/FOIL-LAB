@@ -68,3 +68,35 @@ Le rapport [Pilote de trois essais](../research/PILOTE_3_TESTS_VIDEO_2026-11-15.
 4. Cliquer **Analyser les passages** puis vérifier la taille du foil réellement testée, le sens des comparaisons, les négations et le contexte. Exporter ensuite le JSON des passages candidats ; aucune note n'est ajoutée automatiquement.
 
 Le script local `analyze.py` accepte aussi `--subtitles ./transcription-horodatee.txt` et renseigne `transcript_format=youtube_timestamped_copy`. Il **n'invente jamais la durée du dernier passage** et ne télécharge aucun média.
+
+
+## Chaîne locale audio autorisé → Whisper → observations horodatées
+
+Le script `video-analysis/transcribe_local.py` traite **uniquement** un fichier audio ou vidéo déjà présent localement, et seulement après confirmation que son traitement est autorisé. Il ne télécharge aucune vidéo de YouTube ou Gleiten.TV. L'ASR peut être imprécise : son résultat est à vérifier avant attribution d'une observation.
+
+Installation sur un ordinateur disposant de Python 3.12 et, selon le format, de FFmpeg :
+
+```bash
+python -m pip install faster-whisper
+```
+
+Exemple avec une **copie audio fournie avec autorisation** pour le test AFS Silk V2 :
+
+```bash
+python video-analysis/transcribe_local.py \
+  --audio ./media-autorise/afs-silk-v2.m4a \
+  --language fr \
+  --video-id youtube-DMlWjjIcwss \
+  --video-title "AFS Silk V2 650/750/950" \
+  --video-url "https://www.youtube.com/watch?v=DMlWjjIcwss" \
+  --publisher "Pimpyourride" \
+  --confirm-media-rights
+```
+
+Deux sorties locales non versionnées sont produites sous `video-analysis/local-results/` : un SRT horodaté, et un JSON contenant les passages techniques détectés, un hash de l'audio, la provenance et le statut de validation. **Le système ne génère aucune note automatique.** Cette procédure fonctionne également pour le Duotone et le KT, à condition de disposer du média dans des conditions autorisées.
+
+## Registre public des preuves
+
+La page [evidence.html](evidence.html) lit directement le JSON source du pilote et distingue observations écrites, réponses d'auteurs et fiches vidéo sans contenu technique. Le lien public est https://ebarraud.github.io/FOIL-LAB/video-analysis/evidence.html. Elle permet de consulter les trois modèles et les tailles exactes sans confondre observations vérifiées et analyses vidéo intégrales.
+
+**État du pilote du 15/11/2026 : aucune transcription réellement acquise pour ces trois vidéos.** La transcription automatisée nécessite encore un fichier média autorisé ou une transcription publique exploitable. Les tests GitHub simulent des segments audio injectés et valident la chaîne logicielle, pas la disponibilité d'une vidéo tierce.
