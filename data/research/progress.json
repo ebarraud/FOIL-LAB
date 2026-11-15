@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T18:45:07.572248+00:00",
+  "updated_at_utc": "2026-11-15T18:47:22.058089+00:00",
   "collection_updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
   "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -46,7 +46,7 @@
       "collection": "timed_transcript_received",
       "segments": 181,
       "keyword_candidates": 5,
-      "analysis": "queued",
+      "analysis": "in_progress",
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
@@ -54,7 +54,15 @@
       "integration_reason": null,
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
-      "activity": null
+      "activity": {
+        "video_id": "aZFCW3ms_oU",
+        "status": "in_progress",
+        "step": "Lecture complète du retour GONG HIPE First et vérification des limites de durabilité",
+        "started_at_utc": "2026-11-15T18:47:22.025343+00:00",
+        "updated_at_utc": "2026-11-15T18:47:22.025343+00:00",
+        "expires_at_utc": "2026-11-15T19:07:22.025343+00:00"
+      },
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "F6BXfqM05yo",
