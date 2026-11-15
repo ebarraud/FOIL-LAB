@@ -38,7 +38,6 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python video-analysis/discover.py --sources youtube --youtube-pages 1 --output video-index/youtube.json
       - name: Print inventory and access status (no false success)
-        
         run: |
           python - <<'PY'
           import json
@@ -48,6 +47,38 @@ jobs:
               print(path.name,'discovered:',d['discovered'],
                     'unconfirmed dates:',d['unknown_or_unconfirmed_dates'],
                     'source status:',d['report'])
+          PY
+      - name: Publish a readable discovery status summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          files = sorted(Path('video-index').glob('*.json'))
+          lines = [
+              '# FOIL LAB — résultat de la collecte vidéo',
+              '',
+              'Un job GitHub **réussi** signifie que le programme a terminé, pas que des vidéos ont été trouvées.',
+              '',
+              '| Source | Vidéos découvertes | État |',
+              '|---|---:|---|'
+          ]
+          for path in files:
+              data = json.loads(path.read_text(encoding='utf-8'))
+              status = data.get('report', {})
+              if path.stem == 'youtube':
+                  detail = status.get('youtube', {}).get('status', 'unknown')
+              else:
+                  groups = status.get('gleiten', {})
+                  errors = sum(len(x.get('errors', [])) for x in groups.values())
+                  detail = f'{errors} erreur(s) d’accès' if errors else 'consultation terminée'
+              lines.append(f"| {path.stem} | {data.get('discovered', 0)} | {detail} |")
+          if not files:
+              lines.append('| Aucun rapport | 0 | Aucun inventaire produit |')
+          lines.extend(['', 'Les résultats décrivent uniquement des références identifiées ; aucune vidéo n’est réputée visionnée ou transcrite.'])
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as out:
+              out.write('\n'.join(lines) + '\n')
           PY
       - uses: actions/upload-artifact@v4
         with:
