@@ -11,6 +11,8 @@ on:
       - 'video-analysis/qualify.py'
       - 'video-analysis/test_qualify.py'
       - 'video-analysis/probe_batch.py'
+      - 'video-analysis/enrich_metadata.py'
+      - 'video-analysis/test_enrich_metadata.py'
       - '.github/workflows/discover-wingfoil.yml'
 permissions:
   contents: read
@@ -45,6 +47,10 @@ jobs:
       - name: Qualify actual YouTube metadata results
         run: |
           python video-analysis/qualify.py --input video-index/youtube.json --output video-index/youtube-qualified.json --print-sample 15
+      - name: Enrich qualified videos with public YouTube details
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_APU }}
+        run: python video-analysis/enrich_metadata.py --input video-index/youtube-qualified.json --output video-index/youtube-details.json
       - name: Install caption availability probe dependency
         run: python -m pip install --disable-pip-version-check yt-dlp
       - name: Probe captions on first four eligible test videos
@@ -55,7 +61,7 @@ jobs:
           import json
           from pathlib import Path
           for path in Path('video-index').glob('*.json'):
-              if path.name.endswith('-qualified.json') or path.name.endswith('-probes.json'):
+              if path.name.endswith(('-qualified.json', '-probes.json', '-details.json')):
                   continue
               d=json.loads(path.read_text())
               print(path.name,'discovered:',d['discovered'],
@@ -79,7 +85,7 @@ jobs:
               '|---|---:|---|'
           ]
           for path in files:
-              if path.name.endswith('-qualified.json'):
+              if path.name.endswith(('-qualified.json', '-probes.json', '-details.json')):
                   continue
               data = json.loads(path.read_text(encoding='utf-8'))
               status = data.get('report', {})
@@ -90,6 +96,15 @@ jobs:
                   errors = sum(len(x.get('errors', [])) for x in groups.values())
                   detail = f'{errors} erreur(s) d’accès' if errors else 'consultation terminée'
               lines.append(f"| {path.stem} | {data.get('discovered', 0)} | {detail} |")
+          details = Path('video-index/youtube-details.json')
+          if details.is_file():
+              d = json.loads(details.read_text(encoding='utf-8'))
+              lines.extend(['', '## Contrôle par API des fiches vidéo',
+                  f"- Métadonnées YouTube confirmées : **{d['details_api_confirmed']} / {d['source_items']}**",
+                  f"- Candidatures après revue métadonnées : **{d['screening_counts']}**",
+                  f"- Indicateurs publics de sous-titres (pas des transcriptions) : **{d['captions_metadata_flags']}**",
+                  f"- Erreurs API : **{d['errors']}**",
+                  '- La présence d’un indicateur de sous-titres ne permet pas de télécharger le texte.'])
           probe = Path('video-index/youtube-caption-probes.json')
           if probe.is_file():
               p = json.loads(probe.read_text(encoding='utf-8'))
