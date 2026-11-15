@@ -90,11 +90,11 @@
     },
     {
       "video_id": "fELF_qseo4g",
-      "status": "in_progress",
-      "step": "Qualification Chimera 2027 : première présentation contre essai réellement effectué",
+      "status": "completed",
+      "step": "Présentation 2027 qualifiée : 50 L non essayée, 95 L seule déclarée utilisée",
       "started_at_utc": "2026-11-15T20:32:48.938419+00:00",
-      "updated_at_utc": "2026-11-15T20:32:48.938419+00:00",
-      "expires_at_utc": "2026-11-15T20:52:48.938419+00:00"
+      "updated_at_utc": "2026-11-15T20:32:52.430172+00:00",
+      "expires_at_utc": "2026-11-15T20:52:52.430172+00:00"
     }
   ]
 }
