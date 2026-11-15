@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+video-index/
+video-analysis/local-results/
+video-analysis/transcript-cache/
+.transcript-cache/

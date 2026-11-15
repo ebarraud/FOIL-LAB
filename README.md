@@ -1,5 +1,11 @@
 # FOIL LAB EXPERT
 
+## Transcriptions analysées — 15 novembre 2026
+
+Les trois transcriptions AFS Silk V2, Duotone Glide 3.0 D/LAB 825 et KT Halo ont été récupérées sans clé ni crédit payant, puis consultées en entier. Le [rapport sourcé](research/ANALYSE_TRANSCRIPTIONS_2026-11-15.md) présente **30 synthèses minutées**, leurs tailles, montages et limites. Le [registre des preuves](video-analysis/evidence.html) les distingue des 10 observations écrites antérieures. Interprétations de transcription par assistant, sans vérification à l'écoute ni validation humaine ; aucune note ajoutée au catalogue.
+
+Le pipeline conserve désormais **159 candidats sur 159**, contre 50 dans l'artefact initial, et permet une reprise hors ligne depuis un cache local optionnel. Les transcriptions intégrales ne sont pas versionnées.
+
 Configurateur indépendant d'aide au choix de **foils et boards de wingfoil**.
 
 ## Objectif

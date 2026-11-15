@@ -1,5 +1,12 @@
 # Journal des évolutions
 
+## 2026-11-15 — Transcriptions accessibles et preuves par taille
+- Artefact du run 43732427647 téléchargé et inspecté : 50 extraits conservés pour 159 segments avec mots-clés.
+- Trois transcriptions complètes récupérées anonymement sans crédit; 1 288 segments, empreintes identiques à l'exécution initiale.
+- 30 synthèses minutées ajoutées : AFS 12, Duotone 8, KT 10. Source, montage, portée de taille, limites et absence de contrôle audio documentés.
+- Pipeline sans plafond de 18 : 159 candidats conservés, contexte référencé, cache local optionnel et reprise sans réseau.
+- Registre consultable par modèle, taille et type de source. Aucun score du catalogue créé ou modifié.
+
 ## 2026-11-14
 - Dépôt GitHub initialisé.
 - Documentation méthodologique et registre de sources ajoutés.

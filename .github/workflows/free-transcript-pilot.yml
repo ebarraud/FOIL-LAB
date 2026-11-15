@@ -34,10 +34,16 @@ jobs:
               d=json.loads(p.read_text())
               lines+=['- Vidéos testées : **'+str(d['attempted'])+'**',
                 '- Transcriptions réellement reçues : **'+str(d['transcripts_obtained'])+'**',
+                '- Segments contenant un mot-clé : **'+str(d['technical_keyword_segments'])+'**',
+                '- Candidats conservés : **'+str(d['candidate_count'])+'**',
+                '- Candidats omis par plafonnement : **'+str(d['candidates_omitted'])+'**',
                 '- Notes du configurateur modifiées : **0**','']
               for v in d['results']:
                   lines.append('- '+v['title']+' : '+v['status']+
-                    (' ('+str(v['segment_count'])+' passages)' if 'segment_count' in v else ''))
+                    (' ('+str(v['segment_count'])+' segments de sous-titres; '+str(v['candidate_count'])+' candidats)' if 'segment_count' in v else ''))
+              lines+=['', 'Les candidats sont des repères de lecture, pas des conclusions validées.',
+                'Les fenêtres de contexte sont référencées par indices et minutages. Le texte intégral reste hors des artefacts publics.',
+                'Pour une analyse locale complète : utiliser --cache-dir, puis --input-dir pour retraiter sans réseau.']
           else:
               lines.append('Aucun résultat produit')
           with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:

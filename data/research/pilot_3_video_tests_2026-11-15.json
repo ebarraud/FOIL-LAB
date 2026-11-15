@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "campaign": "FOIL LAB — pilot technical review evidence",
   "as_of": "2026-11-15",
   "window_start": "2024-11-15",
@@ -7,16 +7,21 @@
   "summary": {
     "models": 3,
     "video_urls_identified": 3,
-    "video_transcripts_obtained": 0,
+    "video_transcripts_obtained": 3,
     "video_audio_processed": 0,
     "videos_fully_watched": 0,
     "editorial_written_reviews_inspected": 2,
     "publisher_qa_inspected": 1,
     "model_performance_scores_updated": 0,
     "independent_second_opinions_included": 1,
-    "technical_attributed_observations": 10
+    "technical_attributed_observations": 40,
+    "video_transcripts_read_in_full": 3,
+    "transcript_attributed_observations": 30,
+    "original_keyword_matching_segments": 159,
+    "original_candidates_retained": 50,
+    "expanded_candidates_retained": 159
   },
-  "publication_policy": "Distinguish video metadata from written first-person testing and responses to readers. Do not treat blog articles or comments as video transcript. All performance assertions require visible attributed provenance.",
+  "publication_policy": "Synthèses de transcriptions par assistant, attribuées aux testeurs et non vérifiées à l’écoute. Les textes écrits antérieurs restent distincts. Aucun mot-clé ne vaut preuve, aucune note générée, aucune source du même auteur ne vaut corroboration indépendante.",
   "entries": [
     {
       "id": "afs-silk-v2",
@@ -30,9 +35,12 @@
       "video": {
         "url": "https://www.youtube.com/watch?v=DMlWjjIcwss",
         "publisher": "Hadou / Pimpyourride",
-        "status": "video_identified_not_transcribed",
-        "transcript_acquired": false,
-        "fully_watched": false
+        "status": "transcript_reviewed_not_audio_verified",
+        "transcript_acquired": true,
+        "fully_watched": false,
+        "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+        "segment_count": 834,
+        "audio_verified": false
       },
       "written_source": {
         "url": "https://www.pimpyourride.fr/afs-silk-v2-foil-review/",
@@ -42,7 +50,7 @@
         "reviewed": true,
         "independence_note": "Author states affinity for AFS; not independent of the associated video from the same reviewer."
       },
-      "confidence": "attributed_first_person_experience_not_instrumented",
+      "confidence": "attributed_transcript_interpretation_not_audio_verified",
       "setup": {
         "mast": "AFS Skinny 80 (also experimented with 75 and 85)",
         "fuselage": "Advanced (used throughout review)",
@@ -53,6 +61,561 @@
         "notes": "Configuration varies by test and size; avoid conflating wing and surffoil observations."
       },
       "claims": [
+        {
+          "id": "afs-video-750-vs-850v1",
+          "size_cm2": 750,
+          "sizes_cm2": [
+            750
+          ],
+          "dimension": "carving,pumping,glide",
+          "statement_fr": "Le testeur retrouve sur la 750 V2 la maniabilité de sa 850 V1, avec un changement de rail fluide, un pumping moins fatigant et davantage de glisse. Il rapporte ce gain en wing et surtout lors des reconnexions en surf foil.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 455.885,
+          "end_s": 506.639,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=455s",
+          "limitations": "Comparaison subjective entre deux surfaces et générations, pour un testeur qui annonce environ 62 kg. Ni effort ni glisse mesurés; montage exact de chaque comparaison non isolé.",
+          "scope_basis_fr": "La comparaison 750 V2 / 850 V1 est explicitement formulée à 7:50–8:15; le gain de glisse suit dans le même développement.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229
+          ]
+        },
+        {
+          "id": "afs-video-950-parawing",
+          "size_cm2": 950,
+          "sizes_cm2": [
+            950
+          ],
+          "dimension": "glide,stabilizer,program",
+          "statement_fr": "Pour les petites conditions en parawing, le testeur privilégie la 950. Il la trouve plus lente que son Enduro, mais suffisamment glissante; le choix du stabilisateur joue sur la relance à basse vitesse.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 510.28,
+          "end_s": 562.56,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=510s",
+          "limitations": "La taille de l’Enduro comparé et les conditions ne sont pas précisées. Les propos sur les stabilisateurs alternent entre 950 et 750 : ils ne définissent pas une plage basse universelle du 950.",
+          "scope_basis_fr": "La 950 est nommée à 8:31–8:40. Les indications U-Carve 140/130 plus loin dépendent de la surface avant et du contexte; aucun montage unique n’est attribué à toute cette séquence.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        {
+          "id": "afs-video-750-usurf135",
+          "size_cm2": 750,
+          "sizes_cm2": [
+            750
+          ],
+          "dimension": "low_speed,pumping,stabilizer",
+          "statement_fr": "En surf foil dans ses vagues peu puissantes, le testeur préfère le U-Surf 135 sur la 750 pour conserver de la tolérance à basse vitesse et faciliter les reconnexions au pumping.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 652.76,
+          "end_s": 678.079,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=652s",
+          "limitations": "Ressenti local et configuration précise. Son rapprochement avec la tolérance du 950/U-Surf120 est lui-même présenté comme exagéré; ce n’est pas une équivalence mesurée.",
+          "scope_basis_fr": "Le passage annonce le surf foil, puis cite explicitement 750 et U-Surf 135 à 10:58–11:06.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292
+          ]
+        },
+        {
+          "id": "afs-video-950-usurf120",
+          "size_cm2": 950,
+          "sizes_cm2": [
+            950
+          ],
+          "dimension": "carving,pumping,low_speed",
+          "statement_fr": "Avec la 950 et le U-Surf 120, le testeur apprécie la maniabilité tout en conservant assez de portance à basse vitesse et de pumping pour reconnecter les vagues.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 676.48,
+          "end_s": 694.8,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=676s",
+          "limitations": "Contexte surf foil, niveau technique et condition physique du testeur; le choix du 120 peut demander davantage d’effort que le 135. Aucun transfert automatique au wingfoil.",
+          "scope_basis_fr": "La 950 et le stabilisateur U-Surf 120 sont explicitement associés à partir de 11:16.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            299
+          ]
+        },
+        {
+          "id": "afs-video-950-usurf135-vs-carve130",
+          "size_cm2": 950,
+          "sizes_cm2": [
+            950
+          ],
+          "dimension": "low_speed,glide,carving,stabilizer",
+          "statement_fr": "Après avoir été déçu par la plage basse de la 950/U-Carve130 en surf foil, le testeur rapporte une nette amélioration avec le U-Surf135 lors d’une session avec départ à la rame. Il rapproche alors sa portance basse vitesse de celle de sa Silk V1 1050, avec davantage de glisse et de maniabilité ressenties.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 718.8,
+          "end_s": 778.16,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=718s",
+          "limitations": "Les deux montages n’ont pas été comparés dans un protocole contrôlé ni nécessairement dans les mêmes conditions. La conclusion porte sur la configuration complète en surf foil, pas sur la seule aile avant.",
+          "scope_basis_fr": "950/U-Carve130 nommé à 12:03–12:10; passage au U-Surf135 à 12:30–12:36; comparaison à la V1 1050 à 12:43–12:56.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331
+          ]
+        },
+        {
+          "id": "afs-video-750-wing-early-vs-topend",
+          "size_cm2": 750,
+          "sizes_cm2": [
+            750
+          ],
+          "dimension": "takeoff,pumping,carving,high_end",
+          "statement_fr": "En wing, le testeur trouve la 750 porteuse, facile à relancer au pumping et précoce au décollage. Pour son petit gabarit, il souhaite toutefois une aile plus vive lorsque la vitesse et l’engagement en carving augmentent.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 988.16,
+          "end_s": 1048.067,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=988s",
+          "limitations": "Le commentaire précède la réception de la 650 : à cet endroit, les attentes envers cette dernière sont encore une projection. Aucun seuil de vent ou de poids n’est validé par une mesure.",
+          "scope_basis_fr": "La 750 est explicitement citée et décrite à 17:06–17:19. Les conseils de quiver précédents restent des conseils, pas des essais additionnels.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            438,
+            439,
+            440,
+            441,
+            442,
+            443,
+            444,
+            445,
+            446,
+            447,
+            448,
+            449,
+            450,
+            451,
+            452,
+            453,
+            454,
+            455,
+            456,
+            457,
+            458,
+            459,
+            460,
+            461,
+            462,
+            463,
+            464,
+            465
+          ]
+        },
+        {
+          "id": "afs-video-650-carving",
+          "size_cm2": 650,
+          "sizes_cm2": [
+            650
+          ],
+          "dimension": "carving,speed,effort",
+          "statement_fr": "Dans l’addendum réalisé après réception de la 650, le testeur la décrit comme plus vive et plus rapide, tournant plus court que ses grandes Silk V2. Il ressent moins d’effort sous les pieds pour surfer de façon engagée.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 1110.72,
+          "end_s": 1166.52,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=1110s",
+          "limitations": "Comparaison subjective avec ses 750/950. Le passage présente des essais en wing freefly et en surf avec départ tracté; il ne fournit pas de vitesse mesurée ni de résultats par gabarit.",
+          "scope_basis_fr": "La séquence commence par la réception tardive de la 650 à 18:30; sa comparaison avec les 750/950 est explicite à 18:40–18:59.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            472,
+            473,
+            474,
+            475,
+            476,
+            477,
+            478,
+            479,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487,
+            488,
+            489,
+            490,
+            491,
+            492,
+            493,
+            494,
+            495,
+            496,
+            497,
+            498,
+            499,
+            500
+          ]
+        },
+        {
+          "id": "afs-video-650-wing-freefly",
+          "size_cm2": 650,
+          "sizes_cm2": [
+            650
+          ],
+          "dimension": "low_speed,glide,pumping,carving",
+          "statement_fr": "En wing freefly, la 650 permet au testeur de rester sur de petites bosses et de relancer par pumping ou carving. Il la travaille davantage dans les courbes pour reprendre de la vitesse et de la hauteur, alors qu’il décrit les 750/950 comme plus propices à glisser droit puis pomper.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 1194.32,
+          "end_s": 1269.559,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=1194s",
+          "limitations": "Il s’agit du maintien en vol dans des bosses, pas d’une mesure du décollage en vent faible. Le stabilisateur et l’énergie des vagues contribuent au résultat; le passage ne fixe aucun seuil chiffré.",
+          "scope_basis_fr": "Le sujet reste la 650 de l’addendum; freefly annoncé à 19:56 puis comparaison dynamique explicite avec 750/950 à 20:54–21:09.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            514,
+            515,
+            516,
+            517,
+            518,
+            519,
+            520,
+            521,
+            522,
+            523,
+            524,
+            525,
+            526,
+            527,
+            528,
+            529,
+            530,
+            531,
+            532,
+            533,
+            534,
+            535,
+            536,
+            537,
+            538,
+            539,
+            540,
+            541,
+            542,
+            543,
+            544,
+            545,
+            546,
+            547,
+            548,
+            549,
+            550,
+            551,
+            552,
+            553,
+            554,
+            555
+          ]
+        },
+        {
+          "id": "afs-video-650-rail-setting",
+          "size_cm2": 650,
+          "sizes_cm2": [
+            650
+          ],
+          "dimension": "setup,control",
+          "statement_fr": "Le testeur ressent encore une pression notable sous le pied avant avec la 650. Dans son montage, il évoque un recul du foil d’environ 2 à 3 cm par rapport à la 750 pour ajuster cet équilibre.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 1205.799,
+          "end_s": 1233.44,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=1205s",
+          "limitations": "Réglage personnel dépendant de la planche, du stabilisateur, de la position des pieds et du rider. Ce déplacement ne constitue pas une consigne universelle.",
+          "scope_basis_fr": "La comparaison de réglage avec la 750 et le recul de 2–3 cm sont explicitement formulés à 20:13–20:29.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            520,
+            521,
+            522,
+            523,
+            524,
+            525,
+            526,
+            527,
+            528,
+            529,
+            530,
+            531,
+            532,
+            533,
+            534
+          ]
+        },
+        {
+          "id": "afs-video-650-tow-reconnections",
+          "size_cm2": 650,
+          "sizes_cm2": [
+            650
+          ],
+          "dimension": "pumping,carving,low_speed,program",
+          "statement_fr": "Lors d’une session de surf avec départ tracté, la 650 équipée d’un stabilisateur custom a permis au testeur de reconnecter plusieurs vagues avec ses jambes après avoir lâché la traction. Il reste réservé sur son usage à la rame dans ses conditions habituellement molles, où il utilise souvent la 950.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 1268.4,
+          "end_s": 1372.159,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=1268s",
+          "limitations": "Le départ est assisté : cette session ne prouve pas un décollage autonome à la rame sur la 650. Le nom exact du stabilisateur custom est mal transcrit et reste à confirmer. Un essai à la rame en conditions propres est envisagé, pas rapporté comme réalisé.",
+          "scope_basis_fr": "Le départ tracté et le stabilisateur custom sont expliqués à 21:20–22:04; les reconnexions après lâcher à 22:08–22:29; les réserves à la rame à 22:29–22:52.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            554,
+            555,
+            556,
+            557,
+            558,
+            559,
+            560,
+            561,
+            562,
+            563,
+            564,
+            565,
+            566,
+            567,
+            568,
+            569,
+            570,
+            571,
+            572,
+            573,
+            574,
+            575,
+            576,
+            577,
+            578,
+            579,
+            580,
+            581,
+            582,
+            583,
+            584,
+            585,
+            586,
+            587,
+            588,
+            589,
+            590,
+            591,
+            592,
+            593,
+            594,
+            595,
+            596,
+            597,
+            598,
+            599,
+            600,
+            601,
+            602,
+            603,
+            604,
+            605,
+            606,
+            607,
+            608,
+            609,
+            610,
+            611,
+            612,
+            613
+          ]
+        },
+        {
+          "id": "afs-video-650-vs750-accessibility",
+          "size_cm2": 650,
+          "sizes_cm2": [
+            650,
+            750
+          ],
+          "dimension": "takeoff,carving,control,accessibility",
+          "statement_fr": "Pour un pratiquant disposant déjà d’un bon niveau technique en wing, le testeur met en avant le décollage et le carving de la 650. Il décrit la 750 comme l’option plus confortable et accessible, mais moins vive dans les accélérations et les courbes engagées.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 1398.2,
+          "end_s": 1426.96,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=1398s",
+          "limitations": "Conseil subjectif, sans campagne d’essais par poids ni plage de vent mesurée. La mention d’autres gabarits dans le discours ne vaut pas validation d’un seuil de sélection automatique.",
+          "scope_basis_fr": "Le passage compare explicitement la 650 à la 750 après les retours d’essai, contrairement aux attentes formulées avant l’addendum.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            627,
+            628,
+            629,
+            630,
+            631,
+            632,
+            633,
+            634,
+            635,
+            636,
+            637,
+            638,
+            639,
+            640,
+            641,
+            642
+          ]
+        },
+        {
+          "id": "afs-video-family-speed-tradeoff",
+          "size_cm2": null,
+          "sizes_cm2": [
+            650,
+            750,
+            950
+          ],
+          "dimension": "speed,low_speed,program",
+          "statement_fr": "Le testeur présente la Silk V2 comme un compromis favorisant la tolérance à basse vitesse plutôt que la vitesse maximale en wing ou parawing. Il évoque une sensation de vitesse limitée sur la 750 et un regain de vivacité avec les petites tailles.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 1636.399,
+          "end_s": 1695.679,
+          "source_url": "https://www.youtube.com/watch?v=DMlWjjIcwss&t=1636s",
+          "limitations": "Appréciation de gamme et commentaire sur la 750, sans relevé de vitesse. Les comparaisons avec d’autres marques ne sont pas retenues ici, car taille et configuration ne sont pas toujours identifiables dans la transcription.",
+          "scope_basis_fr": "Le passage de conclusion parle de la gamme; la 750 n’est nommée qu’à 28:06. Ne pas convertir cette conclusion en note identique pour toutes les tailles.",
+          "transcript_sha256": "1313c72a049008381f6557837b83e498717acfb8a406f8d174a878e06ccfb887",
+          "supporting_segment_indexes": [
+            759,
+            760,
+            761,
+            762,
+            763,
+            764,
+            765,
+            766,
+            767,
+            768,
+            769,
+            770,
+            771,
+            772,
+            773,
+            774,
+            775,
+            776,
+            777,
+            778,
+            779,
+            780,
+            781,
+            782,
+            783,
+            784,
+            785,
+            786,
+            787,
+            788,
+            789
+          ]
+        },
         {
           "size_cm2": 750,
           "dimension": "glide,pumping,carving",
@@ -129,6 +692,47 @@
           "independent_from": "Pimpyourride / Hadou",
           "citation_scope": "Only claims explicitly associated with the 750 and editorial test."
         }
+      ],
+      "transcript_setup_fr": "Testeur annonçant environ 62 kg. Fuselage Advanced; mât Skinny 80 le plus souvent, 75/85 aussi évoqués. Stabilisateur variable : U-Carve 130/140, U-Surf 120/135 ou custom. Wing, parawing, surf à la rame et départ tracté sont distingués.",
+      "transcript_setup": {
+        "rider_weight_kg_reported": 62,
+        "weight_source_range_s": [
+          109.36,
+          115.6
+        ],
+        "mast": "Skinny 80 pour la plupart des essais; 75 et 85 également évoqués. Aucun mât unique n’est attribué à chaque séquence.",
+        "mast_source_range_s": [
+          209.159,
+          238.519
+        ],
+        "fuselage": "Carbone UHM Advanced annoncé pour toute la review.",
+        "fuselage_source_range_s": [
+          277.28,
+          283.96
+        ],
+        "stabilizers": "Variables selon usage et taille : U-Carve 130/140, U-Surf 120/135; un stabilisateur custom pour le surf tracté de la 650. U-Glide 41 évoqué comme option, sans l’assimiler à tous les essais.",
+        "board": "Plusieurs planches évoquées; nom de modèle exact mal rendu dans la transcription. Ne pas imposer une planche commune aux essais.",
+        "conditions": "Wing/freefly, parawing et surf foil distincts; vagues souvent peu puissantes selon le testeur. Vent et eau non quantifiés pour chaque observation.",
+        "reviewer_context": "Le testeur déclare son affinité pour AFS à 1:06–1:22; l’article associé du même auteur ne constitue pas une seconde preuve indépendante."
+      },
+      "transcript_reviewed_ranges": [
+        {
+          "start_s": 6.68,
+          "end_s": 1828.48,
+          "segment_indexes": [
+            0,
+            833
+          ],
+          "method": "Lecture de tous les 834 segments de la transcription fournie; paroles musicales non exploitées; aucun contrôle audio ou visionnage."
+        }
+      ],
+      "transcript_limits": [
+        "Transcription obtenue auprès d’un fournisseur tiers; pas de contrôle par écoute ou vidéo dans cette analyse.",
+        "Les chiffres de taille, noms de marques et composants présentent des erreurs ASR. Les tailles des preuves retenues sont confirmées par leur contexte répété.",
+        "La comparaison finale avec Armstrong MA 690 contient une taille adverse transcrite « 770 » à 28:15; elle n’est pas attribuée automatiquement à la 750.",
+        "À 22:45, « 750 ou plus petit » est incohérent avec le besoin de plus de surface exprimé juste avant; aucune correction conjecturale n’est transformée en recommandation.",
+        "La finition et les housses sont critiquées à 25:16–27:16, sans preuve de défaut systématique; le testeur ne prétend pas gagner en performance par la retouche de finition.",
+        "Les retours techniques débutent après 7:35; les 18 anciens extraits s’arrêtaient vers 4:20 et ne couvraient pas l’addendum 650 commençant à 18:30."
       ]
     },
     {
@@ -141,9 +745,12 @@
       "video": {
         "url": "https://www.youtube.com/watch?v=aiWA2W7hKos",
         "publisher": "Gleiten.TV",
-        "status": "video_identified_not_transcribed",
-        "transcript_acquired": false,
-        "fully_watched": false
+        "status": "transcript_reviewed_not_audio_verified",
+        "transcript_acquired": true,
+        "fully_watched": false,
+        "transcript_sha256": "f205972f1cf6b6c80aa68c002c55d12d052d7e948cdaea302a5fd1391b585590",
+        "segment_count": 218,
+        "audio_verified": false
       },
       "written_source": {
         "url": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
@@ -152,8 +759,298 @@
         "type": "publisher_answers_below_video",
         "reviewed": true
       },
-      "confidence": "publisher_qa_contextual_not_video_transcript",
+      "confidence": "attributed_transcript_interpretation_not_audio_verified",
       "claims": [
+        {
+          "id": "glide825-takeoff",
+          "size_cm2": 825,
+          "sizes_cm2": [
+            825
+          ],
+          "dimension": "takeoff",
+          "statement_fr": "Gleiten.TV décrit un décollage très précoce pour le 825, en wing et en parawing. Le testeur situe son comportement au décollage entre les Glide 2.0 900 et 1100.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 267.44,
+          "end_s": 296.8,
+          "source_url": "https://www.youtube.com/watch?v=aiWA2W7hKos&t=267s",
+          "limitations": "Comparaison qualitative entre générations, sans seuil de vent, vitesse minimale ni protocole commun. Ne vaut pas équivalence de surface ou de plage basse pour tout rider.",
+          "scope_basis_fr": "Le test annonce explicitement le D/LAB 825 à 02:05–02:18 et le passage répète la taille 825.",
+          "transcript_sha256": "f205972f1cf6b6c80aa68c002c55d12d052d7e948cdaea302a5fd1391b585590",
+          "supporting_segment_indexes": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+          ]
+        },
+        {
+          "id": "glide825-takeoff-tail",
+          "size_cm2": 825,
+          "sizes_cm2": [
+            825
+          ],
+          "dimension": "takeoff,setup",
+          "statement_fr": "Avec des testeurs de 80 à 90 kg, le H150 est décrit comme décollant légèrement plus tôt que le H130 avec fuselage plus long. Le testeur préconise un pumping qui pousse légèrement la planche vers l'avant pour établir l'écoulement, puis décrit une mise en vol stable.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 296.8,
+          "end_s": 334.72,
+          "source_url": "https://www.youtube.com/watch?v=aiWA2W7hKos&t=296s",
+          "limitations": "Le changement porte à la fois sur la surface du stabilisateur et la longueur du fuselage : impossible d'isoler l'effet du seul stabilisateur. Écart non mesuré ; le poids annoncé décrit les testeurs, pas une plage de poids recommandée.",
+          "scope_basis_fr": "Commentaire de l'essai 825 ; les montages H150/40 cm et H130/43 cm sont présentés à 02:26–02:58.",
+          "transcript_sha256": "f205972f1cf6b6c80aa68c002c55d12d052d7e948cdaea302a5fd1391b585590",
+          "supporting_segment_indexes": [
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81
+          ]
+        },
+        {
+          "id": "glide825-pitch",
+          "size_cm2": 825,
+          "sizes_cm2": [
+            825
+          ],
+          "dimension": "control,setup",
+          "statement_fr": "Pour un pratiquant intermédiaire, Gleiten.TV juge le guidage en tangage peu exigeant. En freeride normal, l'équipe ne rapporte pas de différence perceptible entre les montages H150/40 et H130/43.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 340.84,
+          "end_s": 383.96,
+          "source_url": "https://www.youtube.com/watch?v=aiWA2W7hKos&t=340s",
+          "limitations": "Appréciation de conduite en freeride ; ne prouve ni égalité instrumentée ni comportement identique dans tous les usages. Le commentaire ne concerne pas un débutant complet.",
+          "scope_basis_fr": "Les deux montages sont comparés dans le même essai du 825 ; aucune autre taille de Glide 3.0 n'est annoncée testée.",
+          "transcript_sha256": "f205972f1cf6b6c80aa68c002c55d12d052d7e948cdaea302a5fd1391b585590",
+          "supporting_segment_indexes": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ]
+        },
+        {
+          "id": "glide825-yaw",
+          "size_cm2": 825,
+          "sizes_cm2": [
+            825
+          ],
+          "dimension": "carving,yaw",
+          "statement_fr": "Le testeur souligne une grande liberté en lacet, avec un comportement joueur et prévisible qu'il trouve inhabituel pour cet allongement.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 379.639,
+          "end_s": 402.68,
+          "source_url": "https://www.youtube.com/watch?v=aiWA2W7hKos&t=379s",
+          "limitations": "Sensation subjective ; le mot désignant l'axe est déformé par l'ASR, interprété comme le lacet dans la séquence tangage/lacet/roulis. Aucun rayon de virage mesuré.",
+          "scope_basis_fr": "Observation de l'essai du 825 ; pas d'extrapolation aux autres surfaces.",
+          "transcript_sha256": "f205972f1cf6b6c80aa68c002c55d12d052d7e948cdaea302a5fd1391b585590",
+          "supporting_segment_indexes": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "id": "glide825-roll-breach",
+          "size_cm2": 825,
+          "sizes_cm2": [
+            825
+          ],
+          "dimension": "carving,control,breach",
+          "statement_fr": "Gleiten.TV décrit une légère résistance au début du roulis, puis une mise sur l'angle facile à contrôler avec peu d'effort. Une sortie partielle de la pointe hors de l'eau est rapportée sans décrochage dans l'essai.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 415.039,
+          "end_s": 471.08,
+          "source_url": "https://www.youtube.com/watch?v=aiWA2W7hKos&t=415s",
+          "limitations": "Tolérance au breach observée subjectivement, sans hauteur ou fréquence mesurée ; ne garantit pas l'absence de décrochage. Le testeur cite aussi des modèles tournant plus serré ou plus librement sous forte pression, sans tailles comparables précisées.",
+          "scope_basis_fr": "Séquence de maniabilité du 825 ; montage exact non redistribué à chaque manœuvre.",
+          "transcript_sha256": "f205972f1cf6b6c80aa68c002c55d12d052d7e948cdaea302a5fd1391b585590",
+          "supporting_segment_indexes": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117
+          ]
+        },
+        {
+          "id": "glide825-glide-pumping",
+          "size_cm2": 825,
+          "sizes_cm2": [
+            825
+          ],
+          "dimension": "glide,pumping,setup",
+          "statement_fr": "Le testeur rapporte une glisse durable et un pumping efficace pour relier de petites bosses peu énergétiques sur une large plage de vitesse ressentie. Il indique avoir obtenu son meilleur résultat dans cette séquence avec le montage H130/43.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 473.96,
+          "end_s": 541.92,
+          "source_url": "https://www.youtube.com/watch?v=aiWA2W7hKos&t=473s",
+          "limitations": "Aucune distance, durée, vitesse ou dépense énergétique mesurée. La comparaison verbale à Armstrong Ultra HA ne précise pas la taille ni un protocole : elle ne constitue pas une équivalence validée.",
+          "scope_basis_fr": "Observation du 825 et conclusion de montage à 08:52–09:01 ; n'établit pas un gain propre au seul H130.",
+          "transcript_sha256": "f205972f1cf6b6c80aa68c002c55d12d052d7e948cdaea302a5fd1391b585590",
+          "supporting_segment_indexes": [
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139
+          ]
+        },
+        {
+          "id": "glide825-small-bumps-control",
+          "size_cm2": 825,
+          "sizes_cm2": [
+            825
+          ],
+          "dimension": "control,glide,conditions",
+          "statement_fr": "Dans une session en mer Baltique décrite comme très peu houleuse, l'équipe apprécie l'association glisse, mobilité sans effort marqué et contrôle facile. Ce commentaire situe les sensations favorables dans de petites bosses plutôt que dans une mer puissante.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 545.88,
+          "end_s": 619.36,
+          "source_url": "https://www.youtube.com/watch?v=aiWA2W7hKos&t=545s",
+          "limitations": "Conditions décrites sans hauteur de vague ni vent chiffré. Le commentaire ne démontre pas les mêmes qualités en forte houle, clapot soutenu ou à haute vitesse.",
+          "scope_basis_fr": "Retour collectif des testeurs dans l'essai 825 ; pas de séparation des sensations par rider ou montage.",
+          "transcript_sha256": "f205972f1cf6b6c80aa68c002c55d12d052d7e948cdaea302a5fd1391b585590",
+          "supporting_segment_indexes": [
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164
+          ]
+        },
+        {
+          "id": "glide825-program-limits",
+          "size_cm2": 825,
+          "sizes_cm2": [
+            825
+          ],
+          "dimension": "program,carving,glide",
+          "statement_fr": "Gleiten.TV présente le 825 comme intéressant pour enchaîner les manœuvres en freeride, la parawing et les vagues. Le testeur nuance toutefois l'usage en prone près de la face de vague : d'autres ailes lui paraissent mieux adaptées aux virages très serrés.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 642.16,
+          "end_s": 735.639,
+          "source_url": "https://www.youtube.com/watch?v=aiWA2W7hKos&t=642s",
+          "limitations": "Conseil de programme, sans comparaison de tailles ou conditions appariées. Les noms de certains modèles concurrents sont mal transcrits ; aucune hiérarchie chiffrée n'en est tirée.",
+          "scope_basis_fr": "Conclusion de la vidéo dont la seule taille Glide 3.0 annoncée testée est 825 ; ne couvre pas les 950 ou 1100.",
+          "transcript_sha256": "f205972f1cf6b6c80aa68c002c55d12d052d7e948cdaea302a5fd1391b585590",
+          "supporting_segment_indexes": [
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195
+          ]
+        },
         {
           "size_cm2": 1100,
           "dimension": "glide,pumping",
@@ -181,6 +1078,57 @@
           "evidence_status": "attributed_contextual",
           "limitations": "Comparaison qualitative sans protocole instrumenté."
         }
+      ],
+      "transcript_setup_fr": "825 cm², testeurs de 80 à 90 kg; D/LAB Slim 2.0 84 cm annoncé. Montages H150/40 cm et H130/43 cm comparés. Petites bosses en Baltique; vent et board non précisés.",
+      "transcript_setup": {
+        "size_cm2": 825,
+        "size_identification_range": {
+          "start_s": 125.28,
+          "end_s": 138.319
+        },
+        "rider_weight_kg": [
+          80,
+          90
+        ],
+        "rider_weight_range": {
+          "start_s": 316.12,
+          "end_s": 327.28
+        },
+        "mast": "D/LAB Slim 2.0, 84 cm, selon la transcription",
+        "mast_range": {
+          "start_s": 223.799,
+          "end_s": 232.84
+        },
+        "tails": [
+          "H130 / fuselage 43 cm",
+          "H150 / fuselage 40 cm"
+        ],
+        "tails_range": {
+          "start_s": 146.16,
+          "end_s": 178.48
+        },
+        "board": null,
+        "wind": null,
+        "conditions": "Petites bosses et faible houle en mer Baltique, décrites dans le commentaire ; pas de vent chiffré.",
+        "conditions_range": {
+          "start_s": 574.399,
+          "end_s": 619.36
+        },
+        "limits": "Noms commerciaux parfois déformés par la transcription automatique ; montage et gabarits déclarés par le testeur, non vérifiés visuellement."
+      },
+      "transcript_reviewed_ranges": [
+        {
+          "start_s": 0.0,
+          "end_s": 800.76,
+          "segment_count": 218,
+          "coverage": "all_returned_segments_read_not_audio_verified"
+        }
+      ],
+      "transcript_limits": [
+        "Le bénéfice de glisse annoncé à 02:22 est une promesse liée à l'allongement, pas encore une observation sur l'eau.",
+        "Les noms de modèles concurrents sont parfois déformés ; comparaisons sans taille laissées hors des attributions par taille.",
+        "Le prix final et les suggestions de compatibilité ne sont pas intégrés comme faits techniques vérifiés.",
+        "Des caractères non allemands et des indications musicales figurent dans l'introduction ; ils ne constituent pas du contenu technique."
       ]
     },
     {
@@ -194,9 +1142,12 @@
       "video": {
         "url": "https://www.youtube.com/watch?v=zesN5IeyRQM",
         "publisher": "Gleiten.TV",
-        "status": "video_identified_not_transcribed",
-        "transcript_acquired": false,
-        "fully_watched": false
+        "status": "transcript_reviewed_not_audio_verified",
+        "transcript_acquired": true,
+        "fully_watched": false,
+        "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+        "segment_count": 236,
+        "audio_verified": false
       },
       "written_source": {
         "url": "https://gleiten.tv/foil/test/wingfoil/foil/",
@@ -205,18 +1156,430 @@
         "reviewed": true,
         "date": "2026-08-04"
       },
-      "confidence": "metadata_only_no_performance_content",
-      "claims": [],
-      "missing": [
-        "exact_test_context",
-        "real_transcript",
-        "test_rider",
-        "mast",
-        "stabilizer",
-        "wind",
-        "technical_performance_observations"
+      "confidence": "attributed_transcript_interpretation_not_audio_verified",
+      "claims": [
+        {
+          "id": "halo-shared-takeoff",
+          "size_cm2": null,
+          "sizes_cm2": [
+            670,
+            800
+          ],
+          "dimension": "takeoff",
+          "statement_fr": "Gleiten.TV juge le décollage du Halo précoce parmi des foils d'allongement comparable. Le testeur précise qu'il demande toutefois davantage d'énergie qu'un Atlas ou que les autres foils auxquels il le compare ensuite.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 213.64,
+          "end_s": 248.88,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=213s",
+          "limitations": "Appréciation commune à l'essai 670/800, sans résultat séparé par taille. Le type exact de la seconde classe de comparaison est mal transcrit ; aucune vitesse de décollage ni plage de vent n'est donnée.",
+          "scope_basis_fr": "Les tailles 670 et 800 sont annoncées à 01:35–01:44, mais ce passage dit seulement Halo ; il ne permet pas de noter séparément chaque taille.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ]
+        },
+        {
+          "id": "halo670-pitch-fuselage",
+          "size_cm2": 670,
+          "sizes_cm2": [
+            670
+          ],
+          "dimension": "control,setup",
+          "statement_fr": "Sur le 670 avec fuselage de 56 cm, le testeur demande au moins un niveau intermédiaire pour guider correctement le tangage. Il rapporte davantage de stabilité en passant au fuselage de 63 cm tout en conservant le stabilisateur 161.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 251.56,
+          "end_s": 301.12,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=251s",
+          "limitations": "Différence ressentie, sans mesure de stabilité ni conditions détaillées. Le conseil concerne ce montage et ne vaut pas prescription universelle ; il ne démontre pas le comportement du 800.",
+          "scope_basis_fr": "La taille 670, les deux longueurs de fuselage et le stabilisateur 161 sont explicitement nommés dans le passage.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83
+          ]
+        },
+        {
+          "id": "halo-shared-shim-speed",
+          "size_cm2": null,
+          "sizes_cm2": [
+            670,
+            800
+          ],
+          "dimension": "control,speed,setup",
+          "statement_fr": "Le testeur explique qu'une forte augmentation de l'incidence du stabilisateur peut réduire la vitesse ressentie. Lorsqu'il est possible de choisir, il préfère adapter la longueur du fuselage au niveau du rider plutôt que trop accentuer ce réglage.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 304.16,
+          "end_s": 329.919,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=304s",
+          "limitations": "Aucun angle de cale, gain de contrôle ou perte de vitesse chiffré. La phrase suit le cas du 670 mais ne renomme pas la taille : conservée comme remarque de réglage, pas comme effet établi séparément pour le 800.",
+          "scope_basis_fr": "Conseil de montage dans l'essai commun ; association à chaque taille non isolée.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ]
+        },
+        {
+          "id": "halo-shared-agility",
+          "size_cm2": null,
+          "sizes_cm2": [
+            670,
+            800
+          ],
+          "dimension": "carving,yaw,roll",
+          "statement_fr": "Gleiten.TV apprécie les virages serrés en roulis et surtout la liberté en lacet, décrite comme très joueuse. Le testeur rapporte pouvoir réorienter vivement la planche tout en conservant son mouvement.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 332.0,
+          "end_s": 376.36,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=332s",
+          "limitations": "Observation subjective non distinguée entre 670 et 800 ; ni rayon de courbe ni conservation de vitesse mesurés. Ne pas transformer la sensation en absence physique de traînée.",
+          "scope_basis_fr": "La séquence décrit le Halo sans préciser quelle taille ou quel fuselage est utilisé.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111
+          ]
+        },
+        {
+          "id": "halo-shared-low-speed-limit",
+          "size_cm2": null,
+          "sizes_cm2": [
+            670,
+            800
+          ],
+          "dimension": "control,low_speed,carving",
+          "statement_fr": "À basse vitesse, le testeur décrit une conduite stable si l'incidence reste correcte, mais une tendance à s'affaisser lors d'un excès d'appui avant dans un bottom turn, surtout avec le fuselage court. Il insiste sur le guidage du tangage et l'adaptation du montage au niveau du rider.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 378.64,
+          "end_s": 451.96,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=378s",
+          "limitations": "La transcription du verbe décrivant la perte de hauteur est imparfaite ; ne suffit pas à établir un décrochage hydrodynamique mesuré. Taille non isolée et aucune vitesse minimale précisée.",
+          "scope_basis_fr": "Observation commune de comportement et de réglage ; le passage ne réattribue pas ce phénomène au seul 670 ni au seul 800.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141
+          ]
+        },
+        {
+          "id": "halo-shared-pop-recovery",
+          "size_cm2": null,
+          "sizes_cm2": [
+            670,
+            800
+          ],
+          "dimension": "freestyle,pop,recovery",
+          "statement_fr": "En freestyle, Gleiten.TV décrit une impulsion facile à obtenir avec une légère pression arrière, puis une reprise rapide après la réception. Le testeur réserve cette facilité aux réceptions qui conservent de la vitesse ; une arrivée de travers ou presque à l'arrêt reste pénalisante.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 457.88,
+          "end_s": 508.0,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=457s",
+          "limitations": "Hauteur de saut, taux de reprise et vitesse non mesurés. Ce passage ne distingue pas les tailles ; les préférences précises pour le 670 arrivent ensuite.",
+          "scope_basis_fr": "Appréciation générale du système Halo avant la comparaison explicite 670/800.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162
+          ]
+        },
+        {
+          "id": "halo670-freestyle-choice",
+          "size_cm2": 670,
+          "sizes_cm2": [
+            670
+          ],
+          "dimension": "freestyle,setup,size_selection",
+          "statement_fr": "Pour le freestyle autour de 80 kg, le testeur privilégie le 670, y compris avec le fuselage court, pour une impulsion et une remontée plus vives sous l'appui arrière. Il juge le fuselage long un peu moins réactif dans cet usage.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 504.08,
+          "end_s": 532.08,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=504s",
+          "limitations": "80 kg est un exemple de recommandation du testeur, pas une limite de poids ni le gabarit confirmé du rider filmé. À rapprocher de l'exigence de contrôle en tangage sur fuselage court, avec vent et niveau non chiffrés.",
+          "scope_basis_fr": "Le passage nomme explicitement le 670 et 80 kg ; le fuselage court a été identifié précédemment comme 56 cm.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170
+          ]
+        },
+        {
+          "id": "halo800-size-choice",
+          "size_cm2": 800,
+          "sizes_cm2": [
+            800
+          ],
+          "dimension": "size_selection,program",
+          "statement_fr": "Le testeur oriente les riders plus lourds, en citant 90 kg et plus, vers le 800. Il rapproche cette taille des foils de moyen allongement ; en dessous, sa préférence va au plus petit modèle grâce à son décollage déjà précoce.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 529.0,
+          "end_s": 560.92,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=529s",
+          "limitations": "Conseil de choix contextualisé dans la discussion freestyle, sans seuil de vent ni plage de poids validée. Ce passage ne fournit pas de mesure distincte de glisse ou pumping du 800.",
+          "scope_basis_fr": "Le 800 et le repère 90 kg+ sont explicitement cités ; il ne faut pas convertir ce repère en règle automatique du configurateur.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182
+          ]
+        },
+        {
+          "id": "halo-both-breach",
+          "size_cm2": null,
+          "sizes_cm2": [
+            670,
+            800
+          ],
+          "dimension": "control,breach",
+          "statement_fr": "Gleiten.TV rapporte une bonne tolérance aux sorties de pointe pour les deux ailes testées, avec un comportement jugé peu stressant dans cette situation.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 627.12,
+          "end_s": 638.92,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=627s",
+          "limitations": "Appréciation commune explicitement donnée pour les deux tailles, sans mesure d'immersion, de fréquence ni séparation par montage. Ne garantit pas l'absence de chute ou de décrochage.",
+          "scope_basis_fr": "Le testeur dit explicitement que les deux ailes se comportent bien dans ce domaine ; les deux tailles annoncées testées sont 670 et 800.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            207,
+            208,
+            209,
+            210,
+            211
+          ]
+        },
+        {
+          "id": "halo-shared-program-limit",
+          "size_cm2": null,
+          "sizes_cm2": [
+            670,
+            800
+          ],
+          "dimension": "program,freestyle,carving",
+          "statement_fr": "Le testeur situe le Halo dans un usage mixte freestyle et vagues, pour un rider recherchant une conduite joueuse. Il précise qu'il existe des ailes plus spécialisées et plus performantes à ses yeux pour un programme exclusivement freestyle.",
+          "source_type": "video_transcript",
+          "evidence_status": "transcript_interpretation_not_audio_verified",
+          "start_s": 635.6,
+          "end_s": 681.68,
+          "source_url": "https://www.youtube.com/watch?v=zesN5IeyRQM&t=635s",
+          "limitations": "Positionnement éditorial de la gamme testée, sans classement mesuré ni comparaison de taille équivalente. Le nom du modèle concurrent est incertain dans la transcription et n'est pas repris comme référence vérifiée.",
+          "scope_basis_fr": "Conclusion générale de l'essai 670/800 ; les avantages de chaque taille doivent rester ceux des passages explicitement attribués.",
+          "transcript_sha256": "30f2acad629af2a029af8c0a5c299234e0c41caa460b970e115383680c8a85a8",
+          "supporting_segment_indexes": [
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227
+          ]
+        }
       ],
-      "notes": "The title and date confirm a candidate equipment test; the content is NOT available in the inspected sources, so no qualitative performance claim is generated."
+      "missing": [
+        "audio_verification",
+        "measured_wind",
+        "confirmed_test_rider_weight",
+        "complete_setup_per_claim",
+        "separate_glide_and_pumping_observations_per_size"
+      ],
+      "notes": "Transcription complète consultée. Les commentaires non départagés entre 670 et 800 restent communs; les repères de poids sont des conseils du testeur, pas des seuils validés.",
+      "transcript_setup_fr": "670 et 800 cm²; mât Apex 77 cm, fuselages 56/63 cm, stabilisateurs 161/181. Drifter 5 en freestyle et Arc en surf annoncées. Poids des testeurs et vent non précisés; 80 et 90 kg sont des conseils de choix.",
+      "transcript_setup": {
+        "sizes_cm2": [
+          670,
+          800
+        ],
+        "size_identification_range": {
+          "start_s": 95.24,
+          "end_s": 104.2
+        },
+        "mast": "KT Apex 77 cm, selon la transcription",
+        "mast_range": {
+          "start_s": 132.2,
+          "end_s": 148.12
+        },
+        "fuselages_cm": [
+          56,
+          63
+        ],
+        "stabilizers_cm2": [
+          161,
+          181
+        ],
+        "configuration_range": {
+          "start_s": 102.52,
+          "end_s": 124.08
+        },
+        "boards": "Drifter 5 en freestyle ; Arc en surf, selon le testeur",
+        "boards_range": {
+          "start_s": 183.84,
+          "end_s": 199.6
+        },
+        "shims": "Cales recommandées par le constructeur, angle non chiffré",
+        "shims_range": {
+          "start_s": 197.48,
+          "end_s": 209.68
+        },
+        "test_rider_weight_kg": null,
+        "wind": null,
+        "limits": "Les poids 80 kg et 90 kg+ apparaissent comme conseils de choix, pas comme mesure des testeurs. Aucun appariement complet taille/stabilisateur/board pour chaque séquence n'est fourni. La stabilité citée à 02:22 concerne le mât et n'est pas utilisée comme preuve de stabilité propre aux ailes."
+      },
+      "transcript_reviewed_ranges": [
+        {
+          "start_s": 3.274,
+          "end_s": 703.08,
+          "segment_count": 236,
+          "coverage": "all_returned_segments_read_not_audio_verified"
+        }
+      ],
+      "transcript_limits": [
+        "Aucune preuve distincte et explicite de pumping ou de glisse durable par taille ; ne pas déduire ces qualités de la vitesse ou du décollage.",
+        "La stabilité à 02:22 est liée au mât Apex et ne prouve pas la stabilité de l'aile avant.",
+        "Le titre et les tailles ne suffisent pas à attribuer chaque commentaire collectif au 670 et au 800 séparément.",
+        "Les références concurrentes et certains termes hydrodynamiques sont déformés par l'ASR ; aucune correction factuelle silencieuse.",
+        "La conclusion à 09:27–10:13 confirme que le Halo demande du contrôle à basse vitesse et préfère conserver de la vitesse ; elle recoupe la limite déjà enregistrée, sans ajouter une preuve indépendante."
+      ]
     }
-  ]
+  ],
+  "transcript_audit": "transcript_audit_2026-11-15.json"
 }

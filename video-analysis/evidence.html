@@ -10,8 +10,11 @@
 <h1>Les essais, sans inventer les conclusions.</h1>
 <p class="muted">Ce registre distingue les observations écrites des testeurs, leurs réponses aux lecteurs, les simples fiches vidéo et les transcriptions réellement analysées.</p>
 <div class="facts"><div class="fact"><strong id="models">–</strong><span>Modèles</span></div><div class="fact"><strong id="claims">–</strong><span>Observations</span></div><div class="fact"><strong id="transcripts">–</strong><span>Transcriptions</span></div></div>
-<p class="warning"><strong>Attention :</strong> aucune de ces trois vidéos n'a été intégralement visionnée ou transcrite. Les observations proviennent de textes publiés par les auteurs et sont attribuées à la taille et à l'usage concernés. Aucune note du configurateur n'a été modifiée.</p>
-<section class="panel"><label for="model"><strong>Choisir un modèle de foil</strong></label><select id="model" aria-label="Choisir un modèle"><option value="">Chargement…</option></select></section>
+<p class="warning"><strong>Portée des preuves :</strong> les trois transcriptions horodatées ont été consultées en entier. Leurs synthèses restent à vérifier à l'écoute : la transcription peut déformer un nom, une taille ou une négation. Aucun visionnage intégral ni aucune mesure de performance ne sont revendiqués. Les observations communes à plusieurs tailles sont signalées comme telles.</p>
+<section class="panel"><label for="model"><strong>Choisir un modèle de foil</strong></label><select id="model" aria-label="Choisir un modèle"><option value="">Chargement…</option></select>
+<p><label for="size">Taille concernée</label><select id="size"><option value="all">Toutes les tailles</option></select></p>
+<p><label for="kind">Type de source</label><select id="kind"><option value="all">Toutes les sources</option><option value="video">Transcription horodatée</option><option value="written">Essais écrits et réponses</option></select></p>
+<p class="subtitle">Une vidéo et un article du même auteur ne constituent pas deux avis indépendants. Les synthèses ci-dessous n'ajoutent aucune note au configurateur.</p></section>
 <div id="records" role="region" aria-live="polite"></div>
 <section class="panel" id="writtenTests" aria-label="Essais écrits supplémentaires">
 <h2>Autres essais écrits vérifiés</h2>
@@ -26,29 +29,51 @@ const $=(id)=>document.getElementById(id);
 let data=null;
 function el(name,text,cls){const x=document.createElement(name);if(text!==undefined)x.textContent=String(text);if(cls)x.className=cls;return x}
 function link(url,label){const a=el('a',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}
+function timecode(seconds){const s=Math.floor(seconds);return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')}
+function resetSizes(){
+ const entry=data.entries.find(e=>e.id===$('model').value);
+ const sizes=new Set(entry.tested_sizes_cm2);
+ for(const c of entry.claims){if(c.size_cm2)sizes.add(c.size_cm2);for(const s of c.sizes_cm2||[])sizes.add(s)}
+ $('size').replaceChildren();const all=el('option','Toutes les tailles');all.value='all';$('size').append(all);
+ for(const size of [...sizes].sort((a,b)=>a-b)){const o=el('option',size+' cm²');o.value=String(size);$('size').append(o)}
+ render();
+}
 function render(){
  const entry=data.entries.find(e=>e.id===$('model').value);const root=$('records');root.replaceChildren();
  if(!entry)return;
  const card=el('section');card.className='panel';
  card.append(el('h2',entry.model));
  const label=el('p','Tailles identifiées : '+entry.tested_sizes_cm2.join(' / ')+' cm²','muted');card.append(label);
- card.append(el('p','Niveau de preuve : '+(entry.confidence||'non précisé'),'subtitle'));
+ card.append(el('p',entry.video.transcript_acquired?'Transcription consultée · propos attribués au testeur · écoute non vérifiée':'Contenu vidéo non disponible','subtitle'));
+ if(entry.transcript_setup_fr)card.append(el('p','Contexte du test : '+entry.transcript_setup_fr,'subtitle'));
  const sources=el('div');sources.className='source';
- sources.append(link(entry.video.url,'Vidéo YouTube (non transcrite)'));
+ sources.append(link(entry.video.url,entry.video.transcript_acquired?'Vidéo source · vérifier à l’écoute':'Vidéo YouTube · non transcrite'));
  if(entry.written_source?.url)sources.append(link(entry.written_source.url,'Source écrite / réponses de l’auteur'));
  for(const src of entry.additional_written_sources||[])if(src.url)sources.append(link(src.url,'Essai indépendant · '+src.publisher));
  card.append(sources);
- if(!entry.claims.length){
-  card.append(el('p','Aucune conclusion technique attribuable au testeur dans les sources contrôlées. Le nom, les tailles et le lien de la vidéo sont néanmoins répertoriés.','empty'));
+ const selectedSize=$('size').value,kind=$('kind').value;
+ const claims=entry.claims.filter(c=>{
+  const isVideo=c.source_type==='video_transcript';
+  if(kind==='video'&&!isVideo||kind==='written'&&isVideo)return false;
+  if(selectedSize==='all')return true;
+  const scope=c.sizes_cm2?.length?c.sizes_cm2:(c.size_cm2?[c.size_cm2]:[]);
+  return !scope.length||scope.includes(Number(selectedSize));
+ });
+ card.append(el('p',claims.length+' observation(s) pour cette sélection','subtitle'));
+ if(!claims.length){
+  card.append(el('p','Aucune observation documentée pour cette sélection.','empty'));
  }else{
-  for(const c of entry.claims){
+  for(const c of claims){
    const item=el('article');item.className='claim';
-   const size=el('span',c.size_cm2?c.size_cm2+' cm²':'Gamme / non spécifique à une taille','pill');
-   const type=el('span',c.source_type==='publisher_qa'?'Réponse du testeur':c.source_type==='independent_editorial_test'?'Essai indépendant':'Essai écrit','pill');
+   if(c.id)item.id=c.id;
+   const size=el('span',c.size_cm2?c.size_cm2+' cm²'+(c.sizes_cm2?.length>1?' · comparaison '+c.sizes_cm2.filter(s=>s!==c.size_cm2).join(' / ')+' cm²':''):c.sizes_cm2?.length?'Commun / non départagé : '+c.sizes_cm2.join(' / ')+' cm²':'Gamme / non spécifique à une taille','pill');
+   const type=el('span',c.source_type==='video_transcript'?'Transcription · à vérifier à l’écoute':c.source_type==='publisher_qa'?'Réponse du testeur':c.source_type==='independent_editorial_test'?'Essai indépendant':'Essai écrit','pill');
    item.append(size,type);
    item.append(el('p',c.statement_fr));
    item.append(el('p','Limites : '+c.limitations,'subtitle'));
-   if(c.source_url)item.append(link(c.source_url,'Lire la source précise'));
+   if(c.scope_basis_fr)item.append(el('p','Attribution : '+c.scope_basis_fr,'subtitle'));
+   if(c.source_type==='video_transcript')item.append(link(c.source_url,'Écouter '+timecode(c.start_s)+' – '+timecode(c.end_s)));
+   else if(c.source_url)item.append(link(c.source_url,'Lire la source précise'));
    else if(c.source_type==='publisher_qa'&&entry.written_source?.url)item.append(link(entry.written_source.url,'Voir la réponse du testeur'));
    card.append(item);
   }
@@ -62,7 +87,7 @@ fetch('../data/research/pilot_3_video_tests_2026-11-15.json',{cache:'no-store'})
  $('transcripts').textContent=d.summary.video_transcripts_obtained;
  $('model').replaceChildren();
  for(const entry of d.entries){const o=el('option',entry.model);o.value=entry.id;$('model').append(o)}
- $('model').addEventListener('change',render);render();
+ $('model').addEventListener('change',resetSizes);$('size').addEventListener('change',render);$('kind').addEventListener('change',render);resetSizes();
 }).catch(err=>{$('records').append(el('p','Impossible de charger les preuves : '+err.message,'empty'));$('model').replaceChildren()});
 
 fetch('../data/research/written_test_evidence_2026.json',{cache:'no-store'})

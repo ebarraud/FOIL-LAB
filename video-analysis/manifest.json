@@ -1,20 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14",
-  "note": "Seed queue, not analyzed videos; index URLs are not exact individual videos. Do not assign technical ratings based on these entries.",
+  "updated_at": "2026-11-15",
+  "note": "Research queue: three exact YouTube sources have transcript interpretations, not audio verification. Other entries remain queued. No automatic technical ratings.",
   "videos": [
     {
       "id": "gleiten-duotone-glide3-825",
       "title": "Duotone Glide 3.0 D/LAB 825 foil test (2026)",
       "publisher": "Gleiten.TV",
       "language": "de",
-      "url": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+      "url": "https://www.youtube.com/watch?v=aiWA2W7hKos",
       "source_status": "video_page",
-      "transcript_status": "not_available_yet",
+      "transcript_status": "transcript_reviewed_not_audio_verified",
       "full_video_reviewed": false,
-      "review_status": "queued",
-      "associated_product": null,
-      "year_of_test": null
+      "review_status": "assistant_transcript_interpretation",
+      "associated_product": "Duotone Glide 3.0 D/LAB",
+      "year_of_test": 2026,
+      "discovery_page_url": "https://gleiten.tv/video/4935-duotone-glide-3-0-dlab-825-foil-test-2026/",
+      "transcript_evidence_dataset": "../data/research/pilot_3_video_tests_2026-11-15.json"
     },
     {
       "id": "gleiten-skybrid-dlab-80",
@@ -60,13 +62,15 @@
       "title": "KT Halo 670/800 foil test (2026)",
       "publisher": "Gleiten.TV",
       "language": "de",
-      "url": "https://gleiten.tv/foil/test/wingfoil/foil/",
-      "source_status": "index_only",
-      "transcript_status": "not_available_yet",
+      "url": "https://www.youtube.com/watch?v=zesN5IeyRQM",
+      "source_status": "video_page",
+      "transcript_status": "transcript_reviewed_not_audio_verified",
       "full_video_reviewed": false,
-      "review_status": "queued",
-      "associated_product": null,
-      "year_of_test": null
+      "review_status": "assistant_transcript_interpretation",
+      "associated_product": "KT Halo",
+      "year_of_test": 2026,
+      "discovery_page_url": "https://gleiten.tv/foil/test/wingfoil/foil/",
+      "transcript_evidence_dataset": "../data/research/pilot_3_video_tests_2026-11-15.json"
     },
     {
       "id": "gleiten-armstrong-uha",
@@ -158,6 +162,20 @@
       "review_status": "queued",
       "associated_product": null,
       "year_of_test": null
+    },
+    {
+      "id": "youtube-afs-silk-v2-hadou",
+      "title": "AFS Silk V2 650/750/950 — Hadou",
+      "publisher": "Hadou / Pimpyourride",
+      "language": "fr",
+      "url": "https://www.youtube.com/watch?v=DMlWjjIcwss",
+      "source_status": "video_page",
+      "transcript_status": "transcript_reviewed_not_audio_verified",
+      "review_status": "assistant_transcript_interpretation",
+      "full_video_reviewed": false,
+      "associated_product": "AFS Silk V2",
+      "year_of_test": 2026,
+      "transcript_evidence_dataset": "../data/research/pilot_3_video_tests_2026-11-15.json"
     }
   ]
 }

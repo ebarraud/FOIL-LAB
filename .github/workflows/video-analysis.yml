@@ -3,6 +3,15 @@ on:
   pull_request:
     paths:
       - 'video-analysis/**'
+      - 'data/research/pilot_3_video_tests_2026-11-15.json'
+      - 'data/research/transcript_audit_2026-11-15.json'
+      - '.github/workflows/video-analysis.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'video-analysis/**'
+      - 'data/research/pilot_3_video_tests_2026-11-15.json'
+      - 'data/research/transcript_audit_2026-11-15.json'
       - '.github/workflows/video-analysis.yml'
   workflow_dispatch:
 jobs:
@@ -22,8 +31,9 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          x=json.loads(Path('video-analysis/manifest.json').read_text())
+          x=json.loads(Path('video-analysis/manifest.json').read_text(encoding='utf-8'))
           assert len({v['id'] for v in x['videos']})==len(x['videos'])
-          assert all(v['transcript_status']=='not_available_yet' for v in x['videos'])
+          assert all(not v['full_video_reviewed'] for v in x['videos'])
+          assert all(v['transcript_status'] in ('not_available_yet','transcript_reviewed_not_audio_verified') for v in x['videos'])
           print('Manifest OK',len(x['videos']))
           PY

@@ -1,5 +1,7 @@
 # FOIL LAB EXPERT — Pilote de trois essais vidéo (15 novembre 2026)
 
+> **Rapport historique, avant acquisition des transcriptions.** La [mise à jour du 15 novembre](ANALYSE_TRANSCRIPTIONS_2026-11-15.md) documente désormais trois transcriptions réellement obtenues et 30 synthèses minutées. Les mentions « aucune transcription » ci-dessous décrivent l'état initial, pas l'état actuel. Aucun visionnage intégral n'est revendiqué.
+
 ## Périmètre et méthode
 
 Fenêtre temporelle glissante : **15 novembre 2024 → 15 novembre 2026**. Trois essais de **foils** wingfoil déjà identifiés : AFS Silk V2 (650/750/950), Duotone Glide 3.0 D/LAB 825 et KT Halo (670/800).
