@@ -25,7 +25,7 @@ SOURCES=[
 REVIEW=re.compile(r"\b(test|review|essai|praxistest|versus|comparatif)\b",re.I)
 FOIL=re.compile(r"\b(foil|hydrofoil|front.?wing|kitefoil|wingfoil)\b",re.I)
 BOARD=re.compile(r"\b(board|wingboard|mid.?length|planche|wingfoil)\b",re.I)
-EXCLUDE=re.compile(r"\b(tuto|tutorial|comment|interview|itw|parawing\b.*\b(wing|review)|wing review|wing test|webinar|annonce|coulisses|news|interview)\b",re.I)
+EXCLUDE=re.compile(r"\b(tuto|tutorial|comment|interview|itw|parawing\b.*\b(wing|review)|wing review|wing test|foil assist|webinar|annonce|coulisses|news|interview)\b",re.I)
 MONTHS={"janvier":1,"février":2,"mars":3,"avril":4,"mai":5,"juin":6,"juillet":7,"août":8,"septembre":9,"octobre":10,"novembre":11,"décembre":12}
 def get(url):
     req=Request(url,headers={"User-Agent":"FOIL-LAB-public-review-index/1.0","Accept":"text/html,application/rss+xml,application/xml"})
