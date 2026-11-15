@@ -272,11 +272,19 @@ def main(argv=None):
                 items += rows
                 report["youtube"]["errors"].extend(errors)
                 time.sleep(0.15)
-            # Target this known publisher explicitly; broad search missed it.
-            rows, errors = youtube_search(key, 'wingfoil', args.youtube_pages,
-                                         channel_id='UCjE0wgm69FcpOsVieDqO0-A')
-            items += rows
-            report['youtube']['errors'].extend(errors)
+            # Explicit channel coverage supplements, but does not replace, broad search.
+            registry=Path(__file__).resolve().parents[1]/'data/research/monitored_publishers.json'
+            publishers=json.loads(registry.read_text(encoding='utf-8')).get('publishers',[]) if registry.exists() else []
+            report['youtube']['channel_searches']=[]
+            for publisher in publishers:
+                rows, errors = youtube_search(key, 'wingfoil', args.youtube_pages,
+                                             channel_id=publisher['channel_id'])
+                items += rows
+                report['youtube']['errors'].extend(errors)
+                report['youtube']['channel_searches'].append({'publisher':publisher['name'],
+                    'channel_id':publisher['channel_id'],'retained_candidates':len(rows),
+                    'errors':errors,'coverage':'bounded_search_not_full_channel_archive'})
+                time.sleep(0.15)
     records = combine(items)
     result = {
         "schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),

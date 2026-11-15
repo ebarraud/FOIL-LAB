@@ -1,14 +1,194 @@
 {
-  "updated_at_utc": "2026-11-15T18:49:29.897411+00:00",
+  "updated_at_utc": "2026-11-15T18:51:46.214128+00:00",
   "collection_updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
   "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00",
   "collection_state": "provider_access_or_rate_limit",
   "analysis_schedule": "Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.",
   "monitored_publishers": [
     {
+      "name": "Alicia Le Furaut Phantom rider",
+      "channel_id": "UC8p2trM9uhObL4qFJfTQ3ew",
+      "url": "https://www.youtube.com/channel/UC8p2trM9uhObL4qFJfTQ3ew",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Alvaro Bajo",
+      "channel_id": "UCzt8hAHTypMi_ess47oLD1g",
+      "url": "https://www.youtube.com/channel/UCzt8hAHTypMi_ess47oLD1g",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Andy Biggs Watersports",
+      "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
+      "url": "https://www.youtube.com/channel/UC-ZRvHP0aj46-PJA7BIB5cQ",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "bigwinds",
+      "channel_id": "UC0q7gGA8ivy2tf-PTZ4AOlw",
+      "url": "https://www.youtube.com/channel/UC0q7gGA8ivy2tf-PTZ4AOlw",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Den Gordo WingFoiling",
+      "channel_id": "UCDPI5klsfc28GYtgYzt4mEw",
+      "url": "https://www.youtube.com/channel/UCDPI5klsfc28GYtgYzt4mEw",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "FoilWithUs",
+      "channel_id": "UCTMhLb1mQS32o-74PooeKxw",
+      "url": "https://www.youtube.com/channel/UCTMhLb1mQS32o-74PooeKxw",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Freeride Attitude",
+      "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
+      "url": "https://www.youtube.com/channel/UC0sMbZn0RCh7_79gYWvbJdw",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
+      "url": "https://www.youtube.com/channel/UCnazyqTEzCK5L7pBwMkX4-w",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Hadou BRUNNER",
+      "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
+      "url": "https://www.youtube.com/channel/UCsDKrp7NgTlMDC-0roAY2gw",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "HALF-LIFE",
+      "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
+      "url": "https://www.youtube.com/channel/UCw_jEN8inQNDTjLPPc_4oPA",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Heflav SUP",
+      "channel_id": "UCuPgNY2HCMjUutyqjVzGAeQ",
+      "url": "https://www.youtube.com/channel/UCuPgNY2HCMjUutyqjVzGAeQ",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "hoppline",
+      "channel_id": "UCcoMkDM1ttcSti319laDFjg",
+      "url": "https://www.youtube.com/channel/UCcoMkDM1ttcSti319laDFjg",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "KitePaddleSurf",
+      "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
+      "url": "https://www.youtube.com/channel/UC_kkkSzXTvjXWRawqQge14g",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Liquid Blue Cabarete",
+      "channel_id": "UCl5zIGj7XVEOVdxvzjjd_Ww",
+      "url": "https://www.youtube.com/channel/UCl5zIGj7XVEOVdxvzjjd_Ww",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "MACkiteboarding",
+      "channel_id": "UCgaSOa5qTpPIq-hR8vRRy5A",
+      "url": "https://www.youtube.com/channel/UCgaSOa5qTpPIq-hR8vRRy5A",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Nature Kite",
+      "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
+      "url": "https://www.youtube.com/channel/UCe9kdFZh_CutpGO5WSjzK-Q",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Pakaa Foil",
+      "channel_id": "UCibszUt5J2BVGh_wBjqJVJw",
+      "url": "https://www.youtube.com/channel/UCibszUt5J2BVGh_wBjqJVJw",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Pasty Adventures",
+      "channel_id": "UCSOPNqdhYEgErM0vT-9ErEg",
+      "url": "https://www.youtube.com/channel/UCSOPNqdhYEgErM0vT-9ErEg",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Reactive Team",
+      "channel_id": "UCg309ego7_kDnCWS7uzX9nA",
+      "url": "https://www.youtube.com/channel/UCg309ego7_kDnCWS7uzX9nA",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Sup Passion // Foil Magazine",
+      "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
+      "url": "https://www.youtube.com/channel/UCDgz3bNJnClDoJDQ-ZM_9iA",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "targadave",
+      "channel_id": "UC7Dbjf_ZCXiMStS_r5iBatw",
+      "url": "https://www.youtube.com/channel/UC7Dbjf_ZCXiMStS_r5iBatw",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
       "name": "The Kiteworld Shop",
       "channel_id": "UCjE0wgm69FcpOsVieDqO0-A",
       "url": "https://www.youtube.com/@kiteworldshop",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Tonic Mag",
+      "channel_id": "UCQf8qievrZ8vF680-Ksrq7A",
+      "url": "https://www.youtube.com/channel/UCQf8qievrZ8vF680-Ksrq7A",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Twins Foil",
+      "channel_id": "UCgtf21MO8n0j16_jDbFcnwA",
+      "url": "https://www.youtube.com/channel/UCgtf21MO8n0j16_jDbFcnwA",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Unbox Ecc",
+      "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
+      "url": "https://www.youtube.com/channel/UCcAlK4Ckqo1IhdZZiwC66-A",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Viking Surfcenter",
+      "channel_id": "UCsiVm8v-xvUf_70I2tjiVIw",
+      "url": "https://www.youtube.com/channel/UCsiVm8v-xvUf_70I2tjiVIw",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Wing-Tips",
+      "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
+      "url": "https://www.youtube.com/channel/UCQskfGi1CbczXa1yETDGAEA",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Wingfoil Max",
+      "channel_id": "UCDi02grdN7EOVGDQgfsWf_Q",
+      "url": "https://www.youtube.com/channel/UCDi02grdN7EOVGDQgfsWf_Q",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "wingpassion",
+      "channel_id": "UCQOnp2pO-IyQ5mYl_wGSmtw",
+      "url": "https://www.youtube.com/channel/UCQOnp2pO-IyQ5mYl_wGSmtw",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "wingSURF world",
+      "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
+      "url": "https://www.youtube.com/channel/UC-E67NPBGvCc6SOV2hKzT1w",
+      "status": "targeted_discovery_scheduled"
+    },
+    {
+      "name": "Wingsurfer",
+      "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
+      "url": "https://www.youtube.com/channel/UCa4wR3eVwZNF60k9ik9_q9Q",
       "status": "targeted_discovery_scheduled"
     }
   ],
