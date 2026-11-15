@@ -10,9 +10,11 @@
     "video_transcripts_obtained": 0,
     "video_audio_processed": 0,
     "videos_fully_watched": 0,
-    "editorial_written_reviews_inspected": 1,
+    "editorial_written_reviews_inspected": 2,
     "publisher_qa_inspected": 1,
-    "model_performance_scores_updated": 0
+    "model_performance_scores_updated": 0,
+    "independent_second_opinions_included": 1,
+    "technical_attributed_observations": 10
   },
   "publication_policy": "Distinguish video metadata from written first-person testing and responses to readers. Do not treat blog articles or comments as video transcript. All performance assertions require visible attributed provenance.",
   "entries": [
@@ -57,7 +59,8 @@
           "statement_fr": "Le testeur indique que la 750 V2 remplace avantageusement sa 850 V1 pour sa pratique : pumping moins exigeant, rail-to-rail fluide et glisse accrue.",
           "source_type": "written_test",
           "evidence_status": "attributed_not_corroborated",
-          "limitations": "Expérience subjective, comparaison entre générations; conditions non quantifiées."
+          "limitations": "Expérience subjective, comparaison entre générations; conditions non quantifiées.",
+          "source_url": "https://www.pimpyourride.fr/afs-silk-v2-foil-review/"
         },
         {
           "size_cm2": 950,
@@ -65,7 +68,8 @@
           "statement_fr": "En surf foil, l'association 950/U-Surf 135 s'est montrée beaucoup plus tolérante à basse vitesse que l'essai initial avec U-Carve 130.",
           "source_type": "written_test",
           "evidence_status": "attributed_not_corroborated",
-          "limitations": "Contexte surffoil, à ne pas transposer automatiquement au wingfoil."
+          "limitations": "Contexte surffoil, à ne pas transposer automatiquement au wingfoil.",
+          "source_url": "https://www.pimpyourride.fr/afs-silk-v2-foil-review/"
         },
         {
           "size_cm2": 650,
@@ -73,7 +77,8 @@
           "statement_fr": "Le testeur apprécie les virages plus courts et la capacité de conserver de l'énergie dans les petites bosses en wing; il conseille un recul du foil d'environ 2–3 cm dans les rails par rapport à la 750 dans son montage.",
           "source_type": "written_test",
           "evidence_status": "attributed_not_corroborated",
-          "limitations": "Réglage spécifique à sa board, son gabarit et son montage, non prescription universelle."
+          "limitations": "Réglage spécifique à sa board, son gabarit et son montage, non prescription universelle.",
+          "source_url": "https://www.pimpyourride.fr/afs-silk-v2-foil-review/"
         },
         {
           "size_cm2": null,
@@ -81,7 +86,8 @@
           "statement_fr": "Le testeur juge la gamme Silk V2 orientée tolérance à basse vitesse plutôt que vitesse maximale; il rapporte qu'une Armstrong MA 690 lui a paru plus rapide lors d'une comparaison.",
           "source_type": "written_test",
           "evidence_status": "attributed_not_corroborated",
-          "limitations": "Pas de protocole chronométré ni mesure de vitesse fournis."
+          "limitations": "Pas de protocole chronométré ni mesure de vitesse fournis.",
+          "source_url": "https://www.pimpyourride.fr/afs-silk-v2-foil-review/"
         },
         {
           "size_cm2": null,
@@ -89,7 +95,39 @@
           "statement_fr": "Le testeur relève des housses fines et certaines aspérités de finition malgré un tarif élevé.",
           "source_type": "written_test",
           "evidence_status": "attributed_not_corroborated",
-          "limitations": "Observations sur le matériel qu'il a reçu, non preuve de défaut systématique."
+          "limitations": "Observations sur le matériel qu'il a reçu, non preuve de défaut systématique.",
+          "source_url": "https://www.pimpyourride.fr/afs-silk-v2-foil-review/"
+        },
+        {
+          "size_cm2": 750,
+          "dimension": "takeoff,carving,glide",
+          "statement_fr": "Dans son essai de la Silk V2 750, Foiling Magazine met en avant la montée en portance progressive, la précision en carving et la glisse accrue par rapport à la première Silk.",
+          "source_type": "independent_editorial_test",
+          "source_url": "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+          "evidence_status": "independent_editorial_claim_not_instrumented",
+          "limitations": "Essai de 750 avec mât UHM Slim 80 cm; description éditoriale sans mesures comparatives chiffrées."
+        },
+        {
+          "size_cm2": 750,
+          "dimension": "pumping,program",
+          "statement_fr": "Foiling Magazine rappelle que la Silk V2 750 vise surtout le surf et le carving fluide, plutôt qu'un usage exclusivement consacré au pumping ou au downwind à très fort allongement.",
+          "source_type": "independent_editorial_test",
+          "source_url": "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+          "evidence_status": "independent_editorial_claim_not_instrumented",
+          "limitations": "Positionnement et interprétation de l'essayeur, pas impossibilité physique de pratiquer ces usages."
+        }
+      ],
+      "additional_written_sources": [
+        {
+          "url": "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
+          "publisher": "Foiling Magazine",
+          "type": "independent_editorial_test",
+          "tested_size_cm2": 750,
+          "context": "Surf wing / parawing; mast 80 cm UHM Slim",
+          "date": "2026",
+          "reviewed": true,
+          "independent_from": "Pimpyourride / Hadou",
+          "citation_scope": "Only claims explicitly associated with the 750 and editorial test."
         }
       ]
     },

@@ -31,6 +31,7 @@ function render(){
  const sources=el('div');sources.className='source';
  sources.append(link(entry.video.url,'Vidéo YouTube (non transcrite)'));
  if(entry.written_source?.url)sources.append(link(entry.written_source.url,'Source écrite / réponses de l’auteur'));
+ for(const src of entry.additional_written_sources||[])if(src.url)sources.append(link(src.url,'Essai indépendant · '+src.publisher));
  card.append(sources);
  if(!entry.claims.length){
   card.append(el('p','Aucune conclusion technique attribuable au testeur dans les sources contrôlées. Le nom, les tailles et le lien de la vidéo sont néanmoins répertoriés.','empty'));
@@ -38,10 +39,12 @@ function render(){
   for(const c of entry.claims){
    const item=el('article');item.className='claim';
    const size=el('span',c.size_cm2?c.size_cm2+' cm²':'Gamme / non spécifique à une taille','pill');
-   const type=el('span',c.source_type==='publisher_qa'?'Réponse du testeur':'Essai écrit','pill');
+   const type=el('span',c.source_type==='publisher_qa'?'Réponse du testeur':c.source_type==='independent_editorial_test'?'Essai indépendant':'Essai écrit','pill');
    item.append(size,type);
    item.append(el('p',c.statement_fr));
    item.append(el('p','Limites : '+c.limitations,'subtitle'));
+   if(c.source_url)item.append(link(c.source_url,'Lire la source précise'));
+   else if(c.source_type==='publisher_qa'&&entry.written_source?.url)item.append(link(entry.written_source.url,'Voir la réponse du testeur'));
    card.append(item);
   }
  }
