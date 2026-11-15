@@ -305,6 +305,58 @@
           "source_url": "https://www.youtube.com/watch?v=ZWb49kOlXpo&t=431s"
         }
       ]
+    },
+    {
+      "video_id": "oj8HfuYygDw",
+      "model": "Naish Chimera 2026",
+      "size_l": 68,
+      "language_returned": "en",
+      "transcript_sha256": "4ed3d98f090e3f683c64923737802c95242a4aa5705fbbd71c31d2e8d1740616",
+      "review_method": "Lecture complète du cache anglais retourné; interprétation par assistant, pas de contrôle audio/vidéo.",
+      "integration": "deferred",
+      "integration_reason": "Le modèle 2026 existe au catalogue, mais les observations concernent la 68 L et un montage non précisé. Poids des riders absent : aucune correction de volume automatique ni généralisation aux autres tailles. Vérifier visuellement les inserts avant conseil de straps.",
+      "claims": [
+        {
+          "start_s": 165.2,
+          "end_s": 197.2,
+          "dimension": "touchdown,program",
+          "statement_fr": "Les présentateurs apprécient la réaction des rails lors des touchettes et présentent la 68 L / 6 pieds comme une taille intéressante en wing léger et parawing.",
+          "limits": "Vent, poids et foil non précisés; ne pas déduire une plage de poids ou de vent du volume.",
+          "source_url": "https://www.youtube.com/watch?v=oj8HfuYygDw&t=165s"
+        },
+        {
+          "start_s": 199.8,
+          "end_s": 233.4,
+          "dimension": "stability,parawing",
+          "statement_fr": "Un présentateur rapporte avoir appris à démarrer en parawing sur cette planche, dont il apprécie la stabilité latérale.",
+          "limits": "Apprentissage de la parawing, pas débutant complet en wingfoil. Aucun transfert automatique à toutes les tailles ou à tous les gabarits.",
+          "source_url": "https://www.youtube.com/watch?v=oj8HfuYygDw&t=199s"
+        },
+        {
+          "start_s": 107,
+          "end_s": 129.7,
+          "dimension": "footstraps,limits",
+          "statement_fr": "Un présentateur regrette l’absence du point de fixation central souhaité pour son montage de straps en V.",
+          "limits": "Disposition précise et génération à contrôler visuellement; pas une incompatibilité universelle de tous les straps.",
+          "source_url": "https://www.youtube.com/watch?v=oj8HfuYygDw&t=107s"
+        },
+        {
+          "start_s": 283.1,
+          "end_s": 299.4,
+          "dimension": "durability",
+          "statement_fr": "Les présentateurs ne rapportent pas de problème de durabilité pendant leur usage collectif avec protection de rangement.",
+          "limits": "Durée, nombre de sessions et protocole absents; contexte de magasin et de démonstration, pas une mesure indépendante de fiabilité.",
+          "source_url": "https://www.youtube.com/watch?v=oj8HfuYygDw&t=283s"
+        },
+        {
+          "start_s": 395.1,
+          "end_s": 427.9,
+          "dimension": "provenance,handling",
+          "statement_fr": "Les présentateurs décrivent une utilisation répétée du modèle de démonstration et un ressenti peu encombrant en navigation.",
+          "limits": "Le magasin propose le matériel à l’essai; biais commercial explicite. Poids de la planche non mesuré dans le passage.",
+          "source_url": "https://www.youtube.com/watch?v=oj8HfuYygDw&t=395s"
+        }
+      ]
     }
   ]
 }
