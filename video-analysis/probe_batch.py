@@ -9,6 +9,12 @@ from acquire import run_video
 
 def choose(videos: list[dict], limit: int) -> list[dict]:
     chosen=[]
+    # Prioritize actual API caption=true metadata over arbitrary search order.
+    # This is only a signal that captions might exist, NOT permission to read them.
+    videos=sorted(videos,key=lambda v: (
+        v.get("captions_metadata_flag") != "true",
+        v.get("editorial_screening") != "priority_review_metadata",
+        v.get("screening_status") != "priority_metadata_candidate"))
     for v in videos:
         if v.get("screening_status") != "priority_metadata_candidate":
             continue
@@ -18,7 +24,9 @@ def choose(videos: list[dict], limit: int) -> list[dict]:
             continue
         chosen.append({"id":v["id"],"url":v["url"],"title":v["title"],
                        "publisher":v.get("publisher","YouTube"),
-                       "language":"de"})
+                       "language":"de",
+                       "captions_metadata_flag":v.get("captions_metadata_flag"),
+                       "video_duration_s":v.get("video_duration_s")})
         if len(chosen)>=limit:
             break
     return chosen
@@ -37,6 +45,7 @@ def main():
     for video in videos:
         result=run_video(video,"probe")
         records.append({"id":video["id"],"title":video["title"],"url":video["url"],
+                        "captions_metadata_flag":video.get("captions_metadata_flag"),
                         "probe_status":result["status"],
                         "reason":result.get("reason"),
                         "caption_listing_indicated":result.get("caption_listing_indicated",False),
