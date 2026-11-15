@@ -36,7 +36,9 @@ jobs:
       - name: Discover YouTube reviews (24 months) when configured
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python video-analysis/discover.py --sources youtube --youtube-pages 1 --output video-index/youtube.json
+        run: |
+          # This run verifies the repository secret at runtime without logging its value.
+          python video-analysis/discover.py --sources youtube --youtube-pages 1 --output video-index/youtube.json
       - name: Print inventory and access status (no false success)
         run: |
           python - <<'PY'
