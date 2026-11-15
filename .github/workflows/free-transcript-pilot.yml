@@ -1,0 +1,52 @@
+name: Free anonymous YouTube transcript pilot
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'video-analysis/free_transcript_pilot.py'
+      - 'video-analysis/test_free_transcript_pilot.py'
+      - '.github/workflows/free-transcript-pilot.yml'
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify parser, no guessing and errors
+        run: python -m unittest discover -s video-analysis -p 'test_*.py' -v
+      - name: Attempt 3 real transcripts anonymously without a key
+        run: python video-analysis/free_transcript_pilot.py --limit 3 --output video-index/free-transcript-pilot.json
+      - name: Report genuine outcome
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path('video-index/free-transcript-pilot.json')
+          lines=['# FOIL LAB · test gratuit des transcriptions YouTube','']
+          if p.exists():
+              d=json.loads(p.read_text())
+              lines+=['- Vidéos testées : **'+str(d['attempted'])+'**',
+                '- Transcriptions réellement reçues : **'+str(d['transcripts_obtained'])+'**',
+                '- Notes du configurateur modifiées : **0**','']
+              for v in d['results']:
+                  lines.append('- '+v['title']+' : '+v['status']+
+                    (' ('+str(v['segment_count'])+' passages)' if 'segment_count' in v else ''))
+          else:
+              lines.append('Aucun résultat produit')
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+              f.write('\n'.join(lines)+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: free-anonymous-foil-video-transcripts
+          path: video-index/free-transcript-pilot.json
+          if-no-files-found: warn
+          retention-days: 7
