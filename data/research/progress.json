@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T19:47:49.259992+00:00",
+  "updated_at_utc": "2026-11-15T19:52:31.725594+00:00",
   "collection_updated_at_utc": "2026-11-15T19:04:52.347426+00:00",
   "retry_not_before_utc": "2026-11-15T20:00:00.347426+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -200,7 +200,7 @@
       "collection": "timed_transcript_received",
       "segments": 218,
       "keyword_candidates": 25,
-      "analysis": "interpreted",
+      "analysis": "in_progress",
       "claims": 8,
       "evidence_url": "video-analysis/evidence.html",
       "integration": "documented",
@@ -208,7 +208,15 @@
       "integration_reason": "Vérification à effectuer par l’assistant : génération Glide 3.0 D/LAB, fiche catalogue du 825 et interfaces des montages H130/43 et H150/40 avant ajout au moteur. Aucun seuil de poids universel déduit des testeurs de 80–90 kg.",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": {
+        "video_id": "aiWA2W7hKos",
+        "status": "in_progress",
+        "step": "Vérification constructeur Glide 3.0 et intégration des contraintes de programme",
+        "started_at_utc": "2026-11-15T19:52:31.505692+00:00",
+        "updated_at_utc": "2026-11-15T19:52:31.505692+00:00",
+        "expires_at_utc": "2026-11-15T20:12:31.505692+00:00"
+      },
+      "analysis_before_activity": "interpreted"
     },
     {
       "video_id": "DMlWjjIcwss",
@@ -456,7 +464,7 @@
       "collection": "timed_transcript_received",
       "segments": 236,
       "keyword_candidates": 14,
-      "analysis": "interpreted",
+      "analysis": "in_progress",
       "claims": 10,
       "evidence_url": "video-analysis/evidence.html",
       "integration": "documented",
@@ -464,7 +472,15 @@
       "integration_reason": "Vérification à effectuer par l’assistant : génération Halo, fiches 670/800 et interfaces des fuselages 56/63. Les avis communs restent non départagés et les repères 80/90 kg ne sont pas des seuils mesurés.",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": {
+        "video_id": "zesN5IeyRQM",
+        "status": "in_progress",
+        "step": "Vérification constructeur Halo et intégration des contraintes de montage",
+        "started_at_utc": "2026-11-15T19:52:31.672166+00:00",
+        "updated_at_utc": "2026-11-15T19:52:31.672166+00:00",
+        "expires_at_utc": "2026-11-15T20:12:31.672166+00:00"
+      },
+      "analysis_before_activity": "interpreted"
     },
     {
       "video_id": "3EObhbc9v-o",
