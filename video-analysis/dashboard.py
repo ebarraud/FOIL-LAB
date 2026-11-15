@@ -43,6 +43,15 @@ def build(root=Path('.')):
         if len(vid)!=11:continue
         records.setdefault(vid,{'video_id':vid,'title':row['title'],'language':row.get('language'),'collection':'new','analysis':'needs_qualification','integration':'pending','claims':0,'discovered_on':row.get('published_on')})
     videos=list(records.values())
+    publishers=load(root/'data/research/video_publishers.json',{})
+    for row in load(discovery,{}).get('videos',[]):
+        vid=row.get('url','').split('v=')[-1].split('&')[0]
+        if row.get('publisher'):
+            publishers[vid]={'publisher':row['publisher'],'channel_id':row.get('channel_id')}
+    for video in videos:
+        metadata=publishers.get(video['video_id'],{})
+        video['publisher']=metadata.get('publisher') or video.get('publisher')
+        video['channel_id']=metadata.get('channel_id') or video.get('channel_id')
     tasks=load(root/'data/research/analysis_activity.json',{}).get('tasks',[])
     now=datetime.now(timezone.utc)
     for video in videos:

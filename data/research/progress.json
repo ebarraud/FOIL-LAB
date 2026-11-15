@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T18:32:53.565133+00:00",
+  "updated_at_utc": "2026-11-15T18:45:07.572248+00:00",
   "collection_updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
   "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -18,6 +18,8 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Vérification à effectuer par l’assistant : génération Glide 3.0 D/LAB, fiche catalogue du 825 et interfaces des montages H130/43 et H150/40 avant ajout au moteur. Aucun seuil de poids universel déduit des testeurs de 80–90 kg.",
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -33,6 +35,8 @@
       "integration": "integrated",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Hadou BRUNNER",
+      "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
     },
     {
@@ -48,6 +52,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Unbox Ecc",
+      "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": null
     },
     {
@@ -63,6 +69,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -78,6 +86,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Pasty Adventures ",
+      "channel_id": "UCSOPNqdhYEgErM0vT-9ErEg",
       "activity": null
     },
     {
@@ -93,6 +103,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Sup Passion // Foil Magazine",
+      "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
       "activity": null
     },
     {
@@ -108,6 +120,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Tonic Mag",
+      "channel_id": "UCQf8qievrZ8vF680-Ksrq7A",
       "activity": null
     },
     {
@@ -123,6 +137,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -138,6 +154,8 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Millésime 2027 explicitement annoncé, ne pas confondre avec Skybrid D/LAB 2026. La 100 L est présentée mais la taille de chaque session n’est pas confirmée. Catalogue et dimensions nécessaires avant ajout au moteur.",
+      "publisher": "Viking Surfcenter",
+      "channel_id": "UCsiVm8v-xvUf_70I2tjiVIw",
       "activity": {
         "video_id": "o-piLekjAHk",
         "status": "completed",
@@ -160,6 +178,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Andy Biggs Watersports",
+      "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
       "activity": null
     },
     {
@@ -175,6 +195,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Freeride Attitude",
+      "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
       "activity": null
     },
     {
@@ -190,6 +212,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -205,6 +229,8 @@
       "integration": "integrated",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Tonic Mag",
+      "channel_id": "UCQf8qievrZ8vF680-Ksrq7A",
       "activity": null
     },
     {
@@ -220,6 +246,8 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Vérification à effectuer par l’assistant : génération Halo, fiches 670/800 et interfaces des fuselages 56/63. Les avis communs restent non départagés et les repères 80/90 kg ne sont pas des seuils mesurés.",
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -235,6 +263,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Hadou BRUNNER",
+      "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
     },
     {
@@ -250,6 +280,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -265,6 +297,8 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Les tailles 800/1000 et leurs compromis sont documentés. Modèle absent du moteur; fiche constructeur et interfaces à vérifier avant ajout. Aucun coefficient de portance ni seuil de poids inventé.",
+      "publisher": "Hadou BRUNNER",
+      "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": {
         "video_id": "FJsdHDBPLJY",
         "status": "completed",
@@ -287,6 +321,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Hadou BRUNNER",
+      "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
     },
     {
@@ -302,6 +338,8 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Modèle absent du catalogue moteur; compléter génération, tailles et interfaces avant classement. Traduction fortement déformée : aucune règle automatique de poids ou de stabilisateur déduite.",
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -317,6 +355,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "HALF-LIFE",
+      "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
       "activity": null
     },
     {
@@ -332,6 +372,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "KitePaddleSurf",
+      "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
       "activity": null
     },
     {
@@ -347,6 +389,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Unbox Ecc",
+      "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": null
     },
     {
@@ -362,6 +406,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Unbox Ecc",
+      "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": null
     },
     {
@@ -377,6 +423,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -392,6 +440,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -407,6 +457,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -422,6 +474,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "wingSURF world",
+      "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
       "activity": null
     },
     {
@@ -437,6 +491,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -452,6 +508,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Unbox Ecc",
+      "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": null
     },
     {
@@ -467,6 +525,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Hadou BRUNNER",
+      "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
     },
     {
@@ -482,6 +542,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -497,6 +559,8 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -512,6 +576,8 @@
       "integration": "pending",
       "failure": 429,
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -527,6 +593,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -542,6 +610,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -557,6 +627,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -572,6 +644,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -587,6 +661,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -602,6 +678,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -617,6 +695,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -632,6 +712,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -647,6 +729,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -662,6 +746,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Twins Foil",
+      "channel_id": "UCgtf21MO8n0j16_jDbFcnwA",
       "activity": null
     },
     {
@@ -677,6 +763,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -692,6 +780,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -707,6 +797,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -722,6 +814,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -737,6 +831,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Nature Kite",
+      "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
     },
     {
@@ -752,6 +848,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -767,6 +865,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Freeride Attitude",
+      "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
       "activity": null
     },
     {
@@ -782,6 +882,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -797,6 +899,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Pakaa Foil",
+      "channel_id": "UCibszUt5J2BVGh_wBjqJVJw",
       "activity": null
     },
     {
@@ -812,6 +916,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "FoilWithUs",
+      "channel_id": "UCTMhLb1mQS32o-74PooeKxw",
       "activity": null
     },
     {
@@ -827,6 +933,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Den Gordo WingFoiling",
+      "channel_id": "UCDPI5klsfc28GYtgYzt4mEw",
       "activity": null
     },
     {
@@ -842,6 +950,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -857,6 +967,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -872,6 +984,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -887,6 +1001,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Nature Kite",
+      "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
     },
     {
@@ -902,6 +1018,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Nature Kite",
+      "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
     },
     {
@@ -917,6 +1035,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -932,6 +1052,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Alicia Le Furaut Phantom rider",
+      "channel_id": "UC8p2trM9uhObL4qFJfTQ3ew",
       "activity": null
     },
     {
@@ -947,6 +1069,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -962,6 +1086,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -977,6 +1103,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -992,6 +1120,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1007,6 +1137,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "targadave",
+      "channel_id": "UC7Dbjf_ZCXiMStS_r5iBatw",
       "activity": null
     },
     {
@@ -1022,6 +1154,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Sup Passion // Foil Magazine",
+      "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
       "activity": null
     },
     {
@@ -1037,6 +1171,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "wingpassion",
+      "channel_id": "UCQOnp2pO-IyQ5mYl_wGSmtw",
       "activity": null
     },
     {
@@ -1052,6 +1188,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1067,6 +1205,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1082,6 +1222,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "wingSURF world",
+      "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
       "activity": null
     },
     {
@@ -1097,6 +1239,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1112,6 +1256,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1127,6 +1273,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1142,6 +1290,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1157,6 +1307,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1172,6 +1324,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1187,6 +1341,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1202,6 +1358,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Wingfoil Max ",
+      "channel_id": "UCDi02grdN7EOVGDQgfsWf_Q",
       "activity": null
     },
     {
@@ -1217,6 +1375,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Hadou BRUNNER",
+      "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
     },
     {
@@ -1232,6 +1392,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "bigwinds",
+      "channel_id": "UC0q7gGA8ivy2tf-PTZ4AOlw",
       "activity": null
     },
     {
@@ -1247,6 +1409,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1262,6 +1426,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "MACkiteboarding",
+      "channel_id": "UCgaSOa5qTpPIq-hR8vRRy5A",
       "activity": null
     },
     {
@@ -1277,6 +1443,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Liquid Blue Cabarete",
+      "channel_id": "UCl5zIGj7XVEOVdxvzjjd_Ww",
       "activity": null
     },
     {
@@ -1292,6 +1460,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1307,6 +1477,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Reactive Team",
+      "channel_id": "UCg309ego7_kDnCWS7uzX9nA",
       "activity": null
     },
     {
@@ -1322,6 +1494,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Wing-Tips",
+      "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
       "activity": null
     },
     {
@@ -1337,6 +1511,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Wing-Tips",
+      "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
       "activity": null
     },
     {
@@ -1352,6 +1528,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1367,6 +1545,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Wingsurfer",
+      "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
       "activity": null
     },
     {
@@ -1382,6 +1562,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1397,6 +1579,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Alvaro Bajo",
+      "channel_id": "UCzt8hAHTypMi_ess47oLD1g",
       "activity": null
     },
     {
@@ -1412,6 +1596,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1427,6 +1613,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1442,6 +1630,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "hoppline",
+      "channel_id": "UCcoMkDM1ttcSti319laDFjg",
       "activity": null
     },
     {
@@ -1457,6 +1647,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Nature Kite",
+      "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
     },
     {
@@ -1472,6 +1664,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Hadou BRUNNER",
+      "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
     },
     {
@@ -1487,6 +1681,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1502,6 +1698,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1517,6 +1715,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Heflav SUP",
+      "channel_id": "UCuPgNY2HCMjUutyqjVzGAeQ",
       "activity": null
     },
     {
@@ -1532,6 +1732,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1547,6 +1749,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
     },
     {
@@ -1562,6 +1766,8 @@
       "integration": "pending",
       "failure": "HTTPError",
       "integration_reason": null,
+      "publisher": "Nature Kite",
+      "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
     }
   ],
