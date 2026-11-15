@@ -30,7 +30,7 @@ def build(root=Path('.')):
           'keyword_candidates':r.get('candidate_count'), 'analysis':'interpreted' if a else 'queued' if r['status']=='timed_transcript_received' else 'awaiting_transcript',
           'claims':a['claims'] if a else 0,'evidence_url':a['url'] if a else None,
           'integration':'integrated' if vid in ('DMlWjjIcwss','NTOAhBM2Wms') else 'documented' if a else 'pending',
-          'failure':r.get('last_retry',{}).get('http_status',r.get('failure_type')),
+          'failure':(r.get('last_retry') or {}).get('http_status',r.get('failure_type')),
           'integration_reason':review_by_id.get(vid,{}).get('integration_reason') or {
             'aiWA2W7hKos':'Vérification à effectuer par l’assistant : génération Glide 3.0 D/LAB, fiche catalogue du 825 et interfaces des montages H130/43 et H150/40 avant ajout au moteur. Aucun seuil de poids universel déduit des testeurs de 80–90 kg.',
             'zesN5IeyRQM':'Vérification à effectuer par l’assistant : génération Halo, fiches 670/800 et interfaces des fuselages 56/63. Les avis communs restent non départagés et les repères 80/90 kg ne sont pas des seuils mesurés.'

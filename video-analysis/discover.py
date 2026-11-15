@@ -13,6 +13,7 @@ import re
 import time
 import urllib.parse
 import urllib.request
+import urllib.error
 from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -208,7 +209,15 @@ def youtube_search(key: str, query: str, max_pages: int = 2, fetch=get_page, cha
         try:
             response = json.loads(fetch(endpoint))
         except Exception as exc:
-            errors.append({"query": query, "reason": type(exc).__name__})
+            error={"query":query,"reason":type(exc).__name__}
+            if isinstance(exc,urllib.error.HTTPError):
+                error['http_status']=exc.code
+                try:
+                    body=json.loads(exc.read(8192).decode('utf-8'))
+                    error['api_reasons']=[e.get('reason') for e in body.get('error',{}).get('errors',[])]
+                except (ValueError,UnicodeDecodeError):
+                    pass
+            errors.append(error)
             break
         for item in response.get("items", []):
             video_id = item.get("id", {}).get("videoId")
