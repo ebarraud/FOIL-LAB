@@ -10,6 +10,7 @@ on:
       - 'video-analysis/test_discover.py'
       - 'video-analysis/qualify.py'
       - 'video-analysis/test_qualify.py'
+      - 'video-analysis/probe_batch.py'
       - '.github/workflows/discover-wingfoil.yml'
 permissions:
   contents: read
@@ -44,13 +45,17 @@ jobs:
       - name: Qualify actual YouTube metadata results
         run: |
           python video-analysis/qualify.py --input video-index/youtube.json --output video-index/youtube-qualified.json --print-sample 15
+      - name: Install caption availability probe dependency
+        run: python -m pip install --disable-pip-version-check yt-dlp
+      - name: Probe captions on first four eligible test videos
+        run: python video-analysis/probe_batch.py --input video-index/youtube-qualified.json --output video-index/youtube-caption-probes.json --limit 4
       - name: Print inventory and access status (no false success)
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           for path in Path('video-index').glob('*.json'):
-              if path.name.endswith('-qualified.json'):
+              if path.name.endswith('-qualified.json') or path.name.endswith('-probes.json'):
                   continue
               d=json.loads(path.read_text())
               print(path.name,'discovered:',d['discovered'],
@@ -85,6 +90,13 @@ jobs:
                   errors = sum(len(x.get('errors', [])) for x in groups.values())
                   detail = f'{errors} erreur(s) d’accès' if errors else 'consultation terminée'
               lines.append(f"| {path.stem} | {data.get('discovered', 0)} | {detail} |")
+          probe = Path('video-index/youtube-caption-probes.json')
+          if probe.is_file():
+              p = json.loads(probe.read_text(encoding='utf-8'))
+              lines.extend(['', '## Premier contrôle réel des sous-titres',
+                  f"- Vidéos testées : **{p['videos_checked']}**",
+                  f"- Statuts d’accès : **{p['status_counts']}**",
+                  '- Aucun téléchargement de vidéo ou transcription lors de ce contrôle.'])
           q = Path('video-index/youtube-qualified.json')
           if q.is_file():
               qualified = json.loads(q.read_text(encoding='utf-8'))
