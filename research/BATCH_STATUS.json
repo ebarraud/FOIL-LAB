@@ -2,11 +2,11 @@
   "schema_version": 1,
   "inventory_count": 103,
   "processed": 103,
-  "transcripts_obtained": 53,
+  "transcripts_obtained": 69,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-15T20:03:06.626952+00:00",
-  "retry_status": "in_progress",
+  "updated_at_utc": "2026-11-15T20:04:57.975336+00:00",
+  "retry_status": "provider_access_or_rate_limit",
   "retry_history": {
     "attempts": [
       {
@@ -340,10 +340,139 @@
         "at_utc": "2026-11-15T20:03:06.626952+00:00",
         "status": "timed_transcript_received",
         "returned_language": "en"
+      },
+      {
+        "video_id": "lrW4o4H05tI",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:12.939185+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "qJ2aiAZ4XBY",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:18.860109+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "ZjdijAoaFQo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:25.926116+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "5kRFfdnDyKI",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:31.850504+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "fnhdMRiW3h4",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:38.341047+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "pHJ6b-JRCLg",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:44.365306+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "bPKyMCmDJ4w",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:50.414032+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "5XCKmaXA9AY",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:57.072542+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "laeIus1pFX4",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:02.963116+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "DRUsTI54DDc",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:08.903711+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "htCy_cztRcs",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:14.741052+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "Ih5W_610mgo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:20.871711+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "7ZPSmL8rvaM",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:27.350903+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "v6Jo8tO5Fq4",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:33.578092+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "a-azQlLJlck",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:39.609365+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "DJGIn4BwfEw",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:45.918095+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "TdL2YcSYd1Q",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:51.927754+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "qf2LA6Dw4QI",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:57.975336+00:00",
+        "status": "http_error",
+        "http_status": 429,
+        "retry_after": "3302"
       }
     ],
-    "stopped_reason": null
+    "stopped_reason": "provider_access_or_rate_limit"
   },
+  "retry_not_before_utc": "2026-11-15T20:59:59.975336+00:00",
   "results": [
     {
       "video_id": "aiWA2W7hKos",
@@ -895,112 +1024,112 @@
     {
       "video_id": "lrW4o4H05tI",
       "title": "Duotone Crest Dlab Foil Test 2025",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 214,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "qJ2aiAZ4XBY",
       "title": "Slingshot Glide Craft V1 80L Wingfoil Board Test 2025 ( english translated review )",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 174,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "ZjdijAoaFQo",
       "title": "Indiana Superfly CML 89L Carbon Wingboard Test 2025 ( test produit traduit en français )",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 225,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "5kRFfdnDyKI",
       "title": "Test du foil Duotone CREST 2026",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 688,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "fnhdMRiW3h4",
       "title": "Test de la Duotone Skybrid SLS 2026",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 656,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "pHJ6b-JRCLg",
       "title": "KT Nomad Foil 1160 700 Test 2025",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 225,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "bPKyMCmDJ4w",
       "title": "Wing en setup GONG - Test insta 360 x5 #wing #wingfoil #gong #foil #foiling #insta360",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 13,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "5XCKmaXA9AY",
       "title": "Indiana Flow FW carbon Wingfoil Board Test 2025 (test produit traduit en français)",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 235,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "laeIus1pFX4",
       "title": "North Sonar MA V2 1200 foil test 2025 ( english translated review )",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 260,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "DRUsTI54DDc",
       "title": "KT Super K2 carbon 90L Crossover Wingboard Test ( english translated review )",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 211,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "htCy_cztRcs",
       "title": "Slingshot Glide Craft V1 80L Wingfoil Board Test 2025",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 185,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "Ih5W_610mgo",
@@ -1009,58 +1138,65 @@
       "language": null,
       "segment_count": null,
       "failure_type": "HTTPError",
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "Ih5W_610mgo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:20.871711+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
       "requested_language": null
     },
     {
       "video_id": "7ZPSmL8rvaM",
       "title": "Test foot strap Tribord de Decathlon pour wing foil, kite foil, surf foil",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 22,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "v6Jo8tO5Fq4",
       "title": "Appletree Apple Skipper Midlength Board - Test",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 211,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "a-azQlLJlck",
       "title": "KT Super K 2 Carbon 90L Wingboard Test 2025",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 238,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "DJGIn4BwfEw",
       "title": "Slingshot Flow Craft V2 65L Wingfoil Board Test 2025 ( english translated review )",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 193,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "TdL2YcSYd1Q",
       "title": "Das Tabou Super Yaka Midlength-Board im Test",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 192,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "qf2LA6Dw4QI",
@@ -1069,7 +1205,14 @@
       "language": null,
       "segment_count": null,
       "failure_type": "HTTPError",
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "qf2LA6Dw4QI",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:04:57.975336+00:00",
+        "status": "http_error",
+        "http_status": 429,
+        "retry_after": "3302"
+      },
       "requested_language": null
     },
     {
