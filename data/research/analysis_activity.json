@@ -111,6 +111,14 @@
       "started_at_utc": "2026-11-15T21:03:04.119768+00:00",
       "updated_at_utc": "2026-11-15T21:03:07.444291+00:00",
       "expires_at_utc": "2026-11-15T21:23:07.444291+00:00"
+    },
+    {
+      "video_id": "R-__gkwwY_I",
+      "status": "in_progress",
+      "step": "Contrôle du texte HIPE First Short : musique seule, aucune parole technique",
+      "started_at_utc": "2026-11-15T21:17:42.016522+00:00",
+      "updated_at_utc": "2026-11-15T21:17:42.016522+00:00",
+      "expires_at_utc": "2026-11-15T21:37:42.016522+00:00"
     }
   ]
 }
