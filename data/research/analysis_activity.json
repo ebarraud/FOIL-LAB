@@ -50,11 +50,11 @@
     },
     {
       "video_id": "Bb0Nr-RXZlk",
-      "status": "in_progress",
-      "step": "Qualification Frigate V2 : distinguer parawing et foil",
+      "status": "completed",
+      "step": "Quatre observations parawing documentées; hors classement foils/boards",
       "started_at_utc": "2026-11-15T19:47:45.525477+00:00",
-      "updated_at_utc": "2026-11-15T19:47:45.525477+00:00",
-      "expires_at_utc": "2026-11-15T20:07:45.525477+00:00"
+      "updated_at_utc": "2026-11-15T19:47:49.210962+00:00",
+      "expires_at_utc": "2026-11-15T20:07:49.210962+00:00"
     }
   ]
 }

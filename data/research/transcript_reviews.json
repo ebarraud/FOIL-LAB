@@ -409,6 +409,50 @@
           "source_url": "https://www.youtube.com/watch?v=F6BXfqM05yo&t=418s"
         }
       ]
+    },
+    {
+      "video_id": "Bb0Nr-RXZlk",
+      "model": "F-ONE Frigate V2 parawing",
+      "language_returned": "en-US",
+      "transcript_sha256": "54016a0fd3768e2a378e3638a671d7e0071feae050f8d195f336997d01480e72",
+      "review_method": "Lecture de tous les segments anglais retournés; traduction probable du français, sans contrôle audio.",
+      "scope": "parawing_only_not_board_or_front_foil",
+      "integration": "deferred",
+      "integration_reason": "Essai d’une parawing, hors moteur foils/boards. Ne pas convertir sa maniabilité ou sa stabilité en qualités de l’aile avant. Taille 4 m² citée, équipements sous les pieds inconnus.",
+      "claims": [
+        {
+          "start_s": 6.58,
+          "end_s": 45.3,
+          "dimension": "parawing,handling",
+          "statement_fr": "Le testeur apprécie la maniabilité, mais rapporte un repli ponctuel de la pointe dans une rafale défavorable et une intervention sur une ligne.",
+          "limits": "Conditions non chiffrées, pas de fréquence de fermeture ni de comparaison instrumentée.",
+          "source_url": "https://www.youtube.com/watch?v=Bb0Nr-RXZlk&t=6s"
+        },
+        {
+          "start_s": 54.41,
+          "end_s": 75.85,
+          "dimension": "parawing,packing",
+          "statement_fr": "Le testeur apprécie le rangement en saisissant toutes les lignes et cite une aile de 4 m² dans ce passage.",
+          "limits": "Le volume plié n’est pas mesuré; la mention 4 m² ne renseigne ni le foil ni la planche.",
+          "source_url": "https://www.youtube.com/watch?v=Bb0Nr-RXZlk&t=54s"
+        },
+        {
+          "start_s": 112.04,
+          "end_s": 132.56,
+          "dimension": "parawing,packing_limits",
+          "statement_fr": "Le rangement par les seules lignes avant lui paraît moins agréable parce qu’il conserve davantage de lignes pendantes.",
+          "limits": "Préférence personnelle de manipulation, pas une procédure de sécurité vérifiée.",
+          "source_url": "https://www.youtube.com/watch?v=Bb0Nr-RXZlk&t=112s"
+        },
+        {
+          "start_s": 154.28,
+          "end_s": 178.33,
+          "dimension": "parawing,program",
+          "statement_fr": "La conclusion présente la V2 comme plus technique et destinée aux pratiquants expérimentés, tout en conseillant une autre aile aux débutants.",
+          "limits": "Le nom du modèle conseillé est rendu CES dans la traduction : identification non confirmée. VMG et performances annoncées non mesurées.",
+          "source_url": "https://www.youtube.com/watch?v=Bb0Nr-RXZlk&t=154s"
+        }
+      ]
     }
   ]
 }

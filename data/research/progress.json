@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T19:47:45.583342+00:00",
+  "updated_at_utc": "2026-11-15T19:47:49.259992+00:00",
   "collection_updated_at_utc": "2026-11-15T19:04:52.347426+00:00",
   "retry_not_before_utc": "2026-11-15T20:00:00.347426+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -398,23 +398,22 @@
       "collection": "timed_transcript_received",
       "segments": 50,
       "keyword_candidates": 3,
-      "analysis": "in_progress",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 4,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Essai d’une parawing, hors moteur foils/boards. Ne pas convertir sa maniabilité ou sa stabilité en qualités de l’aile avant. Taille 4 m² citée, équipements sous les pieds inconnus.",
       "publisher": "Freeride Attitude",
       "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
       "activity": {
         "video_id": "Bb0Nr-RXZlk",
-        "status": "in_progress",
-        "step": "Qualification Frigate V2 : distinguer parawing et foil",
+        "status": "completed",
+        "step": "Quatre observations parawing documentées; hors classement foils/boards",
         "started_at_utc": "2026-11-15T19:47:45.525477+00:00",
-        "updated_at_utc": "2026-11-15T19:47:45.525477+00:00",
-        "expires_at_utc": "2026-11-15T20:07:45.525477+00:00"
-      },
-      "analysis_before_activity": "queued"
+        "updated_at_utc": "2026-11-15T19:47:49.210962+00:00",
+        "expires_at_utc": "2026-11-15T20:07:49.210962+00:00"
+      }
     },
     {
       "video_id": "PkWvig5XIJ0",
