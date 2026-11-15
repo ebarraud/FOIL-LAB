@@ -47,6 +47,14 @@
       "started_at_utc": "2026-11-15T19:32:47.684040+00:00",
       "updated_at_utc": "2026-11-15T19:32:51.121405+00:00",
       "expires_at_utc": "2026-11-15T19:52:51.121405+00:00"
+    },
+    {
+      "video_id": "Bb0Nr-RXZlk",
+      "status": "in_progress",
+      "step": "Qualification Frigate V2 : distinguer parawing et foil",
+      "started_at_utc": "2026-11-15T19:47:45.525477+00:00",
+      "updated_at_utc": "2026-11-15T19:47:45.525477+00:00",
+      "expires_at_utc": "2026-11-15T20:07:45.525477+00:00"
     }
   ]
 }

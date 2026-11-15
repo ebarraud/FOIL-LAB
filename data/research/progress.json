@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T19:32:51.172748+00:00",
+  "updated_at_utc": "2026-11-15T19:47:45.583342+00:00",
   "collection_updated_at_utc": "2026-11-15T19:04:52.347426+00:00",
   "retry_not_before_utc": "2026-11-15T20:00:00.347426+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -398,7 +398,7 @@
       "collection": "timed_transcript_received",
       "segments": 50,
       "keyword_candidates": 3,
-      "analysis": "queued",
+      "analysis": "in_progress",
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
@@ -406,7 +406,15 @@
       "integration_reason": null,
       "publisher": "Freeride Attitude",
       "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
-      "activity": null
+      "activity": {
+        "video_id": "Bb0Nr-RXZlk",
+        "status": "in_progress",
+        "step": "Qualification Frigate V2 : distinguer parawing et foil",
+        "started_at_utc": "2026-11-15T19:47:45.525477+00:00",
+        "updated_at_utc": "2026-11-15T19:47:45.525477+00:00",
+        "expires_at_utc": "2026-11-15T20:07:45.525477+00:00"
+      },
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "PkWvig5XIJ0",
