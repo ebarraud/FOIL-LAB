@@ -8,6 +8,8 @@ on:
     paths:
       - 'video-analysis/discover.py'
       - 'video-analysis/test_discover.py'
+      - 'video-analysis/qualify.py'
+      - 'video-analysis/test_qualify.py'
       - '.github/workflows/discover-wingfoil.yml'
 permissions:
   contents: read
@@ -39,12 +41,17 @@ jobs:
         run: |
           # This run verifies the repository secret at runtime without logging its value.
           python video-analysis/discover.py --sources youtube --youtube-pages 1 --output video-index/youtube.json
+      - name: Qualify actual YouTube metadata results
+        run: |
+          python video-analysis/qualify.py --input video-index/youtube.json --output video-index/youtube-qualified.json --print-sample 15
       - name: Print inventory and access status (no false success)
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           for path in Path('video-index').glob('*.json'):
+              if path.name.endswith('-qualified.json'):
+                  continue
               d=json.loads(path.read_text())
               print(path.name,'discovered:',d['discovered'],
                     'unconfirmed dates:',d['unknown_or_unconfirmed_dates'],
@@ -67,6 +74,8 @@ jobs:
               '|---|---:|---|'
           ]
           for path in files:
+              if path.name.endswith('-qualified.json'):
+                  continue
               data = json.loads(path.read_text(encoding='utf-8'))
               status = data.get('report', {})
               if path.stem == 'youtube':
@@ -76,6 +85,14 @@ jobs:
                   errors = sum(len(x.get('errors', [])) for x in groups.values())
                   detail = f'{errors} erreur(s) d’accès' if errors else 'consultation terminée'
               lines.append(f"| {path.stem} | {data.get('discovered', 0)} | {detail} |")
+          q = Path('video-index/youtube-qualified.json')
+          if q.is_file():
+              qualified = json.loads(q.read_text(encoding='utf-8'))
+              lines.extend(['', '## Qualification des titres YouTube',
+                  f"- Références candidates prioritaires : **{qualified['priority_metadata_candidates']}**",
+                  f"- Titres à vérifier manuellement : **{qualified['needs_manual_scope_review']}**",
+                  f"- Groupes de doublons potentiels : **{qualified['possible_duplicate_groups']}**",
+                  '- Transcriptions obtenues : **0** ; vidéos intégralement analysées : **0**.'])
           if not files:
               lines.append('| Aucun rapport | 0 | Aucun inventaire produit |')
           lines.extend(['', 'Les résultats décrivent uniquement des références identifiées ; aucune vidéo n’est réputée visionnée ou transcrite.'])
