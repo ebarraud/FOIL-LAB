@@ -55,3 +55,16 @@ Ensuite seulement, créer une affirmation **validée** avec source, contexte, da
 `index_only` ≠ `editorial_description_only` ≠ `transcript_keyword_candidates` ≠ `human_verified_claims` ≠ `full_video_reviewed`.
 
 Le fichier `manifest.json` contient des **références à traiter**, pas 12 analyses réalisées. Les liens renvoyant à une page d'index doivent être remplacés par l'URL précise de chaque vidéo avant une transcription.
+
+## Premier pilote réel — 3 essais (novembre 2026)
+
+Le rapport [Pilote de trois essais](../research/PILOTE_3_TESTS_VIDEO_2026-11-15.md) documente les vidéos AFS Silk V2, Duotone Glide 3.0 D/LAB 825 et KT Halo 670/800. Leurs URL sont préremplies dans [l'interface mobile](review.html) via **« Essai pilote »**. Aucune transcription de ces vidéos n'est encore disponible dans le dépôt ; ne pas présenter les comptes rendus écrits comme des transcriptions.
+
+**Import de transcription YouTube horodatée :**
+
+1. Depuis la vidéo YouTube, ouvrir la description et l'option **Afficher la transcription** si elle est proposée. Les fonctions de sélection/copie peuvent dépendre du navigateur, du terminal, de la vidéo et des réglages du créateur. Si le texte n'est pas copiable, demander un fichier SRT/VTT au média ou utiliser une transcription légalement fournie.
+2. Conserver les **minutages** avec le texte (par exemple `0:15 Der Start ist einfach` ou `0:15` suivi de `Der Start ist einfach` sur la ligne suivante). **Un texte sans minutage est volontairement refusé.**
+3. Ouvrir `https://ebarraud.github.io/FOIL-LAB/video-analysis/review.html` dans Chrome, sélectionner le modèle, coller le texte ou importer un fichier `.txt`, `.srt` ou `.vtt`.
+4. Cliquer **Analyser les passages** puis vérifier la taille du foil réellement testée, le sens des comparaisons, les négations et le contexte. Exporter ensuite le JSON des passages candidats ; aucune note n'est ajoutée automatiquement.
+
+Le script local `analyze.py` accepte aussi `--subtitles ./transcription-horodatee.txt` et renseigne `transcript_format=youtube_timestamped_copy`. Il **n'invente jamais la durée du dernier passage** et ne télécharge aucun média.
