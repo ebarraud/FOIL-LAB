@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T20:17:52.596797+00:00",
+  "updated_at_utc": "2026-11-15T20:32:48.984705+00:00",
   "collection_updated_at_utc": "2026-11-15T20:04:57.975336+00:00",
   "retry_not_before_utc": "2026-11-15T20:59:59.975336+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -388,7 +388,7 @@
       "collection": "timed_transcript_received",
       "segments": 297,
       "keyword_candidates": 13,
-      "analysis": "queued",
+      "analysis": "in_progress",
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
@@ -396,7 +396,15 @@
       "integration_reason": null,
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
-      "activity": null
+      "activity": {
+        "video_id": "fELF_qseo4g",
+        "status": "in_progress",
+        "step": "Qualification Chimera 2027 : première présentation contre essai réellement effectué",
+        "started_at_utc": "2026-11-15T20:32:48.938419+00:00",
+        "updated_at_utc": "2026-11-15T20:32:48.938419+00:00",
+        "expires_at_utc": "2026-11-15T20:52:48.938419+00:00"
+      },
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "Bb0Nr-RXZlk",

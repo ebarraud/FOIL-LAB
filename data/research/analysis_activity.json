@@ -87,6 +87,14 @@
       "started_at_utc": "2026-11-15T20:17:48.822780+00:00",
       "updated_at_utc": "2026-11-15T20:17:52.509426+00:00",
       "expires_at_utc": "2026-11-15T20:37:52.509426+00:00"
+    },
+    {
+      "video_id": "fELF_qseo4g",
+      "status": "in_progress",
+      "step": "Qualification Chimera 2027 : première présentation contre essai réellement effectué",
+      "started_at_utc": "2026-11-15T20:32:48.938419+00:00",
+      "updated_at_utc": "2026-11-15T20:32:48.938419+00:00",
+      "expires_at_utc": "2026-11-15T20:52:48.938419+00:00"
     }
   ]
 }
