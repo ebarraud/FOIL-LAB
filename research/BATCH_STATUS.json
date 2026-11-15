@@ -2,10 +2,10 @@
   "schema_version": 1,
   "inventory_count": 103,
   "processed": 103,
-  "transcripts_obtained": 20,
+  "transcripts_obtained": 23,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-15T18:01:15.248481+00:00",
+  "updated_at_utc": "2026-11-15T18:01:54.905905+00:00",
   "retry_status": "in_progress",
   "retry_history": {
     "attempts": [
@@ -53,6 +53,51 @@
         "status": "http_error",
         "http_status": 400,
         "retry_after": null
+      },
+      {
+        "video_id": "R-__gkwwY_I",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:20.428815+00:00",
+        "status": "http_error",
+        "http_status": 400,
+        "retry_after": null
+      },
+      {
+        "video_id": "3OIRoNWHne0",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:25.579583+00:00",
+        "status": "http_error",
+        "http_status": 400,
+        "retry_after": null
+      },
+      {
+        "video_id": "WgDFirFuKOA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:30.719452+00:00",
+        "status": "http_error",
+        "http_status": 400,
+        "retry_after": null
+      },
+      {
+        "video_id": "oj8HfuYygDw",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:41.464641+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "_jPvuDQISaA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:49.005852+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en-US"
+      },
+      {
+        "video_id": "R-__gkwwY_I",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:54.905905+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
       }
     ],
     "stopped_reason": null
@@ -261,46 +306,32 @@
     {
       "video_id": "oj8HfuYygDw",
       "title": "chimera Foil Board | Review",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
-      "last_retry": {
-        "video_id": "oj8HfuYygDw",
-        "requested_language": "auto",
-        "at_utc": "2026-11-15T18:01:10.050559+00:00",
-        "status": "http_error",
-        "http_status": 400,
-        "retry_after": null
-      },
-      "requested_language": null
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 252,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto"
     },
     {
       "video_id": "_jPvuDQISaA",
       "title": "Gong HIPE First 2026 Inflatable Wing Foil Board First Test #wingfoiling #watersports #outdoors",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
-      "last_retry": {
-        "video_id": "_jPvuDQISaA",
-        "requested_language": "auto",
-        "at_utc": "2026-11-15T18:01:15.248481+00:00",
-        "status": "http_error",
-        "http_status": 400,
-        "retry_after": null
-      },
-      "requested_language": null
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 53,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto"
     },
     {
       "video_id": "R-__gkwwY_I",
       "title": "Gong HIPE First 2026 Wing Foil Board First Test #wingfoiling #wingfoil #outdoors",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 11,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "3OIRoNWHne0",
@@ -309,7 +340,14 @@
       "language": null,
       "segment_count": null,
       "failure_type": "HTTPError",
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "3OIRoNWHne0",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:25.579583+00:00",
+        "status": "http_error",
+        "http_status": 400,
+        "retry_after": null
+      },
       "requested_language": null
     },
     {
@@ -319,7 +357,14 @@
       "language": null,
       "segment_count": null,
       "failure_type": "HTTPError",
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "WgDFirFuKOA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:30.719452+00:00",
+        "status": "http_error",
+        "http_status": 400,
+        "retry_after": null
+      },
       "requested_language": null
     },
     {

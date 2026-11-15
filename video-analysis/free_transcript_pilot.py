@@ -156,7 +156,10 @@ def summarize(video, payload, context_seconds=8):
 
 
 def default_fetch(video):
-    url = ENDPOINT + "?" + urllib.parse.urlencode({"video_url": video[0], "lang": video[2]})
+    params = {"video_url": video[0]}
+    if video[2]:
+        params["lang"] = video[2]
+    url = ENDPOINT + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": "FOIL-LAB-Research/1.0",
                                               "Accept": "application/json"})
     with urllib.request.urlopen(req, timeout=35) as response:
