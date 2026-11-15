@@ -26,16 +26,16 @@ jobs:
         run: python video-analysis/discover.py --sources gleiten --max-pages 12 --output video-index/gleiten.json
       - name: Verify YouTube discovery configuration
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_APU }}
         run: |
           if [ -n "$YOUTUBE_API_KEY" ]; then
             echo "YOUTUBE_API_KEY: configured (value hidden)"
           else
-            echo "::warning title=YouTube discovery inactive::Add the YOUTUBE_API_KEY GitHub Actions secret to enable actual YouTube search."
+            echo "::warning title=YouTube discovery inactive::Add the YOUTUBE_APU GitHub Actions secret to enable actual YouTube search."
           fi
       - name: Discover YouTube reviews (24 months) when configured
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_APU }}
         run: |
           # This run verifies the repository secret at runtime without logging its value.
           python video-analysis/discover.py --sources youtube --youtube-pages 1 --output video-index/youtube.json
