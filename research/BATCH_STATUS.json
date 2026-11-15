@@ -1,0 +1,835 @@
+{
+  "schema_version": 1,
+  "inventory_count": 103,
+  "processed": 103,
+  "transcripts_obtained": 20,
+  "performance_scores_generated": 0,
+  "semantic_claims_validated": 0,
+  "results": [
+    {
+      "video_id": "aiWA2W7hKos",
+      "title": "Duotone Glide 3.0 Dlab 825 Foil Test 2026",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 209,
+      "failure_type": null
+    },
+    {
+      "video_id": "DMlWjjIcwss",
+      "title": "AFS SILK V2 FOIL REVIEW - 650 / 750 / 950",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 768,
+      "failure_type": null
+    },
+    {
+      "video_id": "aZFCW3ms_oU",
+      "title": "GONG HIPE FIRST 2026 INFLATABLE WINGFOIL BOARD &amp; FOIL KIT END OF SEASON REVIEW #wingfoiling #outdoor",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 181,
+      "failure_type": null
+    },
+    {
+      "video_id": "F6BXfqM05yo",
+      "title": "Indiana Easy Style 66 Wingfoil Board Test 2026",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 147,
+      "failure_type": null
+    },
+    {
+      "video_id": "pPXyFWHSd-U",
+      "title": "Duotone Glide 3 foil review for Wingfoil &amp; parawing ",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 68,
+      "failure_type": null
+    },
+    {
+      "video_id": "z8wP9_VnM-8",
+      "title": "Test &amp; avis du foil 4x4 Foil Attitude Early Bird 1690",
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 20,
+      "failure_type": null
+    },
+    {
+      "video_id": "kHYxyUyU4qY",
+      "title": "Tomorrows Foil Today? - Cabrinha Domani 2026 Foil Review",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 324,
+      "failure_type": null
+    },
+    {
+      "video_id": "ZWb49kOlXpo",
+      "title": "Ozone Pocket Rocket V2 Parawing Test 2026",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 150,
+      "failure_type": null
+    },
+    {
+      "video_id": "o-piLekjAHk",
+      "title": "2027 Duotone Skybrid SLS review",
+      "status": "timed_transcript_received",
+      "language": "nl",
+      "segment_count": 55,
+      "failure_type": null
+    },
+    {
+      "video_id": "fELF_qseo4g",
+      "title": "2027 Naish Chimera Midlength Talk Through/Review (The Ultimate quiver killer?)",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 297,
+      "failure_type": null
+    },
+    {
+      "video_id": "Bb0Nr-RXZlk",
+      "title": "Test exclusif de la nouvelle F-One Frigate V2 ! 🌊💨#fone #frigatev2 #foil #parawing",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 50,
+      "failure_type": null
+    },
+    {
+      "video_id": "PkWvig5XIJ0",
+      "title": "KT Drifter5 70L Wingboard Test 2026",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 149,
+      "failure_type": null
+    },
+    {
+      "video_id": "NTOAhBM2Wms",
+      "title": "The Best Mid Length Wing Board Yet? - Armstrong Midlength Mk II Review",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 256,
+      "failure_type": null
+    },
+    {
+      "video_id": "zesN5IeyRQM",
+      "title": "KT Halo Foil 670 und 800 Test 2026",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 163,
+      "failure_type": null
+    },
+    {
+      "video_id": "3EObhbc9v-o",
+      "title": "ARMSTRONG MIDLENGTH MK II X-FORM BOARD REVIEW",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 217,
+      "failure_type": null
+    },
+    {
+      "video_id": "V5rMLxpKDsg",
+      "title": "KT ARC 78L Parawing und Wing Board Test 2026",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 209,
+      "failure_type": null
+    },
+    {
+      "video_id": "FJsdHDBPLJY",
+      "title": "TEST GAASTRA FOIL MOVE 800 / 1000 REVIEW",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 271,
+      "failure_type": null
+    },
+    {
+      "video_id": "eRK72ouHjeM",
+      "title": "DUOTONE FOIL ASSIST COMPLETE REVIEW",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 444,
+      "failure_type": null
+    },
+    {
+      "video_id": "wrBJfakowLs",
+      "title": "North Sonar SF 930 Foil Test 2026",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 199,
+      "failure_type": null
+    },
+    {
+      "video_id": "Oaw3GuMOTb0",
+      "title": "Armstrong MKII Mid Length Wing Foil Board Review",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 378,
+      "failure_type": null
+    },
+    {
+      "video_id": "oj8HfuYygDw",
+      "title": "chimera Foil Board | Review",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "_jPvuDQISaA",
+      "title": "Gong HIPE First 2026 Inflatable Wing Foil Board First Test #wingfoiling #watersports #outdoors",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "R-__gkwwY_I",
+      "title": "Gong HIPE First 2026 Wing Foil Board First Test #wingfoiling #wingfoil #outdoors",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "3OIRoNWHne0",
+      "title": "Duotone Sky Free 120L und Free2.0 Foil 1900 TEST 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "WgDFirFuKOA",
+      "title": "Indiana Dolphin foil 925 und 827 Test  2026 ( English translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "yL-WLJABq_U",
+      "title": "Indiana Dolphin Foil 925 und 827 Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "mtwBUIwCP3Q",
+      "title": "GA Move Foil im Test: Allrounder aus Vollcarbon",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "wIPR7DOgKqQ",
+      "title": "Duotone Skybrid Dlab 80L Wing und Parawing Board Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "oNue1Vm0nWA",
+      "title": "WING FOIL TEST GONG X-OVER V3 LAGO D’ISEO 2026 #wingfoiling #wingfoil #surf #foiling",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "FklAiCI22lU",
+      "title": "TEST - NOUVEAUTES DUOTONE BOARDS/FOIL/WINGS 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "xrEGIa5cgdQ",
+      "title": "Indiana Marlin XXS Kite Foil Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "viZUrrOCL6E",
+      "title": "GA Move Foil Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "3B4fq8l_8HQ",
+      "title": "Foil Drive Fusion TEST und Armstrong Interated Carbon Mast. the Ride",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "96bNahQGX54",
+      "title": "Foil Drive Fusion TEST und Armstrong Integrated Carbon Mast. Die Technik im Detail",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "MnZAlmqfiOo",
+      "title": "Foil Solution EFS Roll Leash Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "rVRUSW09BD4",
+      "title": "Armstrong UHA Foil Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "P2kF4cHQEZ4",
+      "title": "KT Instinkt Foil Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "2rLx3Ayw9oE",
+      "title": "Tabou Superyaka 86L Wingfoil Board Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "JznK2j6Hi7k",
+      "title": "Tabou Twister 62 Wingfoil Board Test 2026 ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "Zo1awVlnOJQ",
+      "title": "Tabou Twister 62 Wingfoil Board Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "e3C_ZnGsEJc",
+      "title": "Duotone Skybrid SLS 2026 Wingboard Test ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "RRHYwIpkENs",
+      "title": "Duotone Skybrid SLS Wingboard Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "Hzyr_W_mJ1I",
+      "title": "Duotone CREST Review — Wingfoil, Surf Foil &amp; SUP Foil : performance &amp; sensations",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "voesArm8I1I",
+      "title": "Cabrinha Union Prestige 905 Foil Test 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "93t-YEPyyhc",
+      "title": "Armstrong MA MK II Foil Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "bN_utLvFrck",
+      "title": "Slingshot Glide One Lock 1525 Foil Test 2025 ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "QepHH2KIVOY",
+      "title": "Slingshot Glide One Lock 1525 Foil Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "-6Dnjt6GTqk",
+      "title": "Essai du Duotone FOIL ASSIST",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "9m8STJfQOgE",
+      "title": "Eleveight Evolve V4 Wingboard Test 2025 ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "l7pHqjOD_Qw",
+      "title": "Test des planches Duotone Sky Style sls, Skybrid sls et D/lab 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "xpGSWpujoP0",
+      "title": "Eleveight Evolve V4 Wingfoil Board Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "HFd3tbogjio",
+      "title": "2026 Naish 53L Chimera and 5m ADX wing test #wingfoil #foil",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "egezrffjqPk",
+      "title": "Gong Curve H - Foil Review [ENG]",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "4znqnlzx0Dg",
+      "title": "Is the new Duotone Crest going to replace Glide, Carve and Whizz? Review",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "lrW4o4H05tI",
+      "title": "Duotone Crest Dlab Foil Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "qJ2aiAZ4XBY",
+      "title": "Slingshot Glide Craft V1 80L Wingfoil Board Test 2025 ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "ZjdijAoaFQo",
+      "title": "Indiana Superfly CML 89L Carbon Wingboard Test 2025 ( test produit traduit en français )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "5kRFfdnDyKI",
+      "title": "Test du foil Duotone CREST 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "fnhdMRiW3h4",
+      "title": "Test de la Duotone Skybrid SLS 2026",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "pHJ6b-JRCLg",
+      "title": "KT Nomad Foil 1160 700 Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "bPKyMCmDJ4w",
+      "title": "Wing en setup GONG - Test insta 360 x5 #wing #wingfoil #gong #foil #foiling #insta360",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "5XCKmaXA9AY",
+      "title": "Indiana Flow FW carbon Wingfoil Board Test 2025 (test produit traduit en français)",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "laeIus1pFX4",
+      "title": "North Sonar MA V2 1200 foil test 2025 ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "DRUsTI54DDc",
+      "title": "KT Super K2 carbon 90L Crossover Wingboard Test ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "htCy_cztRcs",
+      "title": "Slingshot Glide Craft V1 80L Wingfoil Board Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "Ih5W_610mgo",
+      "title": "First test ride of a skinny mid length wing foil board",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "7ZPSmL8rvaM",
+      "title": "Test foot strap Tribord de Decathlon pour wing foil, kite foil, surf foil",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "v6Jo8tO5Fq4",
+      "title": "Appletree Apple Skipper Midlength Board - Test",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "a-azQlLJlck",
+      "title": "KT Super K 2 Carbon 90L Wingboard Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "DJGIn4BwfEw",
+      "title": "Slingshot Flow Craft V2 65L Wingfoil Board Test 2025 ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "TdL2YcSYd1Q",
+      "title": "Das Tabou Super Yaka Midlength-Board im Test",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "qf2LA6Dw4QI",
+      "title": "Slingshot Flow Craft V2 65L Wingfoil Board Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "1ywHqQRbrRY",
+      "title": "Indiana Foil Superfly cml 89l carbon Wingboard Test 2025 ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "ZEsZKUqHyxE",
+      "title": "Slingshot One Lock Glide 725 Foil Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "pvcTK70LaBQ",
+      "title": "Indiana Foil Superfly CML 89L Carbon Wingboard Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "ut8lby8-QrA",
+      "title": "Duotone Blitz Dlab 550 Foil Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "I5UIZAT93qo",
+      "title": "RRD Beluga ML LTD Y30 Wingboard Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "dOe3pEHakgE",
+      "title": "Indiana Barracuda Foil Test 2025 ( Revue traduite en français )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "K6UxTGgPgEo",
+      "title": "Endlich da! Das neue Tabou Rocket im Test!",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "92HaHWul324",
+      "title": "TAKOON GLIDE MIDLENGTH BOARD REVIEW (WINGFOIL/PARAWING)",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "RxkvTwobKGE",
+      "title": "Armstrong MA MKII Foil Review - We Rode &#39;Em!",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "S2boM4B8en8",
+      "title": "Indiana Foil Early Bird LW 104L Carbon Wingfoilboard Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "YF448nI7QHM",
+      "title": "Code Foils 1250R 🔥 High Aspect Front Wing Review",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "vqFSdEKOfFM",
+      "title": "F-ONE Rocket Wing Crossover Review – &quot;The Quiver Killer&quot;? by Liquid Blue Cabarete - Wingfoiling",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "AIA666962GA",
+      "title": "Slingshot Flow Foil Test 2025 ( english translated review )",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "-1fBIIm8fpE",
+      "title": "Should you buy the Duotone SKYBRID? Review",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "BsQoom43YEk",
+      "title": "North Midi 82L Mini Review – On Foil = 🔥, Off Foil = 🤔",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "5HwPFspBteM",
+      "title": "Duotone Carve 3 Foil Review | Is This the Best Mid-Aspect Wing Foil for Jumping &amp; Surf?",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "1YrgtfKV2kI",
+      "title": "Duotone Carve 3 Dlab 950 Foil Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "vqjLdNT4urA",
+      "title": "KT Foiling Atlas foil range review wingfoiling – part 3",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "_W2HhY4gySA",
+      "title": "Indiana Foilboard Flow FW Carbon Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "NXVH9H10YfM",
+      "title": "North Freeride &amp; Surfing Gear Guide | Wing Foil Review",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "E1hchZJjKAo",
+      "title": "KT Atlas 1130 790 Wing Foil Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "9G1mKOnFgxA",
+      "title": "Indiana Barracuda Foil 1050 und 850 Test 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "OJvTA8lXmDg",
+      "title": "SLINGSHOT ONE-LOCK / Long term review / Honest thoughts / Foil line-up &amp; Phantasm comparison",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "qIjC5-sJSro",
+      "title": "Test Duotone Skybrid Air 2025",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "p57zbjrPPY4",
+      "title": "DUOTONE WHIZZ SLS 850/1000/1450 FOIL REVIEW",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "bw6RziEZQm8",
+      "title": "Slingshot Glide 1125 Onelock Wingfoil Test 2024",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "9U1SMtSmTNE",
+      "title": "Slingshot Laser Craft V1 Midlength Board Test 2024",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "rLYd4DMS3mw",
+      "title": "🇫🇷 Foil 2025 - Test Gong Curve H V3, la même mais en mieux ?!",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "xB5QMIjU6Ps",
+      "title": "AFS Enduro Foil Test 2024",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "DQqbVduXDwA",
+      "title": "Duotone Glide 2.0 D/Lab 900 Wingfoil Test 2024",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    },
+    {
+      "video_id": "F_kPaA7RGac",
+      "title": "Test board sup foil dw ultime : l’AFS blackbird 8’8*16’5 107L",
+      "status": "unavailable_or_blocked",
+      "language": null,
+      "segment_count": null,
+      "failure_type": "HTTPError"
+    }
+  ],
+  "language_warning": "Initial batch requested en by default. German originals need de reprocessing; original pilot de transcripts remain valid. HTTP failures require diagnosis before retry."
+}
