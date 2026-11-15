@@ -636,6 +636,52 @@
           "source_url": "https://www.youtube.com/watch?v=z8wP9_VnM-8&t=17s"
         }
       ]
+    },
+    {
+      "video_id": "_jPvuDQISaA",
+      "model": "GONG HIPE First 2026 95 L — premier essai",
+      "size_l": 95,
+      "rider_weight_kg_reported": 75,
+      "language_returned": "en-US",
+      "transcript_sha256": "9d5accd6806ad19ec829d0e6ab20778ed1323a7383657b0a125292053054905b",
+      "review_method": "Lecture intégrale du cache retourné, musique exclue des preuves; sans contrôle audio ou vidéo.",
+      "source_relationship": "Même chaîne Unbox Ecc que le retour aZFCW3ms_oU : pas un avis indépendant supplémentaire. Le poids de cette session ne prouve pas le poids exact à toutes les autres dates.",
+      "integration": "deferred",
+      "integration_reason": "Kit gonflable absent du moteur : compléter fiche et dimensions avant ajout. Témoignage de 75 kg utile pour contextualiser 95 L, insuffisant pour modifier la règle générale de volume ou noter séparément le foil.",
+      "claims": [
+        {
+          "start_s": 8,
+          "end_s": 48.2,
+          "dimension": "setup",
+          "statement_fr": "Le propriétaire annonce une HIPE First 2026 95 L associée à un X-Over V3 XL pour un premier essai du kit.",
+          "limits": "Identification parlée, sans contrôle visuel; configuration complète et surface non répétées ici.",
+          "source_url": "https://www.youtube.com/watch?v=_jPvuDQISaA&t=8s"
+        },
+        {
+          "start_s": 128,
+          "end_s": 161.7,
+          "dimension": "stability,size",
+          "statement_fr": "Le propriétaire annonce 75 kg et juge la 95 L stable et adaptée à sa navigation sur ce lac, avec le X-Over XL.",
+          "limits": "Retour individuel; niveau exact et vent non quantifiés. Ne pas transformer le rapport 95 L/75 kg en règle universelle ou en conseil débutant.",
+          "source_url": "https://www.youtube.com/watch?v=_jPvuDQISaA&t=128s"
+        },
+        {
+          "start_s": 164.8,
+          "end_s": 190.3,
+          "dimension": "handling,limits",
+          "statement_fr": "Il apprécie les départs et les touchettes, tout en ressentant un léger rebond du gonflable et en devant adapter ses repères de pieds à la petite planche.",
+          "limits": "Premier essai, sans mesure de rigidité ni comparaison à volume identique. Sensations du kit entier.",
+          "source_url": "https://www.youtube.com/watch?v=_jPvuDQISaA&t=164s"
+        },
+        {
+          "start_s": 196.1,
+          "end_s": 209.6,
+          "dimension": "transport",
+          "statement_fr": "La possibilité de plier la planche pour le transport correspond à son objectif de vacances.",
+          "limits": "Avantage de rangement rapporté; dimensions de paquet et temps de montage non mesurés.",
+          "source_url": "https://www.youtube.com/watch?v=_jPvuDQISaA&t=196s"
+        }
+      ]
     }
   ]
 }

@@ -106,11 +106,11 @@
     },
     {
       "video_id": "_jPvuDQISaA",
-      "status": "in_progress",
-      "step": "Lecture premier essai HIPE First 95 L : poids de 75 kg explicite et ressenti du kit",
+      "status": "completed",
+      "step": "Quatre observations publiées; cas 75 kg et 95 L contextualisé sans règle universelle",
       "started_at_utc": "2026-11-15T21:03:04.119768+00:00",
-      "updated_at_utc": "2026-11-15T21:03:04.119768+00:00",
-      "expires_at_utc": "2026-11-15T21:23:04.119768+00:00"
+      "updated_at_utc": "2026-11-15T21:03:07.444291+00:00",
+      "expires_at_utc": "2026-11-15T21:23:07.444291+00:00"
     }
   ]
 }

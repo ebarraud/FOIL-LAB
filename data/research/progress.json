@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T21:03:04.163424+00:00",
+  "updated_at_utc": "2026-11-15T21:03:07.491907+00:00",
   "collection_updated_at_utc": "2026-11-15T21:03:00.793348+00:00",
   "retry_not_before_utc": null,
   "collection_state": "in_progress",
@@ -641,23 +641,22 @@
       "collection": "timed_transcript_received",
       "segments": 53,
       "keyword_candidates": 0,
-      "analysis": "in_progress",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 4,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Kit gonflable absent du moteur : compléter fiche et dimensions avant ajout. Témoignage de 75 kg utile pour contextualiser 95 L, insuffisant pour modifier la règle générale de volume ou noter séparément le foil.",
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": {
         "video_id": "_jPvuDQISaA",
-        "status": "in_progress",
-        "step": "Lecture premier essai HIPE First 95 L : poids de 75 kg explicite et ressenti du kit",
+        "status": "completed",
+        "step": "Quatre observations publiées; cas 75 kg et 95 L contextualisé sans règle universelle",
         "started_at_utc": "2026-11-15T21:03:04.119768+00:00",
-        "updated_at_utc": "2026-11-15T21:03:04.119768+00:00",
-        "expires_at_utc": "2026-11-15T21:23:04.119768+00:00"
-      },
-      "analysis_before_activity": "queued"
+        "updated_at_utc": "2026-11-15T21:03:07.444291+00:00",
+        "expires_at_utc": "2026-11-15T21:23:07.444291+00:00"
+      }
     },
     {
       "video_id": "R-__gkwwY_I",
