@@ -1,0 +1,47 @@
+{
+  "claims": [
+    {
+      "id": "armstrong-mk2-85-neutral",
+      "model": "Armstrong Midlength Mk II X-Form",
+      "size_l": 85,
+      "start_s": 214.2,
+      "end_s": 244.1,
+      "statement_fr": "Le testeur annonce environ 85 kg sur la 85 L et décrit une flottabilité neutre ainsi qu’un ensemble léger au pumping.",
+      "limits": "Un testeur, volume nominal et poids déclarés; aucune validation sur débutants ou comparaison instrumentée.",
+      "source_url": "https://www.youtube.com/watch?v=NTOAhBM2Wms&t=214s",
+      "transcript_sha256": "e4745d37c37b35066c718c32c34a677b31675f75e40354d42e254a37dfa6bf69",
+      "evidence_status": "transcript_interpretation_not_audio_verified",
+      "language_returned": "en"
+    },
+    {
+      "id": "armstrong-mk2-85-stability",
+      "model": "Armstrong Midlength Mk II X-Form",
+      "size_l": 85,
+      "start_s": 277.9,
+      "end_s": 354.4,
+      "statement_fr": "Le testeur apprécie la stabilité en déplacement dans les périodes sans vent et la mise en vol lorsque la rafale arrive.",
+      "limits": "Ressenti sur la 85 L, foil et vent non quantifiés; ne prouve pas que toutes les planches longues et étroites sont faciles.",
+      "source_url": "https://www.youtube.com/watch?v=NTOAhBM2Wms&t=277s",
+      "transcript_sha256": "e4745d37c37b35066c718c32c34a677b31675f75e40354d42e254a37dfa6bf69",
+      "evidence_status": "transcript_interpretation_not_audio_verified",
+      "language_returned": "en"
+    },
+    {
+      "id": "armstrong-mk2-85-length-tradeoff",
+      "model": "Armstrong Midlength Mk II X-Form",
+      "size_l": 85,
+      "start_s": 445.6,
+      "end_s": 480.1,
+      "statement_fr": "Le testeur aimerait une planche plus courte, mais préfère conserver la flottabilité neutre plutôt que passer sur un volume inférieur dans ses conditions irrégulières. Il relève aussi une contrainte de transport.",
+      "limits": "Préférence personnelle, pas un seuil universel litres/kg. La règle de facilité du configurateur est une précaution éditoriale inspirée de ce compromis.",
+      "source_url": "https://www.youtube.com/watch?v=NTOAhBM2Wms&t=445s",
+      "transcript_sha256": "e4745d37c37b35066c718c32c34a677b31675f75e40354d42e254a37dfa6bf69",
+      "evidence_status": "transcript_interpretation_not_audio_verified",
+      "language_returned": "en"
+    }
+  ],
+  "reviewed_segment_count": 256,
+  "audio_verified": false,
+  "scores_generated": 0,
+  "rule_scope": "Ease preference with non-sinker start: reject board volume below rider weight; editorial constraint, not a measured threshold."
+}

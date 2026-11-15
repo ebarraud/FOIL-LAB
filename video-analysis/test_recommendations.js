@@ -14,3 +14,11 @@ const profile={l:3,b:'all',p:'surf',w:62,wind:18,pr:'easy',water:'flat',budget:'
 assert.equal(sandbox.foilOptions(profile)[0].size,750);
 assert.equal(sandbox.foilOptions({...profile,pr:'perf'})[0].size,650);
 console.log('Transcript recommendation checks passed');
+
+const boardStart=source.indexOf('function boardEvidenceAllows('),boardEnd=source.indexOf('function boardOptions(');
+vm.runInContext(source.slice(boardStart,boardEnd),sandbox);
+assert.equal(sandbox.boardEvidenceAllows(78,{w:85,pr:'easy',start:'auto'}),false);
+assert.equal(sandbox.boardEvidenceAllows(85,{w:85,pr:'easy',start:'auto'}),true);
+assert.equal(sandbox.boardEvidenceAllows(78,{w:85,pr:'perf',start:'auto'}),true);
+assert.equal(sandbox.boardEvidenceAllows(78,{w:85,pr:'easy',start:'sinker'}),true);
+console.log('Board ease and explicit sinker checks passed');

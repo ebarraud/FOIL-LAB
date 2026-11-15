@@ -222,9 +222,13 @@ function foilOptions(x){
 }
 function boardTarget(x){let v=x.w+[38,24,12,3,-8][x.l];if(x.wind<12)v+=8;if(x.st==='high')v+=10;if(x.st==='low')v-=5;if(x.start==='standing')v+=12;if(x.start==='sinker'&&x.l>=3)v-=13;return Math.max(35,v);}
 function boardKind(x){if(x.bt!=='auto')return x.bt;return x.l<=0?'compact':x.p==='light'||x.p==='glide'||x.wind<=13?'midi':x.p==='surf'||x.p==='jump'?'compact':x.st==='high'?'compact': 'midi';}
+function boardEvidenceAllows(volume,x){
+ // Editorial constraint, not a measured buoyancy law: respect ease preference.
+ return !(x.pr==='easy'&&x.start!=='sinker'&&volume<x.w);
+}
 function boardOptions(x){const target=boardTarget(x),kind=boardKind(x),res=[];
  for(const b of BOARDS){if(x.l<b.level)continue;if(kind==='compact'&&b.kind!=='compact')continue;if(kind==='midi'&&b.kind!=='midi')continue;if(kind==='dw'&&b.kind!=='dw')continue;
- for(const a of b.sizes){const [v,len,wid]=a;if(x.maxW&&wid>x.maxW||x.maxL&&len>x.maxL)continue;
+ for(const a of b.sizes){const [v,len,wid]=a;if(!boardEvidenceAllows(v,x))continue;if(x.maxW&&wid>x.maxW||x.maxL&&len>x.maxL)continue;
  if(x.l===0&&wid<58)continue;
  if(x.l<=1&&x.water==='chop'&&wid<54&&x.st==='high')continue;
  if(x.start==='standing'&&v<x.w+12)continue;
@@ -235,7 +239,7 @@ function boardOptions(x){const target=boardTarget(x),kind=boardKind(x),res=[];
  if(diff>35)continue;
  const stabilityPenalty=x.water==='chop'?Math.max(0,58-wid)*1.3:0;
  const score=diff+stabilityPenalty+(x.st==='high'?Math.max(0,62-wid)*.9:0)+(x.p==='light'&&b.kind==='compact'?7:0);
- res.push({b,v,len,wid,loss:score,why:b.about,caveat:wid<55?'Largeur exigeante au départ, surtout dans le clapot.':'Contrôler le confort réel du départ et le centrage du foil.'});
+ res.push({b,v,len,wid,loss:score,why:b.about+(x.pr==='easy'&&x.start!=='sinker'?' Priorité facilité : les volumes inférieurs à ton poids ont été écartés pour éviter un choix de type sinker implicite. Cette précaution ne garantit pas la stabilité, qui dépend aussi de la largeur.':''),caveat:wid<55?'Largeur exigeante au départ, surtout dans le clapot.':'Contrôler le confort réel du départ et le centrage du foil.'});
  }}
  const bestByFamily=[];res.sort((a,b)=>a.loss-b.loss).forEach(o=>{if(!bestByFamily.find(z=>z.b.b===o.b.b&&z.b.n===o.b.n))bestByFamily.push(o)});
  return bestByFamily.slice(0,3);
