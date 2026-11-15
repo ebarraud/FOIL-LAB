@@ -5,6 +5,18 @@ from pathlib import Path
 from dashboard import build
 
 class DashboardTests(unittest.TestCase):
+    def test_public_status_null_last_retry_does_not_crash(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            (root/'research').mkdir()
+            (root/'research/BATCH_STATUS.json').write_text(json.dumps({'results':[
+                {'video_id':'aaaaaaaaaaa','title':'Received','status':'timed_transcript_received','last_retry':None},
+                {'video_id':'bbbbbbbbbbb','title':'Failed','status':'unavailable_or_blocked','last_retry':None,'failure_type':'HTTPError'}]}))
+            d=build(root)
+            self.assertEqual(len(d['videos']),2)
+            self.assertIsNone(d['videos'][0]['failure'])
+            self.assertEqual(d['videos'][1]['failure'],'HTTPError')
+
     def test_discovery_does_not_erase_collected_or_claim_analysis(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)
