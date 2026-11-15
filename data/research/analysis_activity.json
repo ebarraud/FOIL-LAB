@@ -119,6 +119,14 @@
       "started_at_utc": "2026-11-15T21:17:42.016522+00:00",
       "updated_at_utc": "2026-11-15T21:17:45.294827+00:00",
       "expires_at_utc": "2026-11-15T21:37:45.294827+00:00"
+    },
+    {
+      "video_id": "3B4fq8l_8HQ",
+      "status": "in_progress",
+      "step": "Lecture allemande Fusion/Armstrong : isoler assistance électrique et UHA 870",
+      "started_at_utc": "2026-11-15T21:32:59.726841+00:00",
+      "updated_at_utc": "2026-11-15T21:32:59.726841+00:00",
+      "expires_at_utc": "2026-11-15T21:52:59.726841+00:00"
     }
   ]
 }

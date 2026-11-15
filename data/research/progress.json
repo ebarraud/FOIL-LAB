@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T21:17:45.351937+00:00",
+  "updated_at_utc": "2026-11-15T21:32:59.774584+00:00",
   "collection_updated_at_utc": "2026-11-15T21:05:13.133970+00:00",
   "retry_not_before_utc": "2026-11-15T22:00:00.133970+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -842,7 +842,7 @@
       "collection": "timed_transcript_received",
       "segments": 260,
       "keyword_candidates": 4,
-      "analysis": "queued",
+      "analysis": "in_progress",
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
@@ -850,7 +850,15 @@
       "integration_reason": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": {
+        "video_id": "3B4fq8l_8HQ",
+        "status": "in_progress",
+        "step": "Lecture allemande Fusion/Armstrong : isoler assistance électrique et UHA 870",
+        "started_at_utc": "2026-11-15T21:32:59.726841+00:00",
+        "updated_at_utc": "2026-11-15T21:32:59.726841+00:00",
+        "expires_at_utc": "2026-11-15T21:52:59.726841+00:00"
+      },
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "96bNahQGX54",
