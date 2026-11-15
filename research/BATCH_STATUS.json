@@ -5,6 +5,21 @@
   "transcripts_obtained": 20,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
+  "updated_at_utc": "2026-11-15T17:15:22.030490+00:00",
+  "retry_status": "provider_access_or_rate_limit",
+  "retry_history": {
+    "attempts": [
+      {
+        "video_id": "aiWA2W7hKos",
+        "requested_language": "de",
+        "at_utc": "2026-11-15T17:15:22.030490+00:00",
+        "status": "http_error",
+        "http_status": 429,
+        "retry_after": "2678"
+      }
+    ],
+    "stopped_reason": "provider_access_or_rate_limit"
+  },
   "results": [
     {
       "video_id": "aiWA2W7hKos",
@@ -12,7 +27,16 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 209,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": {
+        "video_id": "aiWA2W7hKos",
+        "requested_language": "de",
+        "at_utc": "2026-11-15T17:15:22.030490+00:00",
+        "status": "http_error",
+        "http_status": 429,
+        "retry_after": "2678"
+      },
+      "requested_language": null
     },
     {
       "video_id": "DMlWjjIcwss",
@@ -20,7 +44,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 768,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "aZFCW3ms_oU",
@@ -28,7 +54,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 181,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "F6BXfqM05yo",
@@ -36,7 +64,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 147,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "pPXyFWHSd-U",
@@ -44,7 +74,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 68,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "z8wP9_VnM-8",
@@ -52,7 +84,9 @@
       "status": "timed_transcript_received",
       "language": "fr",
       "segment_count": 20,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "kHYxyUyU4qY",
@@ -60,7 +94,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 324,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "ZWb49kOlXpo",
@@ -68,7 +104,9 @@
       "status": "timed_transcript_received",
       "language": "en-US",
       "segment_count": 150,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "o-piLekjAHk",
@@ -76,7 +114,9 @@
       "status": "timed_transcript_received",
       "language": "nl",
       "segment_count": 55,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "fELF_qseo4g",
@@ -84,7 +124,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 297,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "Bb0Nr-RXZlk",
@@ -92,7 +134,9 @@
       "status": "timed_transcript_received",
       "language": "en-US",
       "segment_count": 50,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "PkWvig5XIJ0",
@@ -100,7 +144,9 @@
       "status": "timed_transcript_received",
       "language": "en-US",
       "segment_count": 149,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "NTOAhBM2Wms",
@@ -108,7 +154,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 256,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "zesN5IeyRQM",
@@ -116,7 +164,9 @@
       "status": "timed_transcript_received",
       "language": "en-US",
       "segment_count": 163,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "3EObhbc9v-o",
@@ -124,7 +174,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 217,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "V5rMLxpKDsg",
@@ -132,7 +184,9 @@
       "status": "timed_transcript_received",
       "language": "en-US",
       "segment_count": 209,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "FJsdHDBPLJY",
@@ -140,7 +194,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 271,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "eRK72ouHjeM",
@@ -148,7 +204,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 444,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "wrBJfakowLs",
@@ -156,7 +214,9 @@
       "status": "timed_transcript_received",
       "language": "en-US",
       "segment_count": 199,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "Oaw3GuMOTb0",
@@ -164,7 +224,9 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 378,
-      "failure_type": null
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "oj8HfuYygDw",
@@ -172,7 +234,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "_jPvuDQISaA",
@@ -180,7 +244,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "R-__gkwwY_I",
@@ -188,7 +254,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "3OIRoNWHne0",
@@ -196,7 +264,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "WgDFirFuKOA",
@@ -204,7 +274,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "yL-WLJABq_U",
@@ -212,7 +284,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "mtwBUIwCP3Q",
@@ -220,7 +294,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "wIPR7DOgKqQ",
@@ -228,7 +304,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "oNue1Vm0nWA",
@@ -236,7 +314,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "FklAiCI22lU",
@@ -244,7 +324,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "xrEGIa5cgdQ",
@@ -252,7 +334,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "viZUrrOCL6E",
@@ -260,7 +344,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "3B4fq8l_8HQ",
@@ -268,7 +354,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "96bNahQGX54",
@@ -276,7 +364,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "MnZAlmqfiOo",
@@ -284,7 +374,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "rVRUSW09BD4",
@@ -292,7 +384,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "P2kF4cHQEZ4",
@@ -300,7 +394,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "2rLx3Ayw9oE",
@@ -308,7 +404,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "JznK2j6Hi7k",
@@ -316,7 +414,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "Zo1awVlnOJQ",
@@ -324,7 +424,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "e3C_ZnGsEJc",
@@ -332,7 +434,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "RRHYwIpkENs",
@@ -340,7 +444,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "Hzyr_W_mJ1I",
@@ -348,7 +454,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "voesArm8I1I",
@@ -356,7 +464,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "93t-YEPyyhc",
@@ -364,7 +474,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "bN_utLvFrck",
@@ -372,7 +484,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "QepHH2KIVOY",
@@ -380,7 +494,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "-6Dnjt6GTqk",
@@ -388,7 +504,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "9m8STJfQOgE",
@@ -396,7 +514,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "l7pHqjOD_Qw",
@@ -404,7 +524,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "xpGSWpujoP0",
@@ -412,7 +534,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "HFd3tbogjio",
@@ -420,7 +544,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "egezrffjqPk",
@@ -428,7 +554,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "4znqnlzx0Dg",
@@ -436,7 +564,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "lrW4o4H05tI",
@@ -444,7 +574,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "qJ2aiAZ4XBY",
@@ -452,7 +584,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "ZjdijAoaFQo",
@@ -460,7 +594,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "5kRFfdnDyKI",
@@ -468,7 +604,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "fnhdMRiW3h4",
@@ -476,7 +614,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "pHJ6b-JRCLg",
@@ -484,7 +624,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "bPKyMCmDJ4w",
@@ -492,7 +634,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "5XCKmaXA9AY",
@@ -500,7 +644,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "laeIus1pFX4",
@@ -508,7 +654,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "DRUsTI54DDc",
@@ -516,7 +664,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "htCy_cztRcs",
@@ -524,7 +674,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "Ih5W_610mgo",
@@ -532,7 +684,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "7ZPSmL8rvaM",
@@ -540,7 +694,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "v6Jo8tO5Fq4",
@@ -548,7 +704,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "a-azQlLJlck",
@@ -556,7 +714,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "DJGIn4BwfEw",
@@ -564,7 +724,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "TdL2YcSYd1Q",
@@ -572,7 +734,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "qf2LA6Dw4QI",
@@ -580,7 +744,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "1ywHqQRbrRY",
@@ -588,7 +754,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "ZEsZKUqHyxE",
@@ -596,7 +764,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "pvcTK70LaBQ",
@@ -604,7 +774,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "ut8lby8-QrA",
@@ -612,7 +784,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "I5UIZAT93qo",
@@ -620,7 +794,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "dOe3pEHakgE",
@@ -628,7 +804,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "K6UxTGgPgEo",
@@ -636,7 +814,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "92HaHWul324",
@@ -644,7 +824,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "RxkvTwobKGE",
@@ -652,7 +834,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "S2boM4B8en8",
@@ -660,7 +844,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "YF448nI7QHM",
@@ -668,7 +854,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "vqFSdEKOfFM",
@@ -676,7 +864,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "AIA666962GA",
@@ -684,7 +874,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "-1fBIIm8fpE",
@@ -692,7 +884,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "BsQoom43YEk",
@@ -700,7 +894,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "5HwPFspBteM",
@@ -708,7 +904,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "1YrgtfKV2kI",
@@ -716,7 +914,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "vqjLdNT4urA",
@@ -724,7 +924,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "_W2HhY4gySA",
@@ -732,7 +934,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "NXVH9H10YfM",
@@ -740,7 +944,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "E1hchZJjKAo",
@@ -748,7 +954,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "9G1mKOnFgxA",
@@ -756,7 +964,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "OJvTA8lXmDg",
@@ -764,7 +974,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "qIjC5-sJSro",
@@ -772,7 +984,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "p57zbjrPPY4",
@@ -780,7 +994,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "bw6RziEZQm8",
@@ -788,7 +1004,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "9U1SMtSmTNE",
@@ -796,7 +1014,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "rLYd4DMS3mw",
@@ -804,7 +1024,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "xB5QMIjU6Ps",
@@ -812,7 +1034,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "DQqbVduXDwA",
@@ -820,7 +1044,9 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     },
     {
       "video_id": "F_kPaA7RGac",
@@ -828,8 +1054,11 @@
       "status": "unavailable_or_blocked",
       "language": null,
       "segment_count": null,
-      "failure_type": "HTTPError"
+      "failure_type": "HTTPError",
+      "last_retry": null,
+      "requested_language": null
     }
   ],
-  "language_warning": "Initial batch requested en by default. German originals need de reprocessing; original pilot de transcripts remain valid. HTTP failures require diagnosis before retry."
+  "retry_not_before_utc": "2026-11-15T18:00:00.030490+00:00",
+  "language_warning": "Original-language correction pending provider cooldown. Explicit pilot language: Duotone de, AFS fr, KT de; other unknown languages requested auto. Existing translated batch texts not original-language verified."
 }
