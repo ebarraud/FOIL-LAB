@@ -209,6 +209,58 @@
           "source_url": "https://www.youtube.com/watch?v=o-piLekjAHk&t=129s"
         }
       ]
+    },
+    {
+      "video_id": "aZFCW3ms_oU",
+      "model": "GONG HIPE First 95 L / X-Over V3 XL",
+      "language_returned": "en",
+      "language_note": "Texte anglais retourné; langue originale non confirmée et erreurs de traduction possibles.",
+      "transcript_sha256": "363a61525ac2fbaba5b199871731f6ce7562e109a7c56b2ce63b7e9ca6301883",
+      "review_method": "Lecture intégrale des segments retournés; paraphrases par assistant, sans contrôle audio ou visuel.",
+      "integration": "deferred",
+      "integration_reason": "Retour d’un propriétaire sans poids déclaré; durée d’utilisation contradictoire et réglages personnels. Ne justifie ni seuil de volume universel ni pénalité de durabilité du modèle. Fiche catalogue et référence exacte du kit à vérifier.",
+      "claims": [
+        {
+          "start_s": 22.5,
+          "end_s": 70.53,
+          "dimension": "size,accessibility",
+          "statement_fr": "Le propriétaire présente une HIPE First 5 pieds / 95 L avec un X-Over V3 XL 1400. Il juge la 95 L trop petite comme première planche et cite des volumes supérieurs pour apprendre.",
+          "limits": "Poids du rider absent : les exemples 130/140 L ne constituent pas des recommandations universelles. Dimensions et référence du foil à vérifier auprès du constructeur.",
+          "source_url": "https://www.youtube.com/watch?v=aZFCW3ms_oU&t=22s"
+        },
+        {
+          "start_s": 105.03,
+          "end_s": 218.34,
+          "dimension": "durability",
+          "statement_fr": "Le propriétaire rapporte une planche encore fonctionnelle et tenant la pression, avec taches de colle et marques esthétiques sur le pad et près des assemblages.",
+          "limits": "Observation sur un seul exemplaire sans contrôle visuel de notre part. Durée incohérente : une saison et deux saisons sont successivement mentionnées; ne pas convertir en taux de fiabilité.",
+          "source_url": "https://www.youtube.com/watch?v=aZFCW3ms_oU&t=105s"
+        },
+        {
+          "start_s": 229.5,
+          "end_s": 314.17,
+          "dimension": "durability,damage",
+          "statement_fr": "Le propriétaire décrit des éclats sur le stabilisateur après un choc contre un ponton et des taches sur la platine, tout en jugeant le montage fonctionnel.",
+          "limits": "Le choc est attribué à l’utilisateur; cause des taches inconnue. Aucun défaut de fabrication systématique ni conseil de réparation validé n’est déduit.",
+          "source_url": "https://www.youtube.com/watch?v=aZFCW3ms_oU&t=229s"
+        },
+        {
+          "start_s": 335.01,
+          "end_s": 459.35,
+          "dimension": "setup",
+          "statement_fr": "Le propriétaire décrit ses repères de pieds et un placement de platine autour du repère 5 pour équilibrer son ensemble.",
+          "limits": "Réglage dépendant du foil, du rider et des rails; repère non transférable à d’autres modèles. Aucun réglage automatique dans le configurateur.",
+          "source_url": "https://www.youtube.com/watch?v=aZFCW3ms_oU&t=335s"
+        },
+        {
+          "start_s": 494.15,
+          "end_s": 536.5,
+          "dimension": "transport,experience",
+          "statement_fr": "Le propriétaire apprécie le rangement plié de la planche et rapporte une glisse permettant ses jibes; il indique poursuivre son apprentissage des changements de pieds.",
+          "limits": "Ressenti du kit complet; ne permet pas de séparer la contribution de la planche et du foil ni d’inférer des scores de glisse.",
+          "source_url": "https://www.youtube.com/watch?v=aZFCW3ms_oU&t=494s"
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T18:47:22.058089+00:00",
+  "updated_at_utc": "2026-11-15T18:47:53.983896+00:00",
   "collection_updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
   "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -46,23 +46,22 @@
       "collection": "timed_transcript_received",
       "segments": 181,
       "keyword_candidates": 5,
-      "analysis": "in_progress",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Retour d’un propriétaire sans poids déclaré; durée d’utilisation contradictoire et réglages personnels. Ne justifie ni seuil de volume universel ni pénalité de durabilité du modèle. Fiche catalogue et référence exacte du kit à vérifier.",
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": {
         "video_id": "aZFCW3ms_oU",
-        "status": "in_progress",
-        "step": "Lecture complète du retour GONG HIPE First et vérification des limites de durabilité",
+        "status": "completed",
+        "step": "Cinq observations documentées; poids absent et durée contradictoire signalés",
         "started_at_utc": "2026-11-15T18:47:22.025343+00:00",
-        "updated_at_utc": "2026-11-15T18:47:22.025343+00:00",
-        "expires_at_utc": "2026-11-15T19:07:22.025343+00:00"
-      },
-      "analysis_before_activity": "queued"
+        "updated_at_utc": "2026-11-15T18:47:53.931242+00:00",
+        "expires_at_utc": "2026-11-15T19:07:53.931242+00:00"
+      }
     },
     {
       "video_id": "F6BXfqM05yo",

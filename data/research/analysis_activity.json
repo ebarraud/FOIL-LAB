@@ -18,11 +18,11 @@
     },
     {
       "video_id": "aZFCW3ms_oU",
-      "status": "in_progress",
-      "step": "Lecture complète du retour GONG HIPE First et vérification des limites de durabilité",
+      "status": "completed",
+      "step": "Cinq observations documentées; poids absent et durée contradictoire signalés",
       "started_at_utc": "2026-11-15T18:47:22.025343+00:00",
-      "updated_at_utc": "2026-11-15T18:47:22.025343+00:00",
-      "expires_at_utc": "2026-11-15T19:07:22.025343+00:00"
+      "updated_at_utc": "2026-11-15T18:47:53.931242+00:00",
+      "expires_at_utc": "2026-11-15T19:07:53.931242+00:00"
     }
   ]
 }
