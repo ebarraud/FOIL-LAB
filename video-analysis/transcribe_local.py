@@ -85,10 +85,12 @@ def main(argv=None):
     video={"id":args.video_id, "url":args.video_url,
            "title":args.video_title, "publisher":args.publisher}
     report=analyzer.extract(video,srt,args.language,args.audio.name)
+    with args.audio.open("rb") as fh:
+        audio_hash = hashlib.file_digest(fh,"sha256").hexdigest()
     report["transcription_provenance"]={
         "method":"local_faster_whisper_asr",
         "audio_filename":args.audio.name,
-        "audio_sha256":hashlib.file_digest(args.audio.open("rb"),"sha256").hexdigest(),
+        "audio_sha256":audio_hash,
         "engine_model":args.model,
         "source_permission_confirmed":True,
         "asr_not_human_verified":True,
