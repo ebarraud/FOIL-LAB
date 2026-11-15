@@ -5,8 +5,8 @@
   "transcripts_obtained": 20,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-15T17:15:22.030490+00:00",
-  "retry_status": "provider_access_or_rate_limit",
+  "updated_at_utc": "2026-11-15T18:01:15.248481+00:00",
+  "retry_status": "in_progress",
   "retry_history": {
     "attempts": [
       {
@@ -16,37 +16,67 @@
         "status": "http_error",
         "http_status": 429,
         "retry_after": "2678"
+      },
+      {
+        "video_id": "aiWA2W7hKos",
+        "requested_language": "de",
+        "at_utc": "2026-11-15T18:00:54.169480+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "DMlWjjIcwss",
+        "requested_language": "fr",
+        "at_utc": "2026-11-15T18:00:59.553567+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "zesN5IeyRQM",
+        "requested_language": "de",
+        "at_utc": "2026-11-15T18:01:04.811788+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "oj8HfuYygDw",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:10.050559+00:00",
+        "status": "http_error",
+        "http_status": 400,
+        "retry_after": null
+      },
+      {
+        "video_id": "_jPvuDQISaA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:15.248481+00:00",
+        "status": "http_error",
+        "http_status": 400,
+        "retry_after": null
       }
     ],
-    "stopped_reason": "provider_access_or_rate_limit"
+    "stopped_reason": null
   },
   "results": [
     {
       "video_id": "aiWA2W7hKos",
       "title": "Duotone Glide 3.0 Dlab 825 Foil Test 2026",
       "status": "timed_transcript_received",
-      "language": "en",
-      "segment_count": 209,
+      "language": "de",
+      "segment_count": 218,
       "failure_type": null,
-      "last_retry": {
-        "video_id": "aiWA2W7hKos",
-        "requested_language": "de",
-        "at_utc": "2026-11-15T17:15:22.030490+00:00",
-        "status": "http_error",
-        "http_status": 429,
-        "retry_after": "2678"
-      },
-      "requested_language": null
+      "last_retry": null,
+      "requested_language": "de"
     },
     {
       "video_id": "DMlWjjIcwss",
       "title": "AFS SILK V2 FOIL REVIEW - 650 / 750 / 950",
       "status": "timed_transcript_received",
-      "language": "en",
-      "segment_count": 768,
+      "language": "fr",
+      "segment_count": 834,
       "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "fr"
     },
     {
       "video_id": "aZFCW3ms_oU",
@@ -162,11 +192,11 @@
       "video_id": "zesN5IeyRQM",
       "title": "KT Halo Foil 670 und 800 Test 2026",
       "status": "timed_transcript_received",
-      "language": "en-US",
-      "segment_count": 163,
+      "language": "de",
+      "segment_count": 236,
       "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "de"
     },
     {
       "video_id": "3EObhbc9v-o",
@@ -235,7 +265,14 @@
       "language": null,
       "segment_count": null,
       "failure_type": "HTTPError",
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "oj8HfuYygDw",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:10.050559+00:00",
+        "status": "http_error",
+        "http_status": 400,
+        "retry_after": null
+      },
       "requested_language": null
     },
     {
@@ -245,7 +282,14 @@
       "language": null,
       "segment_count": null,
       "failure_type": "HTTPError",
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "_jPvuDQISaA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T18:01:15.248481+00:00",
+        "status": "http_error",
+        "http_status": 400,
+        "retry_after": null
+      },
       "requested_language": null
     },
     {
@@ -1058,7 +1102,5 @@
       "last_retry": null,
       "requested_language": null
     }
-  ],
-  "retry_not_before_utc": "2026-11-15T18:00:00.030490+00:00",
-  "language_warning": "Original-language correction pending provider cooldown. Explicit pilot language: Duotone de, AFS fr, KT de; other unknown languages requested auto. Existing translated batch texts not original-language verified."
+  ]
 }
