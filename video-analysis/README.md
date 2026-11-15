@@ -100,3 +100,21 @@ Deux sorties locales non versionnées sont produites sous `video-analysis/local-
 La page [evidence.html](evidence.html) lit directement le JSON source du pilote et distingue observations écrites, réponses d'auteurs et fiches vidéo sans contenu technique. Le lien public est https://ebarraud.github.io/FOIL-LAB/video-analysis/evidence.html. Elle permet de consulter les trois modèles et les tailles exactes sans confondre observations vérifiées et analyses vidéo intégrales.
 
 **État du pilote du 15/11/2026 : aucune transcription réellement acquise pour ces trois vidéos.** La transcription automatisée nécessite encore un fichier média autorisé ou une transcription publique exploitable. Les tests GitHub simulent des segments audio injectés et valident la chaîne logicielle, pas la disponibilité d'une vidéo tierce.
+
+## Pilotage des transcriptions YouTube via API spécialisée (facultatif)
+
+Les tentatives directes `yt-dlp --list-subs` depuis GitHub Actions ont échoué même pour des vidéos signalées comme sous-titrées par l'API YouTube. La clé GitHub `YOUTUBE_APU` sert **uniquement** à la recherche et aux métadonnées.
+
+Le nouveau workflow manuel [Pilot genuine YouTube transcripts (opt-in)](../.github/workflows/hosted-transcript-pilot.yml) utilise, de façon optionnelle, l'API documentée de [TranscriptAPI.com](https://transcriptapi.com/docs/getting-started/). Le service est tiers, indépendant de YouTube et peut facturer des crédits ; son usage doit respecter les conditions et droits applicables.
+
+**Avant toute première transcription réelle :**
+
+1. Souscrire et disposer d'une clé d'API du fournisseur, selon ses conditions. Ne pas placer cette clé dans les fichiers du dépôt, dans le navigateur, ni dans le chat.
+2. Créer un secret GitHub Actions nommé exactement **`TRANSCRIPT_API_KEY`** sous Settings → Secrets and variables → Actions.
+3. Dans Actions, choisir **Pilot genuine YouTube transcripts (opt-in)** et déclencher `Run workflow`. L'option `confirm_provider_charges` est par défaut `no` : le programme ne facture alors rien, même si une clé existe.
+4. Choisir `yes` seulement si l'utilisation de crédits a été explicitement autorisée ; le nombre de vidéos est limité à 1–3 par exécution.
+5. Consulter le rapport généré en artefact GitHub : les extraits techniques courts sont horodatés. Le texte intégral des vidéos n'est pas conservé dans le dépôt ni dans l'artefact.
+
+La première sélection comprend **AFS Silk V2**, **Duotone Glide 3.0 D/LAB 825** et **KT Halo**. Le programme valide les segments obtenus (`start`, `duration`, `text`), conserve les horodatages, détecte les mots-clés et produit des liens YouTube vers les passages. **Il n'attribue aucune note et ne qualifie pas les extraits de conclusions tant qu'ils ne sont pas validés.**
+
+Sans cette nouvelle clé et sans autorisation de frais, **l'analyse automatique réelle reste indisponible**. Les tests GitHub utilisent des réponses simulées et ne prouvent pas qu'un fournisseur tiers retourne les trois transcriptions voulues.
