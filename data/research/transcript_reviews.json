@@ -505,6 +505,57 @@
           "source_url": "https://www.youtube.com/watch?v=PkWvig5XIJ0&t=589s"
         }
       ]
+    },
+    {
+      "video_id": "egezrffjqPk",
+      "model": "GONG Curve H V3 — identification à confirmer",
+      "language_returned": "en",
+      "transcript_sha256": "a6c3ce9357ca172cd76dcc5d4221f4ebdb01d1286785b202932fe82e1bbf6e95",
+      "review_method": "Lecture de tous les segments anglais du cache; noms techniques ASR déformés, sans écoute ou validation humaine.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier constructeur pour nomenclature XXS/XS/L, surfaces et génération avant ajout moteur. Ni 12 nœuds ni 70 cm de longueur totale ne sont des paramètres universels de décollage ou de stabilité.",
+      "claims": [
+        {
+          "start_s": 136.1,
+          "end_s": 142.8,
+          "dimension": "reviewer_context",
+          "statement_fr": "Une intervenante indique n’avoir essayé le matériel qu’une fois et se décrit débutante; l’autre intervenant a réalisé plusieurs essais.",
+          "limits": "Ne pas traiter les deux voix comme deux essais indépendants ou une validation sur un panel de débutants.",
+          "source_url": "https://www.youtube.com/watch?v=egezrffjqPk&t=136s"
+        },
+        {
+          "start_s": 163.6,
+          "end_s": 225.6,
+          "dimension": "carving,stability",
+          "statement_fr": "L’intervenant présente la Curve H comme stable et adaptée aux trajectoires de surf fluides plutôt qu’aux courbes très agressives. Il cite les tailles XXS, XS et L.",
+          "limits": "Noms et surfaces partiellement déformés par la transcription; ne pas convertir les mentions 600/700 en fiches exactes sans constructeur.",
+          "source_url": "https://www.youtube.com/watch?v=egezrffjqPk&t=163s"
+        },
+        {
+          "start_s": 235.9,
+          "end_s": 251,
+          "dimension": "low_end",
+          "statement_fr": "L’intervenant rapporte avoir utilisé la L autour de 12 nœuds et indique qu’une débutante a réussi un départ lors d’un essai.",
+          "limits": "Poids, planche et puissance de wing non précisés; 12 nœuds ne devient pas une plage basse garantie ni un seuil de recommandation.",
+          "source_url": "https://www.youtube.com/watch?v=egezrffjqPk&t=235s"
+        },
+        {
+          "start_s": 279.5,
+          "end_s": 325.3,
+          "dimension": "setup",
+          "statement_fr": "Les intervenants conseillent de vérifier l’association aile avant/stabilisateur dans le guide de montage GONG, en évoquant un appariement de famille comme recommandation habituelle.",
+          "limits": "Attribution aux intervenants; ne vaut pas vérification de compatibilité officielle ni interdiction de tout mélange.",
+          "source_url": "https://www.youtube.com/watch?v=egezrffjqPk&t=279s"
+        },
+        {
+          "start_s": 389,
+          "end_s": 435,
+          "dimension": "setup,measurement",
+          "statement_fr": "L’intervenant annonce environ 70 cm entre la pointe avant et l’extrémité du stabilisateur sur son montage XS avec stabilisateur M.",
+          "limits": "Mesure personnelle de longueur totale et non longueur du fuselage; dépend du montage. Aucun effet de stabilité quantifié.",
+          "source_url": "https://www.youtube.com/watch?v=egezrffjqPk&t=389s"
+        }
+      ]
     }
   ]
 }
