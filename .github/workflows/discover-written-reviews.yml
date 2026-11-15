@@ -10,7 +10,7 @@ on:
       - 'video-analysis/test_discover_written.py'
       - '.github/workflows/discover-written-reviews.yml'
 permissions:
-  contents: read
+  contents: write
 jobs:
   written-review-discovery:
     runs-on: ubuntu-latest
@@ -48,6 +48,36 @@ jobs:
           with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as fh:
               fh.write('\n'.join(lines)+'\n')
           PY
+      - name: Publish verified metadata leads for the FOIL LAB website
+        if: github.ref == 'refs/heads/main'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          source=Path('video-index/written-review-leads.json')
+          if not source.is_file():
+              raise SystemExit('The discovery file was not generated')
+          data=json.loads(source.read_text(encoding='utf-8'))
+          if not data['article_leads']:
+              print('No leads; preserving the last nonempty public index')
+              raise SystemExit(0)
+          dest=Path('data/research/written_review_leads_latest.json')
+          dest.parent.mkdir(parents=True,exist_ok=True)
+          dest.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+          print('Metadata-only public index prepared:',data['article_leads'])
+          PY
+          if [ ! -f data/research/written_review_leads_latest.json ]; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/research/written_review_leads_latest.json
+          if git diff --cached --quiet; then
+            echo "No website index changes"
+          else
+            git commit -m "data: publish latest wingfoil written review leads [skip ci]"
+            git push
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: foil-lab-written-review-leads
