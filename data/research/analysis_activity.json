@@ -26,11 +26,11 @@
     },
     {
       "video_id": "ZWb49kOlXpo",
-      "status": "in_progress",
-      "step": "Qualification et lecture du test Ozone Pocket Rocket V2",
+      "status": "completed",
+      "step": "Quatre observations parawing; exclusion explicite du classement foils/boards",
       "started_at_utc": "2026-11-15T19:02:19.113843+00:00",
-      "updated_at_utc": "2026-11-15T19:02:19.113843+00:00",
-      "expires_at_utc": "2026-11-15T19:22:19.113843+00:00"
+      "updated_at_utc": "2026-11-15T19:02:58.551551+00:00",
+      "expires_at_utc": "2026-11-15T19:22:58.551551+00:00"
     }
   ]
 }

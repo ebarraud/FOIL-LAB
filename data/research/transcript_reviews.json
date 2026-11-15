@@ -261,6 +261,50 @@
           "source_url": "https://www.youtube.com/watch?v=aZFCW3ms_oU&t=494s"
         }
       ]
+    },
+    {
+      "video_id": "ZWb49kOlXpo",
+      "model": "Ozone Pocket Rocket V2 3.6",
+      "language_returned": "en-US",
+      "transcript_sha256": "8d9afe164e18d5d0190d1a3dd5aa4660b7716ddbdfbe484f574af56c8cf6b51e",
+      "review_method": "Lecture complète de la transcription anglaise retournée, sans contrôle audio; traduction probable du test Gleiten.TV.",
+      "scope": "parawing_only_not_board_or_front_foil",
+      "integration": "deferred",
+      "integration_reason": "Hors périmètre du moteur actuel de foils et boards : les commentaires de pumping, stabilité et décollage portent sur la parawing 3.6, pas sur une aile avant ni une planche. Aucun effet transféré au classement du matériel sous les pieds.",
+      "claims": [
+        {
+          "start_s": 236.2,
+          "end_s": 290.5,
+          "dimension": "parawing,takeoff",
+          "statement_fr": "Sur la Pocket Rocket V2 3.6, le testeur apprécie la répartition de traction au pumping et la plage de positionnement des mains, sous réserve de placer la main avant dans la zone indiquée.",
+          "limits": "Performance de la parawing; foil, planche, rider et vent non isolés. Aucune plage basse du foil déduite.",
+          "source_url": "https://www.youtube.com/watch?v=ZWb49kOlXpo&t=236s"
+        },
+        {
+          "start_s": 298.9,
+          "end_s": 329.5,
+          "dimension": "parawing,handling",
+          "statement_fr": "Les suspentes plus courtes et leur revêtement facilitent selon le testeur la récupération et rendent leur prise plus confortable.",
+          "limits": "Comparaison subjective à la V1, sans mesure de durée ou de risque.",
+          "source_url": "https://www.youtube.com/watch?v=ZWb49kOlXpo&t=298s"
+        },
+        {
+          "start_s": 348.3,
+          "end_s": 421,
+          "dimension": "parawing,control",
+          "statement_fr": "Le testeur rapporte une conduite stable et des manœuvres plus précises que sur la V1, y compris avec peu de tension dans les lignes.",
+          "limits": "Stabilité du dispositif aérien et non stabilité en tangage du foil; aucune métrique indépendante.",
+          "source_url": "https://www.youtube.com/watch?v=ZWb49kOlXpo&t=348s"
+        },
+        {
+          "start_s": 431.7,
+          "end_s": 447.4,
+          "dimension": "parawing,limits",
+          "statement_fr": "Le testeur apprécie la prise du bridge mais s’interroge sur un débord minimal de la barre, compte tenu du placement très avancé de la main.",
+          "limits": "Suggestion ergonomique, pas un défaut de sécurité démontré; formulation traduite à confirmer.",
+          "source_url": "https://www.youtube.com/watch?v=ZWb49kOlXpo&t=431s"
+        }
+      ]
     }
   ]
 }

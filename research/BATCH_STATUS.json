@@ -2,11 +2,11 @@
   "schema_version": 1,
   "inventory_count": 103,
   "processed": 103,
-  "transcripts_obtained": 32,
+  "transcripts_obtained": 35,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
-  "retry_status": "provider_access_or_rate_limit",
+  "updated_at_utc": "2026-11-15T19:03:00.713532+00:00",
+  "retry_status": "in_progress",
   "retry_history": {
     "attempts": [
       {
@@ -169,9 +169,30 @@
         "status": "http_error",
         "http_status": 429,
         "retry_after": "3426"
+      },
+      {
+        "video_id": "3B4fq8l_8HQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T19:02:48.296360+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "96bNahQGX54",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T19:02:54.625310+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "MnZAlmqfiOo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T19:03:00.713532+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
       }
     ],
-    "stopped_reason": "provider_access_or_rate_limit"
+    "stopped_reason": null
   },
   "results": [
     {
@@ -497,39 +518,32 @@
     {
       "video_id": "3B4fq8l_8HQ",
       "title": "Foil Drive Fusion TEST und Armstrong Interated Carbon Mast. the Ride",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
-      "last_retry": {
-        "video_id": "3B4fq8l_8HQ",
-        "requested_language": "auto",
-        "at_utc": "2026-11-15T18:02:54.219407+00:00",
-        "status": "http_error",
-        "http_status": 429,
-        "retry_after": "3426"
-      },
-      "requested_language": null
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 260,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto"
     },
     {
       "video_id": "96bNahQGX54",
       "title": "Foil Drive Fusion TEST und Armstrong Integrated Carbon Mast. Die Technik im Detail",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 1995,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "MnZAlmqfiOo",
       "title": "Foil Solution EFS Roll Leash Test 2026",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 120,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "rVRUSW09BD4",
@@ -1211,6 +1225,5 @@
       "last_retry": null,
       "requested_language": null
     }
-  ],
-  "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00"
+  ]
 }
