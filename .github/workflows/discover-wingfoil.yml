@@ -15,7 +15,7 @@ on:
       - 'video-analysis/test_enrich_metadata.py'
       - '.github/workflows/discover-wingfoil.yml'
 permissions:
-  contents: read
+  contents: write
 jobs:
   discovery:
     runs-on: ubuntu-latest
@@ -126,6 +126,17 @@ jobs:
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as out:
               out.write('\n'.join(lines) + '\n')
           PY
+      - name: Publish newly discovered videos in dashboard
+        run: |
+          python video-analysis/dashboard.py
+          git config user.name "FOIL LAB discovery"
+          git config user.email "ebarraud@users.noreply.github.com"
+          git add data/research/progress.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update video dashboard with new discovery leads [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: wingfoil-24-month-discovery

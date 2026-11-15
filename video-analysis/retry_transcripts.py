@@ -1,7 +1,8 @@
 """Resume failed acquisition slowly; stop on provider throttling or outage."""
 import json
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+from dashboard import build
 from pathlib import Path
 from urllib.error import HTTPError
 from free_transcript_pilot import default_fetch, summarize, write_cache, parse, transcript_digest
@@ -17,6 +18,10 @@ def main():
     data = json.loads(source.read_text(encoding='utf-8'))
     history_path = Path('video-index/retry-history.json')
     history = json.loads(history_path.read_text(encoding='utf-8')) if history_path.exists() else {'attempts':[]}
+    current=load_status=json.loads(Path('research/BATCH_STATUS.json').read_text(encoding='utf-8'))
+    due=current.get('retry_not_before_utc')
+    if due and datetime.now(timezone.utc)<datetime.fromisoformat(due):
+        print('Provider cooldown still active'); return
     # Only explicit language evidence from the original pilot, no title guessing.
     languages = {'aiWA2W7hKos':'de', 'zesN5IeyRQM':'de', 'DMlWjjIcwss':'fr'}
     pending = [r for r in data['results'] if r['video_id'] in languages and r.get('language') != languages[r['video_id']]]
@@ -50,8 +55,11 @@ def main():
         public['updated_at_utc'] = attempt['at_utc']
         public['retry_status'] = stopped or 'in_progress'
         public['retry_history'] = history
+        if attempt.get('retry_after') and str(attempt['retry_after']).isdigit():
+            public['retry_not_before_utc']=(datetime.fromisoformat(attempt['at_utc'])+timedelta(seconds=int(attempt['retry_after']))).isoformat()
         public['results'] = [{k:r.get(k) for k in ('video_id','title','status','language','segment_count','failure_type','last_retry','requested_language')} for r in data['results']]
         save(Path('research/BATCH_STATUS.json'),public)
+        build()
         print(json.dumps(attempt),flush=True)
         if stopped: break
         time.sleep(5)

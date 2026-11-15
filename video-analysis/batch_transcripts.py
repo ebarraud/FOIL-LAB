@@ -6,6 +6,7 @@ import time
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 from free_transcript_pilot import default_fetch, summarize, write_cache, read_local
+from dashboard import build
 
 def queue(data):
     found = {}
@@ -44,6 +45,7 @@ def main():
         temporary = args.output.with_suffix('.tmp')
         temporary.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         temporary.replace(args.output)
+        build()
         print(json.dumps({k:v for k,v in report.items() if k!='results'}), flush=True)
         time.sleep(1)
 
