@@ -31,6 +31,14 @@
       "started_at_utc": "2026-11-15T19:02:19.113843+00:00",
       "updated_at_utc": "2026-11-15T19:02:58.551551+00:00",
       "expires_at_utc": "2026-11-15T19:22:58.551551+00:00"
+    },
+    {
+      "video_id": "oj8HfuYygDw",
+      "status": "in_progress",
+      "step": "Lecture du test Naish Chimera 2026 68 L et vérification de la portée par taille",
+      "started_at_utc": "2026-11-15T19:17:54.546480+00:00",
+      "updated_at_utc": "2026-11-15T19:17:54.546480+00:00",
+      "expires_at_utc": "2026-11-15T19:37:54.546480+00:00"
     }
   ]
 }
