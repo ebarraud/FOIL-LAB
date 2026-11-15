@@ -25,3 +25,9 @@
 - Confiance des notes propre à la variante (ne plus la déduire automatiquement d’un seul essai).
 - Travail préparé sur branche dédiée, en attente de revue avant fusion sur `main`.
 - Les règles de présélection par profil demeurent embarquées et doivent être progressivement alignées sur les variantes JSON.
+
+## 2026-11-15 — Première règle de recommandation issue des transcriptions
+- Silk V2 : si la sélection initiale aboutit à 650 et que la priorité est la facilité ou que le niveau est inférieur à 3, retenir au minimum 750. Précaution éditoriale issue de la comparaison 23:18–23:46; aucun seuil mesuré ni score créé.
+- Ajouter dans les recommandations les limites de montage et la distinction surf foil / plage basse wing pour la 950.
+- Vérification du moteur sur profils facilité et performance par test_recommendations.js, plus 68 tests Python.
+- Duotone Glide 3.0 et KT Halo restent hors classement tant que leurs fiches catalogue ne sont pas suffisamment complètes.

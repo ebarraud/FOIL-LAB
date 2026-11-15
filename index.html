@@ -173,6 +173,25 @@ function foilTarget(x){
  a*=x.pr==='easy'?1.08:x.pr==='perf'?.91:1;
  return clamp(a,550,2300);
 }
+function transcriptSuitability(f,size,x){
+ const rule={minimumSize:null,reason:'',caution:'',url:''};
+ if(f.b!=='AFS'||f.n!=='Silk V2')return rule;
+ rule.url='https://www.youtube.com/watch?v=DMlWjjIcwss&t=1398s';
+ if(size===650&&(x.pr==='easy'||x.l<3)){
+  rule.minimumSize=750;
+  rule.reason='La 650 est écartée ici au profit de la 750 : le testeur décrit la 750 comme plus confortable et accessible, et réserve son conseil sur la 650 à une pratique techniquement maîtrisée. Ce filtre est une précaution éditoriale, pas un seuil de niveau mesuré.';
+ }else if(size===650){
+  rule.reason='La 650 reste une option de carving pour un profil expérimenté recherchant la performance. Son intérêt rapporté en freefly ne constitue pas une garantie de décollage en vent faible.';
+ }
+ if(size===950){
+  rule.caution='Les gains de tolérance rapportés avec la 950/U-Surf135 concernent le surf foil : ils ne valident pas sa plage basse en wing. Le montage du stabilisateur doit être vérifié.';
+  rule.url='https://www.youtube.com/watch?v=DMlWjjIcwss&t=718s';
+ }
+ if(size===750){
+  rule.caution='La 750 est décrite comme confortable mais moins vive dans les courbes engagées que la 650; le ressenti provient notamment d’un testeur d’environ 62 kg, sans seuil de vent mesuré.';
+ }
+ return rule;
+}
 function foilOptions(x){
  let base=foilTarget(x),options=[];
  for(const f of FOILS){
@@ -185,6 +204,9 @@ function foilOptions(x){
   // Prevent false equivalence: each family has its own size response, a broad surface formula is only a prior.
   if(f.b==='KT'&&f.n==='Nomad')target*=.87;
   let size=f.sizes.reduce((best,v)=>Math.abs(Math.log(v/target))<Math.abs(Math.log(best/target))?v:best,f.sizes[0]);
+  // Transcript-informed suitability constraints; no invented performance score.
+  const evidence=transcriptSuitability(f,size,x);
+  if(evidence.minimumSize)size=f.sizes.find(v=>v>=evidence.minimumSize)??size;
   let gap=Math.abs(Math.log(size/target));
   if(gap>.38)continue;
   let program=f.tags.includes(x.p)?0:(x.p==='all'&&f.tags.includes('all')?0:1);
@@ -194,7 +216,7 @@ function foilOptions(x){
   if(x.b==='other')mismatch+=3;
   if(x.replace==='wing'&&x.b==='all')mismatch+=8;
   if(x.budget==='low'&&['Crest D/LAB','UHA','Silk V2'].includes(f.n))mismatch+=3;
-  options.push({f,size,loss:mismatch,why:`${f.quote} Taille ${size} cm² retenue pour ton profil (cible de famille ≈ ${Math.round(target/25)*25} cm²).`,caveat:f.risk});
+  options.push({f,size,loss:mismatch,evidence,why:`${f.quote} Taille ${size} cm² retenue pour ton profil (cible de famille ≈ ${Math.round(target/25)*25} cm²).`,caveat:f.risk+(evidence.caution?' '+evidence.caution:'')});
  }
  return options.sort((a,b)=>a.loss-b.loss).slice(0,3);
 }
@@ -226,6 +248,7 @@ function foilMarkup(o,i,x){
  <div class="stat">${v?.year||'Millésime à confirmer'} · Envergure : <b>${span?fmt(span)+' cm':'non vérifiée'}</b> · AR : <b>${ar}</b></div>
  <p class="why"><b>Argument technique :</b> ${o.why}</p>
  <p class="downside"><b>Contre-indication / compromis :</b> ${o.caveat}</p>
+ ${o.evidence?.reason?`<div class="tip"><b>Choix ajusté par les essais :</b> ${o.evidence.reason} <a href="${o.evidence.url}" target="_blank" rel="noopener">Vérifier le passage</a></div>`:''}
  <div class="mini"><b>Compatibilité — ${cp.status} :</b> ${cp.detail}</div>
  <div class="mini"><b>Interface :</b> ${v?.system||'Interface exacte non documentée pour ce modèle : référence à vérifier.'}</div>
  <div class="small"><b>Essais / réglages :</b> ${v?.note||'Aucune mesure comparative indépendante homogène disponible : essai réel recommandé.'}</div>
