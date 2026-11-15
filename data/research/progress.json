@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T18:26:58.216611+00:00",
+  "updated_at_utc": "2026-11-15T18:31:55.217111+00:00",
   "collection_updated_at_utc": "2026-11-15T18:02:54.219407+00:00",
   "retry_not_before_utc": "2026-11-15T19:00:00.219407+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -252,13 +252,20 @@
       "collection": "timed_transcript_received",
       "segments": 271,
       "keyword_candidates": 59,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 8,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
-      "activity": null
+      "integration_reason": "Les tailles 800/1000 et leurs compromis sont documentés. Modèle absent du moteur; fiche constructeur et interfaces à vérifier avant ajout. Aucun coefficient de portance ni seuil de poids inventé.",
+      "activity": {
+        "video_id": "FJsdHDBPLJY",
+        "status": "completed",
+        "step": "Lecture complète terminée : huit observations sourcées, limites de montage et traduction documentées",
+        "started_at_utc": "2026-11-15T18:31:18.334069+00:00",
+        "updated_at_utc": "2026-11-15T18:31:55.167226+00:00",
+        "expires_at_utc": "2026-11-15T18:51:55.167226+00:00"
+      }
     },
     {
       "video_id": "eRK72ouHjeM",

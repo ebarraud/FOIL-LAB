@@ -13,11 +13,155 @@
       "integration_reason": "Modèle absent du catalogue moteur; compléter génération, tailles et interfaces avant classement. Traduction fortement déformée : aucune règle automatique de poids ou de stabilisateur déduite.",
       "setup": "SF930, mât UHM 85 cm déclaré, stabilisateur Glide 122 comparé à Surf 185/215. Longueur du fuselage rendue 65mm dans la traduction : non normalisée comme fait vérifié.",
       "claims": [
-        {"start_s":225,"end_s":278.69,"dimension":"takeoff,setup","statement_fr":"Le testeur rapporte un décollage dépendant du stabilisateur : à 90 kg dans le vent léger, le petit stabilisateur demande du pumping; un stabilisateur Surf plus grand facilite la mise en vol.","limits":"90 kg est un cas décrit, pas une plage de poids validée. Vent et vitesse non mesurés; taille Surf exacte non isolée à cet endroit."},
-        {"start_s":300.53,"end_s":340.7,"dimension":"control,setup","statement_fr":"Avec le petit stabilisateur, le testeur décrit un ensemble stable mais demandant un guidage actif en tangage. Il oriente la recherche de stabilité vers les stabilisateurs recommandés plus grands.","limits":"Traduction déformée et appréciation subjective; stabilité non quantifiée et configuration exacte à confirmer."},
-        {"start_s":446.4,"end_s":470.49,"dimension":"glide,pumping","statement_fr":"Le testeur apprécie la glisse et la relance au pumping avec le petit stabilisateur.","limits":"Aucune distance, dépense énergétique ou comparaison appariée; ne pas attribuer le résultat à la seule aile avant."},
-        {"start_s":479.86,"end_s":517.48,"dimension":"freestyle,limits","statement_fr":"Les sauts ordinaires restent possibles selon le testeur, mais il préfère la série MR pour cet usage et relève un léger délai de reprise lorsque la réception est imparfaite.","limits":"Taille MR non précisée; aucun classement chiffré ni généralisation à toutes les réceptions."},
-        {"start_s":530.89,"end_s":586.49,"dimension":"surf,control,setup","statement_fr":"Dans les vagues, le Glide 122 favorise selon le testeur une conduite agile et sportive, avec plus de contrôle en tangage à fournir qu'avec les Surf 185/215.","limits":"Observation sur le montage complet du SF930; ne prouve ni compatibilité intergénération ni niveau minimum universel."}
+        {
+          "start_s": 225,
+          "end_s": 278.69,
+          "dimension": "takeoff,setup",
+          "statement_fr": "Le testeur rapporte un décollage dépendant du stabilisateur : à 90 kg dans le vent léger, le petit stabilisateur demande du pumping; un stabilisateur Surf plus grand facilite la mise en vol.",
+          "limits": "90 kg est un cas décrit, pas une plage de poids validée. Vent et vitesse non mesurés; taille Surf exacte non isolée à cet endroit."
+        },
+        {
+          "start_s": 300.53,
+          "end_s": 340.7,
+          "dimension": "control,setup",
+          "statement_fr": "Avec le petit stabilisateur, le testeur décrit un ensemble stable mais demandant un guidage actif en tangage. Il oriente la recherche de stabilité vers les stabilisateurs recommandés plus grands.",
+          "limits": "Traduction déformée et appréciation subjective; stabilité non quantifiée et configuration exacte à confirmer."
+        },
+        {
+          "start_s": 446.4,
+          "end_s": 470.49,
+          "dimension": "glide,pumping",
+          "statement_fr": "Le testeur apprécie la glisse et la relance au pumping avec le petit stabilisateur.",
+          "limits": "Aucune distance, dépense énergétique ou comparaison appariée; ne pas attribuer le résultat à la seule aile avant."
+        },
+        {
+          "start_s": 479.86,
+          "end_s": 517.48,
+          "dimension": "freestyle,limits",
+          "statement_fr": "Les sauts ordinaires restent possibles selon le testeur, mais il préfère la série MR pour cet usage et relève un léger délai de reprise lorsque la réception est imparfaite.",
+          "limits": "Taille MR non précisée; aucun classement chiffré ni généralisation à toutes les réceptions."
+        },
+        {
+          "start_s": 530.89,
+          "end_s": 586.49,
+          "dimension": "surf,control,setup",
+          "statement_fr": "Dans les vagues, le Glide 122 favorise selon le testeur une conduite agile et sportive, avec plus de contrôle en tangage à fournir qu'avec les Surf 185/215.",
+          "limits": "Observation sur le montage complet du SF930; ne prouve ni compatibilité intergénération ni niveau minimum universel."
+        }
+      ]
+    },
+    {
+      "video_id": "FJsdHDBPLJY",
+      "model": "GA MOVE",
+      "language_returned": "en",
+      "language_note": "Traduction anglaise retournée pour une vidéo Hadou en français; version française et audio à confirmer.",
+      "transcript_sha256": "991eb6acfb9b63002bcf0e9cef6053109188f7da072d63a2e9c84fba478ed6bc",
+      "review_method": "Lecture de tous les segments retournés; interprétation par assistant, sans écoute ni validation humaine.",
+      "integration": "deferred",
+      "integration_reason": "Les tailles 800/1000 et leurs compromis sont documentés. Modèle absent du moteur; fiche constructeur et interfaces à vérifier avant ajout. Aucun coefficient de portance ni seuil de poids inventé.",
+      "setup": "Mât UHM 85, stabilisateur 160, fuselages 60 et 66 cm annoncés; 72 évoqué mais non décrit comme essayé. Rider annonce 62 kg.",
+      "claims": [
+        {
+          "id": "ga-move-1",
+          "sizes_cm2": [
+            800,
+            1000
+          ],
+          "start_s": 414.72,
+          "end_s": 449.8,
+          "dimension": "takeoff,control",
+          "statement_fr": "Avec le stabilisateur 160 et le fuselage court, le testeur décrit un tangage stable et un décollage progressif sur les 800 et 1000.",
+          "limits": "Ressenti d’un pratiquant avancé; ne prouve pas une facilité identique pour débutants.",
+          "source_url": "https://www.youtube.com/watch?v=FJsdHDBPLJY&t=414s"
+        },
+        {
+          "id": "ga-move-2",
+          "sizes_cm2": [
+            800,
+            1000
+          ],
+          "start_s": 458.94,
+          "end_s": 489.7,
+          "dimension": "size_selection",
+          "statement_fr": "Le testeur oppose la 1000 plus porteuse et plus précoce à la 800 plus rapide en wing pour son petit gabarit.",
+          "limits": "Comparaison subjective, testeur annonçant 62 kg plus loin; aucun seuil de poids ou vent universel.",
+          "source_url": "https://www.youtube.com/watch?v=FJsdHDBPLJY&t=458s"
+        },
+        {
+          "id": "ga-move-3",
+          "sizes_cm2": [
+            800,
+            1000
+          ],
+          "start_s": 493.52,
+          "end_s": 539.78,
+          "dimension": "low_speed,accessibility",
+          "statement_fr": "Le stabilisateur 160 permet selon le testeur de relancer à basse vitesse, déjà avec la 800; il envisage le prêt à un intermédiaire si la taille est adaptée.",
+          "limits": "Les suggestions de fuselage ou stabilisateur plus grands pour faciliter sont des conseils, pas un protocole débutant.",
+          "source_url": "https://www.youtube.com/watch?v=FJsdHDBPLJY&t=493s"
+        },
+        {
+          "id": "ga-move-4",
+          "sizes_cm2": [
+            1000
+          ],
+          "start_s": 552.3,
+          "end_s": 574.22,
+          "dimension": "parawing,pumping",
+          "statement_fr": "Avec la 1000, le testeur de 62 kg rapporte avoir conservé le vol en parawing dans un vent très irrégulier pendant les manœuvres.",
+          "limits": "Il suppose que la 800 aurait été plus difficile; ce n’est pas une comparaison simultanée ni une mesure de plage basse.",
+          "source_url": "https://www.youtube.com/watch?v=FJsdHDBPLJY&t=552s"
+        },
+        {
+          "id": "ga-move-5",
+          "sizes_cm2": [
+            800
+          ],
+          "start_s": 630.4,
+          "end_s": 679.3,
+          "dimension": "freestyle,carving",
+          "statement_fr": "La 800 est décrite comme légère en saut et prévisible dans les transitions de rail. La 1000 lui paraît grande pour sa pratique des sauts.",
+          "limits": "Les tailles inférieures à 800 sont souhaitées mais non essayées; ne pas transformer cette attente en preuve.",
+          "source_url": "https://www.youtube.com/watch?v=FJsdHDBPLJY&t=630s"
+        },
+        {
+          "id": "ga-move-6",
+          "sizes_cm2": [
+            800,
+            1000
+          ],
+          "start_s": 729.68,
+          "end_s": 778.16,
+          "dimension": "setup",
+          "statement_fr": "Le testeur privilégie le fuselage court pour son usage maniabilité et relance; il suggère le long pour les longs bords et les débuts en parawing.",
+          "limits": "Le fuselage long a peu été utilisé; conseil de montage contextualisé, non supériorité universelle.",
+          "source_url": "https://www.youtube.com/watch?v=FJsdHDBPLJY&t=729s"
+        },
+        {
+          "id": "ga-move-7",
+          "sizes_cm2": [
+            1000
+          ],
+          "start_s": 843.96,
+          "end_s": 897.36,
+          "dimension": "dockstart,setup",
+          "statement_fr": "Pour le dockstart avec la 1000/160 et fuselage court, le testeur rapporte un réglage personnel avec cale de rake de moins un degré afin de réduire son effort ressenti.",
+          "limits": "Départ dockstart distinct du wing; montage personnel et angle non vérifiés à l’image.",
+          "source_url": "https://www.youtube.com/watch?v=FJsdHDBPLJY&t=843s"
+        },
+        {
+          "id": "ga-move-8",
+          "sizes_cm2": [
+            800,
+            1000
+          ],
+          "start_s": 966.98,
+          "end_s": 989.22,
+          "dimension": "setup,limits",
+          "statement_fr": "Le testeur distingue les réglages basse vitesse du wing et avertit qu’un calage négatif excessif peut faire piquer le foil en accélérant.",
+          "limits": "Aucun angle universel recommandé; ne pas appliquer automatiquement les réglages de pumping au wing.",
+          "source_url": "https://www.youtube.com/watch?v=FJsdHDBPLJY&t=966s"
+        }
       ]
     }
   ]
