@@ -11,8 +11,13 @@ spec.loader.exec_module(discovery)
 
 class DiscoveryTests(unittest.TestCase):
     def test_date_window(self):
-        self.assertEqual(discovery.parse_date("14.11.2024"), discovery.START)
-        self.assertEqual(discovery.parse_date("14.11.2026"), discovery.END)
+        from datetime import date
+        today = date.today()
+        self.assertEqual(discovery.END, today)
+        self.assertEqual(discovery.START.year, today.year - 2)
+        self.assertEqual(discovery.START.month, today.month)
+        self.assertEqual(discovery.parse_date("14.11.2024"), date(2024, 11, 14))
+        self.assertEqual(discovery.parse_date("14.11.2026"), date(2026, 11, 14))
         self.assertIsNone(discovery.parse_date("no date"))
 
     def test_video_ids_and_index_rejection(self):
