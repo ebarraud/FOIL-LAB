@@ -18,7 +18,7 @@
 <p class="subtitle">Tests complets de boards et de foils : observations attribuées aux auteurs, tailles testées et limites explicites. Cette section ne modifie pas les notes du configurateur.</p>
 <div id="writtenCards"><p class="muted">Chargement des essais…</p></div>
 </section>
-<p class="subtitle">Les propos sont reformulés brièvement et accompagnés du lien vers leur source primaire. Les comparaisons d'usages différents (surf foil, wingfoil) ne sont pas assimilées.</p>
+<section class="panel" aria-label="Veille éditoriale automatique"><h2>Veille hebdomadaire des nouveaux essais</h2><p class="subtitle">Articles repérés par RSS, non encore évalués techniquement. Leur présence dans cette liste ne signifie pas que leur contenu a été analysé.</p><p class="muted" id="discoveryDate">Chargement…</p><div id="newReviewLeads"></div></section><p class="subtitle">Les propos sont reformulés brièvement et accompagnés du lien vers leur source primaire. Les comparaisons d'usages différents (surf foil, wingfoil) ne sont pas assimilées.</p>
 <p><a href="review.html">Importer une transcription réelle</a> · <a href="../index.html">Retour au configurateur</a></p></main>
 <script>
 'use strict';
@@ -86,4 +86,18 @@ fetch('../data/research/written_test_evidence_2026.json',{cache:'no-store'})
    root.append(card);
   }
  }).catch(err=>{$('writtenCards').replaceChildren(el('p','Impossible de charger les essais écrits : '+err.message,'empty'))});
+
+fetch('../data/research/written_review_leads_latest.json',{cache:'no-store'})
+ .then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()})
+ .then(d=>{
+  $('discoveryDate').textContent=d.article_leads+' articles candidats repérés · dernier inventaire '+(d.generated_at||'date inconnue').slice(0,10);
+  const root=$('newReviewLeads');root.replaceChildren();
+  for(const a of d.articles){
+   const item=el('div');item.className='claim';
+   const line=el('p');line.append(link(a.url,a.title));item.append(line);
+   item.append(el('p',(a.category==='foil'?'Foil':'Board')+' · '+(a.published_on||'date à confirmer')+' · article candidat non analysé','subtitle'));
+   root.append(item);
+  }
+ })
+ .catch(()=>{$('discoveryDate').textContent='Inventaire automatisé indisponible pour le moment.'});
 </script></body></html>
