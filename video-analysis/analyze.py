@@ -64,6 +64,48 @@ def parse_cues(content: str) -> list[dict]:
         cues.append({"start_s": start, "end_s": end, "text": text})
     return cues
 
+
+YOUTUBE_TIME = re.compile(r"^(?:(\d{1,2}):)?([0-5]?\d):([0-5]\d)(?:\s+(.+))?$")
+
+def parse_youtube_transcript(content: str) -> list[dict]:
+    """Parse copied YouTube transcript timestamps (0:13 or 00:01:13).
+
+    Timestamp-only and timestamp+spoken-text lines are both accepted.
+    Never invents words or a video duration. For the final excerpt, end is
+    set equal to start rather than assigning a fictitious ending.
+    """
+    lines = content.lstrip("\ufeff").replace("\r\n", "\n").splitlines()
+    cues: list[dict] = []
+    for raw_line in lines:
+        line = raw_line.strip()
+        match = YOUTUBE_TIME.fullmatch(line)
+        if match:
+            hrs = int(match.group(1) or "0")
+            minute = int(match.group(2))
+            sec = int(match.group(3))
+            start = float(hrs * 3600 + minute * 60 + sec)
+            if cues and start <= cues[-1]["start_s"]:
+                continue
+            if cues:
+                cues[-1]["end_s"] = start
+            cues.append({"start_s": start, "end_s": start, "text": (match.group(4) or "").strip()})
+        elif cues and line:
+            if line.startswith("[") and line.endswith("]"):
+                continue
+            cues[-1]["text"] = (cues[-1]["text"] + " " + line).strip()
+    # No timestamps? reject, rather than treating ordinary prose as evidence.
+    return [cue for cue in cues if cue["text"]]
+
+def parse_transcript(content: str) -> tuple[list[dict], str]:
+    """Return (time-aligned cues, source format) without fabricated timestamps."""
+    cues = parse_cues(content)
+    if cues:
+        return cues, "srt_or_webvtt"
+    cues = parse_youtube_transcript(content)
+    if cues:
+        return cues, "youtube_timestamped_copy"
+    raise ValueError("No valid timed subtitle cues or YouTube timestamps found")
+
 def timed_link(url: str, offset: int) -> str:
     parsed = urlparse(url)
     if parsed.hostname in {"youtube.com", "www.youtube.com", "m.youtube.com", "youtu.be"}:
@@ -72,9 +114,7 @@ def timed_link(url: str, offset: int) -> str:
     return url
 
 def extract(video: dict, subtitle: str, language: str, filename: str) -> dict:
-    cues = parse_cues(subtitle)
-    if not cues:
-        raise ValueError("No valid timed subtitle cues found")
+    cues, transcript_format = parse_transcript(subtitle)
     candidates = []
     for cue in cues:
         matched = [name for name, regex in COMPILED.items() if regex.search(cue["text"])]
@@ -105,6 +145,7 @@ def extract(video: dict, subtitle: str, language: str, filename: str) -> dict:
         "subtitle_origin": filename,
         "transcript_sha256": hashlib.sha256(subtitle.encode("utf-8")).hexdigest(),
         "transcript_cues": len(cues),
+        "transcript_format": transcript_format,
         "video_fully_watched": False,
         "status": "transcript_keyword_candidates",
         "size_and_year_verified": False,
@@ -116,7 +157,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--manifest", default="video-analysis/manifest.json")
     parser.add_argument("--id", required=True, help="Existing manifest video ID")
-    parser.add_argument("--subtitles", required=True, type=Path, help="Locally supplied .srt or .vtt")
+    parser.add_argument("--subtitles", required=True, type=Path, help="Locally supplied .srt, .vtt or timestamped .txt")
     parser.add_argument("--language", required=True)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
@@ -124,8 +165,8 @@ def main():
     video = next((v for v in manifest["videos"] if v["id"] == args.id), None)
     if video is None:
         parser.error("Video ID not found in manifest")
-    if args.subtitles.suffix.lower() not in {".vtt", ".srt"}:
-        parser.error("Only .vtt and .srt subtitles are supported")
+    if args.subtitles.suffix.lower() not in {".vtt", ".srt", ".txt"}:
+        parser.error("Only .vtt, .srt and timestamped .txt transcripts are supported")
     subtitle = args.subtitles.read_text(encoding="utf-8-sig")
     result = extract(video, subtitle, args.language, args.subtitles.name)
     args.output.parent.mkdir(parents=True, exist_ok=True)
