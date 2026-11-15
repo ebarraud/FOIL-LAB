@@ -103,6 +103,14 @@
       "started_at_utc": "2026-11-15T20:47:45.075937+00:00",
       "updated_at_utc": "2026-11-15T20:47:48.347823+00:00",
       "expires_at_utc": "2026-11-15T21:07:48.347823+00:00"
+    },
+    {
+      "video_id": "_jPvuDQISaA",
+      "status": "in_progress",
+      "step": "Lecture premier essai HIPE First 95 L : poids de 75 kg explicite et ressenti du kit",
+      "started_at_utc": "2026-11-15T21:03:04.119768+00:00",
+      "updated_at_utc": "2026-11-15T21:03:04.119768+00:00",
+      "expires_at_utc": "2026-11-15T21:23:04.119768+00:00"
     }
   ]
 }

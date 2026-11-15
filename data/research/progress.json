@@ -1,8 +1,8 @@
 {
-  "updated_at_utc": "2026-11-15T20:47:48.397080+00:00",
-  "collection_updated_at_utc": "2026-11-15T20:04:57.975336+00:00",
-  "retry_not_before_utc": "2026-11-15T20:59:59.975336+00:00",
-  "collection_state": "provider_access_or_rate_limit",
+  "updated_at_utc": "2026-11-15T21:03:04.163424+00:00",
+  "collection_updated_at_utc": "2026-11-15T21:03:00.793348+00:00",
+  "retry_not_before_utc": null,
+  "collection_state": "in_progress",
   "analysis_schedule": "Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.",
   "monitored_publishers": [
     {
@@ -641,7 +641,7 @@
       "collection": "timed_transcript_received",
       "segments": 53,
       "keyword_candidates": 0,
-      "analysis": "queued",
+      "analysis": "in_progress",
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
@@ -649,7 +649,15 @@
       "integration_reason": null,
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
-      "activity": null
+      "activity": {
+        "video_id": "_jPvuDQISaA",
+        "status": "in_progress",
+        "step": "Lecture premier essai HIPE First 95 L : poids de 75 kg explicite et ressenti du kit",
+        "started_at_utc": "2026-11-15T21:03:04.119768+00:00",
+        "updated_at_utc": "2026-11-15T21:03:04.119768+00:00",
+        "expires_at_utc": "2026-11-15T21:23:04.119768+00:00"
+      },
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "R-__gkwwY_I",

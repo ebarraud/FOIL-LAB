@@ -5,8 +5,8 @@
   "transcripts_obtained": 69,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-15T20:04:57.975336+00:00",
-  "retry_status": "provider_access_or_rate_limit",
+  "updated_at_utc": "2026-11-15T21:03:00.793348+00:00",
+  "retry_status": "in_progress",
   "retry_history": {
     "attempts": [
       {
@@ -468,11 +468,26 @@
         "status": "http_error",
         "http_status": 429,
         "retry_after": "3302"
+      },
+      {
+        "video_id": "HFd3tbogjio",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T21:02:54.073418+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "Ih5W_610mgo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T21:03:00.793348+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
       }
     ],
-    "stopped_reason": "provider_access_or_rate_limit"
+    "stopped_reason": null
   },
-  "retry_not_before_utc": "2026-11-15T20:59:59.975336+00:00",
   "results": [
     {
       "video_id": "aiWA2W7hKos",
@@ -994,7 +1009,7 @@
       "last_retry": {
         "video_id": "HFd3tbogjio",
         "requested_language": "auto",
-        "at_utc": "2026-11-15T20:02:53.998160+00:00",
+        "at_utc": "2026-11-15T21:02:54.073418+00:00",
         "status": "http_error",
         "http_status": 404,
         "retry_after": null
@@ -1141,7 +1156,7 @@
       "last_retry": {
         "video_id": "Ih5W_610mgo",
         "requested_language": "auto",
-        "at_utc": "2026-11-15T20:04:20.871711+00:00",
+        "at_utc": "2026-11-15T21:03:00.793348+00:00",
         "status": "http_error",
         "http_status": 404,
         "retry_after": null
