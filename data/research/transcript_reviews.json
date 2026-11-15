@@ -163,6 +163,52 @@
           "source_url": "https://www.youtube.com/watch?v=FJsdHDBPLJY&t=966s"
         }
       ]
+    },
+    {
+      "video_id": "o-piLekjAHk",
+      "model": "Duotone Skybrid SLS 2027",
+      "size_l_presented": 100,
+      "tested_size_confirmed": false,
+      "language_returned": "nl",
+      "transcript_sha256": "328ed19dc39791dbbbbd932b86caddf0a2cd6f86a690ea8eb48b7086707b03b5",
+      "review_method": "Lecture intégrale des segments néerlandais retournés, interprétation française par assistant; sans écoute ni contrôle visuel.",
+      "publisher_context": "Présentation commerciale : le locuteur invite à essayer et indique disposer du modèle. Ne pas présenter comme avis indépendant corroboré.",
+      "integration": "deferred",
+      "integration_reason": "Millésime 2027 explicitement annoncé, ne pas confondre avec Skybrid D/LAB 2026. La 100 L est présentée mais la taille de chaque session n’est pas confirmée. Catalogue et dimensions nécessaires avant ajout au moteur.",
+      "claims": [
+        {
+          "start_s": 28.6,
+          "end_s": 58.24,
+          "dimension": "accessibility",
+          "statement_fr": "Le présentateur déconseille cette midlength aux débutants et oppose sa faible largeur à la stabilité à l’arrêt d’une première planche plus large. Il la propose comme étape suivante quand l’équilibre est maîtrisé.",
+          "limits": "Conseil commercial de programme, sans test comparatif débutant ni seuil chiffré de poids. Le volume 135 L cité est un exemple de première planche, pas la taille essayée.",
+          "source_url": "https://www.youtube.com/watch?v=o-piLekjAHk&t=28s"
+        },
+        {
+          "start_s": 68.92,
+          "end_s": 107.56,
+          "dimension": "shape,stability,touchdown",
+          "statement_fr": "Pour la génération 2027, le présentateur annonce un pont un peu plus large et un ressenti plus stable que l’année précédente. Il attribue aux bevels une trajectoire plus droite lors des touchettes.",
+          "limits": "Comparaison déclarée sans mesure ni configuration appariée. Ni gain universel de décollage ni extrapolation à la D/LAB 2026.",
+          "source_url": "https://www.youtube.com/watch?v=o-piLekjAHk&t=68s"
+        },
+        {
+          "start_s": 109.84,
+          "end_s": 125.92,
+          "dimension": "parawing,touchdown",
+          "statement_fr": "Le présentateur rapporte une utilisation en wing et parawing en mer; il apprécie la conservation du mouvement après une touchette pendant le pumping.",
+          "limits": "Taille testée, poids, foil et conditions non précisés; aucune garantie d’absence de chute.",
+          "source_url": "https://www.youtube.com/watch?v=o-piLekjAHk&t=109s"
+        },
+        {
+          "start_s": 129.6,
+          "end_s": 144.24,
+          "dimension": "provenance,size",
+          "statement_fr": "Une version 100 L est explicitement présentée et proposée à l’essai.",
+          "limits": "La taille tenue dans les mains n’identifie pas automatiquement celle utilisée dans toutes les sessions évoquées.",
+          "source_url": "https://www.youtube.com/watch?v=o-piLekjAHk&t=129s"
+        }
+      ]
     }
   ]
 }

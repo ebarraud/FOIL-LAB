@@ -10,11 +10,11 @@
     },
     {
       "video_id": "o-piLekjAHk",
-      "status": "in_progress",
-      "step": "Lecture de la transcription néerlandaise Skybrid SLS 2027",
+      "status": "completed",
+      "step": "Quatre observations documentées; millésime 2027 et biais commercial signalés",
       "started_at_utc": "2026-11-15T18:32:21.954496+00:00",
-      "updated_at_utc": "2026-11-15T18:32:21.954496+00:00",
-      "expires_at_utc": "2026-11-15T18:52:21.954496+00:00"
+      "updated_at_utc": "2026-11-15T18:32:53.535515+00:00",
+      "expires_at_utc": "2026-11-15T18:52:53.535515+00:00"
     }
   ]
 }
