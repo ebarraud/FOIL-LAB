@@ -2,11 +2,11 @@
   "schema_version": 1,
   "inventory_count": 103,
   "processed": 103,
-  "transcripts_obtained": 51,
+  "transcripts_obtained": 52,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-15T19:04:52.347426+00:00",
-  "retry_status": "provider_access_or_rate_limit",
+  "updated_at_utc": "2026-11-15T20:03:00.565208+00:00",
+  "retry_status": "in_progress",
   "retry_history": {
     "attempts": [
       {
@@ -318,11 +318,25 @@
         "status": "http_error",
         "http_status": 429,
         "retry_after": "3308"
+      },
+      {
+        "video_id": "HFd3tbogjio",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:02:53.998160+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "egezrffjqPk",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:00.565208+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
       }
     ],
-    "stopped_reason": "provider_access_or_rate_limit"
+    "stopped_reason": null
   },
-  "retry_not_before_utc": "2026-11-15T20:00:00.347426+00:00",
   "results": [
     {
       "video_id": "aiWA2W7hKos",
@@ -844,7 +858,7 @@
       "last_retry": {
         "video_id": "HFd3tbogjio",
         "requested_language": "auto",
-        "at_utc": "2026-11-15T19:04:45.960202+00:00",
+        "at_utc": "2026-11-15T20:02:53.998160+00:00",
         "status": "http_error",
         "http_status": 404,
         "retry_after": null
@@ -854,19 +868,12 @@
     {
       "video_id": "egezrffjqPk",
       "title": "Gong Curve H - Foil Review [ENG]",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
-      "last_retry": {
-        "video_id": "egezrffjqPk",
-        "requested_language": "auto",
-        "at_utc": "2026-11-15T19:04:52.347426+00:00",
-        "status": "http_error",
-        "http_status": 429,
-        "retry_after": "3308"
-      },
-      "requested_language": null
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 158,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto"
     },
     {
       "video_id": "4znqnlzx0Dg",
