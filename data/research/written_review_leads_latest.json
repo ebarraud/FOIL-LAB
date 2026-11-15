@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-15T12:18:57.059490+00:00",
+  "source_window_months": 24,
+  "article_leads": 8,
+  "technical_assertions_created": 0,
+  "video_transcripts_obtained": 0,
+  "coverage_limit": "Publisher RSS / HTML index; not exhaustive. No automatic technical verdict.",
+  "source_status": [
+    {
+      "source": "Pimpyourride",
+      "access": "rss",
+      "items_on_index": 12,
+      "errors": []
+    },
+    {
+      "source": "Pimpyourride latest",
+      "access": "rss",
+      "items_on_index": 12,
+      "errors": []
+    }
+  ],
+  "articles": [
+    {
+      "title": "AFS SILK V2 FOIL REVIEW – 650 / 750 / 950",
+      "url": "https://www.pimpyourride.fr/afs-silk-v2-foil-review/",
+      "category": "foil",
+      "published_on": "2026-10-14",
+      "date_verified_from": "publisher_rss",
+      "publisher": "Pimpyourride",
+      "status": "article_lead_requires_source_review",
+      "technical_claims": [],
+      "video_transcript_acquired": false
+    },
+    {
+      "title": "ARMSTRONG MIDLENGTH MK II X-FORM BOARD REVIEW",
+      "url": "https://www.pimpyourride.fr/armstrong-midlength-mk-ii-x-form-board-review/",
+      "category": "board",
+      "published_on": "2026-08-01",
+      "date_verified_from": "publisher_rss",
+      "publisher": "Pimpyourride",
+      "status": "article_lead_requires_source_review",
+      "technical_claims": [],
+      "video_transcript_acquired": false
+    },
+    {
+      "title": "INDIANA DOLPHIN FOIL RANGE REVIEW",
+      "url": "https://www.pimpyourride.fr/indiana-dolphin-foil-review/",
+      "category": "foil",
+      "published_on": "2026-04-30",
+      "date_verified_from": "publisher_rss",
+      "publisher": "Pimpyourride",
+      "status": "article_lead_requires_source_review",
+      "technical_claims": [],
+      "video_transcript_acquired": false
+    },
+    {
+      "title": "K-PARTS AROS  FOIL REVIEW (560/680/830/980)",
+      "url": "https://www.pimpyourride.fr/k-parts-aros-foil-review-560-680-830-980/",
+      "category": "foil",
+      "published_on": "2026-11-02",
+      "date_verified_from": "publisher_rss",
+      "publisher": "Pimpyourride",
+      "status": "article_lead_requires_source_review",
+      "technical_claims": [],
+      "video_transcript_acquired": false
+    },
+    {
+      "title": "K-PARTS SKAL FOIL – REVIEW",
+      "url": "https://www.pimpyourride.fr/kparts-skal-foil/",
+      "category": "foil",
+      "published_on": "2026-05-19",
+      "date_verified_from": "publisher_rss",
+      "publisher": "Pimpyourride",
+      "status": "article_lead_requires_source_review",
+      "technical_claims": [],
+      "video_transcript_acquired": false
+    },
+    {
+      "title": "SLINGSHOT PROJECT DRAG BOARD REVIEW",
+      "url": "https://www.pimpyourride.fr/slingshot-project-drag-board/",
+      "category": "board",
+      "published_on": "2026-10-22",
+      "date_verified_from": "publisher_rss",
+      "publisher": "Pimpyourride",
+      "status": "article_lead_requires_source_review",
+      "technical_claims": [],
+      "video_transcript_acquired": false
+    },
+    {
+      "title": "TAKOON SLIDE HOLLOW BOARD REVIEW",
+      "url": "https://www.pimpyourride.fr/takoon-slide-hollow/",
+      "category": "board",
+      "published_on": "2026-10-19",
+      "date_verified_from": "publisher_rss",
+      "publisher": "Pimpyourride",
+      "status": "article_lead_requires_source_review",
+      "technical_claims": [],
+      "video_transcript_acquired": false
+    },
+    {
+      "title": "TEST GAASTRA FOIL MOVE 800 / 1000 REVIEW",
+      "url": "https://www.pimpyourride.fr/test-gaastra-move-foil/",
+      "category": "foil",
+      "published_on": "2026-07-24",
+      "date_verified_from": "publisher_rss",
+      "publisher": "Pimpyourride",
+      "status": "article_lead_requires_source_review",
+      "technical_claims": [],
+      "video_transcript_acquired": false
+    }
+  ]
+}
