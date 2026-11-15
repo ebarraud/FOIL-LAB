@@ -357,6 +357,58 @@
           "source_url": "https://www.youtube.com/watch?v=oj8HfuYygDw&t=395s"
         }
       ]
+    },
+    {
+      "video_id": "F6BXfqM05yo",
+      "model": "Indiana Easy Style 66",
+      "size_l": 66,
+      "language_returned": "en",
+      "transcript_sha256": "f80a082a2167c8a28334a86729ce0fe309eac9e8b964f2111ed0bded9222f3c4",
+      "review_method": "Lecture complète des segments anglais retournés, musique initiale exclue des preuves; traduction probable, sans contrôle audio.",
+      "integration": "deferred",
+      "integration_reason": "Modèle absent du moteur; dimensions et génération à vérifier. Les repères de poids sont contextualisés en freestyle/allround sportif, sans autoriser une règle de première planche 66 L pour 85 kg. Aucune note de durabilité déduite du seul jugement sur la construction.",
+      "claims": [
+        {
+          "start_s": 77.8,
+          "end_s": 157,
+          "dimension": "size_selection,takeoff",
+          "statement_fr": "Le test porte explicitement sur la 66 L. Le testeur la situe pour 60 à 85 kg et décrit un décollage particulièrement précoce vers 60–70 kg, sous réserve du foil choisi.",
+          "limits": "Repères éditoriaux d’usage sportif, pas plage de poids validée pour débutants. Les 42/52 L sont présentées mais non établies comme essayées.",
+          "source_url": "https://www.youtube.com/watch?v=F6BXfqM05yo&t=77s"
+        },
+        {
+          "start_s": 165.6,
+          "end_s": 212.9,
+          "dimension": "control,setup",
+          "statement_fr": "Le testeur apprécie l’équilibre en vol, les possibilités de centrage dans les rails et la position des straps.",
+          "limits": "Foil et réglages exacts non documentés; ne garantit pas le même équilibre avec chaque montage.",
+          "source_url": "https://www.youtube.com/watch?v=F6BXfqM05yo&t=165s"
+        },
+        {
+          "start_s": 222.8,
+          "end_s": 238.9,
+          "dimension": "touchdown,limits",
+          "statement_fr": "En courbe dans la vague, les rails boxy peuvent ralentir la planche lors d’une touchette, sans l’arrêter selon le commentaire.",
+          "limits": "Ressenti sans mesure de vitesse ou répétition standardisée. Pas de garantie contre la chute.",
+          "source_url": "https://www.youtube.com/watch?v=F6BXfqM05yo&t=222s"
+        },
+        {
+          "start_s": 306,
+          "end_s": 351.9,
+          "dimension": "carving",
+          "statement_fr": "Le testeur décrit une conduite agile et précise dans les vagues, notamment pour les gabarits 70–85 kg cités.",
+          "limits": "Comparaison subjective et conditions non quantifiées; ne prouve pas une facilité d’équilibre à l’arrêt pour ces gabarits.",
+          "source_url": "https://www.youtube.com/watch?v=F6BXfqM05yo&t=306s"
+        },
+        {
+          "start_s": 418.4,
+          "end_s": 498.3,
+          "dimension": "freestyle,limits",
+          "statement_fr": "Le testeur apprécie le comportement compact en saut et la reprise après une réception propre, mais juge le guidage plus limité lors d’une arrivée de travers.",
+          "limits": "Il envisage un autre dessin de carène pour un freestyle très spécialisé; aucune hauteur ou probabilité de reprise mesurée.",
+          "source_url": "https://www.youtube.com/watch?v=F6BXfqM05yo&t=418s"
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-15T19:32:47.721803+00:00",
+  "updated_at_utc": "2026-11-15T19:32:51.172748+00:00",
   "collection_updated_at_utc": "2026-11-15T19:04:52.347426+00:00",
   "retry_not_before_utc": "2026-11-15T20:00:00.347426+00:00",
   "collection_state": "provider_access_or_rate_limit",
@@ -258,23 +258,22 @@
       "collection": "timed_transcript_received",
       "segments": 147,
       "keyword_candidates": 9,
-      "analysis": "in_progress",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Modèle absent du moteur; dimensions et génération à vérifier. Les repères de poids sont contextualisés en freestyle/allround sportif, sans autoriser une règle de première planche 66 L pour 85 kg. Aucune note de durabilité déduite du seul jugement sur la construction.",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
         "video_id": "F6BXfqM05yo",
-        "status": "in_progress",
-        "step": "Lecture intégrale Indiana Easy Style 66; distinction freestyle et apprentissage",
+        "status": "completed",
+        "step": "Cinq observations publiées; poids et freestyle contextualisés",
         "started_at_utc": "2026-11-15T19:32:47.684040+00:00",
-        "updated_at_utc": "2026-11-15T19:32:47.684040+00:00",
-        "expires_at_utc": "2026-11-15T19:52:47.684040+00:00"
-      },
-      "analysis_before_activity": "queued"
+        "updated_at_utc": "2026-11-15T19:32:51.121405+00:00",
+        "expires_at_utc": "2026-11-15T19:52:51.121405+00:00"
+      }
     },
     {
       "video_id": "pPXyFWHSd-U",
