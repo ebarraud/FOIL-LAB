@@ -2,10 +2,10 @@
   "schema_version": 1,
   "inventory_count": 103,
   "processed": 103,
-  "transcripts_obtained": 52,
+  "transcripts_obtained": 53,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-15T20:03:00.565208+00:00",
+  "updated_at_utc": "2026-11-15T20:03:06.626952+00:00",
   "retry_status": "in_progress",
   "retry_history": {
     "attempts": [
@@ -331,6 +331,13 @@
         "video_id": "egezrffjqPk",
         "requested_language": "auto",
         "at_utc": "2026-11-15T20:03:00.565208+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "4znqnlzx0Dg",
+        "requested_language": "auto",
+        "at_utc": "2026-11-15T20:03:06.626952+00:00",
         "status": "timed_transcript_received",
         "returned_language": "en"
       }
@@ -878,12 +885,12 @@
     {
       "video_id": "4znqnlzx0Dg",
       "title": "Is the new Duotone Crest going to replace Glide, Carve and Whizz? Review",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 44,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "lrW4o4H05tI",

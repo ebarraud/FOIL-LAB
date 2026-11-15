@@ -453,6 +453,58 @@
           "source_url": "https://www.youtube.com/watch?v=Bb0Nr-RXZlk&t=154s"
         }
       ]
+    },
+    {
+      "video_id": "PkWvig5XIJ0",
+      "model": "KT Drifter 5 Pro Carbon 70 L",
+      "size_l": 70,
+      "language_returned": "en-US",
+      "transcript_sha256": "d13513928a9b5aa6546348438bde2b44b5fe1ff3aef3238e590b0a6eb8f7a51b",
+      "review_method": "Lecture complète de tous les segments du cache anglais, traduction probable; pas d’écoute ou mesure.",
+      "integration": "deferred",
+      "integration_reason": "Catalogue moteur à compléter pour version Pro Carbon 70 L. Largeur favorable rapportée sans poids de rider ni vent : pas de nouveau seuil de volume. Ne pas transférer les sensations à la version standard plus lourde.",
+      "claims": [
+        {
+          "start_s": 96.4,
+          "end_s": 183.6,
+          "dimension": "stability,takeoff",
+          "statement_fr": "La version essayée est la Drifter 5 Pro Carbon 70 L. Le testeur apprécie l’équilibre avant/arrière au relevage et la largeur proche de 59 cm; il décrit un départ plus précoce que sur le modèle précédent.",
+          "limits": "Poids du rider, vent et foil non précisés; le commentaire de facilité ne valide pas 70 L comme première planche pour tous les gabarits.",
+          "source_url": "https://www.youtube.com/watch?v=PkWvig5XIJ0&t=96s"
+        },
+        {
+          "start_s": 272,
+          "end_s": 319.4,
+          "dimension": "control,stance",
+          "statement_fr": "Le testeur apprécie le pont et les positions de straps pour trouver une position de conduite équilibrée.",
+          "limits": "Ressenti sur montage non précisé; pas de validation universelle du centrage.",
+          "source_url": "https://www.youtube.com/watch?v=PkWvig5XIJ0&t=272s"
+        },
+        {
+          "start_s": 328.8,
+          "end_s": 386.5,
+          "dimension": "carving,touchdown",
+          "statement_fr": "Le testeur décrit un angle de roulis utile avant touchette et un contact peu freinant dans la séquence évoquée. Il souligne toutefois une largeur supérieure à l’Arc et la Super K2.",
+          "limits": "Pas d’angle ni ralentissement mesuré; absence de freinage non garantie lors de tout contact.",
+          "source_url": "https://www.youtube.com/watch?v=PkWvig5XIJ0&t=328s"
+        },
+        {
+          "start_s": 398.7,
+          "end_s": 471.1,
+          "dimension": "freestyle,limits",
+          "statement_fr": "Le testeur apprécie le pop et le guidage à la réception, tout en relevant davantage de masse en mouvement du fait de la longueur accrue.",
+          "limits": "Hauteur, inertie et taux de reprise non mesurés; résultat propre à la version Pro Carbon essayée.",
+          "source_url": "https://www.youtube.com/watch?v=PkWvig5XIJ0&t=398s"
+        },
+        {
+          "start_s": 589.1,
+          "end_s": 604.1,
+          "dimension": "construction,limits",
+          "statement_fr": "Le testeur distingue explicitement la Pro Carbon légère de la version standard qu’il annonce plus lourde, avec des sensations potentiellement moins marquées.",
+          "limits": "Écart de poids déclaré, variable selon taille et non contrôlé; ne pas appliquer le ressenti Pro Carbon à toute la gamme.",
+          "source_url": "https://www.youtube.com/watch?v=PkWvig5XIJ0&t=589s"
+        }
+      ]
     }
   ]
 }

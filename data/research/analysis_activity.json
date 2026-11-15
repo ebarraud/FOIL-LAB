@@ -74,11 +74,11 @@
     },
     {
       "video_id": "PkWvig5XIJ0",
-      "status": "in_progress",
-      "step": "Lecture Drifter 5 70 L; vérifier Pro Carbon contre version standard",
+      "status": "completed",
+      "step": "Cinq observations Pro Carbon 70 L, limite de transfert vers standard documentée",
       "started_at_utc": "2026-11-15T20:03:03.779047+00:00",
-      "updated_at_utc": "2026-11-15T20:03:03.779047+00:00",
-      "expires_at_utc": "2026-11-15T20:23:03.779047+00:00"
+      "updated_at_utc": "2026-11-15T20:03:08.013947+00:00",
+      "expires_at_utc": "2026-11-15T20:23:08.013947+00:00"
     }
   ]
 }
