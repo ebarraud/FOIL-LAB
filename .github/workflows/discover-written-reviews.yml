@@ -63,7 +63,7 @@ jobs:
               raise SystemExit(0)
           dest=Path('data/research/written_review_leads_latest.json')
           dest.parent.mkdir(parents=True,exist_ok=True)
-          dest.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+          dest.write_text(json.dumps(data,ensure_ascii=False,indent=2) + chr(10),encoding='utf-8')
           print('Metadata-only public index prepared:',data['article_leads'])
           PY
           if [ ! -f data/research/written_review_leads_latest.json ]; then
