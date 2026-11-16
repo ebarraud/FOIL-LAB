@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "inventory_count": 178,
+  "inventory_count": 180,
   "processed": 124,
   "transcripts_obtained": 122,
   "performance_scores_generated": 0,
@@ -3090,6 +3090,18 @@
       "requested_language": "auto",
       "retry_eligible": null,
       "failure_reason": null
+    },
+    {
+      "video_id": "qvvLnJBdlC0",
+      "title": "MID LENGTH o COMPATTA? Sceglile ENTRAMBE! Recensione tavola da wing foil Indiana Super Fly CML",
+      "status": "awaiting_transcript",
+      "requested_language": "auto"
+    },
+    {
+      "video_id": "kOnOMWTcOmI",
+      "title": "LONG TERM REVIEW: 2025 Duotone Skybrid SLS / Wingfoil & Foil Drive Gen 2",
+      "status": "awaiting_transcript",
+      "requested_language": "auto"
     }
   ]
 }

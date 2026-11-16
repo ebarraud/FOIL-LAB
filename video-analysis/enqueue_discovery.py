@@ -3,6 +3,12 @@ import html,json,re
 from pathlib import Path
 from qualify import assess,BOARD,FOIL
 
+# Explicit title checks: metadata eligibility only, never technical evidence.
+TITLE_CHECKS={
+    'qvvLnJBdlC0':('board','Le titre italien annonce une recension de planche wingfoil Indiana Super Fly CML ; « Recensione » signifie revue.'),
+    'kOnOMWTcOmI':('board','Le titre annonce un essai de longue durée Skybrid SLS en wingfoil et Foil Drive ; conserver les deux usages séparés lors de la lecture.')
+}
+
 def main():
     root=Path('.')
     progress=json.loads((root/'data/research/progress.json').read_text(encoding='utf-8'))
@@ -27,6 +33,9 @@ def main():
         if re.search(r'front wing review',title,re.I):
             item['screening_reasons']=[x for x in item['screening_reasons'] if x!='non_test_or_tutorial_signal']
         item['screening_reasons']+=extra
+        if row['video_id'] in TITLE_CHECKS:
+            item['category'],item['title_scope_check_fr']=TITLE_CHECKS[row['video_id']]
+            item['screening_reasons']=[]
         item['screening_status']='needs_manual_scope_review' if item['screening_reasons'] else 'priority_metadata_candidate'
         item['category_basis']='inferred_from_title_only_not_content_verified'
         eligible=item['screening_status']=='priority_metadata_candidate'

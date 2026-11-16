@@ -905,10 +905,8 @@
       "url": "https://www.youtube.com/watch?v=qvvLnJBdlC0",
       "published_on": "2026-01-12",
       "publisher": "Sport al Centro",
-      "screening_status": "needs_manual_scope_review",
-      "screening_reasons": [
-        "no_explicit_test_or_review_signal"
-      ],
+      "screening_status": "priority_metadata_candidate",
+      "screening_reasons": [],
       "metadata_only": true,
       "transcript_evidence": false,
       "performance_scores": null,
@@ -916,8 +914,9 @@
       "independent_test_confirmed": false,
       "duplicate_group": null,
       "duplicate_status": "unverified",
+      "title_scope_check_fr": "Le titre italien annonce une recension de planche wingfoil Indiana Super Fly CML ; « Recensione » signifie revue.",
       "category_basis": "inferred_from_title_only_not_content_verified",
-      "queue_decision": "scope_review_required"
+      "queue_decision": "queued_for_free_collection"
     },
     {
       "id": "vmYfbGpB4Bs",
@@ -1717,10 +1716,8 @@
       "url": "https://www.youtube.com/watch?v=kOnOMWTcOmI",
       "published_on": "2025-03-12",
       "publisher": "hoppline",
-      "screening_status": "needs_manual_scope_review",
-      "screening_reasons": [
-        "assist_accessory_or_other_discipline_scope_review"
-      ],
+      "screening_status": "priority_metadata_candidate",
+      "screening_reasons": [],
       "metadata_only": true,
       "transcript_evidence": false,
       "performance_scores": null,
@@ -1728,8 +1725,9 @@
       "independent_test_confirmed": false,
       "duplicate_group": null,
       "duplicate_status": "unverified",
+      "title_scope_check_fr": "Le titre annonce un essai de longue durée Skybrid SLS en wingfoil et Foil Drive ; conserver les deux usages séparés lors de la lecture.",
       "category_basis": "inferred_from_title_only_not_content_verified",
-      "queue_decision": "scope_review_required"
+      "queue_decision": "queued_for_free_collection"
     },
     {
       "id": "A7AoRWtxtSI",

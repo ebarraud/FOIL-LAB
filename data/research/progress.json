@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-16T20:03:00.365765+00:00",
+  "updated_at_utc": "2026-11-16T20:30:59.529730+00:00",
   "collection_updated_at_utc": "2026-11-16T20:00:53.384947+00:00",
   "retry_not_before_utc": "2026-11-16T21:00:53.384947+00:00",
   "collection_state": "provider_outage",
@@ -3196,8 +3196,8 @@
       "video_id": "qvvLnJBdlC0",
       "title": "MID LENGTH o COMPATTA? Sceglile ENTRAMBE! Recensione tavola da wing foil Indiana Super Fly CML",
       "language": null,
-      "collection": "new",
-      "analysis": "scope_review_required",
+      "collection": "awaiting_transcript",
+      "analysis": "awaiting_transcript",
       "integration": "pending",
       "claims": 0,
       "discovered_on": "2026-01-12",
@@ -3205,11 +3205,13 @@
       "channel_id": "UCAhpIsBY_CiRGUi1uMkpulQ",
       "activity": null,
       "review_kind": null,
-      "metadata_screening": "needs_manual_scope_review",
-      "screening_reasons": [
-        "no_explicit_test_or_review_signal"
-      ],
-      "integration_reason": "Qualification des métadonnées uniquement : no_explicit_test_or_review_signal"
+      "metadata_screening": "priority_metadata_candidate",
+      "screening_reasons": [],
+      "integration_reason": null,
+      "segments": null,
+      "keyword_candidates": null,
+      "evidence_url": null,
+      "failure": null
     },
     {
       "video_id": "vmYfbGpB4Bs",
@@ -4062,10 +4064,10 @@
     },
     {
       "video_id": "kOnOMWTcOmI",
-      "title": "LONG TERM REVIEW: 2025 Duotone Skybrid SLS / Wingfoil &amp; Foil Drive Gen 2",
+      "title": "LONG TERM REVIEW: 2025 Duotone Skybrid SLS / Wingfoil & Foil Drive Gen 2",
       "language": null,
-      "collection": "new",
-      "analysis": "scope_review_required",
+      "collection": "awaiting_transcript",
+      "analysis": "awaiting_transcript",
       "integration": "pending",
       "claims": 0,
       "discovered_on": "2025-03-12",
@@ -4073,11 +4075,13 @@
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
       "activity": null,
       "review_kind": null,
-      "metadata_screening": "needs_manual_scope_review",
-      "screening_reasons": [
-        "assist_accessory_or_other_discipline_scope_review"
-      ],
-      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review"
+      "metadata_screening": "priority_metadata_candidate",
+      "screening_reasons": [],
+      "integration_reason": null,
+      "segments": null,
+      "keyword_candidates": null,
+      "evidence_url": null,
+      "failure": null
     },
     {
       "video_id": "A7AoRWtxtSI",
