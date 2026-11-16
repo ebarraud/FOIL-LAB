@@ -53,6 +53,8 @@ def main():
         history['attempts'].append(attempt)
         history['stopped_reason'] = stopped
         save(history_path,history)
+        data['inventory_count']=len(data['results'])
+        data['processed']=sum(r['status']!='awaiting_transcript' for r in data['results'])
         save(source,data)
         public = {k:v for k,v in data.items() if k!='results'}
         public['transcripts_obtained'] = sum(r['status']=='timed_transcript_received' for r in data['results'])

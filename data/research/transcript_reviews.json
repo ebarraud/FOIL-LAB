@@ -4067,6 +4067,534 @@
           "limits": "Ne pasinventerlenomducomparateurouuneefficacité chiffrée."
         }
       ]
+    },
+    {
+      "video_id": "nM6k7_IpC9k",
+      "model": "Foil Attitude Early Bird1690 / Ultra200",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "9e43c9a39ee46f003b6c0b5f92510c18098febf1a459e4420aabff2f2871a4e7",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche EarlyBird et montages200/485 avant ajout; l’essai principal utilise200, le grand485 est surtout présenté. Aucun départ8nœuds garanti.",
+      "claims": [
+        {
+          "start_s": 149.4,
+          "end_s": 178.28,
+          "dimension": "setup",
+          "statement_fr": "EarlyBird1690,mâtcarbone85 etUltra200;485 présenté comme stabilisateur livré habituellement.",
+          "limits": "Ne pas attribuer tous les résultats au pack485."
+        },
+        {
+          "start_s": 277.28,
+          "end_s": 325.76,
+          "dimension": "setup_difference",
+          "statement_fr": "200 préféré pour davantage de liberté/vitesse;485 décrit comme orienté stabilité et initiation.",
+          "limits": "Pas comparaison appariée chiffrée."
+        },
+        {
+          "start_s": 397.16,
+          "end_s": 444.16,
+          "dimension": "context",
+          "statement_fr": "Rider80kg,boardSrokaLW90L,wings5–6,5m²,vent8–20nœuds annoncés.",
+          "limits": "Exemple au lac, pas plage universelle."
+        },
+        {
+          "start_s": 479.6,
+          "end_s": 564.72,
+          "dimension": "takeoff,control",
+          "statement_fr": "Départ et tenue lente appréciés, avec besoin d’un peu plus d’appui avant sur200 et masse ressentie.",
+          "limits": "Retour d’un pratiquant expérimenté, pas essai d’apprentissage réel."
+        },
+        {
+          "start_s": 564.72,
+          "end_s": 618.8,
+          "dimension": "limits",
+          "statement_fr": "Manœuvres etpetitesconnexions testées; aucun saut, accélérationmodérée etglisseinférieure aux ailesplusfines/allongées reconnues.",
+          "limits": "Ne pas étendre au freestyle ni prendre20nœuds de vitesse comme performancevalidée."
+        }
+      ]
+    },
+    {
+      "video_id": "hXDV7ssMWlY",
+      "model": "Armstrong UHA670/870/1270, Tonic",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "0c8c672a2ceed154e914901bcdc2a7c6731b1a0290e08c45946814ba7281be3b",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Complète les sources UHA mais garde prone/SUP/parawing distincts du wing. Vérifier tails exacts par taille avant conseil supplémentaire.",
+      "claims": [
+        {
+          "start_s": 24.08,
+          "end_s": 84.16,
+          "dimension": "setup",
+          "statement_fr": "670/870/1270 avecmâtPerformance,fuse60,Speed180 etSurf170/130 cités.",
+          "limits": "Pas association isolée de chaque taille et chaque stab."
+        },
+        {
+          "start_s": 105.44,
+          "end_s": 146.48,
+          "dimension": "scope_870_1270",
+          "statement_fr": "870 appréciée enprone faceHA880;1270 utilisée enSUP petitesvagues avecOcean95L.",
+          "limits": "Ces observations ne deviennent pas un essaiwing complet1270."
+        },
+        {
+          "start_s": 165.28,
+          "end_s": 215.72,
+          "dimension": "size_670",
+          "statement_fr": "670 utilisée enparawing/downwind; marge de relance ressentie faceDWPerformance685 jugée plus exigeante.",
+          "limits": "Deux modèles de surfaces différentes; pas seuil de décrochage mesuré."
+        },
+        {
+          "start_s": 220,
+          "end_s": 263.32,
+          "dimension": "hypotheses",
+          "statement_fr": "Dockstart etfutures sessionslégères sont envisagés;870wingléger et1270downwind sont des usages pressentis.",
+          "limits": "Distinguer projets et usages déjà essayés."
+        },
+        {
+          "start_s": 288.52,
+          "end_s": 326.12,
+          "dimension": "level",
+          "statement_fr": "Le testeur conseille intermédiaires etexperts pourtolérancelente etconnexion.",
+          "limits": "Pas initiationpure documentée."
+        }
+      ]
+    },
+    {
+      "video_id": "KUlOiIb2Jck",
+      "model": "SROKA PW HybridPro130 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "f985d2116cc411ec7aa15c87093cbf1cdaeb27d838e35f3f479a31b45e0624f9",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier dimensions officielles et génération avant ajout. Utilisation SUP non testée; initiation parawing du testeur n’est pas un essai comparatif complet.",
+      "claims": [
+        {
+          "start_s": 92.28,
+          "end_s": 137.12,
+          "dimension": "size",
+          "statement_fr": "130L6’8x25pouces pesée7kg selontesteur;115L6’5x24 seulementcitée.",
+          "limits": "Dimensions déclaratives, seule130essayée."
+        },
+        {
+          "start_s": 425.28,
+          "end_s": 465.56,
+          "dimension": "context",
+          "statement_fr": "Rider80kg avecSroka1190HA,vent7–15nœuds annoncé etsessionparawinginitiale.",
+          "limits": "Premièreparawing, images nonmontrées;pas expertiseparawingvalidée."
+        },
+        {
+          "start_s": 474.2,
+          "end_s": 548.8,
+          "dimension": "takeoff,stability",
+          "statement_fr": "Stabilitéàl’arrêt etaccélération appréciées avecwing6,5; départfacile ressenti.",
+          "limits": "Pascomparaisonappariée avecautreboard;aucunseuildevent garanti."
+        },
+        {
+          "start_s": 570.32,
+          "end_s": 615.92,
+          "dimension": "limits",
+          "statement_fr": "Largeurplusimportanteque seshabitudes,beaucouptolérancedepositiondupied;SUPexplicitementnonessayé.",
+          "limits": "Ne pasaffirmerusageSUPvalidé ouboarduniverselle."
+        }
+      ]
+    },
+    {
+      "video_id": "_-VHK2Q-JgA",
+      "model": "KT SuperK2 / Arc78 / Drifter5 60",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "4e694ce6480f1a0056c41d9ab324337a720df3d7b83c4b2825b7048ddd656928",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Conseil debon niveau conservé surSuperK2 déjàajoutée; vérifier modèles/dimensions pourDrifter/Arc. ASR finalVersa5 contreditDrifter5 nomméau départ.",
+      "claims": [
+        {
+          "start_s": 185.96,
+          "end_s": 239.92,
+          "dimension": "SuperK2",
+          "statement_fr": "SuperK2 : départprécoce mais montéeplusdélicatequeDrifter; une tailleplusgrande conseillée auxintermédiaires dansleclapot.",
+          "limits": "VolumeSuperK95mentionnéensuite;pasrègle+10Luniverselle."
+        },
+        {
+          "start_s": 280.88,
+          "end_s": 354.48,
+          "dimension": "Arc_comparison",
+          "statement_fr": "Arc78 ressentieplusstablequeSuperK95 enparawing;SuperKpeutpartirpluspassivement,Arcapprécieuneimpulsiondepumping.",
+          "limits": "Volumesdifférents : nepasattribueràseulshapeunécartquantifié."
+        },
+        {
+          "start_s": 401.76,
+          "end_s": 464.08,
+          "dimension": "Drifter5",
+          "statement_fr": "Drifter5 60comparéeàDrifter4 56 :sentimentplusstableetplusgrand,toutengardantcontrôleetaptitudeausaut.",
+          "limits": "Volumesetgénérationschangentensemble."
+        },
+        {
+          "start_s": 466.44,
+          "end_s": 550.44,
+          "dimension": "level_limits",
+          "statement_fr": "Lecomparatiforienteinitiation/conditionsdifficilesverslaplusstable,Arcintermédiaireexpertetplutôteaucalmepourprogression.",
+          "limits": "Versa5transcritedansconclusion :identitéàconfirmerdanssource/fiche,nepasinventerunenouvelleboard."
+        }
+      ]
+    },
+    {
+      "video_id": "65ecyxEcNiY",
+      "model": "GONG Lemon / FluidAtmo810, guide Álvaro Bajo",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "686ddf6968ea3c5d0e67fc937f408d1af16631edb9d42e9fa274d35f1fc15237",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier générationAtmo et modèle nomméCarve/Curve dans la traduction avant ajout. Source d’ambassadeur déclarée, pas essai de toute la gamme.",
+      "claims": [
+        {
+          "start_s": 9.52,
+          "end_s": 21.46,
+          "dimension": "source_context",
+          "statement_fr": "Le présentateur annonce son passage chezGONG aprèsNorth.",
+          "limits": "Relation d’ambassadeur explicite, pas source commerciale indépendante."
+        },
+        {
+          "start_s": 416.32,
+          "end_s": 495.08,
+          "dimension": "board_context",
+          "statement_fr": "Riderenviron70kg,programmefreestyle/vagues etLemonchoisie pourcompromiscompacité/surf.",
+          "limits": "VolumeLemonnonprécisé;pasrègledegabarit."
+        },
+        {
+          "start_s": 559.62,
+          "end_s": 597.48,
+          "dimension": "board_limit",
+          "statement_fr": "TailLemonaminci appréciépourvirages maisplusenfoncéàl’arrêt.",
+          "limits": "Ne pasconfondre maniabilitéenvol etstabilitéaudépart."
+        },
+        {
+          "start_s": 794.39,
+          "end_s": 854.01,
+          "dimension": "foil_setup",
+          "statement_fr": "FluidAtmoS810 annoncéepourwingetprone,utiliséequotidiennement.",
+          "limits": "CatalogueAtmo distinctCurveHV3;pascompatibilitéintergénérationdéduite."
+        },
+        {
+          "start_s": 863.83,
+          "end_s": 954.13,
+          "dimension": "setup_limit",
+          "statement_fr": "Stabilisateurassociéàlafrontwing etfuselagetitane,mâtHM85enwing/77surf citéspoursonsetup.",
+          "limits": "Surfaceexactedustabetlongueurfusenonidentifiées."
+        },
+        {
+          "start_s": 955.45,
+          "end_s": 1011.25,
+          "dimension": "comparison",
+          "statement_fr": "L’autrefoilnomméCarveestprésentéplustolérantauxerreursintermédiaires,Fluidplusréactive.",
+          "limits": "IdentitéCarve/Curveàvérifier;pasconversionenbonusdeportance ni score."
+        }
+      ]
+    },
+    {
+      "video_id": "jHWbotOOMsI",
+      "model": "Ozone PocketRocketV2",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "26c97a891e6cf12d752a0e9d4195a563d1a576804212ccec50af29c0ceaab6ad",
+      "review_method": "Qualification du périmètre par lecture des45premierssegments; parawing seule horscatalogue, reste nonanalysé techniquement.",
+      "scope": "parawing_only_not_board_or_front_foil",
+      "integration": "deferred",
+      "integration_reason": "Parawing hors catalogueboard/frontfoil. Aucun effet deschangementsdebarre ouvoile n’est transféré au dimensionnementfoil.",
+      "claims": [
+        {
+          "start_s": 8.32,
+          "end_s": 60.76,
+          "dimension": "scope",
+          "statement_fr": "Le contenu annonce une revue de la parawing PocketRocketV2 et ses changements par rapport àV1.",
+          "limits": "Qualification par45premierssegments, pas analyseintégrale de cette voile."
+        }
+      ]
+    },
+    {
+      "video_id": "vQGg5Zv8Pvk",
+      "model": "Slingshot WF-T / QuickStartwake",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "9d8e19d3e8862e0a6ee2bc4df3482b8b0b0df8d1cea77c4db882453201be54db",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wake_only_not_wing_test",
+      "integration": "deferred",
+      "integration_reason": "Le texte traite dewakefoil derrièrebateau, malgré titreboardgénérique. Aucun conseiltaille/poids oumastwake transféré au configurateurwing.",
+      "claims": [
+        {
+          "start_s": 18.88,
+          "end_s": 63.88,
+          "dimension": "scope",
+          "statement_fr": "Présentationdepackswakefoil One-Lock pourdébuter derrièrebateau.",
+          "limits": "Tractionbateau distinctedela wing."
+        },
+        {
+          "start_s": 171.72,
+          "end_s": 232.52,
+          "dimension": "setup",
+          "statement_fr": "Mât72 etfrontE1250,optionfamille1850;le tailestd’abordincertain.",
+          "limits": "Pascompatibilité oudimensionnementwingdéduits."
+        },
+        {
+          "start_s": 357.36,
+          "end_s": 388.44,
+          "dimension": "identity",
+          "statement_fr": "Le tailestfinalementnomméVerse270.",
+          "limits": "Correctionde présentation, pascomparatifdetails."
+        },
+        {
+          "start_s": 388.44,
+          "end_s": 459.64,
+          "dimension": "board",
+          "statement_fr": "BoardWFPV2présentée pourapprentissagewake etrebondstouchettes.",
+          "limits": "Aucunessaidépartwingdisponible."
+        }
+      ]
+    },
+    {
+      "video_id": "VdVF_HfnV5o",
+      "model": "Reptile AquaLift2100",
+      "language_returned": "en-US",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "804284f3070ccae1297deb610a4efe419a8bf73b9d09f370487fc5cf9e85b29e",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifierdimensions etgamme actuelleavantajout. Seule2100essayée; prixanciens etcodepromotionnel exclusdesconseils.",
+      "claims": [
+        {
+          "start_s": 132.65,
+          "end_s": 209.27,
+          "dimension": "setup",
+          "statement_fr": "2100annoncée avecstab335,fuse76,mâtalu85;petitesversionsmaltranscrites.",
+          "limits": "Noms etsurfacesdespetitesversions nonnormalisés."
+        },
+        {
+          "start_s": 356.43,
+          "end_s": 444.75,
+          "dimension": "takeoff,control",
+          "statement_fr": "Départdoux etlent,conduiteprévisible,orientésapprentissage selonlesdeuxtesteurs.",
+          "limits": "Pasdepoids/board/ventcomplets, pasessaiinitiationscientifique."
+        },
+        {
+          "start_s": 443.81,
+          "end_s": 502.54,
+          "dimension": "limits",
+          "statement_fr": "Grande2100jugéelente avecglissemodérée, prioritéfacilitéàbassevitesse.",
+          "limits": "Ne pasassimilergrandesurfaceetperformancevitesse."
+        },
+        {
+          "start_s": 503.98,
+          "end_s": 523.39,
+          "dimension": "pumping",
+          "statement_fr": "Pumpingpossiblemaislongfuselageprivilégiestabilité;paschoixpréférépourpumpingdédié.",
+          "limits": "Aucuneefficacitémesurée."
+        },
+        {
+          "start_s": 661.88,
+          "end_s": 710.29,
+          "dimension": "size_scope",
+          "statement_fr": "Leprésentateurrappelleavoirtestélaplusgrande etinviteàadaptertailleauxconditions.",
+          "limits": "Petitesversionsetévolutivitémentionnées, pasvalidéespartailles danscecache."
+        }
+      ]
+    },
+    {
+      "video_id": "0qOf0eEpElM",
+      "model": "Cabrinha Swift86 L6’0",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "5c3e778d650f3a9b29a4a84bb8c5e286572962fa12fd4b72fa8bb3685296b263",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifierfiche86L/générationavantcatalogue. Conservercompromiswing/parawing etpréférencespersonnelles, sansnotedeperformance.",
+      "claims": [
+        {
+          "start_s": 30.16,
+          "end_s": 49.52,
+          "dimension": "scope",
+          "statement_fr": "6’0testée enwingetparawing;86Lpréciséeplusloin.",
+          "limits": "Poidsrideretfoil exactnonindiqués."
+        },
+        {
+          "start_s": 175.4,
+          "end_s": 217.56,
+          "dimension": "construction",
+          "statement_fr": "Poids5,4kgannoncéetconstructioncarboneressentieraide.",
+          "limits": "Comparaisonpoidsavecautresboards sansvolumes/générationsappariés."
+        },
+        {
+          "start_s": 231.64,
+          "end_s": 324.2,
+          "dimension": "takeoff,control",
+          "statement_fr": "Départpropreetconduitecentrée,petiteinertieressentie etbonnereprisedescontactsde rails.",
+          "limits": "Pasgarantietoutechute;pasvraiestestaveugleréalisé."
+        },
+        {
+          "start_s": 384.92,
+          "end_s": 458.16,
+          "dimension": "program_limit",
+          "statement_fr": "Enparawingtrèssoustoilé,le testeursouhaiteraitplusdelongueurpouraccélérer;compromismoinsgênantenwing.",
+          "limits": "Aucunécartmesuré ni seuildevent."
+        },
+        {
+          "start_s": 456.2,
+          "end_s": 519.32,
+          "dimension": "preferences",
+          "statement_fr": "Épaisseurjugéeunpeuflottanteàtrèsfaibleventetpoignéedéplaisantàce rider.",
+          "limits": "Préférencespersonnelles, pas défautuniverseloubonus négatif automatique."
+        }
+      ]
+    },
+    {
+      "video_id": "ig3D34ghMq4",
+      "model": "KT Solus930/630, Atom161 etApex85",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "3c8abd811435bd9c1c2a67b19c07798bdeae116c3e2bf4a50f98c0c4a02a321d",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "VérifierficheSolusetlongueurfuse :discours63corrigé65et53, différenttestGleiten63. Ne pasimposer lescalagespersonnels sansnotice.",
+      "claims": [
+        {
+          "start_s": 25.28,
+          "end_s": 122.8,
+          "dimension": "setup",
+          "statement_fr": "Apex85,longfusecorrigé65etversioncourte53,Atomtailpourusagesurfy annoncés.",
+          "limits": "Correctiondansdiscours, vérifierlongueurcommercialeavantconseil."
+        },
+        {
+          "start_s": 194.96,
+          "end_s": 275.88,
+          "dimension": "trim",
+          "statement_fr": "Systèmedecalageconstructeurdécritpuisrég réglagepersonnel pouragilité.",
+          "limits": "Le signe−0,5/+0,5dansdiscoursestambigu;aucunangledécidéparinférence."
+        },
+        {
+          "start_s": 293.48,
+          "end_s": 395.04,
+          "dimension": "size_930",
+          "statement_fr": "930 appréciéeenléger etdownwindpetitesbosses avecpumpingpourconnexion ettempsdisponiblepourparawing.",
+          "limits": "Pasventinstrumentéoueffortmesuré."
+        },
+        {
+          "start_s": 395.04,
+          "end_s": 538.52,
+          "dimension": "setup",
+          "statement_fr": "Atom161 appréciépourappui etvirages;fusecourt plusvif surpetitestailles,pluslongpréféré930avecboardpluslongue.",
+          "limits": "Surface,boardetfusechangentensemble;pasrègleuniversellelongueurboard6pieds."
+        },
+        {
+          "start_s": 614.24,
+          "end_s": 665.68,
+          "dimension": "level",
+          "statement_fr": "Le testeurjugeSolusaccessibleàunintermédiairebienréglé.",
+          "limits": "Sesexplicationsdeprofilrestenthypothèses,pasexpertisehydrodynamiquemesurée."
+        },
+        {
+          "start_s": 755.52,
+          "end_s": 819.4,
+          "dimension": "mast_limits",
+          "statement_fr": "Apex85 appréciépourmargeavecgrandeenvergureetclapot;sortiedelatotalitédelaile resteproblématique.",
+          "limits": "Ne paspromettrerécupérationdetoutbreach."
+        },
+        {
+          "start_s": 922,
+          "end_s": 1052.4,
+          "dimension": "context",
+          "statement_fr": "Riderprès200lb,930surProjectDrag84enconditionsdéclaréestrèsfaibles;quiver930/630cité.",
+          "limits": "5–7mphannoncé sansprotocole : pasplagebassegarantie,optionsfuturestailsnonessayées."
+        }
+      ]
+    },
+    {
+      "video_id": "zGdki04tH2g",
+      "model": "K-PARTS SKAL 570/690/840/990/1150",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "7a8540dbfe40627902f206f8bc4634f12e2486f4fbe9deca0b598ba497f319e7",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_surf_pump_size_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; ajout au configurateur différé jusqu’au contrôle des fiches de tailles et des interfaces K-PARTS. Les comparaisons du testeur ne constituent pas des mesures ni des seuils de poids.",
+      "claims": [
+        {
+          "start_s": 816,
+          "end_s": 850,
+          "dimension": "840_vs_690",
+          "statement_fr": "Le testeur préfère la 840 pour la polyvalence et les relances ; la 690 favorise la maniabilité avec moins de réserve en pumping.",
+          "limits": "Ressenti individuel ; montages et conditions variables, aucune équivalence de surface calculée."
+        },
+        {
+          "start_s": 851,
+          "end_s": 898,
+          "dimension": "stabilizers",
+          "statement_fr": "Le Mako Glide Pro 110 est associé à la projection et à la glisse ; le Carve Pro S est préféré pour le roulis en surf.",
+          "limits": "Ne pas attribuer le comportement de ce montage à la seule aile avant ; surfaces commerciales à vérifier."
+        },
+        {
+          "start_s": 945,
+          "end_s": 1114,
+          "dimension": "stabilizer_tradeoff",
+          "statement_fr": "Le Carve Pro S représente son compromis ; le XS demande davantage d’effort sur la 840. Les tailles M/L privilégient le confort à basse vitesse.",
+          "limits": "Préférences du testeur, sans protocole de comparaison instrumenté."
+        },
+        {
+          "start_s": 1125,
+          "end_s": 1283,
+          "dimension": "setup",
+          "statement_fr": "En wing et parawing, le testeur préfère le stabilisateur en position arrière pour la stabilité en tangage, et une position avancée en surf.",
+          "limits": "Réglages personnels ; ne pas imposer les cales de rake citées à un autre montage."
+        },
+        {
+          "start_s": 1313,
+          "end_s": 1397.36,
+          "dimension": "690_840_conditions",
+          "statement_fr": "La 690 est envisagée en vent établi ; la 840 conserve sa préférence pour le freefly léger et la marge à basse vitesse.",
+          "limits": "Les exemples de gabarit ne définissent aucun seuil de poids universel ; pas de plage de vent mesurée."
+        },
+        {
+          "start_s": 1507.6,
+          "end_s": 1579.68,
+          "dimension": "comparison_limits",
+          "statement_fr": "Le testeur déconseille de comparer les foils sur leur seule surface et souligne l’influence du stabilisateur dans les comparaisons avec Enduro et Silk V2.",
+          "limits": "Avis comparatif contextualisé, sans classement numérique ni équivalence de portance."
+        },
+        {
+          "start_s": 1627.88,
+          "end_s": 1698,
+          "dimension": "570_840_990",
+          "statement_fr": "La 570 a été peu utilisée ; la 840 est son choix courant. Il décrit la 990 avec Carve Pro S et petite planche dans des micro-vagues.",
+          "limits": "La 570 ne permet pas de conclusion robuste ; l’expérience de la 990 relève du surf et ne vaut pas seuil de décollage en wing."
+        },
+        {
+          "start_s": 1731.36,
+          "end_s": 1794.48,
+          "dimension": "1150_dockstart",
+          "statement_fr": "La 1150 a été essayée en dockstart avec Mako Glide Pro 110 ; le testeur la trouve plus facile à diriger que son AROS 980.",
+          "limits": "Comparaison personnelle en dockstart ; la 1450 seulement annoncée ne doit pas être considérée comme testée."
+        },
+        {
+          "start_s": 1803.08,
+          "end_s": 1855.16,
+          "dimension": "mast",
+          "statement_fr": "Sur les grandes ailes et pour les gabarits costauds, le testeur préfère le mât 80 au premier 85, mesuré selon lui à 87, pour la rigidité ressentie.",
+          "limits": "Aucune mesure de flexion ; ne pas généraliser à toutes les générations de mâts ni garantir une compatibilité multimarque."
+        }
+      ]
     }
   ]
 }

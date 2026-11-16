@@ -7,6 +7,9 @@ from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 from free_transcript_pilot import default_fetch, summarize, write_cache, read_local
 from dashboard import build
+from collection_policy import stop_status, next_allowed
+from urllib.error import HTTPError
+from datetime import datetime,timezone
 
 def queue(data):
     found = {}
@@ -26,17 +29,29 @@ def main():
     ap.add_argument('--limit', type=int, default=200)
     args = ap.parse_args()
     if not 1 <= args.limit <= 200: ap.error('limit must be 1–200')
+    status_path=Path('research/BATCH_STATUS.json')
+    status=json.loads(status_path.read_text(encoding='utf-8')) if status_path.exists() else {}
+    if status.get('retry_not_before_utc') and datetime.now(timezone.utc)<datetime.fromisoformat(status['retry_not_before_utc']):
+        print('Provider cooldown still active');return
     videos = queue(json.loads(args.input.read_text(encoding='utf-8')))[:args.limit]
     previous = json.loads(args.output.read_text(encoding='utf-8')) if args.output.exists() else {}
     results = {r['video_id']:r for r in previous.get('results', [])}
     args.output.parent.mkdir(parents=True, exist_ok=True)
     for video in videos:
         if video[0] in results: continue
+        stopped=None
         try:
             cached = args.cache_dir / (video[0]+'.json')
             payload = read_local(args.cache_dir, video) if cached.exists() else default_fetch(video)
             result = summarize(video, payload)
             write_cache(args.cache_dir, video, payload)
+        except HTTPError as exc:
+            result={'video_id':video[0],'title':video[1],'status':'unavailable_or_blocked','failure_type':'HTTPError','last_retry':{'http_status':exc.code,'retry_after':exc.headers.get('Retry-After')}}
+            if stop_status(exc.code):
+                stopped='provider_access_or_rate_limit' if exc.code<500 else 'provider_outage'
+                status.update(retry_status=stopped,retry_not_before_utc=next_allowed(exc.headers.get('Retry-After')).isoformat(),updated_at_utc=datetime.now(timezone.utc).isoformat())
+                status_path.parent.mkdir(parents=True,exist_ok=True)
+                status_path.write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         except Exception as exc:
             result = {'video_id':video[0], 'title':video[1], 'status':'unavailable_or_blocked', 'failure_type':type(exc).__name__}
         results[video[0]] = result
@@ -47,6 +62,7 @@ def main():
         temporary.replace(args.output)
         build()
         print(json.dumps({k:v for k,v in report.items() if k!='results'}), flush=True)
-        time.sleep(1)
+        if stopped:break
+        time.sleep(5)
 
 if __name__ == '__main__': main()

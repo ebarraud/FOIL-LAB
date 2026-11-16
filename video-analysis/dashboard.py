@@ -52,7 +52,7 @@ def build(root=Path('.')):
     for video in videos:
         review=review_by_id.get(video['video_id'],{})
         scope=review.get('scope','')
-        video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only','kite_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_')) else 'technical_review') if video.get('analysis')=='interpreted' else None
+        video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only','kite_only','wake_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_')) else 'technical_review') if video.get('analysis')=='interpreted' else None
         if review.get('integration')=='conditional_board_selection':
             video['integration']='integrated'
         elif review.get('integration') in ('conditional_caution','conditional_setup'):

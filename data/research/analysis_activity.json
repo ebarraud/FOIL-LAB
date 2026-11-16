@@ -194,11 +194,11 @@
     },
     {
       "video_id": "mhetRD3Fl5U",
-      "status": "in_progress",
-      "step": "Analyse des nouvelles collectes : AROS, Solus, comparatifs boards et sources courtes",
+      "status": "completed",
+      "step": "Analyse des 18 nouvelles sources terminée ; vérification et publication du bilan.",
       "started_at_utc": "2026-11-16T19:18:01.388236+00:00",
-      "updated_at_utc": "2026-11-16T19:18:01.388236+00:00",
-      "expires_at_utc": "2026-11-16T19:38:01.388236+00:00"
+      "updated_at_utc": "2026-11-16T19:27:34.864906+00:00",
+      "expires_at_utc": "2026-11-16T19:47:34.864906+00:00"
     }
   ]
 }
