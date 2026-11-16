@@ -49,6 +49,14 @@ def build(root=Path('.')):
         if video['video_id'] in integrated_ids:
             video['integration']='integrated'
             video['integration_reason']='Option conditionnelle intégrée au moteur, fiche constructeur contrôlée. Estimation de surface non mesurée; montage complet à confirmer.'
+    for video in videos:
+        review=review_by_id.get(video['video_id'],{})
+        scope=review.get('scope','')
+        video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_')) else 'technical_review') if video.get('analysis')=='interpreted' else None
+        if review.get('integration')=='conditional_board_selection':
+            video['integration']='integrated'
+        elif review.get('integration') in ('conditional_caution','conditional_setup'):
+            video['integration']='advice_integrated'
     publishers=load(root/'data/research/video_publishers.json',{})
     for row in load(discovery,{}).get('videos',[]):
         vid=row.get('url','').split('v=')[-1].split('&')[0]
@@ -76,6 +84,8 @@ def build(root=Path('.')):
       'analysis_schedule':'Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.',
       'monitored_publishers':load(root/'data/research/monitored_publishers.json',{}).get('publishers',[]),
       'videos':videos,'improvements':[
+       {'title':'Midlength Mk II X-Form : volumes vérifiés et sélection conditionnelle','detail':'Neuf volumes constructeur ajoutés. Réservée aux niveaux intermédiaires et avancés ; priorité facilité sans sinker implicite. Essais 55, 65 et 85 L contextualisés, sans note de performance inventée.','commit':'main'},
+       {'title':'Six essais : conseils par taille et montage','detail':'Enduro 2024, One-Lock 725 et 1525, MA MkII, UHA et Nomad : choix des tails, limites de glisse et contexte des tests. Conseils intégrés, sans modification arbitraire des notes.','commit':'main'},
        {'title':'Glide 825 et Halo 670/800 : options conditionnelles','detail':'Glide pour glisse/allround à partir du niveau intermédiaire; Halo pour surf/saut avancé. Priorité facilité exclue. Fiches constructeur contrôlées, sans notes inventées ni plage de vent garantie.','commit':'main'},
        {'title':'Silk V2 : préserver la facilité','detail':'650 remplacée au minimum par 750 si priorité facilité ou niveau inférieur à 3. Précaution éditoriale, pas seuil mesuré.','video_id':'DMlWjjIcwss','commit':'fd8287a'},
        {'title':'Planche : éviter un sinker implicite','detail':'Priorité facilité : volume inférieur au poids écarté, sauf départ sinker explicite. Ne garantit pas la stabilité.','video_id':'NTOAhBM2Wms','commit':'ca659d2'},

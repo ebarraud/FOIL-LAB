@@ -39,3 +39,22 @@ console.log('Glide and Halo conditional recommendation checks passed');
 sandbox.foilTarget=()=>825;assert.match(sandbox.foilOptions(glide).find(o=>o.f.n==='Glide 3.0 D/LAB').evidence.setup,/H130/);assert.match(sandbox.foilOptions({...glide,p:'all'}).find(o=>o.f.n==='Glide 3.0 D/LAB').evidence.setup,/PX145/);
 
 assert.match(sandbox.transcriptSuitability({b:'Duotone',n:'Crest D/LAB'},1050,profile).caution,/H185 est seulement envisagé/);
+
+assert.match(sandbox.transcriptSuitability({b:'Slingshot',n:'One-Lock Glide'},1525,profile).setup,/Turbo 180/);
+assert.match(sandbox.transcriptSuitability({b:'KT',n:'Nomad'},700,profile).setup,/155/);
+assert.match(sandbox.transcriptSuitability({b:'KT',n:'Nomad'},1160,profile).setup,/190/);
+assert.match(sandbox.transcriptSuitability({b:'KT',n:'Nomad'},830,profile).setup,/pas isolés/);
+assert.match(sandbox.transcriptSuitability({b:'Armstrong',n:'UHA'},870,profile).caution,/pas un racefoil/);
+
+const boardFamilies=source.slice(source.indexOf('const BOARDS=['),source.indexOf('const VERIFY=')).replace('const BOARDS=','globalThis.BOARDS=');
+vm.runInContext(boardFamilies,sandbox);
+vm.runInContext(source.slice(source.indexOf('function boardTarget('),source.indexOf('function foilMarkup(')),sandbox);
+const ml=sandbox.BOARDS.find(b=>b.n==='Midlength Mk II X-Form');
+assert.ok(ml);assert.equal(ml.sizes.find(a=>a[0]===55)[1],162.56);
+sandbox.BOARDS=[ml];
+const bp={w:85,l:2,wind:18,st:'normal',start:'auto',bt:'midi',p:'all',pr:'easy',water:'flat'};
+assert.ok(sandbox.boardOptions(bp).length>0);
+assert.ok(sandbox.boardOptions(bp).every(b=>b.v>=85));
+assert.equal(sandbox.boardOptions({...bp,l:0}).length,0);
+assert.equal(sandbox.boardOptions({...bp,maxL:150}).length,0);
+console.log('MkII board catalogue and profile checks passed');

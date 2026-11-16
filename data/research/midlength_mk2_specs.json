@@ -1,0 +1,76 @@
+{
+  "manufacturer_url": "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board",
+  "checked_on": "2026-11-16",
+  "conversion": "1 inch = 2.54 cm",
+  "tested_volumes_l": [
+    55,
+    65,
+    85
+  ],
+  "specs": [
+    {
+      "volume_l": 38,
+      "length_in": 56,
+      "width_in": 18.125,
+      "length_cm": 142.24,
+      "width_cm": 46.038
+    },
+    {
+      "volume_l": 45,
+      "length_in": 60,
+      "width_in": 18.625,
+      "length_cm": 152.4,
+      "width_cm": 47.307
+    },
+    {
+      "volume_l": 55,
+      "length_in": 64,
+      "width_in": 19.125,
+      "length_cm": 162.56,
+      "width_cm": 48.578
+    },
+    {
+      "volume_l": 65,
+      "length_in": 68,
+      "width_in": 19.625,
+      "length_cm": 172.72,
+      "width_cm": 49.848
+    },
+    {
+      "volume_l": 75,
+      "length_in": 72,
+      "width_in": 20.375,
+      "length_cm": 182.88,
+      "width_cm": 51.752
+    },
+    {
+      "volume_l": 85,
+      "length_in": 76,
+      "width_in": 21.375,
+      "length_cm": 193.04,
+      "width_cm": 54.293
+    },
+    {
+      "volume_l": 100,
+      "length_in": 80,
+      "width_in": 22.25,
+      "length_cm": 203.2,
+      "width_cm": 56.515
+    },
+    {
+      "volume_l": 115,
+      "length_in": 83,
+      "width_in": 22.75,
+      "length_cm": 210.82,
+      "width_cm": 57.785
+    },
+    {
+      "volume_l": 130,
+      "length_in": 86,
+      "width_in": 23.25,
+      "length_cm": 218.44,
+      "width_cm": 59.055
+    }
+  ],
+  "scores_generated": 0
+}

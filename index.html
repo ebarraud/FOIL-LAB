@@ -125,6 +125,7 @@ const FOILS=[
  {b:'Cabrinha',n:'Whippit',sizes:[750,850,1000],range:[3,4],tags:['surf','speed','jump'],ar:'selon taille',lift:.9,quote:'Rapide, très réactif, virages engagés sur forte puissance.',risk:'Exige de la vitesse et n’est pas prioritaire en vent faible.',src:'https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/',e:'essai indépendant',weightAnchor:850}
 ];
 const BOARDS=[
+ {b:'Armstrong',n:'Midlength Mk II X-Form',kind:'midi',level:2,sizes:[[38, 142.24, 46.038], [45, 152.4, 47.307], [55, 162.56, 48.578], [65, 172.72, 49.848], [75, 182.88, 51.752], [85, 193.04, 54.293], [100, 203.2, 56.515], [115, 210.82, 57.785], [130, 218.44, 59.055]],about:'Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.',src:'https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board'},
  {b:'F-ONE',n:'Rocket Wing Midlength',kind:'midi',level:1,sizes:[[72,178,47],[82,183,48.5],[95,188,51.3],[105,193,53.8],[115,198,55.9],[130,203,58.4],[150,208,62.2]],about:'Midlength performante : accélération et faible traînée, étroite pour un départ dans le clapot.',src:'https://www.f-one.world/en/foilboards/wingfoilboards/rocket-wing-midlength.html'},
  {b:'AFS',n:'Blackbird Mid Length Carbon',kind:'midi',level:1,sizes:[[50,161,48.3],[65,163,48.3],[75,167,52],[82,173,54],[90,182,55],[100,190,57]],about:'Midlength relativement courte ; 82/90/100 L donnent un compromis différent des shapes très étirés.',src:'https://afs-foiling.com/screw-size'},
  {b:'Naish',n:'Chimera 2026',kind:'midi',level:1,sizes:[[38,137,46],[48,147,47],[53,160,47.8],[58,173,48.8],[68,183,50.3],[78,185,52.1],[88,191,53.8],[108,198,57.7],[128,206,61],[148,213,66]],about:'Longue/étroite avec nombreuses tailles ; Naish marque les grandes tailles débutant/intermédiaire.',src:'https://www.naish.com/products/chimera-2026'},
@@ -149,6 +150,7 @@ const VERIFY={
  'Naish|Chimera 2026':{year:'2026',primary:'https://www.naish.com/products/chimera-2026'}
 };
 const boardVerify={
+ 'Armstrong|Midlength Mk II X-Form':{year:'MkII X-Form · génération contrôlée',e:'Dimensions constructeur · essais 55/65/85 L',test:'https://www.youtube.com/watch?v=3EObhbc9v-o&t=571s',testLabel:'Essai 55 L · profil avancé'},
  'Naish|Chimera 2026':{year:'2026',e:'Dimensions et volumes Naish vérifiés',test:'https://www.reddit.com/r/wingfoil/comments/1tki63w/board_advice/'},
  'AFS|Blackbird Mid Length Carbon':{year:'Gamme répertoriée 2026',e:'Dimensions AFS vérifiées',test:'https://www.reddit.com/r/wingfoil/comments/1tki63w/board_advice/'},
  'AFS|Blackbird Skinny':{year:'Gamme répertoriée 2026',e:'Dimensions AFS vérifiées'},
@@ -177,6 +179,40 @@ function foilTarget(x){
 }
 function transcriptSuitability(f,size,x){
  const rule={minimumSize:null,reason:'',caution:'',url:''};
+ if(f.b==='Armstrong'&&f.n==='UHA'){
+  rule.reason='Essais identifiés : 670/870/1270, montage Surf 130/200 et fuselage 60. Pas de résultat extrapolé à la 570.';
+  rule.caution='UHA : rayon plus large qu’une MA, pas un racefoil selon le testeur; le tangage devient plus sensible à très basse vitesse. La stabilité n’est pas absolue.';
+  rule.url='https://www.youtube.com/watch?v=rVRUSW09BD4&t=534s';return rule;
+ }
+ if(f.b==='KT'&&f.n==='Nomad'){
+  rule.setup=size===700?'Montage du test 700 : tail 155 / fuselage 56 cm; vérifier références et cales auprès du constructeur.':size===1160?'Montage du test 1160 : tail 190 / fuselage 63 cm; pas le même compromis que la 700.':'Les montages précis des 830/980 ne sont pas isolés dans cet essai; ne pas copier automatiquement le montage 700 ou 1160.';
+  rule.reason='Le contrôle rapporté concerne deux montages distincts. La 700 est plus orientée pop que la 1160 dans ce test.';
+  rule.caution='Le choix de cale neutre du testeur est personnel et ne remplace pas le réglage constructeur. Aucune plage de poids garantie.';
+  rule.url='https://www.youtube.com/watch?v=pHJ6b-JRCLg&t=82s';return rule;
+ }
+ if(f.b==='Slingshot'&&f.n==='One-Lock Glide'&&size===1525){
+  rule.setup='Wing : Turbo 180 préféré dans l’essai; pumping dédié : tail 145 préféré pour réduire l’effort. Référence exacte à confirmer.';
+  rule.reason='Sur le 1525 testé, alterner wing et pumping implique deux choix de tail; une préférence du 725 ne suffit pas.';
+  rule.caution='Les exemples 60–80 kg et 9–10 nœuds restent contextualisés; ils ne garantissent ni départ ni accessibilité à tous les niveaux.';
+  rule.url='https://www.youtube.com/watch?v=QepHH2KIVOY&t=234s';return rule;
+ }
+ if(f.b==='Slingshot'&&f.n==='One-Lock Glide'){
+  rule.setup=x.pr==='easy'?'Turbo : préférence du testeur pour le calme et la stabilité.':'Flirt : préférence du testeur pour courbes et pop, au prix d’un tangage plus sensible.';
+  rule.reason='Essai du 725 : choisir aussi le tail selon le contrôle recherché, pas seulement la surface avant.';
+  rule.caution='La facilité de gamme ne valide pas le 725 pour un débutant : petite taille décrite pour gabarit léger ou conditions soutenues et pratique maîtrisée. Les conseils aux autres tailles restent à confirmer.';
+  rule.url='https://www.youtube.com/watch?v=ZEsZKUqHyxE&t=535s';return rule;
+ }
+ if(f.b==='Armstrong'&&f.n==='MA Mk II'){
+  rule.setup=x.p==='surf'?'Surf 130/200 cités dans l’essai 690/990 : contrôle et carving. Référence exacte à choisir avec le constructeur.':'Surf : contrôle et basse vitesse; Speed tail envisagé par le testeur pour davantage de vitesse/glisse. Taille et référence à confirmer.';
+  rule.reason='Sur les 690/990 essayées, le stabilisateur participe au compromis carving/glisse; conserver de la vitesse aide les manœuvres.';
+  rule.caution='Les avis communs 690/990 ne sont pas des mesures de toutes les tailles. Une jibe et un départ maîtrisés sont recommandés par le testeur.';
+  rule.url='https://www.youtube.com/watch?v=93t-YEPyyhc&t=438s';return rule;
+ }
+ if(f.b==='AFS'&&f.n==='Enduro'){
+  rule.caution='L’essai 2024 des 700/1100 avec stabilisateur 145 décrit des réceptions de saut très freinantes. Ne pas extrapoler la performance freestyle ou l’effet des ondulations aux générations suivantes.';
+  rule.reason='Le contexte de génération et de montage est conservé; pumping modéré vers l’avant plutôt qu’excès d’appui avant selon le test.';
+  rule.url='https://www.youtube.com/watch?v=xB5QMIjU6Ps&t=435s';return rule;
+ }
  if(f.b==='Duotone'&&f.n==='Crest D/LAB'){
   rule.caution='Essai court Crest 1050 : PX175 annoncé avec rider 82 kg, board 80 L et wing 5.5. Le H185 est seulement envisagé; aucune garantie de départ à 12 nœuds ni extrapolation aux autres tailles.';
   rule.reason='Le choix du stabilisateur fait partie du résultat : conserver la configuration de l’essai et distinguer les montages seulement envisagés.';
@@ -264,7 +300,7 @@ function foilMarkup(o,i,x){
  <p class="why"><b>Argument technique :</b> ${o.why}</p>
  <p class="downside"><b>Contre-indication / compromis :</b> ${o.caveat}</p>
  ${o.evidence?.reason?`<div class="tip"><b>Choix ajusté par les essais :</b> ${o.evidence.reason} <a href="${o.evidence.url}" target="_blank" rel="noopener">Vérifier le passage</a></div>`:''}
- ${o.evidence?.setup?`<div class="mini"><b>Montage à essayer :</b> ${o.evidence.setup} <a href="https://www.youtube.com/watch?v=pPXyFWHSd-U&t=99s" target="_blank" rel="noopener">Avis du testeur</a></div>`:''}
+ ${o.evidence?.setup?`<div class="mini"><b>Montage à essayer :</b> ${o.evidence.setup} <a href="${o.f.n==='Glide 3.0 D/LAB'?'https://www.youtube.com/watch?v=pPXyFWHSd-U&t=99s':o.evidence.url}" target="_blank" rel="noopener">Avis du testeur</a></div>`:''}
  <div class="mini"><b>Compatibilité — ${cp.status} :</b> ${cp.detail}</div>
  <div class="mini"><b>Interface :</b> ${v?.system||'Interface exacte non documentée pour ce modèle : référence à vérifier.'}</div>
  <div class="small"><b>Essais / réglages :</b> ${v?.note||'Aucune mesure comparative indépendante homogène disponible : essai réel recommandé.'}</div>
@@ -275,7 +311,7 @@ function boardMarkup(o,i,x){const bv=boardVerify[o.b.b+'|'+o.b.n]||{};const delt
 return `<article class="${i?'runner':'leader'}"><div class="resulthead"><span class="stamp">${i?'ALTERNATIVE '+i:'RECOMMANDATION PRINCIPALE'}</span><span class="evidence">${bv.e||'Données catalogue'}</span></div><h3>${o.b.b} ${o.b.n} — ${o.v} L</h3>
 <div class="stat">${bv.year||'Année à contrôler'} · ${o.len} × ${fmt(o.wid)} cm · ${o.b.kind==='midi'?'midlength':o.b.kind==='dw'?'downwind':'compacte'} · Flottabilité théorique ${delta>=0?'+':''}${delta} L vs masse du rider</div>
 <p class="why"><b>Pourquoi :</b> ${o.why}</p><p class="downside"><b>Limite :</b> ${o.caveat}</p><p class="mini"><b>Lecture expert :</b> un différentiel de volume de ${delta} L ne préjuge pas de la stabilité : considérer aussi les ${fmt(o.wid)} cm de largeur, la forme des rails, le clapot et le poids du foil.</p>
-<p><a href="${o.b.src}" rel="noopener" target="_blank">Données constructeur ↗</a>${bv.test?` · <a href="${bv.test}" rel="noopener" target="_blank">Témoignages contradictoires ↗</a>`:''}</p>
+<p><a href="${o.b.src}" rel="noopener" target="_blank">Données constructeur ↗</a>${bv.test?` · <a href="${bv.test}" rel="noopener" target="_blank">${bv.testLabel||'Essais / témoignages'} ↗</a>`:''}</p>
 <label class="pick"><input type="checkbox" data-pick="board" value="${o.b.b}|${o.b.n}|${o.v}"/> Comparer ce modèle</label></article>`}
 function renderComparison(){const chosen=[...document.querySelectorAll('input[data-pick]:checked')].map(e=>({type:e.dataset.pick,raw:e.value}));const c=$('compare');if(!chosen.length){c.innerHTML='<div class="small">Coche les propositions pour préparer une comparaison personnalisée. Les comparaisons portent sur les attributs vérifiés, pas sur des scores de vitesse inventés.</div>';return;} c.innerHTML='<h3>Ma liste restreinte</h3>'+chosen.map(a=>`<div class="mini">${a.type==='foil'?'Aile avant':'Board'} : <b>${a.raw.split('|').join(' · ')}</b></div>`).join('')+'<button class="action" id="copycompare">Copier la shortlist</button>'; $('copycompare').onclick=()=>{const t=chosen.map(a=>(a.type==='foil'?'Aile avant':'Board')+' : '+a.raw.split('|').join(' — ')).join('\n');if(navigator.clipboard)navigator.clipboard.writeText(t).then(()=>alert('Shortlist copiée')).catch(()=>prompt('Copier la liste',t));else prompt('Copier la liste',t)};}
 function render(){const x=c(),ft=foilTarget(x),bt=boardTarget(x),fk=boardKind(x),fo=foilOptions(x),bo=boardOptions(x);

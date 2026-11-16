@@ -162,11 +162,19 @@
     },
     {
       "video_id": "xB5QMIjU6Ps",
-      "status": "in_progress",
-      "step": "Lot de rattrapage : Enduro, One-Lock 725 et MA MkII, portée des tailles et règles",
+      "status": "completed",
+      "step": "Trois essais complets et quinze observations : conseils Enduro, One-Lock et MA MkII intégrés",
       "started_at_utc": "2026-11-16T18:48:45.127178+00:00",
-      "updated_at_utc": "2026-11-16T18:48:45.127178+00:00",
-      "expires_at_utc": "2026-11-16T19:08:45.127178+00:00"
+      "updated_at_utc": "2026-11-16T18:49:56.162430+00:00",
+      "expires_at_utc": "2026-11-16T19:09:56.162430+00:00"
+    },
+    {
+      "video_id": "oNue1Vm0nWA",
+      "status": "in_progress",
+      "step": "Lecture intégrale du lot restant : qualification des contenus courts et essais techniques",
+      "started_at_utc": "2026-11-16T18:56:46.715031+00:00",
+      "updated_at_utc": "2026-11-16T18:56:46.715031+00:00",
+      "expires_at_utc": "2026-11-16T19:16:46.715031+00:00"
     }
   ]
 }

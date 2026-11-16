@@ -937,6 +937,573 @@
           "source_url": "https://www.youtube.com/watch?v=4znqnlzx0Dg&t=88s"
         }
       ]
+    },
+    {
+      "video_id": "xB5QMIjU6Ps",
+      "model": "AFS Enduro — essai 2024 700/1100",
+      "language_returned": "de",
+      "transcript_sha256": "3908a51191b6810eccd2c27198c466173a336fab5238444106caebb87157bdb2",
+      "review_method": "Lecture de tous les segments retournés, musique exclue; pas de contrôle audio ou visuel.",
+      "tested_sizes_cm2": [
+        700,
+        1100
+      ],
+      "integration": "conditional_caution",
+      "integration_reason": "Conseils de montage et limites de programme ajoutés au moteur sans recalibrer de score. Générations et tailles testées conservées explicitement.",
+      "claims": [
+        {
+          "start_s": 203.3,
+          "end_s": 260.3,
+          "dimension": "takeoff",
+          "statement_fr": "Les 700 et 1100 sont décrites comme faciles à mettre en vol par pumping modéré vers l’avant, avec moins de tolérance à un excès d’appui avant que le Glide comparé.",
+          "limits": "Vent, rider et montage de comparaison non isolés; aucune équivalence de surface ou seuil de vent.",
+          "source_url": "https://www.youtube.com/watch?v=xB5QMIjU6Ps&t=203s"
+        },
+        {
+          "start_s": 307.4,
+          "end_s": 353.6,
+          "dimension": "carving",
+          "statement_fr": "Le testeur apprécie la mise en roulis sans effort marqué, en soulignant l’agilité de la 700.",
+          "limits": "Aucune mesure de rayon ou comparaison à surfaces appariées.",
+          "source_url": "https://www.youtube.com/watch?v=xB5QMIjU6Ps&t=307s"
+        },
+        {
+          "start_s": 363.8,
+          "end_s": 431.1,
+          "dimension": "control",
+          "statement_fr": "Avec le stabilisateur 145 annoncé, le testeur décrit un tangage stable dans les deux positions de fixation essayées; il demande néanmoins une expérience préalable.",
+          "limits": "Commentaire commun aux deux ailes, pas un test de première initiation.",
+          "source_url": "https://www.youtube.com/watch?v=xB5QMIjU6Ps&t=363s"
+        },
+        {
+          "start_s": 435.6,
+          "end_s": 477.3,
+          "dimension": "pumping,jump_limits",
+          "statement_fr": "Le pumping à faible amplitude est jugé efficace; les réceptions de saut sont décrites comme très freinantes, ce qui limite son conseil pour cet usage.",
+          "limits": "Ressenti de montage 2024; pas une interdiction universelle ou un transfert aux générations suivantes.",
+          "source_url": "https://www.youtube.com/watch?v=xB5QMIjU6Ps&t=435s"
+        },
+        {
+          "start_s": 580.8,
+          "end_s": 606.1,
+          "dimension": "causality_limits",
+          "statement_fr": "Le testeur refuse d’attribuer les qualités aux ondulations de bord d’attaque faute de modèle identique sans ces ondulations.",
+          "limits": "Aucune explication causale de performance déduite de la seule forme.",
+          "source_url": "https://www.youtube.com/watch?v=xB5QMIjU6Ps&t=580s"
+        }
+      ]
+    },
+    {
+      "video_id": "ZEsZKUqHyxE",
+      "model": "Slingshot One-Lock Glide 725",
+      "language_returned": "en",
+      "transcript_sha256": "9d81e048bab83cd38e661f51880542d25e60c757d16740d595dfe98a3a2b86c9",
+      "review_method": "Lecture de tous les segments retournés, musique exclue; pas de contrôle audio ou visuel.",
+      "tested_sizes_cm2": [
+        725
+      ],
+      "integration": "conditional_caution",
+      "integration_reason": "Conseils de montage et limites de programme ajoutés au moteur sans recalibrer de score. Générations et tailles testées conservées explicitement.",
+      "claims": [
+        {
+          "start_s": 212.5,
+          "end_s": 270,
+          "dimension": "takeoff",
+          "statement_fr": "Le testeur rapporte un départ facile, éventuellement peu actif si la wing tire suffisamment, avec des testeurs de 65–75 kg et différentes boards.",
+          "limits": "Le poids décrit le test; ce n’est pas une plage garantie du 725 ni un départ garanti en vent faible.",
+          "source_url": "https://www.youtube.com/watch?v=ZEsZKUqHyxE&t=212s"
+        },
+        {
+          "start_s": 285,
+          "end_s": 369,
+          "dimension": "setup,control",
+          "statement_fr": "Turbo privilégie le calme et le contrôle du tangage; Flirt donne plus de mobilité et un tangage plus sensible selon le testeur.",
+          "limits": "Résultat du montage complet; tailles des tails et références exactes à confirmer avant achat.",
+          "source_url": "https://www.youtube.com/watch?v=ZEsZKUqHyxE&t=285s"
+        },
+        {
+          "start_s": 381.9,
+          "end_s": 510,
+          "dimension": "carving,glide",
+          "statement_fr": "Le Glide est jugé joueur près de la face de vague; le testeur prévient de ne pas compter autant sur sa glisse que sur le Flow comparé.",
+          "limits": "Taille Flow non identifiée ici; comparaison qualitative, aucune note numérique.",
+          "source_url": "https://www.youtube.com/watch?v=ZEsZKUqHyxE&t=381s"
+        },
+        {
+          "start_s": 535.7,
+          "end_s": 614.4,
+          "dimension": "size_selection,setup",
+          "statement_fr": "Le testeur conseille Turbo pour la stabilité et Flirt pour la maniabilité. Il nuance ensuite la 725 : petite taille pour rider léger ou conditions soutenues et pratique maîtrisée.",
+          "limits": "Ne pas transformer son propos de facilité générale de gamme en conseil de 725 pour tout débutant.",
+          "source_url": "https://www.youtube.com/watch?v=ZEsZKUqHyxE&t=535s"
+        }
+      ]
+    },
+    {
+      "video_id": "93t-YEPyyhc",
+      "model": "Armstrong MA MkII 690/990",
+      "language_returned": "de",
+      "transcript_sha256": "264e736f504c57b48f8b8daed16f50001d0811d85bb894c47dc0f8a738533411",
+      "review_method": "Lecture de tous les segments retournés, musique exclue; pas de contrôle audio ou visuel.",
+      "tested_sizes_cm2": [
+        690,
+        990
+      ],
+      "integration": "conditional_caution",
+      "integration_reason": "Conseils de montage et limites de programme ajoutés au moteur sans recalibrer de score. Générations et tailles testées conservées explicitement.",
+      "claims": [
+        {
+          "start_s": 110.7,
+          "end_s": 158,
+          "dimension": "setup",
+          "statement_fr": "Les ailes essayées sont les 690 et 990, avec stabilisateurs Surf 130/200 et mât HM 86,5 cm annoncés.",
+          "limits": "Correspondance exacte tail/taille pour chaque manœuvre non fournie.",
+          "source_url": "https://www.youtube.com/watch?v=93t-YEPyyhc&t=110s"
+        },
+        {
+          "start_s": 253.9,
+          "end_s": 325,
+          "dimension": "takeoff",
+          "statement_fr": "Le testeur juge le départ amélioré par rapport à la première MA et le rapproche de concurrents, tout en donnant un léger avantage au Crest comparé.",
+          "limits": "Génération et surface des concurrents non toutes isolées; aucune table d’équivalence.",
+          "source_url": "https://www.youtube.com/watch?v=93t-YEPyyhc&t=253s"
+        },
+        {
+          "start_s": 333.7,
+          "end_s": 428.7,
+          "dimension": "control,carving",
+          "statement_fr": "Le testeur apprécie l’amélioration du tangage par rapport à la première MA tout en conservant les courbes serrées.",
+          "limits": "Appréciation commune aux 690/990, pas deux mesures identiques par taille.",
+          "source_url": "https://www.youtube.com/watch?v=93t-YEPyyhc&t=333s"
+        },
+        {
+          "start_s": 438,
+          "end_s": 562.9,
+          "dimension": "setup,glide",
+          "statement_fr": "Les Surf tails sont décrits comme favorisant la tolérance basse vitesse et les courbes; le testeur propose un Speed tail si vitesse et glisse prolongée deviennent prioritaires.",
+          "limits": "Conseil de tail contextualisé; taille du Speed tail non précisée, aucune compatibilité automatique.",
+          "source_url": "https://www.youtube.com/watch?v=93t-YEPyyhc&t=438s"
+        },
+        {
+          "start_s": 606.9,
+          "end_s": 668.1,
+          "dimension": "wave_energy",
+          "statement_fr": "Dans les petites vagues, rester près de la partie énergique ou ajouter du pumping aide selon le testeur; la glisse seule n’est pas son meilleur atout.",
+          "limits": "Pas de distance de pumping ni de rendement mesuré.",
+          "source_url": "https://www.youtube.com/watch?v=93t-YEPyyhc&t=606s"
+        },
+        {
+          "start_s": 716.6,
+          "end_s": 775.4,
+          "dimension": "accessibility_limits",
+          "statement_fr": "La conduite gagne à conserver de la vitesse; le testeur souhaite au moins un départ normal et une jibe maîtrisés avant de choisir cette aile.",
+          "limits": "Niveau décrit qualitativement, pas seuil universel; ne pas qualifier d’initiation absolue.",
+          "source_url": "https://www.youtube.com/watch?v=93t-YEPyyhc&t=716s"
+        }
+      ]
+    },
+    {
+      "video_id": "rVRUSW09BD4",
+      "model": "Armstrong UHA 670/870/1270",
+      "language_returned": "de",
+      "transcript_sha256": "7bca33d6609b2e1bc058ddc340dc8694d0e958d9682e23ad905e1e419aa5b6d2",
+      "review_method": "Lecture intégrale de tous les segments allemands retournés, musique exclue; pas de contrôle audio.",
+      "integration": "conditional_caution",
+      "integration_reason": "Montages et limites incorporés dans les conseils du moteur, sans nouveaux scores ou seuils de vent/poids.",
+      "claims": [
+        {
+          "start_s": 128.1,
+          "end_s": 173.1,
+          "dimension": "setup",
+          "statement_fr": "Les tailles 670/870/1270 sont essayées avec un fuselage 60, un mât 86,5 cm et des Surf tails 130/200 annoncés.",
+          "limits": "Association tail/taille exacte non isolée; pas une validation de toute combinaison.",
+          "source_url": "https://www.youtube.com/watch?v=rVRUSW09BD4&t=128s"
+        },
+        {
+          "start_s": 211.6,
+          "end_s": 260.1,
+          "dimension": "takeoff",
+          "statement_fr": "Le testeur apprécie un départ progressif et souligne que la board qui accélère mieux demande moins de pumping.",
+          "limits": "La mention sous 15 nœuds ne fournit pas taille, poids et montage appariés; pas de plage basse garantie.",
+          "source_url": "https://www.youtube.com/watch?v=rVRUSW09BD4&t=211s"
+        },
+        {
+          "start_s": 267.6,
+          "end_s": 389,
+          "dimension": "glide,pumping",
+          "statement_fr": "Le testeur apprécie le temps disponible en glisse pour manipuler la parawing et l’efficacité de relance au pumping.",
+          "limits": "Ressenti commun aux tailles, sans distance ni effort mesuré; Surf tails utilisés sans comparaison complète des autres stabs.",
+          "source_url": "https://www.youtube.com/watch?v=rVRUSW09BD4&t=267s"
+        },
+        {
+          "start_s": 534.4,
+          "end_s": 604.6,
+          "dimension": "control,limits",
+          "statement_fr": "Le rayon reste plus grand qu’une MA; le testeur précise que ce n’est pas un racefoil et relève davantage de sensibilité en tangage tout en bas de la plage de vitesse.",
+          "limits": "Aucune vitesse limite mesurée; garder ces restrictions dans les conseils, sans promesse de stabilité absolue.",
+          "source_url": "https://www.youtube.com/watch?v=rVRUSW09BD4&t=534s"
+        },
+        {
+          "start_s": 637.8,
+          "end_s": 658.2,
+          "dimension": "size_scope",
+          "statement_fr": "Le testeur cite l’agilité de la 670 tout en précisant n’avoir pas essayé la 570.",
+          "limits": "Ne pas transposer les retours aux tailles non essayées.",
+          "source_url": "https://www.youtube.com/watch?v=rVRUSW09BD4&t=637s"
+        }
+      ]
+    },
+    {
+      "video_id": "pHJ6b-JRCLg",
+      "model": "KT Nomad 700/1160",
+      "language_returned": "de",
+      "transcript_sha256": "a47d00b38c48695ac6e83a4965bd867e982f68edb289f938e5cdd3e8cdd3aab4",
+      "review_method": "Lecture intégrale de tous les segments allemands retournés, musique exclue; pas de contrôle audio.",
+      "integration": "conditional_caution",
+      "integration_reason": "Montages et limites incorporés dans les conseils du moteur, sans nouveaux scores ou seuils de vent/poids.",
+      "claims": [
+        {
+          "start_s": 82.2,
+          "end_s": 175.6,
+          "dimension": "setup",
+          "statement_fr": "Le test associe la 1160 à un stabilisateur 190 et fuselage 63 cm, et la 700 à un 155 et fuselage 56 cm, sur mât carbone 85. Le testeur retient une cale neutre après essais.",
+          "limits": "Tailles du stab déformées par l’ASR mais contexte cohérent; le choix de cale neutre n’annule pas les recommandations constructeur et reste personnel.",
+          "source_url": "https://www.youtube.com/watch?v=pHJ6b-JRCLg&t=82s"
+        },
+        {
+          "start_s": 198.8,
+          "end_s": 269,
+          "dimension": "takeoff",
+          "statement_fr": "Le testeur juge le départ des deux tailles très progressif sur plusieurs boards, avec une légère préférence de facilité à l’Atlas comparé pour les moins expérimentés.",
+          "limits": "Les pourcentages prononcés n’ont pas de protocole; ils ne deviennent pas une différence mesurée.",
+          "source_url": "https://www.youtube.com/watch?v=pHJ6b-JRCLg&t=198s"
+        },
+        {
+          "start_s": 280,
+          "end_s": 429.6,
+          "dimension": "control,speed",
+          "statement_fr": "Le testeur apprécie le contrôle et la mise en courbe avec peu d’effort, en distinguant bonne vitesse et recherche de vitesse maximale.",
+          "limits": "Stabilité ressentie sur les montages du test, non mesure commune à toutes les tailles.",
+          "source_url": "https://www.youtube.com/watch?v=pHJ6b-JRCLg&t=280s"
+        },
+        {
+          "start_s": 469.5,
+          "end_s": 530.8,
+          "dimension": "freestyle,size",
+          "statement_fr": "La 700 est jugée plus adaptée au pop et à la reprise après saut que la 1160 plus grande.",
+          "limits": "Ce contraste ne valide pas les mêmes performances sur 830/980 non essayées dans cette vidéo.",
+          "source_url": "https://www.youtube.com/watch?v=pHJ6b-JRCLg&t=469s"
+        },
+        {
+          "start_s": 539.2,
+          "end_s": 601.8,
+          "dimension": "surf,limits",
+          "statement_fr": "Le testeur décrit un surf facile et contrôlé, sans présenter le Nomad comme la machine au carving le plus radical.",
+          "limits": "Comparaisons qualitatives et conditions locales non quantifiées.",
+          "source_url": "https://www.youtube.com/watch?v=pHJ6b-JRCLg&t=539s"
+        }
+      ]
+    },
+    {
+      "video_id": "QepHH2KIVOY",
+      "model": "Slingshot One-Lock Glide 1525",
+      "language_returned": "de",
+      "transcript_sha256": "3513685227f7f7c96dd5aa63510c0f0b29f018f724a634bd06b62487289d5d56",
+      "review_method": "Lecture intégrale de tous les segments allemands retournés, musique exclue; pas de contrôle audio.",
+      "integration": "conditional_caution",
+      "integration_reason": "Montages et limites incorporés dans les conseils du moteur, sans nouveaux scores ou seuils de vent/poids.",
+      "claims": [
+        {
+          "start_s": 135.6,
+          "end_s": 162.4,
+          "dimension": "setup",
+          "statement_fr": "Le test compare un Flare/Flirt 145 et un Turbo 180 sur le 1525 avec mât HM 82.",
+          "limits": "Le nom du tail est variable dans l’ASR; référence commerciale exacte à confirmer.",
+          "source_url": "https://www.youtube.com/watch?v=QepHH2KIVOY&t=135s"
+        },
+        {
+          "start_s": 180.3,
+          "end_s": 228.2,
+          "dimension": "takeoff",
+          "statement_fr": "Le testeur décrit un départ précoce en wing, avec exemple 80 kg, wing 5,5–6 m² et board accélérant bien dans 9–10 nœuds annoncés.",
+          "limits": "Exemple contextualisé, pas seuil universel de décollage ni garantie météorologique.",
+          "source_url": "https://www.youtube.com/watch?v=QepHH2KIVOY&t=180s"
+        },
+        {
+          "start_s": 234,
+          "end_s": 288,
+          "dimension": "setup,pumping",
+          "statement_fr": "Pour le pumping dédié, le petit tail 145 demande selon le testeur moins d’énergie que le Turbo 180. En wing, il préfère le Turbo pour glisse et maintien du vol.",
+          "limits": "Ne pas transposer au 725 ni à une autre taille : le compromis dépend du programme et du montage.",
+          "source_url": "https://www.youtube.com/watch?v=QepHH2KIVOY&t=234s"
+        },
+        {
+          "start_s": 406.9,
+          "end_s": 477.5,
+          "dimension": "size_selection,limits",
+          "statement_fr": "Le testeur situe l’accessibilité vers 60–80 kg et souhaite plus d’expérience au-delà; le grand span limite les courbes les plus serrées.",
+          "limits": "Conseil éditorial, non plage de poids mesurée; ne pas créer un seuil automatique sans conditions.",
+          "source_url": "https://www.youtube.com/watch?v=QepHH2KIVOY&t=406s"
+        },
+        {
+          "start_s": 549.8,
+          "end_s": 646.5,
+          "dimension": "program",
+          "statement_fr": "Pour alterner wing et pumping, le testeur insiste sur le besoin de deux tails différents afin de conserver le compromis recherché.",
+          "limits": "Deux pratiques, pas un réglage unique optimal; poids du rider et niveau restent nécessaires.",
+          "source_url": "https://www.youtube.com/watch?v=QepHH2KIVOY&t=549s"
+        }
+      ]
+    },
+    {
+      "video_id": "3EObhbc9v-o",
+      "model": "Armstrong Midlength MkII X-Form 55 L",
+      "language_returned": "en",
+      "transcript_sha256": "de2046e42dc63b2dae063af493ed4b8dc9868a8efd138b27af2788b281a98057",
+      "review_method": "Lecture complète de tous les segments retournés; pas de contrôle audio. Version anglaise retournée, traduction probable pour Hadou.",
+      "integration": "conditional_board_selection",
+      "integration_reason": "Famille MkII X-Form ajoutée au moteur après contrôle des dimensions constructeur, à partir du niveau intermédiaire; volume et largeur filtrés par profil, sans transposer les volumes experts aux débutants.",
+      "claims": [
+        {
+          "start_s": 66,
+          "end_s": 141.8,
+          "dimension": "test_setup",
+          "statement_fr": "Hadou indique essayer la 55 L pour ses 62 kg et annonce 4 kg pesés pour la planche.",
+          "limits": "Poids déclaré et pesée du testeur, pas mesure indépendante de notre part.",
+          "source_url": "https://www.youtube.com/watch?v=3EObhbc9v-o&t=66s"
+        },
+        {
+          "start_s": 393.6,
+          "end_s": 467.8,
+          "dimension": "setup",
+          "statement_fr": "Il décrit un réglage sans cale de rake dans son montage, principalement avec UHA 770 et mât Performance X, puis MA MkII 690 dans des conditions plus soutenues.",
+          "limits": "Le montage ne valide pas l’absence de cale sur toute association de foil; repères de rails personnels.",
+          "source_url": "https://www.youtube.com/watch?v=3EObhbc9v-o&t=393s"
+        },
+        {
+          "start_s": 516.4,
+          "end_s": 617.1,
+          "dimension": "volume,skill",
+          "statement_fr": "Le testeur adopte la 55 L malgré un volume inférieur à ses 62 kg, en soulignant une pratique avancée et ses conditions personnelles.",
+          "limits": "Ne pas convertir ce choix en recommandation de volume pour débutant ou en garantie de départ par vent léger.",
+          "source_url": "https://www.youtube.com/watch?v=3EObhbc9v-o&t=516s"
+        },
+        {
+          "start_s": 621.4,
+          "end_s": 694.2,
+          "dimension": "carving,deck",
+          "statement_fr": "Il apprécie le grip et une position de pieds permettant de décaler les appuis pour surfer.",
+          "limits": "Ressenti personnel, comparaison à une autre planche non appariée en volume.",
+          "source_url": "https://www.youtube.com/watch?v=3EObhbc9v-o&t=621s"
+        },
+        {
+          "start_s": 759.3,
+          "end_s": 823.3,
+          "dimension": "system_scope",
+          "statement_fr": "Il apprécie les reconnexions et le confort d’ensemble avec UHA 770 et Surf 130; il rappelle que la planche et le foil contribuent ensemble au résultat.",
+          "limits": "Ne pas attribuer toute la glisse à la planche seule ni toutes les qualités au foil seul.",
+          "source_url": "https://www.youtube.com/watch?v=3EObhbc9v-o&t=759s"
+        }
+      ]
+    },
+    {
+      "video_id": "Oaw3GuMOTb0",
+      "model": "Armstrong Midlength MkII X-Form 65 L",
+      "language_returned": "en",
+      "transcript_sha256": "556d66a127b5bff4dd70396160d321e9ab212c4ad1a2cd88f4d427d7aef9dc82",
+      "review_method": "Lecture complète de tous les segments retournés; pas de contrôle audio. Version anglaise retournée, traduction probable pour Hadou.",
+      "integration": "conditional_board_selection",
+      "integration_reason": "Famille MkII X-Form ajoutée au moteur après contrôle des dimensions constructeur, à partir du niveau intermédiaire; volume et largeur filtrés par profil, sans transposer les volumes experts aux débutants.",
+      "claims": [
+        {
+          "start_s": 87.5,
+          "end_s": 106.4,
+          "dimension": "volume,skill",
+          "statement_fr": "Le locuteur choisit 65 L pour un poids annoncé de 180, dans un contexte anglophone vraisemblablement en livres, et se décrit pratiquant sachant déjà wingfoiler.",
+          "limits": "Unité non répétée : ne pas convertir comme poids certifié. Ce volume sous le poids n’est pas une consigne pour débutant.",
+          "source_url": "https://www.youtube.com/watch?v=Oaw3GuMOTb0&t=87s"
+        },
+        {
+          "start_s": 518.8,
+          "end_s": 640.5,
+          "dimension": "conditions,carving",
+          "statement_fr": "Après navigation, il apprécie la 65 L dans les grandes faces du Gorge, avec mât Performance X 79,5 cm annoncé et wings de 2,5 à 3,5 m² selon les sessions.",
+          "limits": "Vent 30–40 déclaré, non mesuré par nous; le ressenti ne prouve pas un départ facile en vent faible.",
+          "source_url": "https://www.youtube.com/watch?v=Oaw3GuMOTb0&t=518s"
+        },
+        {
+          "start_s": 676.2,
+          "end_s": 687.3,
+          "dimension": "takeoff_limits",
+          "statement_fr": "Le locuteur dit avoir peu de touchettes et reconnaît que le départ rapide pourrait être obtenu sur toute planche dans ce vent fort.",
+          "limits": "Ne pas isoler un gain de décollage du modèle sur cette base.",
+          "source_url": "https://www.youtube.com/watch?v=Oaw3GuMOTb0&t=676s"
+        },
+        {
+          "start_s": 689.8,
+          "end_s": 722.7,
+          "dimension": "balance,paddling",
+          "statement_fr": "Il ressent un équilibre plus homogène que sur l’ancienne midlength et a ramé brièvement pour rejoindre le vent.",
+          "limits": "Courte expérience à la rame, pas un essai prone complet.",
+          "source_url": "https://www.youtube.com/watch?v=Oaw3GuMOTb0&t=689s"
+        },
+        {
+          "start_s": 729.6,
+          "end_s": 776.8,
+          "dimension": "durability_forecast",
+          "statement_fr": "Il espère que le tail plus carré résistera mieux aux transports que son précédent pintail endommagé.",
+          "limits": "Hypothèse explicitement à tester, pas résultat de durabilité de la nouvelle planche.",
+          "source_url": "https://www.youtube.com/watch?v=Oaw3GuMOTb0&t=729s"
+        }
+      ]
+    },
+    {
+      "video_id": "oNue1Vm0nWA",
+      "model": "WING FOIL TEST GONG X-OVER V3 LAGO D’ISEO 2026 #wingfoiling #wingfoil #surf #foiling",
+      "language_returned": "en",
+      "language_note": "Langue du cache conservée; aucune écoute réalisée.",
+      "transcript_sha256": "1e965d3f1669a041c7d1b5d04db0a3274a969135f588809ec5b6211e17110dcd",
+      "review_method": "Lecture intégrale de tous les segments du cache; paraphrase sans contrôle audio.",
+      "scope": "music_only_no_technical_speech",
+      "integration": "deferred",
+      "integration_reason": "Aucune règle : pas de discours technique exploitable. Nouvelle action seulement si un autre essai commenté est trouvé.",
+      "claims": [
+        {
+          "start_s": 3.929,
+          "end_s": 30.84,
+          "dimension": "content_limit",
+          "statement_fr": "Le texte disponible contient une chanson et des marqueurs musicaux, sans commentaire technique sur le X-Over.",
+          "limits": "Le titre et les images non examinées ne permettent pas une conclusion de performance."
+        }
+      ]
+    },
+    {
+      "video_id": "bPKyMCmDJ4w",
+      "model": "Wing en setup GONG - Test insta 360 x5 #wing #wingfoil #gong #foil #foiling #insta360",
+      "language_returned": "en",
+      "language_note": "Langue du cache conservée; aucune écoute réalisée.",
+      "transcript_sha256": "83b2cf9dd485bdbc348aaafbd401869d4ab186d2a69e5acb20e0ecddd01bdad4",
+      "review_method": "Lecture intégrale de tous les segments du cache; paraphrase sans contrôle audio.",
+      "scope": "music_only_no_technical_speech",
+      "integration": "deferred",
+      "integration_reason": "Aucune intégration technique; rechercher une source commentée plutôt que déduire une performance du titre.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 59.48,
+          "dimension": "content_limit",
+          "statement_fr": "Le cache restitue des paroles musicales; aucun essai commenté du montage GONG ou de la caméra.",
+          "limits": "Le montage visible ne peut pas être évalué à partir de la chanson."
+        }
+      ]
+    },
+    {
+      "video_id": "7ZPSmL8rvaM",
+      "model": "Test foot strap Tribord de Decathlon pour wing foil, kite foil, surf foil",
+      "language_returned": "fr",
+      "language_note": "Langue du cache conservée; aucune écoute réalisée.",
+      "transcript_sha256": "c7aaafca2aed5bf4502b3bf950bf97535d3ccaf8e07edbd7b55716fad3589f4a",
+      "review_method": "Lecture intégrale de tous les segments du cache; paraphrase sans contrôle audio.",
+      "scope": "accessory_only_not_board_or_front_foil",
+      "integration": "deferred",
+      "integration_reason": "Accessoire hors sélection actuelle board/foil. Vérifier entraxes et visserie si une fonction straps est ajoutée.",
+      "claims": [
+        {
+          "start_s": 0.12,
+          "end_s": 27.199,
+          "dimension": "accessory",
+          "statement_fr": "Le présentateur apprécie le confort des straps Tribord, en précisant qu’ils ne sont pas réglables et proposent plusieurs trous de fixation.",
+          "limits": "Avis court; aucune mesure ni compatibilité universelle de visserie."
+        },
+        {
+          "start_s": 27.199,
+          "end_s": 38.92,
+          "dimension": "accessory",
+          "statement_fr": "La visserie est annoncée vendue séparément.",
+          "limits": "Prix anciens non repris; absence de validation de montage sur les boards du catalogue."
+        }
+      ]
+    },
+    {
+      "video_id": "K6UxTGgPgEo",
+      "model": "Endlich da! Das neue Tabou Rocket im Test!",
+      "language_returned": "de",
+      "language_note": "Langue du cache conservée; aucune écoute réalisée.",
+      "transcript_sha256": "28a05ecfa800b1aca7ba5aace3cf565615333d38c9834070654c833ccdbd9376",
+      "review_method": "Lecture intégrale de tous les segments du cache; paraphrase sans contrôle audio.",
+      "scope": "commercial_presentation",
+      "integration": "deferred",
+      "integration_reason": "Board pertinente mais présentation limitée : vérifier fiche Rocket Team 86 et obtenir un essai contextualisé avant classement.",
+      "claims": [
+        {
+          "start_s": 58.84,
+          "end_s": 104.839,
+          "dimension": "identity",
+          "statement_fr": "Le Rocket présenté est bien une board de wing Tabou Team Edition de 86 L, malgré l’origine windsurf du nom.",
+          "limits": "Ne pas exclure comme windsurf à partir du titre seul."
+        },
+        {
+          "start_s": 104.84,
+          "end_s": 136.879,
+          "dimension": "board_control",
+          "statement_fr": "Le présentateur décrit une bonne stabilité à l’arrêt, plusieurs inserts et du volume en nose pour les touch-downs.",
+          "limits": "Présentation courte sans poids du rider ni dimensions vérifiées; pas de seuil débutant déduit."
+        }
+      ]
+    },
+    {
+      "video_id": "3OIRoNWHne0",
+      "model": "Duotone Sky Free 120L und Free2.0 Foil 1900 TEST 2026",
+      "language_returned": "ar",
+      "language_note": "Langue du cache conservée; aucune écoute réalisée.",
+      "transcript_sha256": "8dc2433334687383057cd9c24e3591e3fe4fe4ee975f4b341c35a68c739c16fa",
+      "review_method": "Lecture intégrale de tous les segments du cache; paraphrase sans contrôle audio.",
+      "scope": "unusable_transcription",
+      "integration": "deferred",
+      "integration_reason": "Aucune règle : transcription inutilisable. Demander ultérieurement l’original allemand via la collecte autorisée, en conservant ce cache et son empreinte.",
+      "claims": [
+        {
+          "start_s": 109.955,
+          "end_s": 705.486,
+          "dimension": "transcription_quality",
+          "statement_fr": "Le cache arabe mêle fragments techniques et paroles de chanson; les phrases ne permettent pas de reconstruire un essai Sky Free 120/Free 1900 fiable.",
+          "limits": "Langue retournée incohérente avec le titre allemand; ne pas transformer des fragments en preuves techniques."
+        }
+      ]
+    },
+    {
+      "video_id": "F_kPaA7RGac",
+      "model": "Test board sup foil dw ultime : l’AFS blackbird 8’8*16’5 107L",
+      "language_returned": "fr",
+      "language_note": "Langue du cache conservée; aucune écoute réalisée.",
+      "transcript_sha256": "cf310cbb092a6f15d39ae787ad8d005d5e44bc5a6c639ceac0e55117b50025ca",
+      "review_method": "Lecture intégrale de tous les segments du cache; paraphrase sans contrôle audio.",
+      "scope": "commercial_presentation",
+      "integration": "deferred",
+      "integration_reason": "SUP downwind étroite et génération/dimensions ambiguës. Vérifier la fiche précise et le programme avant tout ajout au configurateur wing.",
+      "claims": [
+        {
+          "start_s": 20.16,
+          "end_s": 53,
+          "dimension": "setup",
+          "statement_fr": "Le shop décrit un premier essai Blackbird 8’8 x 16,5, annoncé 107 L, après usage de boards plus larges; un foil 1200 est cité pour le test suivant.",
+          "limits": "107 L puis 105 L apparaissent dans le texte; fiche constructeur nécessaire. Le foil 1200 ne doit pas être attribué au premier essai avec certitude."
+        },
+        {
+          "start_s": 57.96,
+          "end_s": 99.84,
+          "dimension": "board_shape",
+          "statement_fr": "Le présentateur relie rails droits, double concave et étroitesse à un ressenti de stabilité et de glisse.",
+          "limits": "Interprétation commerciale sans essai apparié de carènes ni contrôle audio."
+        },
+        {
+          "start_s": 113.439,
+          "end_s": 143.72,
+          "dimension": "program",
+          "statement_fr": "Le shop rapporte un usage possible en houle courte et clapot, puis annonce le choix personnel d’une 8’4 x 17,5.",
+          "limits": "Retour SUP downwind de pratiquants déjà expérimentés; ne prouve pas la facilité en wing pour un débutant."
+        }
+      ]
     }
   ]
 }

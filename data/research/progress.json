@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-16T18:48:45.193253+00:00",
+  "updated_at_utc": "2026-11-16T18:57:30.741044+00:00",
   "collection_updated_at_utc": "2026-11-16T18:33:12.193930+00:00",
   "retry_not_before_utc": null,
   "collection_state": "in_progress",
@@ -206,6 +206,7 @@
       "integration": "integrated",
       "failure": null,
       "integration_reason": "Option conditionnelle intégrée au moteur, fiche constructeur contrôlée. Estimation de surface non mesurée; montage complet à confirmer.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
@@ -230,6 +231,7 @@
       "integration": "integrated",
       "failure": null,
       "integration_reason": null,
+      "review_kind": "technical_review",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
@@ -247,6 +249,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Retour d’un propriétaire sans poids déclaré; durée d’utilisation contradictoire et réglages personnels. Ne justifie ni seuil de volume universel ni pénalité de durabilité du modèle. Fiche catalogue et référence exacte du kit à vérifier.",
+      "review_kind": "technical_review",
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": {
@@ -271,6 +274,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Modèle absent du moteur; dimensions et génération à vérifier. Les repères de poids sont contextualisés en freestyle/allround sportif, sans autoriser une règle de première planche 66 L pour 85 kg. Aucune note de durabilité déduite du seul jugement sur la construction.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
@@ -292,9 +296,10 @@
       "analysis": "interpreted",
       "claims": 4,
       "evidence_url": "data/research/transcript_reviews.json",
-      "integration": "documented",
+      "integration": "advice_integrated",
       "failure": null,
       "integration_reason": "Préférence H130 versus PX145 injectée dans le conseil de montage du Glide 825 selon programme; pas de score ni compatibilité garantie.",
+      "review_kind": "technical_review",
       "publisher": "Pasty Adventures ",
       "channel_id": "UCSOPNqdhYEgErM0vT-9ErEg",
       "activity": {
@@ -319,6 +324,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Le texte reçu contient seulement l’introduction et les annonces de polyvalence. Aucun résultat d’essai du 1690 exploitable : rechercher une transcription plus complète avant toute règle de niveau, programme ou portance. Le 1950 n’est cité qu’en référence à un autre essai.",
+      "review_kind": "limited_content",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
       "activity": {
@@ -343,6 +349,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Tonic Mag",
       "channel_id": "UCQf8qievrZ8vF680-Ksrq7A",
       "activity": null
@@ -360,6 +367,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Hors périmètre du moteur actuel de foils et boards : les commentaires de pumping, stabilité et décollage portent sur la parawing 3.6, pas sur une aile avant ni une planche. Aucun effet transféré au classement du matériel sous les pieds.",
+      "review_kind": "out_of_scope",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
@@ -384,6 +392,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Millésime 2027 explicitement annoncé, ne pas confondre avec Skybrid D/LAB 2026. La 100 L est présentée mais la taille de chaque session n’est pas confirmée. Catalogue et dimensions nécessaires avant ajout au moteur.",
+      "review_kind": "technical_review",
       "publisher": "Viking Surfcenter",
       "channel_id": "UCsiVm8v-xvUf_70I2tjiVIw",
       "activity": {
@@ -408,6 +417,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "La 50 L est présentée avant son essai; seul un usage de la 95 L est déclaré. Ne pas modifier les règles Chimera 2026 avec des promesses 2027, ni traiter les dimensions récitées avec hésitations comme données constructeur vérifiées.",
+      "review_kind": "limited_content",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
       "activity": {
@@ -432,6 +442,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Essai d’une parawing, hors moteur foils/boards. Ne pas convertir sa maniabilité ou sa stabilité en qualités de l’aile avant. Taille 4 m² citée, équipements sous les pieds inconnus.",
+      "review_kind": "out_of_scope",
       "publisher": "Freeride Attitude",
       "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
       "activity": {
@@ -456,6 +467,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Catalogue moteur à compléter pour version Pro Carbon 70 L. Largeur favorable rapportée sans poids de rider ni vent : pas de nouveau seuil de volume. Ne pas transférer les sensations à la version standard plus lourde.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
@@ -480,6 +492,7 @@
       "integration": "integrated",
       "failure": null,
       "integration_reason": null,
+      "review_kind": "technical_review",
       "publisher": "Tonic Mag",
       "channel_id": "UCQf8qievrZ8vF680-Ksrq7A",
       "activity": null
@@ -497,6 +510,7 @@
       "integration": "integrated",
       "failure": null,
       "integration_reason": "Option conditionnelle intégrée au moteur, fiche constructeur contrôlée. Estimation de surface non mesurée; montage complet à confirmer.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
@@ -515,12 +529,13 @@
       "collection": "timed_transcript_received",
       "segments": 217,
       "keyword_candidates": 28,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "integrated",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Famille MkII X-Form ajoutée au moteur après contrôle des dimensions constructeur, à partir du niveau intermédiaire; volume et largeur filtrés par profil, sans transposer les volumes experts aux débutants.",
+      "review_kind": "technical_review",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
@@ -538,6 +553,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -555,6 +571,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Les tailles 800/1000 et leurs compromis sont documentés. Modèle absent du moteur; fiche constructeur et interfaces à vérifier avant ajout. Aucun coefficient de portance ni seuil de poids inventé.",
+      "review_kind": "technical_review",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": {
@@ -579,6 +596,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
@@ -596,6 +614,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Modèle absent du catalogue moteur; compléter génération, tailles et interfaces avant classement. Traduction fortement déformée : aucune règle automatique de poids ou de stabilisateur déduite.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -607,12 +626,13 @@
       "collection": "timed_transcript_received",
       "segments": 378,
       "keyword_candidates": 10,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "integrated",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Famille MkII X-Form ajoutée au moteur après contrôle des dimensions constructeur, à partir du niveau intermédiaire; volume et largeur filtrés par profil, sans transposer les volumes experts aux débutants.",
+      "review_kind": "technical_review",
       "publisher": "HALF-LIFE",
       "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
       "activity": null
@@ -630,6 +650,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Le modèle 2026 existe au catalogue, mais les observations concernent la 68 L et un montage non précisé. Poids des riders absent : aucune correction de volume automatique ni généralisation aux autres tailles. Vérifier visuellement les inserts avant conseil de straps.",
+      "review_kind": "technical_review",
       "publisher": "KitePaddleSurf",
       "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
       "activity": {
@@ -654,6 +675,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Kit gonflable absent du moteur : compléter fiche et dimensions avant ajout. Témoignage de 75 kg utile pour contextualiser 95 L, insuffisant pour modifier la règle générale de volume ou noter séparément le foil.",
+      "review_kind": "technical_review",
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": {
@@ -678,6 +700,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Aucune parole technique exploitable : ne pas inférer la performance à partir du titre ou des paroles musicales. Aucun score ni règle ajoutés. Le titre ne suffit pas à prouver une expérience indépendante.",
+      "review_kind": "no_technical_speech",
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
       "activity": {
@@ -696,12 +719,13 @@
       "collection": "timed_transcript_received",
       "segments": 52,
       "keyword_candidates": 0,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 1,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Aucune règle : transcription inutilisable. Demander ultérieurement l’original allemand via la collecte autorisée, en conservant ce cache et son empreinte.",
+      "review_kind": "limited_content",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -719,6 +743,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -736,6 +761,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -753,6 +779,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "wingSURF world",
       "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
       "activity": null
@@ -770,6 +797,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -781,15 +809,24 @@
       "collection": "timed_transcript_received",
       "segments": 5,
       "keyword_candidates": 0,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "in_progress",
+      "claims": 1,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Aucune règle : pas de discours technique exploitable. Nouvelle action seulement si un autre essai commenté est trouvé.",
+      "review_kind": "no_technical_speech",
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
-      "activity": null
+      "activity": {
+        "video_id": "oNue1Vm0nWA",
+        "status": "in_progress",
+        "step": "Lecture intégrale du lot restant : qualification des contenus courts et essais techniques",
+        "started_at_utc": "2026-11-16T18:56:46.715031+00:00",
+        "updated_at_utc": "2026-11-16T18:56:46.715031+00:00",
+        "expires_at_utc": "2026-11-16T19:16:46.715031+00:00"
+      },
+      "analysis_before_activity": "interpreted"
     },
     {
       "video_id": "FklAiCI22lU",
@@ -804,6 +841,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
@@ -821,6 +859,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -838,6 +877,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -855,6 +895,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Comparaison de système assisté, hors moteur wingfoil sans propulsion. UHA 870 identifiée mais aucune isolation de ses performances; ne pas créer une plage de vent, de poids ou une autonomie garantie.",
+      "review_kind": "out_of_scope",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
@@ -879,6 +920,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -896,6 +938,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -907,12 +950,13 @@
       "collection": "timed_transcript_received",
       "segments": 210,
       "keyword_candidates": 18,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "advice_integrated",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Montages et limites incorporés dans les conseils du moteur, sans nouveaux scores ou seuils de vent/poids.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -930,6 +974,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -947,6 +992,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -964,6 +1010,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -981,6 +1028,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -998,6 +1046,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1015,6 +1064,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1032,6 +1082,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Twins Foil",
       "channel_id": "UCgtf21MO8n0j16_jDbFcnwA",
       "activity": null
@@ -1049,6 +1100,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1060,12 +1112,13 @@
       "collection": "timed_transcript_received",
       "segments": 259,
       "keyword_candidates": 41,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 6,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "advice_integrated",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Conseils de montage et limites de programme ajoutés au moteur sans recalibrer de score. Générations et tailles testées conservées explicitement.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1083,6 +1136,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1094,12 +1148,13 @@
       "collection": "timed_transcript_received",
       "segments": 206,
       "keyword_candidates": 27,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "advice_integrated",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Montages et limites incorporés dans les conseils du moteur, sans nouveaux scores ou seuils de vent/poids.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1117,6 +1172,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
@@ -1134,6 +1190,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1151,6 +1208,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Freeride Attitude",
       "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
       "activity": null
@@ -1168,6 +1226,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1185,6 +1244,7 @@
       "integration": "pending",
       "failure": 404,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Pakaa Foil",
       "channel_id": "UCibszUt5J2BVGh_wBjqJVJw",
       "activity": null
@@ -1202,6 +1262,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Vérifier constructeur pour nomenclature XXS/XS/L, surfaces et génération avant ajout moteur. Ni 12 nœuds ni 70 cm de longueur totale ne sont des paramètres universels de décollage ou de stabilité.",
+      "review_kind": "technical_review",
       "publisher": "FoilWithUs",
       "channel_id": "UCTMhLb1mQS32o-74PooeKxw",
       "activity": {
@@ -1223,9 +1284,10 @@
       "analysis": "interpreted",
       "claims": 4,
       "evidence_url": "data/research/transcript_reviews.json",
-      "integration": "documented",
+      "integration": "advice_integrated",
       "failure": null,
       "integration_reason": "Conseil moteur Crest complété : différencier PX175 essayé et H185 envisagé, aucune plage basse garantie. Pas de note de performance augmentée.",
+      "review_kind": "technical_review",
       "publisher": "Den Gordo WingFoiling",
       "channel_id": "UCDPI5klsfc28GYtgYzt4mEw",
       "activity": {
@@ -1250,6 +1312,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1267,6 +1330,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1284,6 +1348,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1301,6 +1366,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
@@ -1318,6 +1384,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
@@ -1329,12 +1396,13 @@
       "collection": "timed_transcript_received",
       "segments": 225,
       "keyword_candidates": 17,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "advice_integrated",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Montages et limites incorporés dans les conseils du moteur, sans nouveaux scores ou seuils de vent/poids.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1346,12 +1414,13 @@
       "collection": "timed_transcript_received",
       "segments": 13,
       "keyword_candidates": 0,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 1,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Aucune intégration technique; rechercher une source commentée plutôt que déduire une performance du titre.",
+      "review_kind": "no_technical_speech",
       "publisher": "Alicia Le Furaut Phantom rider",
       "channel_id": "UC8p2trM9uhObL4qFJfTQ3ew",
       "activity": null
@@ -1369,6 +1438,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1386,6 +1456,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1403,6 +1474,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1420,6 +1492,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1437,6 +1510,7 @@
       "integration": "pending",
       "failure": 404,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "targadave",
       "channel_id": "UC7Dbjf_ZCXiMStS_r5iBatw",
       "activity": null
@@ -1448,12 +1522,13 @@
       "collection": "timed_transcript_received",
       "segments": 22,
       "keyword_candidates": 0,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 2,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Accessoire hors sélection actuelle board/foil. Vérifier entraxes et visserie si une fonction straps est ajoutée.",
+      "review_kind": "out_of_scope",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
       "activity": null
@@ -1471,6 +1546,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "wingpassion",
       "channel_id": "UCQOnp2pO-IyQ5mYl_wGSmtw",
       "activity": null
@@ -1488,6 +1564,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1505,6 +1582,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1522,6 +1600,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "wingSURF world",
       "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
       "activity": null
@@ -1539,6 +1618,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1556,6 +1636,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1567,12 +1648,13 @@
       "collection": "timed_transcript_received",
       "segments": 155,
       "keyword_candidates": 31,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 4,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "advice_integrated",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Conseils de montage et limites de programme ajoutés au moteur sans recalibrer de score. Générations et tailles testées conservées explicitement.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1590,6 +1672,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1607,6 +1690,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1624,6 +1708,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1641,6 +1726,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1652,12 +1738,13 @@
       "collection": "timed_transcript_received",
       "segments": 41,
       "keyword_candidates": 1,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 2,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Board pertinente mais présentation limitée : vérifier fiche Rocket Team 86 et obtenir un essai contextualisé avant classement.",
+      "review_kind": "limited_content",
       "publisher": "Wingfoil Max ",
       "channel_id": "UCDi02grdN7EOVGDQgfsWf_Q",
       "activity": null
@@ -1675,6 +1762,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
@@ -1692,6 +1780,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "La famille MA MkII est déjà au moteur, mais la taille du témoignage n’est pas identifiée. Conserver comme avis de famille, sans rehausser les notes des variantes ni recalibrer portance ou stabilité.",
+      "review_kind": "technical_review",
       "publisher": "bigwinds",
       "channel_id": "UC0q7gGA8ivy2tf-PTZ4AOlw",
       "activity": {
@@ -1716,6 +1805,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1733,6 +1823,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Aucune session, rider, vent ou mesure dans le texte reçu; les effets annoncés de la forme ne sont pas des résultats de test. Dimensions et génération à vérifier constructeur.",
+      "review_kind": "limited_content",
       "publisher": "MACkiteboarding",
       "channel_id": "UCgaSOa5qTpPIq-hR8vRRy5A",
       "activity": null
@@ -1750,6 +1841,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Le cache s’arrête au générique, sans conclusion technique ni taille. Les 10–25 nœuds décrivent le spot; ce n’est pas une plage validée de la planche.",
+      "review_kind": "limited_content",
       "publisher": "Liquid Blue Cabarete",
       "channel_id": "UCl5zIGj7XVEOVdxvzjjd_Ww",
       "activity": {
@@ -1774,6 +1866,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1791,6 +1884,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Présentation de stock, sans compte rendu détaillé sur l’eau ni poids de rider. Ne pas reprendre la promesse de départ précoce comme mesure; ne pas confondre construction bois, SLS et D/LAB.",
+      "review_kind": "limited_content",
       "publisher": "Reactive Team",
       "channel_id": "UCg309ego7_kDnCWS7uzX9nA",
       "activity": null
@@ -1808,6 +1902,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Wing-Tips",
       "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
       "activity": null
@@ -1825,6 +1920,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Wing-Tips",
       "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
       "activity": null
@@ -1842,6 +1938,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1859,6 +1956,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
       "activity": null
@@ -1876,6 +1974,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1893,6 +1992,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Alvaro Bajo",
       "channel_id": "UCzt8hAHTypMi_ess47oLD1g",
       "activity": null
@@ -1910,6 +2010,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1927,6 +2028,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -1944,6 +2046,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
       "activity": null
@@ -1961,6 +2064,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
@@ -1978,6 +2082,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
       "activity": null
@@ -1995,6 +2100,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -2012,6 +2118,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -2029,6 +2136,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Heflav SUP",
       "channel_id": "UCuPgNY2HCMjUutyqjVzGAeQ",
       "activity": null
@@ -2040,23 +2148,23 @@
       "collection": "timed_transcript_received",
       "segments": 179,
       "keyword_candidates": 15,
-      "analysis": "in_progress",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "advice_integrated",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Conseils de montage et limites de programme ajoutés au moteur sans recalibrer de score. Générations et tailles testées conservées explicitement.",
+      "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": {
         "video_id": "xB5QMIjU6Ps",
-        "status": "in_progress",
-        "step": "Lot de rattrapage : Enduro, One-Lock 725 et MA MkII, portée des tailles et règles",
+        "status": "completed",
+        "step": "Trois essais complets et quinze observations : conseils Enduro, One-Lock et MA MkII intégrés",
         "started_at_utc": "2026-11-16T18:48:45.127178+00:00",
-        "updated_at_utc": "2026-11-16T18:48:45.127178+00:00",
-        "expires_at_utc": "2026-11-16T19:08:45.127178+00:00"
-      },
-      "analysis_before_activity": "queued"
+        "updated_at_utc": "2026-11-16T18:49:56.162430+00:00",
+        "expires_at_utc": "2026-11-16T19:09:56.162430+00:00"
+      }
     },
     {
       "video_id": "DQqbVduXDwA",
@@ -2071,6 +2179,7 @@
       "integration": "pending",
       "failure": null,
       "integration_reason": null,
+      "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "activity": null
@@ -2082,12 +2191,13 @@
       "collection": "timed_transcript_received",
       "segments": 73,
       "keyword_candidates": 3,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 3,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "SUP downwind étroite et génération/dimensions ambiguës. Vérifier la fiche précise et le programme avant tout ajout au configurateur wing.",
+      "review_kind": "limited_content",
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
       "activity": null
@@ -2103,7 +2213,8 @@
       "discovered_on": "2026-11-02",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "65ecyxEcNiY",
@@ -2116,7 +2227,8 @@
       "discovered_on": "2026-10-26",
       "publisher": "Alvaro Bajo",
       "channel_id": "UCzt8hAHTypMi_ess47oLD1g",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "sgaqpPq9ExU",
@@ -2129,7 +2241,8 @@
       "discovered_on": "2026-10-01",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "nM6k7_IpC9k",
@@ -2142,7 +2255,8 @@
       "discovered_on": "2026-09-16",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "_-VHK2Q-JgA",
@@ -2155,7 +2269,8 @@
       "discovered_on": "2026-09-10",
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "TLuTPpSWk80",
@@ -2168,7 +2283,8 @@
       "discovered_on": "2026-09-10",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "qkxFEAlF1p0",
@@ -2181,7 +2297,8 @@
       "discovered_on": "2026-09-07",
       "publisher": "wingSURF world",
       "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "YVOXuTKpD50",
@@ -2194,7 +2311,8 @@
       "discovered_on": "2026-09-07",
       "publisher": "Viking Surfcenter",
       "channel_id": "UCsiVm8v-xvUf_70I2tjiVIw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "pumUgZ5yfew",
@@ -2207,7 +2325,8 @@
       "discovered_on": "2026-09-04",
       "publisher": "Worthing Watersports",
       "channel_id": "UCaNUNAYMqT0XwPL0lwQeMrQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "sM6P0gvhHHc",
@@ -2220,7 +2339,8 @@
       "discovered_on": "2026-08-21",
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "ig3D34ghMq4",
@@ -2233,7 +2353,8 @@
       "discovered_on": "2026-08-13",
       "publisher": "MACkiteboarding",
       "channel_id": "UCgaSOa5qTpPIq-hR8vRRy5A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "jcu7SOnZblU",
@@ -2246,7 +2367,8 @@
       "discovered_on": "2026-08-05",
       "publisher": "MACkiteboarding",
       "channel_id": "UCgaSOa5qTpPIq-hR8vRRy5A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "vQGg5Zv8Pvk",
@@ -2259,7 +2381,8 @@
       "discovered_on": "2026-07-22",
       "publisher": "KitePaddleSurf",
       "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "VdVF_HfnV5o",
@@ -2272,7 +2395,8 @@
       "discovered_on": "2026-07-20",
       "publisher": "Sport al Centro",
       "channel_id": "UCAhpIsBY_CiRGUi1uMkpulQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "Ax6TYpS3F3c",
@@ -2285,7 +2409,8 @@
       "discovered_on": "2026-07-20",
       "publisher": "Flukes Kitesurfing",
       "channel_id": "UC7xlkRmlJK58p_0zkBvaC2A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "2s2VL-JOLLs",
@@ -2298,7 +2423,8 @@
       "discovered_on": "2026-07-14",
       "publisher": "Green Hat Kiteboarding",
       "channel_id": "UCCVDlfx6KSGc6ME3CAi0e2A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "ky1rk1QHya0",
@@ -2311,7 +2437,8 @@
       "discovered_on": "2026-07-07",
       "publisher": "Hydro Gav ",
       "channel_id": "UClKoHRH-qY-A6YZoXe-eGYg",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "jHWbotOOMsI",
@@ -2324,7 +2451,8 @@
       "discovered_on": "2026-06-17",
       "publisher": "KitePaddleSurf",
       "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "j_uE7K_g5cs",
@@ -2337,7 +2465,8 @@
       "discovered_on": "2026-06-05",
       "publisher": "HALF-LIFE",
       "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "iiVHlMfy_rg",
@@ -2350,7 +2479,8 @@
       "discovered_on": "2026-06-05",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "hXDV7ssMWlY",
@@ -2363,7 +2493,8 @@
       "discovered_on": "2026-06-05",
       "publisher": "Tonic Mag",
       "channel_id": "UCQf8qievrZ8vF680-Ksrq7A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "tB7b_vgctNc",
@@ -2376,7 +2507,8 @@
       "discovered_on": "2026-06-02",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "GTr-5-p176I",
@@ -2389,7 +2521,8 @@
       "discovered_on": "2026-06-02",
       "publisher": "Viking Surfcenter",
       "channel_id": "UCsiVm8v-xvUf_70I2tjiVIw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "0qOf0eEpElM",
@@ -2402,7 +2535,8 @@
       "discovered_on": "2026-05-27",
       "publisher": "Hydro Gav ",
       "channel_id": "UClKoHRH-qY-A6YZoXe-eGYg",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "zGdki04tH2g",
@@ -2415,7 +2549,8 @@
       "discovered_on": "2026-05-19",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "KUlOiIb2Jck",
@@ -2428,7 +2563,8 @@
       "discovered_on": "2026-05-14",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "khXSoXL7ccA",
@@ -2441,7 +2577,8 @@
       "discovered_on": "2026-05-07",
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "mgyh_TWJfIA",
@@ -2454,7 +2591,8 @@
       "discovered_on": "2026-05-06",
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "Mj2Z9gHKAYs",
@@ -2467,7 +2605,8 @@
       "discovered_on": "2026-05-01",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "pXkQerJEvYA",
@@ -2480,7 +2619,8 @@
       "discovered_on": "2026-04-30",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "iZo8DO7Z4No",
@@ -2493,7 +2633,8 @@
       "discovered_on": "2026-04-30",
       "publisher": "wingSURF world",
       "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "A34IZza2TEQ",
@@ -2506,7 +2647,8 @@
       "discovered_on": "2026-04-23",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "mZtN100cfBs",
@@ -2519,7 +2661,8 @@
       "discovered_on": "2026-04-17",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "Fm3jofwhf-c",
@@ -2532,7 +2675,8 @@
       "discovered_on": "2026-04-17",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "ixaogT38-1Y",
@@ -2545,7 +2689,8 @@
       "discovered_on": "2026-04-15",
       "publisher": "Paul's Gear Lab ",
       "channel_id": "UC5qkQOxnK7o4mZn8h1eqT5A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "2f6kjRKFt_k",
@@ -2558,7 +2703,8 @@
       "discovered_on": "2026-04-15",
       "publisher": "Viking Surfcenter",
       "channel_id": "UCsiVm8v-xvUf_70I2tjiVIw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "jjmovozkNQs",
@@ -2571,7 +2717,8 @@
       "discovered_on": "2026-04-12",
       "publisher": "HALF-LIFE",
       "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "pjFZjW2IGAY",
@@ -2584,7 +2731,8 @@
       "discovered_on": "2026-03-14",
       "publisher": "wingpassion",
       "channel_id": "UCQOnp2pO-IyQ5mYl_wGSmtw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "P39IzbFmKoo",
@@ -2597,7 +2745,8 @@
       "discovered_on": "2026-03-14",
       "publisher": "Watersports Zone by Erwan Jauffroy",
       "channel_id": "UC6kmfGkwRQb4mw7G39HSj5A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "SzXkVWCbIJs",
@@ -2610,7 +2759,8 @@
       "discovered_on": "2026-03-07",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "qTATXePqrrw",
@@ -2623,7 +2773,8 @@
       "discovered_on": "2026-03-05",
       "publisher": "KitePaddleSurf",
       "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "CNjNA_Tiuz8",
@@ -2636,7 +2787,8 @@
       "discovered_on": "2026-02-27",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "N-b-KEtL9zo",
@@ -2649,7 +2801,8 @@
       "discovered_on": "2026-02-24",
       "publisher": "KiteWorld Shop",
       "channel_id": "UCjE0wgm69FcpOsVieDqO0-A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "fi6nIkY35SU",
@@ -2662,7 +2815,8 @@
       "discovered_on": "2026-02-16",
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "-nlHP65Y-EQ",
@@ -2675,7 +2829,8 @@
       "discovered_on": "2026-02-16",
       "publisher": "Sport al Centro",
       "channel_id": "UCAhpIsBY_CiRGUi1uMkpulQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "8el3ifGXmYU",
@@ -2688,7 +2843,8 @@
       "discovered_on": "2026-02-02",
       "publisher": "Sport al Centro",
       "channel_id": "UCAhpIsBY_CiRGUi1uMkpulQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "qvvLnJBdlC0",
@@ -2701,7 +2857,8 @@
       "discovered_on": "2026-01-12",
       "publisher": "Sport al Centro",
       "channel_id": "UCAhpIsBY_CiRGUi1uMkpulQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "vmYfbGpB4Bs",
@@ -2714,7 +2871,8 @@
       "discovered_on": "2025-12-16",
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "2pIbQfLyZCs",
@@ -2727,7 +2885,8 @@
       "discovered_on": "2025-12-04",
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "vOvMPu4SbRo",
@@ -2740,7 +2899,8 @@
       "discovered_on": "2025-11-18",
       "publisher": "Wing-Tips",
       "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "9ZrGRE-SyuM",
@@ -2753,7 +2913,8 @@
       "discovered_on": "2025-11-13",
       "publisher": "Sport al Centro",
       "channel_id": "UCAhpIsBY_CiRGUi1uMkpulQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "tOCsLl1tS3s",
@@ -2766,7 +2927,8 @@
       "discovered_on": "2025-11-02",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "fpheg1qEhg0",
@@ -2779,7 +2941,8 @@
       "discovered_on": "2025-11-01",
       "publisher": "wingpassion",
       "channel_id": "UCQOnp2pO-IyQ5mYl_wGSmtw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "wTHDqPnRK24",
@@ -2792,7 +2955,8 @@
       "discovered_on": "2025-10-31",
       "publisher": "Liquid Blue Cabarete",
       "channel_id": "UCl5zIGj7XVEOVdxvzjjd_Ww",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "GXsnqZqD5Co",
@@ -2805,7 +2969,8 @@
       "discovered_on": "2025-10-31",
       "publisher": "Liquid Blue Cabarete",
       "channel_id": "UCl5zIGj7XVEOVdxvzjjd_Ww",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "TtzKfkcLM0M",
@@ -2818,7 +2983,8 @@
       "discovered_on": "2025-10-19",
       "publisher": "Wing-Tips",
       "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "iYxYwu15cuE",
@@ -2831,7 +2997,8 @@
       "discovered_on": "2025-10-18",
       "publisher": "Dominic Hoskyns",
       "channel_id": "UCJv_6oL1jXsgIYNZBEAzRAQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "wRZtiQOPURw",
@@ -2844,7 +3011,8 @@
       "discovered_on": "2025-10-08",
       "publisher": "FoilWithUs",
       "channel_id": "UCTMhLb1mQS32o-74PooeKxw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "TrcLcOY1PA4",
@@ -2857,7 +3025,8 @@
       "discovered_on": "2025-10-06",
       "publisher": "Florida foilers",
       "channel_id": "UCqEGOGk7YnrLvPE19v7Pq7A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "QsVsnwS5yR4",
@@ -2870,7 +3039,8 @@
       "discovered_on": "2025-10-06",
       "publisher": "KitePaddleSurf",
       "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "WCiwij40Qr0",
@@ -2883,7 +3053,8 @@
       "discovered_on": "2025-10-02",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "m9spmeFy0J4",
@@ -2896,7 +3067,8 @@
       "discovered_on": "2025-09-22",
       "publisher": "KitePaddleSurf",
       "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "Z10Osbfn4Tk",
@@ -2909,7 +3081,8 @@
       "discovered_on": "2025-09-11",
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "6BItXQiemQo",
@@ -2922,7 +3095,8 @@
       "discovered_on": "2025-08-30",
       "publisher": "KitePaddleSurf",
       "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "45RROMfJ2bg",
@@ -2935,7 +3109,8 @@
       "discovered_on": "2025-08-22",
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "BqgSD3NDuzU",
@@ -2948,7 +3123,8 @@
       "discovered_on": "2025-08-15",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "8zAMERKef5M",
@@ -2961,7 +3137,8 @@
       "discovered_on": "2025-08-15",
       "publisher": "Ridge & River",
       "channel_id": "UCVcvokHLBS-oyykjAbbknUA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "r1dEaIpVD-M",
@@ -2974,7 +3151,8 @@
       "discovered_on": "2025-08-13",
       "publisher": "Foil Island",
       "channel_id": "UCRpKYMGppHxldZkjVJDAlhw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "dLe2dhRydLo",
@@ -2987,7 +3165,8 @@
       "discovered_on": "2025-08-04",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "letox5nkMmE",
@@ -3000,7 +3179,8 @@
       "discovered_on": "2025-08-03",
       "publisher": "Green Hat Kiteboarding",
       "channel_id": "UCCVDlfx6KSGc6ME3CAi0e2A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "PZzXYbquiss",
@@ -3013,7 +3193,8 @@
       "discovered_on": "2025-07-25",
       "publisher": "Unbox Ecc",
       "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "3DE97BGarq8",
@@ -3026,7 +3207,8 @@
       "discovered_on": "2025-07-22",
       "publisher": "HALF-LIFE",
       "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "gfFDO4eIPZY",
@@ -3039,7 +3221,8 @@
       "discovered_on": "2025-07-03",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "HMHCSOcDmP4",
@@ -3052,7 +3235,8 @@
       "discovered_on": "2025-06-25",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "VG5Q_vXHVYM",
@@ -3065,7 +3249,8 @@
       "discovered_on": "2025-06-22",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "OXRTfgF_PBA",
@@ -3078,7 +3263,8 @@
       "discovered_on": "2025-06-04",
       "publisher": "Liquid Blue Cabarete",
       "channel_id": "UCl5zIGj7XVEOVdxvzjjd_Ww",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "tnIU9QoY5dY",
@@ -3091,7 +3277,8 @@
       "discovered_on": "2025-06-02",
       "publisher": "Liquid Blue Cabarete",
       "channel_id": "UCl5zIGj7XVEOVdxvzjjd_Ww",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "8Mf-D-pKrZ8",
@@ -3104,7 +3291,8 @@
       "discovered_on": "2025-05-31",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "MrxDf-_dCJY",
@@ -3117,7 +3305,8 @@
       "discovered_on": "2025-05-28",
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "6vRUH8WteCk",
@@ -3130,7 +3319,8 @@
       "discovered_on": "2025-05-23",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "9skjalbQEhU",
@@ -3143,7 +3333,8 @@
       "discovered_on": "2025-04-29",
       "publisher": "Nick MiCosta",
       "channel_id": "UCWpx8yaifB_aly76vOa0TwA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "uBKB-yB5FE0",
@@ -3156,7 +3347,8 @@
       "discovered_on": "2025-04-25",
       "publisher": "Freeride Attitude",
       "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "HIDr2SfV2AQ",
@@ -3169,7 +3361,8 @@
       "discovered_on": "2025-04-23",
       "publisher": "Alvaro Bajo",
       "channel_id": "UCzt8hAHTypMi_ess47oLD1g",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "xK4qkT8m6VM",
@@ -3182,7 +3375,8 @@
       "discovered_on": "2025-04-13",
       "publisher": "Freeride Attitude",
       "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "9CUmbgOlufY",
@@ -3195,7 +3389,8 @@
       "discovered_on": "2025-04-13",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "sXUSWqNX4l4",
@@ -3208,7 +3403,8 @@
       "discovered_on": "2025-04-11",
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "OCj9UCx_b40",
@@ -3221,7 +3417,8 @@
       "discovered_on": "2025-03-19",
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "0zlXlLB9G3Q",
@@ -3234,7 +3431,8 @@
       "discovered_on": "2025-03-17",
       "publisher": "wingSURF world",
       "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "kOnOMWTcOmI",
@@ -3247,7 +3445,8 @@
       "discovered_on": "2025-03-12",
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "A7AoRWtxtSI",
@@ -3260,7 +3459,8 @@
       "discovered_on": "2025-02-14",
       "publisher": "The SUP Company",
       "channel_id": "UCJlCLs0SH0Q3sCVj1ZaXTEA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "Sa1RIxicPms",
@@ -3273,7 +3473,8 @@
       "discovered_on": "2024-12-28",
       "publisher": "Sport al Centro",
       "channel_id": "UCAhpIsBY_CiRGUi1uMkpulQ",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "hxfAwT45T4w",
@@ -3286,7 +3487,8 @@
       "discovered_on": "2024-12-19",
       "publisher": "HALF-LIFE",
       "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     },
     {
       "video_id": "kZHjNv8pVfM",
@@ -3299,10 +3501,21 @@
       "discovered_on": "2024-11-22",
       "publisher": "passion wingfoil",
       "channel_id": "UCd2PTNbXp4VNh3kJ5gjPLZg",
-      "activity": null
+      "activity": null,
+      "review_kind": null
     }
   ],
   "improvements": [
+    {
+      "title": "Midlength Mk II X-Form : volumes vérifiés et sélection conditionnelle",
+      "detail": "Neuf volumes constructeur ajoutés. Réservée aux niveaux intermédiaires et avancés ; priorité facilité sans sinker implicite. Essais 55, 65 et 85 L contextualisés, sans note de performance inventée.",
+      "commit": "main"
+    },
+    {
+      "title": "Six essais : conseils par taille et montage",
+      "detail": "Enduro 2024, One-Lock 725 et 1525, MA MkII, UHA et Nomad : choix des tails, limites de glisse et contexte des tests. Conseils intégrés, sans modification arbitraire des notes.",
+      "commit": "main"
+    },
     {
       "title": "Glide 825 et Halo 670/800 : options conditionnelles",
       "detail": "Glide pour glisse/allround à partir du niveau intermédiaire; Halo pour surf/saut avancé. Priorité facilité exclue. Fiches constructeur contrôlées, sans notes inventées ni plage de vent garantie.",
