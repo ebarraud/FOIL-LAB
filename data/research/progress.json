@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-16T18:46:18.302843+00:00",
+  "updated_at_utc": "2026-11-16T18:48:45.193253+00:00",
   "collection_updated_at_utc": "2026-11-16T18:33:12.193930+00:00",
   "retry_not_before_utc": null,
   "collection_state": "in_progress",
@@ -2040,7 +2040,7 @@
       "collection": "timed_transcript_received",
       "segments": 179,
       "keyword_candidates": 15,
-      "analysis": "queued",
+      "analysis": "in_progress",
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
@@ -2048,7 +2048,15 @@
       "integration_reason": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": {
+        "video_id": "xB5QMIjU6Ps",
+        "status": "in_progress",
+        "step": "Lot de rattrapage : Enduro, One-Lock 725 et MA MkII, portée des tailles et règles",
+        "started_at_utc": "2026-11-16T18:48:45.127178+00:00",
+        "updated_at_utc": "2026-11-16T18:48:45.127178+00:00",
+        "expires_at_utc": "2026-11-16T19:08:45.127178+00:00"
+      },
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "DQqbVduXDwA",
