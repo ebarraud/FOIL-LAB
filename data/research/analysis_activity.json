@@ -138,11 +138,11 @@
     },
     {
       "video_id": "vqFSdEKOfFM",
-      "status": "in_progress",
-      "step": "Lot de rattrapage : contrôle de complétude Crossover, Skybrid bois et Code 1250R",
+      "status": "completed",
+      "step": "Lot de trois textes contrôlé : deux présentations, une introduction incomplète; aucune performance inventée",
       "started_at_utc": "2026-11-16T18:34:37.979203+00:00",
-      "updated_at_utc": "2026-11-16T18:34:37.979203+00:00",
-      "expires_at_utc": "2026-11-16T18:54:37.979203+00:00"
+      "updated_at_utc": "2026-11-16T18:34:41.602690+00:00",
+      "expires_at_utc": "2026-11-16T18:54:41.602690+00:00"
     }
   ]
 }

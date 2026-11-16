@@ -788,6 +788,66 @@
           "source_url": "https://www.youtube.com/watch?v=RxkvTwobKGE&t=64s"
         }
       ]
+    },
+    {
+      "video_id": "-1fBIIm8fpE",
+      "model": "Duotone Skybrid bois 100 L",
+      "language_returned": "en",
+      "transcript_sha256": "5e61d706350dc48c4c7dd8aea8517ca413a0c028e87819f8a7942f7ee7ba5178",
+      "review_method": "Lecture complète de tous les segments reçus; sans contrôle audio ou vidéo.",
+      "scope": "commercial_presentation",
+      "integration": "deferred",
+      "integration_reason": "Présentation de stock, sans compte rendu détaillé sur l’eau ni poids de rider. Ne pas reprendre la promesse de départ précoce comme mesure; ne pas confondre construction bois, SLS et D/LAB.",
+      "claims": [
+        {
+          "start_s": 7.7,
+          "end_s": 44.2,
+          "dimension": "provenance_and_scope_not_measured_performance",
+          "statement_fr": "Le présentateur Reactive présente une Skybrid construction bois 100 L et annonce une orientation midlength accessible. Il propose de venir l’essayer.",
+          "limits": "Présentation de stock, sans compte rendu détaillé sur l’eau ni poids de rider. Ne pas reprendre la promesse de départ précoce comme mesure; ne pas confondre construction bois, SLS et D/LAB.",
+          "source_url": "https://www.youtube.com/watch?v=-1fBIIm8fpE&t=7s"
+        }
+      ]
+    },
+    {
+      "video_id": "YF448nI7QHM",
+      "model": "Code Foils 1250R / stabilisateur 151",
+      "language_returned": "en",
+      "transcript_sha256": "4449ca1d5c40e84e984e09030ff398e4cde56b44553c61c182163be00fc4dadf",
+      "review_method": "Lecture complète de tous les segments reçus; sans contrôle audio ou vidéo.",
+      "scope": "design_description_not_riding_test",
+      "integration": "deferred",
+      "integration_reason": "Aucune session, rider, vent ou mesure dans le texte reçu; les effets annoncés de la forme ne sont pas des résultats de test. Dimensions et génération à vérifier constructeur.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 51.6,
+          "dimension": "provenance_and_scope_not_measured_performance",
+          "statement_fr": "Le locuteur présente une aile avant 1250R et un stabilisateur 151, en reliant leur géométrie à des intentions de glisse et de pumping.",
+          "limits": "Aucune session, rider, vent ou mesure dans le texte reçu; les effets annoncés de la forme ne sont pas des résultats de test. Dimensions et génération à vérifier constructeur.",
+          "source_url": "https://www.youtube.com/watch?v=YF448nI7QHM&t=0s"
+        }
+      ]
+    },
+    {
+      "video_id": "vqFSdEKOfFM",
+      "model": "F-ONE Rocket Crossover — introduction seulement",
+      "language_returned": "en",
+      "transcript_sha256": "65cc491afaab2e7594bebdf55d442ba5d6bec1070728684244c02681b6b747a0",
+      "review_method": "Lecture complète de tous les segments reçus; sans contrôle audio ou vidéo.",
+      "scope": "intro_only_no_detailed_results",
+      "integration": "deferred",
+      "integration_reason": "Le cache s’arrête au générique, sans conclusion technique ni taille. Les 10–25 nœuds décrivent le spot; ce n’est pas une plage validée de la planche.",
+      "claims": [
+        {
+          "start_s": 2,
+          "end_s": 49.6,
+          "dimension": "provenance_and_scope_not_measured_performance",
+          "statement_fr": "Le présentateur Liquid Blue déclare quelques semaines d’essai et introduit une Rocket Crossover pour des conditions variées à Cabarete.",
+          "limits": "Le cache s’arrête au générique, sans conclusion technique ni taille. Les 10–25 nœuds décrivent le spot; ce n’est pas une plage validée de la planche.",
+          "source_url": "https://www.youtube.com/watch?v=vqFSdEKOfFM&t=2s"
+        }
+      ]
     }
   ]
 }
