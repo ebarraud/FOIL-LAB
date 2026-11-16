@@ -894,6 +894,49 @@
           "source_url": "https://www.youtube.com/watch?v=pPXyFWHSd-U&t=150s"
         }
       ]
+    },
+    {
+      "video_id": "4znqnlzx0Dg",
+      "model": "Duotone Crest — session 1050 / présentation 925",
+      "language_returned": "en",
+      "transcript_sha256": "ac01a2ca834f8eeab6ded107fbd9aefe64f1e641822feceb65724f94cdcfeec9",
+      "review_method": "Lecture des 44 segments retournés; cache interrompu à la transition finale, sans contrôle audio.",
+      "integration": "conditional_caution",
+      "integration_reason": "Conseil moteur Crest complété : différencier PX175 essayé et H185 envisagé, aucune plage basse garantie. Pas de note de performance augmentée.",
+      "claims": [
+        {
+          "start_s": 8,
+          "end_s": 36.6,
+          "dimension": "comparison_scope",
+          "statement_fr": "Le présentateur compare visuellement Crest 925, Glide 2.0 900 et Carve 3.0 950 avant la session.",
+          "limits": "Cette séquence de forme ne constitue pas un essai sur l’eau de la Crest 925; ne pas comparer à Glide 3.0.",
+          "source_url": "https://www.youtube.com/watch?v=4znqnlzx0Dg&t=8s"
+        },
+        {
+          "start_s": 38.8,
+          "end_s": 57.6,
+          "dimension": "test_setup",
+          "statement_fr": "Pour la session courte annoncée vers 12 nœuds en baisse, il utilise une Crest 1050, un PX175, une board 80 L et une Unit SLS 5.5, en déclarant 82 kg.",
+          "limits": "Vent déclaré et estimation sans protocole; ne pas garantir un décollage à 12 nœuds pour 82 kg ou un autre montage.",
+          "source_url": "https://www.youtube.com/watch?v=4znqnlzx0Dg&t=38s"
+        },
+        {
+          "start_s": 58.9,
+          "end_s": 84.6,
+          "dimension": "takeoff,glide,control",
+          "statement_fr": "Il décrit un départ après pumping, des sorties de pointe tolérantes et un compromis glisse/maniabilité entre les familles comparées.",
+          "limits": "Session courte, comparaisons non appariées et taille des autres ailes en navigation non établie. Pas de scores de familles déduits.",
+          "source_url": "https://www.youtube.com/watch?v=4znqnlzx0Dg&t=58s"
+        },
+        {
+          "start_s": 88,
+          "end_s": 107.2,
+          "dimension": "forecast,limits",
+          "statement_fr": "Il envisage la Crest 1050 pour petites bosses en vent léger avec un H185.",
+          "limits": "Le H185 est envisagé, pas identifié comme le montage de la session; ne pas confondre avec le PX175 réellement annoncé. Le cache s’arrête avant la fin de la discussion.",
+          "source_url": "https://www.youtube.com/watch?v=4znqnlzx0Dg&t=88s"
+        }
+      ]
     }
   ]
 }

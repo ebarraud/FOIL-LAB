@@ -37,3 +37,5 @@ assert.ok(!sandbox.foilOptions({...halo,p:'light'}).some(o=>o.f.n==='Halo'));
 console.log('Glide and Halo conditional recommendation checks passed');
 
 sandbox.foilTarget=()=>825;assert.match(sandbox.foilOptions(glide).find(o=>o.f.n==='Glide 3.0 D/LAB').evidence.setup,/H130/);assert.match(sandbox.foilOptions({...glide,p:'all'}).find(o=>o.f.n==='Glide 3.0 D/LAB').evidence.setup,/PX145/);
+
+assert.match(sandbox.transcriptSuitability({b:'Duotone',n:'Crest D/LAB'},1050,profile).caution,/H185 est seulement envisagé/);

@@ -177,6 +177,12 @@ function foilTarget(x){
 }
 function transcriptSuitability(f,size,x){
  const rule={minimumSize:null,reason:'',caution:'',url:''};
+ if(f.b==='Duotone'&&f.n==='Crest D/LAB'){
+  rule.caution='Essai court Crest 1050 : PX175 annoncé avec rider 82 kg, board 80 L et wing 5.5. Le H185 est seulement envisagé; aucune garantie de départ à 12 nœuds ni extrapolation aux autres tailles.';
+  rule.reason='Le choix du stabilisateur fait partie du résultat : conserver la configuration de l’essai et distinguer les montages seulement envisagés.';
+  rule.url='https://www.youtube.com/watch?v=4znqnlzx0Dg&t=38s';
+  return rule;
+ }
  if(f.b!=='AFS'||f.n!=='Silk V2')return rule;
  rule.url='https://www.youtube.com/watch?v=DMlWjjIcwss&t=1398s';
  if(size===650&&(x.pr==='easy'||x.l<3)){
