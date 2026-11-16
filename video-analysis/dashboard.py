@@ -98,6 +98,7 @@ def build(root=Path('.')):
       'analysis_schedule':'Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.',
       'monitored_publishers':load(root/'data/research/monitored_publishers.json',{}).get('publishers',[]),
       'videos':videos,'improvements':[
+       {'title':'Drifter 5 Pro Carbon : 60 L vérifiée et contextualisée','detail':'Ajout de la seule 60 L contrôlée chez KT : 165,1 × 55,88 cm. Essai avancé, sans conversion du ressenti en litres ni conseil débutant.','video_id':'khXSoXL7ccA','commit':'main'},
        {'title':'Super K 2 Carbon et Skybrid SLS 2026 : sélection de planches élargie','detail':'Dimensions constructeur vérifiées et générations séparées. Sélection à partir du niveau intermédiaire, avec volume et largeur adaptés; aucune note inventée.','commit':'main'},
        {'title':'One-Lock et Crest : conseils isolés par taille','detail':'1125 avec stab180 séparée des 725 et1525. Crest800/925 : conduite active et réception freinante signalées; les autres tailles ne récupèrent pas automatiquement ces conclusions.','commit':'main'},
        {'title':'Midlength Mk II X-Form : volumes vérifiés et sélection conditionnelle','detail':'Neuf volumes constructeur ajoutés. Réservée aux niveaux intermédiaires et avancés ; priorité facilité sans sinker implicite. Essais 55, 65 et 85 L contextualisés, sans note de performance inventée.','commit':'97cd8fc'},

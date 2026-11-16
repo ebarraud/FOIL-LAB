@@ -4595,6 +4595,172 @@
           "limits": "Aucune mesure de flexion ; ne pas généraliser à toutes les générations de mâts ni garantir une compatibilité multimarque."
         }
       ]
+    },
+    {
+      "video_id": "khXSoXL7ccA",
+      "model": "KT Drifter 5 Pro Carbon 60 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "b9440b704a0990f8ee560588c5ded7b40ee19f4208e14920f76981afb96d70d5",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_board_size_specific",
+      "integration": "conditional_board_selection",
+      "integration_reason": "Drifter 5 Pro Carbon 60 L ajoutée : 165,1 × 55,88 cm selon la fiche KT. Sélection à partir du niveau intermédiaire, avec contraintes habituelles de volume et de départ. Le ressenti de 70 L ne modifie pas le volume réel de 60 L. Les autres tailles ne sont pas ajoutées sur la base de cet essai.",
+      "claims": [
+        {
+          "start_s": 14.94,
+          "end_s": 53.17,
+          "dimension": "60L_vs_previous_56L",
+          "statement_fr": "Après deux ans sur Drifter 4 de 56 L, le testeur trouve la Drifter 5 Pro Carbon 60 L nettement plus stable avant le décollage.",
+          "limits": "Comparaison de deux générations et de deux volumes ; poids du testeur absent. Le ressenti proche de 70 L ne signifie pas un volume mesuré de 70 L."
+        },
+        {
+          "start_s": 54.28,
+          "end_s": 67.29,
+          "dimension": "takeoff",
+          "statement_fr": "La longueur de la Drifter 5 facilite selon lui le décollage, tout en restant légèrement moins rapide à cette étape que ARC ou Super K v2.",
+          "limits": "Avis individuel sans chronométrage, vent ni montage de foil détaillés."
+        },
+        {
+          "start_s": 78.25,
+          "end_s": 100.56,
+          "dimension": "60L_advanced_surf",
+          "statement_fr": "La 60 L est décrite pour des pratiquants avancés recherchant les virages courts dans la poche de la vague, avec un contact direct au foil.",
+          "limits": "Ne pas généraliser cette recommandation de 60 L aux débutants ni à tous les poids."
+        },
+        {
+          "start_s": 101.66,
+          "end_s": 112.72,
+          "dimension": "range_vs_size",
+          "statement_fr": "Le testeur privilégie cette famille dans les conditions désordonnées et évoque les grands volumes pour débuter.",
+          "limits": "Aucun volume de débutant précis testé ici ; ne pas transformer ce conseil de gamme en règle de sélection de la 60 L."
+        }
+      ],
+      "manufacturer_verification": {
+        "url": "https://ktfoiling.com/boards/drifter-5-pro-carbon/",
+        "checked_on": "2026-11-16",
+        "volume_l": 60,
+        "length_in": 65,
+        "width_in": 22,
+        "limits": "La page constructeur indique deux longueurs différentes pour la 70 L ; cette taille reste exclue. Les plages de poids commerciales ne sont pas des mesures de stabilité."
+      }
+    },
+    {
+      "video_id": "mgyh_TWJfIA",
+      "model": "KT ARC 58 L et Super K v2 60 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "cf3d0953fe917d6feee9ceed50cc755da61737e64b5bb001fade3ee96859f505",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_and_parawing_board_comparison",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; contrôler les dimensions, constructions et variantes avec inserts de la KT ARC avant intégration. La comparaison ne justifie pas une réduction automatique du volume conseillé.",
+      "claims": [
+        {
+          "start_s": 12.41,
+          "end_s": 46.18,
+          "dimension": "58L_vs_60L",
+          "statement_fr": "Le testeur trouve ARC 58 L plus stable avant envol que Super K v2 60 L, parfois délicate pour lui, avec un décollage presque aussi facile.",
+          "limits": "Même auteur, ressenti comparatif ; gabarit, foil et conditions non détaillés. Ne pas déduire une équivalence universelle de litres."
+        },
+        {
+          "start_s": 46.18,
+          "end_s": 75.11,
+          "dimension": "shape_and_turns",
+          "statement_fr": "Il associe le pont en léger V à un contact plus direct et aux virages, et décrit un arrière plus large qui s’enfonce moins au départ.",
+          "limits": "Interprétation du testeur ; géométrie et effet causal à confirmer par fiche officielle, sans mesure comparative."
+        },
+        {
+          "start_s": 85.12,
+          "end_s": 106.51,
+          "dimension": "insert_variants",
+          "statement_fr": "Deux variantes sont annoncées : avec ou sans inserts, la seconde étant présentée comme environ 400 g plus légère.",
+          "limits": "Annonce dans la vidéo, pas une pesée des deux versions ; vérifier référence et montage avant achat."
+        },
+        {
+          "start_s": 107.27,
+          "end_s": 125.42,
+          "dimension": "program",
+          "statement_fr": "ARC est préférée pour le surf ; Super K v2 est décrite comme plus adaptée à la navigation en puissance et aux trajets.",
+          "limits": "Comparaison des configurations évoquées ; aucun score ni vitesse mesurée. Le programme parawing ne vaut pas essai débutant wing."
+        }
+      ]
+    },
+    {
+      "video_id": "pXkQerJEvYA",
+      "model": "Indiana Dolphin S/M avec HyperDrive 86 et tails 340/370",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "b6cb7e6478d1b5395ee640199992223884d58734cc1ce28ccbee7948a74d92bf",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_surf_pump_size_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; identifier les tailles par nom S/M et envergure, puis vérifier les références constructeur. Les nombres 720/825/827/925 de la transcription mélangent surfaces et envergures ; aucune correspondance automatique ni garantie de mât n’est intégrée.",
+      "claims": [
+        {
+          "start_s": 115.48,
+          "end_s": 172.12,
+          "dimension": "mast_limits",
+          "statement_fr": "Le mât HyperDrive 86 est décrit comme fin et pesé à environ 2,2 kg. Le testeur mentionne une limite de garantie liée aux grandes ailes Barracuda.",
+          "limits": "Avertissement rapporté, non conditions contractuelles vérifiées ; vérifier directement la notice constructeur avant tout montage."
+        },
+        {
+          "start_s": 193.12,
+          "end_s": 249.68,
+          "dimension": "size_identity",
+          "statement_fr": "Le test porte sur Dolphin S et M ; L et XL sont présentées dans la gamme. La S est annoncée à environ 82,7 cm d’envergure.",
+          "limits": "La transcription utilise ensuite plusieurs nombres ambigus pour les mêmes tailles. Ne pas confondre envergure en mm et surface en cm², ni considérer L/XL comme essayées."
+        },
+        {
+          "start_s": 249.68,
+          "end_s": 290.44,
+          "dimension": "tail_options",
+          "statement_fr": "Le 340 est présenté avec deux longueurs de queue, la courte favorisant la liberté en tangage et la longue la stabilité ; le 370 est présenté en queue longue.",
+          "limits": "340 et 370 désignent ici des envergures annoncées, pas des surfaces validées ; compatibilités à contrôler."
+        },
+        {
+          "start_s": 378.84,
+          "end_s": 474.96,
+          "dimension": "rider_program",
+          "statement_fr": "Le testeur situe la gamme pour des pratiquants avancés et décrit ses usages en wing, parawing, surf et pumping.",
+          "limits": "Ses qualités de basse vitesse ne rendent pas automatiquement cette gamme adaptée au débutant ; absence de plage de vent mesurée."
+        },
+        {
+          "start_s": 494.72,
+          "end_s": 590.68,
+          "dimension": "M_tail_comparison",
+          "statement_fr": "Le testeur de 62 kg utilise d’abord Dolphin M avec 370 queue longue, puis préfère le compromis maniabilité et stabilité du 340 queue longue au 340 court.",
+          "limits": "Réglage de rake personnel et petite planche de pumping ; ne pas imposer sa cale ni extrapoler ce résultat à un gabarit lourd."
+        },
+        {
+          "start_s": 590.68,
+          "end_s": 663.36,
+          "dimension": "mast_and_tips",
+          "statement_fr": "Il rapporte une bonne rigidité ressentie et des reprises après sortie des pointes, mais dit avoir abîmé une pointe de la M.",
+          "limits": "Aucun essai de flexion ni taux de casse ; la reprise observée ne garantit pas l’absence de ventilation dans toutes les conditions."
+        },
+        {
+          "start_s": 680.28,
+          "end_s": 752.44,
+          "dimension": "wing_S_vs_M",
+          "statement_fr": "En wing, il préfère la S ; en parawing légère, il privilégie la M et le 340 queue longue pour préserver l’appui et la stabilité.",
+          "limits": "Préférence du testeur de 62 kg ; les références numériques de la reconnaissance vocale sont ambiguës. Pas de seuil de poids ou de vent déduit."
+        },
+        {
+          "start_s": 817.48,
+          "end_s": 962.6,
+          "dimension": "surf_size_tail",
+          "statement_fr": "La M a été davantage utilisée en petites vagues ; la S est décrite comme plus maniable. Le 370 aide à pomper avec la petite aile, tandis que le 340 queue longue reste son compromis.",
+          "limits": "Les conditions diffèrent selon les tailles. Les comparaisons Silk V2 sont subjectives et ne produisent aucun classement chiffré."
+        },
+        {
+          "start_s": 1003.2,
+          "end_s": 1173.17,
+          "dimension": "conclusion_limits",
+          "statement_fr": "Il confirme la fragilité ressentie des pointes et apprécie le compromis glisse et maniabilité ; il souhaiterait une taille plus petite pour ses usages en wing.",
+          "limits": "Souhait de produit, pas une taille existante testée. Le réglage du stabilisateur monobloc et les limites du mât doivent être contrôlés dans la documentation officielle."
+        }
+      ]
     }
   ]
 }

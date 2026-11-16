@@ -75,3 +75,11 @@ for(const name of ['Super K 2 Carbon','Skybrid SLS 2026']){
 assert.equal(sandbox.BOARDS.find(b=>b.n==='Super K 2 Carbon').sizes.find(a=>a[0]===90)[1],187.96);
 assert.equal(sandbox.BOARDS.find(b=>b.n==='Skybrid SLS 2026').sizes.find(a=>a[0]===80)[2],53.34);
 console.log('Generation, size isolation, and new board safety checks passed');
+const drifter=sandbox.BOARDS.find(b=>b.n==='Drifter 5 Pro Carbon');
+assert.ok(drifter);assert.deepEqual(Array.from(drifter.sizes[0]),[60,165.1,55.88]);
+sandbox.BOARDS=[drifter];
+assert.equal(sandbox.boardOptions({...bp,l:0}).length,0);
+assert.equal(sandbox.boardOptions({...bp,w:85,pr:'easy'}).length,0);
+assert.ok(sandbox.boardOptions({...bp,w:55,l:3,bt:'compact',start:'sinker',pr:'normal'}).length>0);
+sandbox.BOARDS=allBoardFamilies;
+console.log('Drifter 5 tested-volume and beginner exclusion checks passed');
