@@ -130,11 +130,11 @@
     },
     {
       "video_id": "RxkvTwobKGE",
-      "status": "in_progress",
-      "step": "Lecture complète Armstrong MA MkII, taille et promesses à distinguer",
+      "status": "completed",
+      "step": "Quatre avis de famille documentés; taille non identifiée, notes inchangées",
       "started_at_utc": "2026-11-16T18:31:01.883007+00:00",
-      "updated_at_utc": "2026-11-16T18:31:01.883007+00:00",
-      "expires_at_utc": "2026-11-16T18:51:01.883007+00:00"
+      "updated_at_utc": "2026-11-16T18:31:28.922003+00:00",
+      "expires_at_utc": "2026-11-16T18:51:28.922003+00:00"
     }
   ]
 }

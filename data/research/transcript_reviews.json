@@ -745,6 +745,49 @@
           "source_url": "https://www.youtube.com/watch?v=3B4fq8l_8HQ&t=665s"
         }
       ]
+    },
+    {
+      "video_id": "RxkvTwobKGE",
+      "model": "Armstrong MA MkII — taille non précisée",
+      "language_returned": "en",
+      "transcript_sha256": "5f6a43ee10177cc536b114b64b5e2f97776414e9689d21c613dc5b9d2b05f13f",
+      "review_method": "Lecture intégrale du cache anglais, musique exclue; pas de visionnage ou contrôle audio.",
+      "integration": "deferred",
+      "integration_reason": "La famille MA MkII est déjà au moteur, mais la taille du témoignage n’est pas identifiée. Conserver comme avis de famille, sans rehausser les notes des variantes ni recalibrer portance ou stabilité.",
+      "claims": [
+        {
+          "start_s": 5.2,
+          "end_s": 17.9,
+          "dimension": "provenance",
+          "statement_fr": "Le présentateur Big Winds rapporte quelques jours de navigation avec des collègues dans une houle importante.",
+          "limits": "Contexte magasin; pas un panel indépendant contrôlé. Taille de l’aile, poids et montage non précisés.",
+          "source_url": "https://www.youtube.com/watch?v=RxkvTwobKGE&t=5s"
+        },
+        {
+          "start_s": 20.2,
+          "end_s": 37.5,
+          "dimension": "glide,pumping",
+          "statement_fr": "Le présentateur apprécie la glisse et le pumping de la nouvelle MA, qu’il rapproche qualitativement de la ligne HA plutôt que de l’ancienne MA.",
+          "limits": "Comparaison de familles sans surfaces appariées; aucune équivalence HA/MA, distance ou portance mesurée.",
+          "source_url": "https://www.youtube.com/watch?v=RxkvTwobKGE&t=20s"
+        },
+        {
+          "start_s": 40.7,
+          "end_s": 61.8,
+          "dimension": "control",
+          "statement_fr": "Il décrit un tangage plus rassurant que certains HA dans les grosses houles de ses sessions.",
+          "limits": "Modèles et tailles HA non précisés; pas une preuve de stabilité identique sur toutes les MA MkII.",
+          "source_url": "https://www.youtube.com/watch?v=RxkvTwobKGE&t=40s"
+        },
+        {
+          "start_s": 64.6,
+          "end_s": 79.4,
+          "dimension": "carving",
+          "statement_fr": "Il apprécie une réponse au changement d’appui talons/pointes et les courbes dans la houle.",
+          "limits": "Rayon, vitesse et effort non mesurés; aucune taille ni niveau minimum validé.",
+          "source_url": "https://www.youtube.com/watch?v=RxkvTwobKGE&t=64s"
+        }
+      ]
     }
   ]
 }
