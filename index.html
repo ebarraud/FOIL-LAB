@@ -219,6 +219,7 @@ function foilOptions(x){
   if(x.b==='other')mismatch+=3;
   if(x.replace==='wing'&&x.b==='all')mismatch+=8;
   if(x.budget==='low'&&['Crest D/LAB','UHA','Silk V2'].includes(f.n))mismatch+=3;
+  if(f.n==='Glide 3.0 D/LAB'){evidence.setup=x.p==='glide'?'H130 : préférence du testeur pour pumping / descente de houle peu tractée.':'PX145 : préférence du testeur en wing ou vagues plus puissantes; confirmer les références avant achat.';}
   if(f.transcriptConditional){evidence.reason='Option conditionnelle fondée sur les essais, sans note de performance. La surface vient de l’estimation générale du profil et reste à confirmer en essai; les autres tailles de la gamme ne sont pas extrapolées.';evidence.url=f.n==='Halo'?'https://www.youtube.com/watch?v=zesN5IeyRQM&t=251s':'https://www.youtube.com/watch?v=aiWA2W7hKos&t=473s';}
   options.push({f,size,loss:mismatch,evidence,why:`${f.quote} Taille ${size} cm² retenue pour ton profil (cible de famille ≈ ${Math.round(target/25)*25} cm²).`,caveat:f.risk+(evidence.caution?' '+evidence.caution:'')});
  }
@@ -257,6 +258,7 @@ function foilMarkup(o,i,x){
  <p class="why"><b>Argument technique :</b> ${o.why}</p>
  <p class="downside"><b>Contre-indication / compromis :</b> ${o.caveat}</p>
  ${o.evidence?.reason?`<div class="tip"><b>Choix ajusté par les essais :</b> ${o.evidence.reason} <a href="${o.evidence.url}" target="_blank" rel="noopener">Vérifier le passage</a></div>`:''}
+ ${o.evidence?.setup?`<div class="mini"><b>Montage à essayer :</b> ${o.evidence.setup} <a href="https://www.youtube.com/watch?v=pPXyFWHSd-U&t=99s" target="_blank" rel="noopener">Avis du testeur</a></div>`:''}
  <div class="mini"><b>Compatibilité — ${cp.status} :</b> ${cp.detail}</div>
  <div class="mini"><b>Interface :</b> ${v?.system||'Interface exacte non documentée pour ce modèle : référence à vérifier.'}</div>
  <div class="small"><b>Essais / réglages :</b> ${v?.note||'Aucune mesure comparative indépendante homogène disponible : essai réel recommandé.'}</div>

@@ -35,3 +35,5 @@ assert.ok(sandbox.foilOptions(halo).some(o=>o.f.n==='Halo'&&o.size===800));
 assert.ok(!sandbox.foilOptions({...halo,l:1}).some(o=>o.f.n==='Halo'));
 assert.ok(!sandbox.foilOptions({...halo,p:'light'}).some(o=>o.f.n==='Halo'));
 console.log('Glide and Halo conditional recommendation checks passed');
+
+sandbox.foilTarget=()=>825;assert.match(sandbox.foilOptions(glide).find(o=>o.f.n==='Glide 3.0 D/LAB').evidence.setup,/H130/);assert.match(sandbox.foilOptions({...glide,p:'all'}).find(o=>o.f.n==='Glide 3.0 D/LAB').evidence.setup,/PX145/);

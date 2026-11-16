@@ -791,7 +791,7 @@
     },
     {
       "video_id": "-1fBIIm8fpE",
-      "model": "Duotone Skybrid bois 100 L",
+      "model": "Duotone Skybrid 100 L — millésime à confirmer",
       "language_returned": "en",
       "transcript_sha256": "5e61d706350dc48c4c7dd8aea8517ca413a0c028e87819f8a7942f7ee7ba5178",
       "review_method": "Lecture complète de tous les segments reçus; sans contrôle audio ou vidéo.",
@@ -803,11 +803,14 @@
           "start_s": 7.7,
           "end_s": 44.2,
           "dimension": "provenance_and_scope_not_measured_performance",
-          "statement_fr": "Le présentateur Reactive présente une Skybrid construction bois 100 L et annonce une orientation midlength accessible. Il propose de venir l’essayer.",
+          "statement_fr": "Le présentateur Reactive présente une Skybrid 100 L, dont le présentateur décrit une construction avec bambou, et annonce une orientation midlength accessible. Il propose de venir l’essayer.",
           "limits": "Présentation de stock, sans compte rendu détaillé sur l’eau ni poids de rider. Ne pas reprendre la promesse de départ précoce comme mesure; ne pas confondre construction bois, SLS et D/LAB.",
           "source_url": "https://www.youtube.com/watch?v=-1fBIIm8fpE&t=7s"
         }
-      ]
+      ],
+      "construction_reported": "Sandwich bambou mentionné dans la vidéo; ce n’est pas un suffixe du nom commercial.",
+      "manufacturer_reference": "https://www.duotonesports.com/en/us/wing-foiling/stories/product-clip-duotone-skybrid-2025",
+      "generation_note": "La version 100 L / 5 pieds 8 mentionnée ne suffit pas à identifier le millésime. Ne pas affecter les dimensions 2026 ou la construction SLS/D/LAB."
     },
     {
       "video_id": "YF448nI7QHM",
@@ -846,6 +849,49 @@
           "statement_fr": "Le présentateur Liquid Blue déclare quelques semaines d’essai et introduit une Rocket Crossover pour des conditions variées à Cabarete.",
           "limits": "Le cache s’arrête au générique, sans conclusion technique ni taille. Les 10–25 nœuds décrivent le spot; ce n’est pas une plage validée de la planche.",
           "source_url": "https://www.youtube.com/watch?v=vqFSdEKOfFM&t=2s"
+        }
+      ]
+    },
+    {
+      "video_id": "pPXyFWHSd-U",
+      "model": "Duotone Glide 3.0 700/825 — choix de tail",
+      "language_returned": "en",
+      "transcript_sha256": "bc6bd88605505058aa402bc48aca06ce70fd32795c69162fb0fa926cc76219bc",
+      "review_method": "Lecture de tous les 68 segments du cache; sans contrôle audio.",
+      "integration": "conditional_setup",
+      "integration_reason": "Préférence H130 versus PX145 injectée dans le conseil de montage du Glide 825 selon programme; pas de score ni compatibilité garantie.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 25.7,
+          "dimension": "setup",
+          "statement_fr": "Le testeur annonce une Glide 700 avec tail PX145, après un essai H130, et une wing de 4 m².",
+          "limits": "La transcription rend le nom MBXP; référence à confirmer. Repères 7/9 personnels de rails, non transférables.",
+          "source_url": "https://www.youtube.com/watch?v=pPXyFWHSd-U&t=0s"
+        },
+        {
+          "start_s": 45.2,
+          "end_s": 97.2,
+          "dimension": "takeoff,glide",
+          "statement_fr": "Le testeur apprécie la portance et la glisse des 700 et 825, tout en décrivant la Glide comme moins tournée vers les courbes serrées que la Crest.",
+          "limits": "Comparaisons de surfaces Crest hypothétiques 850/975 : ne pas les convertir en coefficients de portance ou équivalences constructeur.",
+          "source_url": "https://www.youtube.com/watch?v=pPXyFWHSd-U&t=45s"
+        },
+        {
+          "start_s": 99.6,
+          "end_s": 147.1,
+          "dimension": "setup,program",
+          "statement_fr": "Le testeur préfère H130 pour pumping et descente de houle peu tractée sur 700/825; il préfère PX145 lorsque la wing ou les vagues apportent davantage de puissance.",
+          "limits": "Préférence de montage issue d’un testeur; ne pas confondre tous les tails ni garantir compatibilité des références.",
+          "source_url": "https://www.youtube.com/watch?v=pPXyFWHSd-U&t=99s"
+        },
+        {
+          "start_s": 150.4,
+          "end_s": 176.8,
+          "dimension": "surf,limits",
+          "statement_fr": "Pour les vagues en wing, il garde ses Crest 675/800 : la Glide lui a paru trop rapide pour rester serré dans la poche. Il retient Glide 700/825 avec H130 en parawing.",
+          "limits": "Usage personnel et conditions particulières; pas une impossibilité de surfer avec Glide ni un classement universel.",
+          "source_url": "https://www.youtube.com/watch?v=pPXyFWHSd-U&t=150s"
         }
       ]
     }

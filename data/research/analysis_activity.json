@@ -143,6 +143,14 @@
       "started_at_utc": "2026-11-16T18:34:37.979203+00:00",
       "updated_at_utc": "2026-11-16T18:34:41.602690+00:00",
       "expires_at_utc": "2026-11-16T18:54:41.602690+00:00"
+    },
+    {
+      "video_id": "pPXyFWHSd-U",
+      "status": "completed",
+      "step": "Quatre observations publiées; conseil H130 ou PX145 selon usage testé",
+      "started_at_utc": "2026-11-16T18:41:25.553671+00:00",
+      "updated_at_utc": "2026-11-16T18:41:26.230959+00:00",
+      "expires_at_utc": "2026-11-16T19:01:26.230959+00:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-16T18:34:41.667482+00:00",
+  "updated_at_utc": "2026-11-16T18:41:26.306429+00:00",
   "collection_updated_at_utc": "2026-11-16T18:33:12.193930+00:00",
   "retry_not_before_utc": null,
   "collection_state": "in_progress",
@@ -289,15 +289,22 @@
       "collection": "timed_transcript_received",
       "segments": 68,
       "keyword_candidates": 13,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 4,
+      "evidence_url": "data/research/transcript_reviews.json",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
+      "integration_reason": "Préférence H130 versus PX145 injectée dans le conseil de montage du Glide 825 selon programme; pas de score ni compatibilité garantie.",
       "publisher": "Pasty Adventures ",
       "channel_id": "UCSOPNqdhYEgErM0vT-9ErEg",
-      "activity": null
+      "activity": {
+        "video_id": "pPXyFWHSd-U",
+        "status": "completed",
+        "step": "Quatre observations publiées; conseil H130 ou PX145 selon usage testé",
+        "started_at_utc": "2026-11-16T18:41:25.553671+00:00",
+        "updated_at_utc": "2026-11-16T18:41:26.230959+00:00",
+        "expires_at_utc": "2026-11-16T19:01:26.230959+00:00"
+      }
     },
     {
       "video_id": "z8wP9_VnM-8",
