@@ -175,6 +175,14 @@
       "started_at_utc": "2026-11-16T18:56:46.715031+00:00",
       "updated_at_utc": "2026-11-16T18:56:46.715031+00:00",
       "expires_at_utc": "2026-11-16T19:16:46.715031+00:00"
+    },
+    {
+      "video_id": "V5rMLxpKDsg",
+      "status": "in_progress",
+      "step": "Lecture complète et vérifications du lot suivant; publication des preuves par taille",
+      "started_at_utc": "2026-11-16T19:03:20.816918+00:00",
+      "updated_at_utc": "2026-11-16T19:03:20.816918+00:00",
+      "expires_at_utc": "2026-11-16T19:23:20.816918+00:00"
     }
   ]
 }

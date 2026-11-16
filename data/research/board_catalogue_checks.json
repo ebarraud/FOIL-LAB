@@ -1,0 +1,77 @@
+{
+  "checked_on": "2026-11-16",
+  "entries": [
+    {
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "source_url": "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf",
+      "source_units": "length and width inches; converted by 2.54 exactly",
+      "sizes": [
+        [
+          30,
+          142.24,
+          44.196
+        ],
+        [
+          40,
+          154.94,
+          45.212
+        ],
+        [
+          50,
+          160.02,
+          46.736
+        ],
+        [
+          60,
+          165.1,
+          47.244
+        ],
+        [
+          65,
+          167.64,
+          48.387
+        ],
+        [
+          70,
+          172.72,
+          49.53
+        ],
+        [
+          80,
+          177.8,
+          50.8
+        ],
+        [
+          90,
+          187.96,
+          51.816
+        ],
+        [
+          95,
+          190.5,
+          52.578
+        ],
+        [
+          104,
+          195.58,
+          53.34
+        ],
+        [
+          110,
+          200.66,
+          54.483
+        ],
+        [
+          120,
+          203.2,
+          55.88
+        ]
+      ],
+      "review_video_id": "a-azQlLJlck",
+      "tested_volume_l": 90,
+      "selection_minimum_level": 2,
+      "limit": "No beginner extrapolation; no Carbon Pro weight or performance attributed; no score"
+    }
+  ]
+}

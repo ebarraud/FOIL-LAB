@@ -1504,6 +1504,945 @@
           "limits": "Retour SUP downwind de pratiquants déjà expérimentés; ne prouve pas la facilité en wing pour un débutant."
         }
       ]
+    },
+    {
+      "video_id": "9G1mKOnFgxA",
+      "model": "Indiana Barracuda M/L (850/1050 annoncés dans le titre)",
+      "language_returned": "en-US",
+      "language_note": "Cache anglais pour un titre allemand : traduction probable, original/audio non vérifiés.",
+      "transcript_sha256": "a4283f450dc40c4491654c38b630497afe59951c3747af696e90679fbfe5de6d",
+      "review_method": "Lecture intégrale de tous les segments disponibles; paraphrase sans contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche Barracuda M/L, correspondance 850/1050 et montages avant ajout. Conseil de programme documenté, pas de score extrapolé.",
+      "claims": [
+        {
+          "start_s": 122.13,
+          "end_s": 171.57,
+          "dimension": "setup",
+          "statement_fr": "Deux tailles M/L, stabs M/L et tails M/L, deux positions du stab et mât HM85 sont annoncés.",
+          "limits": "Correspondance exacte entre tailles et montages non isolée; texte anglais traduit."
+        },
+        {
+          "start_s": 194.26,
+          "end_s": 340.34,
+          "dimension": "takeoff,control",
+          "statement_fr": "Le départ exige une bonne accélération de la board; le testeur décrit plus de guidage à basse vitesse et davantage de stabilité en conservant la vitesse.",
+          "limits": "Le gain annoncé de 2–3 km/h n’a pas de protocole apparié : aucune valeur de vitesse injectée au moteur."
+        },
+        {
+          "start_s": 394.32,
+          "end_s": 461.93,
+          "dimension": "glide,pumping",
+          "statement_fr": "Glisse sur l’épaule de vague appréciée; le tail M est préféré au L pour un pumping plus fréquent.",
+          "limits": "Ressenti sur deux tailles, pas comparaison isolée de chaque montage."
+        },
+        {
+          "start_s": 523.46,
+          "end_s": 645.53,
+          "dimension": "program,limits",
+          "statement_fr": "Sauts simples possibles mais préférence pour Marlin en freestyle; Barracuda orienté vagues moins raides et riders maîtrisant les manœuvres et l’accélération au départ.",
+          "limits": "Pas un foil débutant déduit de ce retour; aucune plage de poids mesurée."
+        }
+      ]
+    },
+    {
+      "video_id": "_W2HhY4gySA",
+      "model": "Indiana Flow FW Carbon 85/95 L",
+      "language_returned": "en-US",
+      "language_note": "Cache anglais pour un titre allemand : traduction probable, original/audio non vérifiés.",
+      "transcript_sha256": "2fce585760c7fb0dd617e41272a24ed6a3a68baf1043cbfebdcc234716832939",
+      "review_method": "Lecture intégrale de tous les segments disponibles; paraphrase sans contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Dimensions par taille et génération à vérifier avant sélection. Préserver la règle anti-sinker débutant malgré le départ réussi de testeurs expérimentés.",
+      "claims": [
+        {
+          "start_s": 104.41,
+          "end_s": 188.3,
+          "dimension": "board_stability",
+          "statement_fr": "Le testeur décrit les 85/95 L stables pour les départs à genoux, y compris vers 90 kg; il réserve l’initiation aux gabarits légers et distingue le départ prone plus difficile.",
+          "limits": "90 kg est un cas expérimenté, pas une recommandation automatique débutant en sous-volume."
+        },
+        {
+          "start_s": 188.78,
+          "end_s": 300.26,
+          "dimension": "takeoff,setup",
+          "statement_fr": "Départ apprécié et comparé qualitativement au KT Drifter; foils 950–1000 et longues glissières cités.",
+          "limits": "Modèles exacts et conditions non appariés; aucune compatibilité universelle."
+        },
+        {
+          "start_s": 345.88,
+          "end_s": 450.71,
+          "dimension": "surf,freestyle",
+          "statement_fr": "Largeur annoncée 63 cm et tail aminci : carving facilité selon le testeur, sauts simples contrôlés, préférence pour le 85 L en freestyle des riders 90–100 kg.",
+          "limits": "Largeur à vérifier par taille; gabarit concerne des riders déjà compétents."
+        },
+        {
+          "start_s": 449.79,
+          "end_s": 634.18,
+          "dimension": "comparison,limits",
+          "statement_fr": "La Flow FW est décrite plus facile en carve que l’ancienne Wingfoil 80, celle-ci plus agile en rotations; le 95 est évoqué aussi pour un programme downwind avec marge de volume.",
+          "limits": "Comparaison qualitative de boards différentes; ne pas créer une règle universelle volume=poids+15."
+        }
+      ]
+    },
+    {
+      "video_id": "pvcTK70LaBQ",
+      "model": "Indiana Superfly CML 89 L",
+      "language_returned": "en-US",
+      "language_note": "Cache anglais pour un titre allemand : traduction probable, original/audio non vérifiés.",
+      "transcript_sha256": "7fd8c1313ab443c39fde335d9a981ba0a33a9aa9cc05bc035bc4cdbe9a439bfa",
+      "review_method": "Lecture intégrale de tous les segments disponibles; paraphrase sans contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier dimensions complètes et construction CML89 avant ajout. Comparaison conservée avec taille et contexte, sans bonus arbitraire de portance.",
+      "claims": [
+        {
+          "start_s": 131.79,
+          "end_s": 211.85,
+          "dimension": "board_stability",
+          "statement_fr": "Le testeur apprécie la stabilité de la 89 L annoncée 22,5 pouces de large pour des riders avec équilibre, jusqu’à environ 90 kg.",
+          "limits": "La longueur est mal restituée dans la traduction; poids limite et facilité débutant non validés."
+        },
+        {
+          "start_s": 210.98,
+          "end_s": 265.22,
+          "dimension": "setup",
+          "statement_fr": "Foils 700/850/900/1100 à allongement 9–10,5 essayés; glissières longues et avancées permettant de régler le trim.",
+          "limits": "Les modèles de foils ne sont pas identifiés; ne prouve pas toute compatibilité."
+        },
+        {
+          "start_s": 264.28,
+          "end_s": 433.52,
+          "dimension": "control,pumping",
+          "statement_fr": "Le pont creusé et le centrage sont associés au ressenti de conduite neutre et de faible inertie en pumping.",
+          "limits": "Interprétation du testeur, sans mesure de moment d’inertie ni contrôle de foil."
+        },
+        {
+          "start_s": 452.82,
+          "end_s": 514.23,
+          "dimension": "freestyle,limits",
+          "statement_fr": "Sauts simples et rotations possibles, mais les réceptions demandent plus de précision que sur une compacte plus large.",
+          "limits": "Pas une garantie de sécurité; configuration complète et niveau comptent."
+        },
+        {
+          "start_s": 557.82,
+          "end_s": 679.58,
+          "dimension": "comparison",
+          "statement_fr": "Dans la comparaison interne avec Flow FW85, la Superfly89 accélère plus passivement pour porter de petits foils rapides; Flow FW est située davantage vers freestyle.",
+          "limits": "Comparaison de deux volumes et shapes, pas mesure isolée de performance."
+        }
+      ]
+    },
+    {
+      "video_id": "htCy_cztRcs",
+      "model": "Slingshot Glide Craft V1 80 L",
+      "language_returned": "de",
+      "language_note": "Langue retournée conservée; anglais du Laser probablement traduit, pas de contrôle audio.",
+      "transcript_sha256": "0450ab22bea9007b7472cac0a47447ff4a6948779b48d3b1b9ef0aebe7697f32",
+      "review_method": "Lecture de tous les segments du cache local, sans écoute.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier dimensions, génération et construction officielles avant ajout au catalogue. Comparaisons conservées par taille; aucun score ou coefficient de portance déduit.",
+      "claims": [
+        {
+          "start_s": 76.96,
+          "end_s": 181.24,
+          "dimension": "takeoff",
+          "statement_fr": "Board annoncée 163 x 61 cm, 80 L; départ actif et passif apprécié, stabilité jugée bonne malgré les bevels arrondis.",
+          "limits": "Dimensions issues du discours à contrôler au catalogue; aucun poids débutant universel."
+        },
+        {
+          "start_s": 337.44,
+          "end_s": 421.32,
+          "dimension": "setup,surf",
+          "statement_fr": "Foils 700/800/950/1100 essayés; réponse précise, mais rayon moins serré que Flow Craft et tail pouvant accrocher aux inclinaisons extrêmes.",
+          "limits": "Modèles de foils non identifiés; comparaison sans protocole apparié."
+        },
+        {
+          "start_s": 423.8,
+          "end_s": 521.36,
+          "dimension": "freestyle,program",
+          "statement_fr": "Sauts et repop appréciés; compromis surf/freestyle, avec limites face aux boards spécialisées plus compactes ou plus étroites.",
+          "limits": "Aucune note chiffrée ni garantie de réception."
+        },
+        {
+          "start_s": 525.72,
+          "end_s": 624.56,
+          "dimension": "size_selection",
+          "statement_fr": "Le testeur insiste sur le choix du volume adapté malgré une conduite accessible.",
+          "limits": "80 L ne devient pas une taille débutant pour tous les poids."
+        }
+      ]
+    },
+    {
+      "video_id": "qf2LA6Dw4QI",
+      "model": "Slingshot Flow Craft V2 65 L",
+      "language_returned": "de",
+      "language_note": "Langue retournée conservée; anglais du Laser probablement traduit, pas de contrôle audio.",
+      "transcript_sha256": "5791861d9fe92c838d78cf38e1ef4129f4110a9c4a881a4e77ef99b7001c4de4",
+      "review_method": "Lecture de tous les segments du cache local, sans écoute.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier dimensions, génération et construction officielles avant ajout au catalogue. Comparaisons conservées par taille; aucun score ou coefficient de portance déduit.",
+      "claims": [
+        {
+          "start_s": 78.76,
+          "end_s": 167.52,
+          "dimension": "generation,takeoff",
+          "statement_fr": "V2 devient crossover alors que V1 était compacte freestyle; 65 L étroite demandant davantage d’équilibre mais départ très rapide apprécié.",
+          "limits": "La largeur est transcrite 21 cm et ne doit pas être reprise sans vérification."
+        },
+        {
+          "start_s": 169.96,
+          "end_s": 250.24,
+          "dimension": "setup,control",
+          "statement_fr": "Foils 700–950, longs rails et pont légèrement concave associés à un trim neutre et une conduite légère.",
+          "limits": "Pas de validation de tous les modèles ou interfaces."
+        },
+        {
+          "start_s": 317.88,
+          "end_s": 367.28,
+          "dimension": "touchdown",
+          "statement_fr": "Le testeur juge les petits contacts d’eau moins freinants que sur Superfly et Beluga ML précédemment essayées.",
+          "limits": "Comparaison subjective, tailles et conditions non appariées."
+        },
+        {
+          "start_s": 388.72,
+          "end_s": 462.48,
+          "dimension": "freestyle,limits",
+          "statement_fr": "Sauts possibles mais réception des rotations plus exigeante que sur V1 compacte; la longueur et l’étroitesse imposent de la précision.",
+          "limits": "Ne pas transférer les qualités freestyle V1 au modèle V2."
+        },
+        {
+          "start_s": 638.04,
+          "end_s": 701,
+          "dimension": "size_selection",
+          "statement_fr": "Le testeur conseille 55–75 kg pour la 65 L à des freeriders ambitieux maîtrisant le départ; la bascule au démarrage reste une limite.",
+          "limits": "Avis éditorial contextualisé, pas seuil débutant ni plage de poids mesurée."
+        }
+      ]
+    },
+    {
+      "video_id": "9U1SMtSmTNE",
+      "model": "Slingshot Laser Craft V1 105 L",
+      "language_returned": "en-US",
+      "language_note": "Langue retournée conservée; anglais du Laser probablement traduit, pas de contrôle audio.",
+      "transcript_sha256": "2a2537e2ec88ae91b2f4f59ec2c674f55df207e2c25760f120386fb606e8ce5d",
+      "review_method": "Lecture de tous les segments du cache local, sans écoute.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier dimensions, génération et construction officielles avant ajout au catalogue. Comparaisons conservées par taille; aucun score ou coefficient de portance déduit.",
+      "claims": [
+        {
+          "start_s": 134.44,
+          "end_s": 223.56,
+          "dimension": "takeoff",
+          "statement_fr": "Départ apprécié avec plusieurs techniques de pumping; stabilité correcte après pratique jusqu’à environ 90 kg avec largeur annoncée 20,5 pouces.",
+          "limits": "Longueur mal traduite en 70 pouces plus loin, puis sept pieds : fiche requise."
+        },
+        {
+          "start_s": 275.49,
+          "end_s": 323.49,
+          "dimension": "setup",
+          "statement_fr": "Montages One-Lock1125, Glide1100 et un troisième foil transcrit CF2.0 1430; trim neutre obtenu via longues glissières.",
+          "limits": "Nom exact du troisième foil incertain; pas de compatibilité générale."
+        },
+        {
+          "start_s": 322.6,
+          "end_s": 439.59,
+          "dimension": "program,limits",
+          "statement_fr": "Sauts simples possibles, mais grande longueur gênante dans petites vagues raides et rapprochées; nose plonge parfois sans accroche importante selon le testeur.",
+          "limits": "Pas board de freestyle spécialisée; comportement dépend du foil et du niveau."
+        },
+        {
+          "start_s": 487.87,
+          "end_s": 586.69,
+          "dimension": "comparison",
+          "statement_fr": "Le testeur situe le KT Super K plus tolérant au départ par sa largeur, et les midlengths plus courtes plus faciles à travailler en tangage dans la vague.",
+          "limits": "Tailles exactes des comparateurs non toutes identifiées; aucun classement absolu."
+        }
+      ]
+    },
+    {
+      "video_id": "RRHYwIpkENs",
+      "model": "Duotone Skybrid SLS 2026 90 L",
+      "language_returned": "de",
+      "language_note": "Texte allemand du cache lu intégralement; audio non contrôlé.",
+      "transcript_sha256": "3c6224c8f5b98aa39c66776e4e7ed765729db8f68fdbe29add777f7fbdd1bf58",
+      "review_method": "Lecture de tous les segments du cache original disponible; sans écoute.",
+      "integration": "deferred",
+      "integration_reason": "Contrôler la fiche constructeur de cette génération et ses volumes avant ajout au catalogue. Ne pas mélanger constructions ou millésimes dans une règle de sélection.",
+      "claims": [
+        {
+          "start_s": 133.12,
+          "end_s": 158.64,
+          "dimension": "generation",
+          "statement_fr": "Le test distingue trois constructions : époxy moulée, SLS testée et D/LAB creuse.",
+          "limits": "Ces retours ne valident pas automatiquement les autres constructions; aucune version bois identifiée."
+        },
+        {
+          "start_s": 163.64,
+          "end_s": 288.56,
+          "dimension": "takeoff,stability",
+          "statement_fr": "La 90 L SLS demande plus d’énergie au départ que le KT Super K comparé, mais offre davantage de stabilité pour se lever; départ amélioré face à l’ancienne Skybrid selon le testeur.",
+          "limits": "Foils 850–1100 cités, conditions non appariées; pas de gain mesuré."
+        },
+        {
+          "start_s": 361.36,
+          "end_s": 430.84,
+          "dimension": "touchdown",
+          "statement_fr": "Avec mâts 80–85 cm, les petits contacts des rails sont jugés moins freinants que sur le modèle précédent.",
+          "limits": "Ne signifie pas absence de frein dans toute réception."
+        },
+        {
+          "start_s": 436.76,
+          "end_s": 548.88,
+          "dimension": "program",
+          "statement_fr": "Board équilibrée pour sauts simples et surf, avec pont aidant au contrôle sans transfert de poids marqué.",
+          "limits": "Longueur annoncée 5’11 et taille90; pas généralisation aux autres volumes."
+        },
+        {
+          "start_s": 555.6,
+          "end_s": 687.48,
+          "dimension": "limits",
+          "statement_fr": "Le testeur conserve le compromis stabilité au départ contre accélération légèrement moindre que les meilleurs shapes à déplacement et déconseille une recommandation débutant systématique.",
+          "limits": "Suggestion de volume supplémentaire éditoriale, pas seuil universel."
+        }
+      ]
+    },
+    {
+      "video_id": "xpGSWpujoP0",
+      "model": "Eleveight Evolve V4 75 L / Evolve S 55 L",
+      "language_returned": "de",
+      "language_note": "Texte allemand du cache lu intégralement; audio non contrôlé.",
+      "transcript_sha256": "e3faf222ec9779f2c949fcc6cd546779c00c5376e6604aeb9494b31d41d59c48",
+      "review_method": "Lecture de tous les segments du cache original disponible; sans écoute.",
+      "integration": "deferred",
+      "integration_reason": "Contrôler la fiche constructeur de cette génération et ses volumes avant ajout au catalogue. Ne pas mélanger constructions ou millésimes dans une règle de sélection.",
+      "claims": [
+        {
+          "start_s": 120.12,
+          "end_s": 179.52,
+          "dimension": "identity,takeoff",
+          "statement_fr": "Evolve75 et Evolve S55 essayées : la grande préfère un départ activement pompé, la S a une sortie de tail différente et démarre tôt dans sa classe.",
+          "limits": "Ne pas fusionner les deux shapes ni attribuer leur différence uniquement au volume."
+        },
+        {
+          "start_s": 276.64,
+          "end_s": 332.16,
+          "dimension": "surf,limits",
+          "statement_fr": "Le tail et les bevels permettent l’inclinaison; un contact avec les arêtes peut toutefois freiner.",
+          "limits": "Ressenti sans perte de vitesse mesurée."
+        },
+        {
+          "start_s": 372.56,
+          "end_s": 460.36,
+          "dimension": "freestyle",
+          "statement_fr": "Le testeur voit une dominante freestyle : encombrement compact, inclinaison au pop et nose facilitant le rebond en réception.",
+          "limits": "La résistance de construction n’est pas une certification de solidité."
+        },
+        {
+          "start_s": 544.08,
+          "end_s": 613.72,
+          "dimension": "size_selection",
+          "statement_fr": "La 75 L est conseillée par le testeur vers70–85 kg avec pratique sportive et départ maîtrisé.",
+          "limits": "Conseil pour riders expérimentés, pas plage débutant validée."
+        }
+      ]
+    },
+    {
+      "video_id": "a-azQlLJlck",
+      "model": "KT Super K2 Carbon 90 L",
+      "language_returned": "de",
+      "language_note": "Texte allemand du cache lu intégralement; audio non contrôlé.",
+      "transcript_sha256": "e578d902d91d652768e8131f66283324d825c12069f64cb335f6ec436e679d3d",
+      "review_method": "Lecture de tous les segments du cache original disponible; sans écoute.",
+      "integration": "conditional_board_selection",
+      "integration_reason": "Dimensions officielles Carbon vérifiées (12 volumes). Sélection ajoutée à partir du niveau2, sans initiation ni note inventée. Essai90L seulement pour les retours comportementaux.",
+      "claims": [
+        {
+          "start_s": 119.8,
+          "end_s": 200.56,
+          "dimension": "takeoff,stability",
+          "statement_fr": "Le départ actif/passif est très apprécié, mais les52 cm de largeur exigent un peu d’équilibre malgré une bonne stabilité relative pour ce shape.",
+          "limits": "Comparaisons subjectives sans chronométrage."
+        },
+        {
+          "start_s": 203.52,
+          "end_s": 288.52,
+          "dimension": "setup",
+          "statement_fr": "Riders72/85/90 kg et foils700–1500 cités; longs rails permettant le trim neutre et bonne sensation du foil selon le testeur.",
+          "limits": "Pas preuve de toute interface ni attribution à un modèle précis non nommé."
+        },
+        {
+          "start_s": 489.76,
+          "end_s": 549.76,
+          "dimension": "freestyle,limits",
+          "statement_fr": "Sauts simples et repop appréciés mais90 L et longueur6’2 imposent de l’inertie en rotation : pas une board freestyle dédiée.",
+          "limits": "Ressenti de testeurs, pas mesure d’inertie."
+        },
+        {
+          "start_s": 554.32,
+          "end_s": 648.64,
+          "dimension": "level",
+          "statement_fr": "Le testeur exclut explicitement l’initiation pure : départ déjà assuré sur compacte et jibe maîtrisé conseillés.",
+          "limits": "Le bon départ dans le léger ne remplace pas les exigences d’équilibre."
+        },
+        {
+          "start_s": 673.88,
+          "end_s": 707.08,
+          "dimension": "construction",
+          "statement_fr": "Carbon et Carbon Pro sont distinguées; le test concerne la Carbon90.",
+          "limits": "Ne pas attribuer le poids de la Pro à la Carbon; aucun poids mesuré donné ici."
+        }
+      ]
+    },
+    {
+      "video_id": "ut8lby8-QrA",
+      "model": "Duotone Blitz D/LAB550",
+      "language_returned": "en-US",
+      "language_note": "Langue retournée conservée; Blitz anglais probablement traduit, Flow explicitement traduit; pas de contrôle audio.",
+      "transcript_sha256": "df2bd7a8761f220c793ffeef36f2cdf584ae44d2423c263682fdd19d6a6c38e9",
+      "review_method": "Lecture intégrale de tous les segments locaux, sans écoute.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche constructeur, tailles et composants exacts avant ajout au moteur. Ne pas inventer de coefficient de portance pour comparer ces familles.",
+      "claims": [
+        {
+          "start_s": 134.26,
+          "end_s": 200.43,
+          "dimension": "setup",
+          "statement_fr": "Test550 avec stab190 spécifique, tails47 et37, Slim D/LAB94; le47 est annoncé montage prévu et fuselage total70.",
+          "limits": "Compatibilités et vis M6 à vérifier avec notice; pas conseil de montage universel."
+        },
+        {
+          "start_s": 235.46,
+          "end_s": 269.28,
+          "dimension": "takeoff",
+          "statement_fr": "Départ demandant énergie, pumping cohérent et wing puissante; exemple4,5–5m² dans20–25nœuds annoncé.",
+          "limits": "Poids et vent non instrumentés; aucune plage de vent garantie."
+        },
+        {
+          "start_s": 323.65,
+          "end_s": 424.76,
+          "dimension": "control",
+          "statement_fr": "Tail47 plus calme en tangage;37 plus sensible surtout lentement, demandant vitesse et contrôle.",
+          "limits": "Mêmes impressions ne signifient pas facilité débutant."
+        },
+        {
+          "start_s": 423.82,
+          "end_s": 624.65,
+          "dimension": "program",
+          "statement_fr": "Le test vise freerace/vitesse et cap, avec glisse jugée correcte sans être dominante et manœuvres à conserver rapides.",
+          "limits": "Vitesses annoncées wing et kite non comparables, sans traces de mesure disponibles; aucun score ni gain de10km/h garanti."
+        },
+        {
+          "start_s": 623.74,
+          "end_s": 675.63,
+          "dimension": "freestyle",
+          "statement_fr": "Le37 facilite le pop selon le testeur.",
+          "limits": "Hauteur de saut annoncée non vérifiée; pas une promesse ni un foil freestyle de référence."
+        }
+      ]
+    },
+    {
+      "video_id": "P2kF4cHQEZ4",
+      "model": "KT Instinct920/1120",
+      "language_returned": "de",
+      "language_note": "Langue retournée conservée; Blitz anglais probablement traduit, Flow explicitement traduit; pas de contrôle audio.",
+      "transcript_sha256": "e95af245cd6bf9daff5ed87c71145239484ce41eef7037d7dac49f5925632c49",
+      "review_method": "Lecture intégrale de tous les segments locaux, sans écoute.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche constructeur, tailles et composants exacts avant ajout au moteur. Ne pas inventer de coefficient de portance pour comparer ces familles.",
+      "claims": [
+        {
+          "start_s": 96.6,
+          "end_s": 151.6,
+          "dimension": "setup",
+          "statement_fr": "Tailles920/1120, stabs155/190 et mât carbone85 annoncés.",
+          "limits": "Appariement tail/taille non isolé; interfaces non vérifiées."
+        },
+        {
+          "start_s": 156.12,
+          "end_s": 245.68,
+          "dimension": "takeoff,control",
+          "statement_fr": "Départ doux et tangage stable; roulis et lacet restent nettement plus agiles, avec bon retour sous le pied avant.",
+          "limits": "Cas de riders lourds ne fournit pas un seuil de décollage universel."
+        },
+        {
+          "start_s": 296.76,
+          "end_s": 377.68,
+          "dimension": "context",
+          "statement_fr": "Testeurs55/90/plus100kg et boards80–90L; manœuvres jugées faciles à vitesse moyenne grâce au tangage contrôlable.",
+          "limits": "Pas tableau appariant chaque poids à chaque taille."
+        },
+        {
+          "start_s": 385.48,
+          "end_s": 456.92,
+          "dimension": "glide,pumping",
+          "statement_fr": "Bonne glisse ressentie mais pumping moins efficace : un appui énergétique de la vague aide, programme de courbes légères près du face.",
+          "limits": "Aucune dépense ou distance mesurée."
+        },
+        {
+          "start_s": 511.72,
+          "end_s": 600.08,
+          "dimension": "level,limits",
+          "statement_fr": "Le testeur nuance le positionnement constructeur débutant : roulis/lacet presque trop vifs pour l’initiation pure, préférence intermediate allround.",
+          "limits": "Conseil subjectif documenté; ne pas substituer stabilité en tangage à stabilité sur tous les axes."
+        }
+      ]
+    },
+    {
+      "video_id": "AIA666962GA",
+      "model": "Slingshot One-Lock Flow800",
+      "language_returned": "en",
+      "language_note": "Langue retournée conservée; Blitz anglais probablement traduit, Flow explicitement traduit; pas de contrôle audio.",
+      "transcript_sha256": "5e56f0b9d239062468f70b81ccb166c7f5e32d966c3434093a3952e568b5f6f7",
+      "review_method": "Lecture intégrale de tous les segments locaux, sans écoute.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche constructeur, tailles et composants exacts avant ajout au moteur. Ne pas inventer de coefficient de portance pour comparer ces familles.",
+      "claims": [
+        {
+          "start_s": 111.92,
+          "end_s": 209.36,
+          "dimension": "setup",
+          "statement_fr": "800 annoncée avec Turbo180 et fuse plus long, Flare145/175 plus courts, mâtHM82.",
+          "limits": "Dénomination des tails à vérifier; traduction explicite."
+        },
+        {
+          "start_s": 243.12,
+          "end_s": 281.48,
+          "dimension": "takeoff",
+          "statement_fr": "Turbo180 facilite le départ et calme immédiatement le vol; Flare175 réclame un peu plus d’énergie.",
+          "limits": "Pas généralisation à toutes les tailles Flow."
+        },
+        {
+          "start_s": 312,
+          "end_s": 389.56,
+          "dimension": "control",
+          "statement_fr": "Roulis demandant plus d’effort que Glide725; tails courts facilitant les courbes et exigeant davantage de guidage.",
+          "limits": "Deux surfaces différentes comparées; pas effet du seul modèle."
+        },
+        {
+          "start_s": 425.92,
+          "end_s": 463.64,
+          "dimension": "glide",
+          "statement_fr": "Le testeur apprécie la glisse en utilisant peu d’énergie de vague et une conduite plus ouverte.",
+          "limits": "Aucune distance mesurée."
+        },
+        {
+          "start_s": 472.64,
+          "end_s": 634.52,
+          "dimension": "limits,setup",
+          "statement_fr": "Les réceptions lentes sont plus difficiles à relancer que sur Glide725; Turbo privilégié pour calme, Flare pour performance avec incidence régulière.",
+          "limits": "Flow800 avancé, pas référence freestyle ni foil débutant déduit du seul tail."
+        }
+      ]
+    },
+    {
+      "video_id": "I5UIZAT93qo",
+      "model": "RRD Beluga ML LTD Y30 85 L",
+      "language_returned": "de",
+      "language_note": "Cache allemand; lecture sans contrôle audio.",
+      "transcript_sha256": "79b3bf4fa05f7141e256ef6421efe205915908cea1a21880ce685d029827ef85",
+      "review_method": "Lecture intégrale du texte local.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche officielle de cette génération et dimensions par volume avant ajout au catalogue. Conseils de niveau et limites documentés, aucune note inventée.",
+      "claims": [
+        {
+          "start_s": 133.44,
+          "end_s": 238.36,
+          "dimension": "takeoff,limits",
+          "statement_fr": "85 L et largeur56cm : départ très précoce ressenti sur Flying Fish900/1050 mais équilibre nécessaire, initiation pure déconseillée.",
+          "limits": "Dimensions déclarées dans le test à contrôler; aucune mesure de vent."
+        },
+        {
+          "start_s": 240.6,
+          "end_s": 278.32,
+          "dimension": "stability",
+          "statement_fr": "Testeurs74/80/90kg; le testeur souligne l’instabilité accrue à90kg malgré la courte phase avant envol.",
+          "limits": "Un rider90kg expérimenté ne valide pas un débutant du même poids."
+        },
+        {
+          "start_s": 422.36,
+          "end_s": 454.6,
+          "dimension": "freestyle",
+          "statement_fr": "Rotation moins pénalisée que sur un long midlength, mais réceptions moins stables que sur une compacte.",
+          "limits": "Comparaison subjective de shapes, pas note de freestyle."
+        },
+        {
+          "start_s": 515.84,
+          "end_s": 541.2,
+          "dimension": "level",
+          "statement_fr": "Départ sûr et jibe en vol conseillés pour la85 L.",
+          "limits": "La plage70–90kg citée reste éditoriale; LTD et LTE ne sont pas une même construction."
+        }
+      ]
+    },
+    {
+      "video_id": "S2boM4B8en8",
+      "model": "Indiana Early Bird LW104 L",
+      "language_returned": "de",
+      "language_note": "Cache allemand; lecture sans contrôle audio.",
+      "transcript_sha256": "7c395110d6bf571f1d7cd2659cc1a36bb955e9f5cfe4f00963756631aaae894a",
+      "review_method": "Lecture intégrale du texte local.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche officielle de cette génération et dimensions par volume avant ajout au catalogue. Conseils de niveau et limites documentés, aucune note inventée.",
+      "claims": [
+        {
+          "start_s": 115.32,
+          "end_s": 159.17,
+          "dimension": "stability",
+          "statement_fr": "104 L annoncée6’6 x20,5; besoin d’essayer l’équilibre avant transition depuis compacte, bien que85–90kg puissent tenir en déplacement après pratique.",
+          "limits": "Pas une recommandation débutant universelle."
+        },
+        {
+          "start_s": 168.32,
+          "end_s": 256.6,
+          "dimension": "setup,takeoff",
+          "statement_fr": "Foils1000–1500 à allongement9,5–10; pumping actif facilité face au précédent Le Doigt grâce au tail aminci selon le testeur.",
+          "limits": "Noms et générations comparées sans essai apparié ni taille de foil isolée."
+        },
+        {
+          "start_s": 409.52,
+          "end_s": 525.2,
+          "dimension": "surf,pumping",
+          "statement_fr": "Petit contact du nose peu accrochant, vitesse légèrement réduite; relance au pumping et downwind appréciés.",
+          "limits": "Pas absence absolue de frein, ni mesure d’énergie."
+        },
+        {
+          "start_s": 525.72,
+          "end_s": 639,
+          "dimension": "generation",
+          "statement_fr": "Le nouveau shape est distingué du précédent : tail, pont et rails modifiés, moins sensible au vent latéral selon l’essai.",
+          "limits": "Ne pas transférer ces conclusions au précédent modèle."
+        }
+      ]
+    },
+    {
+      "video_id": "v6Jo8tO5Fq4",
+      "model": "Appletree Apple Skipper67 L",
+      "language_returned": "de",
+      "language_note": "Cache allemand; lecture sans contrôle audio.",
+      "transcript_sha256": "2f65d99e3871aa62efb614e9f3d536d27c84934e80a6a98d1d000744dd391ed3",
+      "review_method": "Lecture intégrale du texte local.",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche officielle de cette génération et dimensions par volume avant ajout au catalogue. Conseils de niveau et limites documentés, aucune note inventée.",
+      "claims": [
+        {
+          "start_s": 24.08,
+          "end_s": 123.52,
+          "dimension": "setup",
+          "statement_fr": "67 L étroite; double strap avant nécessite une V-strap, avec plusieurs positions longitudinales.",
+          "limits": "Compatibilité d’accessoires et dimensions exactes à vérifier."
+        },
+        {
+          "start_s": 313.24,
+          "end_s": 404.68,
+          "dimension": "level,takeoff",
+          "statement_fr": "Board explicitement destinée aux pratiquants avancés;67 L choisie face aux70–75 habituelles, départ et accélération jugés rapides sur plusieurs plans d’eau.",
+          "limits": "Poids du rider non indiqué; aucune recommandation automatique de réduction de volume."
+        },
+        {
+          "start_s": 443.2,
+          "end_s": 505.96,
+          "dimension": "touchdown,freestyle",
+          "statement_fr": "Retour favorable après contact d’algues et sauts possibles; rotations360 exigent une réception précise, moins rattrapable qu’en compacte.",
+          "limits": "Anecdote non répétée; pas garantie anti-chute."
+        },
+        {
+          "start_s": 532.16,
+          "end_s": 586.16,
+          "dimension": "limits",
+          "statement_fr": "Étroit au départ et en déplacement, donc déconseillé aux débutants; le testeur demande plus d’options de straps avant.",
+          "limits": "Ne pas transformer son appréciation polyvalente en board universelle."
+        }
+      ]
+    },
+    {
+      "video_id": "MnZAlmqfiOo",
+      "model": "Foil Solution EFS Roll Leash",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "15d17be749134303cd24adebc231b365864af34262a88f4f888c7853ebbeaf64",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "accessory_only_not_board_or_front_foil",
+      "integration": "deferred",
+      "integration_reason": "Accessoire hors sélection board/foil. Consulter notice et conditions de sécurité du fabricant si un module leash est développé.",
+      "claims": [
+        {
+          "start_s": 39.8,
+          "end_s": 175.24,
+          "dimension": "setup",
+          "statement_fr": "Le système présenté associe ceinture, enrouleur et liaison de board.",
+          "limits": "Démonstration de montage, pas validation de compatibilité universelle."
+        },
+        {
+          "start_s": 189.2,
+          "end_s": 332.8,
+          "dimension": "limits",
+          "statement_fr": "Le testeur souligne le risque de passer le pied dans la liaison au départ et décrit la nécessité de vérifier son dégagement avant de monter.",
+          "limits": "Ne pas reprendre la promesse de non-contact avec la board comme garantie de sécurité."
+        }
+      ]
+    },
+    {
+      "video_id": "xrEGIa5cgdQ",
+      "model": "Indiana Marlin XXS",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "cd56a9880de0bff75234f9f4f9f9647d99da37a1c3bc5e73a663c349632d2914",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "kite_only_not_wing_test",
+      "integration": "deferred",
+      "integration_reason": "Essai uniquement kitefoil : ne pas transférer sauts, vitesse et départ à une sélection wing. Chercher essai wing de cette taille si nécessaire.",
+      "claims": [
+        {
+          "start_s": 77.36,
+          "end_s": 108.68,
+          "dimension": "scope",
+          "statement_fr": "Le testeur précise que la XXS a été essayée uniquement en kite, contrairement auxS/M déjà essayées en wing.",
+          "limits": "Kite et wing ne donnent pas les mêmes conditions de départ."
+        },
+        {
+          "start_s": 196.08,
+          "end_s": 286.4,
+          "dimension": "limits",
+          "statement_fr": "Dans ce test kite, la petite aile demande vitesse et guidage; la pression avant à basse vitesse peut interrompre le vol.",
+          "limits": "Ressenti kite seulement; aucune plage de poids wing."
+        },
+        {
+          "start_s": 512.4,
+          "end_s": 598.24,
+          "dimension": "level",
+          "statement_fr": "Le test vise des pratiquants avancés de kitefoil, au-delà du niveau intermédiaire.",
+          "limits": "Aucune recommandation débutant wing n’en découle."
+        }
+      ]
+    },
+    {
+      "video_id": "vqjLdNT4urA",
+      "model": "KT Atlas680/790/960/1130",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "8545cdb8b844f6ce6bb8a0872c8645429081596a02cb556fc7dd0ab86fa998eb",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Comparer aux essais Atlas indépendants et vérifier montage du stab mal transcrit avant règle. Ne pas convertir le ressenti de25% en coefficient de portance.",
+      "claims": [
+        {
+          "start_s": 14.56,
+          "end_s": 59.24,
+          "dimension": "context",
+          "statement_fr": "Le testeur présente quatre tailles essayées surtout aux Pays-Bas avec une même Drifter4 56 L.",
+          "limits": "Éditeur également vendeur; conditions et poids non tous quantifiés."
+        },
+        {
+          "start_s": 143.48,
+          "end_s": 201.6,
+          "dimension": "size_680",
+          "statement_fr": "680 plus rapide et moins libre que Nomad700, mais départ et vitesse de décrochage jugés accessibles; bons départ/reprise en saut ressentis.",
+          "limits": "Pas comparaison appariée de vitesse."
+        },
+        {
+          "start_s": 198.32,
+          "end_s": 253.04,
+          "dimension": "size_790",
+          "statement_fr": "790 ressent davantage les mouvements d’eau; gain de glisse peu perceptible face680, départ de saut moins net dans du vent plus faible.",
+          "limits": "Le testeur reconnaît lui-même le biais de vent; ne pas pénaliser790 systématiquement."
+        },
+        {
+          "start_s": 248.84,
+          "end_s": 288.64,
+          "dimension": "size_960",
+          "statement_fr": "960 jugée facile à maintenir en vol avec beaucoup de glisse mais lente en navigation; tourne sur fuse56 sans liberté du Nomad.",
+          "limits": "Aucun nombre de vitesse mesuré."
+        },
+        {
+          "start_s": 283.72,
+          "end_s": 341.44,
+          "dimension": "size_1130",
+          "statement_fr": "1130 utilisée avec board56 L,wing5,3 et12nœuds annoncés sur petit clapot; départ jugé plus facile qu’Instinct1120.",
+          "limits": "Vagues non essayées avec1130, comportement en houle présenté comme hypothèse; pas plage basse garantie."
+        }
+      ]
+    },
+    {
+      "video_id": "TdL2YcSYd1Q",
+      "model": "Tabou Super Yaka106 L",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "dc614262a67a0e495c434c747eefbeb7a81bebc7f612723eb49dd95a8dddf25d",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "design_description_not_riding_test",
+      "integration": "deferred",
+      "integration_reason": "Vidéo surtout de présentation du shape; le bilan complet est renvoyé au test écrit. Vérifier fiche et lire ce test avant règle de performance.",
+      "claims": [
+        {
+          "start_s": 98.76,
+          "end_s": 124.52,
+          "dimension": "identity",
+          "statement_fr": "Le présentateur annonce106 L,58cm et6’10; le métrique est transcrit2,8m et ne doit pas être repris.",
+          "limits": "Contradiction d’unité à résoudre dans fiche officielle."
+        },
+        {
+          "start_s": 123.28,
+          "end_s": 204.92,
+          "dimension": "setup",
+          "statement_fr": "Pont presque plat, pad structuré et nombreuses positions de straps; centrage jugé agréable.",
+          "limits": "Pas comparaison expérimentale du pont."
+        },
+        {
+          "start_s": 207.16,
+          "end_s": 250.04,
+          "dimension": "handling",
+          "statement_fr": "Absence de poignée signalée comme gêne au portage avec wing.",
+          "limits": "Limite pratique, pas baisse de performance en vol."
+        },
+        {
+          "start_s": 278.28,
+          "end_s": 434.2,
+          "dimension": "shape",
+          "statement_fr": "Le discours explique le tail aminci, le V et le volume du nose, en renvoyant l’évaluation complète au test écrit.",
+          "limits": "Explication de conception ne prouve pas causalité ou résultat mesuré."
+        }
+      ]
+    },
+    {
+      "video_id": "wIPR7DOgKqQ",
+      "model": "Duotone Skybrid D/LAB80 L",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "0ccecb1216eaf56073f18116cc5c4dfb68426b9e78855ccd5daacdef12fcca58",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche D/LAB80 de cette génération et garanties avant ajout; ne pas attribuer le poids ni les conclusions à SLS.",
+      "claims": [
+        {
+          "start_s": 100.52,
+          "end_s": 118.96,
+          "dimension": "construction",
+          "statement_fr": "D/LAB creuse80L annoncée pesée4,05kg avec trois straps.",
+          "limits": "Poids déclaré par testeur sans contrôle indépendant."
+        },
+        {
+          "start_s": 125.6,
+          "end_s": 181.6,
+          "dimension": "takeoff",
+          "statement_fr": "Bevels plus rentrés que SLS, départ actif apprécié; départ passif légèrement derrière Super K selon le testeur.",
+          "limits": "Comparaison subjective entre montages non appariés."
+        },
+        {
+          "start_s": 296,
+          "end_s": 399.56,
+          "dimension": "level",
+          "statement_fr": "Board21pouces jugée adaptée aux intermédiaires70–90kg, explicitement déconseillée aux vrais débutants.",
+          "limits": "Plage éditoriale de l’essai, pas seuil universel."
+        },
+        {
+          "start_s": 401.48,
+          "end_s": 428.08,
+          "dimension": "durability_limit",
+          "statement_fr": "Les sauts amusent le testeur grâce au faible poids, mais il dit attendre de voir la durabilité freestyle.",
+          "limits": "Ne pas présenter la solidité longue durée comme démontrée."
+        },
+        {
+          "start_s": 607.6,
+          "end_s": 707.8,
+          "dimension": "limits",
+          "statement_fr": "Le jugement favorable au surf et à la conduite est répété avec avertissement sur l’équilibre latéral des débutants.",
+          "limits": "Aucun score constructeur repris comme mesure indépendante."
+        }
+      ]
+    },
+    {
+      "video_id": "V5rMLxpKDsg",
+      "model": "KT Arc78 L",
+      "language_returned": "en-US",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "36648ccf99a2b22d5c040f6565b96adac580aa83643b76d5d86127f8b4d24653",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche officielle Arc et montage : traduction déforme construction et termes. Aucun classement chiffré face aux concurrentes.",
+      "claims": [
+        {
+          "start_s": 79.86,
+          "end_s": 163.5,
+          "dimension": "setup",
+          "statement_fr": "78L annoncée180x52,7cm,4,7kg et rails35cm; rocker plus fort que Super K.",
+          "limits": "La traduction dit prototype et paragliding : ne pas en déduire construction ou discipline exacte."
+        },
+        {
+          "start_s": 225.06,
+          "end_s": 307.46,
+          "dimension": "takeoff",
+          "statement_fr": "Départ nécessitant une légère impulsion active, moins passif que Super K; départ jugé légèrement plus tôt que Paradox de volume voisin.",
+          "limits": "Comparaison qualitative, sans vent mesuré ni configurations appariées."
+        },
+        {
+          "start_s": 472.46,
+          "end_s": 535.92,
+          "dimension": "freestyle",
+          "statement_fr": "Version avec straps essayée, sauts possibles avec niveauintermédiaire et bon repop ressenti.",
+          "limits": "Pas board de freestyle dédiée ni garantie de réception."
+        },
+        {
+          "start_s": 638.48,
+          "end_s": 683.18,
+          "dimension": "size_selection",
+          "statement_fr": "Pour78L, testeur cite70–90kg et niveauintermédiaire; oriente le rider peu actif vers Super K.",
+          "limits": "Conseil éditorial, non plage de poids garantie; retours ne valent pas pour les autres tailles."
+        }
+      ]
+    },
+    {
+      "video_id": "2rLx3Ayw9oE",
+      "model": "Tabou Super Yaka Team86 L",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "769fd6e93dbb59a30e2474fe314e26ea4722f4244bfeb3a58b1b6f610b4606df",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Fiche Team86 et MTE à vérifier séparément. Ne pas attribuer bois/poids MTE à Team ou à Skybrid.",
+      "claims": [
+        {
+          "start_s": 114.76,
+          "end_s": 180.52,
+          "dimension": "takeoff",
+          "statement_fr": "Nouvelle86L annoncée21pouces; départ passif apprécié, pumping actif un peu plus exigeant que Super K90.",
+          "limits": "Deux volumes différents; pas différence mesurée."
+        },
+        {
+          "start_s": 181.64,
+          "end_s": 233,
+          "dimension": "setup",
+          "statement_fr": "Test wing/parawing avec65–90kg,foils900–1100 et rails36cm; trim trouvé facilement.",
+          "limits": "Pas tableau appariant chacun des poids à chaque foil."
+        },
+        {
+          "start_s": 495.76,
+          "end_s": 533.92,
+          "dimension": "freestyle",
+          "statement_fr": "Sauts simples possibles mais réception précise nécessaire pour éviter de glisser de côté sur la nose étroite.",
+          "limits": "Ne pas assimiler à une compacte freestyle."
+        },
+        {
+          "start_s": 568.52,
+          "end_s": 650.6,
+          "dimension": "level",
+          "statement_fr": "Départ et handling déjà maîtrisés requis, davantage en parawing; ce n’est pas une board d’initiation.",
+          "limits": "L’adaptation en un jour citée reste anecdote."
+        },
+        {
+          "start_s": 730.28,
+          "end_s": 786.88,
+          "dimension": "construction",
+          "statement_fr": "Team86 annoncée5,3kg; MTE séparée avec sandwich bois et plus lourde.",
+          "limits": "C’est Tabou MTE qui est dite bois, pas Duotone Skybrid; poids déclaratif."
+        }
+      ]
     }
   ]
 }

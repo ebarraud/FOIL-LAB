@@ -125,6 +125,8 @@ const FOILS=[
  {b:'Cabrinha',n:'Whippit',sizes:[750,850,1000],range:[3,4],tags:['surf','speed','jump'],ar:'selon taille',lift:.9,quote:'Rapide, très réactif, virages engagés sur forte puissance.',risk:'Exige de la vitesse et n’est pas prioritaire en vent faible.',src:'https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/',e:'essai indépendant',weightAnchor:850}
 ];
 const BOARDS=[
+ {b:'KT',n:'Super K 2 Carbon',kind:'midi',level:2,sizes:[[30, 142.24, 44.196], [40, 154.94, 45.212], [50, 160.02, 46.736], [60, 165.1, 47.244], [65, 167.64, 48.387], [70, 172.72, 49.53], [80, 177.8, 50.8], [90, 187.96, 51.816], [95, 190.5, 52.578], [104, 195.58, 53.34], [110, 200.66, 54.483], [120, 203.2, 55.88]],about:'Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.',src:'https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf'},
+
  {b:'Armstrong',n:'Midlength Mk II X-Form',kind:'midi',level:2,sizes:[[38, 142.24, 46.038], [45, 152.4, 47.307], [55, 162.56, 48.578], [65, 172.72, 49.848], [75, 182.88, 51.752], [85, 193.04, 54.293], [100, 203.2, 56.515], [115, 210.82, 57.785], [130, 218.44, 59.055]],about:'Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.',src:'https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board'},
  {b:'F-ONE',n:'Rocket Wing Midlength',kind:'midi',level:1,sizes:[[72,178,47],[82,183,48.5],[95,188,51.3],[105,193,53.8],[115,198,55.9],[130,203,58.4],[150,208,62.2]],about:'Midlength performante : accélération et faible traînée, étroite pour un départ dans le clapot.',src:'https://www.f-one.world/en/foilboards/wingfoilboards/rocket-wing-midlength.html'},
  {b:'AFS',n:'Blackbird Mid Length Carbon',kind:'midi',level:1,sizes:[[50,161,48.3],[65,163,48.3],[75,167,52],[82,173,54],[90,182,55],[100,190,57]],about:'Midlength relativement courte ; 82/90/100 L donnent un compromis différent des shapes très étirés.',src:'https://afs-foiling.com/screw-size'},
@@ -150,6 +152,8 @@ const VERIFY={
  'Naish|Chimera 2026':{year:'2026',primary:'https://www.naish.com/products/chimera-2026'}
 };
 const boardVerify={
+'KT|Super K 2 Carbon':{year:'Super K 2 Carbon',e:'Dimensions constructeur contrôlées; essai 90 L',test:'https://www.youtube.com/watch?v=a-azQlLJlck&t=554s',testLabel:'Essai 90 L : niveau requis'},
+
  'Armstrong|Midlength Mk II X-Form':{year:'MkII X-Form · génération contrôlée',e:'Dimensions constructeur · essais 55/65/85 L',test:'https://www.youtube.com/watch?v=3EObhbc9v-o&t=571s',testLabel:'Essai 55 L · profil avancé'},
  'Naish|Chimera 2026':{year:'2026',e:'Dimensions et volumes Naish vérifiés',test:'https://www.reddit.com/r/wingfoil/comments/1tki63w/board_advice/'},
  'AFS|Blackbird Mid Length Carbon':{year:'Gamme répertoriée 2026',e:'Dimensions AFS vérifiées',test:'https://www.reddit.com/r/wingfoil/comments/1tki63w/board_advice/'},
