@@ -4761,6 +4761,854 @@
           "limits": "Souhait de produit, pas une taille existante testée. Le réglage du stabilisateur monobloc et les limites du mât doivent être contrôlés dans la documentation officielle."
         }
       ]
+    },
+    {
+      "video_id": "iZo8DO7Z4No",
+      "model": "Duotone Free 2.0 1300 / PX 195 / mât carbone 82",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "48010591cb50af42fc1a96fe9ec494dc8412fc9adbf7f72ae41306e92f8c0508",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_foil_size_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; vérifier les références Free 2.0, fuselage et PX 195 sur la documentation constructeur avant ajout au moteur. Aucune taille 1600/1900 n’a été isolée dans cet essai.",
+      "claims": [
+        {
+          "start_s": 90.88,
+          "end_s": 102.48,
+          "dimension": "tested_size",
+          "statement_fr": "La taille essayée est la 1300 ; les 1600 et 1900 sont seulement citées dans la gamme.",
+          "limits": "Lecture de la transcription allemande, sans contrôle audio ; pas d’extrapolation aux grandes tailles."
+        },
+        {
+          "start_s": 220.68,
+          "end_s": 260.08,
+          "dimension": "tested_setup",
+          "statement_fr": "Le montage annoncé associe Free 2.0 1300, PX 195, fuselage aluminium et mât carbone 82 Quicklock.",
+          "limits": "Montage rapporté dans la vidéo ; ne prouve pas une compatibilité générale de tous les mâts Duotone."
+        },
+        {
+          "start_s": 321.8,
+          "end_s": 394.84,
+          "dimension": "low_speed",
+          "statement_fr": "Le testeur apprécie une portance précoce et régulière, conservant du soutien lorsque la vitesse baisse en manœuvre.",
+          "limits": "Pas de vitesse de décrochage mesurée, de poids testeur ni de vent chiffré."
+        },
+        {
+          "start_s": 393.4,
+          "end_s": 483.4,
+          "dimension": "turn_radius",
+          "statement_fr": "Le Free est décrit comme stable sur des rayons moyens ou larges, moins joueur que Crest et Carve pour les virages serrés.",
+          "limits": "Comparaisons subjectives ; tailles comparées pas toutes identiques, pas de score de maniabilité."
+        },
+        {
+          "start_s": 481.04,
+          "end_s": 553.12,
+          "dimension": "pump_glide",
+          "statement_fr": "Le testeur rapporte une glisse utile dans les petites vagues, avec moins de rendement ressenti que Crest et davantage que Carve.",
+          "limits": "Conditions de lac et Baltique, aucune distance ou efficacité mesurée."
+        },
+        {
+          "start_s": 549.76,
+          "end_s": 647.72,
+          "dimension": "jumps",
+          "statement_fr": "La 1300 permet selon lui des sauts ordinaires, tandis que le freestyle et la vitesse orientent plutôt vers une aile plus petite.",
+          "limits": "Aucune hauteur de saut ou vitesse validée ; les propos sur 1900 ne constituent pas son essai."
+        },
+        {
+          "start_s": 644.72,
+          "end_s": 784.56,
+          "dimension": "rider_program",
+          "statement_fr": "L’auteur recommande ce montage pour l’apprentissage et le freeride progressif ; Carve 1100 demande davantage de maîtrise pour ses usages vagues et freestyle.",
+          "limits": "Conseil du testeur, pas seuil universel de poids ni garantie de facilité pour tous les débutants."
+        }
+      ]
+    },
+    {
+      "video_id": "mZtN100cfBs",
+      "model": "AFS Blackbird Midlength Fiber et Advanced 75 L",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "610762265ab0a72efee1593741ed5139cd47032f0688f3deea24e5a25b15a685",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_and_parawing_board_comparison",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; la construction Fiber ne doit pas être confondue avec la Carbon déjà au catalogue. Vérifier les dimensions et références exactes avant extension ; le gain de construction ne justifie pas un départ garanti plus tôt.",
+      "claims": [
+        {
+          "start_s": 61.48,
+          "end_s": 146.88,
+          "dimension": "construction_volume",
+          "statement_fr": "Le test porte sur 75 L en Fiber et Advanced carbone ; la Fiber est pesée à 5,6 kg et l’écart annoncé entre constructions est de 500 g.",
+          "limits": "Poids annoncé par le testeur, pas pesée indépendante ; les autres volumes sont présentés, pas isolés à l’eau."
+        },
+        {
+          "start_s": 233.08,
+          "end_s": 311.84,
+          "dimension": "pads",
+          "statement_fr": "Le pad Advanced reçu est décrit plus fin et très adhérent ; celui de Fiber est plus traditionnel et jugé satisfaisant.",
+          "limits": "Différences de pads des exemplaires reçus ; vieillissement non testé et génération exacte à confirmer."
+        },
+        {
+          "start_s": 307.52,
+          "end_s": 430.36,
+          "dimension": "75L_stability",
+          "statement_fr": "Pour son gabarit de 62 kg, le testeur apprécie la stabilité et la largeur conservée au tail de la 75 L en wing légère et parawing.",
+          "limits": "Corriger les espaces de lecture : 62 kg, 75 L. Les volumes inférieurs évoqués sont souhaités et ne doivent pas être comptés essayés."
+        },
+        {
+          "start_s": 427.2,
+          "end_s": 512.04,
+          "dimension": "fiber_vs_carbon",
+          "statement_fr": "Le testeur ne constate pas de différence décisive de départ entre Fiber et Advanced en freeride léger ; il situe surtout le gain de rigidité dans le pumping et le surf exigeant.",
+          "limits": "Comparaison qualitative, pas essai simultané contrôlé ; les exemples 10–12 nœuds ne sont pas une plage garantie."
+        },
+        {
+          "start_s": 530.84,
+          "end_s": 655.8,
+          "dimension": "program_tradeoff",
+          "statement_fr": "La 75 L est appréciée en parawing et lightwind ; en wing soutenue, il préfère personnellement une planche plus compacte.",
+          "limits": "Ne pas appliquer ses volumes de 35–45 L à d’autres gabarits ; pratique et niveau avancés."
+        },
+        {
+          "start_s": 670.56,
+          "end_s": 760.6,
+          "dimension": "foil_pairing",
+          "statement_fr": "Il décrit des usages avec Enduro 800/900 et SilkV 2 750/950 ; sur 950 il apprécie le U-Surf 135, en distinguant contrôle et glisse.",
+          "limits": "Remarques anticipant une autre revue ; pas de comparaison instrumentée et aucune équivalence de portance Enduro 900/Silk 950 déduite."
+        }
+      ]
+    },
+    {
+      "video_id": "Fm3jofwhf-c",
+      "model": "Naish Excalibur 744/944/1144 et Siren 800/1000/1200",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "160448c57a717d7da6cd2e28c096d13ce4bd7415b121bcbd663228f6b8c0a6a4",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_foil_multi_size",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; contrôler les fiches Naish 2026 et les interfaces avant création de familles. Le vendeur réalise un premier essai dans un vent variable ; les ensembles aile/stab changent ensemble.",
+      "claims": [
+        {
+          "start_s": 16.08,
+          "end_s": 65.24,
+          "dimension": "setups",
+          "statement_fr": "Essais annoncés Excalibur 744/944/1144 avec tails 135/155/175, Siren 800/1000/1200 avec 140/180/220, mâtUHM 85 et fuselages 57/64.",
+          "limits": "Appariements rapportés ; la suite utilise surtout le 57 et ne valide pas toutes les combinaisons."
+        },
+        {
+          "start_s": 99.56,
+          "end_s": 123.68,
+          "dimension": "generation",
+          "statement_fr": "Le testeur indique une interface mât/fuselage conservée mais de nouvelles fixations d’aile et de stab nécessitant un nouveau fuselage par rapport à son ancien ensemble.",
+          "limits": "Compatibilité à confirmer par références constructeur, pas par seule marque Naish."
+        },
+        {
+          "start_s": 144.72,
+          "end_s": 379.88,
+          "dimension": "1144_175",
+          "statement_fr": "Excalibur 1144 avec 175 et fuselage court est appréciée pour son pumping, sa glisse et son contrôle ; le testeur évoque le 64 pour calmer le tangage.",
+          "limits": "Le 64 est une recommandation, pas un comparatif isolé ici ; pas de rendement mesuré."
+        },
+        {
+          "start_s": 408.4,
+          "end_s": 610.48,
+          "dimension": "944_155",
+          "statement_fr": "Excalibur 944 avec 155 demande selon lui plus de relances au départ que 1144 et devient plus sensible en tangage, tout en gardant de la glisse.",
+          "limits": "Vent annoncé variable 12–15 nœuds ; aile et stab changent ensemble. Ne pas attribuer tout l’écart à la surface."
+        },
+        {
+          "start_s": 629.56,
+          "end_s": 899.68,
+          "dimension": "744_135",
+          "statement_fr": "Excalibur 744 avec 135 est ressentie plus maniable et nerveuse, avec moins de marge pour relier les petites ondulations que 944/1144.",
+          "limits": "Observation du testeur sur 57 ; pas de seuil universel de gabarit ou de vent."
+        },
+        {
+          "start_s": 929.04,
+          "end_s": 1051.36,
+          "dimension": "1200_220",
+          "statement_fr": "Siren 1200 avec 220 est décrite stable en tangage et orientée balade, avec un pumping plus ferme que les Excalibur.",
+          "limits": "Comparaison de programmes et montages ; pas de mesure de vitesse ni de stabilité."
+        },
+        {
+          "start_s": 1061.52,
+          "end_s": 1186.12,
+          "dimension": "1000_180",
+          "statement_fr": "Siren 1000 avec 180 est jugée plus vive et plus facile à pomper que 1200, mais demande de conserver de la vitesse pour éviter de retoucher.",
+          "limits": "Avis dans les conditions du jour, sans vitesse minimale mesurée."
+        },
+        {
+          "start_s": 1183.84,
+          "end_s": 1273.2,
+          "dimension": "800_140",
+          "statement_fr": "Siren 800 avec 140 favorise accélération et virages, avec moins de réserve à basse vitesse que 1000.",
+          "limits": "Taille et stab changent ensemble ; pas d’essai débutant sur 800."
+        },
+        {
+          "start_s": 1321.44,
+          "end_s": 1381.4,
+          "dimension": "other_riders_setups",
+          "statement_fr": "Un débutant du magasin a essayé 1200/220 ; pour son propre freestyle le testeur rapporte aussi 800 avec tailExcalibur 155.",
+          "limits": "Anecdotes sans poids ni protocole ; compatibilité croisée à contrôler, aucun conseil universel basé sur un seul débutant."
+        }
+      ]
+    },
+    {
+      "video_id": "ixaogT38-1Y",
+      "model": "Duotone Skybrid D/LAB annoncée 2027, 5 pieds 5 /60 L à confirmer",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "9de666856d500db2aa80636c5a27d05e78a53939efa4ac8c1cbe60b469a794b3",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_board_generation_uncertain",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; ne pas ajouter comme SLS 2026. Le titre annonce 2027 mais le texte mélange longueur 5 pieds 5 et 60 L ; contrôler fiche, génération, poids et notice des valves avant intégration.",
+      "claims": [
+        {
+          "start_s": 19.56,
+          "end_s": 104.96,
+          "dimension": "construction",
+          "statement_fr": "La vidéo présente une construction creuse Hollow Shell et un exemplaire décrit oralement comme 5 pieds 5/60 L, à un peu plus de 3 kg.",
+          "limits": "Reconnaissance vocale ambiguë ; poids et volume non validés par source constructeur, pas d’assimilation à SLS."
+        },
+        {
+          "start_s": 180.6,
+          "end_s": 225.36,
+          "dimension": "daily_use",
+          "statement_fr": "Le testeur apprécie la marge en conditions changeantes et le faible ressenti de longueur de son exemplaire.",
+          "limits": "Gabarit et vent non quantifiés ; pas une garantie de départ ou de retour."
+        },
+        {
+          "start_s": 226,
+          "end_s": 290.64,
+          "dimension": "rigidity_tradeoff",
+          "statement_fr": "Il signale une réponse très nerveuse, transmettant les petits mouvements d’eau et exigeant une adaptation en virage.",
+          "limits": "Ressenti de l’ensemble foil/planche ; rigidité non mesurée."
+        },
+        {
+          "start_s": 290.64,
+          "end_s": 322.2,
+          "dimension": "valves",
+          "statement_fr": "La vidéo évoque deux valves et insiste sur leur fermeture avant navigation et l’ouverture après session.",
+          "limits": "Instruction rapportée ; vérifier la notice spécifique du modèle avant application, sans supposer le fonctionnement des autres constructions."
+        },
+        {
+          "start_s": 391.12,
+          "end_s": 430.08,
+          "dimension": "weight_claim",
+          "statement_fr": "La vidéo revendique un gain de poids de 30% face à SLS et cite un montage avec Crest 675.",
+          "limits": "Comparaison non pesée ici et millésimes non contrôlés ; aucune note ni performance de décollage calculée."
+        },
+        {
+          "start_s": 483.28,
+          "end_s": 546.48,
+          "dimension": "rider_level",
+          "statement_fr": "Le testeur navigue surtout sans straps et destine cette construction principalement aux experts pouvant exploiter sa réponse.",
+          "limits": "Ne pas confondre facilité du shape et accessibilité de cette construction à un débutant."
+        }
+      ]
+    },
+    {
+      "video_id": "2f6kjRKFt_k",
+      "model": "Duotone Skybrid 2026, 70/100 L, construction à confirmer",
+      "language_returned": "nl",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "b40feeb2929f87f67dc0c6a4a690ae2dc115c2ec02b1bbbff59ccb671588ed8c",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_board_range_overview",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; identifier la construction de chaque exemplaire avant de rattacher ses observations à la SLS du catalogue. Le texte cite plusieurs constructions sans isoler les essais par volume.",
+      "claims": [
+        {
+          "start_s": 38.88,
+          "end_s": 64.04,
+          "dimension": "sizes_uses",
+          "statement_fr": "Le présentateur montre 70 et 100 L et décrit ses usages mer, lac, parawing et assistance électrique.",
+          "limits": "Le texte ne sépare pas quelle taille/construction a été utilisée pour chaque pratique."
+        },
+        {
+          "start_s": 72.76,
+          "end_s": 115.4,
+          "dimension": "progression",
+          "statement_fr": "Il apprécie un compromis de largeur conservant de la stabilité par rapport à des midlengths plus étroites, après les premières étapes sur grande planche.",
+          "limits": "Avis de progression, pas un essai initial de débutant ni une comparaison mesurée."
+        },
+        {
+          "start_s": 118.52,
+          "end_s": 155.32,
+          "dimension": "readiness",
+          "statement_fr": "Il conseille d’attendre si l’équilibre debout et les jibes flottants restent difficiles ; il préfère ce shape une fois l’appui stable et les jibes réguliers.",
+          "limits": "Repère de compétence éditorial, sans niveau de poids ou volume universel."
+        },
+        {
+          "start_s": 153.32,
+          "end_s": 200.84,
+          "dimension": "range_limits",
+          "statement_fr": "Le présentateur décrit une garde aux touchettes en virage et énumère normale, SLS, D/LAB et gonflable.",
+          "limits": "Les bénéfices du shape ne prouvent pas que toutes les constructions ont été testées ni qu’elles sont équivalentes."
+        }
+      ]
+    },
+    {
+      "video_id": "jjmovozkNQs",
+      "model": "Armstrong UHA 570/670 en towfoil",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "2a9f9518c6cca196ccb383f6350e7fe33f411328f27f1fb37e82714e43114ced",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "tow_only_not_wing_test",
+      "integration": "deferred",
+      "integration_reason": "Essai towfoil documenté ; aucune règle de décollage en wing déduite. La 970 pour la wing est un projet du testeur, pas un essai dans cette vidéo.",
+      "claims": [
+        {
+          "start_s": 59.92,
+          "end_s": 80.88,
+          "dimension": "setup",
+          "statement_fr": "Le montage de tow annoncé comprend mât 865, fuselage 60, tailMA MkII 130 et ailes 570/670, avec et sans cale.",
+          "limits": "Références rapportées ; compatibilité et valeurs de cale à vérifier, sans transférer les réglages à un débutant wing."
+        },
+        {
+          "start_s": 79.16,
+          "end_s": 115.12,
+          "dimension": "570_shim",
+          "statement_fr": "La 570 avec cale rouge est ressentie nerveuse et rapide ; retirer la cale apporte selon eux plus de portance.",
+          "limits": "Comparaison subjective sur une planche de tow ; poids testeurs et angle exact non précisés."
+        },
+        {
+          "start_s": 113.4,
+          "end_s": 219.6,
+          "dimension": "670_glide",
+          "statement_fr": "Les testeurs apprécient la prise d’ondes peu formées et les courbes sur 570/670 en tow, avec une glisse élevée ressentie.",
+          "limits": "Pas de vitesse de décrochage mesurée ni équivalence MA 590 ; contextes de vagues spécifiques."
+        },
+        {
+          "start_s": 252.16,
+          "end_s": 276.32,
+          "dimension": "untested_wing",
+          "statement_fr": "La 970 en remplacement d’uneHA 1080 pour wing est seulement envisagée ; un autre montage derrière bateau reste à tester.",
+          "limits": "Ne pas présenter ces projets comme des essais ni valider une équivalence de tailles."
+        }
+      ]
+    },
+    {
+      "video_id": "CNjNA_Tiuz8",
+      "model": "Sroka V 4 Elite wing gonflable",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "a130408722631b20319b84d0e44fe47f1d6da381bd7e40f9ed8ec25262c4920b",
+      "review_method": "Qualification de périmètre par lecture des premiers segments locaux (intégralité de l’extrait court wTHDqPnRK24) ; pas de lecture technique intégrale des versions longues, aucun contrôle audio.",
+      "scope": "wing_sail_only",
+      "integration": "deferred",
+      "integration_reason": "Hors périmètre du configurateur planches/foils. Qualification du contenu explicite au début ; aucune règle technique de planche ou de foil extraite.",
+      "claims": [
+        {
+          "start_s": 0.04,
+          "end_s": 35.68,
+          "dimension": "scope",
+          "statement_fr": "Le début décrit la voile V 4 Elite et son déballage, et non une aile avant de foil ni une planche.",
+          "limits": "Qualification limitée au début de la transcription ; pas de lecture technique intégrale, pas de validation audio."
+        }
+      ]
+    },
+    {
+      "video_id": "-nlHP65Y-EQ",
+      "model": "Gants Oceania",
+      "language_returned": "it",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "aee0c5ec02e8fc03c144f1f996b13f0ca9da187273b9224c5fff9482128b3558",
+      "review_method": "Qualification de périmètre par lecture des premiers segments locaux (intégralité de l’extrait court wTHDqPnRK24) ; pas de lecture technique intégrale des versions longues, aucun contrôle audio.",
+      "scope": "accessory_only_gloves",
+      "integration": "deferred",
+      "integration_reason": "Hors périmètre du configurateur planches/foils. Qualification du contenu explicite au début ; aucune règle technique de planche ou de foil extraite.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 43.8,
+          "dimension": "scope",
+          "statement_fr": "L’introduction italienne identifie un essai de gants Oceania pour les sports d’hiver.",
+          "limits": "Qualification limitée au début de la transcription ; pas de lecture technique intégrale, pas de validation audio."
+        }
+      ]
+    },
+    {
+      "video_id": "vmYfbGpB4Bs",
+      "model": "Ozone Pocket Rocket partie 2",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "a150fc2fa263edf109c741056f45e8ac727b00ae22144208274d0590a0205441",
+      "review_method": "Qualification de périmètre par lecture des premiers segments locaux (intégralité de l’extrait court wTHDqPnRK24) ; pas de lecture technique intégrale des versions longues, aucun contrôle audio.",
+      "scope": "parawing_only",
+      "integration": "deferred",
+      "integration_reason": "Hors périmètre du configurateur planches/foils. Qualification du contenu explicite au début ; aucune règle technique de planche ou de foil extraite.",
+      "claims": [
+        {
+          "start_s": 0.24,
+          "end_s": 35.84,
+          "dimension": "scope",
+          "statement_fr": "L’introduction présente la deuxième partie d’une revue de parawing Ozone Pocket Rocket.",
+          "limits": "Qualification limitée au début de la transcription ; pas de lecture technique intégrale, pas de validation audio."
+        }
+      ]
+    },
+    {
+      "video_id": "2pIbQfLyZCs",
+      "model": "Ozone Pocket Rocket partie 1",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "0aa4d62c1b5a128aace3f33db5d08e62aa605a893deb9e7d1fe505c0da197ce1",
+      "review_method": "Qualification de périmètre par lecture des premiers segments locaux (intégralité de l’extrait court wTHDqPnRK24) ; pas de lecture technique intégrale des versions longues, aucun contrôle audio.",
+      "scope": "parawing_only",
+      "integration": "deferred",
+      "integration_reason": "Hors périmètre du configurateur planches/foils. Qualification du contenu explicite au début ; aucune règle technique de planche ou de foil extraite.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 37.68,
+          "dimension": "scope",
+          "statement_fr": "L’introduction présente une discussion sur l’intérêt de la parawing, première partie Pocket Rocket.",
+          "limits": "Qualification limitée au début de la transcription ; pas de lecture technique intégrale, pas de validation audio."
+        }
+      ]
+    },
+    {
+      "video_id": "wTHDqPnRK24",
+      "model": "F-ONE ADDIK TEC kite, extrait",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "6888f2b5868f6b472ee49163a11459369d717065b0d372694206be2478a99c84",
+      "review_method": "Qualification de périmètre par lecture des premiers segments locaux (intégralité de l’extrait court wTHDqPnRK24) ; pas de lecture technique intégrale des versions longues, aucun contrôle audio.",
+      "scope": "kite_only",
+      "integration": "deferred",
+      "integration_reason": "Hors périmètre du configurateur planches/foils. Qualification du contenu explicite au début ; aucune règle technique de planche ou de foil extraite.",
+      "claims": [
+        {
+          "start_s": 0.16,
+          "end_s": 55.56,
+          "dimension": "scope",
+          "statement_fr": "Cet extrait décrit une aile de kitesurf pour les vagues ; il ne teste pas une aile avant de foil.",
+          "limits": "Qualification limitée au début de la transcription ; pas de lecture technique intégrale, pas de validation audio."
+        }
+      ]
+    },
+    {
+      "video_id": "GXsnqZqD5Co",
+      "model": "F-ONE ADDIK TEC kite, version longue",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "ababc0182f3114a7fc94b1c78b1b4566a657de4d72342c2a8d79e7c08fc317f4",
+      "review_method": "Qualification de périmètre par lecture des premiers segments locaux (intégralité de l’extrait court wTHDqPnRK24) ; pas de lecture technique intégrale des versions longues, aucun contrôle audio.",
+      "scope": "kite_only",
+      "integration": "deferred",
+      "integration_reason": "Hors périmètre du configurateur planches/foils. Qualification du contenu explicite au début ; aucune règle technique de planche ou de foil extraite.",
+      "claims": [
+        {
+          "start_s": 19.28,
+          "end_s": 83.28,
+          "dimension": "scope",
+          "statement_fr": "Le début de la version longue identifie une aile de kitesurf ADDIK TEC, avec le même propos introductif que l’extrait.",
+          "limits": "Qualification limitée au début de la transcription ; pas de lecture technique intégrale, pas de validation audio."
+        }
+      ]
+    },
+    {
+      "video_id": "pjFZjW2IGAY",
+      "model": "Naish SHA 1133 / stab 135 / fuselage 65",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "fb78a50f70cb6025987b7cec9d49c3da0d8d9c2d821a9a14df54bc2e12904c0d",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_foil_size_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; vérifier la génération SHA et ses interfaces avant ajout. Ne pas fusionner SHA 1133 et Excalibur 1144, malgré la marque commune.",
+      "claims": [
+        {
+          "start_s": 244.84,
+          "end_s": 323.72,
+          "dimension": "tested_setup",
+          "statement_fr": "Le testeur de 74 kg décrit SHA 1133, plancheChimera Envision 88 L et wingADX 3 m² ; il débute en downwind mais pratique la wing depuis 4–5 ans.",
+          "limits": "Aucune vitesse de vent chiffrée ; débutant en downwind ne signifie pas débutant en wing."
+        },
+        {
+          "start_s": 327.8,
+          "end_s": 374.92,
+          "dimension": "low_speed",
+          "statement_fr": "Il apprécie un envol facile et une capacité à conserver le vol à faible vitesse avec une relance de pumping ou de wing.",
+          "limits": "Ressenti, pas vitesse de décrochage mesurée ni départ garanti pour tous les gabarits."
+        },
+        {
+          "start_s": 382.52,
+          "end_s": 439.32,
+          "dimension": "tail_fuse",
+          "statement_fr": "Le montage décrit comprend fuselageMedium 65 cm et stabilisateur 135.",
+          "limits": "Références à contrôler dans la documentation constructeur ; pas d’essai comparatif de tails ici."
+        },
+        {
+          "start_s": 439.32,
+          "end_s": 546.36,
+          "dimension": "program_limits",
+          "statement_fr": "Il décrit des virages plus larges et réserve l’ensemble aux pratiquants avancés intéressés par la glisse et le downwind, plutôt qu’aux débutants.",
+          "limits": "Le parawing reste un usage à approfondir pour lui ; pas un essai confirmé en parawing dans cette revue."
+        }
+      ]
+    },
+    {
+      "video_id": "qTATXePqrrw",
+      "model": "Armstrong UHA 670/770 en wing et parawing",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "84a446adddf84d8b1eca3a2b6f400c77aa5de4eb08670b4ce66776364bb34839",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_foil_first_impressions",
+      "integration": "deferred",
+      "integration_reason": "Premières impressions documentées ; les préférences de 670/770 complètent les limites UHA existantes sans conversion automatique depuis HA ni nouveau seuil de poids. Vérifier Dart 120 et génération des pièces avant règle de montage.",
+      "claims": [
+        {
+          "start_s": 69.36,
+          "end_s": 149.68,
+          "dimension": "670_770",
+          "statement_fr": "Un testeur a surtout utilisé 670 et aussi 770 ; il apprécie 670 en wing ou parawing soutenue, et évoque des tailles supérieures pour les petites vagues.",
+          "limits": "Premières impressions après une semaine ;870/970 évoquées comme choix possibles, sans essai isolé dans ces propos."
+        },
+        {
+          "start_s": 151.68,
+          "end_s": 239.88,
+          "dimension": "sizing_vs_HA",
+          "statement_fr": "Les auteurs trouvent légèrement plus de portance initiale queHA de taille proche, mais signalent que certains gardent une taille similaire pour augmenter la glisse.",
+          "limits": "Pas d’équivalence mesurée HA 780/UHA 770 ; ne pas imposer de descendre d’une taille."
+        },
+        {
+          "start_s": 239.88,
+          "end_s": 364.52,
+          "dimension": "glide_vs_turn",
+          "statement_fr": "Ils apprécient la capacité à suivre la houle rapide, avec un sacrifice de rayon de virage face aux ailes de plus petite envergure ; Dart 120 est cité pour libérer le comportement.",
+          "limits": "Vitesse et rayon non mesurés ; gabarits et montages complets absents."
+        },
+        {
+          "start_s": 364.72,
+          "end_s": 453.4,
+          "dimension": "pitch",
+          "statement_fr": "Ils trouvent le tangage régulier à vitesse élevée sur les grandes ondulations, demandant peu de corrections ressenties.",
+          "limits": "Pas de mesure de stabilité ; contexte de pratiquants maîtrisant déjàHA etMA."
+        },
+        {
+          "start_s": 453.4,
+          "end_s": 576.84,
+          "dimension": "progression_limit",
+          "statement_fr": "Ils envisagent une transition vers les grandesUHA pour un objectif downwind, mais déconseillent de commencer directement par 670.",
+          "limits": "Hypothèse de progression, pas essai contrôlé de débutants ; aucun volume ou poids limite déduit."
+        },
+        {
+          "start_s": 576.84,
+          "end_s": 683.92,
+          "dimension": "program_choice",
+          "statement_fr": "Ils maintiennent l’intérêt desHA pour la polyvalence et les virages, tandis qu’ils privilégieraient 870/970 en apprentissage parawing selon poids et conditions.",
+          "limits": "Préférences prospectives ; les tailles recommandées ne deviennent pas des résultats d’essai."
+        }
+      ]
+    },
+    {
+      "video_id": "8el3ifGXmYU",
+      "model": "Sabfoil Razor Blackbird 977/1077",
+      "language_returned": "it",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "bb6cb95621eb47ed63aa0b9f79cb213d44a99a36e89da72ab5670134e5aa949f",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_surf_pump_size_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; vérifier catalogue Blackbird, ailes et interfaces tails avant ajout. Distinguer les numéros de modèle fondés sur l’envergure des surfaces réelles, et le pumping après départ assisté du dockstart.",
+      "claims": [
+        {
+          "start_s": 261.52,
+          "end_s": 320.16,
+          "dimension": "size_identity",
+          "statement_fr": "Les 977 et 1077 sont essayées ; le présentateur rappelle que leurs numéros indiquent l’envergure, puis annonce environ 950 et 1060 cm².",
+          "limits": "Valeurs de transcription non contrôlées ;847 citée dans la gamme ne doit pas être comptée essayée."
+        },
+        {
+          "start_s": 327.8,
+          "end_s": 448.28,
+          "dimension": "setups",
+          "statement_fr": "Les montages décrits utilisent mâtBlackbirdUHM 85, tail 375 Downwind, ou arrière aluminiumL avec stab 370 pour davantage de stabilité.",
+          "limits": "375 et 370 sont des références commerciales, pas des surfaces en cm² ; vérifier les interfaces constructeur."
+        },
+        {
+          "start_s": 575.44,
+          "end_s": 660.04,
+          "dimension": "wing_sizes",
+          "statement_fr": "Les deux tailles ont été utilisées en wing dans un vent annoncé de 10–18 nœuds ;1077 favorise la marge basse et 977 étend le confort vers le vent plus soutenu.",
+          "limits": "Pas de gabarits précisés ni protocole de vent ; le nœud d’écart évoqué au départ ne devient pas une plage garantie."
+        },
+        {
+          "start_s": 660.04,
+          "end_s": 898.24,
+          "dimension": "tail_tradeoff",
+          "statement_fr": "Le 375 favorise la glisse et les manœuvres mais demande de la précision ; le 370 avec arrièreL est décrit plus rassurant, notamment sur 1077.",
+          "limits": "Comparaison subjective de montages complets ; pas une recommandation pour tout débutant absolu."
+        },
+        {
+          "start_s": 942.36,
+          "end_s": 1031.56,
+          "dimension": "pump_not_dockstart",
+          "statement_fr": "L’auteur a pompé après un départ FoilDrive ; il dit ne pas savoir dockstarter et recommande d’autres grandes ailes pour apprendre cette discipline.",
+          "limits": "Ne pas compter ces propos comme un essai de dockstart Razor ni transposer le départ assisté au décollage en wing."
+        },
+        {
+          "start_s": 1031.56,
+          "end_s": 1247.8,
+          "dimension": "surf_and_scope",
+          "statement_fr": "Le surf est décrit avec assistance FoilDrive et un contributeur ; l’arrièreL/370 facilite selon lui le contrôle, le 375 exigeant davantage de précision. Il précise ne pas avoir essayé la parawing.",
+          "limits": "Contributions et modes de départ distincts ; aucune confirmation indépendante du programme parawing, présence d’un code commercial."
+        }
+      ]
+    },
+    {
+      "video_id": "N-b-KEtL9zo",
+      "model": "Duotone Skybrid D/LAB 70 L, première version",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "509fbbf7fe69aee7499e9323b94d239d65e43b824cc747364fba8cc268c1a92a",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_board_size_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; distinguer cette premièreD/LAB 70 L de la nouvelle gamme annoncée 2027. Contrôler notice des valves et restrictions de saut avant toute règle ; aucune durabilité mesurée dans la vidéo.",
+      "claims": [
+        {
+          "start_s": 79.56,
+          "end_s": 125.08,
+          "dimension": "rider_level",
+          "statement_fr": "Un intervenant n’a pas essayé la 70 L, se jugeant trop débutant ; Federico la destine plutôt aux niveaux intermédiaires et avancés.",
+          "limits": "Distinguer l’intervieweur de l’utilisateur réel ; pas deux essais indépendants."
+        },
+        {
+          "start_s": 193.2,
+          "end_s": 290.44,
+          "dimension": "generation",
+          "statement_fr": "La 70 L est présentée comme l’unique volumeD/LAB au lancement, avec d’autres tailles seulement envisagées pour l’année suivante.",
+          "limits": "Ne pas attribuer ses observations aux volumes futurs ni confondreSLS etD/LAB."
+        },
+        {
+          "start_s": 349.08,
+          "end_s": 499.2,
+          "dimension": "rigidity",
+          "statement_fr": "L’utilisateur décrit une coque très rigide et un contact direct au foil.",
+          "limits": "Pas d’essai de rupture ou de fatigue ; solidité perçue ne prouve pas une meilleure résistance."
+        },
+        {
+          "start_s": 505.24,
+          "end_s": 610.76,
+          "dimension": "foil_setup",
+          "statement_fr": "Le montage du jour est annoncé avec Code 670 sérieR, petit fuselage, stab 120 et mâtUHM 85 ; la réponse ressentie est nerveuse.",
+          "limits": "Plusieurs éléments changent ensemble ; ne pas attribuer ce caractère à la seule planche."
+        },
+        {
+          "start_s": 611.6,
+          "end_s": 746.88,
+          "dimension": "care_limits",
+          "statement_fr": "L’intervenant recommande un usage prudent, exprime une réserve sur les sauts et évoque l’ouverture de la valve hors de l’eau puis sa fermeture avant navigation.",
+          "limits": "Conseils rapportés, pas restriction constructeur vérifiée ; suivre la notice du modèle exact."
+        },
+        {
+          "start_s": 855.24,
+          "end_s": 1002.52,
+          "dimension": "70L_84kg",
+          "statement_fr": "L’utilisateur annonçant 84 kg décrit un départ possible sur 70 L en parawing et apprécie la répartition du volume.",
+          "limits": "Pratiquant expérimenté et contexte non quantifié ; ne pas conseiller ce déficit de volume à un débutant ni garantir le décollage."
+        }
+      ]
+    },
+    {
+      "video_id": "vOvMPu4SbRo",
+      "model": "Duotone Skybrid SLS 2026 80 L contre 85 L 2025",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "ca76354e55c8d5bf3e7e96ef5e731903c78d076675cadc771cca8b47ccbab4b4",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_board_size_specific",
+      "integration": "conditional_caution",
+      "integration_reason": "Conseil affiché sur la Skybrid SLS 2026 : la 80 L testée à 83 kg s’enfonce légèrement au départ et perd de la stabilité en roulis face à la 85 L 2025. Aucun seuil de poids ajouté ; les débutants restent exclus par précaution.",
+      "claims": [
+        {
+          "start_s": 46.88,
+          "end_s": 134.96,
+          "dimension": "size_generation",
+          "statement_fr": "Le test porte sur 80 L 2026, comparée à 85 L 2025 ; il annonce 5 pieds 9×21 pouces et environ 5,84 kg contre 6,25 kg auparavant.",
+          "limits": "Poids des exemplaires rapportés ; volume, largeur et génération changent ensemble."
+        },
+        {
+          "start_s": 219.52,
+          "end_s": 293.2,
+          "dimension": "80L_83kg",
+          "statement_fr": "Le testeur de 83 kg trouve la 80 L légèrement enfoncée à genoux, revenant en surface avec de l’élan ; il ressent moins de stabilité en roulis que sur 85 L 2025.",
+          "limits": "Pas une limite de poids ; son aisance ne démontre pas une stabilité suffisante pour un débutant."
+        },
+        {
+          "start_s": 290.96,
+          "end_s": 384.56,
+          "dimension": "response",
+          "statement_fr": "Il trouve la 2026 plus réactive au pumping et aux transferts de poids, avec davantage de garde aux rails en virage et des touchettes peu bloquantes.",
+          "limits": "Aucune mesure de flexion ou de traînée ; causes supposées liées au poids et au shape, non isolées."
+        },
+        {
+          "start_s": 404.16,
+          "end_s": 501.52,
+          "dimension": "deck_limits",
+          "statement_fr": "Le pont est jugé plus plat que sa planche habituelle ; le principal compromis cité est la baisse de stabilité en roulis avec la largeur réduite.",
+          "limits": "Préférence ergonomique personnelle ; la facilité de gamme ne remplace pas le choix du volume et du niveau."
+        },
+        {
+          "start_s": 499.04,
+          "end_s": 557.96,
+          "dimension": "scope",
+          "statement_fr": "Les usages parawing, assistance et prone sont proposés comme polyvalence de gamme ; le prêt de la planche est remercié.",
+          "limits": "Pas d’essai isolé de chaque discipline dans ce compte rendu ; pas de validation de tous les volumes."
+        }
+      ]
+    },
+    {
+      "video_id": "fpheg1qEhg0",
+      "model": "KT Instinct 920/1300, Nomad 190, mâtcarbone 85",
+      "language_returned": "en-US",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "b9f1b1ea92e2827659554e2708044207ffe0b88d5f67c7b98376970284beee38",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_foil_size_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; vérifier fiches 920/1300, système de cales et interfaces KT avant ajout. Titre allemand mais cache anglais : traduction probable non confrontée à l’audio ; aucune règle de cale automatique extraite.",
+      "claims": [
+        {
+          "start_s": 23.28,
+          "end_s": 107.12,
+          "dimension": "tested_setup",
+          "statement_fr": "Les essais concernent surtout 920, et aussi 1300, avec mâtcarbone 85 et tailNomad 190 ;1450 est seulement citée dans la gamme.",
+          "limits": "Texte retourné anglais malgré titre allemand ; montage et unités à confirmer chezKT."
+        },
+        {
+          "start_s": 223.66,
+          "end_s": 338.27,
+          "dimension": "shim_system",
+          "statement_fr": "L’auteur décrit un système additionnant les valeurs marquées sur mât et aile pour choisir la cale de stabilisateur, avec des exemples 0 et 2.",
+          "limits": "Ne pas appliquer les signes ou valeurs sans notice officielle de la génération ; lecture traduite et démonstration visuelle non vérifiée."
+        },
+        {
+          "start_s": 399,
+          "end_s": 519.54,
+          "dimension": "920_behavior",
+          "statement_fr": "La 920 est décrite stable et rassurante en vol et manœuvres, avec des premiers sauts possibles mais moins d’agilité qu’un foil de vagues spécialisé.",
+          "limits": "Pas de poids, de vent ou de vitesse de décrochage mesurés ;920 ne devient pas un conseil universel pour débuter."
+        },
+        {
+          "start_s": 548.12,
+          "end_s": 664.28,
+          "dimension": "progression",
+          "statement_fr": "Le testeur évoque 1300 pour débutant absolu selon le poids, et une évolution vers d’autres ailes via le systèmeKT.",
+          "limits": "Compatibilité à confirmer par références, pas par seule marque ; aucun seuil de poids ni garantie de sécurité déduit."
+        }
+      ]
+    },
+    {
+      "video_id": "tOCsLl1tS3s",
+      "model": "Sroka DW 8 pieds 3/7 pieds 2, LW 90 L et PW",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "ac9b949ddd32eae7c289eb00ea420de83d8ac4604fbe49a90e90ada2c4b574e3",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_board_manufacturer_interview",
+      "integration": "deferred",
+      "integration_reason": "Entretien constructeur et retours documentés ; contrôler les longueurs, volumes et générations avant catalogue. Cache anglais probablement traduit d’un entretien français, avec nombres et termes altérés ; aucun seuil de vent numérique n’est intégré.",
+      "claims": [
+        {
+          "start_s": 0.16,
+          "end_s": 52.84,
+          "dimension": "source_context",
+          "statement_fr": "L’entretien avec BrunoSroka compare les famillesDW,LW etPW, à partir des retours du présentateur surDW 8 pieds 3 etLW 90 L.",
+          "limits": "Propos constructeur et utilisateur mêlés ; pas un essai indépendant de chaque modèle et taille."
+        },
+        {
+          "start_s": 52.84,
+          "end_s": 211.4,
+          "dimension": "DW_tradeoff",
+          "statement_fr": "DW est décrite pour la glisse et le downwind, avec usage wing légère pour pratiquant technique ; sa longueur augmente le rayon de virage.",
+          "limits": "Les exemples de vent et références d’ailes du texte traduit sont ambigus ; ne pas retenir 5 nœuds ou 89 nœuds comme seuils validés."
+        },
+        {
+          "start_s": 307.68,
+          "end_s": 413,
+          "dimension": "7pieds2_tracks",
+          "statement_fr": "La 7 pieds 2 est présentée comme compromis multisport, avec longs rails permettant d’adapter le placement à différents ensembles de foil.",
+          "limits": "Longs rails ne prouvent pas la compatibilité mécanique de tout mât ; vérifier boîtier, vis et plage de réglage."
+        },
+        {
+          "start_s": 422.08,
+          "end_s": 610.72,
+          "dimension": "LW90_80kg",
+          "statement_fr": "Le présentateur de 80 kg apprécieLW 90 L mais reconnaît une difficulté d’équilibre dans le clapot ; il conserve du volume pour ses lacs à vent irrégulier.",
+          "limits": "Retour individuel de niveau intermédiaire ; ne pas considérer 90 L comme le minimum universel pour 80 kg."
+        },
+        {
+          "start_s": 610.72,
+          "end_s": 827.08,
+          "dimension": "PW_scope",
+          "statement_fr": "PW est présentée plus rassurante en stabilité queLW pour la parawing et certains pratiquants en progression, avec pont creusé et usage multisport.",
+          "limits": "Présentation de conception, pas essai comparatif quantifié ; pas de volume précisPW validé ici."
+        },
+        {
+          "start_s": 843.08,
+          "end_s": 911.8,
+          "dimension": "construction",
+          "statement_fr": "Les interlocuteurs distinguent constructions sandwich et renforts propres aux modèles.",
+          "limits": "Les désignations traduites sont imprécises ; vérifier la fiche de chaque planche au lieu de généraliser tout-carbone ou sandwich à la gamme entière."
+        }
+      ]
+    },
+    {
+      "video_id": "9ZrGRE-SyuM",
+      "model": "ENSIS Jive 86 L",
+      "language_returned": "it",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "0bde08cd98f5c4ed5f78826cee8214f850fca82d9cb1d2e13ce8a7b12b53d28b",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_board_size_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; vérifier les dimensions officielles deJive 86 L et les générations avant ajout. Le test de deux gabarits ne justifie pas de réduire le volume pour les débutants, et la parawing n’a pas été essayée.",
+      "claims": [
+        {
+          "start_s": 73.32,
+          "end_s": 161.24,
+          "dimension": "size",
+          "statement_fr": "LaJive 86 L est annoncée en sandwich carbone, environ 5,5 kg et 22 pouces de large ; les longueurs sont ambiguës dans la transcription.",
+          "limits": "Ne pas convertir 5,9,9 en dimension fiable ; la fiche constructeur reste nécessaire."
+        },
+        {
+          "start_s": 199.2,
+          "end_s": 332.32,
+          "dimension": "deck_tail",
+          "statement_fr": "Le testeur apprécie la distribution centrale du volume, le pont abaissé et le tail diamant modéré comme compromis contrôle et stabilité.",
+          "limits": "Interprétation du shape, sans hauteur de pont ni stabilité mesurées."
+        },
+        {
+          "start_s": 436,
+          "end_s": 528.2,
+          "dimension": "two_riders",
+          "statement_fr": "Un testeur de 70 kg l’utilise en vent léger ; un second de 90 kg plus combinaison l’essaie dans les vagues vers 20 nœuds. Tous deux apprécient la stabilité.",
+          "limits": "Conditions et gabarits différents ;86 L reste un déficit de volume pour le second et n’établit pas une flottabilité universelle."
+        },
+        {
+          "start_s": 528.2,
+          "end_s": 600.52,
+          "dimension": "level",
+          "statement_fr": "Les auteurs écartent le débutant absolu et recommandent plutôt les niveaux intermédiaires à experts, avec une bonne réponse ressentie en vagues.",
+          "limits": "Aucun essai débutant contrôlé, pas de note chiffrée."
+        },
+        {
+          "start_s": 600.52,
+          "end_s": 683.52,
+          "dimension": "untested_parawing",
+          "statement_fr": "La polyvalence en wing est appréciée ; l’auteur précise ne pas encore l’avoir essayée en parawing malgré le programme du titre.",
+          "limits": "Ne pas compter le titre comme preuve d’essai en parawing ou en downwind à la pagaie."
+        }
+      ]
     }
   ]
 }

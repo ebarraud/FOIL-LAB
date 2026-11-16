@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "inventory_count": 180,
-  "processed": 124,
-  "transcripts_obtained": 122,
+  "processed": 144,
+  "transcripts_obtained": 142,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-16T20:00:53.384947+00:00",
-  "retry_status": "provider_outage",
+  "updated_at_utc": "2026-11-16T21:03:20.854582+00:00",
+  "retry_status": "provider_access_or_rate_limit",
   "retry_history": {
     "attempts": [
       {
@@ -927,12 +927,160 @@
         "status": "http_error",
         "http_status": 500,
         "retry_after": null
+      },
+      {
+        "video_id": "iZo8DO7Z4No",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:01:02.684528+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "mZtN100cfBs",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:01:09.148362+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "Fm3jofwhf-c",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:01:15.457170+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "ixaogT38-1Y",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:01:21.569290+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "2f6kjRKFt_k",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:01:27.685911+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "nl"
+      },
+      {
+        "video_id": "jjmovozkNQs",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:01:34.712815+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "pjFZjW2IGAY",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:01:40.859773+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "qTATXePqrrw",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:01:46.805005+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "CNjNA_Tiuz8",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:01:52.789203+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "N-b-KEtL9zo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:02:00.132472+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "-nlHP65Y-EQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:02:06.295846+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "it"
+      },
+      {
+        "video_id": "8el3ifGXmYU",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:02:12.580614+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "it"
+      },
+      {
+        "video_id": "vmYfbGpB4Bs",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:02:18.953598+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "2pIbQfLyZCs",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:02:25.243732+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "vOvMPu4SbRo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:02:31.344927+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "9ZrGRE-SyuM",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:02:37.277478+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "it"
+      },
+      {
+        "video_id": "tOCsLl1tS3s",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:02:43.414353+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "fpheg1qEhg0",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:03:01.222785+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en-US"
+      },
+      {
+        "video_id": "wTHDqPnRK24",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:03:08.386026+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "GXsnqZqD5Co",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:03:14.559116+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "TtzKfkcLM0M",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:03:20.854582+00:00",
+        "status": "http_error",
+        "http_status": 429,
+        "retry_after": "3399"
       }
     ],
-    "stopped_reason": "provider_outage"
+    "stopped_reason": "provider_access_or_rate_limit"
   },
-  "retry_not_before_utc": "2026-11-16T21:00:53.384947+00:00",
-  "cooldown_basis": "local_one_hour_backoff_no_retry_after",
+  "retry_not_before_utc": "2026-11-16T21:59:59.854582+00:00",
+  "cooldown_basis": "provider_retry_after",
   "results": [
     {
       "video_id": "aiWA2W7hKos",
@@ -2439,18 +2587,11 @@
     {
       "video_id": "iZo8DO7Z4No",
       "title": "Duotone Free 2.0 Foil im Test",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 340,
       "failure_type": null,
-      "last_retry": {
-        "video_id": "iZo8DO7Z4No",
-        "requested_language": "auto",
-        "at_utc": "2026-11-16T20:00:53.384947+00:00",
-        "status": "http_error",
-        "http_status": 500,
-        "retry_after": null
-      },
+      "last_retry": null,
       "requested_language": "auto",
       "retry_eligible": null,
       "failure_reason": null
@@ -2458,9 +2599,9 @@
     {
       "video_id": "mZtN100cfBs",
       "title": "AFS BLACKBIRD MIDLENGTH BOARDS REVIEW (FIBER & ADVANCED)",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 400,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2470,9 +2611,9 @@
     {
       "video_id": "Fm3jofwhf-c",
       "title": "The new 2026 NAISH Excalibur & Siren foil review/test (A big upgrade from Naish!)",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 569,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2482,9 +2623,9 @@
     {
       "video_id": "ixaogT38-1Y",
       "title": "REVIEW - DUOTONE SKYBRID  D-LAB 2027",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 306,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2494,9 +2635,9 @@
     {
       "video_id": "2f6kjRKFt_k",
       "title": "2026 Duotone Skybrid review",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "nl",
+      "segment_count": 74,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2506,9 +2647,9 @@
     {
       "video_id": "jjmovozkNQs",
       "title": "Armstrong UHA Foil Test and Review",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 204,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2518,9 +2659,9 @@
     {
       "video_id": "pjFZjW2IGAY",
       "title": "Naish SHA Foil Test",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 254,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2530,9 +2671,9 @@
     {
       "video_id": "qTATXePqrrw",
       "title": "Armstrong UHA Foil Review",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 357,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2542,9 +2683,9 @@
     {
       "video_id": "CNjNA_Tiuz8",
       "title": "TEST de l'incroyable aile de Wing Foil SROKA V4 Elite",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 145,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2554,9 +2695,9 @@
     {
       "video_id": "N-b-KEtL9zo",
       "title": "We Tested the Lightest Wing Foil Board on the Market — Is It Worth It?",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 450,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2566,9 +2707,9 @@
     {
       "video_id": "-nlHP65Y-EQ",
       "title": "Test GUANTI in INVERNO per WING FOIL, SUP, SURF e WINDSURF - RECENSIONI guanti Oceania",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "it",
+      "segment_count": 116,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2578,9 +2719,9 @@
     {
       "video_id": "8el3ifGXmYU",
       "title": "Sabfoil RAZOR Blackbird -  Esiste davvero il FOIL UNICO? Test Wing, Surf & Pump",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "it",
+      "segment_count": 196,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2590,9 +2731,9 @@
     {
       "video_id": "vmYfbGpB4Bs",
       "title": "What's the best parawing in 2025 & 2026 | Ozone Pocket Rocket Review Part 2",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 134,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2602,9 +2743,9 @@
     {
       "video_id": "2pIbQfLyZCs",
       "title": "Do I need a parawing ? My honest answer ! | Ozone Pocket Rocket Review Part 1",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 240,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2614,9 +2755,9 @@
     {
       "video_id": "vOvMPu4SbRo",
       "title": "2026 Duotone Skybrid SLS Review | is it better than last year?",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 213,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2626,9 +2767,9 @@
     {
       "video_id": "9ZrGRE-SyuM",
       "title": "TEST MID LENGTH - ENSIS Jive 86 litri - Tavola unica per WING FOIL, PARAWING e DOWNWIND",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "it",
+      "segment_count": 287,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2638,9 +2779,9 @@
     {
       "video_id": "tOCsLl1tS3s",
       "title": "Planches Foil Sroka, la Review complète de la gamme avec Bruno Sroka",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 191,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2650,9 +2791,9 @@
     {
       "video_id": "fpheg1qEhg0",
       "title": "Test: KT Instinct Foil - Ein Anfänger Foil, dass sich mitentwickelt!",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 190,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2662,9 +2803,9 @@
     {
       "video_id": "wTHDqPnRK24",
       "title": "F-ONE ADDIK TEC - The Ultimate Wave Riding & Foil Kite? Liquid Blue Cabarete Review",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 23,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2674,9 +2815,9 @@
     {
       "video_id": "GXsnqZqD5Co",
       "title": "F-ONE ADDIK TEC - The Ultimate Wave Riding & Foil Kite? Liquid Blue Cabarete Review",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 199,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2690,7 +2831,14 @@
       "language": null,
       "segment_count": null,
       "failure_type": null,
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "TtzKfkcLM0M",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T21:03:20.854582+00:00",
+        "status": "http_error",
+        "http_status": 429,
+        "retry_after": "3399"
+      },
       "requested_language": "auto",
       "retry_eligible": null,
       "failure_reason": null
@@ -3095,13 +3243,25 @@
       "video_id": "qvvLnJBdlC0",
       "title": "MID LENGTH o COMPATTA? Sceglile ENTRAMBE! Recensione tavola da wing foil Indiana Super Fly CML",
       "status": "awaiting_transcript",
-      "requested_language": "auto"
+      "language": null,
+      "segment_count": null,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
     },
     {
       "video_id": "kOnOMWTcOmI",
       "title": "LONG TERM REVIEW: 2025 Duotone Skybrid SLS / Wingfoil & Foil Drive Gen 2",
       "status": "awaiting_transcript",
-      "requested_language": "auto"
+      "language": null,
+      "segment_count": null,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
     }
   ]
 }

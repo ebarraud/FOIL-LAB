@@ -52,7 +52,7 @@ def build(root=Path('.')):
     for video in videos:
         review=review_by_id.get(video['video_id'],{})
         scope=review.get('scope','')
-        video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only','kite_only','wake_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_')) else 'technical_review') if video.get('analysis')=='interpreted' else None
+        video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only','kite_only','wake_only','tow_only','wing_sail_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_')) else 'technical_review') if video.get('analysis')=='interpreted' else None
         if review.get('integration')=='conditional_board_selection':
             video['integration']='integrated'
         elif review.get('integration') in ('conditional_caution','conditional_setup'):
@@ -98,6 +98,7 @@ def build(root=Path('.')):
       'analysis_schedule':'Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.',
       'monitored_publishers':load(root/'data/research/monitored_publishers.json',{}).get('publishers',[]),
       'videos':videos,'improvements':[
+       {'title':'Skybrid SLS 80 L : compromis de stabilité précisé','detail':'Essai à 83 kg : léger enfoncement au départ et moins de stabilité en roulis face à la 85 L 2025. Conseil visible, sans nouveau seuil de poids ni note inventée.','video_id':'vOvMPu4SbRo','commit':'main'},
        {'title':'Drifter 5 Pro Carbon : 60 L vérifiée et contextualisée','detail':'Ajout de la seule 60 L contrôlée chez KT : 165,1 × 55,88 cm. Essai avancé, sans conversion du ressenti en litres ni conseil débutant.','video_id':'khXSoXL7ccA','commit':'main'},
        {'title':'Super K 2 Carbon et Skybrid SLS 2026 : sélection de planches élargie','detail':'Dimensions constructeur vérifiées et générations séparées. Sélection à partir du niveau intermédiaire, avec volume et largeur adaptés; aucune note inventée.','commit':'main'},
        {'title':'One-Lock et Crest : conseils isolés par taille','detail':'1125 avec stab180 séparée des 725 et1525. Crest800/925 : conduite active et réception freinante signalées; les autres tailles ne récupèrent pas automatiquement ces conclusions.','commit':'main'},

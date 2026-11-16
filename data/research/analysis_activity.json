@@ -207,6 +207,14 @@
       "started_at_utc": "2026-11-16T20:00:50.484207+00:00",
       "updated_at_utc": "2026-11-16T20:02:05.673278+00:00",
       "expires_at_utc": "2026-11-16T20:22:05.673278+00:00"
+    },
+    {
+      "video_id": "iZo8DO7Z4No",
+      "status": "completed",
+      "step": "20 nouveaux textes traités : lectures techniques complètes ou qualification explicite hors périmètre ; limites Skybrid80L intégrées.",
+      "started_at_utc": "2026-11-16T21:01:20.134240+00:00",
+      "updated_at_utc": "2026-11-16T21:08:31.610658+00:00",
+      "expires_at_utc": "2026-11-16T21:28:31.610658+00:00"
     }
   ]
 }

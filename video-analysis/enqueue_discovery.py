@@ -27,11 +27,12 @@ def main():
         extra=[]
         if re.search(r'\b(?:foil.?assist|foil.?drive|e-?foil|leash|scoot|kite.?foil|dock.?start|pump.?foil)\b',title,re.I):extra.append('assist_accessory_or_other_discipline_scope_review')
         if re.search(r'traduit|translat|version fran',title,re.I):extra.append('declared_translation_link_before_collecting_again')
-        if re.search(r'parawing|pocket rocket',title,re.I) and category not in ('board','foil'):extra.append('parawing_equipment_not_board_or_front_foil')
+        if re.search(r'pocket rocket',title,re.I) or (re.search(r'parawing',title,re.I) and category not in ('board','foil')):extra.append('parawing_equipment_not_board_or_front_foil')
         if category=='board' and re.search(r'\bwing\b|wingfoil',title,re.I):
             item['screening_reasons']=[x for x in item['screening_reasons'] if x!='other_foil_discipline_not_wingfoil_confirmed']
         if re.search(r'front wing review',title,re.I):
             item['screening_reasons']=[x for x in item['screening_reasons'] if x!='non_test_or_tutorial_signal']
+        if re.search(r'\b(?:guanti|gloves|ADDIK)\b|V4 Elite',title,re.I):extra.append('accessory_or_sail_not_board_or_front_foil')
         item['screening_reasons']+=extra
         if row['video_id'] in TITLE_CHECKS:
             item['category'],item['title_scope_check_fr']=TITLE_CHECKS[row['video_id']]
