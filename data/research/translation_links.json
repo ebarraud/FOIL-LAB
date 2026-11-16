@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "links": [
+    {
+      "video_id": "WgDFirFuKOA",
+      "related_source_id": "yL-WLJABq_U",
+      "transcript_sha256": "88ea4936f55d17f0ec275f33bbc298c6228d750fef7e4d2e6a1b02511c648312",
+      "language_returned": "en",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "JznK2j6Hi7k",
+      "related_source_id": "Zo1awVlnOJQ",
+      "transcript_sha256": "d2b5a336c6455df53d317a670976e16c8aa6623f15007a3deb83aa0f65e9104d",
+      "language_returned": "en",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "e3C_ZnGsEJc",
+      "related_source_id": "RRHYwIpkENs",
+      "transcript_sha256": "fc705062833c614ff39c02f9f81fec30508d9238f7f38fd804b2b35f1a2844db",
+      "language_returned": "en",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "bN_utLvFrck",
+      "related_source_id": "QepHH2KIVOY",
+      "transcript_sha256": "2b4966d0a9b15a794d4bc7f2e094407bd9ee5b79d3c6cdc293bb3f0e35895675",
+      "language_returned": "en",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "9m8STJfQOgE",
+      "related_source_id": "xpGSWpujoP0",
+      "transcript_sha256": "c49e2b7fec7cdf895b2eca12d35e36133e15a4b47406d4c08db868e2cf67d96e",
+      "language_returned": "en",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "qJ2aiAZ4XBY",
+      "related_source_id": "htCy_cztRcs",
+      "transcript_sha256": "e62df9490970ecb189c30f6532a60b95d8f421cb70c395a53600261ef9917995",
+      "language_returned": "en",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "ZjdijAoaFQo",
+      "related_source_id": "pvcTK70LaBQ",
+      "transcript_sha256": "bfdce3565eaeadd73e799b57c4d589f6d8d69b72867c0400e59118541b46f0be",
+      "language_returned": "fr",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "5XCKmaXA9AY",
+      "related_source_id": "_W2HhY4gySA",
+      "transcript_sha256": "1348a5099d748d15174c9432daca4b5b3d9b4ec13f00278d217b4a52ff8d1dfc",
+      "language_returned": "fr",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "DRUsTI54DDc",
+      "related_source_id": "a-azQlLJlck",
+      "transcript_sha256": "dfcc8eb533466d95fe9a7d0e401d3159b1f5d92efd1c62680f2dde49db7e50e0",
+      "language_returned": "en",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "DJGIn4BwfEw",
+      "related_source_id": "qf2LA6Dw4QI",
+      "transcript_sha256": "c5db7de7edb554b050743cb38e7b4486ee9223770ab370546808912599e0b274",
+      "language_returned": "en",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "1ywHqQRbrRY",
+      "related_source_id": "pvcTK70LaBQ",
+      "transcript_sha256": "ed4c34e387e0ff710d82268e12a059d67bcf432226277688cff3940a6971d840",
+      "language_returned": "en",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    },
+    {
+      "video_id": "dOe3pEHakgE",
+      "related_source_id": "9G1mKOnFgxA",
+      "transcript_sha256": "b979ba486525ea7d6602efa84e175f675d596c92a56eb8b3368c36fb53ffcce5",
+      "language_returned": "fr",
+      "relation": "translated_version_declared_in_title",
+      "method": "Rapprochement de métadonnées du titre et du modèle; pas de validation sémantique intégrale de la traduction.",
+      "limit": "Ne constitue pas un essai indépendant ou une nouvelle preuve. Consulter l’analyse de la source liée; traduction à vérifier si une phrase devient décisive."
+    }
+  ]
+}

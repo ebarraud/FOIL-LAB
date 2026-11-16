@@ -72,6 +72,67 @@
       "tested_volume_l": 90,
       "selection_minimum_level": 2,
       "limit": "No beginner extrapolation; no Carbon Pro weight or performance attributed; no score"
+    },
+    {
+      "brand": "Duotone",
+      "model": "Skybrid SLS 2026",
+      "source_url": "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610",
+      "dimensions_source": "https://sideshore.ch/wp-content/uploads/2023/09/2026-DUOTONE-FOIL_Salesbook-with-Spring-Products.pdf",
+      "dimensions_source_type": "Manufacturer Duotone salesbook, mirrored by dealer",
+      "source_units": "inches converted by2.54",
+      "sizes": [
+        [
+          45,
+          157.48,
+          45.72
+        ],
+        [
+          60,
+          165.1,
+          50.8
+        ],
+        [
+          70,
+          170.18,
+          52.07
+        ],
+        [
+          80,
+          175.26,
+          53.34
+        ],
+        [
+          90,
+          180.34,
+          54.61
+        ],
+        [
+          100,
+          185.42,
+          55.88
+        ],
+        [
+          115,
+          193.04,
+          58.42
+        ],
+        [
+          130,
+          200.66,
+          60.96
+        ]
+      ],
+      "review_video_ids": [
+        "RRHYwIpkENs",
+        "fnhdMRiW3h4"
+      ],
+      "tested_volumes_l": [
+        80,
+        90,
+        100
+      ],
+      "selection_minimum_level": 2,
+      "limit": "No automatic beginner rule; no construction transfer or invented performance score"
     }
   ]
 }

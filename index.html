@@ -125,6 +125,8 @@ const FOILS=[
  {b:'Cabrinha',n:'Whippit',sizes:[750,850,1000],range:[3,4],tags:['surf','speed','jump'],ar:'selon taille',lift:.9,quote:'Rapide, très réactif, virages engagés sur forte puissance.',risk:'Exige de la vitesse et n’est pas prioritaire en vent faible.',src:'https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/',e:'essai indépendant',weightAnchor:850}
 ];
 const BOARDS=[
+ {b:'Duotone',n:'Skybrid SLS 2026',kind:'midi',level:2,sizes:[[45, 157.48, 45.72], [60, 165.1, 50.8], [70, 170.18, 52.07], [80, 175.26, 53.34], [90, 180.34, 54.61], [100, 185.42, 55.88], [115, 193.04, 58.42], [130, 200.66, 60.96]],about:'SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Pas de seuil universel poids+litres.',src:'https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610'},
+
  {b:'KT',n:'Super K 2 Carbon',kind:'midi',level:2,sizes:[[30, 142.24, 44.196], [40, 154.94, 45.212], [50, 160.02, 46.736], [60, 165.1, 47.244], [65, 167.64, 48.387], [70, 172.72, 49.53], [80, 177.8, 50.8], [90, 187.96, 51.816], [95, 190.5, 52.578], [104, 195.58, 53.34], [110, 200.66, 54.483], [120, 203.2, 55.88]],about:'Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.',src:'https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf'},
 
  {b:'Armstrong',n:'Midlength Mk II X-Form',kind:'midi',level:2,sizes:[[38, 142.24, 46.038], [45, 152.4, 47.307], [55, 162.56, 48.578], [65, 172.72, 49.848], [75, 182.88, 51.752], [85, 193.04, 54.293], [100, 203.2, 56.515], [115, 210.82, 57.785], [130, 218.44, 59.055]],about:'Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.',src:'https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board'},
@@ -152,6 +154,7 @@ const VERIFY={
  'Naish|Chimera 2026':{year:'2026',primary:'https://www.naish.com/products/chimera-2026'}
 };
 const boardVerify={
+'Duotone|Skybrid SLS 2026':{year:'2026 SLS',e:'Fiche et catalogue Duotone; essais contextualisés',test:'https://www.youtube.com/watch?v=fnhdMRiW3h4&t=882s',testLabel:'Essai 80/100 L et limites de niveau'},
 'KT|Super K 2 Carbon':{year:'Super K 2 Carbon',e:'Dimensions constructeur contrôlées; essai 90 L',test:'https://www.youtube.com/watch?v=a-azQlLJlck&t=554s',testLabel:'Essai 90 L : niveau requis'},
 
  'Armstrong|Midlength Mk II X-Form':{year:'MkII X-Form · génération contrôlée',e:'Dimensions constructeur · essais 55/65/85 L',test:'https://www.youtube.com/watch?v=3EObhbc9v-o&t=571s',testLabel:'Essai 55 L · profil avancé'},
@@ -200,7 +203,12 @@ function transcriptSuitability(f,size,x){
   rule.caution='Les exemples 60–80 kg et 9–10 nœuds restent contextualisés; ils ne garantissent ni départ ni accessibilité à tous les niveaux.';
   rule.url='https://www.youtube.com/watch?v=QepHH2KIVOY&t=234s';return rule;
  }
- if(f.b==='Slingshot'&&f.n==='One-Lock Glide'){
+ if(f.b==='Slingshot'&&f.n==='One-Lock Glide'&&size===1125){
+  rule.setup='Essai 1125 avec stabilisateur 180 et mât HM82 : calme en tangage et reprise du flux appréciés. Aucun comparatif de petits tails sur cette taille dans cette source.';
+  rule.caution='Les sauts restent secondaires; les avis 725 et 1525 ne fixent pas le montage optimal de la 1125.';
+  rule.url='https://www.youtube.com/watch?v=bw6RziEZQm8&t=299s';return rule;
+ }
+ if(f.b==='Slingshot'&&f.n==='One-Lock Glide'&&size===725){
   rule.setup=x.pr==='easy'?'Turbo : préférence du testeur pour le calme et la stabilité.':'Flirt : préférence du testeur pour courbes et pop, au prix d’un tangage plus sensible.';
   rule.reason='Essai du 725 : choisir aussi le tail selon le contrôle recherché, pas seulement la surface avant.';
   rule.caution='La facilité de gamme ne valide pas le 725 pour un débutant : petite taille décrite pour gabarit léger ou conditions soutenues et pratique maîtrisée. Les conseils aux autres tailles restent à confirmer.';
@@ -216,6 +224,12 @@ function transcriptSuitability(f,size,x){
   rule.caution='L’essai 2024 des 700/1100 avec stabilisateur 145 décrit des réceptions de saut très freinantes. Ne pas extrapoler la performance freestyle ou l’effet des ondulations aux générations suivantes.';
   rule.reason='Le contexte de génération et de montage est conservé; pumping modéré vers l’avant plutôt qu’excès d’appui avant selon le test.';
   rule.url='https://www.youtube.com/watch?v=xB5QMIjU6Ps&t=435s';return rule;
+ }
+ if(f.b==='Duotone'&&f.n==='Crest D/LAB'&&[800,925].includes(size)){
+  rule.reason='Essai 800/925 : départ apprécié mais navigation active et guidage nécessaires; privilégier le surf engagé plutôt que la seule facilité en freeride.';
+  rule.caution='Sauts possibles mais réception très freinante selon le test. Le ressenti de portance ne devient pas une équivalence universelle de surface.';
+  rule.setup='PX préféré en wing dans cet essai; S seulement suggéré pour un programme plus agressif/prone. Les tailles précises des stabs restent à confirmer.';
+  rule.url='https://www.youtube.com/watch?v=lrW4o4H05tI&t=312s';return rule;
  }
  if(f.b==='Duotone'&&f.n==='Crest D/LAB'){
   rule.caution='Essai court Crest 1050 : PX175 annoncé avec rider 82 kg, board 80 L et wing 5.5. Le H185 est seulement envisagé; aucune garantie de départ à 12 nœuds ni extrapolation aux autres tailles.';

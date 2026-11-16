@@ -3,6 +3,7 @@ import json
 import time
 from datetime import datetime, timezone, timedelta
 from dashboard import build
+from collection_policy import stop_status, next_allowed
 from pathlib import Path
 from urllib.error import HTTPError
 from free_transcript_pilot import default_fetch, summarize, write_cache, parse, transcript_digest
@@ -25,7 +26,7 @@ def main():
     # Only explicit language evidence from the original pilot, no title guessing.
     languages = {'aiWA2W7hKos':'de', 'zesN5IeyRQM':'de', 'DMlWjjIcwss':'fr'}
     pending = [r for r in data['results'] if r['video_id'] in languages and r.get('language') != languages[r['video_id']]]
-    pending += [r for r in data['results'] if r['status']!='timed_transcript_received' and r not in pending]
+    pending += [r for r in data['results'] if r['status']!='timed_transcript_received' and r.get('retry_eligible',True) and r not in pending]
     stopped = None
     for old in pending:
         vid = old['video_id']
@@ -42,7 +43,10 @@ def main():
         except HTTPError as exc:
             attempt.update(status='http_error', http_status=exc.code, retry_after=exc.headers.get('Retry-After'))
             old['last_retry'] = attempt.copy()
-            if exc.code in (401,403,429) or exc.code>=500:
+            if exc.code==404:
+                old['retry_eligible']=False
+                old['failure_reason']='HTTP404 : texte indisponible; nouvelle source nécessaire avant nouvelle tentative.'
+            if stop_status(exc.code):
                 stopped = 'provider_access_or_rate_limit' if exc.code<500 else 'provider_outage'
         except Exception as exc:
             attempt.update(status='error', failure_type=type(exc).__name__)
@@ -55,13 +59,22 @@ def main():
         public['updated_at_utc'] = attempt['at_utc']
         public['retry_status'] = stopped or 'in_progress'
         public['retry_history'] = history
-        if attempt.get('retry_after') and str(attempt['retry_after']).isdigit():
-            public['retry_not_before_utc']=(datetime.fromisoformat(attempt['at_utc'])+timedelta(seconds=int(attempt['retry_after']))).isoformat()
-        public['results'] = [{k:r.get(k) for k in ('video_id','title','status','language','segment_count','failure_type','last_retry','requested_language')} for r in data['results']]
+        if stopped:
+            public['retry_not_before_utc']=next_allowed(attempt.get('retry_after'),datetime.fromisoformat(attempt['at_utc'])).isoformat()
+            public['cooldown_basis']='provider_retry_after' if attempt.get('retry_after') else 'local_one_hour_backoff_no_retry_after'
+        else:
+            public['retry_not_before_utc']=None
+        public['results'] = [{k:r.get(k) for k in ('video_id','title','status','language','segment_count','failure_type','last_retry','requested_language','retry_eligible','failure_reason')} for r in data['results']]
         save(Path('research/BATCH_STATUS.json'),public)
         build()
         print(json.dumps(attempt),flush=True)
         if stopped: break
         time.sleep(5)
+    if not stopped:
+        public=json.loads(Path('research/BATCH_STATUS.json').read_text(encoding='utf-8'))
+        public['retry_status']='completed_with_unavailable' if any(r['status']!='timed_transcript_received' for r in data['results']) else 'completed'
+        public['retry_not_before_utc']=None
+        save(Path('research/BATCH_STATUS.json'),public)
+        build()
 
 if __name__=='__main__': main()

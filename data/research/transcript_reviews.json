@@ -1769,8 +1769,8 @@
       "language_note": "Texte allemand du cache lu intégralement; audio non contrôlé.",
       "transcript_sha256": "3c6224c8f5b98aa39c66776e4e7ed765729db8f68fdbe29add777f7fbdd1bf58",
       "review_method": "Lecture de tous les segments du cache original disponible; sans écoute.",
-      "integration": "deferred",
-      "integration_reason": "Contrôler la fiche constructeur de cette génération et ses volumes avant ajout au catalogue. Ne pas mélanger constructions ou millésimes dans une règle de sélection.",
+      "integration": "conditional_board_selection",
+      "integration_reason": "SkybridSLS2026 ajoutée avec8dimensions de gamme constructeur. Choix niveau2minimum conservé face auxavisnuancés; constructions séparées, aucunnouveau score.",
       "claims": [
         {
           "start_s": 133.12,
@@ -2441,6 +2441,1630 @@
           "dimension": "construction",
           "statement_fr": "Team86 annoncée5,3kg; MTE séparée avec sandwich bois et plus lourde.",
           "limits": "C’est Tabou MTE qui est dite bois, pas Duotone Skybrid; poids déclaratif."
+        }
+      ]
+    },
+    {
+      "video_id": "1YrgtfKV2kI",
+      "model": "Duotone Carve3 D/LAB950",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "ed65ed9f88631d37ce45c39be9750272ade1be0d0158d40c7df79b91bbebb289",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche Carve3 et PX175 avant ajout. Tailles différentes et générations ne partagent pas automatiquement le comportement950.",
+      "claims": [
+        {
+          "start_s": 87.68,
+          "end_s": 174.28,
+          "dimension": "setup",
+          "statement_fr": "950 D/LAB,tail37 totalfuse60,PX175 transcrit PX75 et mât84; span81cm/AR6,9 annoncés.",
+          "limits": "Nom exact du stab à confirmer; dimensions du discours non contrôlées."
+        },
+        {
+          "start_s": 195.56,
+          "end_s": 251.72,
+          "dimension": "takeoff",
+          "statement_fr": "Départ décrit précoce et linéaire avec boards45/80/95 et wings3/4/4,7.",
+          "limits": "Poids et vent non appariés; pas plage basse garantie."
+        },
+        {
+          "start_s": 293.36,
+          "end_s": 369.28,
+          "dimension": "control",
+          "statement_fr": "Tangage calme à vitesse soutenue mais guidage nécessaire tout en bas; roulis plus sensible que Carve2.",
+          "limits": "Pas performance automatique débutant."
+        },
+        {
+          "start_s": 373.88,
+          "end_s": 502.16,
+          "dimension": "glide,pumping",
+          "statement_fr": "Glisse et relance jugées améliorées face Carve2 avec conduite légère en courbe.",
+          "limits": "Comparaison subjective sans distance ou effort mesuré."
+        },
+        {
+          "start_s": 502.16,
+          "end_s": 560.08,
+          "dimension": "freestyle",
+          "statement_fr": "Pop et repop appréciés, mais repop déclaré moins explosif que MA comparée.",
+          "limits": "Taille MA non précisée; pas classement quantifié."
+        },
+        {
+          "start_s": 660.12,
+          "end_s": 707.44,
+          "dimension": "setup,limits",
+          "statement_fr": "Le testeur propose le tail47 pour davantage de calme, le37 pour recherche surf/freestyle.",
+          "limits": "Conseil de testeur à valider avec notice; pas compatibilité intergénération."
+        }
+      ]
+    },
+    {
+      "video_id": "E1hchZJjKAo",
+      "model": "KT Atlas790/1130",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "bbfa2a4611d167fd781cf00487d9897b9e76ef868ad1d968fab3732c7f2ae5d3",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Confronter à la source multi-tailles Wingserve; vérifier stab et génération. Le gain relatif de portance ne doit pas être inventé.",
+      "claims": [
+        {
+          "start_s": 100.28,
+          "end_s": 158.72,
+          "dimension": "setup",
+          "statement_fr": "790/1130 sur mâtcarbone85, tails dont largeur41,5/45,5 citée et sectionde fuse33.",
+          "limits": "Les longueurs de section ne sont pas une longueur totale; surfaces stabs non données."
+        },
+        {
+          "start_s": 202.16,
+          "end_s": 267.92,
+          "dimension": "takeoff",
+          "statement_fr": "Départ doux et tôt, influencé par la board :45L avec790 demande plus d’accélération que des boards de volume normal.",
+          "limits": "Ne pas attribuer départ au seul foil."
+        },
+        {
+          "start_s": 270.88,
+          "end_s": 408.48,
+          "dimension": "size_difference",
+          "statement_fr": "1130 trèsstable mais roulis nécessitant plus d’effort;790 plus vive et sportive, vitesse supérieure ressentie.",
+          "limits": "Mentions ASR97 dans ce passage rapprochées du790 nommé au début; pas vitesse chiffrée validée."
+        },
+        {
+          "start_s": 468.08,
+          "end_s": 555.8,
+          "dimension": "freestyle,limits",
+          "statement_fr": "Les deux tailles reprennent le flux après saut mais freinent à la réception, avec un délai avant relance.",
+          "limits": "Sauts basiques possibles sans spécialisation freestyle."
+        },
+        {
+          "start_s": 556.88,
+          "end_s": 667.28,
+          "dimension": "glide,surf",
+          "statement_fr": "Pumping et glisse appréciés; rayon moyen naturel, courbes plus serrées demandant davantage d’engagement.",
+          "limits": "Aucune distance ou effort mesuré."
+        }
+      ]
+    },
+    {
+      "video_id": "bw6RziEZQm8",
+      "model": "Slingshot One-Lock Glide1125",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "ccc70f644f2083265d495995c9f367d8e4dc40020ae98472fd5e77c428091558",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "conditional_setup",
+      "integration_reason": "Conseil spécifique1125+180 ajouté au moteur; aucun conseil de tail725 ou1525 appliqué aux tailles non essayées.",
+      "claims": [
+        {
+          "start_s": 84.92,
+          "end_s": 189.4,
+          "dimension": "setup",
+          "statement_fr": "1125,stab180 et mâtHM82 annoncés; montage One-Lock sans outil décrit.",
+          "limits": "La compatibilité avec d’autres marques ne découle pas de la facilité d’assemblage."
+        },
+        {
+          "start_s": 246.76,
+          "end_s": 370.52,
+          "dimension": "takeoff,control",
+          "statement_fr": "Départ actif/passif apprécié et ensemble1125/180 calme en tangage avec retour sous pied avant.",
+          "limits": "Aucune plage de poids/vent mesurée."
+        },
+        {
+          "start_s": 373.72,
+          "end_s": 455.8,
+          "dimension": "glide,pumping",
+          "statement_fr": "Le testeur apprécie pumping et maintien des manœuvres lentes, avec glisse restant derrière certains allongements10+.",
+          "limits": "La transcription dit1425 une fois dans un test1125 : ambiguïté conservée, pas nouvelle taille prouvée."
+        },
+        {
+          "start_s": 457.96,
+          "end_s": 533.92,
+          "dimension": "freestyle",
+          "statement_fr": "Sauts possibles et bonne reprise du flux, mais pas programme principal de la1125.",
+          "limits": "Pas généralisation aux tailles plus petites."
+        },
+        {
+          "start_s": 579.44,
+          "end_s": 639.32,
+          "dimension": "comparison",
+          "statement_fr": "Le testeur préfère le calme du1125 tout en reconnaissant un peu moins de vitesse/glisse que Glide et Enduro1100.",
+          "limits": "Versions de Glide et conditions comparées non complètement identifiées; aucun point ou écart de vitesse injecté."
+        }
+      ]
+    },
+    {
+      "video_id": "yL-WLJABq_U",
+      "model": "Indiana Dolphin827/925",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "7f80154d8bf1cbbe5cb899ba54c3a789012c8c69fe4beed003357292e11bc056",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Contrôler fiche, tailles et garantie du mâtUHM86. Ne pas interpréter la limite1050 transcrite comme surface plutôt qu’envergure sans notice.",
+      "claims": [
+        {
+          "start_s": 91.04,
+          "end_s": 170.12,
+          "dimension": "setup",
+          "statement_fr": "827/925 avec stabS135 et tails50/60; mâtUHM86 très fin annoncé avec limite de garantie.",
+          "limits": "Le texte mêle1050 et envergure : unité non résolue, aucune règle de compatibilité déduite."
+        },
+        {
+          "start_s": 204.24,
+          "end_s": 264.72,
+          "dimension": "takeoff",
+          "statement_fr": "Départ situé entre Marlin plus tôt et Barracuda plus tard; besoin d’accélération, favorisée par une board adaptée.",
+          "limits": "Comparaisons qualitatives sans tailles/conditions parfaitement appariées."
+        },
+        {
+          "start_s": 328.4,
+          "end_s": 457,
+          "dimension": "surf,pumping",
+          "statement_fr": "Agilité, drive en courbe et pumping appréciés, y compris pour conserver le vol pendant gestion de parawing.",
+          "limits": "Ressenti sur montages complets; aucune distance mesurée."
+        },
+        {
+          "start_s": 466.04,
+          "end_s": 525.44,
+          "dimension": "limits",
+          "statement_fr": "Maintien d’une vitesse suffisante nécessaire en manœuvre; comportement très lent jugé perfectible.",
+          "limits": "Aucun seuil de vitesse mesuré."
+        },
+        {
+          "start_s": 573.6,
+          "end_s": 730.76,
+          "dimension": "program",
+          "statement_fr": "Niveauintermédiaire àavancé conseillé; Marlin préféré pour freestyle, Barracuda pour davantage de vitesse, Dolphin pour freeride/courbes/glisse.",
+          "limits": "Crest comparé sans taille précisée : ne pas produire de classement chiffré."
+        }
+      ]
+    },
+    {
+      "video_id": "viZUrrOCL6E",
+      "model": "GA Move700/900",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "a4480dfc7b13792212ef5da2d4e61e7c4e5cbc6bfab14ae338e8380e9dd59080",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier surfaces et génération avec catalogue GA : cette source700/900 diffère de la sourceHadou800/1000. Garder les configurations séparées.",
+      "claims": [
+        {
+          "start_s": 79.16,
+          "end_s": 161.28,
+          "dimension": "setup",
+          "statement_fr": "700/900,stabs160/180,fuselages60/66 et mâtUHM85 annoncés.",
+          "limits": "Pas attribuer à800/1000 des autres sources ni extrapoler les interfaces."
+        },
+        {
+          "start_s": 234.04,
+          "end_s": 354,
+          "dimension": "takeoff,level",
+          "statement_fr": "Départ homogène sur boards45–90L et vol calme; départ sûr et navigation droite déjà maîtrisés sont conseillés.",
+          "limits": "Pas initiation pure prouvée malgré accessibilité ressentie."
+        },
+        {
+          "start_s": 381.84,
+          "end_s": 423.52,
+          "dimension": "setup",
+          "statement_fr": "Le testeur apprécie le900 avec fuse66 et700 avec60.",
+          "limits": "Préférence personnelle, pas obligation ni validation de tous les tails."
+        },
+        {
+          "start_s": 428,
+          "end_s": 491.24,
+          "dimension": "glide",
+          "statement_fr": "Bonne glisse dans sa classeAR9 et faible énergie de vague nécessaire ressentie; distinction explicite deUHA plus allongée.",
+          "limits": "Aucune mesure de traînée ou équivalence de portance."
+        },
+        {
+          "start_s": 493.28,
+          "end_s": 551.68,
+          "dimension": "freestyle,limits",
+          "statement_fr": "Sauts accessibles mais bref délai de reprise du flux si réception imparfaite, moins spécialisé que Carve3/Skate.",
+          "limits": "Délai déclaré non chronométré; pas score."
+        }
+      ]
+    },
+    {
+      "video_id": "voesArm8I1I",
+      "model": "Cabrinha Union Prestige905",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "d6d232d5799b5606631cf5a2812b7cfbf86f2393b99edb85d863f54029caf7b6",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiche905 et montage exact de stab/fuse avant ajout. La licence de connexion ne suffit pas à garantir une compatibilité universelle.",
+      "claims": [
+        {
+          "start_s": 114.12,
+          "end_s": 195.76,
+          "dimension": "setup",
+          "statement_fr": "Système monobloc et mâtCarbonApex14mm décrits avec connexion sous licenceMike’sLab.",
+          "limits": "Stab et longueur exacts non identifiés; ne pas affirmer une compatibilité de toutes pièces."
+        },
+        {
+          "start_s": 199.64,
+          "end_s": 264.44,
+          "dimension": "takeoff",
+          "statement_fr": "905 essayée par60–90kg sur boards50–90L : départ par vitesse avant, angle excessif au pumping pouvant faire décrocher.",
+          "limits": "Pas appariement poids/board ni plage de vent."
+        },
+        {
+          "start_s": 312.96,
+          "end_s": 371.48,
+          "dimension": "control",
+          "statement_fr": "Glisse et tangage contrôlables, manœuvres plaisantes mais pas un foil de turns très serrés dans le face.",
+          "limits": "Ressenti sans mesure de rayon."
+        },
+        {
+          "start_s": 378.24,
+          "end_s": 490.04,
+          "dimension": "program",
+          "statement_fr": "Sauts simples possibles avec trajectoire propre; glisse en courbes moyennes et petite houle privilégiées.",
+          "limits": "Pas programme freestyle dédié."
+        },
+        {
+          "start_s": 542.68,
+          "end_s": 666.04,
+          "dimension": "level,size",
+          "statement_fr": "Niveau au-delà des premiers pas et accélération au départ requis;905 jugéeallround pour80–90kg par les testeurs.",
+          "limits": "Avis contextualisé, pas seuil universel et pas retour testé sur760/1150 seulement citées."
+        }
+      ]
+    },
+    {
+      "video_id": "Hzyr_W_mJ1I",
+      "model": "Duotone Crest675/800/925",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "5ec6acd224cd995e70cbdee80d9b3de88ed1de45b75508e3c12348f3d9cf7dcc",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Conseils de tailles et réglages personnels documentés; ne pas convertir la comparaison900–1000 vers800 en facteur de portance universel.",
+      "claims": [
+        {
+          "start_s": 69,
+          "end_s": 127.88,
+          "dimension": "setup",
+          "statement_fr": "Tail37 préféré pour réactivité,43 pour trajectoires longues; petits stabs145 pour mobilité,160–165 pour relance selon le présentateur.",
+          "limits": "Conseil général personnel; modèle précis des stabs à confirmer et pas essai apparié de toutes combinaisons."
+        },
+        {
+          "start_s": 137.8,
+          "end_s": 189.24,
+          "dimension": "size_selection",
+          "statement_fr": "Rider85kg utilise675 enwing;800 appréciée en surf dans60–70cm de vague.",
+          "limits": "Pratique et niveau comptent; ce ne sont pas des seuils universels."
+        },
+        {
+          "start_s": 189.96,
+          "end_s": 218.96,
+          "dimension": "size_925",
+          "statement_fr": "925 réservée par ce rider aux trèspetites conditions etSUPfoil, avec tailcourt pour conserver mobilité.",
+          "limits": "Pas conseil débutant ni plage de vent mesurée."
+        },
+        {
+          "start_s": 218.96,
+          "end_s": 248.2,
+          "dimension": "trim",
+          "statement_fr": "Le présentateur conseille de partir avec mât plutôt reculé puis ajuster, pour limiter l’appui avant.",
+          "limits": "Réglage dépendant de board et montage; pas position absolue à imposer."
+        }
+      ]
+    },
+    {
+      "video_id": "lrW4o4H05tI",
+      "model": "Duotone Crest D/LAB800/925",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "3998423251962ee84a8ae80ca62dc7f99eaf5314d0da53b55876836f3077120a",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "conditional_caution",
+      "integration_reason": "Conseils de conduite active et réception freinante intégrés spécifiquement aux800/925. Aucun score ni facteur de portance ajouté.",
+      "claims": [
+        {
+          "start_s": 132.28,
+          "end_s": 167.72,
+          "dimension": "setup",
+          "statement_fr": "800/925,stabsPX etS et mâtD/LAB84 annoncés.",
+          "limits": "Surfaces et longueurs exactes des stabs non isolées."
+        },
+        {
+          "start_s": 240.2,
+          "end_s": 288.84,
+          "dimension": "takeoff",
+          "statement_fr": "925 jugée décoller comme un foil de glisse1100, avec pumping actif possible sur petite board.",
+          "limits": "Ressenti de testeur sans protocole : ne pas appliquer un facteur1100/925 dans le moteur."
+        },
+        {
+          "start_s": 312.8,
+          "end_s": 446.84,
+          "dimension": "control,limits",
+          "statement_fr": "Demande guidage et engagement plutôt qu’une navigation passive; tangage/roulis sensibles, avec besoin d’adaptation de quelques sessions.",
+          "limits": "Très bon départ ne signifie pas foil débutant ou navigation sans attention."
+        },
+        {
+          "start_s": 500.04,
+          "end_s": 526.44,
+          "dimension": "freestyle",
+          "statement_fr": "Sauts simples possibles mais forte réduction de vitesse en réception nécessitant de repartir.",
+          "limits": "Pas foil freestyle spécialisé."
+        },
+        {
+          "start_s": 652,
+          "end_s": 759.64,
+          "dimension": "setup,program",
+          "statement_fr": "PX préféré pourwing; S suggéré pour pratique plus agressive/prone. Glisse et pumping appréciés pour surf avec niveauintermédiaire.",
+          "limits": "Le test porte seulement surwing; suggestionprone non validée par cet essai."
+        }
+      ]
+    },
+    {
+      "video_id": "DQqbVduXDwA",
+      "model": "Duotone Glide2 D/LAB900",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "be2eb68b26a39dbf22783be52ec930b1c4f6605f11b015250fcb55f7c766fc36",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Garder cette génération2 séparée deGlide3 et sesstabsH. Fiche et interfaces exactes à vérifier avant nouvelle sélection.",
+      "claims": [
+        {
+          "start_s": 88.2,
+          "end_s": 178.32,
+          "dimension": "setup",
+          "statement_fr": "D/LAB900,tail37,fuseun peu plus60,stab185 et mâtSLSQuickmount annoncés.",
+          "limits": "Longueur du mât mal restituée; ne pas compléter par supposition."
+        },
+        {
+          "start_s": 190.44,
+          "end_s": 294.36,
+          "dimension": "takeoff",
+          "statement_fr": "Départ plus équilibré que générationprécédente, manœuvres lentes et petiteénergie de vague appréciées.",
+          "limits": "Comparaison subjective et sans plage de vent."
+        },
+        {
+          "start_s": 296.4,
+          "end_s": 350.08,
+          "dimension": "setup,control",
+          "statement_fr": "Stab200 ressenti plus neutre et stable;185 plus vif/rapide mais demandant davantage de guidage.",
+          "limits": "MontageGlide2 seulement; pas conseil transposé auGlide3."
+        },
+        {
+          "start_s": 549.16,
+          "end_s": 604.74,
+          "dimension": "freestyle",
+          "statement_fr": "Sauts simples possibles et reprise du flux appréciée, sans égaler la facilitéCarve2 selon le testeur.",
+          "limits": "Pas référencefreestyle ni mesure de délai."
+        },
+        {
+          "start_s": 605.56,
+          "end_s": 678.28,
+          "dimension": "scope",
+          "statement_fr": "Le testeur cite aussiGlideSLS1100/1300 avec impressions proches.",
+          "limits": "Constructions et tailles différentes : analyse détaillée900 reste identifiée comme telle."
+        }
+      ]
+    },
+    {
+      "video_id": "Zo1awVlnOJQ",
+      "model": "Tabou Twister62 L2026",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "dcf80a10962654137db8bde98845133b1fe2d03b57186f829c0182b311e5afd8",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier dimensions et construction officielles avant ajout. Ne pas convertir la plage freestyle55–80kg en conseil débutant.",
+      "claims": [
+        {
+          "start_s": 55.32,
+          "end_s": 131.64,
+          "dimension": "setup,takeoff",
+          "statement_fr": "62 LfullPVC/bois annoncée avec MA MkII690 et Carve3 650, départ actif/passif apprécié.",
+          "limits": "Conditions de vent non mesurées; mêmes taillesfoils pas équivalentes en portance."
+        },
+        {
+          "start_s": 163.4,
+          "end_s": 188.88,
+          "dimension": "trim_limit",
+          "statement_fr": "Le testeur souhaiterait des glissières avançant un peu plus.",
+          "limits": "Pas de limite absolue de compatibilité identifiée."
+        },
+        {
+          "start_s": 268.92,
+          "end_s": 378.28,
+          "dimension": "freestyle",
+          "statement_fr": "Shape et volume du nose jugés favorables au pop/réceptions; un rider peut souhaiter encore plus court pour les rotations.",
+          "limits": "Ressenti subjectif; aucune certification anti-enfournement."
+        },
+        {
+          "start_s": 392.16,
+          "end_s": 490.44,
+          "dimension": "level,durability",
+          "statement_fr": "Conseil62 L jusqu’à65–70kg comme compacte expérimentée,55–80kg pourfreestyle; le testeur précise ne pas pouvoir conclure sur durabilité après1,5–2mois.",
+          "limits": "Deux programmes distincts; ne pas présenter longévité démontrée."
+        }
+      ]
+    },
+    {
+      "video_id": "BsQoom43YEk",
+      "model": "North Midi82 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "cb8acaa2e838203e65bc3c82376c172fe4032cd92e631218e682228413dc8430",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier ficheMidi et génération avant ajout. Préserver le cas83kg hors vol difficile; ne pas assimiler volume nominal et facilité au départ.",
+      "claims": [
+        {
+          "start_s": 48.8,
+          "end_s": 179.76,
+          "dimension": "context",
+          "statement_fr": "82 L annoncée6’x20pouces; rider83kg, déjà légèrement au-dessus du repère constructeur qu’il cite.",
+          "limits": "Repère fabricant rapporté par testeur, non vérifié ici."
+        },
+        {
+          "start_s": 235.6,
+          "end_s": 341.68,
+          "dimension": "takeoff,limits",
+          "statement_fr": "À83kg, tail enfoncé et board instable àl’arrêt; premierspumps servent à ramener la board en surface, puis accélération agréable.",
+          "limits": "Retour personnel sur82;96 suggérée mais non essayée."
+        },
+        {
+          "start_s": 340,
+          "end_s": 384.48,
+          "dimension": "stability",
+          "statement_fr": "Nose facile à enfoncer en cas de mauvais appui, roulis peu stable dans ce contexte.",
+          "limits": "Pas conclusion universelle pour riders plus légers."
+        },
+        {
+          "start_s": 385.56,
+          "end_s": 484.16,
+          "dimension": "onfoil",
+          "statement_fr": "Une fois envolée, board réactive, bon retour du foil et contactsd’eau bien repris.",
+          "limits": "Distinguer comportement en vol et facilité horsvol."
+        },
+        {
+          "start_s": 512.04,
+          "end_s": 592.64,
+          "dimension": "level,size",
+          "statement_fr": "Débutants déconseillés; augmenter le volume pour priorité léger/facilité selon le testeur.",
+          "limits": "La96 L recommandée n’est pas un résultat essayé; aucune règle fixe+14L."
+        }
+      ]
+    },
+    {
+      "video_id": "laeIus1pFX4",
+      "model": "North SonarMA V2 1200",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "abcb57c3939b3c02311ae4fb5cbd799d8a548094a4ae8a0cf48a2b27126bdd3a",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier générationV2,tail et autres tailles avant catalogue. Pas de plafond de vitesse garanti ni seuil universel de poids.",
+      "claims": [
+        {
+          "start_s": 82.16,
+          "end_s": 178.76,
+          "dimension": "setup",
+          "statement_fr": "1200 avec mâtHM85 et fusecarbone60; stab décrit27cm d’envergure sans surface.",
+          "limits": "Traductionanglaise : ne pas inventer un modèle de stab."
+        },
+        {
+          "start_s": 186.48,
+          "end_s": 220.24,
+          "dimension": "takeoff",
+          "statement_fr": "Départ doux et faible traction wing nécessaire selon le testeur.",
+          "limits": "Vent, board et poids non appariés."
+        },
+        {
+          "start_s": 264.16,
+          "end_s": 379.85,
+          "dimension": "control,level",
+          "statement_fr": "Bonne tenue àfaible vitesse et retour desaxes; initiation citée pour gabarits60–70kg.",
+          "limits": "Conseilcontextuel, pas garantie ni équivalence de surfaces."
+        },
+        {
+          "start_s": 437.92,
+          "end_s": 499.52,
+          "dimension": "freestyle",
+          "statement_fr": "Pop et reprise du flux adaptés aux premierssauts; vitesse jugée insuffisante pour sommetfreestyle des lourds.",
+          "limits": "Pas de score inventé; vitesse déclarée non instrumentée disponible."
+        },
+        {
+          "start_s": 499.52,
+          "end_s": 667.44,
+          "dimension": "program",
+          "statement_fr": "Petites vagues prochesduface appréciées; avec poidsplus élevé,foilplusallongé peut mieux glisser; pour80–100kg le1200 est décritallround confortable.",
+          "limits": "Ne pas transformer le programmeallround des lourds en conseilpremierspas pour100kg."
+        }
+      ]
+    },
+    {
+      "video_id": "rLYd4DMS3mw",
+      "model": "GONG Curve H V3 720/820/920",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "37db2b0bad62b7f0ba3faa1b01786fbdcd434b4252da35b978af22eb7e779284",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Originalfrançais examiné, lié à la traduction déjà documentée egezrffjqPk : un même essai, pas deux confirmations indépendantes. Vérifier catalogueV3 et stabs avant ajout.",
+      "claims": [
+        {
+          "start_s": 23.76,
+          "end_s": 113,
+          "dimension": "generation,size",
+          "statement_fr": "CurveH et Curveclassique sont distinguées; les lettres V2/V3 ne correspondent pas aux mêmes surfaces, exS700V2 etXS720V3.",
+          "limits": "ASR tripleXL15520 incohérent : aucune grande taille reprise sans fiche."
+        },
+        {
+          "start_s": 390.04,
+          "end_s": 449.16,
+          "dimension": "context,comparison",
+          "statement_fr": "720/820/920 essayées surplat/petitehoule/vagues; comparaisonV2 900/V3 920 ressentie comme évolution, moins marquée qu’un changement de stab.",
+          "limits": "Surfaces légèrement différentes, pas essaiaveugle réellement effectué."
+        },
+        {
+          "start_s": 449.16,
+          "end_s": 526.92,
+          "dimension": "control,pumping",
+          "statement_fr": "Confiance en ligne/courbe et maintien àfaiblevitesse appréciés; pumping tolérant sans être le plus efficace.",
+          "limits": "Ressenti, aucune mesure d’efficacité."
+        },
+        {
+          "start_s": 574.52,
+          "end_s": 631.76,
+          "dimension": "setup,upgrade",
+          "statement_fr": "VeloHV3 évoqué pourfreeride; àsurfaceidentique, le testeur déconseille achatV3 pour seul petit gain, mais voit intérêt si changementdetaille.",
+          "limits": "Ne pas recommander compatibilitéV2/V3 supposée ni gainfinancier chiffré."
+        }
+      ]
+    },
+    {
+      "video_id": "kHYxyUyU4qY",
+      "model": "Cabrinha Domani960",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "ed4e51171ce863a4132bf7810e7ff742d883b593d5ae179b1dde3fae8a21fbe6",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier nom commercialDomani et montageTweaker340/tail140 dans la notice : discours incertain. Pas de facteur de portance ni extrapolation aux autres tailles.",
+      "claims": [
+        {
+          "start_s": 26.32,
+          "end_s": 55.08,
+          "dimension": "context",
+          "statement_fr": "Testeur annonce85kg mouillé et expériencePrestige; il compare ensuite960Domani à905Prestige.",
+          "limits": "Riderunique, taillesdifférentes."
+        },
+        {
+          "start_s": 178.84,
+          "end_s": 206.72,
+          "dimension": "setup",
+          "statement_fr": "Tweaker annoncé340 et petittail140; essai initial aussi avecstab160 utilisé surPrestige.",
+          "limits": "Référence340 est diteavec hésitation; ne pas transformer en surface garantie."
+        },
+        {
+          "start_s": 224.24,
+          "end_s": 337.8,
+          "dimension": "takeoff,glide",
+          "statement_fr": "960 demande plus de puissance au départ que905Prestige, tourne davantage mais ne conserve pas toute sa glisse et redescend un peu plus tôt.",
+          "limits": "Aucune plage de vent ni distance mesurée; ne pas attribuer àla seule surface."
+        },
+        {
+          "start_s": 346.2,
+          "end_s": 435.48,
+          "dimension": "program",
+          "statement_fr": "Enprone, petitesvagues faibles favorisentPrestige; vaguesplusénergétiques donnent àDomani contrôle au départ et carving appréciés.",
+          "limits": "Prone etwing distingués; pas essai des autres tailles."
+        },
+        {
+          "start_s": 450.68,
+          "end_s": 472.96,
+          "dimension": "limits",
+          "statement_fr": "Un foilpluspetit vers800 est seulement envisagé pour grosjours.",
+          "limits": "Non essayé; la gamme annoncée contient830, donc ne pas inventer une taille800testée."
+        },
+        {
+          "start_s": 630.08,
+          "end_s": 643.88,
+          "dimension": "summary",
+          "statement_fr": "Le testeur oppose prioritéglissePrestige et prioritéviragesDomani avecglisse restantbonne.",
+          "limits": "Compromis qualitatif sans nouveau score."
+        }
+      ]
+    },
+    {
+      "video_id": "mtwBUIwCP3Q",
+      "model": "GA Move800/1000/1300",
+      "language_returned": "en-US",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "f904506ed6f53ed743585f7eda3f5da96f786bded8be4ce8cc64c92152c7d614",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Compléter ficheGA et correspondance tail31/37 total65/71; cette source ne reprend pas les tailles700/900 du testGleiten. Aucun facteur de portance inventé.",
+      "claims": [
+        {
+          "start_s": 130.53,
+          "end_s": 188.19,
+          "dimension": "setup",
+          "statement_fr": "800/1000/1300 essayées, tails31/37 donnant environ65/71; stabs210/180 cités pour les grands/petits montages.",
+          "limits": "Association de chaque taille mal restituée; ne pas généraliser."
+        },
+        {
+          "start_s": 401.09,
+          "end_s": 439.14,
+          "dimension": "maintenance_limit",
+          "statement_fr": "Le présentateur rapporte un ajustement de connexion très serré àneuf, nécessitant contrôle des vis pendant premières sessions.",
+          "limits": "Retour d’essai, pas couple de serrage ni instruction remplaçant notice."
+        },
+        {
+          "start_s": 479.91,
+          "end_s": 594.71,
+          "dimension": "takeoff",
+          "statement_fr": "Départ prévisible et maintien du vol dans les manœuvres lentes appréciés; vitesse décrite moyenne plutôt que très élevée.",
+          "limits": "Pas mesure indépendante de vitesse."
+        },
+        {
+          "start_s": 602.96,
+          "end_s": 759.95,
+          "dimension": "control,setup",
+          "statement_fr": "Courbes moyennes/grandes préférées auxcrochets extrêmes;1300+71 plusstable que1000+65 selon le testeur.",
+          "limits": "Surface etfuselage changent ensemble : effet du seul fuse non isolé."
+        },
+        {
+          "start_s": 764.4,
+          "end_s": 831,
+          "dimension": "freestyle",
+          "statement_fr": "Petites tailles adaptées aux sauts occasionnels, avec délai de reprise après réception;1300 non privilégiée pourfreestyle.",
+          "limits": "Délai annoncé non chronométré."
+        },
+        {
+          "start_s": 897.21,
+          "end_s": 983.59,
+          "dimension": "level",
+          "statement_fr": "Pratiquants ayant quitté l’initiation, départ et manœuvres debase maîtrisés; polyvalent sans sommetvitesse/glisse/freestyle.",
+          "limits": "Plusieurs tailles, pas règleuniverselle pour chaque poids."
+        }
+      ]
+    },
+    {
+      "video_id": "5HwPFspBteM",
+      "model": "Duotone Carve3 D/LAB950 et800",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "14a4aadb4fc110e7d05cb8b8eae14d80d41cd139d0c6cf2737d0ffef168ac0eb",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Confronter au test950Gleiten en gardant différence de mât et durée800 trèscourte. Vérifier fiche précise avant ajout.",
+      "claims": [
+        {
+          "start_s": 79.6,
+          "end_s": 168.32,
+          "dimension": "setup",
+          "statement_fr": "950/PX175 surSlim94 et800 surSlim82;800 essayée environuneheure,950 beaucouppluslongtemps.",
+          "limits": "Confiance moindre sur800; les tailles et les mâts changent simultanément."
+        },
+        {
+          "start_s": 188.28,
+          "end_s": 318.88,
+          "dimension": "takeoff",
+          "statement_fr": "950 décolle progressivement et décroche doucement;800 demande davantage de vitesse avecdécrochage plusnet.",
+          "limits": "Poids et vent nonisolés, pas équivalence de surface."
+        },
+        {
+          "start_s": 332.2,
+          "end_s": 417.24,
+          "dimension": "comparison",
+          "statement_fr": "Vitesse jugée procheCarve2 et glisse améliorée, mais moinslongue queGlide.",
+          "limits": "Diverge du gain de vitesse ressenti parGleiten : aucun score consensuel ni chiffre inventé."
+        },
+        {
+          "start_s": 450.36,
+          "end_s": 539.68,
+          "dimension": "freestyle,breach",
+          "statement_fr": "Pop et reprise du flux appréciés si réceptionpropre; bénéfice dubreach surtout sur sorties superficielles àvitesse, pas garanties pour sortiebrutale lente.",
+          "limits": "Le testeur distingue les cas et ses limites de saut."
+        },
+        {
+          "start_s": 579.72,
+          "end_s": 659.52,
+          "dimension": "limits",
+          "statement_fr": "Test surf limité auxpetites bossesdevent, pas de vraieévaluation en grosses vagues faute de conditions.",
+          "limits": "Programmeconstructeur grossesvagues ne devient pas résultat testé."
+        },
+        {
+          "start_s": 659.52,
+          "end_s": 732.44,
+          "dimension": "maneuver",
+          "statement_fr": "Roulis pluslibre queGlide mais moinsdetemps horspuissance; Whizzjugé plus libre enlacet,Carve plusample.",
+          "limits": "Comparateurs non complètement appariés; pas classementabsolu."
+        }
+      ]
+    },
+    {
+      "video_id": "p57zbjrPPY4",
+      "model": "Duotone WhizzSLS850/1000/1450",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "16c366ac3ea9ce480fb294fe897e9e1332cd0b8022262c81eac9b78650d7f737",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier générationWhizz et interfaces avant ajout; garder effetsde taille et mât confondus. Aucun seuil62/75kg ni vent garanti.",
+      "claims": [
+        {
+          "start_s": 75.04,
+          "end_s": 104.46,
+          "dimension": "context",
+          "statement_fr": "Essai commencé1000/1450 puis850; ancienSlim82V1 puisSlim76V2.",
+          "limits": "Plusieurs variables changent ensemble."
+        },
+        {
+          "start_s": 194.12,
+          "end_s": 240.42,
+          "dimension": "setup",
+          "statement_fr": "850 annoncée avecfuse60,Slim76 etstab185;1000 auparavantSlim82; stabs185/210 principalement utilisés.",
+          "limits": "Les unités mm transcrites sursurface/fuse/mât sont incohérentes : ne pas reprendre littéralement."
+        },
+        {
+          "start_s": 334.16,
+          "end_s": 397.84,
+          "dimension": "scope",
+          "statement_fr": "1450 endockstart,850/1000 enwing/surf/assist; riderannonce62kg.",
+          "limits": "Disciplines distinctes, pas essaiwing1450 documenté comme réalisé."
+        },
+        {
+          "start_s": 404.54,
+          "end_s": 468.12,
+          "dimension": "size_mast",
+          "statement_fr": "1000/Slim82 ressentie sensible entangage; passage850 puisSlim76 améliore le ressenti.",
+          "limits": "Impossible d’isoler gain venantdu foil ou du mât."
+        },
+        {
+          "start_s": 468.38,
+          "end_s": 590.98,
+          "dimension": "setup,limits",
+          "statement_fr": "850 àfaiblevitesse appréciée;stab185 jugéharmonieux,165 citécommeoption; petitescales positives suggérées pourcalmer tangage.",
+          "limits": "Réglagespersonnels, pas instructionuniverselle ni compatibilitégarantie."
+        },
+        {
+          "start_s": 799.08,
+          "end_s": 857.32,
+          "dimension": "trim",
+          "statement_fr": "Ensurf, cale de rail−0,5 ajustée au goûtpersonnelpour limiter nosehaut et effort avant.",
+          "limits": "Ne pas imposer cette cale surd’autres boards."
+        },
+        {
+          "start_s": 996.84,
+          "end_s": 1078.54,
+          "dimension": "size_1450",
+          "statement_fr": "1450 appréciée endockstart etpetitesconditionssurf, avec roulis sensible aupremier départ;wingultralight seulement envisagécommeusage marginal.",
+          "limits": "Le passage ne prouve pasplagebassewing ni gabaritlourd."
+        }
+      ]
+    },
+    {
+      "video_id": "eRK72ouHjeM",
+      "model": "Duotone Foil Assist",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "5f142c3c2d2fe2f4e0d6d18ef47f1c7f275044ecc69441fe65b9dc391d9212ba",
+      "review_method": "Qualification du périmètre par lecture des75premierssegments seulement; analysetechniqueintégrale nonréalisée car assistanceélectrique horsmoteurwingnonmotorisé.",
+      "scope": "electric_assist_system_not_unassisted_foil_comparison",
+      "integration": "deferred",
+      "integration_reason": "Assistance électrique hors dimensionnementwing nonmotorisé. Aucun départ, autonomie ou poids ne sert à une règlewing; ouvrir une étudeassist distincte si module dédié.",
+      "claims": [
+        {
+          "start_s": 102.44,
+          "end_s": 118.3,
+          "dimension": "scope",
+          "statement_fr": "Le contenu présente explicitement un moteur surmât et batteries portées auharnais.",
+          "limits": "Qualification du périmètre àpartir de la sectionintroductive; reste de la transcription non analysé techniquement."
+        }
+      ]
+    },
+    {
+      "video_id": "-6Dnjt6GTqk",
+      "model": "Duotone Foil Assist NatureKite",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "4172ba04325152ac8a6174507d05ecf4f2999643dab8311bee81144df44bf43c",
+      "review_method": "Qualification du périmètre par lecture des75premierssegments seulement; analysetechniqueintégrale nonréalisée car assistanceélectrique horsmoteurwingnonmotorisé.",
+      "scope": "electric_assist_system_not_unassisted_foil_comparison",
+      "integration": "deferred",
+      "integration_reason": "Interview orientée assistanceélectrique : ne pas utiliser les performancesmotorisées pour recommander unfoilwing sansmoteur.",
+      "claims": [
+        {
+          "start_s": 105.6,
+          "end_s": 151.84,
+          "dimension": "scope",
+          "statement_fr": "L’entretien distingue assistance àhélicehaute pourvagues/downwind et versioncruiseélectrique.",
+          "limits": "Qualification sur75premierssegments; pas analyseintégrale ni mesure d’autonomie."
+        }
+      ]
+    },
+    {
+      "video_id": "96bNahQGX54",
+      "model": "Foil Drive Fusion / Armstrong mast intégré",
+      "language_returned": "de",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "9abe51aaf1f89dfe0d3569783b918dd383a9b3333c064680cb1e25fe012e2803",
+      "review_method": "Qualification du périmètre par lecture des75premierssegments seulement; analysetechniqueintégrale nonréalisée car assistanceélectrique horsmoteurwingnonmotorisé.",
+      "scope": "electric_assist_system_not_unassisted_foil_comparison",
+      "integration": "deferred",
+      "integration_reason": "Présentationtechnique d’assistance électrique hors sélectionwingnonmotorisée. Aucun détailbatterie ou compatibilité n’est normalisé sansnotice.",
+      "claims": [
+        {
+          "start_s": 0.16,
+          "end_s": 17.96,
+          "dimension": "scope",
+          "statement_fr": "La présentation est explicitement consacrée au modèleFoilDriveFusion et à ses aspects techniques.",
+          "limits": "Qualification sursectioninitiale; le longentretien n’a pas été lu intégralement et ne constitue pas un essaiwing exploité."
+        }
+      ]
+    },
+    {
+      "video_id": "5kRFfdnDyKI",
+      "model": "Duotone Crest675/800/925/1050",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "57b28cf3a4aca6a7339496873bc131ffabfbf48d829d59d97f9743337c871bc7",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Conseils par taille et préférencePX documentés. Références et surfaces de stabs contradictoires dans le discours : vérifier notice avant conseil de pièce exact.",
+      "claims": [
+        {
+          "start_s": 620.16,
+          "end_s": 649.24,
+          "dimension": "setup_scope",
+          "statement_fr": "800/925 puis1050 essayéeswing et1050parawing; bilan annonce aussi675.",
+          "limits": "Testeurs73 et95–96kg; pas appariement complet de chaque montage."
+        },
+        {
+          "start_s": 994.12,
+          "end_s": 1140.4,
+          "dimension": "size_1050_925",
+          "statement_fr": "À73kg,1050 jugée difficile à accélérer en la chargeant,925 préférée;1050 présentée pourléger oulourds.",
+          "limits": "12nœuds cités pour925 restent contexte commercial sans mesure, pas garantie."
+        },
+        {
+          "start_s": 1140.4,
+          "end_s": 1236,
+          "dimension": "size_800_675",
+          "statement_fr": "800 appréciée pourmania/connexion;675 jugéeplusvolage etréservée auxlégersouexperts poursurf.",
+          "limits": "Pas seuilsmesurés de poids/niveau."
+        },
+        {
+          "start_s": 1234.96,
+          "end_s": 1336.24,
+          "dimension": "setup",
+          "statement_fr": "S favoriselamaniabilité auprix d’uneconduiteplusvive;PX présentépluspermissif enfreride.",
+          "limits": "Références etsurfaces secontredisent entreprésentation etbilan; aucune normalisationarbitraire."
+        },
+        {
+          "start_s": 1387.6,
+          "end_s": 1559.72,
+          "dimension": "setup,limits",
+          "statement_fr": "Les deuxriders préfèrent engénéralPX avec tail40plutôt37 pourcompromiscalme/projection sur800/925/1050.",
+          "limits": "Stabs etlevierchangent ensemble; équivalence demoments affirmée sansmesure, pas loimécaniquevalidée."
+        },
+        {
+          "start_s": 1551.12,
+          "end_s": 1606.32,
+          "dimension": "size_scope",
+          "statement_fr": "675 nécessiteréglagepluspersonnel; S sur1050peut intéresser unlourdtrèsexpérimenté enpetitsbumps.",
+          "limits": "Conseilconditionnel, pas combinaisongarantiefacile."
+        }
+      ]
+    },
+    {
+      "video_id": "fnhdMRiW3h4",
+      "model": "Duotone SkybridSLS2026 80/100 L",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "1cce034ca16a71225dc4049c930543488b9f6de36c1cbaa9866273768f6885aa",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "conditional_board_selection",
+      "integration_reason": "SkybridSLS2026 ajoutée avec8dimensions de gamme constructeur. Choix niveau2minimum conservé face auxavisnuancés; constructions séparées, aucunnouveau score.",
+      "claims": [
+        {
+          "start_s": 25.32,
+          "end_s": 39.84,
+          "dimension": "construction",
+          "statement_fr": "Le test porte surSLS; uneversionfibredverre/bambou est annoncée séparémentpourprintemps.",
+          "limits": "Ne pas appelerSLS Skybridbois; discours commercialn’est pasfichedeconstruction."
+        },
+        {
+          "start_s": 185,
+          "end_s": 274.76,
+          "dimension": "generation",
+          "statement_fr": "Comparaison85L2025 et80L2026 : nouvellepluslongue/plusétroite ettailaffiné.",
+          "limits": "Volumesdifférents : pas comparaisonisoléedugain."
+        },
+        {
+          "start_s": 690.44,
+          "end_s": 705,
+          "dimension": "setup",
+          "statement_fr": "100LessayéeavecCrest925 etUnite après90; bilanfinal cite80/100.",
+          "limits": "90apparaît enintroessai maisbilan détaillé80/100; ne pasfusionsanslimite."
+        },
+        {
+          "start_s": 882.64,
+          "end_s": 1020.48,
+          "dimension": "takeoff,limits",
+          "statement_fr": "Départ etcontactaveclefoil jugésaméliorés; avertissement surchoixconjointvolume/largeur etniveau.",
+          "limits": "Ressentis sansventmesuré ni testapparié."
+        },
+        {
+          "start_s": 1078.6,
+          "end_s": 1210.76,
+          "dimension": "size_selection",
+          "statement_fr": "Expert73kg préfèreenvisager70L après80tropmassive àsongout;expert95–96kg apprécie100;intermédiairesorientésversmargevolume.",
+          "limits": "70suggestion, pasessairéalisé : pasrèglevolumepoquid."
+        },
+        {
+          "start_s": 1210.76,
+          "end_s": 1414.52,
+          "dimension": "parawing_limits",
+          "statement_fr": "Pratiquantstrèsavancésvoudraientplusétroitpourléger; largeurjugéerassurantepourprogressionparawing.",
+          "limits": "Paségalitéperformancewing/parawing."
+        },
+        {
+          "start_s": 1411.56,
+          "end_s": 1556.52,
+          "dimension": "level_disagreement",
+          "statement_fr": "Le shopjugelaboardpossibleaprèsstage pourgenssachantdéjàvoleravecmargedevolume;Gleitenrestep prudentpourinitiationpure.",
+          "limits": "Pasconsensusdébutant : recommandationmoteurconservatrice, pasabaissementautomatique duniveau."
+        }
+      ]
+    },
+    {
+      "video_id": "l7pHqjOD_Qw",
+      "model": "Duotone SkyStyle/SkybridSLS/DLAB2026",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "7862f09a9b680368b5d87cca04b4b23c25c0d7dbe09e4123ce01acc3bed805e7",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "commercial_presentation_with_rider_feedback",
+      "integration": "deferred",
+      "integration_reason": "Entretienavec représentantmarque et retourscourts; garder distincts essaislongs et présentation. Ne pas fusionner DLABprésérie70 etversionultérieure80.",
+      "claims": [
+        {
+          "start_s": 10.68,
+          "end_s": 41.72,
+          "dimension": "source_type",
+          "statement_fr": "Entretien enmeeting avecun représentantDuotone autour desgammesboard.",
+          "limits": "Sourcecommerciale, pas protocolecomparatifindépendant."
+        },
+        {
+          "start_s": 116.92,
+          "end_s": 150.88,
+          "dimension": "SkyStyle",
+          "statement_fr": "Retourcourt : départSkyStylepas aussivitequeSkybrid, contrôleenl’air apprécié; petites35/45évoquées.",
+          "limits": "Volumes desboards réellementcomparéesnon identifiés."
+        },
+        {
+          "start_s": 250.12,
+          "end_s": 370.52,
+          "dimension": "SkybridSLS",
+          "statement_fr": "Unrider75kg apprécie70L enwing; constructioncarbonPVC et contrôlecités.",
+          "limits": "Exemplepersonnel;13–40nœuds annoncés nonvalidés ni généralisés."
+        },
+        {
+          "start_s": 372.12,
+          "end_s": 409.84,
+          "dimension": "program",
+          "statement_fr": "Même riderpréfère90L pourparawing à75kg.",
+          "limits": "Différentprogramme; pasrègleuniverselle +15L."
+        },
+        {
+          "start_s": 411.72,
+          "end_s": 637.2,
+          "dimension": "DLABscope",
+          "statement_fr": "PrésentationD/LABcreuse70L enminisérie,évolutiondeshapeannoncée pourgammefuture.",
+          "limits": "Ne pas transférerle ressenti présérie auxautresvolumes/millésimes."
+        },
+        {
+          "start_s": 651.48,
+          "end_s": 738.48,
+          "dimension": "limits",
+          "statement_fr": "Gainéquivalent10L est uneestimationpersonnelle,programmeperf etbonniveau répétés.",
+          "limits": "Ne pas soustraire10L automatiquement dans moteur; soliditélongueduréenondémontrée."
+        }
+      ]
+    },
+    {
+      "video_id": "qIjC5-sJSro",
+      "model": "Duotone SkybridAir2025 85 L",
+      "language_returned": "en-US",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "f4461cd971eedb9a060285c25ba9c9e0176f7e208a735622d05a9c63adfe967b",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifierfiche2025Air, rails etstraps avantajout.115Lécole et45nœuds ne sontpas essayésdanscecache.",
+      "claims": [
+        {
+          "start_s": 128.91,
+          "end_s": 203.58,
+          "dimension": "setup",
+          "statement_fr": "Gonflable85L5’10 à20PSIannoncés;100/115citéescommeautrestailles.",
+          "limits": "Génération2025 distinctedela2026; pression àconfirmerdansnotice."
+        },
+        {
+          "start_s": 259.07,
+          "end_s": 302.73,
+          "dimension": "context",
+          "statement_fr": "Départd’essai autour15nœudsavecwing5m² annoncé.",
+          "limits": "Poidsdumêmeprésentateur73kgcitéplusloin; pasplagebassegarantie."
+        },
+        {
+          "start_s": 554.14,
+          "end_s": 595.5,
+          "dimension": "trim_limit",
+          "statement_fr": "Foilavancéenbutéemaismanqued’appuiavant ressenti avecstrapsfixes.",
+          "limits": "Dépenddufoilnonidentifié;pascompatibilitégénérale."
+        },
+        {
+          "start_s": 753.37,
+          "end_s": 811.83,
+          "dimension": "pumping",
+          "statement_fr": "Pumpingfonctionnelmaismoinsréactifqu’unerigideressenti.",
+          "limits": "Pasmesurededeflexionoudeperte."
+        },
+        {
+          "start_s": 835.52,
+          "end_s": 987.3,
+          "dimension": "scope_limit",
+          "statement_fr": "Débriefpositifdetesteursexpérimentés;115Lpourécole etfortvent restentàtester.",
+          "limits": "Hypothèsesd’usage, pasvalidationdébutantou45nœuds."
+        },
+        {
+          "start_s": 1131.53,
+          "end_s": 1197.64,
+          "dimension": "setup,limits",
+          "statement_fr": "Réglagescontraintsparstraps/rails, déplacementdupiedoucalesuggéréspersonnellement.",
+          "limits": "Pasconsignegénériquedecale0,5° sansmontageexact."
+        }
+      ]
+    },
+    {
+      "video_id": "92HaHWul324",
+      "model": "Takoon GlideMidlength75 L2025",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "5f9d37e78632e15ffc3ddb0ac205ce00ad20774df111662f24da4702c573b6cb",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "VérifiergammeGlide etdimensionsofficiellesavantcatalogue;nepasconfondreUltraGlidenonessayée nianciennefabricationPortugal.",
+      "claims": [
+        {
+          "start_s": 43.16,
+          "end_s": 130,
+          "dimension": "generation",
+          "statement_fr": "Nouveau modèlefabriquéenChine distinctdesboardsPortugal;75L5’10essayée,poidsannoncé5,2kgplusloin.",
+          "limits": "ASR5Ginitialincertaine;pasprovenancedéduited’autresource."
+        },
+        {
+          "start_s": 284.68,
+          "end_s": 374.6,
+          "dimension": "context",
+          "statement_fr": "Rider62kg enwing/parawing avecAllureSlide930,mât80;75Lchoisiepourprogressionparawingplutôtque65.",
+          "limits": "65suggéréeenwingmaisnonessayéedanscetessai."
+        },
+        {
+          "start_s": 374.6,
+          "end_s": 456.48,
+          "dimension": "stability",
+          "statement_fr": "Boncompromislargeur/départpourprogressionpocketwing;UltraGlideprésuméeplusétroite.",
+          "limits": "UltraGlideexplicitementnonessayée,nepasaffirmerunrésultatcomparatif."
+        },
+        {
+          "start_s": 653.16,
+          "end_s": 730.68,
+          "dimension": "trim",
+          "statement_fr": "AllureetAFScités,réglagessanscalederailnécessairedanssesessais;positiondupiedvariableenstrapless.",
+          "limits": "Pasvalidationdetousfoilsniaucunecompatibilitéintermarqueuniverselle."
+        },
+        {
+          "start_s": 817.52,
+          "end_s": 877.12,
+          "dimension": "comparison",
+          "statement_fr": "FaceFONE82Lbambouplusétroite,ressentiunpeupluslégersouspied maisTakoonjugéetoléranteauxtouchettes.",
+          "limits": "Volumes/constructionsdifférents;durabilitéfutureinconnue."
+        },
+        {
+          "start_s": 930.12,
+          "end_s": 1052.36,
+          "dimension": "program,limits",
+          "statement_fr": "Lac/légerpolyvalent,compactecomplémentairepourvagueradicaleenvisagée;volumeetlargeténiveauxàconsidérerensemble.",
+          "limits": "Pasboarduniqueidéale;lesrègles+10/15/+30sontéditorialescontextuelles."
+        }
+      ]
+    },
+    {
+      "video_id": "OJvTA8lXmDg",
+      "model": "Slingshot One-Lock Glide725/1125, Turbo180",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "b891ecdaabca483a41ab637ce8cabdf146da1700dd6b4bdcc005f466cd15c8e7",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Retour sur quelques mois et matériel de présérie : ne prouve pas durée de vie. Conseils par taille déjà intégrés; aucune équivalence Phantasm ou compatibilité déduite.",
+      "claims": [
+        {
+          "start_s": 0.32,
+          "end_s": 22.04,
+          "dimension": "duration",
+          "statement_fr": "Le présentateur rapporte quelques mois d’usage et plusieurs montages/plans d’eau.",
+          "limits": "Retour personnel, pas essai de vieillissement normalisé."
+        },
+        {
+          "start_s": 259.68,
+          "end_s": 354.36,
+          "dimension": "durability",
+          "statement_fr": "Il constate une légère usure et apprécie la possibilité de retendre/remplacer la liaison; mât encore de présérie.",
+          "limits": "Ne pas promettre une durée de vie illimitée ni recommander de monter avec du sable."
+        },
+        {
+          "start_s": 470.84,
+          "end_s": 508.04,
+          "dimension": "rider_limit",
+          "statement_fr": "À65kg, il ne distinguait pas de problème de rigidité sur Phantasm et ne prétend donc pas mesurer un gain One-Lock.",
+          "limits": "Avis de riders lourds rapportés indirectement, pas mesure."
+        },
+        {
+          "start_s": 509.76,
+          "end_s": 569.36,
+          "dimension": "setup",
+          "statement_fr": "Seul Turbo180 disponible dans cet essai; il aimerait un fuselage plus court pour sa pratique.",
+          "limits": "Pas comparaison réalisée des futurs petits tails."
+        },
+        {
+          "start_s": 571.92,
+          "end_s": 729.24,
+          "dimension": "size_selection",
+          "statement_fr": "1125 jugée trop grande pour son usage à65kg malgré facilité au dockstart;725 préférée pour wing, courbes et vitesse.",
+          "limits": "10–11nœuds avec4,5m² est un exemple personnel, pas plage de vent garantie."
+        },
+        {
+          "start_s": 774.8,
+          "end_s": 874.56,
+          "dimension": "trim",
+          "statement_fr": "Sur ses boards, positions des725/1125 ne diffèrent que de4–5mm selon lui, contrairement à ses anciens réglages Phantasm.",
+          "limits": "Ne pas imposer cette position à toutes boards/tails."
+        },
+        {
+          "start_s": 970.2,
+          "end_s": 1014.84,
+          "dimension": "compatibility",
+          "statement_fr": "Il indique ne pouvoir reprendre les composants Phantasm dans One-Lock.",
+          "limits": "Déclaration à confronter à la notice actuelle; aucune compatibilité positive inventée."
+        }
+      ]
+    },
+    {
+      "video_id": "NXVH9H10YfM",
+      "model": "North Midi60L / SonarSF830, guide espagnol",
+      "language_returned": "es",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "d6cc0f61d9cf38da3c95e66c6714b0f1074da9e01ad8e6069ad948cdeb11caad",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiches Midi60 et SF830/stab avant catalogue. Garder le niveau du rider et les recommandations non essayées séparés; confronter au Midi82 du rider83kg.",
+      "claims": [
+        {
+          "start_s": 0.04,
+          "end_s": 66.2,
+          "dimension": "scope",
+          "statement_fr": "Guide de setup freeride/surf après apprentissage; longue section wing Nova Pro avant les boards et foils.",
+          "limits": "Présentation de matériel personnel, pas comparaison indépendante de tous produits."
+        },
+        {
+          "start_s": 644.04,
+          "end_s": 716.76,
+          "dimension": "board_takeoff",
+          "statement_fr": "Midi60 ressentie facile à accélérer mais moins stable latéralement à l’arrêt du fait de son étroitesse.",
+          "limits": "Rider expérimenté, pas initiation pure."
+        },
+        {
+          "start_s": 879.8,
+          "end_s": 923.52,
+          "dimension": "board_size",
+          "statement_fr": "Rider72kg utilise60L; conseille plutôt volume proche du poids aux intermédiaires, sous-volume aux avancés.",
+          "limits": "Avis éditorial, pas règle universelle −10/15L."
+        },
+        {
+          "start_s": 980.48,
+          "end_s": 1123.92,
+          "dimension": "foil_size",
+          "statement_fr": "SF830 choisie pour compromis glisse/courbes et usage aussi prone;680 seulement évoquée comme possibilité.",
+          "limits": "Seule830 décrite comme son choix essayé; ne pas compter680 comme résultat."
+        },
+        {
+          "start_s": 1139.4,
+          "end_s": 1256.88,
+          "dimension": "setup",
+          "statement_fr": "Stab de vitesse, options Glide142 et Surf185/215, fuselages600/650 évoqués.",
+          "limits": "Numéros de stabs mal restitués (178/108), et options citées non toutes essayées; aucune compatibilité garantie."
+        },
+        {
+          "start_s": 1252.52,
+          "end_s": 1330.6,
+          "dimension": "mast",
+          "statement_fr": "HM85 utilisé pour marge dans clapot/vagues;80 également cité.",
+          "limits": "Pas mesure comparée de traînée ou rigidité; carbone/alu suggérés sans essai apparié."
+        }
+      ]
+    },
+    {
+      "video_id": "FklAiCI22lU",
+      "model": "Duotone2026 : Crest675/800, SkyStyle35, MidFish38",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "7e0770b1eb2d8af4805223bd2f8b593100dfdb27bd67b609f6fe368535c6b16a",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Conseils Crest à contextualiser par taille et pratique. Fiches board et stabs exactes nécessaires avant nouvelles familles; pas de réduction automatique de volume.",
+      "claims": [
+        {
+          "start_s": 70.72,
+          "end_s": 138.96,
+          "dimension": "board_scope",
+          "statement_fr": "SkyStyleSLS35L utilisée strappée, distinction avec version classique fibre; le testeur annonce62kg plus loin.",
+          "limits": "Petite board de pratiquant avancé, pas recommandation débutant."
+        },
+        {
+          "start_s": 269.92,
+          "end_s": 321.04,
+          "dimension": "MidFish",
+          "statement_fr": "MidFish38L utilisée en wing léger et parawing malgré son programme assist initial.",
+          "limits": "Cas expérimenté; autres volumes seulement cités."
+        },
+        {
+          "start_s": 359.52,
+          "end_s": 432,
+          "dimension": "foil_setup",
+          "statement_fr": "Crest800 et675 essayées avec tailsPX160/PX145;675 plutôt wing rapide/sauts,800 aussi surf et parawing.",
+          "limits": "550/1050/1200 de gamme évoquées, pas décrites comme essayées ici."
+        },
+        {
+          "start_s": 633.64,
+          "end_s": 744.72,
+          "dimension": "size_800_surf",
+          "statement_fr": "En surf,800+PX160 appréciée pour appui/pumping; cale de rail−0,5 personnelle sur petite board.",
+          "limits": "Rider62kg; ne pas imposer cette cale à d’autres profils/montages."
+        },
+        {
+          "start_s": 807.2,
+          "end_s": 901.08,
+          "dimension": "size_675_limits",
+          "statement_fr": "675+PX145 appréciée en wing et saut avec mât84. Dockstart800 est explicitement une conviction non testée.",
+          "limits": "Diffère du frein à la réception rapporté sur800/925 par Gleiten; conserver taille et montage, pas consensus freestyle."
+        },
+        {
+          "start_s": 936.92,
+          "end_s": 1016.28,
+          "dimension": "board_control",
+          "statement_fr": "SkyStyle35L appréciée pour repères strappés, départ et réceptions.",
+          "limits": "Aucune validation de résistance longue durée malgré la confiance exprimée."
+        },
+        {
+          "start_s": 1086.2,
+          "end_s": 1138.84,
+          "dimension": "MidFish_context",
+          "statement_fr": "MidFish38 en wing avec4m² et en parawing4m² dans12–15nœuds annoncés, au prix d’un pumping engagé.",
+          "limits": "Pas plage de vent garantie ni facilité pour gabarit plus lourd."
+        }
+      ]
+    },
+    {
+      "video_id": "mhetRD3Fl5U",
+      "model": "K-PARTS AROS560/680/830/980",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "e54310d5531f96c00ba41857b3dc7d4f587a1aa8026962f29e3e23087b22fc55",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier catalogue AROS, longueurs de tail et limites de chaque mât avant ajout. Réglages et adaptations intermarques restent à confirmer dans les notices, sans coefficient de portance inventé.",
+      "claims": [
+        {
+          "start_s": 106.02,
+          "end_s": 163.91,
+          "dimension": "sizes",
+          "statement_fr": "Quatre tailles560/680/830/980 annoncées, avec allongement variant et profils distincts.",
+          "limits": "Ne pas traiter la gamme comme homothétique; dimensions du discours à vérifier."
+        },
+        {
+          "start_s": 564.61,
+          "end_s": 595.99,
+          "dimension": "setup",
+          "statement_fr": "830/UltraSlim80/MakoGlidePro110 puis680,tailcarbone long et même stab présentés comme configurations appréciées.",
+          "limits": "Poids et prix déclaratifs non repris comme mesures indépendantes."
+        },
+        {
+          "start_s": 622.93,
+          "end_s": 663.25,
+          "dimension": "scope",
+          "statement_fr": "Wing/parawing principalement;980 poussée deux fois en dockstart et830 aussi essayée en surf.",
+          "limits": "Pratiques distinctes; pas validation de chaque taille dans chaque discipline."
+        },
+        {
+          "start_s": 787.17,
+          "end_s": 873.11,
+          "dimension": "size_difference",
+          "statement_fr": "830 appréciée en léger,680 plus vive et rapide selon le rider;980 moins rapide.",
+          "limits": "12nœuds/4m² pour680 est un exemple, pas plage de vent garantie."
+        },
+        {
+          "start_s": 908.47,
+          "end_s": 954.89,
+          "dimension": "trim",
+          "statement_fr": "Cales personnelles de rail différenciées entrewing, dockstart etsurf.",
+          "limits": "Ne pas imposer−0,5/−1,5° ni transposer entre boards; effet réglage et montage confondus."
+        },
+        {
+          "start_s": 1035.83,
+          "end_s": 1066.15,
+          "dimension": "mast_limit",
+          "statement_fr": "Avec980, le rider léger trouveUltraSlim80 moins direct et préféreraitSlim80; il limiteraitUltraSlim à830 pour son usage.",
+          "limits": "Avis personnel, pas limite constructeur ni garantie universelle."
+        },
+        {
+          "start_s": 1282.89,
+          "end_s": 1343.71,
+          "dimension": "setup",
+          "statement_fr": "MakoGlidePro110 préféré surAROS, avancé surtail long pour davantage de calme; CarveProS pour davantage de liberté.",
+          "limits": "Tailles de rider/pratique influencent la préférence, pas compatibilité intermarque validée."
+        },
+        {
+          "start_s": 1433.17,
+          "end_s": 1506.89,
+          "dimension": "size_560",
+          "statement_fr": "560 décrite plus agressive, demandant vitesse/énergie et sacrifiant du confort;680 préférée même dans ventfort pour gérerparawing.",
+          "limits": "Pas débutant déduit de la seule facilité de départ."
+        },
+        {
+          "start_s": 1642.95,
+          "end_s": 1778.77,
+          "dimension": "takeoff,limits",
+          "statement_fr": "Appui avant plus marqué au décollage, puis conduite plus neutre; le rider explique que ses cales personnelles influencent ce ressenti.",
+          "limits": "Ne pas affirmer portance constante comme propriété physique mesurée ni généraliser une correction de cale."
+        }
+      ]
+    },
+    {
+      "video_id": "pumUgZ5yfew",
+      "model": "Duotone TraceSLS, extrait promotionnel",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "b3481e6ca5def74bffa095f7ceefc80d4ca628b074e5db2918eb72964ef986a6",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "intro_only_no_detailed_results",
+      "integration": "deferred",
+      "integration_reason": "Extrait de33secondes renvoyant à une revue longue. Pas de taille, montage ou conditions : ne peut modifier une sélection. Rechercher la revue complète.",
+      "claims": [
+        {
+          "start_s": 5.96,
+          "end_s": 33.32,
+          "dimension": "scope_limit",
+          "statement_fr": "Les intervenants associent l’étroitesse à la possibilité de tourner sans accrocher les rails.",
+          "limits": "Description courte sans taille ni contexte; ne prouve pas une performance ou un niveau minimum."
+        }
+      ]
+    },
+    {
+      "video_id": "sgaqpPq9ExU",
+      "model": "KT Solus775/930",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "d908d8b4adb01db00f17f7b3c9a421ffd2dcafb90621cd2e8ef1ccee3236bd78",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier fiches Solus et Apex et montage Pulse avant ajout; ne pas extrapoler la facilité au milieu de plage aux extrêmes de vitesse.",
+      "claims": [
+        {
+          "start_s": 104.46,
+          "end_s": 219.56,
+          "dimension": "setup",
+          "statement_fr": "775 avecstab115,930 avec135, fuselage63 et mâtApex77 annoncés.",
+          "limits": "Noms Pulse/Puls et visserie déformés par transcription; notice nécessaire."
+        },
+        {
+          "start_s": 240.74,
+          "end_s": 301.86,
+          "dimension": "takeoff",
+          "statement_fr": "Départ homogène avec petit pumping fréquent plutôt que grands angles; board accélérant bien conseillée.",
+          "limits": "Pas plafond de poids ou plage basse chiffrée garantie."
+        },
+        {
+          "start_s": 350.16,
+          "end_s": 419.34,
+          "dimension": "glide",
+          "statement_fr": "Glisse et petites impulsions de pumping appréciées sur petites vaguesbaltiques.",
+          "limits": "Ressenti, pas distance/effort mesurés."
+        },
+        {
+          "start_s": 438.7,
+          "end_s": 533.04,
+          "dimension": "turning",
+          "statement_fr": "Mise enroulis facile mais rayons naturellement plusgrands, grandschangements d’angle peu privilégiés.",
+          "limits": "Pas même programme qu’un foil compactAR8."
+        },
+        {
+          "start_s": 539.62,
+          "end_s": 616.44,
+          "dimension": "control,limits",
+          "statement_fr": "Trèscontrôlable àvitesse moyenne; guidage requis trèsvite et trèslentement, où les petits stabs font perdre le vol plus tôt.",
+          "limits": "Aucun seuil mesuré; ne pas déduire foil d’initiation."
+        },
+        {
+          "start_s": 625.69,
+          "end_s": 748.66,
+          "dimension": "level",
+          "statement_fr": "Niveauintermédiaire possible selon le testeur pour downwind/léger, àcondition de gérer le bas de plage.",
+          "limits": "Pas comparaisonquantifiée avecUHA/Glide2 ni initiation garantie."
+        }
+      ]
+    },
+    {
+      "video_id": "j_uE7K_g5cs",
+      "model": "Armstrong UHA970 / Glide220",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "a717090562c6b956f8911646a7ce2ff0bb7b6955a334afac434f59e9799c6265",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Retour court970+Glide220 à garder distinct des670/870/1270. Pas de plage devent universelle ni compatibilitéde stabs supposée.",
+      "claims": [
+        {
+          "start_s": 7.48,
+          "end_s": 45.44,
+          "dimension": "setup,limits",
+          "statement_fr": "UHA970+Glide220 appréciée enléger variable, mais jugée trop importante dansune session annoncée25nœuds, où le rider change pourMAMkII990.",
+          "limits": "Poids,board etwing nonprécisés;25nœuds n’est pas unseuil moteur."
+        },
+        {
+          "start_s": 50.36,
+          "end_s": 82.88,
+          "dimension": "setup",
+          "statement_fr": "Glide220 ressentie assez verrouillée; Speed180 et autres tails seulement proposés pour plusdevent.",
+          "limits": "Alternatives citées, pas comparaison documentée de chaque montage."
+        }
+      ]
+    },
+    {
+      "video_id": "iiVHlMfy_rg",
+      "model": "SROKA PW HybridPro, introduction",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "66bf9d7f87e38ff3dc74f4ff604d65dda0c0463b3ee1bf9d20885633c2577846",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "intro_only_no_detailed_results",
+      "integration": "deferred",
+      "integration_reason": "Cache de31secondes limité à introduction. Rechercher versioncomplète; cette référence ne prouve pas comportement de board.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 31.24,
+          "dimension": "scope_limit",
+          "statement_fr": "Le présentateur annonce un test deboards PW pourparawing/wing/SUPfoil, puis lancele générique.",
+          "limits": "Aucune taille ni résultat danslessegments disponibles."
+        }
+      ]
+    },
+    {
+      "video_id": "tB7b_vgctNc",
+      "model": "K-PARTS Skal, présentation courte",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "0a218fca0ee7eda57907055fa321ee45dbb3833fd08c2b07d8cbd75b34d38fa2",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "commercial_presentation",
+      "integration": "deferred",
+      "integration_reason": "Extrait renvoyant à revuecomplète zGdki04tH2g. Ne pas comptercommeconfirmation indépendante.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 38.04,
+          "dimension": "scope",
+          "statement_fr": "Présentation qualitative de la gamme et desusagesmultisupports, sans détail par tailled’essai.",
+          "limits": "Tailles degamme citées ne prouvent pas touteslesconfigurations essayées."
+        },
+        {
+          "start_s": 49.92,
+          "end_s": 58.64,
+          "dimension": "related_source",
+          "statement_fr": "La vidéo renvoieexplicitement àune revuepluscomplète surlachaîne.",
+          "limits": "Pas deuxième essai indépendant."
+        }
+      ]
+    },
+    {
+      "video_id": "YVOXuTKpD50",
+      "model": "Duotone Glide3, retour néerlandais intitulé2027",
+      "language_returned": "nl",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "4db9cc1d6e97553cb7181a08b985923d4dd6123868c0e9cedcd3facd81293a48",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "technical_review",
+      "integration": "deferred",
+      "integration_reason": "Vérifier millésime etassemblages avant tout transfert auGlide3 D/LAB825 du moteur. Sourcecourte avecpratiques séparées.",
+      "claims": [
+        {
+          "start_s": 13.28,
+          "end_s": 45.32,
+          "dimension": "scope",
+          "statement_fr": "Premières sessionswing/parawing avec1100, puisdownwindparawing950 annoncées.",
+          "limits": "Poids etmontagesnonprécisés; titre2027 nonconfirméparfiche."
+        },
+        {
+          "start_s": 54.88,
+          "end_s": 108.56,
+          "dimension": "size_scope",
+          "statement_fr": "Paddle-up sur1250,puis1100 et950;825explicitement nonessayéecejour.",
+          "limits": "Ne pasutilisercecache pourvalider825."
+        },
+        {
+          "start_s": 108.56,
+          "end_s": 138.72,
+          "dimension": "comparison",
+          "statement_fr": "Le riderressent davantage de portance/glisse queversion2.",
+          "limits": "Ressentisglobaux, sansprotocole de comparaison niéquivalence de surface."
+        },
+        {
+          "start_s": 138.72,
+          "end_s": 165.88,
+          "dimension": "dockstart",
+          "statement_fr": "1250 utiliséeendockstart;départjugétolérant maisplusd’énergie ressentie pourtenirlevolfaceàuncomparateurmaltranscrit.",
+          "limits": "Ne pasinventerlenomducomparateurouuneefficacité chiffrée."
         }
       ]
     }

@@ -51,6 +51,7 @@ vm.runInContext(boardFamilies,sandbox);
 vm.runInContext(source.slice(source.indexOf('function boardTarget('),source.indexOf('function foilMarkup(')),sandbox);
 const ml=sandbox.BOARDS.find(b=>b.n==='Midlength Mk II X-Form');
 assert.ok(ml);assert.equal(ml.sizes.find(a=>a[0]===55)[1],162.56);
+const allBoardFamilies=sandbox.BOARDS;
 sandbox.BOARDS=[ml];
 const bp={w:85,l:2,wind:18,st:'normal',start:'auto',bt:'midi',p:'all',pr:'easy',water:'flat'};
 assert.ok(sandbox.boardOptions(bp).length>0);
@@ -58,3 +59,19 @@ assert.ok(sandbox.boardOptions(bp).every(b=>b.v>=85));
 assert.equal(sandbox.boardOptions({...bp,l:0}).length,0);
 assert.equal(sandbox.boardOptions({...bp,maxL:150}).length,0);
 console.log('MkII board catalogue and profile checks passed');
+
+// Verify that advice cannot leak from a tested size to untested sizes.
+assert.match(sandbox.transcriptSuitability({b:'Slingshot',n:'One-Lock Glide'},1125,profile).setup,/180/);
+assert.equal(sandbox.transcriptSuitability({b:'Slingshot',n:'One-Lock Glide'},925,profile).setup,undefined);
+assert.match(sandbox.transcriptSuitability({b:'Duotone',n:'Crest D/LAB'},800,profile).caution,/réception très freinante/);
+sandbox.BOARDS=allBoardFamilies;
+for(const name of ['Super K 2 Carbon','Skybrid SLS 2026']){
+ const family=sandbox.BOARDS.find(b=>b.n===name); assert.ok(family);
+ sandbox.BOARDS=[family]; assert.equal(sandbox.boardOptions({...bp,l:0}).length,0);
+ const options=sandbox.boardOptions(bp); assert.ok(options.length>0);
+ assert.ok(options.every(o=>o.v>=bp.w));
+ sandbox.BOARDS=allBoardFamilies;
+}
+assert.equal(sandbox.BOARDS.find(b=>b.n==='Super K 2 Carbon').sizes.find(a=>a[0]===90)[1],187.96);
+assert.equal(sandbox.BOARDS.find(b=>b.n==='Skybrid SLS 2026').sizes.find(a=>a[0]===80)[2],53.34);
+console.log('Generation, size isolation, and new board safety checks passed');

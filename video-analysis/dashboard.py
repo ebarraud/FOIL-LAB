@@ -23,10 +23,10 @@ def build(root=Path('.')):
     reviews=load(root/'data/research/transcript_reviews.json',{}).get('reviews',[])
     review_by_id={r['video_id']:r for r in reviews}
     for review in reviews:
-        analyses[review['video_id']]={'claims':len(review['claims']),'url':'data/research/transcript_reviews.json','audio_verified':False}
+        analyses[review['video_id']]={'claims':len(review['claims']),'url':'video-analysis/reviews.html?video='+review['video_id'],'audio_verified':False}
     for r in source:
         vid=r['video_id']; a=analyses.get(vid)
-        records[vid]={'video_id':vid,'title':r['title'],'language':r.get('language'),'collection':r['status'],'segments':r.get('segment_count'),
+        records[vid]={**records.get(vid,{}),'video_id':vid,'title':r['title'],'language':r.get('language'),'collection':r['status'],'segments':r.get('segment_count'),
           'keyword_candidates':r.get('candidate_count'), 'analysis':'interpreted' if a else 'queued' if r['status']=='timed_transcript_received' else 'awaiting_transcript',
           'claims':a['claims'] if a else 0,'evidence_url':a['url'] if a else None,
           'integration':'integrated' if vid in ('DMlWjjIcwss','NTOAhBM2Wms') else 'documented' if a else 'pending',
@@ -52,7 +52,7 @@ def build(root=Path('.')):
     for video in videos:
         review=review_by_id.get(video['video_id'],{})
         scope=review.get('scope','')
-        video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_')) else 'technical_review') if video.get('analysis')=='interpreted' else None
+        video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only','kite_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_')) else 'technical_review') if video.get('analysis')=='interpreted' else None
         if review.get('integration')=='conditional_board_selection':
             video['integration']='integrated'
         elif review.get('integration') in ('conditional_caution','conditional_setup'):
@@ -66,6 +66,20 @@ def build(root=Path('.')):
         metadata=publishers.get(video['video_id'],{})
         video['publisher']=metadata.get('publisher') or video.get('publisher')
         video['channel_id']=metadata.get('channel_id') or video.get('channel_id')
+    for relation in load(root/'data/research/translation_links.json',{}).get('links',[]):
+        video=next((v for v in videos if v['video_id']==relation['video_id']),None)
+        if video and video.get('analysis')=='queued' and relation['related_source_id'] in analyses:
+            video.update(analysis='related_version',review_kind='related_translation',related_source_id=relation['related_source_id'],integration='documented',integration_reason=relation['limit'],evidence_url='data/research/transcript_reviews.json',claims=0)
+    qualifications=load(root/'data/research/discovery_qualification.json',{}).get('decisions',[])
+    for decision in qualifications:
+        video=next((v for v in videos if v['video_id']==decision['id']),None)
+        if video:
+            video['discovered_on']=decision.get('published_on') or video.get('discovered_on')
+            video['metadata_screening']=decision['screening_status']
+            video['screening_reasons']=decision['screening_reasons']
+            if video['collection']=='new':
+                video['analysis']='scope_review_required'
+                video['integration_reason']='Qualification des métadonnées uniquement : '+', '.join(decision['screening_reasons'])
     tasks=load(root/'data/research/analysis_activity.json',{}).get('tasks',[])
     now=datetime.now(timezone.utc)
     for video in videos:
@@ -84,8 +98,10 @@ def build(root=Path('.')):
       'analysis_schedule':'Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.',
       'monitored_publishers':load(root/'data/research/monitored_publishers.json',{}).get('publishers',[]),
       'videos':videos,'improvements':[
-       {'title':'Midlength Mk II X-Form : volumes vérifiés et sélection conditionnelle','detail':'Neuf volumes constructeur ajoutés. Réservée aux niveaux intermédiaires et avancés ; priorité facilité sans sinker implicite. Essais 55, 65 et 85 L contextualisés, sans note de performance inventée.','commit':'main'},
-       {'title':'Six essais : conseils par taille et montage','detail':'Enduro 2024, One-Lock 725 et 1525, MA MkII, UHA et Nomad : choix des tails, limites de glisse et contexte des tests. Conseils intégrés, sans modification arbitraire des notes.','commit':'main'},
+       {'title':'Super K 2 Carbon et Skybrid SLS 2026 : sélection de planches élargie','detail':'Dimensions constructeur vérifiées et générations séparées. Sélection à partir du niveau intermédiaire, avec volume et largeur adaptés; aucune note inventée.','commit':'main'},
+       {'title':'One-Lock et Crest : conseils isolés par taille','detail':'1125 avec stab180 séparée des 725 et1525. Crest800/925 : conduite active et réception freinante signalées; les autres tailles ne récupèrent pas automatiquement ces conclusions.','commit':'main'},
+       {'title':'Midlength Mk II X-Form : volumes vérifiés et sélection conditionnelle','detail':'Neuf volumes constructeur ajoutés. Réservée aux niveaux intermédiaires et avancés ; priorité facilité sans sinker implicite. Essais 55, 65 et 85 L contextualisés, sans note de performance inventée.','commit':'97cd8fc'},
+       {'title':'Six essais : conseils par taille et montage','detail':'Enduro 2024, One-Lock 725 et 1525, MA MkII, UHA et Nomad : choix des tails, limites de glisse et contexte des tests. Conseils intégrés, sans modification arbitraire des notes.','commit':'97cd8fc'},
        {'title':'Glide 825 et Halo 670/800 : options conditionnelles','detail':'Glide pour glisse/allround à partir du niveau intermédiaire; Halo pour surf/saut avancé. Priorité facilité exclue. Fiches constructeur contrôlées, sans notes inventées ni plage de vent garantie.','commit':'main'},
        {'title':'Silk V2 : préserver la facilité','detail':'650 remplacée au minimum par 750 si priorité facilité ou niveau inférieur à 3. Précaution éditoriale, pas seuil mesuré.','video_id':'DMlWjjIcwss','commit':'fd8287a'},
        {'title':'Planche : éviter un sinker implicite','detail':'Priorité facilité : volume inférieur au poids écarté, sauf départ sinker explicite. Ne garantit pas la stabilité.','video_id':'NTOAhBM2Wms','commit':'ca659d2'},

@@ -15,7 +15,7 @@ def queue(data):
         vid = parse_qs(url.query).get('v', [''])[0]
         if url.hostname not in ('youtube.com', 'www.youtube.com') or not re.fullmatch(r'[A-Za-z0-9_-]{11}', vid):
             continue
-        found.setdefault(vid, (vid, row.get('title', vid), row.get('language') or 'en'))
+        found.setdefault(vid, (vid, row.get('title', vid), row.get('language') or ''))
     return list(found.values())
 
 def main():

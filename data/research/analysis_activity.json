@@ -170,19 +170,35 @@
     },
     {
       "video_id": "oNue1Vm0nWA",
-      "status": "in_progress",
-      "step": "Lecture intégrale du lot restant : qualification des contenus courts et essais techniques",
+      "status": "completed",
+      "step": "Qualification terminée : contenus musicaux exclus des preuves techniques",
       "started_at_utc": "2026-11-16T18:56:46.715031+00:00",
-      "updated_at_utc": "2026-11-16T18:56:46.715031+00:00",
-      "expires_at_utc": "2026-11-16T19:16:46.715031+00:00"
+      "updated_at_utc": "2026-11-16T19:14:13.985318+00:00",
+      "expires_at_utc": "2026-11-16T19:34:13.985318+00:00"
     },
     {
       "video_id": "V5rMLxpKDsg",
-      "status": "in_progress",
-      "step": "Lecture complète et vérifications du lot suivant; publication des preuves par taille",
+      "status": "completed",
+      "step": "Lot analysé et intégré selon les preuves disponibles; vérification finale et publication",
       "started_at_utc": "2026-11-16T19:03:20.816918+00:00",
-      "updated_at_utc": "2026-11-16T19:03:20.816918+00:00",
-      "expires_at_utc": "2026-11-16T19:23:20.816918+00:00"
+      "updated_at_utc": "2026-11-16T19:14:14.174747+00:00",
+      "expires_at_utc": "2026-11-16T19:34:14.174747+00:00"
+    },
+    {
+      "video_id": "rLYd4DMS3mw",
+      "status": "completed",
+      "step": "Stock local examiné; traductions liées sans nouvelle confirmation indépendante",
+      "started_at_utc": "2026-11-16T19:07:02.638528+00:00",
+      "updated_at_utc": "2026-11-16T19:14:14.390521+00:00",
+      "expires_at_utc": "2026-11-16T19:34:14.390521+00:00"
+    },
+    {
+      "video_id": "mhetRD3Fl5U",
+      "status": "in_progress",
+      "step": "Analyse des nouvelles collectes : AROS, Solus, comparatifs boards et sources courtes",
+      "started_at_utc": "2026-11-16T19:18:01.388236+00:00",
+      "updated_at_utc": "2026-11-16T19:18:01.388236+00:00",
+      "expires_at_utc": "2026-11-16T19:38:01.388236+00:00"
     }
   ]
 }
