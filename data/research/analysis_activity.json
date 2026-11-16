@@ -151,6 +151,14 @@
       "started_at_utc": "2026-11-16T18:41:25.553671+00:00",
       "updated_at_utc": "2026-11-16T18:41:26.230959+00:00",
       "expires_at_utc": "2026-11-16T19:01:26.230959+00:00"
+    },
+    {
+      "video_id": "4znqnlzx0Dg",
+      "status": "in_progress",
+      "step": "Lecture Crest : vérifier les comparaisons avec Glide, Carve et Whizz",
+      "started_at_utc": "2026-11-16T18:45:39.266440+00:00",
+      "updated_at_utc": "2026-11-16T18:45:39.266440+00:00",
+      "expires_at_utc": "2026-11-16T19:05:39.266440+00:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-16T18:41:26.306429+00:00",
+  "updated_at_utc": "2026-11-16T18:45:39.386019+00:00",
   "collection_updated_at_utc": "2026-11-16T18:33:12.193930+00:00",
   "retry_not_before_utc": null,
   "collection_state": "in_progress",
@@ -1220,7 +1220,7 @@
       "collection": "timed_transcript_received",
       "segments": 44,
       "keyword_candidates": 13,
-      "analysis": "queued",
+      "analysis": "in_progress",
       "claims": 0,
       "evidence_url": null,
       "integration": "pending",
@@ -1228,7 +1228,15 @@
       "integration_reason": null,
       "publisher": "Den Gordo WingFoiling",
       "channel_id": "UCDPI5klsfc28GYtgYzt4mEw",
-      "activity": null
+      "activity": {
+        "video_id": "4znqnlzx0Dg",
+        "status": "in_progress",
+        "step": "Lecture Crest : vérifier les comparaisons avec Glide, Carve et Whizz",
+        "started_at_utc": "2026-11-16T18:45:39.266440+00:00",
+        "updated_at_utc": "2026-11-16T18:45:39.266440+00:00",
+        "expires_at_utc": "2026-11-16T19:05:39.266440+00:00"
+      },
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "lrW4o4H05tI",
