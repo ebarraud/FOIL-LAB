@@ -135,6 +135,14 @@
       "started_at_utc": "2026-11-16T18:31:01.883007+00:00",
       "updated_at_utc": "2026-11-16T18:31:28.922003+00:00",
       "expires_at_utc": "2026-11-16T18:51:28.922003+00:00"
+    },
+    {
+      "video_id": "vqFSdEKOfFM",
+      "status": "in_progress",
+      "step": "Lot de rattrapage : contrôle de complétude Crossover, Skybrid bois et Code 1250R",
+      "started_at_utc": "2026-11-16T18:34:37.979203+00:00",
+      "updated_at_utc": "2026-11-16T18:34:37.979203+00:00",
+      "expires_at_utc": "2026-11-16T18:54:37.979203+00:00"
     }
   ]
 }

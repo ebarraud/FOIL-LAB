@@ -2,10 +2,10 @@
   "schema_version": 1,
   "inventory_count": 103,
   "processed": 103,
-  "transcripts_obtained": 93,
+  "transcripts_obtained": 101,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-16T18:31:40.601530+00:00",
+  "updated_at_utc": "2026-11-16T18:33:12.193930+00:00",
   "retry_status": "in_progress",
   "retry_history": {
     "attempts": [
@@ -676,6 +676,78 @@
         "at_utc": "2026-11-16T18:31:40.601530+00:00",
         "status": "timed_transcript_received",
         "returned_language": "en"
+      },
+      {
+        "video_id": "HFd3tbogjio",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:32:16.854453+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "Ih5W_610mgo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:32:23.322070+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "qIjC5-sJSro",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:32:29.507648+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en-US"
+      },
+      {
+        "video_id": "p57zbjrPPY4",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:32:35.572894+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "bw6RziEZQm8",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:32:42.143121+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "9U1SMtSmTNE",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:32:48.090106+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en-US"
+      },
+      {
+        "video_id": "rLYd4DMS3mw",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:32:54.032503+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "xB5QMIjU6Ps",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:33:00.237067+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "DQqbVduXDwA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:33:06.272211+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "F_kPaA7RGac",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:33:12.193930+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
       }
     ],
     "stopped_reason": null
@@ -1201,7 +1273,7 @@
       "last_retry": {
         "video_id": "HFd3tbogjio",
         "requested_language": "auto",
-        "at_utc": "2026-11-16T18:30:43.911125+00:00",
+        "at_utc": "2026-11-16T18:32:16.854453+00:00",
         "status": "http_error",
         "http_status": 404,
         "retry_after": null
@@ -1348,7 +1420,7 @@
       "last_retry": {
         "video_id": "Ih5W_610mgo",
         "requested_language": "auto",
-        "at_utc": "2026-11-16T18:30:52.253989+00:00",
+        "at_utc": "2026-11-16T18:32:23.322070+00:00",
         "status": "http_error",
         "http_status": 404,
         "retry_after": null
@@ -1648,82 +1720,82 @@
     {
       "video_id": "qIjC5-sJSro",
       "title": "Test Duotone Skybrid Air 2025",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 394,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "p57zbjrPPY4",
       "title": "DUOTONE WHIZZ SLS 850/1000/1450 FOIL REVIEW",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 240,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "bw6RziEZQm8",
       "title": "Slingshot Glide 1125 Onelock Wingfoil Test 2024",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 219,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "9U1SMtSmTNE",
       "title": "Slingshot Laser Craft V1 Midlength Board Test 2024",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 156,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "rLYd4DMS3mw",
       "title": "🇫🇷 Foil 2025 - Test Gong Curve H V3, la même mais en mieux ?!",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 238,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "xB5QMIjU6Ps",
       "title": "AFS Enduro Foil Test 2024",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 179,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "DQqbVduXDwA",
       "title": "Duotone Glide 2.0 D/Lab 900 Wingfoil Test 2024",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 252,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "F_kPaA7RGac",
       "title": "Test board sup foil dw ultime : l’AFS blackbird 8’8*16’5 107L",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 73,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     }
   ]
 }
