@@ -2,11 +2,11 @@
   "schema_version": 1,
   "inventory_count": 103,
   "processed": 103,
-  "transcripts_obtained": 87,
+  "transcripts_obtained": 93,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-15T21:05:13.133970+00:00",
-  "retry_status": "provider_access_or_rate_limit",
+  "updated_at_utc": "2026-11-16T18:31:40.601530+00:00",
+  "retry_status": "in_progress",
   "retry_history": {
     "attempts": [
       {
@@ -618,11 +618,68 @@
         "status": "http_error",
         "http_status": 429,
         "retry_after": "3287"
+      },
+      {
+        "video_id": "HFd3tbogjio",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:30:43.911125+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "Ih5W_610mgo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:30:52.253989+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "vqjLdNT4urA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:30:58.664917+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "_W2HhY4gySA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:31:04.539826+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en-US"
+      },
+      {
+        "video_id": "NXVH9H10YfM",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:31:21.431288+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "es"
+      },
+      {
+        "video_id": "E1hchZJjKAo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:31:28.249663+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "9G1mKOnFgxA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:31:34.594476+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en-US"
+      },
+      {
+        "video_id": "OJvTA8lXmDg",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T18:31:40.601530+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
       }
     ],
-    "stopped_reason": "provider_access_or_rate_limit"
+    "stopped_reason": null
   },
-  "retry_not_before_utc": "2026-11-15T22:00:00.133970+00:00",
   "results": [
     {
       "video_id": "aiWA2W7hKos",
@@ -1144,7 +1201,7 @@
       "last_retry": {
         "video_id": "HFd3tbogjio",
         "requested_language": "auto",
-        "at_utc": "2026-11-15T21:02:54.073418+00:00",
+        "at_utc": "2026-11-16T18:30:43.911125+00:00",
         "status": "http_error",
         "http_status": 404,
         "retry_after": null
@@ -1291,7 +1348,7 @@
       "last_retry": {
         "video_id": "Ih5W_610mgo",
         "requested_language": "auto",
-        "at_utc": "2026-11-15T21:03:00.793348+00:00",
+        "at_utc": "2026-11-16T18:30:52.253989+00:00",
         "status": "http_error",
         "http_status": 404,
         "retry_after": null
@@ -1531,69 +1588,62 @@
     {
       "video_id": "vqjLdNT4urA",
       "title": "KT Foiling Atlas foil range review wingfoiling – part 3",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
-      "last_retry": {
-        "video_id": "vqjLdNT4urA",
-        "requested_language": "auto",
-        "at_utc": "2026-11-15T21:05:13.133970+00:00",
-        "status": "http_error",
-        "http_status": 429,
-        "retry_after": "3287"
-      },
-      "requested_language": null
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 143,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto"
     },
     {
       "video_id": "_W2HhY4gySA",
       "title": "Indiana Foilboard Flow FW Carbon Test 2025",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 178,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "NXVH9H10YfM",
       "title": "North Freeride &amp; Surfing Gear Guide | Wing Foil Review",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "es",
+      "segment_count": 532,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "E1hchZJjKAo",
       "title": "KT Atlas 1130 790 Wing Foil Test 2025",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 240,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "9G1mKOnFgxA",
       "title": "Indiana Barracuda Foil 1050 und 850 Test 2025",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 173,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "OJvTA8lXmDg",
       "title": "SLINGSHOT ONE-LOCK / Long term review / Honest thoughts / Foil line-up &amp; Phantasm comparison",
-      "status": "unavailable_or_blocked",
-      "language": null,
-      "segment_count": null,
-      "failure_type": "HTTPError",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 476,
+      "failure_type": null,
       "last_retry": null,
-      "requested_language": null
+      "requested_language": "auto"
     },
     {
       "video_id": "qIjC5-sJSro",

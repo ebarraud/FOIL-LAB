@@ -127,6 +127,14 @@
       "started_at_utc": "2026-11-15T21:32:59.726841+00:00",
       "updated_at_utc": "2026-11-15T21:33:03.528779+00:00",
       "expires_at_utc": "2026-11-15T21:53:03.528779+00:00"
+    },
+    {
+      "video_id": "RxkvTwobKGE",
+      "status": "in_progress",
+      "step": "Lecture complète Armstrong MA MkII, taille et promesses à distinguer",
+      "started_at_utc": "2026-11-16T18:31:01.883007+00:00",
+      "updated_at_utc": "2026-11-16T18:31:01.883007+00:00",
+      "expires_at_utc": "2026-11-16T18:51:01.883007+00:00"
     }
   ]
 }
