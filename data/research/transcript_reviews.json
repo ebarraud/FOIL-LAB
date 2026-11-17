@@ -5769,6 +5769,109 @@
         "jumping_allowed": false,
         "checked_on": "2026-11-16"
       }
+    },
+    {
+      "video_id": "tnIU9QoY5dY",
+      "model": "F-ONE SK8 V2 750/850, 950 évoquée",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "1ab620284bed0082403d7dcdaa7ee25a0e035890690747e4dd5e45b2478e7e48",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_foil_generation_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; fiches de750/850 V2 ajoutées au catalogue sans transférer l’essai à laV3 TITAN2. La950 est détenue et évoquée mais son comportement n’est pas isolé dans ce compte rendu. Montage de tail et gabarit non précisés.",
+      "claims": [
+        {
+          "start_s": 58.68,
+          "end_s": 138.24,
+          "dimension": "size_generation",
+          "statement_fr": "Le testeur utilisait surtout850 et a ajouté750 et950 ; il identifie bienV2 et décrit un changement de construction par rapport àV1.",
+          "limits": "La gamme550–1150 citée n’est pas testée intégralement ; ne pas confondre tailles réellement utilisées et tailles de catalogue."
+        },
+        {
+          "start_s": 170.08,
+          "end_s": 196.08,
+          "dimension": "750_session",
+          "statement_fr": "Il rapporte une sortie en750 dans un vent estimé15–18nœuds et apprécie la possibilité d’utiliser cette taille.",
+          "limits": "Poids, planche et wing de la session non isolés ; aucune plage de vent garantie."
+        },
+        {
+          "start_s": 204.64,
+          "end_s": 279.36,
+          "dimension": "850_vs_V1",
+          "statement_fr": "Sur850V2, il ressent moins de mouvements sous charge qu’avec saV1 ; sur750 il apprécie vitesse et vivacité en virage.",
+          "limits": "Comparaison de ressenti sans mesure de rigidité ; l’effet du mât et du montage n’est pas séparé."
+        },
+        {
+          "start_s": 301.92,
+          "end_s": 328.56,
+          "dimension": "level_opinion",
+          "statement_fr": "Il envisageSK8 après les premiers acquis de remontée au vent sur un grand foil.",
+          "limits": "Avis commercial de progression, pas protocole débutant ; aucune réduction automatique1200/1500 vers750 ajoutée au moteur."
+        },
+        {
+          "start_s": 421.68,
+          "end_s": 456.24,
+          "dimension": "untested_comparison",
+          "statement_fr": "La comparaison avec des foils de plus grand allongement dans le clapot est annoncée pour une future vidéo.",
+          "limits": "Ne pas comptabiliser ce projet comme une comparaison réalisée ni un classement de familles."
+        }
+      ]
+    },
+    {
+      "video_id": "OXRTfgF_PBA",
+      "model": "F-ONE Rocket Wing Crossover83L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "b4227377fa097f36d1aba869018ba0c73ba33e9f85c28c8aa9d57e5e5fe8640a",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_board_size_specific",
+      "integration": "deferred",
+      "integration_reason": "Analyse documentée ; fiche83L de la génération bambou à contrôler avant ajout aux recommandations. Ne pas assimilerRocketCrossover àRocketMidlengthCarbon. Les exemples de montage sont des réglages individuels, pas une compatibilité validée.",
+      "claims": [
+        {
+          "start_s": 94.72,
+          "end_s": 120,
+          "dimension": "construction",
+          "statement_fr": "La planche est décrite en construction bambou, légère au ressenti.",
+          "limits": "Poids non pesé et génération exacte non datée ; pas une planche carbone ni une valeur de poids certifiée."
+        },
+        {
+          "start_s": 153.04,
+          "end_s": 210.56,
+          "dimension": "83L_setup",
+          "statement_fr": "Le testeur utilise83L, annoncée5pieds6, et a dû déplacer son foil vers l’arrière par rapport à ses habitudes pour réduire son excès d’appui avant.",
+          "limits": "Pas de position de rail universelle ; les différents modèlesRocket ne se règlent pas automatiquement de la même façon."
+        },
+        {
+          "start_s": 236.4,
+          "end_s": 283.52,
+          "dimension": "durability_limits",
+          "statement_fr": "Il apprécie le comportement en usage personnel et location mais recommande davantage de soin qu’avec la constructionASC, et regrette la sensibilité de la finition blanche aux traces.",
+          "limits": "Pas d’historique de casse quantifié ni comparaison instrumentée de résistance."
+        },
+        {
+          "start_s": 307.88,
+          "end_s": 388,
+          "dimension": "foil_pairing",
+          "statement_fr": "Il a utiliséSK8V2 850 ;750 n’a pas encore été essayée avec cette planche, et950 est seulement annoncée pour la session suivante.",
+          "limits": "Ne pas attribuer un test de750/950 à cette vidéo ; les règles d’assortiment taille de foil/volume évoquées restent des hypothèses personnelles."
+        },
+        {
+          "start_s": 395.64,
+          "end_s": 421.28,
+          "dimension": "practice_scope",
+          "statement_fr": "L’auteur précise avoir utilisé la planche en wing uniquement, sans essai de départ à la pagaie ou de downwind engagé.",
+          "limits": "Le titre « quiver killer » et la polyvalence annoncée ne prouvent pas des essais dans toutes les disciplines."
+        },
+        {
+          "start_s": 499.04,
+          "end_s": 558.08,
+          "dimension": "straps_level",
+          "statement_fr": "Il navigue sans straps, privilégie freeride et vagues et ne décrit pas cette planche comme un choix de freestyle aérien.",
+          "limits": "Pas d’interdiction constructeur de saut vérifiée ; préférence personnelle et niveau au-delà de l’initiation."
+        }
+      ]
     }
   ]
 }

@@ -20,3 +20,12 @@ for(const l of links.links)assert.ok(rows.some(r=>r.brand===l.brand&&r.name===l.
 
 assert.ok(rows.every(r=>r.entry.q===null),"Unvalidated legacy scores must not be rendered");
 assert.ok(JSON.parse(fs.readFileSync("data/model_variants.json","utf8")).variants.every(v=>v.qualitative_scores===null));
+vm.runInContext(source.slice(source.indexOf('function sourceInventoryRows('),source.indexOf('function renderSourceLibrary(')),sandbox);
+const progress=JSON.parse(fs.readFileSync('data/research/progress.json','utf8'));
+const leads=JSON.parse(fs.readFileSync('data/research/written_review_leads_latest.json','utf8'));
+const written=JSON.parse(fs.readFileSync('data/research/written_test_evidence_2026.json','utf8'));
+const inventory=sandbox.sourceInventoryRows(progress,leads,written,extension);
+assert.equal(inventory.filter(r=>r.kind==='video').length,progress.videos.length,'Sources must show the full video inventory, not five examples');
+assert.ok(inventory.some(r=>r.publisher==='KiteWorld Shop'));
+assert.ok(inventory.some(r=>r.status==='Article repéré · lecture à faire'));
+console.log('Complete source library:',inventory.length,'unique sources including',progress.videos.length,'videos');

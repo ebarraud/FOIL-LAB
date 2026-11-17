@@ -471,6 +471,52 @@
         "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
         "setup": "Montage constructeur à confirmer par référence complète"
       }
+    },
+    {
+      "type": "foil",
+      "key": "video|SK8V2|750",
+      "brand": "F-ONE",
+      "name": "SK8 V2 · TITAN historique",
+      "size": 750,
+      "sizeLabel": "750 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          750
+        ],
+        "f": "https://www.youtube.com/watch?v=tnIU9QoY5dY",
+        "i": "video-analysis/reviews.html?video=tnIU9QoY5dY",
+        "year": "V2, date de publication non contrôlée",
+        "reason": "Essai longue durée Liquid Blue : 850 utilisée couramment, 750 en vent estimé15–18nœuds ; vivacité et tenue en courbe appréciées.",
+        "lim": "NiV1 niV3 ; tail et gabarit non précisés. Pas de seuil de vent ni de réduction de surface universels.",
+        "setup": "Mât carboneHM14 ou16 évoqué ; tail à confirmer",
+        "context": "Transcription lue intégralement ; audio non vérifié."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|SK8V2|850",
+      "brand": "F-ONE",
+      "name": "SK8 V2 · TITAN historique",
+      "size": 850,
+      "sizeLabel": "850 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          850
+        ],
+        "f": "https://www.youtube.com/watch?v=tnIU9QoY5dY",
+        "i": "video-analysis/reviews.html?video=tnIU9QoY5dY",
+        "year": "V2, date de publication non contrôlée",
+        "reason": "Essai longue durée Liquid Blue : 850 utilisée couramment, 750 en vent estimé15–18nœuds ; vivacité et tenue en courbe appréciées.",
+        "lim": "NiV1 niV3 ; tail et gabarit non précisés. Pas de seuil de vent ni de réduction de surface universels.",
+        "setup": "Mât carboneHM14 ou16 évoqué ; tail à confirmer",
+        "context": "Transcription lue intégralement ; audio non vérifié."
+      }
     }
   ]
 }
