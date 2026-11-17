@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T17:21:24.578615+00:00",
+  "updated_at_utc": "2026-11-17T17:22:01.939757+00:00",
   "collection_updated_at_utc": "2026-11-17T17:09:16.872871+00:00",
   "retry_not_before_utc": null,
   "collection_state": "completed_with_unavailable",
@@ -3802,19 +3802,27 @@
       "collection": "timed_transcript_received",
       "segments": 9,
       "keyword_candidates": 0,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 1,
+      "evidence_url": "video-analysis/reviews.html?video=VG5Q_vXHVYM",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Intégration écartée pour cet extrait : aucune taille, montage, masse ou observation comparative exploitable. Rechercher la vidéo complète ; ne pas transformer ce teaser en essai validé.",
+      "review_kind": "technical_review",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
-      "activity": null,
+      "activity": {
+        "video_id": "VG5Q_vXHVYM",
+        "status": "completed",
+        "step": "Aperçu intégral qualifié : détails techniques insuffisants, aucune règle de performance ajoutée",
+        "started_at_utc": "2026-11-17T17:21:45.435934+00:00",
+        "updated_at_utc": "2026-11-17T17:22:01.408081+00:00",
+        "expires_at_utc": "2026-11-17T17:42:01.408081+00:00"
+      },
       "discovered_on": "2025-06-22",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "OXRTfgF_PBA",

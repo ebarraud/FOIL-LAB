@@ -239,6 +239,14 @@
       "started_at_utc": "2026-11-17T17:20:37.128558+00:00",
       "updated_at_utc": "2026-11-17T17:21:24.149377+00:00",
       "expires_at_utc": "2026-11-17T17:41:24.149377+00:00"
+    },
+    {
+      "video_id": "VG5Q_vXHVYM",
+      "status": "completed",
+      "step": "Aperçu intégral qualifié : détails techniques insuffisants, aucune règle de performance ajoutée",
+      "started_at_utc": "2026-11-17T17:21:45.435934+00:00",
+      "updated_at_utc": "2026-11-17T17:22:01.408081+00:00",
+      "expires_at_utc": "2026-11-17T17:42:01.408081+00:00"
     }
   ]
 }

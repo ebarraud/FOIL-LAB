@@ -5927,6 +5927,26 @@
           "limits": "Ce récit ne constitue ni une interdiction de saut ni une recommandation débutant."
         }
       ]
+    },
+    {
+      "video_id": "VG5Q_vXHVYM",
+      "model": "AFS Evo HA / Enduro · aperçu court",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "7134c79b49435f95443478d1239de9f65c8b7b6dfbc36326ed71f634d5d4f401",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "short_preview_insufficient_technical_detail",
+      "integration": "deferred",
+      "integration_reason": "Intégration écartée pour cet extrait : aucune taille, montage, masse ou observation comparative exploitable. Rechercher la vidéo complète ; ne pas transformer ce teaser en essai validé.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 23.84,
+          "dimension": "limite_de_source",
+          "statement_fr": "Le texte annonce des premières impressions Evo HA et une comparaison avec Enduro lors d’un week-end de démonstration, puis s’interrompt avant une explication technique.",
+          "limits": "Les neuf segments se chevauchent. Aucun résultat de comparaison ni détail de taille ; la dernière phrase incomplète ne prouve pas une facilité de décollage."
+        }
+      ]
     }
   ]
 }
