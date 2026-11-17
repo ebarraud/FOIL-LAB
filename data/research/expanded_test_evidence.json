@@ -517,6 +517,52 @@
         "setup": "Mât carboneHM14 ou16 évoqué ; tail à confirmer",
         "context": "Transcription lue intégralement ; audio non vérifié."
       }
+    },
+    {
+      "type": "foil",
+      "key": "video|TakoonFlow|700",
+      "brand": "Takoon",
+      "name": "Flow · version du test",
+      "size": 700,
+      "sizeLabel": "700 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          700
+        ],
+        "f": "https://www.youtube.com/watch?v=P39IzbFmKoo",
+        "i": "video-analysis/reviews.html?video=P39IzbFmKoo",
+        "year": "Version du test, millésime non contrôlé",
+        "reason": "Plus vif mais moins porteur à basse vitesse ; davantage de niveau en parawing.",
+        "lim": "Aucune plage de poids ou de vent garantie ; aucune équivalence de surface. Pas de compatibilité actuelle présumée.",
+        "setup": "Fuselage V3 alu 60 cm ; mât HM V2 85 cm ; Glide HA 130 / Carve 130",
+        "context": "Transcription française lue intégralement ; audio non vérifié."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|TakoonFlow|900",
+      "brand": "Takoon",
+      "name": "Flow · version du test",
+      "size": 900,
+      "sizeLabel": "900 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          900
+        ],
+        "f": "https://www.youtube.com/watch?v=P39IzbFmKoo",
+        "i": "video-analysis/reviews.html?video=P39IzbFmKoo",
+        "year": "Version du test, millésime non contrôlé",
+        "reason": "Plus tolérant selon le testeur de 77 kg ; apprécié en wing légère et parawing.",
+        "lim": "Aucune plage de poids ou de vent garantie ; aucune équivalence de surface. Pas de compatibilité actuelle présumée.",
+        "setup": "Fuselage V3 alu 60 cm ; mât HM V2 85 cm ; Glide HA 130 / Carve 130",
+        "context": "Transcription française lue intégralement ; audio non vérifié."
+      }
     }
   ]
 }

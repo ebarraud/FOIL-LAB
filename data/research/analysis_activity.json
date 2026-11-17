@@ -231,6 +231,14 @@
       "started_at_utc": "2026-11-17T17:11:20.849492+00:00",
       "updated_at_utc": "2026-11-17T17:14:17.808222+00:00",
       "expires_at_utc": "2026-11-17T17:34:17.808222+00:00"
+    },
+    {
+      "video_id": "P39IzbFmKoo",
+      "status": "completed",
+      "step": "Lecture intégrale, six preuves minutées et deux tailles ajoutées au catalogue sans note",
+      "started_at_utc": "2026-11-17T17:20:37.128558+00:00",
+      "updated_at_utc": "2026-11-17T17:21:24.149377+00:00",
+      "expires_at_utc": "2026-11-17T17:41:24.149377+00:00"
     }
   ]
 }

@@ -5872,6 +5872,61 @@
           "limits": "Pas d’interdiction constructeur de saut vérifiée ; préférence personnelle et niveau au-delà de l’initiation."
         }
       ]
+    },
+    {
+      "video_id": "P39IzbFmKoo",
+      "model": "Takoon Flow 700 / 900",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "367184cc6e88480e946d25459fc9648620f643229a689c7f75fb3a9756719daa",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wingfoil_and_parawing",
+      "integration": "deferred",
+      "integration_reason": "Catalogue enrichi sur les deux tailles réellement essayées. Moteur différé : géométrie et compatibilités fabricant actuelles à vérifier, aucun seuil de vent ni équivalence de surface déduit.",
+      "claims": [
+        {
+          "start_s": 113,
+          "end_s": 154,
+          "dimension": "montage",
+          "statement_fr": "Montage essayé : fuselage aluminium V3 60 cm et mât carbone HM V2 13 mm de 85 cm.",
+          "limits": "Le 66 cm et le fuselage carbone sont décrits, non essayés dans ce récit ; compatibilité actuelle à confirmer chez le fabricant."
+        },
+        {
+          "start_s": 203,
+          "end_s": 245,
+          "dimension": "tailles_et_stabilisateurs",
+          "statement_fr": "700 et 900 essayés plusieurs mois, principalement avec Glide HA 130 et Carve 130 ; le Carve favorise la maniabilité, le Glide HA intéresse le downwind mais demande davantage de contrôle en tangage.",
+          "limits": "Impressions du même auteur ; pas de protocole isolant chaque combinaison."
+        },
+        {
+          "start_s": 245,
+          "end_s": 297,
+          "dimension": "difference_par_taille",
+          "statement_fr": "Le 700 est décrit plus vif mais moins porteur à basse vitesse ; le 900 plus tolérant et laissant davantage de temps dans les manœuvres.",
+          "limits": "Comparaison qualitative, sans vitesse de décrochage mesurée ni plage de poids garantie."
+        },
+        {
+          "start_s": 297,
+          "end_s": 331,
+          "dimension": "comparaison_flare",
+          "statement_fr": "Face au Flare, le Flow conserve mieux sa glisse et projette davantage au pumping, avec une conduite moins radicale et moins de soutien à basse vitesse selon le testeur.",
+          "limits": "Tailles et montages du Flare non isolés ; aucune hiérarchie universelle."
+        },
+        {
+          "start_s": 385,
+          "end_s": 455,
+          "dimension": "gabarit_programme",
+          "statement_fr": "À 77 kg, le testeur apprécie le 900 en wing légère et parawing ; le 700 est surtout retenu pour la wing et devient plus technique en parawing.",
+          "limits": "Le récit évoque aussi le SUP et dockstart sans détailler des essais séparés ; ne pas les marquer validés."
+        },
+        {
+          "start_s": 524,
+          "end_s": 583,
+          "dimension": "synthese",
+          "statement_fr": "Préférence exprimée pour le freefly/downwind plutôt que le freestyle ; le 900 donne du temps pour plier/déployer la parawing et le 700 demande davantage de niveau.",
+          "limits": "Ce récit ne constitue ni une interdiction de saut ni une recommandation débutant."
+        }
+      ]
     }
   ]
 }

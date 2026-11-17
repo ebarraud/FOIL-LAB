@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T17:15:46.906776+00:00",
+  "updated_at_utc": "2026-11-17T17:21:24.578615+00:00",
   "collection_updated_at_utc": "2026-11-17T17:09:16.872871+00:00",
   "retry_not_before_utc": null,
   "collection_state": "completed_with_unavailable",
@@ -3048,19 +3048,27 @@
       "collection": "timed_transcript_received",
       "segments": 96,
       "keyword_candidates": 31,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 6,
+      "evidence_url": "video-analysis/reviews.html?video=P39IzbFmKoo",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Catalogue enrichi sur les deux tailles réellement essayées. Moteur différé : géométrie et compatibilités fabricant actuelles à vérifier, aucun seuil de vent ni équivalence de surface déduit.",
+      "review_kind": "technical_review",
       "publisher": "Watersports Zone by Erwan Jauffroy",
       "channel_id": "UC6kmfGkwRQb4mw7G39HSj5A",
-      "activity": null,
+      "activity": {
+        "video_id": "P39IzbFmKoo",
+        "status": "completed",
+        "step": "Lecture intégrale, six preuves minutées et deux tailles ajoutées au catalogue sans note",
+        "started_at_utc": "2026-11-17T17:20:37.128558+00:00",
+        "updated_at_utc": "2026-11-17T17:21:24.149377+00:00",
+        "expires_at_utc": "2026-11-17T17:41:24.149377+00:00"
+      },
       "discovered_on": "2026-03-14",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "SzXkVWCbIJs",
