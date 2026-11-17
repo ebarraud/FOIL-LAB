@@ -3,6 +3,32 @@
   "links": [
     {
       "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size": 690,
+      "size_unit": "cm²",
+      "source_id": "armstrong-ma-mkii-690-890-tonic-test",
+      "source_type": "written_test",
+      "url": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ma-mk-ii-front-foil-2025-2/",
+      "method": "Corps de l’essai Jack Galloway lu ; pratique wing distincte du prone.",
+      "reason": "690 avec tail 130 appréciée en wing ; son essai surf prone était encore prévu pour l’hiver.",
+      "setup": "MA Mk II 690 / tail 130 ; mât et gabarit non précisés dans l’article.",
+      "limits": "Pas une validation prone ni une équivalence de surface ; aperçu et article du même éditeur non indépendants."
+    },
+    {
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size": 890,
+      "size_unit": "cm²",
+      "source_id": "armstrong-ma-mkii-690-890-tonic-test",
+      "source_type": "written_test",
+      "url": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ma-mk-ii-front-foil-2025-2/",
+      "method": "Corps de l’essai Jack Galloway lu ; surf prone, pas essai wing isolé sur cette taille.",
+      "reason": "890 avec tail 170 : courbes fluides en prone et pumping plus profond que HA selon le testeur.",
+      "setup": "MA Mk II 890 / tail 170 ; mât et gabarit non précisés dans l’article.",
+      "limits": "Ne pas transférer son départ surf au décollage wing ni la comparaison HA880 à une équivalence de surface."
+    },
+    {
+      "brand": "Armstrong",
       "model": "Midlength Mk II X-Form",
       "size": 100,
       "size_unit": "L",

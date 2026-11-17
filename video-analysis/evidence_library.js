@@ -1,7 +1,7 @@
 'use strict';
 // Shared adapters: every reviewed source is kept; discovery leads are not reviews.
 function evidenceLibrary(input){
- const writtenSizes=r=>r.size_l?[{value:r.size_l,unit:'L'}]:r.size_cm2?[{value:r.size_cm2,unit:'cm²'}]:[];
+ const writtenSizes=r=>r.sizes_tested?.length?r.sizes_tested.map(value=>({value,unit:(r.size_unit||'cm²').trim()})):r.size_l?[{value:r.size_l,unit:'L'}]:r.size_cm2?[{value:r.size_cm2,unit:'cm²'}]:[];
  const out=[],publishers=new Map((input.progress?.videos||[]).map(v=>[v.video_id,v.publisher]));
  const videoUrl=id=>'https://www.youtube.com/watch?v='+id;
  const timedUrl=(id,start)=>videoUrl(id)+'&t='+Math.floor(start||0)+'s';

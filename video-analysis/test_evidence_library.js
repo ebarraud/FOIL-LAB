@@ -18,6 +18,8 @@ assert.equal(evidenceVisibleEntries(rows,'__absent__','all').length,0);
 assert.equal(evidenceLibrary({}).length,0,'Missing registry must not create fake rows');
 assert.ok(!fs.readFileSync('video-analysis/review.html','utf8').includes('matches.slice(0,120)'),'Imported candidate display must not silently truncate');
 console.log('Unified evidence coverage, filters, source scope and units:',rows.length,'dossiers');
+const maWritten=rows.find(e=>e.id==='expanded:armstrong-ma-mkii-690-890-tonic-test');assert.deepEqual(maWritten.sizes.map(s=>s.value),[690,890]);assert.match(maWritten.claims[0].limits,/Pratiques et tails différents/);
+const maOverview=rows.find(e=>e.id==='expanded:armstrong-ma-mkii-2025-tonic-overview');assert.match(maOverview.method,/pas un essai/);assert.notEqual(maOverview.source,maWritten.source,'Same-title overview and real test are different pages, not two independent tests');
 const mkiiWritten=rows.find(e=>e.id==='expanded:armstrong-midlength-mkii-100-foilingmag');assert.ok(mkiiWritten.sizes.some(s=>s.value===100&&s.unit==='L'));
 const skyAir=rows.find(e=>e.id==='expanded:duotone-skybrid-air-2025-tonic-overview');assert.match(skyAir.method,/pas un essai/);assert.equal(skyAir.sizes.length,0,'Range sizes in an overview are not tested sizes');
 const overview=rows.find(e=>e.id==='expanded:afs-enduro-2024-tonic-overview');assert.match(overview.method,/pas un essai/);assert.equal(overview.sizes.length,0);
