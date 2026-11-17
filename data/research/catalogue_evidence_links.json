@@ -2,6 +2,19 @@
   "method": "Rattachements manuels vérifiés : même famille, taille et génération. Aucun score modifié ; lecture de texte non validation audio.",
   "links": [
     {
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "size": 100,
+      "size_unit": "L",
+      "source_id": "armstrong-midlength-mkii-100-foilingmag",
+      "source_type": "written_test",
+      "url": "https://www.thefoilingmagazine.com/test-center/armstrong-midlength-mk-ii-x-form/",
+      "method": "Corps de l’essai écrit lu ; pas une nouvelle transcription.",
+      "reason": "100 L à 92 kg : stabilité, départ et pumping appréciés ; prise au vent à considérer en vagues offshore.",
+      "setup": "Rider 92 kg ; Mk II X-Form 100 L ; wing et parawing, matériel envoyé par Armstrong.",
+      "limits": "Prêt Armstrong ; quelques mois de recul, pas validation débutant ou de durabilité des autres volumes."
+    },
+    {
       "brand": "Duotone",
       "model": "Glide 3.0 D/LAB",
       "size": 825,

@@ -18,6 +18,8 @@ assert.equal(evidenceVisibleEntries(rows,'__absent__','all').length,0);
 assert.equal(evidenceLibrary({}).length,0,'Missing registry must not create fake rows');
 assert.ok(!fs.readFileSync('video-analysis/review.html','utf8').includes('matches.slice(0,120)'),'Imported candidate display must not silently truncate');
 console.log('Unified evidence coverage, filters, source scope and units:',rows.length,'dossiers');
+const mkiiWritten=rows.find(e=>e.id==='expanded:armstrong-midlength-mkii-100-foilingmag');assert.ok(mkiiWritten.sizes.some(s=>s.value===100&&s.unit==='L'));
+const skyAir=rows.find(e=>e.id==='expanded:duotone-skybrid-air-2025-tonic-overview');assert.match(skyAir.method,/pas un essai/);assert.equal(skyAir.sizes.length,0,'Range sizes in an overview are not tested sizes');
 const overview=rows.find(e=>e.id==='expanded:afs-enduro-2024-tonic-overview');assert.match(overview.method,/pas un essai/);assert.equal(overview.sizes.length,0);
 const silk=rows.find(e=>e.id==='expanded:afs-silk-850-2023-prone-tonic');assert.match(silk.claims[0].limits,/prone uniquement/);assert.match(silk.model,/2023/);
 const midi2027=rows.find(e=>e.id==='expanded:north-midi-pro-70-2027-foilingmag');assert.ok(midi2027.sizes.some(s=>s.value===70&&s.unit==='L'));assert.ok(midi2027.claims.every(c=>c.sizes.every(s=>s.unit==='L')));
