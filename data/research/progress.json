@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T17:22:01.939757+00:00",
+  "updated_at_utc": "2026-11-17T17:27:40.880330+00:00",
   "collection_updated_at_utc": "2026-11-17T17:09:16.872871+00:00",
   "retry_not_before_utc": null,
   "collection_state": "completed_with_unavailable",
@@ -3430,19 +3430,27 @@
       "collection": "timed_transcript_received",
       "segments": 1079,
       "keyword_candidates": 155,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 17,
+      "evidence_url": "video-analysis/reviews.html?video=iYxYwu15cuE",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Trois fiches PNG V2 ajoutées avec surfaces et envergures fabricant. Aucun classement chiffré ni règle automatique de réduction de surface. Tempo : wing et surf non essayés à ce stade ; ne pas recommander ces pratiques sur cette seule vidéo.",
+      "review_kind": "technical_review",
       "publisher": "Dominic Hoskyns",
       "channel_id": "UCJv_6oL1jXsgIYNZBEAzRAQ",
-      "activity": null,
+      "activity": {
+        "video_id": "iYxYwu15cuE",
+        "status": "completed",
+        "step": "1079 segments lus ; 17 preuves minutées ; trois fiches PNG V2 vérifiées chez AXIS",
+        "started_at_utc": "2026-11-17T17:26:02.673345+00:00",
+        "updated_at_utc": "2026-11-17T17:27:40.513293+00:00",
+        "expires_at_utc": "2026-11-17T17:47:40.513293+00:00"
+      },
       "discovered_on": "2025-10-18",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "analysis_before_activity": "queued"
     },
     {
       "video_id": "wRZtiQOPURw",

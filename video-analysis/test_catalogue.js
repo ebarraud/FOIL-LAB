@@ -29,3 +29,9 @@ assert.equal(inventory.filter(r=>r.kind==='video').length,progress.videos.length
 assert.ok(inventory.some(r=>r.publisher==='KiteWorld Shop'));
 assert.ok(inventory.some(r=>r.status==='Article repéré · lecture à faire'));
 console.log('Complete source library:',inventory.length,'unique sources including',progress.videos.length,'videos');
+const axisPng=extension.catalogue_records.filter(r=>r.brand==='AXIS'&&r.name.startsWith('PNG V2'));
+assert.equal(axisPng.length,3);
+for(const r of axisPng){assert.equal(r.size,r.manufacturer_geometry.true_area_cm2);assert.equal(r.width,r.manufacturer_geometry.span_cm);assert.notEqual(r.size,Number(r.name.split(' ').at(-1)),'AXIS model span must not become area');}
+const axisReview=JSON.parse(fs.readFileSync('data/research/transcript_reviews.json','utf8')).reviews.find(r=>r.video_id==='iYxYwu15cuE');
+assert.ok(axisReview.claims.some(c=>c.dimension==='tempo_1020_pratiques'&&c.statement_fr.includes('surf non essayé')));
+console.log('AXIS span/area separation and Tempo practice limitations passed');

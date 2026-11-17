@@ -5947,6 +5947,138 @@
           "limits": "Les neuf segments se chevauchent. Aucun résultat de comparaison ni détail de taille ; la dernière phrase incomplète ne prouve pas une facilité de décollage."
         }
       ]
+    },
+    {
+      "video_id": "iYxYwu15cuE",
+      "model": "AXIS PNG / PNG V2, ART / ART V2 / ART Pro, Spitfire, Fireball, Tempo",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "a8a45ee40fae66628108f4e1c3ef8c30fd2e8ed75d57b435a01930db8d9a96dd",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "multi_generation_wing_prone_pump_downwind_parawing",
+      "integration": "deferred",
+      "integration_reason": "Trois fiches PNG V2 ajoutées avec surfaces et envergures fabricant. Aucun classement chiffré ni règle automatique de réduction de surface. Tempo : wing et surf non essayés à ce stade ; ne pas recommander ces pratiques sur cette seule vidéo.",
+      "claims": [
+        {
+          "start_s": 88,
+          "end_s": 205,
+          "dimension": "png_original",
+          "statement_fr": "PNG première génération : 910 appréciée en petit surf, 1010 et 1150 pour petites ondes et apprentissage des connexions.",
+          "limits": "Souvenirs personnels ; versions anciennes, pas les PNG V2. Les identifiants de modèles ne sont pas des surfaces."
+        },
+        {
+          "start_s": 275,
+          "end_s": 333,
+          "dimension": "png_1300_original",
+          "statement_fr": "Le PNG 1300 original est préféré pour une glisse et un pumping plus rapides ; adaptation nécessaire au dockstart.",
+          "limits": "Pas de mesure de vitesse ni de durée ; génération originale distincte du V2."
+        },
+        {
+          "start_s": 333,
+          "end_s": 486,
+          "dimension": "png_1310_original",
+          "statement_fr": "Le 1310 facilite les départs très lents selon le récit, mais les sorties de courbe mal contrôlées et le décrochage surprennent davantage le testeur.",
+          "limits": "Ne pas assimiler soutien à basse vitesse et facilité de contrôle ; pas de seuil de poids garanti."
+        },
+        {
+          "start_s": 486,
+          "end_s": 626,
+          "dimension": "png_v2_1200",
+          "statement_fr": "Le PNG V2 1200 est décrit plus maniable et tolérant que le 1150 original, avec une vitesse limitée dans les houles rapides.",
+          "limits": "Le texte automatique écrit parfois V200 ; identification recoupée avec la séquence 1200/1300/1400, sans contrôle audio."
+        },
+        {
+          "start_s": 622,
+          "end_s": 755,
+          "dimension": "png_v2_1300",
+          "statement_fr": "À 80 kg, le testeur apprécie le PNG V2 1300 pour dockstart, petites ondes et wing très légère ; les courbes demandent une action décidée et sont moins libres.",
+          "limits": "Pas de vent mesuré, de montage arrière détaillé ou de plage de poids validée."
+        },
+        {
+          "start_s": 747,
+          "end_s": 862,
+          "dimension": "png_v2_1400",
+          "statement_fr": "Le PNG V2 1400 offre au testeur une plateforme de dockstart très accessible et un pumping moins coûteux, mais devient moins tolérant aux déséquilibres en sortie de courbe.",
+          "limits": "Un plus grand modèle ne devient pas automatiquement une meilleure recommandation débutant ; observation à 80 kg."
+        },
+        {
+          "start_s": 864,
+          "end_s": 1079,
+          "dimension": "art_pro_1201_1401",
+          "statement_fr": "ART Pro 1201 apprécié pour un pumping rapide ; 1401 pour connecter de très petites ondes, avec des courbes lentes et contrôlées.",
+          "limits": "1401 reçu en préproduction ; soutien matériel de la marque déclaré. Pas un essai indépendant d’achat."
+        },
+        {
+          "start_s": 1197,
+          "end_s": 1325,
+          "dimension": "art_pro_petites_tailles",
+          "statement_fr": "ART Pro 951 utilisé en wing ; 1001 décrit comme favori et 1051 pour des conditions plus légères ; tailles sous 1121 orientées davantage vers la vitesse.",
+          "limits": "Certaines occurrences de 1001 sont mal transcrites ; pas de performance chiffrée par taille."
+        },
+        {
+          "start_s": 1474,
+          "end_s": 1576,
+          "dimension": "fireball_famille",
+          "statement_fr": "Fireball : portance progressive, décrochage jugé plus prévisible et plage de conditions plus large que les ART/ART Pro dans son usage downwind.",
+          "limits": "Appréciation de famille, sans test contrôlé à surfaces identiques ; aucune équivalence de surface déduite."
+        },
+        {
+          "start_s": 1581,
+          "end_s": 1649,
+          "dimension": "fireball_1350_montage",
+          "statement_fr": "Fireball 1350 essayé en dockstart avec mât Ultra Pro carbone ; la rigidité est importante dans la perception du contrôle et des courbes.",
+          "limits": "Les vibrations possibles sur aluminium sont une réserve exprimée, pas un comparatif mesuré de tous les mâts."
+        },
+        {
+          "start_s": 1649,
+          "end_s": 1766,
+          "dimension": "fireball_tailles",
+          "statement_fr": "Fireball 1000/1070/1160 préférés en surf assisté et downwind ; 940/880 utilisés en wing. Le testeur hésite explicitement sur l’identifiant 940.",
+          "limits": "Le passage parawing sur 940 reste incertain ; ne pas créer une fiche de taille sur ce seul mot hésitant."
+        },
+        {
+          "start_s": 1775,
+          "end_s": 1893,
+          "dimension": "art_original",
+          "statement_fr": "ART original 899/999/1099 : appréciés à leur époque, mais sorties de tips et portance plus vive des grandes tailles signalées.",
+          "limits": "Ne pas transférer ces limites au V2 ; pratiques et années différentes."
+        },
+        {
+          "start_s": 1893,
+          "end_s": 2199,
+          "dimension": "art_v2",
+          "statement_fr": "ART V2 879/979 appréciés dans la mer du Nord désordonnée ; meilleure tolérance aux sorties de tips que l’original, conduite plus rapide et moins surf que Spitfire.",
+          "limits": "Synthèse personnelle de plusieurs pratiques ; pas de garantie de stabilité ni de vitesse."
+        },
+        {
+          "start_s": 2332,
+          "end_s": 2557,
+          "dimension": "spitfire",
+          "statement_fr": "Spitfire 900 de préproduction apprécié pour le surf ; 960 puis 1030/1100/1180 facilitent les connexions en grandissant, avec un pumping à soigner.",
+          "limits": "Essais surtout surf/prone et démos Foil Drive ; ce passage ne prouve pas un test wing séparé pour chaque taille."
+        },
+        {
+          "start_s": 2559,
+          "end_s": 2680,
+          "dimension": "tempo_1020_pratiques",
+          "statement_fr": "Tempo 1020 présenté avec Skinny 30 et fuselage titane : essayé en downwind assisté et parawing ; wing projetée, surf non essayé.",
+          "limits": "Séparer explicitement pratique réalisée et anticipation enthousiaste. Le testeur exclut les débutants."
+        },
+        {
+          "start_s": 2680,
+          "end_s": 2829,
+          "dimension": "tempo_roulis",
+          "statement_fr": "Tempo : glisse et vitesse appréciées, avec un roulis très libre qui exige une action pour arrêter la mise sur l’angle.",
+          "limits": "Pas de vitesse mesurée ; contrôle acquis par ce testeur ne garantit pas l’accessibilité à tous."
+        },
+        {
+          "start_s": 2917,
+          "end_s": 3005,
+          "dimension": "tempo_limites_comparaison",
+          "statement_fr": "Fireball jugé plus facile que Tempo ; le testeur précise ne pas avoir essayé le pumping sur eau plate avec Tempo.",
+          "limits": "Ne pas publier de verdict de supériorité en pumping à plat ; comparaison qualitative et pratiques différentes."
+        }
+      ]
     }
   ]
 }

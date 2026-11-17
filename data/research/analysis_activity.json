@@ -247,6 +247,14 @@
       "started_at_utc": "2026-11-17T17:21:45.435934+00:00",
       "updated_at_utc": "2026-11-17T17:22:01.408081+00:00",
       "expires_at_utc": "2026-11-17T17:42:01.408081+00:00"
+    },
+    {
+      "video_id": "iYxYwu15cuE",
+      "status": "completed",
+      "step": "1079 segments lus ; 17 preuves minutées ; trois fiches PNG V2 vérifiées chez AXIS",
+      "started_at_utc": "2026-11-17T17:26:02.673345+00:00",
+      "updated_at_utc": "2026-11-17T17:27:40.513293+00:00",
+      "expires_at_utc": "2026-11-17T17:47:40.513293+00:00"
     }
   ]
 }

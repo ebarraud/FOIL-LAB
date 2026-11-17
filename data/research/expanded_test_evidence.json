@@ -563,6 +563,102 @@
         "setup": "Fuselage V3 alu 60 cm ; mât HM V2 85 cm ; Glide HA 130 / Carve 130",
         "context": "Transcription française lue intégralement ; audio non vérifié."
       }
+    },
+    {
+      "type": "foil",
+      "key": "video|AXIS|PNGV2|1200",
+      "brand": "AXIS",
+      "name": "PNG V2 1200",
+      "size": 1803,
+      "sizeLabel": "1803 cm² · envergure 120 cm",
+      "width": 120,
+      "tested": true,
+      "manufacturer_geometry": {
+        "checked_on": "2026-11-17",
+        "url": "https://axisfoils.com/collections/pngv2/products/axis-png-v2-1300-ultra-high-mod-reinforced-carbon-hydrofoil-wing",
+        "source_html_sha256": "d1014815db7ca57f2da538a90fcbe8a7229cc6ad893e5c4dcb584d52dc18084c",
+        "span_cm": 120,
+        "true_area_cm2": 1803,
+        "aspect_ratio": 8.0
+      },
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1803
+        ],
+        "f": "https://axisfoils.com/collections/pngv2/products/axis-png-v2-1300-ultra-high-mod-reinforced-carbon-hydrofoil-wing",
+        "i": "video-analysis/reviews.html?video=iYxYwu15cuE",
+        "year": "PNG V2 · version du comparatif 2025",
+        "reason": "Pumping et contrôle tolérants selon le testeur ; vitesse limitée face à une houle rapide.",
+        "lim": "Pas de plage de vent/poids garantie. Identifiant du modèle = envergure en mm, pas surface. Aucun score attribué.",
+        "setup": "Montage arrière du passage non détaillé ; géométrie fabricant, fuselage Black requis pour PNG V2.",
+        "context": "Transcription intégralement lue, audio non contrôlé ; testeur 80 kg, matériel parfois fourni par AXIS."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|AXIS|PNGV2|1300",
+      "brand": "AXIS",
+      "name": "PNG V2 1300",
+      "size": 1632,
+      "sizeLabel": "1632 cm² · envergure 130 cm",
+      "width": 130,
+      "tested": true,
+      "manufacturer_geometry": {
+        "checked_on": "2026-11-17",
+        "url": "https://axisfoils.com/collections/pngv2/products/axis-png-v2-1300-ultra-high-mod-reinforced-carbon-hydrofoil-wing",
+        "source_html_sha256": "d1014815db7ca57f2da538a90fcbe8a7229cc6ad893e5c4dcb584d52dc18084c",
+        "span_cm": 130,
+        "true_area_cm2": 1632,
+        "aspect_ratio": 10.36
+      },
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1632
+        ],
+        "f": "https://axisfoils.com/collections/pngv2/products/axis-png-v2-1300-ultra-high-mod-reinforced-carbon-hydrofoil-wing",
+        "i": "video-analysis/reviews.html?video=iYxYwu15cuE",
+        "year": "PNG V2 · version du comparatif 2025",
+        "reason": "Dockstart, petites ondes et wing légère appréciés à 80 kg ; courbes à engager avec précision.",
+        "lim": "Pas de plage de vent/poids garantie. Identifiant du modèle = envergure en mm, pas surface. Aucun score attribué.",
+        "setup": "Montage arrière du passage non détaillé ; géométrie fabricant, fuselage Black requis pour PNG V2.",
+        "context": "Transcription intégralement lue, audio non contrôlé ; testeur 80 kg, matériel parfois fourni par AXIS."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|AXIS|PNGV2|1400",
+      "brand": "AXIS",
+      "name": "PNG V2 1400",
+      "size": 1786,
+      "sizeLabel": "1786 cm² · envergure 140 cm",
+      "width": 140,
+      "tested": true,
+      "manufacturer_geometry": {
+        "checked_on": "2026-11-17",
+        "url": "https://axisfoils.com/collections/pngv2/products/axis-png-v2-1300-ultra-high-mod-reinforced-carbon-hydrofoil-wing",
+        "source_html_sha256": "d1014815db7ca57f2da538a90fcbe8a7229cc6ad893e5c4dcb584d52dc18084c",
+        "span_cm": 140,
+        "true_area_cm2": 1786,
+        "aspect_ratio": 10.99
+      },
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1786
+        ],
+        "f": "https://axisfoils.com/collections/pngv2/products/axis-png-v2-1300-ultra-high-mod-reinforced-carbon-hydrofoil-wing",
+        "i": "video-analysis/reviews.html?video=iYxYwu15cuE",
+        "year": "PNG V2 · version du comparatif 2025",
+        "reason": "Plateforme appréciée au dockstart ; prudence sur les déséquilibres en sortie de courbe à 80 kg.",
+        "lim": "Pas de plage de vent/poids garantie. Identifiant du modèle = envergure en mm, pas surface. Aucun score attribué.",
+        "setup": "Montage arrière du passage non détaillé ; géométrie fabricant, fuselage Black requis pour PNG V2.",
+        "context": "Transcription intégralement lue, audio non contrôlé ; testeur 80 kg, matériel parfois fourni par AXIS."
+      }
     }
   ]
 }
