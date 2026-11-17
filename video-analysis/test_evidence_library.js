@@ -20,3 +20,5 @@ assert.ok(!fs.readFileSync('video-analysis/review.html','utf8').includes('matche
 console.log('Unified evidence coverage, filters, source scope and units:',rows.length,'dossiers');
 const overview=rows.find(e=>e.id==='expanded:afs-enduro-2024-tonic-overview');assert.match(overview.method,/pas un essai/);assert.equal(overview.sizes.length,0);
 const silk=rows.find(e=>e.id==='expanded:afs-silk-850-2023-prone-tonic');assert.match(silk.claims[0].limits,/prone uniquement/);assert.match(silk.model,/2023/);
+const midi2027=rows.find(e=>e.id==='expanded:north-midi-pro-70-2027-foilingmag');assert.ok(midi2027.sizes.some(s=>s.value===70&&s.unit==='L'));assert.ok(midi2027.claims.every(c=>c.sizes.every(s=>s.unit==='L')));
+const wakaWritten=rows.find(e=>e.id==='expanded:waka-glide-foilingmag-written');assert.equal(wakaWritten.sizes.length,0,'Unknown WAKA volume must not inherit the video 77L');

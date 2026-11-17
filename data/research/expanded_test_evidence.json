@@ -165,6 +165,43 @@
       "checked_on": "2026-11-17",
       "performance_scores_generated": 0,
       "evidence_record_sha256": "f5266ef8d04b18f67fe7a7e28b6bb43ac720b898aedb94a2aaf22e78e9150e22"
+    },
+    {
+      "id": "waka-glide-foilingmag-written",
+      "brand": "WAKA",
+      "model": "Glide · essai écrit, volume non précisé",
+      "publisher": "Foiling Magazine",
+      "source_url": "https://www.thefoilingmagazine.com/test-center/waka-glide/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "Volume et gabarit absents ; trois vis de fermeture et montage pliant décrits.",
+      "summary_fr": "Rigidité ressentie et départ appréciés, avec touchettes en ligne droite favorables. Le roulis libre, l’épaisseur et le poids sont des compromis ; le test vise surtout des pratiquants intermédiaires ou avancés ayant une contrainte de rangement.",
+      "limits": "Aucun volume isolé ni essai de longévité. Ne pas marquer les cinq tailles essayées, garantir les franchises bagage ou réduire automatiquement le volume. Relation publicitaire/affiliation annoncée par le site.",
+      "checked_on": "2026-11-17",
+      "performance_scores_generated": 0,
+      "source_html_sha256": null,
+      "source_check": "Corps lu via extraction web ; HTML direct HTTP403, empreinte HTML indisponible.",
+      "evidence_record_sha256": "8bc8217115caacb812552e2f60dfd79c99b794296daab460ae0cf91d7dd0afc1"
+    },
+    {
+      "id": "north-midi-pro-70-2027-foilingmag",
+      "brand": "North",
+      "model": "Midi Pro 70 L · 2027",
+      "size_l": 70,
+      "size_unit": "L",
+      "generation": "2027 Midi Pro, distincte de Midi 96 L",
+      "publisher": "Foiling Magazine",
+      "source_url": "https://www.thefoilingmagazine.com/test-center/north-midi-pro-2027/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "Board 70 L ; première session avec foil 670 et wing 4 m², seconde avec 800 et 4,5 m² ; ratio annoncé proche de 1 L/kg.",
+      "summary_fr": "Départ, accélération et reprise après touchettes appréciés en wing. En vent faible, un pumping actif des pieds et de l’aile reste nécessaire. Les testeurs privilégient freeride et vagues pour un pratiquant déjà expérimenté.",
+      "limits": "2027 séparée de Midi 96 L et de générations antérieures. Prêt distributeur, vent non mesuré, foils non identifiés précisément. SUP, parawing et assistance sont des usages décrits ou possibles, pas les disciplines effectivement essayées dans cet article.",
+      "checked_on": "2026-11-17",
+      "performance_scores_generated": 0,
+      "source_html_sha256": null,
+      "source_check": "Corps lu via extraction web ; pas de nouvel appel HTML après refus du site, empreinte HTML indisponible.",
+      "evidence_record_sha256": "cb877a43dd048c89b231a8a8d8ebfec60129ace8a96a143e438ba9e66db6aa19"
     }
   ],
   "catalogue_records": [
@@ -1340,6 +1377,29 @@
         "lim": "Prone uniquement, pas essai wing ; tow et grandes tailles non essayés. Pas transfert aux Silk V2.",
         "setup": "Chipri Pro 4’4 ; mât Silk UHM 80 cm annoncé ; foil reculé selon ce rider.",
         "context": "Corps de l’essai Jack Galloway lu ; surf prone, aucune mesure FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "written|North|MidiPro2027|70",
+      "brand": "North",
+      "name": "Midi Pro 2027",
+      "size": 70,
+      "sizeLabel": "70 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          70
+        ],
+        "f": "https://www.thefoilingmagazine.com/test-center/north-midi-pro-2027/",
+        "i": "https://www.thefoilingmagazine.com/test-center/north-midi-pro-2027/",
+        "year": "2027 · distincte de Midi 96 L",
+        "reason": "Wing : départ et reprises après touchettes appréciés ; pumping actif dans le vent faible.",
+        "lim": "Rider déjà expérimenté, 70 L proche de son poids selon article ; prêt distributeur et vent non mesuré. SUP/parawing non essayés ici.",
+        "setup": "Foils 670/800 non identifiés ; wings 4/4,5 m² selon sessions.",
+        "context": "Corps de l’essai Foiling Magazine lu ; volume 70 L seulement, aucune note attribuée."
       }
     }
   ]
