@@ -128,6 +128,43 @@
       "source_html_sha256": "89f7a62c097898e5b4e4f91e36e0096c8228eafd261e3a272a28c0c722a9831e",
       "source_check": "HTTP200; HTML fingerprint, not full article publication",
       "checked_on": "2026-11-16"
+    },
+    {
+      "id": "afs-enduro-2024-tonic-overview",
+      "brand": "AFS",
+      "model": "Enduro 2024 · présentation, pas essai",
+      "publisher": "Tonic Mag",
+      "source_url": "https://www.tonicmag.com/reviews/hydrofoils/afs-foils-enduro-front-wing-2024/",
+      "source_type": "publisher_overview_not_test",
+      "read_status": "article_body_read_overview_only",
+      "setup": "Aucun rider, montage ou session décrit.",
+      "summary_fr": "La page annonce un aperçu et promet un essai complet ultérieur. Le corps présente la gamme et sa modularité sans rapporter de session identifiable.",
+      "limits": "Ce contenu ne constitue pas un essai technique indépendant. Les bénéfices de portance, glisse et entretien annoncés ne deviennent pas des règles ni des notes. Aucune taille marquée testée.",
+      "source_html_sha256": null,
+      "source_check": "Corps lu via extraction web ; HTML direct HTTP403, empreinte HTML indisponible. Aucun texte intégral publié.",
+      "checked_on": "2026-11-17",
+      "performance_scores_generated": 0,
+      "evidence_record_sha256": "73ec86e4952bacf8c6a99cc32ae264eec91353c01d4b0419162d98d2d01b00b8"
+    },
+    {
+      "id": "afs-silk-850-2023-prone-tonic",
+      "brand": "AFS",
+      "model": "Silk 850 · 2023, surf prone",
+      "size_cm2": 850,
+      "generation": "Silk première génération 2023, pas V2",
+      "publisher": "Tonic Mag",
+      "source_author": "Jack Galloway",
+      "source_url": "https://www.tonicmag.com/reviews/hydrofoils/afs-foils-silk-850-2023/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "Surf prone sur Chipri Pro 4’4 ; mât Silk UHM 80 cm annoncé, foil reculé après première vague.",
+      "summary_fr": "Jack Galloway apprécie les courbes engagées et la récupération après sortie de pointe. Le pumping demande vitesse de sortie, foil haut et effort ; il réserve ce montage aux vagues suffisamment porteuses.",
+      "limits": "Essai prone uniquement ; tow et grandes tailles seulement envisagés. Réglage très arrière propre à cette board. Aucune règle de départ wing, de poids ni extrapolation au Silk V2.",
+      "source_html_sha256": null,
+      "source_check": "Corps lu via extraction web ; HTML direct HTTP403, empreinte HTML indisponible. Aucun texte intégral publié.",
+      "checked_on": "2026-11-17",
+      "performance_scores_generated": 0,
+      "evidence_record_sha256": "f5266ef8d04b18f67fe7a7e28b6bb43ac720b898aedb94a2aaf22e78e9150e22"
     }
   ],
   "catalogue_records": [
@@ -1280,6 +1317,29 @@
         "span_cm": 126,
         "area_cm2": 1737,
         "aspect_ratio": 9.14
+      }
+    },
+    {
+      "type": "foil",
+      "key": "written|AFS|Silk2023|850",
+      "brand": "AFS",
+      "name": "Silk · première génération 2023",
+      "size": 850,
+      "sizeLabel": "850 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          850
+        ],
+        "f": "https://www.tonicmag.com/reviews/hydrofoils/afs-foils-silk-850-2023/",
+        "i": "https://www.tonicmag.com/reviews/hydrofoils/afs-foils-silk-850-2023/",
+        "year": "2023 · distincte de Silk V2",
+        "reason": "Surf prone : courbes et récupération de sorties de pointe appréciées, pumping exigeant.",
+        "lim": "Prone uniquement, pas essai wing ; tow et grandes tailles non essayés. Pas transfert aux Silk V2.",
+        "setup": "Chipri Pro 4’4 ; mât Silk UHM 80 cm annoncé ; foil reculé selon ce rider.",
+        "context": "Corps de l’essai Jack Galloway lu ; surf prone, aucune mesure FOIL LAB."
       }
     }
   ]
