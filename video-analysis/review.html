@@ -30,17 +30,19 @@ button.secondary{background:transparent;color:var(--text)}button:disabled{opacit
 <p><a href="../index.html">Retour à FOIL LAB</a> · <a href="evidence.html">Consulter toutes les preuves documentées</a></p>
 <section class="panel" aria-label="Import">
 <h2>1. Ajouter une transcription</h2>
-<label for="preset">Essai pilote — préremplir la fiche</label>
+<label for="preset">Vidéo du registre — préremplir la fiche</label>
 <select id="preset"><option value="">Choisir un essai (facultatif)</option>
 <option value="afs">AFS Silk V2 — 650 / 750 / 950</option>
 <option value="duotone">Duotone Glide 3.0 D/LAB — 825</option>
 <option value="kt">KT Halo — 670 / 800</option></select>
+<p id="preset-status" class="hint" role="status">Chargement du registre… Les trois exemples pilotes restent disponibles.</p>
+<p class="hint">Ce formulaire sert à importer un texte et repérer des passages. Pour consulter les analyses déjà réalisées, ouvre <a href="evidence.html">le registre des preuves</a>. Choisir une vidéo ne charge pas sa transcription.</p>
 <label for="video">URL de la vidéo</label>
 <input id="video" type="url" placeholder="https://www.youtube.com/watch?v=..." autocomplete="url">
 <label for="title">Nom / référence du matériel</label>
 <input id="title" placeholder="Ex. Duotone Glide 3.0 D/LAB 825">
 <label for="lang">Langue du test</label>
-<select id="lang"><option value="de">Allemand</option><option value="fr">Français</option><option value="en">Anglais</option></select>
+<select id="lang"><option value="auto">Inconnue / autre langue</option><option value="de">Allemand</option><option value="fr">Français</option><option value="en">Anglais</option></select>
 <label for="upload">Charger un fichier de sous-titres (.srt, .vtt ou .txt horodaté)</label>
 <input id="upload" type="file" accept=".srt,.vtt,.txt,text/plain,text/vtt">
 <label for="transcript">Ou coller une transcription horodatée</label>
@@ -77,6 +79,19 @@ Der Start ist sehr einfach."></textarea>
   const p=presets[$('preset').value];if(!p)return;
   $('video').value=p.url;$('title').value=p.title;$('lang').value=p.lang;
  });
+ fetch('../data/research/progress.json').then(r=>{if(!r.ok)throw Error('registre indisponible');return r.json()}).then(data=>{
+  const select=$('preset'),seen=new Set();
+  const rows=(data.videos||[]).filter(v=>v.video_id&&!seen.has(v.video_id)&&seen.add(v.video_id))
+   .sort((a,b)=>(a.publisher||'').localeCompare(b.publisher||'','fr')||(a.title||'').localeCompare(b.title||'','fr'));
+  if(!rows.length)throw Error('registre vide');
+  select.replaceChildren(new Option('Choisir une vidéo (facultatif)',''));
+  for(const v of rows){
+   presets[v.video_id]={url:'https://www.youtube.com/watch?v='+encodeURIComponent(v.video_id),title:v.title||v.video_id,lang:['de','fr','en'].includes(v.language)?v.language:'auto'};
+   const state=v.analysis==='interpreted'?'examinée':v.collection==='timed_transcript_received'?'texte récupéré':'référence';
+   select.add(new Option((v.publisher||'Éditeur inconnu')+' — '+(v.title||v.video_id)+' · '+state,v.video_id));
+  }
+  $('preset-status').textContent=rows.length+' vidéos du registre. Le statut « examinée » ne signifie pas nécessairement une règle intégrée au configurateur.';
+ }).catch(()=>{$('preset-status').textContent='Registre indisponible : seuls les trois exemples pilotes sont affichés. Réessaie de charger cette page.'});
  const patterns={
   takeoff:/d[eé]coll|take.?off|lift.?off|low.?end|fr[uü]h|abheb|starten|angleit|anpump|aufsteigen/i,
   glide:/gliss|gleit|glide|efficien|drag|speed|vitesse|tr[aä]gheit|reibung|pump/i,
