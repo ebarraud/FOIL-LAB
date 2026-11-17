@@ -4,6 +4,41 @@
   "method": "Lecture du corps des essais écrits accessibles ; paraphrases courtes, tailles et générations séparées. Aucun score généré. Essais historiques conservés pour matériel existant, pas présentés comme nouveautés2026.",
   "reviews": [
     {
+      "id": "levitaz-free-790-900-foilingmag",
+      "brand": "Levitaz",
+      "model": "Free Series 790 / 900 · interprétations distinctes",
+      "publisher": "Foiling Magazine",
+      "source_url": "https://www.thefoilingmagazine.com/test-center/double-dip-levitaz-free-series-790-900/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "Deux ailes sur mât Free Series 84 cm, fuselage titane ; stabilisateur et gabarit non précisés.",
+      "summary_fr": "790 : courbes et polyvalence appréciées en wing et surf. 900 : glisse prolongée et connexions au pumping privilégiées, avec courbes plus amples et engagement plus marqué du changement de rail.",
+      "limits": "Deux profils différents, pas simple augmentation de taille. Vent, vitesses et montage arrière non mesurés ou isolés. Identifiants 790/900 non convertis automatiquement en surfaces ; géométrie fabricant à vérifier avant nouvelles fiches moteur. Les appréciations de construction ne prouvent pas une longévité.",
+      "checked_on": "2026-11-17",
+      "performance_scores_generated": 0,
+      "source_html_sha256": null,
+      "source_check": "Corps intégral lu via extraction web ; empreinte HTML indisponible, accès direct non relancé après refus antérieur du site."
+    },
+    {
+      "id": "armstrong-ha-880-1180-2024-tonic",
+      "brand": "Armstrong",
+      "model": "HA deuxième génération 880 / 1180 · 2024",
+      "publisher": "Tonic Mag",
+      "source_author": "Jack Galloway",
+      "source_url": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "sizes_tested": [880, 1180],
+      "size_unit": "cm²",
+      "setup": "880 en prone : Performance 795, fuse 70, Speed 180, Swift 4’2 24 L. 1180 en SUP downwind : même mât et tail, board Armstrong DW 7’2.",
+      "summary_fr": "880 : connexions au pumping et courbes appréciées après recul du foil sur la board. 1180 : soutien et contrôle appréciés lors d’un seul downwind SUP de 18 km, dans des conditions variables de vent contre courant.",
+      "limits": "Aucune session wing décrite ; dockstart seulement envisagé. Ne pas convertir la comparaison avec HA925 ou MA1750 en équivalence de surface. 1180 : un seul run, pas plage de vent garantie ni validation de sécurité. Génération HA 2024 distincte de UHA.",
+      "checked_on": "2026-11-17",
+      "performance_scores_generated": 0,
+      "source_html_sha256": null,
+      "source_check": "Corps intégral lu via extraction web ; empreinte HTML indisponible, accès direct non relancé après refus antérieur du site."
+    },
+    {
       "id": "armstrong-ma-mkii-2025-tonic-overview",
       "brand": "Armstrong",
       "model": "MA Mk II 2025 · aperçu de gamme",
@@ -276,6 +311,48 @@
     }
   ],
   "catalogue_records": [
+    {
+      "type": "foil",
+      "key": "written|Armstrong|HA2024|880",
+      "brand": "Armstrong",
+      "name": "HA · deuxième génération 2024",
+      "size": 880,
+      "sizeLabel": "880 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [880],
+        "f": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
+        "i": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
+        "year": "2024 · HA deuxième génération, pas UHA",
+        "reason": "Prone : pumping et courbes appréciés après réglage de position sur la board.",
+        "lim": "Pas de session wing ni dockstart décrite ; aucune équivalence de surface ou vitesse mesurée.",
+        "setup": "Performance 795 / fuse 70 / Speed 180 / Swift 4’2 24 L.",
+        "context": "Corps de l’essai Jack Galloway lu ; surf prone, pas validation de départ wing."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "written|Armstrong|HA2024|1180",
+      "brand": "Armstrong",
+      "name": "HA · deuxième génération 2024",
+      "size": 1180,
+      "sizeLabel": "1180 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [1180],
+        "f": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
+        "i": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
+        "year": "2024 · HA deuxième génération, pas UHA",
+        "reason": "SUP downwind : soutien et contrôle appréciés sur un run de 18 km.",
+        "lim": "Une seule session, vent contre courant ; pas de plage de vent ou de sécurité garantie. Wing/dockstart non essayés dans l’article.",
+        "setup": "Performance 795 / Speed 180 / Armstrong DW 7’2 ; fuselage non isolé pour cette session.",
+        "context": "Essai écrit Jack Galloway ; SUP downwind uniquement pour cette taille."
+      }
+    },
     {
       "type": "foil",
       "key": "written|f-one-sk8-950-2023",
