@@ -53,7 +53,7 @@ def build(root=Path('.')):
         review=review_by_id.get(video['video_id'],{})
         scope=review.get('scope','')
         video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only','kite_only','wake_only','tow_only','wing_sail_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_')) else 'technical_review') if video.get('analysis')=='interpreted' else None
-        if review.get('integration')=='conditional_board_selection':
+        if review.get('integration') in ('conditional_board_selection','conditional_selection'):
             video['integration']='integrated'
         elif review.get('integration') in ('conditional_caution','conditional_setup'):
             video['integration']='advice_integrated'
@@ -97,7 +97,10 @@ def build(root=Path('.')):
       'retry_not_before_utc':status.get('retry_not_before_utc'),'collection_state':status.get('retry_status'),
       'analysis_schedule':'Les passages sont repérés à chaque réception. L’interprétation technique est traitée par l’assistant lors des passages planifiés; une intégration exige une règle justifiée et testée.',
       'monitored_publishers':load(root/'data/research/monitored_publishers.json',{}).get('publishers',[]),
+      'written_research':{'leads':len(load(root/'data/research/written_review_leads_latest.json',{}).get('articles',[])),'new_articles_read':len(load(root/'data/research/expanded_test_evidence.json',{}).get('reviews',[])),'evidence_url':'data/research/expanded_test_evidence.json'},
       'videos':videos,'improvements':[
+       {'title':'WAKA Glide : premier essai KiteWorld Shop intégré','detail':'Cinq volumes et dimensions fabricant ajoutés ; seule 77 L essayée à 76 kg. Sélection intermédiaire/avancée, avertissements sur nose, clapot latéral et assemblage.','video_id':'JbO6v-GSibQ','commit':'main'},
+       {'title':'Catalogue élargi et essais écrits accessibles','detail':'Modèles sans notes désormais visibles, études vidéo et écrites consultables. F-ONE : générations historiques séparées des références TITAN 2. Recherche écrite élargie à plusieurs éditeurs.','commit':'main'},
        {'title':'Skybrid SLS 80 L : compromis de stabilité précisé','detail':'Essai à 83 kg : léger enfoncement au départ et moins de stabilité en roulis face à la 85 L 2025. Conseil visible, sans nouveau seuil de poids ni note inventée.','video_id':'vOvMPu4SbRo','commit':'main'},
        {'title':'Drifter 5 Pro Carbon : 60 L vérifiée et contextualisée','detail':'Ajout de la seule 60 L contrôlée chez KT : 165,1 × 55,88 cm. Essai avancé, sans conversion du ressenti en litres ni conseil débutant.','video_id':'khXSoXL7ccA','commit':'main'},
        {'title':'Super K 2 Carbon et Skybrid SLS 2026 : sélection de planches élargie','detail':'Dimensions constructeur vérifiées et générations séparées. Sélection à partir du niveau intermédiaire, avec volume et largeur adaptés; aucune note inventée.','commit':'main'},

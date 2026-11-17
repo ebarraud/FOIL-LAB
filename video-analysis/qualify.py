@@ -21,7 +21,7 @@ BLOCK = re.compile(
 REVIEW = re.compile(
     r"\b(test|tests|tested|testing|review|reviews|essai|essais|"
     r"vergleich|praxistest|fahrbericht|erfahrungsbericht|"
-    r"on the water review|gear review)\b", re.I)
+    r"on the water review|gear review|recensione|prova|reseña|resena)\b", re.I)
 BOARD = re.compile(
     r"\b(board|boards|wingboard|foilboard|wingfoilboard|mid.?length|"
     r"skybrid|sky.?style|drifter|rocket|downwind board|"
@@ -51,11 +51,11 @@ def fold(value):
 def dedup_key(video: dict) -> str:
     title = fold(video.get("title", ""))
     title = TRANSLATION.sub(" ", title)
-    title = re.sub(r"\b(2024|2025|2026)\b", " ", title)
+    # Preserve year and construction: different generations are not translation duplicates.
     title = re.sub(r"\b(test|tests|tested|testing|review|reviews|essai|essais|"
                    r"wingfoil|wing board|wingboard|foil|hydrofoil|"
                    r"by|the|a|der|die|das|von|mit|in|english|"
-                   r"german|french|dlab|d/lab)\b", " ", title)
+                   r"german|french)\b", " ", title)
     title = re.sub(r"[^a-z0-9]+", " ", title).strip()
     # Require at least two informative words to avoid grouping unrelated models.
     pieces = [p for p in title.split() if len(p) > 1]

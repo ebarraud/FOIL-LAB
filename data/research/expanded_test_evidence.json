@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-16",
+  "method": "Lecture du corps des essais écrits accessibles ; paraphrases courtes, tailles et générations séparées. Aucun score généré. Essais historiques conservés pour matériel existant, pas présentés comme nouveautés2026.",
+  "reviews": [
+    {
+      "id": "f-one-sk8-950-2023",
+      "brand": "F-ONE",
+      "model": "SK8 · 2023 TITAN",
+      "size_cm2": 950,
+      "generation": "2023",
+      "publisher": "Tonic Mag",
+      "source_url": "https://www.tonicmag.com/reviews/hydrofoils/f-one-sk8-950-2023/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "Rider environ 85 kg, tail CarvingXXS 200 ; wing dans houle hauteur épaules à tête, premières sessions kite.",
+      "summary_fr": "Le testeur apprécie le carving et la tenue après sortie de pointe ; le départ demande de la vitesse et une adaptation du pumping.",
+      "limits": "Génération 2023, distincte du SK 8 V 3 TITAN 2 actuel. Pas de seuil de vent ni de poids ; observations de pointe initialement en kite.",
+      "performance_scores_generated": 0,
+      "source_html_sha256": "8fbb8edb9fed80725f820c35311aaf8b1d5e01a1e0c4a0fc1a2138bbdf0a523d",
+      "source_check": "HTTP200; HTML fingerprint, not full article publication",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "id": "f-one-seven-seas-1400-2022",
+      "brand": "F-ONE",
+      "model": "Seven Seas · première génération",
+      "size_cm2": 1400,
+      "generation": "2022/2023 selon article",
+      "publisher": "Tonic Mag",
+      "source_url": "https://www.tonicmag.com/reviews/hydrofoils/f-one-seven-seas-1400-2022/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "1400 ; C 250 FENCE présenté comme montage prescrit ; comparaison au Phantom.",
+      "summary_fr": "Le testeur rapporte plus de glisse et de vitesse ressentie que son Phantom, avec moins de marge lorsque la vitesse baisse ; les manœuvres conservent de l’élan.",
+      "limits": "Titre 2022 et texte annonçant 2023 : conserver cette incertitude. Pas de rattachement aux tailles 1300/1500 actuelles ni de gain en nœuds validé.",
+      "performance_scores_generated": 0,
+      "source_html_sha256": "471006824b25ad1041af908a3934dc905f3956e3b5dcc3cc3e04e6d745784b5e",
+      "source_check": "HTTP200; HTML fingerprint, not full article publication",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "id": "f-one-phantom1780-2021",
+      "brand": "F-ONE",
+      "model": "Phantom Carbon · 2021",
+      "size_cm2": 1780,
+      "generation": "2021",
+      "publisher": "Tonic Mag",
+      "source_url": "https://www.tonicmag.com/reviews/hydrofoils/f-one-phantom-carbon-1780-2021/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "1780, mât aluminium ; wing en brise légère.",
+      "summary_fr": "Le testeur décrit beaucoup de soutien à faible vitesse et des virages progressifs ; le grand foil devient plus encombrant lorsque le vent monte.",
+      "limits": "Génération historique, pas PhantomFCT ni PhantomS. Gabarit et vent de départ non quantifiés ; aucune garantie de résistance aux chocs.",
+      "performance_scores_generated": 0,
+      "source_html_sha256": "7ba0727dd1f15e549521b17e6bf920d4bf9a6d78d6f076936d31c5cbeffa49b7",
+      "source_check": "HTTP200; HTML fingerprint, not full article publication",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "id": "f-one-phantom1080-historical",
+      "brand": "F-ONE",
+      "model": "Phantom Carbon · ancienne génération",
+      "size_cm2": 1080,
+      "generation": "Date non vérifiée ; système antérieur",
+      "publisher": "Foiling Magazine",
+      "source_url": "https://www.thefoilingmagazine.com/test-center/f-one-phantom-1080/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "1080, C 300 Surf, RocketFoil 4 pieds 2 ; prone dans vagues 3–5 pieds.",
+      "summary_fr": "L’auteur apprécie un engagement en courbe progressif et un pumping permettant de reconnecter les vagues.",
+      "limits": "Essai en surf prone, pas en wing. Ne pas en déduire une plage basse de vent ou une accessibilité débutant en wing ; génération non datée.",
+      "performance_scores_generated": 0,
+      "source_html_sha256": "d244f38963d4cf03a02d14a1247a984536fd940b2b0482bd755e5f1ed89cc020",
+      "source_check": "HTTP200; HTML fingerprint, not full article publication",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "id": "f-one-gravity2200-historical",
+      "brand": "F-ONE",
+      "model": "Gravity Carbon · ancienne génération",
+      "size_cm2": 2200,
+      "generation": "Date non vérifiée ; TITAN ancien",
+      "publisher": "Foiling Magazine",
+      "source_url": "https://www.thefoilingmagazine.com/test-center/f-one-gravity-2200/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "Gravity 2200 carbone, systèmeTITAN ancien ; C 300 cité.",
+      "summary_fr": "La revue souligne le soutien en vent irrégulier et petite houle ; l’envergure limite les virages très serrés à vitesse élevée.",
+      "limits": "Pas GravityFCT ni produitTITAN 2. Contexte historique, gabarit non chiffré ; pas de plage de vent garantie.",
+      "performance_scores_generated": 0,
+      "source_html_sha256": "1c1ac69948ff880248f721158a8a4f15c034d4f1d7a53ed69c49b0b7137a94f6",
+      "source_check": "HTTP200; HTML fingerprint, not full article publication",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "id": "cabrinha-prestige905-2026",
+      "brand": "Cabrinha",
+      "model": "Prestige · Union 2026",
+      "size_cm2": 905,
+      "generation": "2026",
+      "publisher": "Tonic Mag",
+      "source_url": "https://www.tonicmag.com/reviews/hydrofoils/cabrinha-prestige-905-2026/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "Rider environ 90 kg équipé ; tails 180 et 160, mâts standard etApex.",
+      "summary_fr": "Le testeur apprécie une entrée en vol progressive et la conservation de vitesse ;180 privilégie soutien et pumping,160 une réponse plus libre.",
+      "limits": "Seule 905 effectivement décrite ;760/1150 citées dans la gamme. InterfacesUnion à vérifier, sans assimiler à Mike’sLab ; aucun coefficient de portance inventé.",
+      "performance_scores_generated": 0,
+      "source_html_sha256": "088dcc1ee5590239351d62c2616ca7f6bce9bb2e0556853d49991c1c19999dcb",
+      "source_check": "HTTP200; HTML fingerprint, not full article publication",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "id": "starboard-mf820-2026",
+      "brand": "Starboard",
+      "model": "MF Mk2 · 2026",
+      "size_cm2": 820,
+      "generation": "2026",
+      "publisher": "Tonic Mag",
+      "source_url": "https://www.tonicmag.com/reviews/hydrofoils/starboard-mf-820-2026/",
+      "source_type": "first_person_written_test",
+      "read_status": "article_body_read",
+      "setup": "MâtC 40077, MF 160, planche 95 L 7 pieds 8×16 ¾ ; SUPdownwind sur environ 5 km.",
+      "summary_fr": "Le testeur décrit de la conservation de vitesse et des relances actives à cadence élevée, privilégiant la distance aux virages serrés.",
+      "limits": "Une session en SUPdownwind uniquement ; aucune validation wing/parawing malgré les usages envisagés. Ne pas généraliser à toutes les taillesMF.",
+      "performance_scores_generated": 0,
+      "source_html_sha256": "89f7a62c097898e5b4e4f91e36e0096c8228eafd261e3a272a28c0c722a9831e",
+      "source_check": "HTTP200; HTML fingerprint, not full article publication",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "catalogue_records": [
+    {
+      "type": "foil",
+      "key": "written|f-one-sk8-950-2023",
+      "brand": "F-ONE",
+      "name": "SK8 · 2023 TITAN",
+      "size": 950,
+      "sizeLabel": "950 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          950
+        ],
+        "f": "https://www.tonicmag.com/reviews/hydrofoils/f-one-sk8-950-2023/",
+        "i": "https://www.tonicmag.com/reviews/hydrofoils/f-one-sk8-950-2023/",
+        "year": "2023",
+        "reason": "Le testeur apprécie le carving et la tenue après sortie de pointe ; le départ demande de la vitesse et une adaptation du pumping.",
+        "lim": "Génération 2023, distincte du SK 8 V 3 TITAN 2 actuel. Pas de seuil de vent ni de poids ; observations de pointe initialement en kite.",
+        "setup": "Rider environ 85 kg, tail CarvingXXS 200 ; wing dans houle hauteur épaules à tête, premières sessions kite.",
+        "context": "Tonic Mag · Rider environ 85 kg, tail CarvingXXS 200 ; wing dans houle hauteur épaules à tête, premières sessions kite."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "written|f-one-seven-seas-1400-2022",
+      "brand": "F-ONE",
+      "name": "Seven Seas · première génération",
+      "size": 1400,
+      "sizeLabel": "1400 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1400
+        ],
+        "f": "https://www.tonicmag.com/reviews/hydrofoils/f-one-seven-seas-1400-2022/",
+        "i": "https://www.tonicmag.com/reviews/hydrofoils/f-one-seven-seas-1400-2022/",
+        "year": "2022/2023 selon article",
+        "reason": "Le testeur rapporte plus de glisse et de vitesse ressentie que son Phantom, avec moins de marge lorsque la vitesse baisse ; les manœuvres conservent de l’élan.",
+        "lim": "Titre 2022 et texte annonçant 2023 : conserver cette incertitude. Pas de rattachement aux tailles 1300/1500 actuelles ni de gain en nœuds validé.",
+        "setup": "1400 ; C 250 FENCE présenté comme montage prescrit ; comparaison au Phantom.",
+        "context": "Tonic Mag · 1400 ; C 250 FENCE présenté comme montage prescrit ; comparaison au Phantom."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "written|f-one-phantom1780-2021",
+      "brand": "F-ONE",
+      "name": "Phantom Carbon · 2021",
+      "size": 1780,
+      "sizeLabel": "1780 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1780
+        ],
+        "f": "https://www.tonicmag.com/reviews/hydrofoils/f-one-phantom-carbon-1780-2021/",
+        "i": "https://www.tonicmag.com/reviews/hydrofoils/f-one-phantom-carbon-1780-2021/",
+        "year": "2021",
+        "reason": "Le testeur décrit beaucoup de soutien à faible vitesse et des virages progressifs ; le grand foil devient plus encombrant lorsque le vent monte.",
+        "lim": "Génération historique, pas PhantomFCT ni PhantomS. Gabarit et vent de départ non quantifiés ; aucune garantie de résistance aux chocs.",
+        "setup": "1780, mât aluminium ; wing en brise légère.",
+        "context": "Tonic Mag · 1780, mât aluminium ; wing en brise légère."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "written|f-one-phantom1080-historical",
+      "brand": "F-ONE",
+      "name": "Phantom Carbon · ancienne génération",
+      "size": 1080,
+      "sizeLabel": "1080 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1080
+        ],
+        "f": "https://www.thefoilingmagazine.com/test-center/f-one-phantom-1080/",
+        "i": "https://www.thefoilingmagazine.com/test-center/f-one-phantom-1080/",
+        "year": "Date non vérifiée ; système antérieur",
+        "reason": "L’auteur apprécie un engagement en courbe progressif et un pumping permettant de reconnecter les vagues.",
+        "lim": "Essai en surf prone, pas en wing. Ne pas en déduire une plage basse de vent ou une accessibilité débutant en wing ; génération non datée.",
+        "setup": "1080, C 300 Surf, RocketFoil 4 pieds 2 ; prone dans vagues 3–5 pieds.",
+        "context": "Foiling Magazine · 1080, C 300 Surf, RocketFoil 4 pieds 2 ; prone dans vagues 3–5 pieds."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "written|f-one-gravity2200-historical",
+      "brand": "F-ONE",
+      "name": "Gravity Carbon · ancienne génération",
+      "size": 2200,
+      "sizeLabel": "2200 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          2200
+        ],
+        "f": "https://www.thefoilingmagazine.com/test-center/f-one-gravity-2200/",
+        "i": "https://www.thefoilingmagazine.com/test-center/f-one-gravity-2200/",
+        "year": "Date non vérifiée ; TITAN ancien",
+        "reason": "La revue souligne le soutien en vent irrégulier et petite houle ; l’envergure limite les virages très serrés à vitesse élevée.",
+        "lim": "Pas GravityFCT ni produitTITAN 2. Contexte historique, gabarit non chiffré ; pas de plage de vent garantie.",
+        "setup": "Gravity 2200 carbone, systèmeTITAN ancien ; C 300 cité.",
+        "context": "Foiling Magazine · Gravity 2200 carbone, systèmeTITAN ancien ; C 300 cité."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "written|cabrinha-prestige905-2026",
+      "brand": "Cabrinha",
+      "name": "Prestige · Union 2026",
+      "size": 905,
+      "sizeLabel": "905 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          905
+        ],
+        "f": "https://www.tonicmag.com/reviews/hydrofoils/cabrinha-prestige-905-2026/",
+        "i": "https://www.tonicmag.com/reviews/hydrofoils/cabrinha-prestige-905-2026/",
+        "year": "2026",
+        "reason": "Le testeur apprécie une entrée en vol progressive et la conservation de vitesse ;180 privilégie soutien et pumping,160 une réponse plus libre.",
+        "lim": "Seule 905 effectivement décrite ;760/1150 citées dans la gamme. InterfacesUnion à vérifier, sans assimiler à Mike’sLab ; aucun coefficient de portance inventé.",
+        "setup": "Rider environ 90 kg équipé ; tails 180 et 160, mâts standard etApex.",
+        "context": "Tonic Mag · Rider environ 90 kg équipé ; tails 180 et 160, mâts standard etApex."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "written|starboard-mf820-2026",
+      "brand": "Starboard",
+      "name": "MF Mk2 · 2026",
+      "size": 820,
+      "sizeLabel": "820 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          820
+        ],
+        "f": "https://www.tonicmag.com/reviews/hydrofoils/starboard-mf-820-2026/",
+        "i": "https://www.tonicmag.com/reviews/hydrofoils/starboard-mf-820-2026/",
+        "year": "2026",
+        "reason": "Le testeur décrit de la conservation de vitesse et des relances actives à cadence élevée, privilégiant la distance aux virages serrés.",
+        "lim": "Une session en SUPdownwind uniquement ; aucune validation wing/parawing malgré les usages envisagés. Ne pas généraliser à toutes les taillesMF.",
+        "setup": "MâtC 40077, MF 160, planche 95 L 7 pieds 8×16 ¾ ; SUPdownwind sur environ 5 km.",
+        "context": "Tonic Mag · MâtC 40077, MF 160, planche 95 L 7 pieds 8×16 ¾ ; SUPdownwind sur environ 5 km."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "manufacturer|F-ONE|EAGLE X · TITAN 2|500",
+      "brand": "F-ONE",
+      "name": "EAGLE X · TITAN 2",
+      "size": 500,
+      "sizeLabel": "500 cm²",
+      "width": 79,
+      "tested": false,
+      "entry": {
+        "q": null,
+        "confidence": "low",
+        "tested": [],
+        "f": "https://www.f-one.world/en/foil/front-wings/eagle-x.html",
+        "year": "Références fabricant77267, consultées16novembre2026",
+        "reason": "Programme constructeur : glisse et downwind ; aucune note ni essai exact revendiqué ici.",
+        "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
+        "setup": "Montage constructeur à confirmer par référence complète"
+      }
+    },
+    {
+      "type": "foil",
+      "key": "manufacturer|F-ONE|EAGLE X · TITAN 2|600",
+      "brand": "F-ONE",
+      "name": "EAGLE X · TITAN 2",
+      "size": 600,
+      "sizeLabel": "600 cm²",
+      "width": 85,
+      "tested": false,
+      "entry": {
+        "q": null,
+        "confidence": "low",
+        "tested": [],
+        "f": "https://www.f-one.world/en/foil/front-wings/eagle-x.html",
+        "year": "Références fabricant77267, consultées16novembre2026",
+        "reason": "Programme constructeur : glisse et downwind ; aucune note ni essai exact revendiqué ici.",
+        "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
+        "setup": "Montage constructeur à confirmer par référence complète"
+      }
+    },
+    {
+      "type": "foil",
+      "key": "manufacturer|F-ONE|EAGLE X · TITAN 2|700",
+      "brand": "F-ONE",
+      "name": "EAGLE X · TITAN 2",
+      "size": 700,
+      "sizeLabel": "700 cm²",
+      "width": 91.5,
+      "tested": false,
+      "entry": {
+        "q": null,
+        "confidence": "low",
+        "tested": [],
+        "f": "https://www.f-one.world/en/foil/front-wings/eagle-x.html",
+        "year": "Références fabricant77267, consultées16novembre2026",
+        "reason": "Programme constructeur : glisse et downwind ; aucune note ni essai exact revendiqué ici.",
+        "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
+        "setup": "Montage constructeur à confirmer par référence complète"
+      }
+    },
+    {
+      "type": "foil",
+      "key": "manufacturer|F-ONE|EAGLE X · TITAN 2|800",
+      "brand": "F-ONE",
+      "name": "EAGLE X · TITAN 2",
+      "size": 800,
+      "sizeLabel": "800 cm²",
+      "width": 98,
+      "tested": false,
+      "entry": {
+        "q": null,
+        "confidence": "low",
+        "tested": [],
+        "f": "https://www.f-one.world/en/foil/front-wings/eagle-x.html",
+        "year": "Références fabricant77267, consultées16novembre2026",
+        "reason": "Programme constructeur : glisse et downwind ; aucune note ni essai exact revendiqué ici.",
+        "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
+        "setup": "Montage constructeur à confirmer par référence complète"
+      }
+    },
+    {
+      "type": "foil",
+      "key": "manufacturer|F-ONE|EAGLE X · TITAN 2|900",
+      "brand": "F-ONE",
+      "name": "EAGLE X · TITAN 2",
+      "size": 900,
+      "sizeLabel": "900 cm²",
+      "width": 104,
+      "tested": false,
+      "entry": {
+        "q": null,
+        "confidence": "low",
+        "tested": [],
+        "f": "https://www.f-one.world/en/foil/front-wings/eagle-x.html",
+        "year": "Références fabricant77267, consultées16novembre2026",
+        "reason": "Programme constructeur : glisse et downwind ; aucune note ni essai exact revendiqué ici.",
+        "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
+        "setup": "Montage constructeur à confirmer par référence complète"
+      }
+    },
+    {
+      "type": "foil",
+      "key": "manufacturer|F-ONE|EAGLE X · TITAN 2|1000",
+      "brand": "F-ONE",
+      "name": "EAGLE X · TITAN 2",
+      "size": 1000,
+      "sizeLabel": "1000 cm²",
+      "width": 109.5,
+      "tested": false,
+      "entry": {
+        "q": null,
+        "confidence": "low",
+        "tested": [],
+        "f": "https://www.f-one.world/en/foil/front-wings/eagle-x.html",
+        "year": "Références fabricant77267, consultées16novembre2026",
+        "reason": "Programme constructeur : glisse et downwind ; aucune note ni essai exact revendiqué ici.",
+        "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
+        "setup": "Montage constructeur à confirmer par référence complète"
+      }
+    },
+    {
+      "type": "foil",
+      "key": "manufacturer|F-ONE|ESCAPE · TITAN 2|430",
+      "brand": "F-ONE",
+      "name": "ESCAPE · TITAN 2",
+      "size": 430,
+      "sizeLabel": "430 cm²",
+      "width": 58,
+      "tested": false,
+      "entry": {
+        "q": null,
+        "confidence": "low",
+        "tested": [],
+        "f": "https://www.f-one.world/en/foil/front-wings/escape.html",
+        "year": "Références fabricant77267, consultées16novembre2026",
+        "reason": "Programme constructeur : vitesse et freestyle ; aucune note ni essai exact revendiqué ici.",
+        "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
+        "setup": "Montage constructeur à confirmer par référence complète"
+      }
+    },
+    {
+      "type": "foil",
+      "key": "manufacturer|F-ONE|ESCAPE · TITAN 2|530",
+      "brand": "F-ONE",
+      "name": "ESCAPE · TITAN 2",
+      "size": 530,
+      "sizeLabel": "530 cm²",
+      "width": 58,
+      "tested": false,
+      "entry": {
+        "q": null,
+        "confidence": "low",
+        "tested": [],
+        "f": "https://www.f-one.world/en/foil/front-wings/escape.html",
+        "year": "Références fabricant77267, consultées16novembre2026",
+        "reason": "Programme constructeur : vitesse et freestyle ; aucune note ni essai exact revendiqué ici.",
+        "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
+        "setup": "Montage constructeur à confirmer par référence complète"
+      }
+    },
+    {
+      "type": "foil",
+      "key": "manufacturer|F-ONE|ESCAPE · TITAN 2|630",
+      "brand": "F-ONE",
+      "name": "ESCAPE · TITAN 2",
+      "size": 630,
+      "sizeLabel": "630 cm²",
+      "width": 64,
+      "tested": false,
+      "entry": {
+        "q": null,
+        "confidence": "low",
+        "tested": [],
+        "f": "https://www.f-one.world/en/foil/front-wings/escape.html",
+        "year": "Références fabricant77267, consultées16novembre2026",
+        "reason": "Programme constructeur : vitesse et freestyle ; aucune note ni essai exact revendiqué ici.",
+        "lim": "Fiche fabricant, pas un résultat d’essai indépendant. Contrôler le systèmeTITAN2 et le tail de la taille choisie ; ne pas transposer les anciens montages.",
+        "setup": "Montage constructeur à confirmer par référence complète"
+      }
+    }
+  ]
+}

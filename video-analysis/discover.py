@@ -17,6 +17,7 @@ import urllib.error
 from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
+from collection_policy import stop_status,next_allowed
 
 END = date.today()
 try:
@@ -212,6 +213,7 @@ def youtube_search(key: str, query: str, max_pages: int = 2, fetch=get_page, cha
             error={"query":query,"reason":type(exc).__name__}
             if isinstance(exc,urllib.error.HTTPError):
                 error['http_status']=exc.code
+                error['retry_after']=exc.headers.get('Retry-After') if exc.headers else None
                 try:
                     body=json.loads(exc.read(8192).decode('utf-8'))
                     error['api_reasons']=[e.get('reason') for e in body.get('error',{}).get('errors',[])]
@@ -283,24 +285,41 @@ def main(argv=None):
             report["youtube"] = {"status": "missing_api_key_no_yt_search_performed"}
         else:
             report["youtube"] = {"status": "attempted", "queries": len(SEARCH_QUERIES), "errors": []}
-            for query in SEARCH_QUERIES:
-                rows, errors = youtube_search(key, query, args.youtube_pages)
-                items += rows
-                report["youtube"]["errors"].extend(errors)
-                time.sleep(0.15)
-            # Explicit channel coverage supplements, but does not replace, broad search.
+            cooldown_path=Path('data/research/youtube_discovery_status.json')
+            previous=json.loads(cooldown_path.read_text(encoding='utf-8')) if cooldown_path.exists() else {}
+            due=previous.get('retry_not_before_utc')
+            blocked=bool(due and datetime.now(timezone.utc)<datetime.fromisoformat(due))
+            if blocked:report['youtube'].update(status='cooldown_active',retry_not_before_utc=due)
+            # Check known publishers first so broad-query quota cannot silently starve them.
             registry=Path(__file__).resolve().parents[1]/'data/research/monitored_publishers.json'
             publishers=json.loads(registry.read_text(encoding='utf-8')).get('publishers',[]) if registry.exists() else []
             report['youtube']['channel_searches']=[]
-            for publisher in publishers:
-                rows, errors = youtube_search(key, 'wingfoil', args.youtube_pages,
+            for publisher in ([] if blocked else publishers):
+                rows, errors = youtube_search(key, 'foil', args.youtube_pages,
                                              channel_id=publisher['channel_id'])
                 items += rows
                 report['youtube']['errors'].extend(errors)
                 report['youtube']['channel_searches'].append({'publisher':publisher['name'],
                     'channel_id':publisher['channel_id'],'retained_candidates':len(rows),
                     'errors':errors,'coverage':'bounded_search_not_full_channel_archive'})
+                if any(stop_status(e.get('http_status',0)) for e in errors):
+                    blocked=True
+                    stop=next(e for e in errors if stop_status(e.get('http_status',0)))
+                    report['youtube'].update(status='blocked',retry_not_before_utc=next_allowed(stop.get('retry_after')).isoformat())
+                    break
                 time.sleep(0.15)
+            for query in ([] if blocked else SEARCH_QUERIES):
+                rows, errors = youtube_search(key, query, args.youtube_pages)
+                items += rows
+                report["youtube"]["errors"].extend(errors)
+                if any(stop_status(e.get('http_status',0)) for e in errors):
+                    blocked=True
+                    stop=next(e for e in errors if stop_status(e.get('http_status',0)))
+                    report['youtube'].update(status='blocked',retry_not_before_utc=next_allowed(stop.get('retry_after')).isoformat())
+                    break
+                time.sleep(0.15)
+            cooldown_path.parent.mkdir(parents=True,exist_ok=True)
+            cooldown_path.write_text(json.dumps({'updated_at_utc':datetime.now(timezone.utc).isoformat(),**report['youtube']},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     records = combine(items)
     result = {
         "schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),

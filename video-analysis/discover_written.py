@@ -21,6 +21,11 @@ import xml.etree.ElementTree as ET
 SOURCES=[
  {"name":"Pimpyourride", "url":"https://www.pimpyourride.fr/category/glisse-windsurf/wingfoil/review-test-materiel-wingfoil/", "feed":"https://www.pimpyourride.fr/category/glisse-windsurf/wingfoil/review-test-materiel-wingfoil/feed/"},
  {"name":"Pimpyourride latest", "url":"https://www.pimpyourride.fr/", "feed":"https://www.pimpyourride.fr/feed/"},
+ {"name":"Tonic Mag foils","url":"https://www.tonicmag.com/reviews/hydrofoils/","feed":None,"category":"foil","path_prefix":"/reviews/hydrofoils/"},
+ {"name":"Tonic Mag boards","url":"https://www.tonicmag.com/reviews/boards/","feed":None,"category":"board","path_prefix":"/reviews/boards/"},
+ {"name":"Foiling Magazine","url":"https://www.thefoilingmagazine.com/test-center/","feed":None,"category":"needs_scope_review","path_prefix":"/test-center/"},
+ {"name":"Wingpassion","url":"https://wingpassion.de/feed/","feed":"https://wingpassion.de/feed/"},
+ {"name":"MACkite","url":"https://www.mackiteboarding.com/news/","feed":None,"path_prefix":"/news/"},
 ]
 REVIEW=re.compile(r"\b(test|review|essai|praxistest|versus|comparatif)\b",re.I)
 FOIL=re.compile(r"\b(foil|hydrofoil|front.?wing|kitefoil|wingfoil)\b",re.I)
@@ -79,6 +84,7 @@ def collect(fetch=get,today=None):
     for source in SOURCES:
         entries=[];way=None;errors=[]
         for url,source_type in ((source["feed"],"rss"),(source["url"],"html_fallback")):
+            if not url:continue
             try:
                 data=fetch(url)
                 entries=items_from_rss(data) if source_type=="rss" else items_from_html(data,url)
@@ -89,7 +95,12 @@ def collect(fetch=get,today=None):
         for e in entries:
             category=kind(e["title"])
             u=urlparse(e["url"])
-            if not category or u.scheme!="https" or u.hostname not in {"www.pimpyourride.fr","pimpyourride.fr"}:
+            host=(u.hostname or '').removeprefix('www.')
+            expected=(urlparse(source['url']).hostname or '').removeprefix('www.')
+            prefix=source.get('path_prefix')
+            if re.search(r'/(?:page|issue|test-type)/',u.path) or not re.search(r'[A-Za-zÀ-ÿ]',e['title']):continue
+            if prefix and u.path.startswith(prefix) and u.path.rstrip('/')!=prefix.rstrip('/') and e['title'] and not EXCLUDE.search(e['title']):category=category or source.get('category')
+            if not category or u.scheme!="https" or host!=expected or (prefix and not u.path.startswith(prefix)):
                 continue
             try:when=date.fromisoformat(e["published_on"]) if e["published_on"] else None
             except ValueError:when=None
@@ -100,7 +111,7 @@ def collect(fetch=get,today=None):
             leads.setdefault(url,{"title":e["title"],"url":url,"category":category,
                 "published_on":when.isoformat() if when else None,
                 "date_verified_from":"publisher_rss" if when and way=="rss" else "not_verified",
-                "publisher":"Pimpyourride","status":"article_lead_requires_source_review",
+                "publisher":source["name"],"status":"article_lead_requires_source_review",
                 "technical_claims":[],"video_transcript_acquired":False})
         status.append({"source":source["name"],"access":way or "blocked","items_on_index":len(entries),
                        "errors":errors})

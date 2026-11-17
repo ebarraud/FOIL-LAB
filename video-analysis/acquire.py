@@ -117,7 +117,7 @@ def run_video(video: dict, mode: str, runner=invoke) -> dict:
                 results.append({"track": path.name, "cues": len(cues),
                                 "technical_keyword_candidate_counts": counts})
             return {**base, "status": "captions_processed_locally",
-                    "transcript_analyzed": True, "tracks": results,
+                    "transcript_analyzed": False, "keyword_candidates_extracted": True, "tracks": results,
                     "note": "Keyword candidates only, not performance assertions"}
         except (OSError, UnicodeDecodeError, ValueError) as exc:
             return {**base, "status": "failed", "reason": type(exc).__name__}

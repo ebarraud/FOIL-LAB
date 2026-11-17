@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "inventory_count": 180,
-  "processed": 144,
-  "transcripts_obtained": 142,
+  "inventory_count": 182,
+  "processed": 180,
+  "transcripts_obtained": 178,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-16T21:03:20.854582+00:00",
-  "retry_status": "provider_access_or_rate_limit",
+  "updated_at_utc": "2026-11-17T17:09:16.872871+00:00",
+  "retry_status": "completed_with_unavailable",
   "retry_history": {
     "attempts": [
       {
@@ -1075,12 +1075,279 @@
         "status": "http_error",
         "http_status": 429,
         "retry_after": "3399"
+      },
+      {
+        "video_id": "JbO6v-GSibQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:02:23.498583+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "l2HmFjc7eiI",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:02:29.975312+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "TtzKfkcLM0M",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:02:36.092542+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "iYxYwu15cuE",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:02:42.226979+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "wRZtiQOPURw",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:02:48.562983+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "TrcLcOY1PA4",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:02:55.391980+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "m9spmeFy0J4",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:01.667889+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "6BItXQiemQo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:07.714042+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "45RROMfJ2bg",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:13.824234+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "8zAMERKef5M",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:21.023665+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "r1dEaIpVD-M",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:27.008025+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "dLe2dhRydLo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:33.241071+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "3DE97BGarq8",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:39.811295+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "gfFDO4eIPZY",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:45.963138+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "HMHCSOcDmP4",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:52.324016+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "VG5Q_vXHVYM",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:59.472995+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "OXRTfgF_PBA",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:04:05.824392+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "tnIU9QoY5dY",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:34:13.189716+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "8Mf-D-pKrZ8",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:34:21.567777+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "MrxDf-_dCJY",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:06:47.755504+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "9skjalbQEhU",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:07:02.013711+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "uBKB-yB5FE0",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:07:11.628749+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "xK4qkT8m6VM",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:07:19.993961+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en-US"
+      },
+      {
+        "video_id": "9CUmbgOlufY",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:07:27.516602+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "0zlXlLB9G3Q",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:07:34.070072+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "A7AoRWtxtSI",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:07:40.657522+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "Sa1RIxicPms",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:07:56.911045+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "hxfAwT45T4w",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:08:03.132535+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "kZHjNv8pVfM",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:08:11.029815+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "TLuTPpSWk80",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:08:16.909140+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "jcu7SOnZblU",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:08:23.160661+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "P39IzbFmKoo",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:08:29.397501+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "fr"
+      },
+      {
+        "video_id": "Z10Osbfn4Tk",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:08:35.425774+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "BqgSD3NDuzU",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:08:41.612275+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "letox5nkMmE",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:08:47.767203+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "sXUSWqNX4l4",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:08:54.021141+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "qvvLnJBdlC0",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:09:00.186034+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "it"
+      },
+      {
+        "video_id": "kOnOMWTcOmI",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T17:09:16.872871+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
       }
     ],
-    "stopped_reason": "provider_access_or_rate_limit"
+    "stopped_reason": null
   },
-  "retry_not_before_utc": "2026-11-16T21:59:59.854582+00:00",
-  "cooldown_basis": "provider_retry_after",
+  "retry_not_before_utc": null,
   "results": [
     {
       "video_id": "aiWA2W7hKos",
@@ -2827,18 +3094,11 @@
     {
       "video_id": "TtzKfkcLM0M",
       "title": "🔥 Duotone Crest Foil Review – Better Than the Glide or Carve?!",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 309,
       "failure_type": null,
-      "last_retry": {
-        "video_id": "TtzKfkcLM0M",
-        "requested_language": "auto",
-        "at_utc": "2026-11-16T21:03:20.854582+00:00",
-        "status": "http_error",
-        "http_status": 429,
-        "retry_after": "3399"
-      },
+      "last_retry": null,
       "requested_language": "auto",
       "retry_eligible": null,
       "failure_reason": null
@@ -2846,9 +3106,9 @@
     {
       "video_id": "iYxYwu15cuE",
       "title": "Axis foil range review 2025",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 1079,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2862,17 +3122,24 @@
       "language": null,
       "segment_count": null,
       "failure_type": null,
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "wRZtiQOPURw",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:02:48.562983+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
       "requested_language": "auto",
-      "retry_eligible": null,
-      "failure_reason": null
+      "retry_eligible": false,
+      "failure_reason": "HTTP404 : texte indisponible; nouvelle source nécessaire avant nouvelle tentative."
     },
     {
       "video_id": "TrcLcOY1PA4",
       "title": "Best Wingfoil Board? Cabrinha Swift 2025 Review",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 128,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2882,9 +3149,9 @@
     {
       "video_id": "m9spmeFy0J4",
       "title": "Armstrong MA MKII Front Foil - Review",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 341,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2894,9 +3161,9 @@
     {
       "video_id": "6BItXQiemQo",
       "title": "Ozone Pocket Rocket | FULL REVIEW",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 432,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2906,9 +3173,9 @@
     {
       "video_id": "45RROMfJ2bg",
       "title": "INDIANA CONDOR / In-depth foil review for almost all foiling disciplines",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 407,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2918,9 +3185,9 @@
     {
       "video_id": "8zAMERKef5M",
       "title": "Slingshot Phantasm Review: Best Beginner Wing Foil Setup?",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 131,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2930,9 +3197,9 @@
     {
       "video_id": "r1dEaIpVD-M",
       "title": "Indiana Foil Mid-Length Review 2025: Early Bird 87L & Super Fly 74L Offshore",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 87,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2942,9 +3209,9 @@
     {
       "video_id": "dLe2dhRydLo",
       "title": "TAKOON ULTRAGLIDE 6'2\" - MIDLENGTH BOARD REVIEW",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 342,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2954,9 +3221,9 @@
     {
       "video_id": "3DE97BGarq8",
       "title": "Armstrong Midlength FG Board Review and Unwrapping— WORTH IT?",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 269,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2966,9 +3233,9 @@
     {
       "video_id": "gfFDO4eIPZY",
       "title": "Test & avis planche GLIDE MIDLENGTH Takoon",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 159,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -2982,17 +3249,24 @@
       "language": null,
       "segment_count": null,
       "failure_type": null,
-      "last_retry": null,
+      "last_retry": {
+        "video_id": "HMHCSOcDmP4",
+        "requested_language": "auto",
+        "at_utc": "2026-11-16T22:03:52.324016+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
       "requested_language": "auto",
-      "retry_eligible": null,
-      "failure_reason": null
+      "retry_eligible": false,
+      "failure_reason": "HTTP404 : texte indisponible; nouvelle source nécessaire avant nouvelle tentative."
     },
     {
       "video_id": "VG5Q_vXHVYM",
       "title": "First thoughts on the NEW AFS Evo HA (Evo HA vs Enduro) #foil  #foiling  #review #watersports",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 9,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3002,9 +3276,9 @@
     {
       "video_id": "OXRTfgF_PBA",
       "title": "F-ONE Rocket Wing Crossover Review – \"The Quiver Killer\"? by Liquid Blue Cabarete - Wingfoiling",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 283,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3014,9 +3288,9 @@
     {
       "video_id": "tnIU9QoY5dY",
       "title": "Sk8 V2 Wingfoil Foil by F-ONE – Long-Term Wingfoil Review - Liquid Blue Cabarete & Charles Osterlund",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 216,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3026,9 +3300,9 @@
     {
       "video_id": "8Mf-D-pKrZ8",
       "title": "The AFS Enduro Foil Range Review/Test",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 301,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3038,9 +3312,9 @@
     {
       "video_id": "MrxDf-_dCJY",
       "title": "KT Foiling Instinct foil range review wingfoiling – part 4",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 118,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3050,9 +3324,9 @@
     {
       "video_id": "9skjalbQEhU",
       "title": "La tavola Duotone SKYBRID SLS è davvero così incredibile? Scopriamolo insieme WINGFOIL LOW WIND test",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 52,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3062,9 +3336,9 @@
     {
       "video_id": "uBKB-yB5FE0",
       "title": "Test planches de  wing foil Duotone 2025 , Skybrid, sky style , sls, air....",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 381,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3074,9 +3348,9 @@
     {
       "video_id": "xK4qkT8m6VM",
       "title": "Test Duotone Unit 2025 dans toutes les constructions - Test aile de wing foil",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en-US",
+      "segment_count": 312,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3086,9 +3360,9 @@
     {
       "video_id": "9CUmbgOlufY",
       "title": "KT Atlas 790 Foil Test/Review (What we think of the new KT foils)",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 184,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3098,9 +3372,9 @@
     {
       "video_id": "0zlXlLB9G3Q",
       "title": "3,9 Kilo! Das Airinside Superfly Wingboard im Test",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 99,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3110,9 +3384,9 @@
     {
       "video_id": "A7AoRWtxtSI",
       "title": "Duotone Skybrid Range - Review",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 174,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3122,9 +3396,9 @@
     {
       "video_id": "Sa1RIxicPms",
       "title": "TEST Indiana MARLIN M - Il MIGLIOR HYDROFOIL wing foil tra onde e freeride - Versione inglese",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 212,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3134,9 +3408,9 @@
     {
       "video_id": "hxfAwT45T4w",
       "title": "Armstrong Foil Surf Board Unwrap & Review | Best Board for Surfers?",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 364,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3146,9 +3420,9 @@
     {
       "video_id": "kZHjNv8pVfM",
       "title": "wingfoil  test gong hipe pro  ma nouvelle planche.😃👍",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 104,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3158,9 +3432,9 @@
     {
       "video_id": "TLuTPpSWk80",
       "title": "AFS Evo front wing Review (The best step down foil for beginners?)",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 312,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3170,9 +3444,9 @@
     {
       "video_id": "jcu7SOnZblU",
       "title": "Omen Agent Foil Review | Parawing, Wing, and Surf Foiling",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 270,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3182,9 +3456,9 @@
     {
       "video_id": "P39IzbFmKoo",
       "title": "Test : J'ai testé le foil Takoon Flow en wingfoil et parawingfoil !",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "fr",
+      "segment_count": 96,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3194,9 +3468,9 @@
     {
       "video_id": "Z10Osbfn4Tk",
       "title": "The Foil Buddy Tool titanium Torx - review",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 72,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3206,9 +3480,9 @@
     {
       "video_id": "BqgSD3NDuzU",
       "title": "TOP ou FLOP ? Test planche de foil Takoon Glide Midlenth Air",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 168,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3218,9 +3492,9 @@
     {
       "video_id": "letox5nkMmE",
       "title": "North Midi 96L Review | One Board for Wing, Parawing & SUP Foil",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 105,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3230,9 +3504,9 @@
     {
       "video_id": "sXUSWqNX4l4",
       "title": "KT Foils review for wingfoiling part 1 - The foil system",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 169,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3242,9 +3516,9 @@
     {
       "video_id": "qvvLnJBdlC0",
       "title": "MID LENGTH o COMPATTA? Sceglile ENTRAMBE! Recensione tavola da wing foil Indiana Super Fly CML",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "it",
+      "segment_count": 295,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",
@@ -3254,9 +3528,33 @@
     {
       "video_id": "kOnOMWTcOmI",
       "title": "LONG TERM REVIEW: 2025 Duotone Skybrid SLS / Wingfoil & Foil Drive Gen 2",
-      "status": "awaiting_transcript",
-      "language": null,
-      "segment_count": null,
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 262,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "JbO6v-GSibQ",
+      "title": "It Folds, But Is It Actually Good on the Water? — WAKA Glide",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 254,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "l2HmFjc7eiI",
+      "title": "(Most Probably) The Best Foil for Para-winging — Code680R",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 294,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",

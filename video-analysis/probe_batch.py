@@ -24,7 +24,7 @@ def choose(videos: list[dict], limit: int) -> list[dict]:
             continue
         chosen.append({"id":v["id"],"url":v["url"],"title":v["title"],
                        "publisher":v.get("publisher","YouTube"),
-                       "language":"de",
+                       "language":v.get("language") or "auto",
                        "captions_metadata_flag":v.get("captions_metadata_flag"),
                        "video_duration_s":v.get("video_duration_s")})
         if len(chosen)>=limit:
@@ -40,7 +40,12 @@ def main():
     if not 1<=args.limit<=5:
         p.error("Probe limited to 1-5 videos")
     data=json.loads(args.input.read_text(encoding="utf-8"))
-    videos=choose(data.get("videos",[]),args.limit)
+    videos=choose(data.get('videos',[]),args.limit)
+    gate=Path('data/research/youtube_discovery_status.json')
+    from datetime import datetime,timezone
+    due=json.loads(gate.read_text(encoding='utf-8')).get('retry_not_before_utc') if gate.exists() else None
+    blocked=bool(due and datetime.now(timezone.utc)<datetime.fromisoformat(due))
+    if blocked:videos=[]
     records=[]
     for video in videos:
         result=run_video(video,"probe")
@@ -57,6 +62,7 @@ def main():
             "status_counts":dict(counts),"transcripts_obtained":0,"full_videos_analyzed":0,
             "note":"Availability probe only; it never downloads or interprets transcripts.",
             "records":records}
+    if blocked:report.update(stopped_reason='youtube_cooldown_active',retry_not_before_utc=due)
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("CAPTION_PROBE_COUNTS "+json.dumps({"checked":len(records),**counts}))

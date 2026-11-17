@@ -15,6 +15,8 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import HTTPError
+from collection_policy import stop_status, next_allowed
 
 ENDPOINT = "https://api.freetranscriptapi.com/v1/transcript"
 PILOT = [
@@ -203,6 +205,13 @@ def run(fetch=default_fetch, limit=3, *, input_dir=None, cache_dir=None, context
         "counting_note": ("technical_keyword_segments counts matching subtitle segments, "
                           "not word occurrences or validated claims; category counts overlap"),
     }
+    status_path=Path('research/BATCH_STATUS.json')
+    if input_dir is None and fetch is default_fetch and status_path.exists():
+        status=json.loads(status_path.read_text(encoding='utf-8'))
+        due=status.get('retry_not_before_utc')
+        if due and datetime.now(timezone.utc)<datetime.fromisoformat(due):
+            output.update(candidate_count=0,technical_keyword_segments=0,candidates_omitted=0,stopped_reason='cooldown_active',retry_not_before_utc=due)
+            return output
     for video in PILOT[:limit]:
         output["attempted"] += 1
         try:
@@ -221,7 +230,16 @@ def run(fetch=default_fetch, limit=3, *, input_dir=None, cache_dir=None, context
             # Exception class only: no tokens, paths or transcript response exposed.
             result = {"video_id": video[0], "title": video[1], "status": "unavailable_or_blocked",
                       "failure_type": type(exc).__name__}
+            if isinstance(exc,HTTPError) and stop_status(exc.code):
+                output.update(stopped_reason='provider_access_or_outage',retry_not_before_utc=next_allowed(exc.headers.get('Retry-After') if exc.headers else None).isoformat())
+                result['http_status']=exc.code
+                if fetch is default_fetch:
+                    status=json.loads(status_path.read_text(encoding='utf-8')) if status_path.exists() else {}
+                    status.update(retry_status=output['stopped_reason'],retry_not_before_utc=output['retry_not_before_utc'])
+                    status_path.parent.mkdir(parents=True,exist_ok=True)
+                    status_path.write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         output["results"].append(result)
+        if output.get('stopped_reason'):break
     output["technical_keyword_segments"] = sum(r.get("technical_keyword_segments", 0)
                                               for r in output["results"])
     output["candidate_count"] = sum(r.get("candidate_count", 0) for r in output["results"])

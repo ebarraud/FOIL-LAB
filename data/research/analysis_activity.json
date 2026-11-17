@@ -215,6 +215,14 @@
       "started_at_utc": "2026-11-16T21:01:20.134240+00:00",
       "updated_at_utc": "2026-11-16T21:08:31.610658+00:00",
       "expires_at_utc": "2026-11-16T21:28:31.610658+00:00"
+    },
+    {
+      "video_id": "JbO6v-GSibQ",
+      "status": "completed",
+      "step": "Deux transcriptions KiteWorld Shop lues intégralement ; WAKA intégrée avec dimensions fabricant et limites.",
+      "started_at_utc": "2026-11-16T22:03:34.791694+00:00",
+      "updated_at_utc": "2026-11-17T17:08:22.017733+00:00",
+      "expires_at_utc": "2026-11-17T17:28:22.017733+00:00"
     }
   ]
 }

@@ -128,10 +128,10 @@
       "status": "targeted_discovery_scheduled"
     },
     {
-      "name": "The Kiteworld Shop",
+      "name": "KiteWorld Shop",
       "channel_id": "UCjE0wgm69FcpOsVieDqO0-A",
       "url": "https://www.youtube.com/@kiteworldshop",
-      "status": "targeted_discovery_scheduled"
+      "status": "two_video_links_verified_by_oembed_collection_pending"
     },
     {
       "name": "Tonic Mag",

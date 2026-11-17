@@ -27,6 +27,7 @@ def main():
     languages = {'aiWA2W7hKos':'de', 'zesN5IeyRQM':'de', 'DMlWjjIcwss':'fr'}
     pending = [r for r in data['results'] if r['video_id'] in languages and r.get('language') != languages[r['video_id']]]
     pending += [r for r in data['results'] if r['status']!='timed_transcript_received' and r.get('retry_eligible',True) and r not in pending]
+    pending.sort(key=lambda r:-r.get('collection_priority',0))
     stopped = None
     for old in pending:
         vid = old['video_id']

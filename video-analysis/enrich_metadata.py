@@ -14,6 +14,7 @@ import urllib.parse
 import urllib.request
 from collections import Counter
 from pathlib import Path
+from urllib.error import HTTPError
 
 LENGTH = re.compile(r"^P(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?$")
 NEGATIVE = re.compile(r"\b(parawing only|parawing test|only parawing|pocket rocket|"
@@ -54,14 +55,17 @@ def enrich(rows:list[dict], key:str|None, fetch=None):
          if row.get("provider")=="youtube" and row.get("id","").startswith("youtube-")]
     lookup={}
     errors=[]
+    calls=0
     if key:
         for start in range(0,len(ids),50):
             batch=ids[start:start+50]
             try:
+                calls+=1
                 for entry in video_details(key,batch,fetch):
                     lookup[entry.get("id")]=entry
             except Exception as error:
-                errors.append({"batch":start//50+1,"error":type(error).__name__})
+                errors.append({"batch":start//50+1,"error":type(error).__name__,"http_status":getattr(error,"code",None)})
+                if isinstance(error,HTTPError) and (error.code in (401,403,429) or error.code>=500):break
     for row in records:
         original_id=row.get("id","").removeprefix("youtube-")
         info=lookup.get(original_id)
@@ -89,6 +93,7 @@ def enrich(rows:list[dict], key:str|None, fetch=None):
         row["description_length"]=len(description)
         row["video_details_title"]=snippet.get("title")
         row["channel_id"]=snippet.get("channelId")
+        row["publisher"]=snippet.get("channelTitle") or row.get("publisher")
         row["description_scope_hint"]=bool(DESCRIPTION_HINT.search(description[:1500]))
         title=row.get("title","")
         if NEGATIVE.search(title) or NEGATIVE.search(description[:250]):
@@ -103,7 +108,7 @@ def enrich(rows:list[dict], key:str|None, fetch=None):
     caption_info=Counter(x["captions_metadata_flag"] for x in records)
     return {
         "schema_version":1, "source_items":len(records),
-        "videos_list_api_calls":(len(ids)+49)//50 if key else 0,
+        "videos_list_api_calls":calls,
         "details_api_confirmed":sum(x["metadata_enrichment"]=="api_confirmed" for x in records),
         "screening_counts":dict(counter),
         "captions_metadata_flags":{str(k):v for k,v in caption_info.items()},
@@ -120,7 +125,13 @@ def main():
     p.add_argument("--output",type=Path,required=True)
     args=p.parse_args()
     raw=json.loads(args.input.read_text(encoding="utf-8"))
-    result=enrich(raw.get("videos",[]),os.getenv("YOUTUBE_API_KEY"))
+    key=os.getenv('YOUTUBE_API_KEY')
+    gate=Path('data/research/youtube_discovery_status.json')
+    cooldown=json.loads(gate.read_text(encoding='utf-8')).get('retry_not_before_utc') if gate.exists() else None
+    from datetime import datetime,timezone
+    active=bool(cooldown and datetime.now(timezone.utc)<datetime.fromisoformat(cooldown))
+    result=enrich(raw.get('videos',[]),None if active else key)
+    if active:result.update(stopped_reason='youtube_cooldown_active',retry_not_before_utc=cooldown)
     result["window_start"]=raw.get("window_start")
     result["window_end"]=raw.get("window_end")
     args.output.parent.mkdir(parents=True,exist_ok=True)

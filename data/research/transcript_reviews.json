@@ -5609,6 +5609,166 @@
           "limits": "Ne pas compter le titre comme preuve d’essai en parawing ou en downwind à la pagaie."
         }
       ]
+    },
+    {
+      "video_id": "JbO6v-GSibQ",
+      "model": "WAKA Glide77L, KiteWorld Shop",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "0c8a5063ab04648890cf510209c3aba9afae160647a452bd33a55b9a9b2a1430",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_and_parawing_board_size_specific",
+      "integration": "conditional_board_selection",
+      "integration_reason": "Analyse intégrale documentée ; fiche WAKA contrôlée et famille ajoutée au catalogue et à la sélection à partir du niveau intermédiaire. Seule77L fait l’objet de ces observations détaillées ; les autres volumes ont des dimensions fabricant, sans essai individuel revendiqué.",
+      "claims": [
+        {
+          "start_s": 55.44,
+          "end_s": 79.36,
+          "dimension": "77L_pad",
+          "statement_fr": "Sur77L, le testeur trouve le pad confortable et adhérent mais souhaiterait qu’il aille jusqu’aux bords ; le petit kick protège aussi les deux moitiés lorsqu’elles sont repliées.",
+          "limits": "Préférence ergonomique de l’exemplaire essayé, pas une mesure d’adhérence ni de protection au transport."
+        },
+        {
+          "start_s": 79.36,
+          "end_s": 153.52,
+          "dimension": "rigidity",
+          "statement_fr": "Après verrouillage des trois vis titane, il ressent une forte rigidité et un contact direct au foil ; un passage avec AFSFlyer1800 n’a pas révélé de flexion perceptible.",
+          "limits": "Aucun essai de flexion instrumenté ou de fatigue ; la taille du foil ne valide pas toute charge de montage."
+        },
+        {
+          "start_s": 176.96,
+          "end_s": 239.52,
+          "dimension": "77L_76kg",
+          "statement_fr": "Le testeur annonce76kg sur77L et apprécie le départ et les touchettes. Il cite un départ parawing autour de12nœuds avec un montage dont les nombres sont mal transcrits.",
+          "limits": "Ne pas reprendre Excalibur1044 ou une équivalence de volume sans contrôle ; exemple de session, pas plage basse garantie."
+        },
+        {
+          "start_s": 237.52,
+          "end_s": 298.24,
+          "dimension": "limits",
+          "statement_fr": "Il relève moins de volume au nose, une tendance à enfourner avec les petites tailles ou un départ sinker, et moins de stabilité au clapot latéral que son ProjectDrag.",
+          "limits": "Comparaison personnelle de shapes et configurations ; pas une raison de sous-dimensionner pour débuter."
+        },
+        {
+          "start_s": 298.24,
+          "end_s": 449.44,
+          "dimension": "travel",
+          "statement_fr": "Le pliage et les sacs sont appréciés pour les déplacements ; l’auteur reconnaît que seul le temps permettra de juger la durabilité.",
+          "limits": "Tarifs bagages et économies évoquées variables selon compagnie et trajet ; aucune promesse d’amortissement ni de résistance au transport intégrée."
+        },
+        {
+          "start_s": 449.44,
+          "end_s": 506.32,
+          "dimension": "assembly",
+          "statement_fr": "L’auteur trouve le vissage des trois fixations peu pratique sans long outil et préfère garder la planche montée entre les sessions d’un même séjour.",
+          "limits": "Contrôler couple de serrage et procédure officielle ; les longs rails ne prouvent pas la compatibilité de tout mât."
+        },
+        {
+          "start_s": 509.44,
+          "end_s": 611.04,
+          "dimension": "rider_program",
+          "statement_fr": "Il situe surtout l’intérêt pour des pratiquants intermédiaires à avancés qui voyagent, notamment en parawing ; les grands99/111L restent volumineux même repliés.",
+          "limits": "Programme du testeur, pas essai séparé des grands volumes ni classement de toutes les midlengths."
+        }
+      ],
+      "publisher": "KiteWorld Shop",
+      "manufacturer_verification": {
+        "url": "https://waka.surf/products/waka-glide-board",
+        "sizes_l_cm": [
+          [
+            66,
+            183,
+            48
+          ],
+          [
+            77,
+            190,
+            50
+          ],
+          [
+            88,
+            198,
+            52
+          ],
+          [
+            99,
+            206,
+            54
+          ],
+          [
+            111,
+            213,
+            56
+          ]
+        ],
+        "units": "Manufacturer published rounded cm values; not exact imperial conversion",
+        "checked_on": "2026-11-16",
+        "limits": "Seule77L essayée dans cette revue ; pas de garantie de stabilité, de résistance ou de frais de bagages."
+      }
+    },
+    {
+      "video_id": "l2HmFjc7eiI",
+      "model": "Code680R, KiteWorld Shop",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "d1ff1a8cbf26d0f0cffd476a6f2aef3d567120f712f4223811b6e665a7152c6d",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wing_and_parawing_foil_size_specific",
+      "integration": "conditional_selection",
+      "integration_reason": "680R ajoutée comme option conditionnelle avancée glisse/allround, priorité facilité et sauts exclus. Surface680cm², envergure93,5cm, AR13 vérifiés chezCode ; pas de réduction automatique200–300cm². R etR2 séparées, interfaces du montage à confirmer.",
+      "claims": [
+        {
+          "start_s": 35.52,
+          "end_s": 111.04,
+          "dimension": "scope",
+          "statement_fr": "La vidéo traite explicitement680R en wing et parawing ; Federico a utilisé cette taille, l’autre intervenant parle aussi d’autres taillesR.",
+          "limits": "Les deux personnes ne constituent pas deux validations indépendantes de680R ; revue de magasin même si le sponsorCode est nié."
+        },
+        {
+          "start_s": 172.96,
+          "end_s": 240.48,
+          "dimension": "small_tail_setup",
+          "statement_fr": "680R avec petit fuselage ettail120 est décrit très réactif et nerveux, destiné à un pratiquant maîtrisant son guidage.",
+          "limits": "Longueur exacte du fuselage et modèle détaillé du tail non confirmés ; ne pas transférer ce montage à un débutant."
+        },
+        {
+          "start_s": 241.28,
+          "end_s": 328.24,
+          "dimension": "pump_glide",
+          "statement_fr": "Les intervenants apprécient la glisse et la sensation directe au pumping, comparant aussi des ailesS de plus grande taille.",
+          "limits": "Comparaison non contrôlée ; forme, taille et montage changent ensemble, aucune efficacité mesurée."
+        },
+        {
+          "start_s": 374,
+          "end_s": 487.04,
+          "dimension": "size_claim_limits",
+          "statement_fr": "Les intervenants suggèrent de choisir plus petit que leur équipement habituel, avec des équivalences ressenties sur1250 et1080.",
+          "limits": "Ces équivalences ne sont pas des coefficients mesurés. Les nombres600/617 de la transcription restent ambigus ; pas de règle de réduction200–300cm²."
+        },
+        {
+          "start_s": 485.68,
+          "end_s": 547.6,
+          "dimension": "program_speed",
+          "statement_fr": "Ils apprécient la polyvalence wing/parawing/downwind et citent des vitesses de plus de20nœuds.",
+          "limits": "Aucune traceGPS ni protocole présenté dans le texte ; pas une vitesse garantie ou une aptitude race."
+        },
+        {
+          "start_s": 545.28,
+          "end_s": 704.72,
+          "dimension": "mast_choice",
+          "statement_fr": "Ils ressentent une différence de connexion entre mâtsHM etUHM, mais reconnaissent que leHM standard est déjà satisfaisant et peut éviter un surcoût.",
+          "limits": "Avis de vente et ressenti, sans mesure de flexion ou durabilité ; ne pas généraliser l’affirmation qu’un mât serait difficile à casser."
+        }
+      ],
+      "publisher": "KiteWorld Shop",
+      "manufacturer_verification": {
+        "url": "https://codefoils.com/product/r-series-front-wing/",
+        "area_cm2": 680,
+        "span_cm": 93.5,
+        "aspect_ratio": 13,
+        "jumping_allowed": false,
+        "checked_on": "2026-11-16"
+      }
     }
   ]
 }

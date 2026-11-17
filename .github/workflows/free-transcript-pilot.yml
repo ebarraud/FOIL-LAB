@@ -1,12 +1,6 @@
 name: Free anonymous YouTube transcript pilot
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'video-analysis/free_transcript_pilot.py'
-      - 'video-analysis/test_free_transcript_pilot.py'
-      - '.github/workflows/free-transcript-pilot.yml'
 permissions:
   contents: read
 jobs:

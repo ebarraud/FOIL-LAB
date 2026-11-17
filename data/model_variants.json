@@ -3,7 +3,7 @@
   "generated_from": "index.html V4 knowledge base",
   "as_of": "2026-11-14",
   "methodology": "docs/METHODOLOGY.md",
-  "warning": "Extraction des données embarquées de V4; non validées indépendamment. Notes qualitatives héritées, non mesures.",
+  "warning": "Métadonnées héritées ; anciennes notes non validées retirées. Aucune note remplacée ou inventée. Les preuves récentes et générations distinctes sont chargées depuis les registres research.",
   "variants": [
     {
       "id": "foil:AFS:Evo:950",
@@ -12,18 +12,14 @@
       "model": "Evo",
       "size_cm2": 950,
       "year": "Gamme à confirmer",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 2,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Evo:1250",
@@ -32,18 +28,14 @@
       "model": "Evo",
       "size_cm2": 1250,
       "year": "Gamme à confirmer",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 2,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Evo:1450",
@@ -52,18 +44,14 @@
       "model": "Evo",
       "size_cm2": 1450,
       "year": "Gamme à confirmer",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 2,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Evo:1650",
@@ -72,18 +60,14 @@
       "model": "Evo",
       "size_cm2": 1650,
       "year": "Gamme à confirmer",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 2,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Enduro:600",
@@ -92,18 +76,14 @@
       "model": "Enduro",
       "size_cm2": 600,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Enduro:700",
@@ -112,18 +92,14 @@
       "model": "Enduro",
       "size_cm2": 700,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Enduro:800",
@@ -132,18 +108,14 @@
       "model": "Enduro",
       "size_cm2": 800,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Enduro:900",
@@ -152,18 +124,14 @@
       "model": "Enduro",
       "size_cm2": 900,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Enduro:1000",
@@ -172,18 +140,14 @@
       "model": "Enduro",
       "size_cm2": 1000,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Enduro:1100",
@@ -192,18 +156,14 @@
       "model": "Enduro",
       "size_cm2": 1100,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Enduro:1300",
@@ -212,18 +172,14 @@
       "model": "Enduro",
       "size_cm2": 1300,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Silk V2:650",
@@ -232,19 +188,15 @@
       "model": "Silk V2",
       "size_cm2": 650,
       "year": "V2 · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/screw-size",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Silk V2:750",
@@ -253,19 +205,15 @@
       "model": "Silk V2",
       "size_cm2": 750,
       "year": "V2 · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://afs-foiling.com/screw-size",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Silk V2:850",
@@ -274,19 +222,15 @@
       "model": "Silk V2",
       "size_cm2": 850,
       "year": "V2 · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/screw-size",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Silk V2:950",
@@ -295,19 +239,15 @@
       "model": "Silk V2",
       "size_cm2": 950,
       "year": "V2 · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/screw-size",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Silk V2:1050",
@@ -316,19 +256,15 @@
       "model": "Silk V2",
       "size_cm2": 1050,
       "year": "V2 · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/screw-size",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:AFS:Silk V2:1150",
@@ -337,19 +273,15 @@
       "model": "Silk V2",
       "size_cm2": 1150,
       "year": "V2 · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/screw-size",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Seven Seas:1100",
@@ -358,18 +290,14 @@
       "model": "Seven Seas",
       "size_cm2": 1100,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Seven Seas:1200",
@@ -378,18 +306,14 @@
       "model": "Seven Seas",
       "size_cm2": 1200,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Seven Seas:1300",
@@ -398,18 +322,14 @@
       "model": "Seven Seas",
       "size_cm2": 1300,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Seven Seas:1400",
@@ -418,18 +338,14 @@
       "model": "Seven Seas",
       "size_cm2": 1400,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Seven Seas:1500",
@@ -438,18 +354,14 @@
       "model": "Seven Seas",
       "size_cm2": 1500,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Seven Seas:1600",
@@ -458,18 +370,14 @@
       "model": "Seven Seas",
       "size_cm2": 1600,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 3,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/seven-seas.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:SK8:550",
@@ -478,18 +386,14 @@
       "model": "SK8",
       "size_cm2": 550,
       "year": "V3 · 2026",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 4,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foil/front-wings/SK8.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:SK8:650",
@@ -498,18 +402,14 @@
       "model": "SK8",
       "size_cm2": 650,
       "year": "V3 · 2026",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 4,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foil/front-wings/SK8.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:SK8:750",
@@ -518,18 +418,14 @@
       "model": "SK8",
       "size_cm2": 750,
       "year": "V3 · 2026",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 4,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foil/front-wings/SK8.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:SK8:850",
@@ -538,18 +434,14 @@
       "model": "SK8",
       "size_cm2": 850,
       "year": "V3 · 2026",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 4,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foil/front-wings/SK8.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:SK8:950",
@@ -558,18 +450,14 @@
       "model": "SK8",
       "size_cm2": 950,
       "year": "V3 · 2026",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 4,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foil/front-wings/SK8.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:SK8:1050",
@@ -578,18 +466,14 @@
       "model": "SK8",
       "size_cm2": 1050,
       "year": "V3 · 2026",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 4,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foil/front-wings/SK8.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:SK8:1150",
@@ -598,18 +482,14 @@
       "model": "SK8",
       "size_cm2": 1150,
       "year": "V3 · 2026",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 4,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foil/front-wings/SK8.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Eagle:690",
@@ -618,18 +498,14 @@
       "model": "Eagle",
       "size_cm2": 690,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 5,
-        "carving": 2,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/eagle.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Eagle:790",
@@ -638,18 +514,14 @@
       "model": "Eagle",
       "size_cm2": 790,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 5,
-        "carving": 2,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/eagle.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Eagle:890",
@@ -658,18 +530,14 @@
       "model": "Eagle",
       "size_cm2": 890,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 5,
-        "carving": 2,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/eagle.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Eagle:990",
@@ -678,18 +546,14 @@
       "model": "Eagle",
       "size_cm2": 990,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 5,
-        "carving": 2,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/eagle.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Eagle:1090",
@@ -698,18 +562,14 @@
       "model": "Eagle",
       "size_cm2": 1090,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 5,
-        "carving": 2,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/eagle.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Eagle:1190",
@@ -718,18 +578,14 @@
       "model": "Eagle",
       "size_cm2": 1190,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 5,
-        "carving": 2,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/eagle.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:F-ONE:Eagle:1290",
@@ -738,18 +594,14 @@
       "model": "Eagle",
       "size_cm2": 1290,
       "year": "Génération non normalisée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 5,
-        "carving": 2,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/en/foil/front-wings/eagle.html"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:MA Mk II:490",
@@ -758,19 +610,15 @@
       "model": "MA Mk II",
       "size_cm2": 490,
       "year": "Mk II · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:MA Mk II:590",
@@ -779,19 +627,15 @@
       "model": "MA Mk II",
       "size_cm2": 590,
       "year": "Mk II · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:MA Mk II:690",
@@ -800,19 +644,15 @@
       "model": "MA Mk II",
       "size_cm2": 690,
       "year": "Mk II · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:MA Mk II:790",
@@ -821,19 +661,15 @@
       "model": "MA Mk II",
       "size_cm2": 790,
       "year": "Mk II · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:MA Mk II:890",
@@ -842,19 +678,15 @@
       "model": "MA Mk II",
       "size_cm2": 890,
       "year": "Mk II · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:MA Mk II:990",
@@ -863,19 +695,15 @@
       "model": "MA Mk II",
       "size_cm2": 990,
       "year": "Mk II · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:MA Mk II:1190",
@@ -884,19 +712,15 @@
       "model": "MA Mk II",
       "size_cm2": 1190,
       "year": "Mk II · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:MA Mk II:1390",
@@ -905,19 +729,15 @@
       "model": "MA Mk II",
       "size_cm2": 1390,
       "year": "Mk II · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 5,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-intl/products/ma-mk-ii-front-foil",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:UHA:570",
@@ -926,19 +746,15 @@
       "model": "UHA",
       "size_cm2": 570,
       "year": "UHA · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:UHA:670",
@@ -947,19 +763,15 @@
       "model": "UHA",
       "size_cm2": 670,
       "year": "UHA · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:UHA:770",
@@ -968,19 +780,15 @@
       "model": "UHA",
       "size_cm2": 770,
       "year": "UHA · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:UHA:870",
@@ -989,19 +797,15 @@
       "model": "UHA",
       "size_cm2": 870,
       "year": "UHA · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://armstrongfoils.com/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:UHA:970",
@@ -1010,19 +814,15 @@
       "model": "UHA",
       "size_cm2": 970,
       "year": "UHA · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:UHA:1070",
@@ -1031,19 +831,15 @@
       "model": "UHA",
       "size_cm2": 1070,
       "year": "UHA · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Armstrong:UHA:1270",
@@ -1052,19 +848,15 @@
       "model": "UHA",
       "size_cm2": 1270,
       "year": "UHA · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 5,
-        "carving": 3,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://armstrongfoils.com/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:KT:Nomad:700",
@@ -1073,19 +865,15 @@
       "model": "Nomad",
       "size_cm2": 700,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:KT:Nomad:830",
@@ -1094,19 +882,15 @@
       "model": "Nomad",
       "size_cm2": 830,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:KT:Nomad:980",
@@ -1115,19 +899,15 @@
       "model": "Nomad",
       "size_cm2": 980,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:KT:Nomad:1160",
@@ -1136,19 +916,15 @@
       "model": "Nomad",
       "size_cm2": 1160,
       "year": "Référencée 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Duotone:Crest D/LAB:550",
@@ -1157,19 +933,15 @@
       "model": "Crest D/LAB",
       "size_cm2": 550,
       "year": "D/LAB · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Duotone:Crest D/LAB:675",
@@ -1178,19 +950,15 @@
       "model": "Crest D/LAB",
       "size_cm2": 675,
       "year": "D/LAB · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Duotone:Crest D/LAB:800",
@@ -1199,19 +967,15 @@
       "model": "Crest D/LAB",
       "size_cm2": 800,
       "year": "D/LAB · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Duotone:Crest D/LAB:925",
@@ -1220,19 +984,15 @@
       "model": "Crest D/LAB",
       "size_cm2": 925,
       "year": "D/LAB · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Duotone:Crest D/LAB:1050",
@@ -1241,19 +1001,15 @@
       "model": "Crest D/LAB",
       "size_cm2": 1050,
       "year": "D/LAB · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Duotone:Crest D/LAB:1200",
@@ -1262,19 +1018,15 @@
       "model": "Crest D/LAB",
       "size_cm2": 1200,
       "year": "D/LAB · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 5
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Slingshot:One-Lock Glide:625",
@@ -1283,19 +1035,15 @@
       "model": "One-Lock Glide",
       "size_cm2": 625,
       "year": "One-Lock · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Slingshot:One-Lock Glide:725",
@@ -1304,19 +1052,15 @@
       "model": "One-Lock Glide",
       "size_cm2": 725,
       "year": "One-Lock · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Slingshot:One-Lock Glide:825",
@@ -1325,19 +1069,15 @@
       "model": "One-Lock Glide",
       "size_cm2": 825,
       "year": "One-Lock · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Slingshot:One-Lock Glide:925",
@@ -1346,19 +1086,15 @@
       "model": "One-Lock Glide",
       "size_cm2": 925,
       "year": "One-Lock · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Slingshot:One-Lock Glide:1125",
@@ -1367,19 +1103,15 @@
       "model": "One-Lock Glide",
       "size_cm2": 1125,
       "year": "One-Lock · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Slingshot:One-Lock Glide:1325",
@@ -1388,19 +1120,15 @@
       "model": "One-Lock Glide",
       "size_cm2": 1325,
       "year": "One-Lock · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Slingshot:One-Lock Glide:1525",
@@ -1409,19 +1137,15 @@
       "model": "One-Lock Glide",
       "size_cm2": 1525,
       "year": "One-Lock · 2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Cabrinha:Whippit:750",
@@ -1430,19 +1154,15 @@
       "model": "Whippit",
       "size_cm2": 750,
       "year": "Union · 2026",
-      "qualitative_scores": {
-        "takeoff": 2,
-        "glide": 4,
-        "carving": 5,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "med",
       "independently_tested_exact_size": true,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Cabrinha:Whippit:850",
@@ -1451,19 +1171,15 @@
       "model": "Whippit",
       "size_cm2": 850,
       "year": "Union · 2026",
-      "qualitative_scores": {
-        "takeoff": 2,
-        "glide": 4,
-        "carving": 5,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "foil:Cabrinha:Whippit:1000",
@@ -1472,19 +1188,15 @@
       "model": "Whippit",
       "size_cm2": 1000,
       "year": "Union · 2026",
-      "qualitative_scores": {
-        "takeoff": 2,
-        "glide": 4,
-        "carving": 5,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/",
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
-      "note": "Notes éditoriales par famille; taille non essayée extrapolée."
+      "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:F-ONE:Rocket Wing Midlength:72",
@@ -1495,18 +1207,14 @@
       "length_cm": 178,
       "width_cm": 47,
       "year": "Gamme publiée en 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:F-ONE:Rocket Wing Midlength:82",
@@ -1517,18 +1225,14 @@
       "length_cm": 183,
       "width_cm": 48.5,
       "year": "Gamme publiée en 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:F-ONE:Rocket Wing Midlength:95",
@@ -1539,18 +1243,14 @@
       "length_cm": 188,
       "width_cm": 51.3,
       "year": "Gamme publiée en 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:F-ONE:Rocket Wing Midlength:105",
@@ -1561,18 +1261,14 @@
       "length_cm": 193,
       "width_cm": 53.8,
       "year": "Gamme publiée en 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:F-ONE:Rocket Wing Midlength:115",
@@ -1583,18 +1279,14 @@
       "length_cm": 198,
       "width_cm": 55.9,
       "year": "Gamme publiée en 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:F-ONE:Rocket Wing Midlength:130",
@@ -1605,18 +1297,14 @@
       "length_cm": 203,
       "width_cm": 58.4,
       "year": "Gamme publiée en 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:F-ONE:Rocket Wing Midlength:150",
@@ -1627,18 +1315,14 @@
       "length_cm": 208,
       "width_cm": 62.2,
       "year": "Gamme publiée en 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.f-one.world/fr/foilboards/wingfoilboards/rocket-wing-midlength.html"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Mid Length Carbon:50",
@@ -1649,18 +1333,14 @@
       "length_cm": 161,
       "width_cm": 48.3,
       "year": "Gamme élargie 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/produit/planche-blackbird"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Mid Length Carbon:65",
@@ -1671,18 +1351,14 @@
       "length_cm": 163,
       "width_cm": 48.3,
       "year": "Gamme élargie 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/produit/planche-blackbird"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Mid Length Carbon:75",
@@ -1693,18 +1369,14 @@
       "length_cm": 167,
       "width_cm": 52,
       "year": "Gamme élargie 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/produit/planche-blackbird"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Mid Length Carbon:82",
@@ -1715,18 +1387,14 @@
       "length_cm": 173,
       "width_cm": 54,
       "year": "Gamme élargie 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/produit/planche-blackbird"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Mid Length Carbon:90",
@@ -1737,18 +1405,14 @@
       "length_cm": 182,
       "width_cm": 55,
       "year": "Gamme élargie 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/produit/planche-blackbird"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Mid Length Carbon:100",
@@ -1759,18 +1423,14 @@
       "length_cm": 190,
       "width_cm": 57,
       "year": "Gamme élargie 2026",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/fr/produit/planche-blackbird"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:38",
@@ -1781,18 +1441,14 @@
       "length_cm": 137,
       "width_cm": 46,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:48",
@@ -1803,18 +1459,14 @@
       "length_cm": 147,
       "width_cm": 47,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:53",
@@ -1825,18 +1477,14 @@
       "length_cm": 160,
       "width_cm": 47.8,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:58",
@@ -1847,18 +1495,14 @@
       "length_cm": 173,
       "width_cm": 48.8,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:68",
@@ -1869,18 +1513,14 @@
       "length_cm": 183,
       "width_cm": 50.3,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:78",
@@ -1891,18 +1531,14 @@
       "length_cm": 185,
       "width_cm": 52.1,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:88",
@@ -1913,18 +1549,14 @@
       "length_cm": 191,
       "width_cm": 53.8,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:108",
@@ -1935,18 +1567,14 @@
       "length_cm": 198,
       "width_cm": 57.7,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:128",
@@ -1957,18 +1585,14 @@
       "length_cm": 206,
       "width_cm": 61,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Naish:Chimera 2026:148",
@@ -1979,18 +1603,14 @@
       "length_cm": 213,
       "width_cm": 66,
       "year": "2026",
-      "qualitative_scores": {
-        "takeoff": 4,
-        "glide": 4,
-        "carving": 4,
-        "control": 3
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://www.naish.com/products/chimera-2026"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:34",
@@ -2001,18 +1621,14 @@
       "length_cm": 127,
       "width_cm": 45.1,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:40",
@@ -2023,18 +1639,14 @@
       "length_cm": 132,
       "width_cm": 47,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:48",
@@ -2045,18 +1657,14 @@
       "length_cm": 137,
       "width_cm": 49.8,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:58",
@@ -2067,18 +1675,14 @@
       "length_cm": 142,
       "width_cm": 52.1,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:70",
@@ -2089,18 +1693,14 @@
       "length_cm": 152,
       "width_cm": 55.9,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:80",
@@ -2111,18 +1711,14 @@
       "length_cm": 157,
       "width_cm": 57.8,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:90",
@@ -2133,18 +1729,14 @@
       "length_cm": 163,
       "width_cm": 59.7,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:105",
@@ -2155,18 +1747,14 @@
       "length_cm": 173,
       "width_cm": 64.1,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:120",
@@ -2177,18 +1765,14 @@
       "length_cm": 180,
       "width_cm": 66.7,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:Armstrong:Wing FG:135",
@@ -2199,18 +1783,14 @@
       "length_cm": 188,
       "width_cm": 69.9,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 3,
-        "glide": 3,
-        "carving": 5,
-        "control": 4
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://armstrongfoils.com/en-gb/products/wing-fg-board"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Skinny:105",
@@ -2221,18 +1801,14 @@
       "length_cm": 250,
       "width_cm": 43.2,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 5,
-        "carving": 2,
-        "control": 1
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/screw-size"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Skinny:115",
@@ -2243,18 +1819,14 @@
       "length_cm": 250,
       "width_cm": 47,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 5,
-        "carving": 2,
-        "control": 1
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/screw-size"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Skinny:110",
@@ -2265,18 +1837,14 @@
       "length_cm": 262,
       "width_cm": 41.9,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 5,
-        "carving": 2,
-        "control": 1
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/screw-size"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     },
     {
       "id": "board:AFS:Blackbird Skinny:120",
@@ -2287,18 +1855,14 @@
       "length_cm": 262,
       "width_cm": 45.7,
       "year": "Gamme cataloguée",
-      "qualitative_scores": {
-        "takeoff": 5,
-        "glide": 5,
-        "carving": 2,
-        "control": 1
-      },
+      "qualitative_scores": null,
       "confidence": "low",
       "independently_tested_exact_size": false,
       "sources": [
         "https://afs-foiling.com/screw-size"
       ],
-      "note": "Notes de contribution du shape, non mesures de vitesse."
+      "note": "Notes de contribution du shape, non mesures de vitesse.",
+      "score_status": "not_assigned_no_validated_rubric"
     }
   ]
 }
