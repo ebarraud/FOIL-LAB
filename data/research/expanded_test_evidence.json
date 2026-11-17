@@ -28,7 +28,10 @@
       "source_url": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
       "source_type": "first_person_written_test",
       "read_status": "article_body_read",
-      "sizes_tested": [880, 1180],
+      "sizes_tested": [
+        880,
+        1180
+      ],
       "size_unit": "cm²",
       "setup": "880 en prone : Performance 795, fuse 70, Speed 180, Swift 4’2 24 L. 1180 en SUP downwind : même mât et tail, board Armstrong DW 7’2.",
       "summary_fr": "880 : connexions au pumping et courbes appréciées après recul du foil sur la board. 1180 : soutien et contrôle appréciés lors d’un seul downwind SUP de 18 km, dans des conditions variables de vent contre courant.",
@@ -64,7 +67,10 @@
       "source_url": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ma-mk-ii-front-foil-2025-2/",
       "source_type": "first_person_written_test",
       "read_status": "article_body_read",
-      "sizes_tested": [690, 890],
+      "sizes_tested": [
+        690,
+        890
+      ],
       "size_unit": "cm²",
       "setup": "890 avec tail 170 en surf prone ; 690 avec tail 130 en wing. Tails 130/170/200 mentionnés, sans chaque combinaison isolée.",
       "summary_fr": "890 : courbes fluides et connexions de vagues appréciées, avec pumping plus profond et lent que sur HA. 690 : essai wing favorable, tandis que son essai prone reste prévu pour l’hiver.",
@@ -322,7 +328,9 @@
       "entry": {
         "q": null,
         "confidence": "med",
-        "tested": [880],
+        "tested": [
+          880
+        ],
         "f": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
         "i": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
         "year": "2024 · HA deuxième génération, pas UHA",
@@ -343,7 +351,9 @@
       "entry": {
         "q": null,
         "confidence": "med",
-        "tested": [1180],
+        "tested": [
+          1180
+        ],
         "f": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
         "i": "https://www.tonicmag.com/reviews/hydrofoils/armstrong-foils-ha-foil-range-880-1180-2024/",
         "year": "2024 · HA deuxième génération, pas UHA",
@@ -1548,6 +1558,99 @@
         "lim": "Rider déjà expérimenté, 70 L proche de son poids selon article ; prêt distributeur et vent non mesuré. SUP/parawing non essayés ici.",
         "setup": "Foils 670/800 non identifiés ; wings 4/4,5 m² selon sessions.",
         "context": "Corps de l’essai Foiling Magazine lu ; volume 70 L seulement, aucune note attribuée."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|-htD7qNM7_k|Surge 780|643",
+      "brand": "AXIS",
+      "name": "Surge 780",
+      "size": 643,
+      "sizeLabel": "643 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          643
+        ],
+        "f": "https://axisfoils.com/collections/surge",
+        "i": "video-analysis/reviews.html?video=-htD7qNM7_k",
+        "year": "Version du récit ; génération explicitée dans les limites",
+        "reason": "Glisse et maniabilité appréciées ; commentaires communs non tous départagés par taille.",
+        "lim": "Identifiant = envergure en mm, pas surface. Pas réduction universelle de 200 cm² ; traduction probable.",
+        "setup": "Advance Plus Ultra Short, Ultra Pro 800 ; Surf Skinny 280 cité pour 780.",
+        "context": "Transcription intégralement lue ; audio non vérifié. Aucun score ni mesure FOIL LAB."
+      },
+      "width": 78
+    },
+    {
+      "type": "foil",
+      "key": "video|ky1rk1QHya0|Sushi 740 · TITAN 2 du récit|740",
+      "brand": "F-ONE",
+      "name": "Sushi 740 · TITAN 2 du récit",
+      "size": 740,
+      "sizeLabel": "740 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          740
+        ],
+        "f": "https://www.youtube.com/watch?v=ky1rk1QHya0",
+        "i": "video-analysis/reviews.html?video=ky1rk1QHya0",
+        "year": "Version du récit ; génération explicitée dans les limites",
+        "reason": "Conduite surf et pumping appréciés, wing/parawing également déclarées essayées.",
+        "lim": "Rider intermédiaire/avancé ; aucune plage 12 nœuds garantie, aucun tail précis identifié.",
+        "setup": "TITAN 2 et UHM 14 mm cités, longueur et stabilisateur à vérifier.",
+        "context": "Transcription intégralement lue ; audio non vérifié. Aucun score ni mesure FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|SzXkVWCbIJs|Easy Carve · version 2026 du récit|80",
+      "brand": "Indiana",
+      "name": "Easy Carve · version 2026 du récit",
+      "size": 80,
+      "sizeLabel": "80 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          80
+        ],
+        "f": "https://www.youtube.com/watch?v=SzXkVWCbIJs",
+        "i": "video-analysis/reviews.html?video=SzXkVWCbIJs",
+        "year": "Version du récit ; génération explicitée dans les limites",
+        "reason": "Départ et contrôle appréciés, réserve de vent sous le seuil personnel du testeur.",
+        "lim": "Pas Easy Style 66 ; traduction anglaise, gabarits expérimentés 75–100 kg non transposables aux débutants.",
+        "setup": "Foils 670/850/870 sans modèles ; dimensions 160 x 61 cm annoncées, pas vérification fabricant.",
+        "context": "Transcription intégralement lue ; audio non vérifié. Aucun score ni mesure FOIL LAB."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|c24c44kl_rE|Sonar MA V2 · version du test 2025|1200",
+      "brand": "North",
+      "name": "Sonar MA V2 · version du test 2025",
+      "size": 1200,
+      "sizeLabel": "1200 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1200
+        ],
+        "f": "https://www.youtube.com/watch?v=c24c44kl_rE",
+        "i": "video-analysis/reviews.html?video=c24c44kl_rE",
+        "year": "Version du récit ; génération explicitée dans les limites",
+        "reason": "Départ homogène et conduite prévisible ; performance de pointe secondaire.",
+        "lim": "Même essai que version anglaise, pas source indépendante ; repères de poids non garantis.",
+        "setup": "HM85 / fuselage carbone 60 / arrière envergure27 cm, référence à confirmer.",
+        "context": "Transcription intégralement lue ; audio non vérifié. Aucun score ni mesure FOIL LAB."
       }
     }
   ]

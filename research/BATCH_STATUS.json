@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "inventory_count": 182,
-  "processed": 180,
-  "transcripts_obtained": 178,
+  "inventory_count": 195,
+  "processed": 192,
+  "transcripts_obtained": 190,
   "performance_scores_generated": 0,
   "semantic_claims_validated": 0,
-  "updated_at_utc": "2026-11-17T17:09:16.872871+00:00",
+  "updated_at_utc": "2026-11-17T19:10:08.707990+00:00",
   "retry_status": "completed_with_unavailable",
   "retry_history": {
     "attempts": [
@@ -1341,6 +1341,98 @@
         "video_id": "kOnOMWTcOmI",
         "requested_language": "auto",
         "at_utc": "2026-11-17T17:09:16.872871+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "-htD7qNM7_k",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:08:53.617326+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "ky1rk1QHya0",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:00.421990+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "GTr-5-p176I",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:06.652863+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "nl"
+      },
+      {
+        "video_id": "SzXkVWCbIJs",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:14.171436+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "HIDr2SfV2AQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:20.259994+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      {
+        "video_id": "OCj9UCx_b40",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:27.222842+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "_yTbdv2jU94",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:33.272176+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "te8LkhqpFvQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:39.335701+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "SsgV1te6tUY",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:45.146123+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "QACerU6dA1A",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:51.064637+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "FvVGPpbGdRk",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:56.909326+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "en"
+      },
+      {
+        "video_id": "c24c44kl_rE",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:10:02.777472+00:00",
+        "status": "timed_transcript_received",
+        "returned_language": "de"
+      },
+      {
+        "video_id": "Xh9mmDExedk",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:10:08.707990+00:00",
         "status": "timed_transcript_received",
         "returned_language": "en"
       }
@@ -3555,6 +3647,169 @@
       "status": "timed_transcript_received",
       "language": "en",
       "segment_count": 294,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "ky1rk1QHya0",
+      "title": "Can a Surf Foil Really Pump This Well? | F-One Sushi Review",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 223,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "GTr-5-p176I",
+      "title": "2026 Duotone AMP pump en dockstart foil review",
+      "status": "timed_transcript_received",
+      "language": "nl",
+      "segment_count": 32,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "SzXkVWCbIJs",
+      "title": "Indiana Easy Carve 80l Wingfoil Board Test 2026 ( english translated review )",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 200,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "HIDr2SfV2AQ",
+      "title": "North Prone Foil Gear Guide | Surf Foil Review",
+      "status": "awaiting_transcript",
+      "language": null,
+      "segment_count": null,
+      "failure_type": null,
+      "last_retry": {
+        "video_id": "HIDr2SfV2AQ",
+        "requested_language": "auto",
+        "at_utc": "2026-11-17T19:09:20.259994+00:00",
+        "status": "http_error",
+        "http_status": 404,
+        "retry_after": null
+      },
+      "requested_language": null,
+      "retry_eligible": false,
+      "failure_reason": "HTTP404 : texte indisponible; nouvelle source nécessaire avant nouvelle tentative."
+    },
+    {
+      "video_id": "OCj9UCx_b40",
+      "title": "SLINGSHOT ONE-LOCK Test &amp; Review@slingshotsports #foil #foiling #wingfoil #kitefoil #wakefoil",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 16,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "_yTbdv2jU94",
+      "title": "Best Surfboard Air 2026 — XEEAOFE Inflatable Surf Wing Foil Setup Review &amp; Buying Guide",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 34,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "te8LkhqpFvQ",
+      "title": "K-PARTS AROS FOIL REVIEW",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 18,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "-htD7qNM7_k",
+      "title": "Test: Axis Surge Foil - Glide und Wendigkeit in perfekter Harmonie",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 248,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "SsgV1te6tUY",
+      "title": "Best All-Around Foil of 2026? AFS Enduro vs Cabrinha Prestige Review",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 601,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "QACerU6dA1A",
+      "title": "RAW | SABFOIL THE 1350 LEVIATHAN | Wake Thief &amp; Pump Foil Test Session",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 114,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "FvVGPpbGdRk",
+      "title": "Duotone Crest Foil Review | Big Winds (Baja) Tech Talk",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 119,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "c24c44kl_rE",
+      "title": "North Sonar MA V2 1200 Foil Test 2025",
+      "status": "timed_transcript_received",
+      "language": "de",
+      "segment_count": 256,
+      "failure_type": null,
+      "last_retry": null,
+      "requested_language": "auto",
+      "retry_eligible": null,
+      "failure_reason": null
+    },
+    {
+      "video_id": "Xh9mmDExedk",
+      "title": "AFS ENDURO 700 / 900 / 1100 / 1300 - TEST COMPLET",
+      "status": "timed_transcript_received",
+      "language": "en",
+      "segment_count": 290,
       "failure_type": null,
       "last_retry": null,
       "requested_language": "auto",

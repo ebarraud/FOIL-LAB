@@ -105,3 +105,12 @@ assert.match(sandbox.transcriptSuitability({b:'AFS',n:'Enduro'},700,{}).reason,/
 assert.match(sandbox.transcriptSuitability({b:'AFS',n:'Enduro'},1100,{}).reason,/relance/);
 assert.ok(!sandbox.transcriptSuitability({b:'AFS',n:'Enduro'},1300,{}).url.includes('8Mf-D-pKrZ8'),'Untested 1300 must not inherit the new same-session comparison');
 console.log('Backlog integration: MA and Enduro exact-size evidence isolation passed');
+sandbox.foilTarget=()=>835;
+vm.runInContext(source.slice(source.indexOf('const FOILS=['),source.indexOf('const BOARDS=[')).replace('const FOILS=','globalThis.FOILS='),sandbox);
+const axisProfile={...profile,b:'AXIS',p:'surf',pr:'perf',l:3};
+const surgeOptions=sandbox.foilOptions(axisProfile);assert.ok(surgeOptions.some(o=>o.f.n==='Surge 890'&&o.size===835));
+assert.ok(!sandbox.foilOptions({...axisProfile,l:1}).some(o=>o.f.n==='Surge 890'));
+assert.ok(!sandbox.foilOptions({...axisProfile,pr:'easy'}).some(o=>o.f.n==='Surge 890'));
+assert.ok(!sandbox.foilOptions({...axisProfile,p:'jump'}).some(o=>o.f.n==='Surge 890'));
+assert.match(surgeOptions.find(o=>o.f.n==='Surge 890').evidence.url,/-htD7qNM7_k/);
+console.log('Surge 890 uses real 835cm2, skill/ease exclusions and its own evidence');

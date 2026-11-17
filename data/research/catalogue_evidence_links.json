@@ -2,6 +2,17 @@
   "method": "Rattachements manuels vérifiés : même famille, taille et génération. Aucun score modifié ; lecture de texte non validation audio.",
   "links": [
     {
+      "brand": "AXIS",
+      "model": "Surge 890",
+      "size": 835,
+      "size_unit": "cm²",
+      "video_id": "-htD7qNM7_k",
+      "url": "video-analysis/reviews.html?video=-htD7qNM7_k",
+      "method": "Transcription intégralement lue, traduction anglaise probable d’un original allemand ; audio non contrôlé.",
+      "reason": "835 cm², envergure 89 cm vérifiées chez AXIS ; compromis glisse/courbes apprécié, sans réduction automatique de surface.",
+      "limits": "Gabarit absent, observations 890/780 parfois communes ; vérifier chaque montage, aucune compatibilité universelle."
+    },
+    {
       "brand": "Armstrong",
       "model": "MA Mk II",
       "size": 690,

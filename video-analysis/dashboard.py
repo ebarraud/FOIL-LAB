@@ -89,6 +89,19 @@ def build(root=Path('.')):
                 video['analysis']='scope_review_required'
                 video['integration_reason']='Qualification des métadonnées uniquement : '+', '.join(decision['screening_reasons'])
     tasks=load(root/'data/research/analysis_activity.json',{}).get('tasks',[])
+    for decision in load(root/'data/research/reference_decisions.json',{}).get('decisions',[]):
+        video=next((v for v in videos if v['video_id']==decision['video_id']),None)
+        if video:
+            video['reference_decision']=decision['decision']
+            video['qualification_method']=decision['method']
+            video['qualification_status']='content_reviewed' if video['video_id'] in review_by_id else 'metadata_only'
+            if decision['decision']=='collect' and video.get('analysis')=='awaiting_transcript':
+                video['integration_reason']=decision['reason']+(' Texte indisponible (HTTP404), nouvelle source requise avant nouvelle tentative.' if video.get('failure')==404 else '')
+        if video and video.get('collection')=='new' and decision['decision'] in ('excluded_metadata','related_reference'):
+            video.update(analysis=decision['decision'],review_kind='metadata_qualification',integration='not_applicable' if decision['decision']=='excluded_metadata' else 'documented',integration_reason=decision['reason'],qualification_method=decision['method'])
+            if decision.get('related_source_id'):
+                video['related_source_id']=decision['related_source_id']
+                video['evidence_url']='video-analysis/reviews.html?video='+decision['related_source_id']
     now=datetime.now(timezone.utc)
     for video in videos:
         task=next((t for t in tasks if t.get('video_id')==video['video_id']),None)
@@ -107,6 +120,8 @@ def build(root=Path('.')):
       'monitored_publishers':load(root/'data/research/monitored_publishers.json',{}).get('publishers',[]),
       'written_research':{'leads':len(load(root/'data/research/written_review_leads_latest.json',{}).get('articles',[])),'new_articles_read':len(load(root/'data/research/expanded_test_evidence.json',{}).get('reviews',[])),'evidence_url':'data/research/expanded_test_evidence.json'},
       'videos':videos,'improvements':[
+       {'title':'AXIS Surge 890 : option conditionnelle de 835 cm²','detail':'Envergure 89 cm et surface 835 cm² vérifiées chez AXIS ; sélection avancée surf/glisse/allround, priorité facilité exclue. La 780/643 reste documentée au catalogue. Aucun gain de surface de 200 cm² ni plage basse garanti.','video_id':'-htD7qNM7_k','commit':'main'},
+       {'title':'29 références qualifiées et nouveaux textes traités','detail':'12 exclusions explicites sur métadonnées, quatre traductions déclarées reliées sans nouvelle collecte, 12 transcriptions reçues et intégralement lues, une indisponibilité HTTP404. Qualification de titre et analyse de contenu restent séparées.','commit':'main'},
        {'title':'Retard des 29 textes disponibles traité','detail':'26 lectures intégrales et trois qualifications ciblées explicitement signalées. 130 notes minutées, tailles réelles séparées des gammes et pratiques envisagées. Conseils MA Mk II 790/1190 et Enduro 700/900/1100 intégrés aux résultats, sans équivalence de surface inventée.','commit':'main'},
        {'title':'WAKA Glide : premier essai KiteWorld Shop intégré','detail':'Cinq volumes et dimensions fabricant ajoutés ; seule 77 L essayée à 76 kg. Sélection intermédiaire/avancée, avertissements sur nose, clapot latéral et assemblage.','video_id':'JbO6v-GSibQ','commit':'main'},
        {'title':'Catalogue élargi et essais écrits accessibles','detail':'Modèles sans notes désormais visibles, études vidéo et écrites consultables. F-ONE : générations historiques séparées des références TITAN 2. Recherche écrite élargie à plusieurs éditeurs.','commit':'main'},

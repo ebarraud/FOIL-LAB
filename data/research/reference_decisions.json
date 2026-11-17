@@ -1,0 +1,299 @@
+{
+  "decisions": [
+    {
+      "video_id": "qkxFEAlF1p0",
+      "title": "Abheben auf Knopfdruck! Das Duotone Foil Assist im Test",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré à Duotone Foil Assist, assistance électrique. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "sM6P0gvhHHc",
+      "title": "Is This the EASIEST Way to Learn Pump Foiling?! | Foil Scoot Review",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré au Foil Scoot et à une méthode d’apprentissage assistée. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "Ax6TYpS3F3c",
+      "title": "A New Foil Assist Just Launched... Let&#39;s Test It! (Foil Dash Review)",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré à Foil Dash, assistance électrique. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "2s2VL-JOLLs",
+      "title": "Ride Engine Re_Tractable Leash First Impressions:  Wing and Foil Drive Test",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré à un leash rétractable. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "ky1rk1QHya0",
+      "title": "Can a Surf Foil Really Pump This Well? | F-One Sushi Review",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "GTr-5-p176I",
+      "title": "2026 Duotone AMP pump en dockstart foil review",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "Mj2Z9gHKAYs",
+      "title": "Indiana Marlin XXS Kite Foil Test 2026 ( english translated review )",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "related_reference",
+      "related_source_id": "xrEGIa5cgdQ",
+      "reason": "Traduction déclarée dans le titre, même éditeur et modèle que la source liée. Pas un essai indépendant ; traduction non validée sémantiquement, texte non collecté à nouveau."
+    },
+    {
+      "video_id": "A34IZza2TEQ",
+      "title": "GA Move Foil Test 2026 ( English translated review )",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "related_reference",
+      "related_source_id": "viZUrrOCL6E",
+      "reason": "Traduction déclarée dans le titre, même éditeur et modèle que la source liée. Pas un essai indépendant ; traduction non validée sémantiquement, texte non collecté à nouveau."
+    },
+    {
+      "video_id": "SzXkVWCbIJs",
+      "title": "Indiana Easy Carve 80l Wingfoil Board Test 2026 ( english translated review )",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "fi6nIkY35SU",
+      "title": "Code x Foil Drive Integrated Carbon Mast | Deep Dive Review &amp; Comparison &amp; Tech Talk",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré à un mât intégré Foil Drive. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "QsVsnwS5yR4",
+      "title": "Armstrong MKII XPS wing review #foiling #foil #wingfoil #wingfoiling #shorts",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré à la wing textile XPS, pas à une aile avant immergée. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "WCiwij40Qr0",
+      "title": "Duotone Crest Dlab foil test 2025 ( english translated review )",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "related_reference",
+      "related_source_id": "lrW4o4H05tI",
+      "reason": "Traduction déclarée dans le titre, même éditeur et modèle que la source liée. Pas un essai indépendant ; traduction non validée sémantiquement, texte non collecté à nouveau."
+    },
+    {
+      "video_id": "PZzXYbquiss",
+      "title": "Wing Foil &amp; Action Cam Mount Flymount Aero 130 Recensione",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré à un support de caméra Flymount. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "6vRUH8WteCk",
+      "title": "Indiana Foil Flow FW 85L Carbon Test 2025 ( english translated review )",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "related_reference",
+      "related_source_id": "_W2HhY4gySA",
+      "reason": "Traduction déclarée dans le titre, même éditeur et modèle que la source liée. Pas un essai indépendant ; traduction non validée sémantiquement, texte non collecté à nouveau."
+    },
+    {
+      "video_id": "HIDr2SfV2AQ",
+      "title": "North Prone Foil Gear Guide | Surf Foil Review",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "OCj9UCx_b40",
+      "title": "SLINGSHOT ONE-LOCK Test &amp; Review@slingshotsports #foil #foiling #wingfoil #kitefoil #wakefoil",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "_yTbdv2jU94",
+      "title": "Best Surfboard Air 2026 — XEEAOFE Inflatable Surf Wing Foil Setup Review &amp; Buying Guide",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "nno-iK7N6wo",
+      "title": "Thank god it&#39;s an X-FORM construction. ARMSTRONG Midlength MK II 🤘🏻 Full review dropping soon #foil",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Teaser annonçant une revue complète ultérieure, pas un essai complet identifié. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "te8LkhqpFvQ",
+      "title": "K-PARTS AROS FOIL REVIEW",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "-htD7qNM7_k",
+      "title": "Test: Axis Surge Foil - Glide und Wendigkeit in perfekter Harmonie",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "SsgV1te6tUY",
+      "title": "Best All-Around Foil of 2026? AFS Enduro vs Cabrinha Prestige Review",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "ppnjPsBSaog",
+      "title": "RIDERS REVIEW | Foil Drive Mini Pod vs Universal Mast Adapter | Worth the upgrade?",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré à des adaptateurs de propulsion Foil Drive. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "QACerU6dA1A",
+      "title": "RAW | SABFOIL THE 1350 LEVIATHAN | Wake Thief &amp; Pump Foil Test Session",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "FvVGPpbGdRk",
+      "title": "Duotone Crest Foil Review | Big Winds (Baja) Tech Talk",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "beK4X-VVH_A",
+      "title": "CAN&#39;T SAY FOILS AIN&#39;T SEXY 🤘🏻😜 Watch full CODE x FOIL DRIVE CARBON MAST REVIEW here @hoppline",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Extrait renvoyant à une revue de mât Foil Drive, hors sélection non motorisée. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "kpgETqovr_U",
+      "title": "The Best Wake Surf and Wake Foil Racks: Skylon  Review",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré à des racks de bateau pour wake/surf. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "c24c44kl_rE",
+      "title": "North Sonar MA V2 1200 Foil Test 2025",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    },
+    {
+      "video_id": "Bf8esuL_pa4",
+      "title": "Test de la toute nouvelle Parawing OZONE Pocket Rocket",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "excluded_metadata",
+      "reason": "Titre consacré à une parawing textile, hors catalogue foils/planches. Écarté du moteur wingfoil non motorisé sur métadonnées uniquement ; réévaluable si une source de contenu révèle un essai pertinent."
+    },
+    {
+      "video_id": "Xh9mmDExedk",
+      "title": "AFS ENDURO 700 / 900 / 1100 / 1300 - TEST COMPLET",
+      "checked_on": "2026-11-17",
+      "method": "Qualification manuelle des métadonnées conservées : titre, éditeur, modèle et correspondances. Aucun visionnage ou examen du texte revendiqué.",
+      "content_verified": false,
+      "transcript_analyzed": false,
+      "decision": "collect",
+      "reason": "Référence retenue pour collecte et vérification du contenu. Le titre ne suffit pas à établir les tailles essayées, l’indépendance ou une performance."
+    }
+  ],
+  "updated_at_utc": "2026-11-17T19:08:52.713096+00:00"
+}

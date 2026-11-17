@@ -327,6 +327,14 @@
       "started_at_utc": "2026-11-17T17:38:00.648641+00:00",
       "updated_at_utc": "2026-11-17T17:39:36.274991+00:00",
       "expires_at_utc": "2026-11-17T17:59:36.274991+00:00"
+    },
+    {
+      "video_id": "-htD7qNM7_k",
+      "status": "completed",
+      "step": "Lecture intégrale des 12 nouveaux textes terminée ; preuves et limites enregistrées",
+      "started_at_utc": "2026-11-17T19:09:48.316223+00:00",
+      "updated_at_utc": "2026-11-17T19:13:18.324438+00:00",
+      "expires_at_utc": "2026-11-17T19:33:18.324438+00:00"
     }
   ]
 }
