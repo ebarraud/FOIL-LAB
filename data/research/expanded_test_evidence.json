@@ -1073,6 +1073,214 @@
         "setup": "Montage précisé seulement pour Skybrid 70 L dans ce récit.",
         "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
       }
+    },
+    {
+      "type": "board",
+      "key": "video|qvvLnJBdlC0|Super Fly CML · version du test|74",
+      "brand": "Indiana",
+      "name": "Super Fly CML · version du test",
+      "size": 74,
+      "sizeLabel": "74 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          74
+        ],
+        "f": "https://www.youtube.com/watch?v=qvvLnJBdlC0",
+        "i": "video-analysis/reviews.html?video=qvvLnJBdlC0",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Retour six mois, riders 70/90 kg ; glisse et compacité appréciées, sinker à 90 kg.",
+        "lim": "Pas version Airinside ; possible chevauchement avec Super Fly 74 générique à identifier avant fusion.",
+        "setup": "Plusieurs foils, sans interfaces exactes ; dimensions annoncées dans le récit italien.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|Sa1RIxicPms|Marlin M · version du test|990",
+      "brand": "Indiana",
+      "name": "Marlin M · version du test",
+      "size": 990,
+      "sizeLabel": "990 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          990
+        ],
+        "f": "https://www.youtube.com/watch?v=Sa1RIxicPms",
+        "i": "video-analysis/reviews.html?video=Sa1RIxicPms",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Freeride et vagues appréciés, comportement jugé prévisible ; version anglaise du récit.",
+        "lim": "Freestyle non essayé ; aucune plage de vent garantie, prix historique exclu.",
+        "setup": "Drive HM 85 ; Marlin M 990 / tail MS / Marlin S 210 selon texte.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|3DE97BGarq8|Midlength FG · première génération|65",
+      "brand": "Armstrong",
+      "name": "Midlength FG · première génération",
+      "size": 65,
+      "sizeLabel": "65 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          65
+        ],
+        "f": "https://www.youtube.com/watch?v=3DE97BGarq8",
+        "i": "video-analysis/reviews.html?video=3DE97BGarq8",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Première session wing, départ doux mais équilibre à adapter pour rider proche de 190 lb.",
+        "lim": "Distincte de Mk II X-Form ; prone non essayé ; vent variable, montage selon récit.",
+        "setup": "Performance 935 / fuse 60 / avant 1080 / Glide 220 ; famille de l’avant à confirmer.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|jcu7SOnZblU|Agent · version du test|900",
+      "brand": "Omen",
+      "name": "Agent · version du test",
+      "size": 900,
+      "sizeLabel": "900 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          900
+        ],
+        "f": "https://omenfoils.com/en-gb/products/agent-front-wing",
+        "i": "video-analysis/reviews.html?video=jcu7SOnZblU",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Glisse et conduite appréciées en wing/parawing par testeur de 190 lb.",
+        "lim": "Montage à emboîtement serré ; cales personnelles non universelles ; pas de gain de surface garanti.",
+        "setup": "Stiffy 85 / fuselage titane / stabilisateur dédié Agent ; cale à choisir selon fabricant.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      },
+      "width": 95.4,
+      "manufacturer_geometry": {
+        "checked_on": "2026-11-17",
+        "url": "https://omenfoils.com/en-gb/products/agent-front-wing",
+        "span_cm": 95.4,
+        "area_cm2": 900,
+        "aspect_ratio": 10.1
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|TtzKfkcLM0M|Crest · version du test|675",
+      "brand": "Duotone",
+      "name": "Crest · version du test",
+      "size": 675,
+      "sizeLabel": "675 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          675
+        ],
+        "f": "https://www.youtube.com/watch?v=TtzKfkcLM0M",
+        "i": "video-analysis/reviews.html?video=TtzKfkcLM0M",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Très vive en roulis/lacet, moins adaptée à la houle lente du testeur.",
+        "lim": "800 non essayée ; taille médiane ambiguë ; aucune plage de vent garantie.",
+        "setup": "Fuselage 37 cm ; H/PX/S selon passages ; 43 cm suggéré seulement pour 675.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|TtzKfkcLM0M|Crest · version du test|1050",
+      "brand": "Duotone",
+      "name": "Crest · version du test",
+      "size": 1050,
+      "sizeLabel": "1050 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1050
+        ],
+        "f": "https://www.youtube.com/watch?v=TtzKfkcLM0M",
+        "i": "video-analysis/reviews.html?video=TtzKfkcLM0M",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Préférée par le testeur de 80 kg pour vagues molles et récupération au pumping.",
+        "lim": "800 non essayée ; taille médiane ambiguë ; aucune plage de vent garantie.",
+        "setup": "Fuselage 37 cm ; H/PX/S selon passages ; 43 cm suggéré seulement pour 675.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|45RROMfJ2bg|Condor S · version du test|1362",
+      "brand": "Indiana",
+      "name": "Condor S · version du test",
+      "size": 1362,
+      "sizeLabel": "1362 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1362
+        ],
+        "f": "https://indiana-paddlesurf.com/en_eu/indiana-foil-hp-front-wing-condor-s-3535sq.html",
+        "i": "video-analysis/reviews.html?video=45RROMfJ2bg",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Préféré à 65 kg pour pumping, wing légère et petites ondes, contrôle lent apprécié.",
+        "lim": "Pas de plage de poids garantie ; ajustements de tail et de vis à confirmer selon manuel.",
+        "setup": "Drive HM 75/85 ; Condor M arrière ; positions de tail variables.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      },
+      "width": 110,
+      "manufacturer_geometry": {
+        "checked_on": "2026-11-17",
+        "url": "https://indiana-paddlesurf.com/en_eu/indiana-foil-hp-front-wing-condor-s-3535sq.html",
+        "span_cm": 110,
+        "area_cm2": 1362,
+        "aspect_ratio": 8.9
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|45RROMfJ2bg|Condor M · version du test|1737",
+      "brand": "Indiana",
+      "name": "Condor M · version du test",
+      "size": 1737,
+      "sizeLabel": "1737 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1737
+        ],
+        "f": "https://indiana-paddlesurf.com/en_eu/indiana-foil-hp-front-wing-condor-m-3534sq.html",
+        "i": "video-analysis/reviews.html?video=45RROMfJ2bg",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Plus de soutien pour ses beachstarts ; ami de 85–90 kg cité, pas seuil validé.",
+        "lim": "Pas de plage de poids garantie ; ajustements de tail et de vis à confirmer selon manuel.",
+        "setup": "Drive HM 75/85 ; Condor M arrière ; positions de tail variables.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      },
+      "width": 126,
+      "manufacturer_geometry": {
+        "checked_on": "2026-11-17",
+        "url": "https://indiana-paddlesurf.com/en_eu/indiana-foil-hp-front-wing-condor-m-3534sq.html",
+        "span_cm": 126,
+        "area_cm2": 1737,
+        "aspect_ratio": 9.14
+      }
     }
   ]
 }

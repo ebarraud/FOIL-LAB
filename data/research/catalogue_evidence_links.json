@@ -148,6 +148,26 @@
       "method": "Transcription intégralement lue ; audio non vérifié.",
       "limits": "Avis de magasin, pas de plage de vent/poids garantie ; stabilisateur exact à confirmer.",
       "reason": "Glisse et récupération au pumping privilégiées ; vitesse ressentie plus limitée que 900/700."
+    },
+    {
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size": 790,
+      "video_id": "m9spmeFy0J4",
+      "url": "video-analysis/reviews.html?video=m9spmeFy0J4",
+      "method": "Transcription intégralement lue ; audio non vérifié.",
+      "limits": "Premières impressions de magasin, montages non isolés ; aucune équivalence de surface.",
+      "reason": "Premières impressions wing/sauts : vive et récupération des sorties de tips appréciée."
+    },
+    {
+      "brand": "Armstrong",
+      "model": "MA Mk II",
+      "size": 1190,
+      "video_id": "m9spmeFy0J4",
+      "url": "video-analysis/reviews.html?video=m9spmeFy0J4",
+      "method": "Transcription intégralement lue ; audio non vérifié.",
+      "limits": "Premières impressions de magasin, montages non isolés ; aucune équivalence de surface.",
+      "reason": "Wing : vol et courbes appréciés, pas extrapolation à 1390."
     }
   ]
 }

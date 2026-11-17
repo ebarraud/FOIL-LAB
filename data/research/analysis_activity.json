@@ -295,6 +295,38 @@
       "started_at_utc": "2026-11-17T17:33:57.437324+00:00",
       "updated_at_utc": "2026-11-17T17:35:08.679076+00:00",
       "expires_at_utc": "2026-11-17T17:55:08.679076+00:00"
+    },
+    {
+      "video_id": "Z10Osbfn4Tk",
+      "status": "completed",
+      "step": "Accessoire lu intégralement ; trois contenus hors périmètre qualifiés par lecture ciblée explicite",
+      "started_at_utc": "2026-11-17T17:35:27.195378+00:00",
+      "updated_at_utc": "2026-11-17T17:36:00.588995+00:00",
+      "expires_at_utc": "2026-11-17T17:56:00.588995+00:00"
+    },
+    {
+      "video_id": "qvvLnJBdlC0",
+      "status": "completed",
+      "step": "Trois textes Indiana lus ; italien et allemand préservés, version anglaise explicitée",
+      "started_at_utc": "2026-11-17T17:36:09.352102+00:00",
+      "updated_at_utc": "2026-11-17T17:37:08.030949+00:00",
+      "expires_at_utc": "2026-11-17T17:57:08.030949+00:00"
+    },
+    {
+      "video_id": "m9spmeFy0J4",
+      "status": "completed",
+      "step": "Deux textes Armstrong lus ; MA Mk II 790/1190 et Midlength FG 65 documentées séparément",
+      "started_at_utc": "2026-11-17T17:37:15.378876+00:00",
+      "updated_at_utc": "2026-11-17T17:37:49.539495+00:00",
+      "expires_at_utc": "2026-11-17T17:57:49.539495+00:00"
+    },
+    {
+      "video_id": "jcu7SOnZblU",
+      "status": "completed",
+      "step": "Derniers trois textes intégralement lus ; 22 preuves ; tailles et pratiques réellement essayées distinguées",
+      "started_at_utc": "2026-11-17T17:38:00.648641+00:00",
+      "updated_at_utc": "2026-11-17T17:39:36.274991+00:00",
+      "expires_at_utc": "2026-11-17T17:59:36.274991+00:00"
     }
   ]
 }

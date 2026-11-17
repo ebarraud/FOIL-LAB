@@ -52,11 +52,16 @@ def build(root=Path('.')):
     for video in videos:
         review=review_by_id.get(video['video_id'],{})
         scope=review.get('scope','')
-        video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only','kite_only','wake_only','tow_only','wing_sail_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_')) else 'technical_review') if video.get('analysis')=='interpreted' else None
+        video['review_kind']=('out_of_scope' if scope.startswith(('parawing','electric_assist','accessory_only','kite_only','wake_only','tow_only','wing_sail_only','prone_only')) else 'no_technical_speech' if scope.startswith('music_only') else 'limited_content' if scope.startswith(('intro_only','commercial_','design_description','unusable_','short_preview','range_description')) else 'technical_review') if video.get('analysis')=='interpreted' else None
+        video['reading_scope']='scope_qualification' if scope.endswith('scope_qualification') else 'transcript_review' if review else None
+        if video['reading_scope']=='scope_qualification':
+            video['review_kind']='scope_qualification'
         if review.get('integration') in ('conditional_board_selection','conditional_selection'):
             video['integration']='integrated'
         elif review.get('integration') in ('conditional_caution','conditional_setup'):
             video['integration']='advice_integrated'
+        elif review.get('integration')=='catalogue_documented':
+            video['integration']='catalogue_documented'
     publishers=load(root/'data/research/video_publishers.json',{})
     for row in load(discovery,{}).get('videos',[]):
         vid=row.get('url','').split('v=')[-1].split('&')[0]
@@ -99,6 +104,7 @@ def build(root=Path('.')):
       'monitored_publishers':load(root/'data/research/monitored_publishers.json',{}).get('publishers',[]),
       'written_research':{'leads':len(load(root/'data/research/written_review_leads_latest.json',{}).get('articles',[])),'new_articles_read':len(load(root/'data/research/expanded_test_evidence.json',{}).get('reviews',[])),'evidence_url':'data/research/expanded_test_evidence.json'},
       'videos':videos,'improvements':[
+       {'title':'Retard des 29 textes disponibles traité','detail':'26 lectures intégrales et trois qualifications ciblées explicitement signalées. 130 notes minutées, tailles réelles séparées des gammes et pratiques envisagées. Conseils MA Mk II 790/1190 et Enduro 700/900/1100 intégrés aux résultats, sans équivalence de surface inventée.','commit':'main'},
        {'title':'WAKA Glide : premier essai KiteWorld Shop intégré','detail':'Cinq volumes et dimensions fabricant ajoutés ; seule 77 L essayée à 76 kg. Sélection intermédiaire/avancée, avertissements sur nose, clapot latéral et assemblage.','video_id':'JbO6v-GSibQ','commit':'main'},
        {'title':'Catalogue élargi et essais écrits accessibles','detail':'Modèles sans notes désormais visibles, études vidéo et écrites consultables. F-ONE : générations historiques séparées des références TITAN 2. Recherche écrite élargie à plusieurs éditeurs.','commit':'main'},
        {'title':'Skybrid SLS 80 L : compromis de stabilité précisé','detail':'Essai à 83 kg : léger enfoncement au départ et moins de stabilité en roulis face à la 85 L 2025. Conseil visible, sans nouveau seuil de poids ni note inventée.','video_id':'vOvMPu4SbRo','commit':'main'},

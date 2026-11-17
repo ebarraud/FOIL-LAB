@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T17:35:09.133779+00:00",
+  "updated_at_utc": "2026-11-17T17:44:20.638422+00:00",
   "collection_updated_at_utc": "2026-11-17T17:09:16.872871+00:00",
   "retry_not_before_utc": null,
   "collection_state": "completed_with_unavailable",
@@ -221,7 +221,8 @@
         "started_at_utc": "2026-11-15T19:52:31.505692+00:00",
         "updated_at_utc": "2026-11-15T19:54:32.964664+00:00",
         "expires_at_utc": "2026-11-15T20:14:32.964664+00:00"
-      }
+      },
+      "reading_scope": null
     },
     {
       "video_id": "DMlWjjIcwss",
@@ -239,7 +240,8 @@
       "review_kind": "technical_review",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "aZFCW3ms_oU",
@@ -264,7 +266,8 @@
         "started_at_utc": "2026-11-15T18:47:22.025343+00:00",
         "updated_at_utc": "2026-11-15T18:47:53.931242+00:00",
         "expires_at_utc": "2026-11-15T19:07:53.931242+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "F6BXfqM05yo",
@@ -289,7 +292,8 @@
         "started_at_utc": "2026-11-15T19:32:47.684040+00:00",
         "updated_at_utc": "2026-11-15T19:32:51.121405+00:00",
         "expires_at_utc": "2026-11-15T19:52:51.121405+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "pPXyFWHSd-U",
@@ -314,7 +318,8 @@
         "started_at_utc": "2026-11-16T18:41:25.553671+00:00",
         "updated_at_utc": "2026-11-16T18:41:26.230959+00:00",
         "expires_at_utc": "2026-11-16T19:01:26.230959+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "z8wP9_VnM-8",
@@ -339,7 +344,8 @@
         "started_at_utc": "2026-11-15T20:47:45.075937+00:00",
         "updated_at_utc": "2026-11-15T20:47:48.347823+00:00",
         "expires_at_utc": "2026-11-15T21:07:48.347823+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "kHYxyUyU4qY",
@@ -357,7 +363,8 @@
       "review_kind": "technical_review",
       "publisher": "Tonic Mag",
       "channel_id": "UCQf8qievrZ8vF680-Ksrq7A",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "ZWb49kOlXpo",
@@ -382,7 +389,8 @@
         "started_at_utc": "2026-11-15T19:02:19.113843+00:00",
         "updated_at_utc": "2026-11-15T19:02:58.551551+00:00",
         "expires_at_utc": "2026-11-15T19:22:58.551551+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "o-piLekjAHk",
@@ -407,7 +415,8 @@
         "started_at_utc": "2026-11-15T18:32:21.954496+00:00",
         "updated_at_utc": "2026-11-15T18:32:53.535515+00:00",
         "expires_at_utc": "2026-11-15T18:52:53.535515+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "fELF_qseo4g",
@@ -432,7 +441,8 @@
         "started_at_utc": "2026-11-15T20:32:48.938419+00:00",
         "updated_at_utc": "2026-11-15T20:32:52.430172+00:00",
         "expires_at_utc": "2026-11-15T20:52:52.430172+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "Bb0Nr-RXZlk",
@@ -457,7 +467,8 @@
         "started_at_utc": "2026-11-15T19:47:45.525477+00:00",
         "updated_at_utc": "2026-11-15T19:47:49.210962+00:00",
         "expires_at_utc": "2026-11-15T20:07:49.210962+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "PkWvig5XIJ0",
@@ -482,7 +493,8 @@
         "started_at_utc": "2026-11-15T20:03:03.779047+00:00",
         "updated_at_utc": "2026-11-15T20:03:08.013947+00:00",
         "expires_at_utc": "2026-11-15T20:23:08.013947+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "NTOAhBM2Wms",
@@ -500,7 +512,8 @@
       "review_kind": "technical_review",
       "publisher": "Tonic Mag",
       "channel_id": "UCQf8qievrZ8vF680-Ksrq7A",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "zesN5IeyRQM",
@@ -525,7 +538,8 @@
         "started_at_utc": "2026-11-15T19:52:31.672166+00:00",
         "updated_at_utc": "2026-11-15T19:54:33.181391+00:00",
         "expires_at_utc": "2026-11-15T20:14:33.181391+00:00"
-      }
+      },
+      "reading_scope": null
     },
     {
       "video_id": "3EObhbc9v-o",
@@ -543,7 +557,8 @@
       "review_kind": "technical_review",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "V5rMLxpKDsg",
@@ -568,7 +583,8 @@
         "started_at_utc": "2026-11-16T19:03:20.816918+00:00",
         "updated_at_utc": "2026-11-16T19:14:14.174747+00:00",
         "expires_at_utc": "2026-11-16T19:34:14.174747+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "FJsdHDBPLJY",
@@ -593,7 +609,8 @@
         "started_at_utc": "2026-11-15T18:31:18.334069+00:00",
         "updated_at_utc": "2026-11-15T18:31:55.167226+00:00",
         "expires_at_utc": "2026-11-15T18:51:55.167226+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "eRK72ouHjeM",
@@ -611,7 +628,8 @@
       "review_kind": "out_of_scope",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "wrBJfakowLs",
@@ -629,7 +647,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "Oaw3GuMOTb0",
@@ -647,7 +666,8 @@
       "review_kind": "technical_review",
       "publisher": "HALF-LIFE",
       "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "oj8HfuYygDw",
@@ -672,7 +692,8 @@
         "started_at_utc": "2026-11-15T19:17:54.546480+00:00",
         "updated_at_utc": "2026-11-15T19:17:57.855081+00:00",
         "expires_at_utc": "2026-11-15T19:37:57.855081+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "_jPvuDQISaA",
@@ -697,7 +718,8 @@
         "started_at_utc": "2026-11-15T21:03:04.119768+00:00",
         "updated_at_utc": "2026-11-15T21:03:07.444291+00:00",
         "expires_at_utc": "2026-11-15T21:23:07.444291+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "R-__gkwwY_I",
@@ -722,7 +744,8 @@
         "started_at_utc": "2026-11-15T21:17:42.016522+00:00",
         "updated_at_utc": "2026-11-15T21:17:45.294827+00:00",
         "expires_at_utc": "2026-11-15T21:37:45.294827+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "3OIRoNWHne0",
@@ -740,7 +763,8 @@
       "review_kind": "limited_content",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "WgDFirFuKOA",
@@ -759,7 +783,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "yL-WLJABq_U",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "yL-WLJABq_U",
@@ -777,7 +802,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "mtwBUIwCP3Q",
@@ -795,7 +821,8 @@
       "review_kind": "technical_review",
       "publisher": "wingSURF world",
       "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "wIPR7DOgKqQ",
@@ -813,7 +840,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "oNue1Vm0nWA",
@@ -838,7 +866,8 @@
         "started_at_utc": "2026-11-16T18:56:46.715031+00:00",
         "updated_at_utc": "2026-11-16T19:14:13.985318+00:00",
         "expires_at_utc": "2026-11-16T19:34:13.985318+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "FklAiCI22lU",
@@ -856,7 +885,8 @@
       "review_kind": "technical_review",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "xrEGIa5cgdQ",
@@ -874,7 +904,8 @@
       "review_kind": "out_of_scope",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "viZUrrOCL6E",
@@ -892,7 +923,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "3B4fq8l_8HQ",
@@ -917,7 +949,8 @@
         "started_at_utc": "2026-11-15T21:32:59.726841+00:00",
         "updated_at_utc": "2026-11-15T21:33:03.528779+00:00",
         "expires_at_utc": "2026-11-15T21:53:03.528779+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "96bNahQGX54",
@@ -935,7 +968,8 @@
       "review_kind": "out_of_scope",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "MnZAlmqfiOo",
@@ -953,7 +987,8 @@
       "review_kind": "out_of_scope",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "rVRUSW09BD4",
@@ -971,7 +1006,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "P2kF4cHQEZ4",
@@ -989,7 +1025,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "2rLx3Ayw9oE",
@@ -1007,7 +1044,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "JznK2j6Hi7k",
@@ -1026,7 +1064,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "Zo1awVlnOJQ",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "Zo1awVlnOJQ",
@@ -1044,7 +1083,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "e3C_ZnGsEJc",
@@ -1063,7 +1103,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "RRHYwIpkENs",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "RRHYwIpkENs",
@@ -1081,7 +1122,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "Hzyr_W_mJ1I",
@@ -1099,7 +1141,8 @@
       "review_kind": "technical_review",
       "publisher": "Twins Foil",
       "channel_id": "UCgtf21MO8n0j16_jDbFcnwA",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "voesArm8I1I",
@@ -1117,7 +1160,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "93t-YEPyyhc",
@@ -1135,7 +1179,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "bN_utLvFrck",
@@ -1154,7 +1199,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "QepHH2KIVOY",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "QepHH2KIVOY",
@@ -1172,7 +1218,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "-6Dnjt6GTqk",
@@ -1190,7 +1237,8 @@
       "review_kind": "out_of_scope",
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "9m8STJfQOgE",
@@ -1209,7 +1257,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "xpGSWpujoP0",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "l7pHqjOD_Qw",
@@ -1227,7 +1276,8 @@
       "review_kind": "limited_content",
       "publisher": "Freeride Attitude",
       "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "xpGSWpujoP0",
@@ -1245,7 +1295,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "HFd3tbogjio",
@@ -1263,7 +1314,8 @@
       "review_kind": null,
       "publisher": "Pakaa Foil",
       "channel_id": "UCibszUt5J2BVGh_wBjqJVJw",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "egezrffjqPk",
@@ -1288,7 +1340,8 @@
         "started_at_utc": "2026-11-15T20:17:48.822780+00:00",
         "updated_at_utc": "2026-11-15T20:17:52.509426+00:00",
         "expires_at_utc": "2026-11-15T20:37:52.509426+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "4znqnlzx0Dg",
@@ -1313,7 +1366,8 @@
         "started_at_utc": "2026-11-16T18:45:39.266440+00:00",
         "updated_at_utc": "2026-11-16T18:46:18.233875+00:00",
         "expires_at_utc": "2026-11-16T19:06:18.233875+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "lrW4o4H05tI",
@@ -1331,7 +1385,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "qJ2aiAZ4XBY",
@@ -1350,7 +1405,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "htCy_cztRcs",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "ZjdijAoaFQo",
@@ -1369,7 +1425,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "pvcTK70LaBQ",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "5kRFfdnDyKI",
@@ -1387,7 +1444,8 @@
       "review_kind": "technical_review",
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "fnhdMRiW3h4",
@@ -1405,7 +1463,8 @@
       "review_kind": "technical_review",
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "pHJ6b-JRCLg",
@@ -1423,7 +1482,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "bPKyMCmDJ4w",
@@ -1441,7 +1501,8 @@
       "review_kind": "no_technical_speech",
       "publisher": "Alicia Le Furaut Phantom rider",
       "channel_id": "UC8p2trM9uhObL4qFJfTQ3ew",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "5XCKmaXA9AY",
@@ -1460,7 +1521,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "_W2HhY4gySA",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "laeIus1pFX4",
@@ -1478,7 +1540,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "DRUsTI54DDc",
@@ -1497,7 +1560,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "a-azQlLJlck",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "htCy_cztRcs",
@@ -1515,7 +1579,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "Ih5W_610mgo",
@@ -1533,7 +1598,8 @@
       "review_kind": null,
       "publisher": "targadave",
       "channel_id": "UC7Dbjf_ZCXiMStS_r5iBatw",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "7ZPSmL8rvaM",
@@ -1551,7 +1617,8 @@
       "review_kind": "out_of_scope",
       "publisher": "Sup Passion // Foil Magazine",
       "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "v6Jo8tO5Fq4",
@@ -1569,7 +1636,8 @@
       "review_kind": "technical_review",
       "publisher": "wingpassion",
       "channel_id": "UCQOnp2pO-IyQ5mYl_wGSmtw",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "a-azQlLJlck",
@@ -1587,7 +1655,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "DJGIn4BwfEw",
@@ -1606,7 +1675,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "qf2LA6Dw4QI",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "TdL2YcSYd1Q",
@@ -1624,7 +1694,8 @@
       "review_kind": "limited_content",
       "publisher": "wingSURF world",
       "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "qf2LA6Dw4QI",
@@ -1642,7 +1713,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "1ywHqQRbrRY",
@@ -1661,7 +1733,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "pvcTK70LaBQ",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "ZEsZKUqHyxE",
@@ -1679,7 +1752,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "pvcTK70LaBQ",
@@ -1697,7 +1771,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "ut8lby8-QrA",
@@ -1715,7 +1790,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "I5UIZAT93qo",
@@ -1733,7 +1809,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "dOe3pEHakgE",
@@ -1752,7 +1829,8 @@
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
       "related_source_id": "9G1mKOnFgxA",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "K6UxTGgPgEo",
@@ -1770,7 +1848,8 @@
       "review_kind": "limited_content",
       "publisher": "Wingfoil Max ",
       "channel_id": "UCDi02grdN7EOVGDQgfsWf_Q",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "92HaHWul324",
@@ -1788,7 +1867,8 @@
       "review_kind": "technical_review",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "RxkvTwobKGE",
@@ -1813,7 +1893,8 @@
         "started_at_utc": "2026-11-16T18:31:01.883007+00:00",
         "updated_at_utc": "2026-11-16T18:31:28.922003+00:00",
         "expires_at_utc": "2026-11-16T18:51:28.922003+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "S2boM4B8en8",
@@ -1831,7 +1912,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "YF448nI7QHM",
@@ -1849,7 +1931,8 @@
       "review_kind": "limited_content",
       "publisher": "MACkiteboarding",
       "channel_id": "UCgaSOa5qTpPIq-hR8vRRy5A",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "vqFSdEKOfFM",
@@ -1874,7 +1957,8 @@
         "started_at_utc": "2026-11-16T18:34:37.979203+00:00",
         "updated_at_utc": "2026-11-16T18:34:41.602690+00:00",
         "expires_at_utc": "2026-11-16T18:54:41.602690+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "AIA666962GA",
@@ -1892,7 +1976,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "-1fBIIm8fpE",
@@ -1910,7 +1995,8 @@
       "review_kind": "limited_content",
       "publisher": "Reactive Team",
       "channel_id": "UCg309ego7_kDnCWS7uzX9nA",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "BsQoom43YEk",
@@ -1928,7 +2014,8 @@
       "review_kind": "technical_review",
       "publisher": "Wing-Tips",
       "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "5HwPFspBteM",
@@ -1946,7 +2033,8 @@
       "review_kind": "technical_review",
       "publisher": "Wing-Tips",
       "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "1YrgtfKV2kI",
@@ -1964,7 +2052,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "vqjLdNT4urA",
@@ -1982,7 +2071,8 @@
       "review_kind": "technical_review",
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "_W2HhY4gySA",
@@ -2000,7 +2090,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "NXVH9H10YfM",
@@ -2018,7 +2109,8 @@
       "review_kind": "technical_review",
       "publisher": "Alvaro Bajo",
       "channel_id": "UCzt8hAHTypMi_ess47oLD1g",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "E1hchZJjKAo",
@@ -2036,7 +2128,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "9G1mKOnFgxA",
@@ -2054,7 +2147,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "OJvTA8lXmDg",
@@ -2072,7 +2166,8 @@
       "review_kind": "technical_review",
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "qIjC5-sJSro",
@@ -2090,7 +2185,8 @@
       "review_kind": "technical_review",
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "p57zbjrPPY4",
@@ -2108,7 +2204,8 @@
       "review_kind": "technical_review",
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "bw6RziEZQm8",
@@ -2126,7 +2223,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "9U1SMtSmTNE",
@@ -2144,7 +2242,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "rLYd4DMS3mw",
@@ -2169,7 +2268,8 @@
         "started_at_utc": "2026-11-16T19:07:02.638528+00:00",
         "updated_at_utc": "2026-11-16T19:14:14.390521+00:00",
         "expires_at_utc": "2026-11-16T19:34:14.390521+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "xB5QMIjU6Ps",
@@ -2194,7 +2294,8 @@
         "started_at_utc": "2026-11-16T18:48:45.127178+00:00",
         "updated_at_utc": "2026-11-16T18:49:56.162430+00:00",
         "expires_at_utc": "2026-11-16T19:09:56.162430+00:00"
-      }
+      },
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "DQqbVduXDwA",
@@ -2212,7 +2313,8 @@
       "review_kind": "technical_review",
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "F_kPaA7RGac",
@@ -2230,7 +2332,8 @@
       "review_kind": "limited_content",
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "mhetRD3Fl5U",
@@ -2259,7 +2362,8 @@
       "analysis_before_activity": "interpreted",
       "discovered_on": "2026-11-02",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "65ecyxEcNiY",
@@ -2280,7 +2384,8 @@
       "activity": null,
       "discovered_on": "2026-10-26",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "sgaqpPq9ExU",
@@ -2301,7 +2406,8 @@
       "activity": null,
       "discovered_on": "2026-10-01",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "nM6k7_IpC9k",
@@ -2322,7 +2428,8 @@
       "activity": null,
       "discovered_on": "2026-09-16",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "_-VHK2Q-JgA",
@@ -2343,7 +2450,8 @@
       "activity": null,
       "discovered_on": "2026-09-10",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "TLuTPpSWk80",
@@ -2355,10 +2463,10 @@
       "analysis": "interpreted",
       "claims": 6,
       "evidence_url": "video-analysis/reviews.html?video=TLuTPpSWk80",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "1450 reliée au catalogue existant sur usage personnel explicite. Le discours sur les autres tailles reste conseil de gamme, pas quatre essais indépendants ni recommandation automatique de réduction.",
-      "review_kind": "technical_review",
+      "review_kind": "limited_content",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
       "activity": {
@@ -2372,7 +2480,8 @@
       "discovered_on": "2026-09-10",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "qkxFEAlF1p0",
@@ -2391,7 +2500,8 @@
       "screening_reasons": [
         "assist_accessory_or_other_discipline_scope_review"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review"
+      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review",
+      "reading_scope": null
     },
     {
       "video_id": "YVOXuTKpD50",
@@ -2412,7 +2522,8 @@
       "activity": null,
       "discovered_on": "2026-09-07",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "pumUgZ5yfew",
@@ -2433,7 +2544,8 @@
       "activity": null,
       "discovered_on": "2026-09-04",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "sM6P0gvhHHc",
@@ -2453,7 +2565,8 @@
         "non_test_or_tutorial_signal",
         "assist_accessory_or_other_discipline_scope_review"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : non_test_or_tutorial_signal, assist_accessory_or_other_discipline_scope_review"
+      "integration_reason": "Qualification des métadonnées uniquement : non_test_or_tutorial_signal, assist_accessory_or_other_discipline_scope_review",
+      "reading_scope": null
     },
     {
       "video_id": "ig3D34ghMq4",
@@ -2474,7 +2587,8 @@
       "activity": null,
       "discovered_on": "2026-08-13",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "jcu7SOnZblU",
@@ -2483,19 +2597,28 @@
       "collection": "timed_transcript_received",
       "segments": 270,
       "keyword_candidates": 32,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 6,
+      "evidence_url": "video-analysis/reviews.html?video=jcu7SOnZblU",
+      "integration": "catalogue_documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Agent 900 documentée au catalogue ; géométrie fabricant 900 cm², 95,4 cm, AR 10,1 confirmée. Moteur inchangé : vérifier la procédure et les options exactes de montage avant candidat conditionnel.",
+      "review_kind": "technical_review",
       "publisher": "MACkiteboarding",
       "channel_id": "UCgaSOa5qTpPIq-hR8vRRy5A",
-      "activity": null,
+      "activity": {
+        "video_id": "jcu7SOnZblU",
+        "status": "completed",
+        "step": "Derniers trois textes intégralement lus ; 22 preuves ; tailles et pratiques réellement essayées distinguées",
+        "started_at_utc": "2026-11-17T17:38:00.648641+00:00",
+        "updated_at_utc": "2026-11-17T17:39:36.274991+00:00",
+        "expires_at_utc": "2026-11-17T17:59:36.274991+00:00"
+      },
       "discovered_on": "2026-08-05",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "vQGg5Zv8Pvk",
@@ -2516,7 +2639,8 @@
       "activity": null,
       "discovered_on": "2026-07-22",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "VdVF_HfnV5o",
@@ -2537,7 +2661,8 @@
       "activity": null,
       "discovered_on": "2026-07-20",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "Ax6TYpS3F3c",
@@ -2556,7 +2681,8 @@
       "screening_reasons": [
         "assist_accessory_or_other_discipline_scope_review"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review"
+      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review",
+      "reading_scope": null
     },
     {
       "video_id": "2s2VL-JOLLs",
@@ -2575,7 +2701,8 @@
       "screening_reasons": [
         "assist_accessory_or_other_discipline_scope_review"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review"
+      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review",
+      "reading_scope": null
     },
     {
       "video_id": "ky1rk1QHya0",
@@ -2594,7 +2721,8 @@
       "screening_reasons": [
         "other_foil_discipline_not_wingfoil_confirmed"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : other_foil_discipline_not_wingfoil_confirmed"
+      "integration_reason": "Qualification des métadonnées uniquement : other_foil_discipline_not_wingfoil_confirmed",
+      "reading_scope": null
     },
     {
       "video_id": "jHWbotOOMsI",
@@ -2615,7 +2743,8 @@
       "activity": null,
       "discovered_on": "2026-06-17",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "j_uE7K_g5cs",
@@ -2636,7 +2765,8 @@
       "activity": null,
       "discovered_on": "2026-06-05",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "iiVHlMfy_rg",
@@ -2657,7 +2787,8 @@
       "activity": null,
       "discovered_on": "2026-06-05",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "hXDV7ssMWlY",
@@ -2678,7 +2809,8 @@
       "activity": null,
       "discovered_on": "2026-06-05",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "tB7b_vgctNc",
@@ -2699,7 +2831,8 @@
       "activity": null,
       "discovered_on": "2026-06-02",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "GTr-5-p176I",
@@ -2718,7 +2851,8 @@
       "screening_reasons": [
         "assist_accessory_or_other_discipline_scope_review"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review"
+      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review",
+      "reading_scope": null
     },
     {
       "video_id": "0qOf0eEpElM",
@@ -2739,7 +2873,8 @@
       "activity": null,
       "discovered_on": "2026-05-27",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "zGdki04tH2g",
@@ -2760,7 +2895,8 @@
       "activity": null,
       "discovered_on": "2026-05-19",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "KUlOiIb2Jck",
@@ -2781,7 +2917,8 @@
       "activity": null,
       "discovered_on": "2026-05-14",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "khXSoXL7ccA",
@@ -2810,7 +2947,8 @@
       "discovered_on": "2026-05-07",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "mgyh_TWJfIA",
@@ -2831,7 +2969,8 @@
       "activity": null,
       "discovered_on": "2026-05-06",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "Mj2Z9gHKAYs",
@@ -2852,7 +2991,8 @@
         "assist_accessory_or_other_discipline_scope_review",
         "declared_translation_link_before_collecting_again"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : other_foil_discipline_not_wingfoil_confirmed, assist_accessory_or_other_discipline_scope_review, declared_translation_link_before_collecting_again"
+      "integration_reason": "Qualification des métadonnées uniquement : other_foil_discipline_not_wingfoil_confirmed, assist_accessory_or_other_discipline_scope_review, declared_translation_link_before_collecting_again",
+      "reading_scope": null
     },
     {
       "video_id": "pXkQerJEvYA",
@@ -2873,7 +3013,8 @@
       "activity": null,
       "discovered_on": "2026-04-30",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "iZo8DO7Z4No",
@@ -2902,7 +3043,8 @@
       "discovered_on": "2026-04-30",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "analysis_before_activity": "interpreted"
+      "analysis_before_activity": "interpreted",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "A34IZza2TEQ",
@@ -2921,7 +3063,8 @@
       "screening_reasons": [
         "declared_translation_link_before_collecting_again"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : declared_translation_link_before_collecting_again"
+      "integration_reason": "Qualification des métadonnées uniquement : declared_translation_link_before_collecting_again",
+      "reading_scope": null
     },
     {
       "video_id": "mZtN100cfBs",
@@ -2942,7 +3085,8 @@
       "activity": null,
       "discovered_on": "2026-04-17",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "Fm3jofwhf-c",
@@ -2963,7 +3107,8 @@
       "activity": null,
       "discovered_on": "2026-04-17",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "ixaogT38-1Y",
@@ -2984,7 +3129,8 @@
       "activity": null,
       "discovered_on": "2026-04-15",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "2f6kjRKFt_k",
@@ -3005,7 +3151,8 @@
       "activity": null,
       "discovered_on": "2026-04-15",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "jjmovozkNQs",
@@ -3026,7 +3173,8 @@
       "activity": null,
       "discovered_on": "2026-04-12",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "pjFZjW2IGAY",
@@ -3047,7 +3195,8 @@
       "activity": null,
       "discovered_on": "2026-03-14",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "P39IzbFmKoo",
@@ -3059,7 +3208,7 @@
       "analysis": "interpreted",
       "claims": 6,
       "evidence_url": "video-analysis/reviews.html?video=P39IzbFmKoo",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Catalogue enrichi sur les deux tailles réellement essayées. Moteur différé : géométrie et compatibilités fabricant actuelles à vérifier, aucun seuil de vent ni équivalence de surface déduit.",
       "review_kind": "technical_review",
@@ -3076,7 +3225,8 @@
       "discovered_on": "2026-03-14",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "SzXkVWCbIJs",
@@ -3095,7 +3245,8 @@
       "screening_reasons": [
         "declared_translation_link_before_collecting_again"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : declared_translation_link_before_collecting_again"
+      "integration_reason": "Qualification des métadonnées uniquement : declared_translation_link_before_collecting_again",
+      "reading_scope": null
     },
     {
       "video_id": "qTATXePqrrw",
@@ -3116,7 +3267,8 @@
       "activity": null,
       "discovered_on": "2026-03-05",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "CNjNA_Tiuz8",
@@ -3137,7 +3289,8 @@
       "activity": null,
       "discovered_on": "2026-02-27",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "N-b-KEtL9zo",
@@ -3158,7 +3311,8 @@
       "activity": null,
       "discovered_on": "2026-02-24",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "fi6nIkY35SU",
@@ -3177,7 +3331,8 @@
       "screening_reasons": [
         "assist_accessory_or_other_discipline_scope_review"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review"
+      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review",
+      "reading_scope": null
     },
     {
       "video_id": "-nlHP65Y-EQ",
@@ -3198,7 +3353,8 @@
       "activity": null,
       "discovered_on": "2026-02-16",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "8el3ifGXmYU",
@@ -3219,28 +3375,38 @@
       "activity": null,
       "discovered_on": "2026-02-02",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "qvvLnJBdlC0",
       "title": "MID LENGTH o COMPATTA? Sceglile ENTRAMBE! Recensione tavola da wing foil Indiana Super Fly CML",
       "language": "it",
       "collection": "timed_transcript_received",
-      "analysis": "queued",
-      "integration": "pending",
-      "claims": 0,
+      "analysis": "interpreted",
+      "integration": "catalogue_documented",
+      "claims": 5,
       "discovered_on": "2026-01-12",
       "publisher": "Sport al Centro",
       "channel_id": "UCAhpIsBY_CiRGUi1uMkpulQ",
-      "activity": null,
-      "review_kind": null,
+      "activity": {
+        "video_id": "qvvLnJBdlC0",
+        "status": "completed",
+        "step": "Trois textes Indiana lus ; italien et allemand préservés, version anglaise explicitée",
+        "started_at_utc": "2026-11-17T17:36:09.352102+00:00",
+        "updated_at_utc": "2026-11-17T17:37:08.030949+00:00",
+        "expires_at_utc": "2026-11-17T17:57:08.030949+00:00"
+      },
+      "review_kind": "technical_review",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "integration_reason": null,
+      "integration_reason": "CML 74 L documentée au catalogue avec gabarits et réserve sinker. Ne pas la confondre avec une Airinside ; vérifier identité exacte avant fusion avec un ancien lien Super Fly générique.",
       "segments": 295,
       "keyword_candidates": 4,
-      "evidence_url": null,
-      "failure": null
+      "evidence_url": "video-analysis/reviews.html?video=qvvLnJBdlC0",
+      "failure": null,
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "vmYfbGpB4Bs",
@@ -3261,7 +3427,8 @@
       "activity": null,
       "discovered_on": "2025-12-16",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "2pIbQfLyZCs",
@@ -3282,7 +3449,8 @@
       "activity": null,
       "discovered_on": "2025-12-04",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "vOvMPu4SbRo",
@@ -3303,7 +3471,8 @@
       "activity": null,
       "discovered_on": "2025-11-18",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "9ZrGRE-SyuM",
@@ -3324,7 +3493,8 @@
       "activity": null,
       "discovered_on": "2025-11-13",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "tOCsLl1tS3s",
@@ -3345,7 +3515,8 @@
       "activity": null,
       "discovered_on": "2025-11-02",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "fpheg1qEhg0",
@@ -3366,7 +3537,8 @@
       "activity": null,
       "discovered_on": "2025-11-01",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "wTHDqPnRK24",
@@ -3387,7 +3559,8 @@
       "activity": null,
       "discovered_on": "2025-10-31",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "GXsnqZqD5Co",
@@ -3408,7 +3581,8 @@
       "activity": null,
       "discovered_on": "2025-10-31",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "TtzKfkcLM0M",
@@ -3417,19 +3591,20 @@
       "collection": "timed_transcript_received",
       "segments": 309,
       "keyword_candidates": 70,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 8,
+      "evidence_url": "video-analysis/reviews.html?video=TtzKfkcLM0M",
+      "integration": "catalogue_documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "675 et 1050 documentées au catalogue, 800 non essayée ; taille médiane mal transcrite non affectée à 925 ou 950. Moteur inchangé sur cette seule source, aucune plage 8–40 nœuds garantie.",
+      "review_kind": "technical_review",
       "publisher": "Wing-Tips",
       "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
       "activity": null,
       "discovered_on": "2025-10-19",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "iYxYwu15cuE",
@@ -3441,7 +3616,7 @@
       "analysis": "interpreted",
       "claims": 17,
       "evidence_url": "video-analysis/reviews.html?video=iYxYwu15cuE",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Trois fiches PNG V2 ajoutées avec surfaces et envergures fabricant. Aucun classement chiffré ni règle automatique de réduction de surface. Tempo : wing et surf non essayés à ce stade ; ne pas recommander ces pratiques sur cette seule vidéo.",
       "review_kind": "technical_review",
@@ -3458,7 +3633,8 @@
       "discovered_on": "2025-10-18",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "wRZtiQOPURw",
@@ -3479,7 +3655,8 @@
       "activity": null,
       "discovered_on": "2025-10-08",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": null
     },
     {
       "video_id": "TrcLcOY1PA4",
@@ -3491,7 +3668,7 @@
       "analysis": "interpreted",
       "claims": 4,
       "evidence_url": "video-analysis/reviews.html?video=TrcLcOY1PA4",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Fiche Swift 2025 80 L ajoutée avec réserve explicite sur inserts. Moteur non modifié : profil de pratiquant et interfaces à vérifier, prix non repris.",
       "review_kind": "technical_review",
@@ -3500,7 +3677,8 @@
       "activity": null,
       "discovered_on": "2025-10-06",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "QsVsnwS5yR4",
@@ -3519,7 +3697,8 @@
       "screening_reasons": [
         "non_test_or_tutorial_signal"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : non_test_or_tutorial_signal"
+      "integration_reason": "Qualification des métadonnées uniquement : non_test_or_tutorial_signal",
+      "reading_scope": null
     },
     {
       "video_id": "WCiwij40Qr0",
@@ -3538,7 +3717,8 @@
       "screening_reasons": [
         "declared_translation_link_before_collecting_again"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : declared_translation_link_before_collecting_again"
+      "integration_reason": "Qualification des métadonnées uniquement : declared_translation_link_before_collecting_again",
+      "reading_scope": null
     },
     {
       "video_id": "m9spmeFy0J4",
@@ -3547,19 +3727,28 @@
       "collection": "timed_transcript_received",
       "segments": 341,
       "keyword_candidates": 23,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 6,
+      "evidence_url": "video-analysis/reviews.html?video=m9spmeFy0J4",
+      "integration": "advice_integrated",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Conseils par taille intégrés aux résultats du moteur et preuves au catalogue existant ; aucune équivalence de surface ajoutée.",
+      "review_kind": "technical_review",
       "publisher": "KitePaddleSurf",
       "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
-      "activity": null,
+      "activity": {
+        "video_id": "m9spmeFy0J4",
+        "status": "completed",
+        "step": "Deux textes Armstrong lus ; MA Mk II 790/1190 et Midlength FG 65 documentées séparément",
+        "started_at_utc": "2026-11-17T17:37:15.378876+00:00",
+        "updated_at_utc": "2026-11-17T17:37:49.539495+00:00",
+        "expires_at_utc": "2026-11-17T17:57:49.539495+00:00"
+      },
       "discovered_on": "2025-09-22",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "Z10Osbfn4Tk",
@@ -3568,19 +3757,28 @@
       "collection": "timed_transcript_received",
       "segments": 72,
       "keyword_candidates": 2,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 3,
+      "evidence_url": "video-analysis/reviews.html?video=Z10Osbfn4Tk",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Accessoire hors recommandations de foils/planches ; texte intégral lu, pas de nouvelle règle moteur ni couple de serrage.",
+      "review_kind": "out_of_scope",
       "publisher": "Wingsurfer",
       "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
-      "activity": null,
+      "activity": {
+        "video_id": "Z10Osbfn4Tk",
+        "status": "completed",
+        "step": "Accessoire lu intégralement ; trois contenus hors périmètre qualifiés par lecture ciblée explicite",
+        "started_at_utc": "2026-11-17T17:35:27.195378+00:00",
+        "updated_at_utc": "2026-11-17T17:36:00.588995+00:00",
+        "expires_at_utc": "2026-11-17T17:56:00.588995+00:00"
+      },
       "discovered_on": "2025-09-11",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "6BItXQiemQo",
@@ -3589,19 +3787,20 @@
       "collection": "timed_transcript_received",
       "segments": 432,
       "keyword_candidates": 14,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 2,
+      "evidence_url": "video-analysis/reviews.html?video=6BItXQiemQo",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Parawing textile hors moteur actuel de sélection foils/planches. Lecture ciblée début/fin pour qualifier ; analyse intégrale différée à l’ouverture d’un périmètre parawings, aucune performance de foil déduite.",
+      "review_kind": "scope_qualification",
       "publisher": null,
       "channel_id": null,
       "activity": null,
       "discovered_on": "2025-08-30",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "scope_qualification"
     },
     {
       "video_id": "45RROMfJ2bg",
@@ -3610,19 +3809,20 @@
       "collection": "timed_transcript_received",
       "segments": 407,
       "keyword_candidates": 40,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 8,
+      "evidence_url": "video-analysis/reviews.html?video=45RROMfJ2bg",
+      "integration": "catalogue_documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "S 1362 et M 1737 cm² recoupées chez fabricant, fiches catalogue. Préférences 65 kg / ami 85–90 kg restent contextes, pas seuils de sélection ; aucun raccourcissement de vis conseillé automatiquement.",
+      "review_kind": "technical_review",
       "publisher": null,
       "channel_id": null,
       "activity": null,
       "discovered_on": "2025-08-22",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "BqgSD3NDuzU",
@@ -3634,7 +3834,7 @@
       "analysis": "interpreted",
       "claims": 5,
       "evidence_url": "video-analysis/reviews.html?video=BqgSD3NDuzU",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "110 L ajoutée au catalogue. Rejeter l’équivalence automatique gonflable moins 20 L ; stabilité et sensation de pad documentées avec contexte réel.",
       "review_kind": "technical_review",
@@ -3643,7 +3843,8 @@
       "activity": null,
       "discovered_on": "2025-08-15",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "8zAMERKef5M",
@@ -3664,7 +3865,8 @@
       "activity": null,
       "discovered_on": "2025-08-15",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "r1dEaIpVD-M",
@@ -3676,7 +3878,7 @@
       "analysis": "interpreted",
       "claims": 4,
       "evidence_url": "video-analysis/reviews.html?video=r1dEaIpVD-M",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Deux volumes documentés au catalogue. Ne pas convertir la préférence du testeur en règle de sécurité offshore ; géométries et versions fabricant à confirmer avant moteur.",
       "review_kind": "technical_review",
@@ -3685,7 +3887,8 @@
       "activity": null,
       "discovered_on": "2025-08-13",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "dLe2dhRydLo",
@@ -3697,7 +3900,7 @@
       "analysis": "interpreted",
       "claims": 5,
       "evidence_url": "video-analysis/reviews.html?video=dLe2dhRydLo",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Deux tailles documentées au catalogue avec différences de pont et redécollage. Pas de règle générale de performance : volumes, poids et longueurs différents.",
       "review_kind": "technical_review",
@@ -3706,7 +3909,8 @@
       "activity": null,
       "discovered_on": "2025-08-04",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "letox5nkMmE",
@@ -3718,7 +3922,7 @@
       "analysis": "interpreted",
       "claims": 4,
       "evidence_url": "video-analysis/reviews.html?video=letox5nkMmE",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Fiche de taille 96 L documentée au catalogue. Pas de règle débutant : rider de 96–98 kg, volume proche du poids et retour downwind SUP encore non essayé.",
       "review_kind": "technical_review",
@@ -3735,7 +3939,8 @@
       "discovered_on": "2025-08-03",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "PZzXYbquiss",
@@ -3754,7 +3959,8 @@
       "screening_reasons": [
         "no_explicit_test_or_review_signal"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : no_explicit_test_or_review_signal"
+      "integration_reason": "Qualification des métadonnées uniquement : no_explicit_test_or_review_signal",
+      "reading_scope": null
     },
     {
       "video_id": "3DE97BGarq8",
@@ -3763,19 +3969,20 @@
       "collection": "timed_transcript_received",
       "segments": 269,
       "keyword_candidates": 11,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "video-analysis/reviews.html?video=3DE97BGarq8",
+      "integration": "catalogue_documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "65 L documentée séparément des Mk II X-Form. Usage wing réel, prone envisagé seulement ; aucune recommandation débutant ou sécurité de retour déduite.",
+      "review_kind": "technical_review",
       "publisher": "HALF-LIFE",
       "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
       "activity": null,
       "discovered_on": "2025-07-22",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "gfFDO4eIPZY",
@@ -3787,7 +3994,7 @@
       "analysis": "interpreted",
       "claims": 5,
       "evidence_url": "video-analysis/reviews.html?video=gfFDO4eIPZY",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "95 L ajoutée au catalogue avec contexte lac et réserve clapot. Aucun gain de surface ou seuil de vent automatique ; matériel reçu de Takoon, traduction probable.",
       "review_kind": "technical_review",
@@ -3804,7 +4011,8 @@
       "discovered_on": "2025-07-03",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "HMHCSOcDmP4",
@@ -3825,7 +4033,8 @@
       "activity": null,
       "discovered_on": "2025-06-25",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": null
     },
     {
       "video_id": "VG5Q_vXHVYM",
@@ -3840,7 +4049,7 @@
       "integration": "documented",
       "failure": null,
       "integration_reason": "Intégration écartée pour cet extrait : aucune taille, montage, masse ou observation comparative exploitable. Rechercher la vidéo complète ; ne pas transformer ce teaser en essai validé.",
-      "review_kind": "technical_review",
+      "review_kind": "limited_content",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
       "activity": {
@@ -3854,7 +4063,8 @@
       "discovered_on": "2025-06-22",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "OXRTfgF_PBA",
@@ -3875,7 +4085,8 @@
       "activity": null,
       "discovered_on": "2025-06-04",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "tnIU9QoY5dY",
@@ -3887,7 +4098,7 @@
       "analysis": "interpreted",
       "claims": 5,
       "evidence_url": "video-analysis/reviews.html?video=tnIU9QoY5dY",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Analyse documentée ; fiches de750/850 V2 ajoutées au catalogue sans transférer l’essai à laV3 TITAN2. La950 est détenue et évoquée mais son comportement n’est pas isolé dans ce compte rendu. Montage de tail et gabarit non précisés.",
       "review_kind": "technical_review",
@@ -3903,7 +4114,8 @@
       },
       "discovered_on": "2025-06-02",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "8Mf-D-pKrZ8",
@@ -3915,16 +4127,17 @@
       "analysis": "interpreted",
       "claims": 5,
       "evidence_url": "video-analysis/reviews.html?video=8Mf-D-pKrZ8",
-      "integration": "documented",
+      "integration": "advice_integrated",
       "failure": null,
-      "integration_reason": "Trois tailles rattachées au catalogue existant avec observations propres. Le repère 70 kg / 19–23 nœuds ne devient pas un seuil universel ; 1300 seulement conseillée, non essayée.",
+      "integration_reason": "Conseils par taille intégrés aux résultats du moteur et preuves au catalogue existant ; aucune équivalence de surface ajoutée.",
       "review_kind": "technical_review",
       "publisher": "Andy Biggs Watersports",
       "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
       "activity": null,
       "discovered_on": "2025-05-31",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "MrxDf-_dCJY",
@@ -3936,7 +4149,7 @@
       "analysis": "interpreted",
       "claims": 5,
       "evidence_url": "video-analysis/reviews.html?video=MrxDf-_dCJY",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Trois tailles réellement essayées ajoutées au catalogue, réserves de décollage et contrôle distinctes. Aucune règle débutant globale ; 1300/1450 non essayées.",
       "review_kind": "technical_review",
@@ -3945,7 +4158,8 @@
       "activity": null,
       "discovered_on": "2025-05-28",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "6vRUH8WteCk",
@@ -3964,7 +4178,8 @@
       "screening_reasons": [
         "declared_translation_link_before_collecting_again"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : declared_translation_link_before_collecting_again"
+      "integration_reason": "Qualification des métadonnées uniquement : declared_translation_link_before_collecting_again",
+      "reading_scope": null
     },
     {
       "video_id": "9skjalbQEhU",
@@ -3985,7 +4200,8 @@
       "activity": null,
       "discovered_on": "2025-04-29",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "uBKB-yB5FE0",
@@ -3997,7 +4213,7 @@
       "analysis": "interpreted",
       "claims": 7,
       "evidence_url": "video-analysis/reviews.html?video=uBKB-yB5FE0",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Fiches de volumes Skybrid 70/85 et Sky Style SLS 65 / standard 75 documentées selon récit ; variantes historiques séparées de 2026. Skybrid Air non essayée, non marquée testée.",
       "review_kind": "technical_review",
@@ -4006,7 +4222,8 @@
       "activity": null,
       "discovered_on": "2025-04-25",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "HIDr2SfV2AQ",
@@ -4025,7 +4242,8 @@
       "screening_reasons": [
         "other_foil_discipline_not_wingfoil_confirmed"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : other_foil_discipline_not_wingfoil_confirmed"
+      "integration_reason": "Qualification des métadonnées uniquement : other_foil_discipline_not_wingfoil_confirmed",
+      "reading_scope": null
     },
     {
       "video_id": "xK4qkT8m6VM",
@@ -4034,19 +4252,20 @@
       "collection": "timed_transcript_received",
       "segments": 312,
       "keyword_candidates": 3,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 2,
+      "evidence_url": "video-analysis/reviews.html?video=xK4qkT8m6VM",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Aile de wing textile hors sélection actuelle des foils/planches. Lecture ciblée début/fin, pas étude intégrale ; conserver comme référence pour un futur périmètre wings.",
+      "review_kind": "scope_qualification",
       "publisher": "Freeride Attitude",
       "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
       "activity": null,
       "discovered_on": "2025-04-13",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "scope_qualification"
     },
     {
       "video_id": "9CUmbgOlufY",
@@ -4058,7 +4277,7 @@
       "analysis": "interpreted",
       "claims": 4,
       "evidence_url": "video-analysis/reviews.html?video=9CUmbgOlufY",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Atlas 790 ajoutée au catalogue avec montage évoqué et limites ; pas de règle de réduction de surface. Vérifier le constructeur pour toute addition au moteur.",
       "review_kind": "technical_review",
@@ -4075,7 +4294,8 @@
       "discovered_on": "2025-04-13",
       "metadata_screening": "priority_metadata_candidate",
       "screening_reasons": [],
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "sXUSWqNX4l4",
@@ -4096,7 +4316,8 @@
       "activity": null,
       "discovered_on": "2025-04-11",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "OCj9UCx_b40",
@@ -4115,7 +4336,8 @@
       "screening_reasons": [
         "assist_accessory_or_other_discipline_scope_review"
       ],
-      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review"
+      "integration_reason": "Qualification des métadonnées uniquement : assist_accessory_or_other_discipline_scope_review",
+      "reading_scope": null
     },
     {
       "video_id": "0zlXlLB9G3Q",
@@ -4124,19 +4346,20 @@
       "collection": "timed_transcript_received",
       "segments": 99,
       "keyword_candidates": 1,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 3,
+      "evidence_url": "video-analysis/reviews.html?video=0zlXlLB9G3Q",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Texte allemand intégral lu : présentation de construction et retours de montage, pas verdict de navigation détaillé. Rechercher l’article indiqué avant intégration de performance ; aucun poids ou durée de vie validé.",
+      "review_kind": "limited_content",
       "publisher": "wingSURF world",
       "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
       "activity": null,
       "discovered_on": "2025-03-17",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "kOnOMWTcOmI",
@@ -4144,7 +4367,7 @@
       "language": "en",
       "collection": "timed_transcript_received",
       "analysis": "interpreted",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "claims": 5,
       "discovered_on": "2025-03-12",
       "publisher": "hoppline",
@@ -4165,7 +4388,8 @@
       "keyword_candidates": 17,
       "evidence_url": "video-analysis/reviews.html?video=kOnOMWTcOmI",
       "failure": null,
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "A7AoRWtxtSI",
@@ -4186,7 +4410,8 @@
       "activity": null,
       "discovered_on": "2025-02-14",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "Sa1RIxicPms",
@@ -4195,19 +4420,20 @@
       "collection": "timed_transcript_received",
       "segments": 212,
       "keyword_candidates": 14,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 5,
+      "evidence_url": "video-analysis/reviews.html?video=Sa1RIxicPms",
+      "integration": "catalogue_documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Marlin M 990 ajoutée au catalogue ; version anglaise explicitement identifiée et non comptée comme source indépendante d’un éventuel original italien. Aucun test freestyle déduit de témoignages tiers.",
+      "review_kind": "technical_review",
       "publisher": "Sport al Centro",
       "channel_id": "UCAhpIsBY_CiRGUi1uMkpulQ",
       "activity": null,
       "discovered_on": "2024-12-28",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "hxfAwT45T4w",
@@ -4216,19 +4442,20 @@
       "collection": "timed_transcript_received",
       "segments": 364,
       "keyword_candidates": 12,
-      "analysis": "queued",
-      "claims": 0,
-      "evidence_url": null,
-      "integration": "pending",
+      "analysis": "interpreted",
+      "claims": 2,
+      "evidence_url": "video-analysis/reviews.html?video=hxfAwT45T4w",
+      "integration": "documented",
       "failure": null,
-      "integration_reason": null,
-      "review_kind": null,
+      "integration_reason": "Board de surf prone, hors moteur wingfoil actuel. Lecture ciblée introduction/conclusion, pas lecture intégrale ; ne pas transférer ses volumes/performances à une board de wing.",
+      "review_kind": "scope_qualification",
       "publisher": "HALF-LIFE",
       "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
       "activity": null,
       "discovered_on": "2024-12-19",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "scope_qualification"
     },
     {
       "video_id": "kZHjNv8pVfM",
@@ -4240,7 +4467,7 @@
       "analysis": "interpreted",
       "claims": 4,
       "evidence_url": "video-analysis/reviews.html?video=kZHjNv8pVfM",
-      "integration": "documented",
+      "integration": "catalogue_documented",
       "failure": null,
       "integration_reason": "Fiche de volume 95 L documentée ; comparaison à ancienne 110 L explicitement confondue par volume. Aucun avantage universel des gonflables ou durée de vie promise.",
       "review_kind": "technical_review",
@@ -4249,7 +4476,8 @@
       "activity": null,
       "discovered_on": "2024-11-22",
       "metadata_screening": "priority_metadata_candidate",
-      "screening_reasons": []
+      "screening_reasons": [],
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "JbO6v-GSibQ",
@@ -4280,7 +4508,8 @@
         "updated_at_utc": "2026-11-17T17:08:22.017733+00:00",
         "expires_at_utc": "2026-11-17T17:28:22.017733+00:00"
       },
-      "analysis_before_activity": "queued"
+      "analysis_before_activity": "queued",
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "l2HmFjc7eiI",
@@ -4303,7 +4532,8 @@
       "integration_reason": "680R ajoutée comme option conditionnelle avancée glisse/allround, priorité facilité et sauts exclus. Surface680cm², envergure93,5cm, AR13 vérifiés chezCode ; pas de réduction automatique200–300cm². R etR2 séparées, interfaces du montage à confirmer.",
       "review_kind": "technical_review",
       "channel_id": "UCjE0wgm69FcpOsVieDqO0-A",
-      "activity": null
+      "activity": null,
+      "reading_scope": "transcript_review"
     },
     {
       "video_id": "_yTbdv2jU94",
@@ -4317,7 +4547,8 @@
       "review_kind": null,
       "publisher": "Emma Top Picks",
       "channel_id": "UCiM3Dk2vxb4JlI3hvpsg4Qw",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "nno-iK7N6wo",
@@ -4331,7 +4562,8 @@
       "review_kind": null,
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "te8LkhqpFvQ",
@@ -4345,7 +4577,8 @@
       "review_kind": null,
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "-htD7qNM7_k",
@@ -4359,7 +4592,8 @@
       "review_kind": null,
       "publisher": "wingpassion",
       "channel_id": "UCQOnp2pO-IyQ5mYl_wGSmtw",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "SsgV1te6tUY",
@@ -4373,7 +4607,8 @@
       "review_kind": null,
       "publisher": "The Foil Shop",
       "channel_id": "UCqyqfEQvX-s-rjXmPss4jTA",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "ppnjPsBSaog",
@@ -4387,7 +4622,8 @@
       "review_kind": null,
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "QACerU6dA1A",
@@ -4401,7 +4637,8 @@
       "review_kind": null,
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "FvVGPpbGdRk",
@@ -4415,7 +4652,8 @@
       "review_kind": null,
       "publisher": "bigwinds",
       "channel_id": "UC0q7gGA8ivy2tf-PTZ4AOlw",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "beK4X-VVH_A",
@@ -4429,7 +4667,8 @@
       "review_kind": null,
       "publisher": "hoppline",
       "channel_id": "UCcoMkDM1ttcSti319laDFjg",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "kpgETqovr_U",
@@ -4443,7 +4682,8 @@
       "review_kind": null,
       "publisher": "HALF-LIFE",
       "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "c24c44kl_rE",
@@ -4457,7 +4697,8 @@
       "review_kind": null,
       "publisher": "Gleiten tv",
       "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "Bf8esuL_pa4",
@@ -4471,7 +4712,8 @@
       "review_kind": null,
       "publisher": "Nature Kite",
       "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     },
     {
       "video_id": "Xh9mmDExedk",
@@ -4485,10 +4727,16 @@
       "review_kind": null,
       "publisher": "Hadou BRUNNER",
       "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
-      "activity": null
+      "activity": null,
+      "reading_scope": null
     }
   ],
   "improvements": [
+    {
+      "title": "Retard des 29 textes disponibles traité",
+      "detail": "26 lectures intégrales et trois qualifications ciblées explicitement signalées. 130 notes minutées, tailles réelles séparées des gammes et pratiques envisagées. Conseils MA Mk II 790/1190 et Enduro 700/900/1100 intégrés aux résultats, sans équivalence de surface inventée.",
+      "commit": "main"
+    },
     {
       "title": "WAKA Glide : premier essai KiteWorld Shop intégré",
       "detail": "Cinq volumes et dimensions fabricant ajoutés ; seule 77 L essayée à 76 kg. Sélection intermédiaire/avancée, avertissements sur nose, clapot latéral et assemblage.",

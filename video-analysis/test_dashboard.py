@@ -30,3 +30,19 @@ class DashboardTests(unittest.TestCase):
             self.assertEqual(d['videos'][1]['claims'],0)
 
 if __name__=='__main__':unittest.main()
+
+class ReadingScopeTests(unittest.TestCase):
+    def test_scope_qualification_and_catalogue_are_not_motor_integration(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            (root/'research').mkdir()
+            (root/'data/research').mkdir(parents=True)
+            videos=[{'video_id':'aaaaaaaaaaa','title':'Scope','status':'timed_transcript_received'}, {'video_id':'bbbbbbbbbbb','title':'Catalogue','status':'timed_transcript_received'}]
+            (root/'research/BATCH_STATUS.json').write_text(json.dumps({'results':videos}))
+            reviews=[{'video_id':'aaaaaaaaaaa','scope':'prone_only_scope_qualification','claims':[]}, {'video_id':'bbbbbbbbbbb','scope':'board_wing','integration':'catalogue_documented','claims':[]}]
+            (root/'data/research/transcript_reviews.json').write_text(json.dumps({'reviews':reviews}))
+            rows={v['video_id']:v for v in build(root)['videos']}
+            self.assertEqual(rows['aaaaaaaaaaa']['review_kind'],'scope_qualification')
+            self.assertEqual(rows['aaaaaaaaaaa']['reading_scope'],'scope_qualification')
+            self.assertEqual(rows['bbbbbbbbbbb']['integration'],'catalogue_documented')
+            self.assertNotEqual(rows['bbbbbbbbbbb']['integration'],'integrated')
