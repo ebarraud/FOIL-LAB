@@ -1,0 +1,225 @@
+{
+  "updated_at_utc": "2026-11-17T17:11:40.069859+00:00",
+  "status": "attempted",
+  "queries": 18,
+  "errors": [],
+  "channel_searches": [
+    {
+      "publisher": "Alicia Le Furaut Phantom rider",
+      "channel_id": "UC8p2trM9uhObL4qFJfTQ3ew",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Alvaro Bajo",
+      "channel_id": "UCzt8hAHTypMi_ess47oLD1g",
+      "retained_candidates": 3,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Andy Biggs Watersports",
+      "channel_id": "UC-ZRvHP0aj46-PJA7BIB5cQ",
+      "retained_candidates": 7,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "bigwinds",
+      "channel_id": "UC0q7gGA8ivy2tf-PTZ4AOlw",
+      "retained_candidates": 2,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Den Gordo WingFoiling",
+      "channel_id": "UCDPI5klsfc28GYtgYzt4mEw",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "FoilWithUs",
+      "channel_id": "UCTMhLb1mQS32o-74PooeKxw",
+      "retained_candidates": 2,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Freeride Attitude",
+      "channel_id": "UC0sMbZn0RCh7_79gYWvbJdw",
+      "retained_candidates": 4,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Gleiten tv",
+      "channel_id": "UCnazyqTEzCK5L7pBwMkX4-w",
+      "retained_candidates": 11,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Hadou BRUNNER",
+      "channel_id": "UCsDKrp7NgTlMDC-0roAY2gw",
+      "retained_candidates": 11,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "HALF-LIFE",
+      "channel_id": "UCw_jEN8inQNDTjLPPc_4oPA",
+      "retained_candidates": 6,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Heflav SUP",
+      "channel_id": "UCuPgNY2HCMjUutyqjVzGAeQ",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "hoppline",
+      "channel_id": "UCcoMkDM1ttcSti319laDFjg",
+      "retained_candidates": 5,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "KitePaddleSurf",
+      "channel_id": "UC_kkkSzXTvjXWRawqQge14g",
+      "retained_candidates": 6,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Liquid Blue Cabarete",
+      "channel_id": "UCl5zIGj7XVEOVdxvzjjd_Ww",
+      "retained_candidates": 5,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "MACkiteboarding",
+      "channel_id": "UCgaSOa5qTpPIq-hR8vRRy5A",
+      "retained_candidates": 2,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Nature Kite",
+      "channel_id": "UCe9kdFZh_CutpGO5WSjzK-Q",
+      "retained_candidates": 4,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Pakaa Foil",
+      "channel_id": "UCibszUt5J2BVGh_wBjqJVJw",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Pasty Adventures",
+      "channel_id": "UCSOPNqdhYEgErM0vT-9ErEg",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Reactive Team",
+      "channel_id": "UCg309ego7_kDnCWS7uzX9nA",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Sup Passion // Foil Magazine",
+      "channel_id": "UCDgz3bNJnClDoJDQ-ZM_9iA",
+      "retained_candidates": 3,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "targadave",
+      "channel_id": "UC7Dbjf_ZCXiMStS_r5iBatw",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "KiteWorld Shop",
+      "channel_id": "UCjE0wgm69FcpOsVieDqO0-A",
+      "retained_candidates": 0,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Tonic Mag",
+      "channel_id": "UCQf8qievrZ8vF680-Ksrq7A",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Twins Foil",
+      "channel_id": "UCgtf21MO8n0j16_jDbFcnwA",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Unbox Ecc",
+      "channel_id": "UCcAlK4Ckqo1IhdZZiwC66-A",
+      "retained_candidates": 5,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Viking Surfcenter",
+      "channel_id": "UCsiVm8v-xvUf_70I2tjiVIw",
+      "retained_candidates": 4,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Wing-Tips",
+      "channel_id": "UCQskfGi1CbczXa1yETDGAEA",
+      "retained_candidates": 4,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Wingfoil Max",
+      "channel_id": "UCDi02grdN7EOVGDQgfsWf_Q",
+      "retained_candidates": 1,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "wingpassion",
+      "channel_id": "UCQOnp2pO-IyQ5mYl_wGSmtw",
+      "retained_candidates": 4,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "wingSURF world",
+      "channel_id": "UC-E67NPBGvCc6SOV2hKzT1w",
+      "retained_candidates": 5,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    },
+    {
+      "publisher": "Wingsurfer",
+      "channel_id": "UCa4wR3eVwZNF60k9ik9_q9Q",
+      "retained_candidates": 8,
+      "errors": [],
+      "coverage": "bounded_search_not_full_channel_archive"
+    }
+  ]
+}
