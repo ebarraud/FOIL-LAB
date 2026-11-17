@@ -271,6 +271,30 @@
       "started_at_utc": "2026-11-17T17:30:47.304857+00:00",
       "updated_at_utc": "2026-11-17T17:31:40.197864+00:00",
       "expires_at_utc": "2026-11-17T17:51:40.197864+00:00"
+    },
+    {
+      "video_id": "gfFDO4eIPZY",
+      "status": "completed",
+      "step": "Trois tests Takoon lus intégralement ; quatre volumes contextualisés sans équivalence gonflable/rigide",
+      "started_at_utc": "2026-11-17T17:31:50.693781+00:00",
+      "updated_at_utc": "2026-11-17T17:32:44.684054+00:00",
+      "expires_at_utc": "2026-11-17T17:52:44.684054+00:00"
+    },
+    {
+      "video_id": "kOnOMWTcOmI",
+      "status": "completed",
+      "step": "Trois textes Duotone lus ; cinq tailles historiques documentées, Air séparée des essais réels",
+      "started_at_utc": "2026-11-17T17:32:52.795958+00:00",
+      "updated_at_utc": "2026-11-17T17:33:43.940871+00:00",
+      "expires_at_utc": "2026-11-17T17:53:43.940871+00:00"
+    },
+    {
+      "video_id": "TLuTPpSWk80",
+      "status": "completed",
+      "step": "AFS Evo/Enduro et pack Slingshot lus ; essais par taille séparés des conseils de gamme",
+      "started_at_utc": "2026-11-17T17:33:57.437324+00:00",
+      "updated_at_utc": "2026-11-17T17:35:08.679076+00:00",
+      "expires_at_utc": "2026-11-17T17:55:08.679076+00:00"
     }
   ]
 }

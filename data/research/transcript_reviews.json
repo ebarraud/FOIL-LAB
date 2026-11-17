@@ -6400,6 +6400,431 @@
           "limits": "Aucun essai de vrais primo-débutants ni des grandes tailles dans ce récit."
         }
       ]
+    },
+    {
+      "video_id": "gfFDO4eIPZY",
+      "model": "Takoon Glide Midlength 6’4 95 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "086fecce2e055892bb274e13070e859b834e88a9885082b22b5983d6612ad6c1",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "board_wing_lightwind",
+      "integration": "deferred",
+      "integration_reason": "95 L ajoutée au catalogue avec contexte lac et réserve clapot. Aucun gain de surface ou seuil de vent automatique ; matériel reçu de Takoon, traduction probable.",
+      "claims": [
+        {
+          "start_s": 169,
+          "end_s": 231,
+          "dimension": "taille",
+          "statement_fr": "6’4 de 95 L présentée comme la taille essayée ; largeur annoncée 23 pouces et peinture jugée sensible aux marques.",
+          "limits": "Dimensions et poids du récit non contrôlés fabricant ; pas les autres volumes de la gamme."
+        },
+        {
+          "start_s": 379,
+          "end_s": 459,
+          "dimension": "reglages",
+          "statement_fr": "Rails longs et entrées de T-nuts appréciés pour montage et réglage ; position des pieds/foil nécessite adaptation.",
+          "limits": "La position médiane suggérée n’est pas une règle pour tous les foils."
+        },
+        {
+          "start_s": 458,
+          "end_s": 539,
+          "dimension": "contexte",
+          "statement_fr": "Rider 80 kg, lacs de Moisson et Serre-Ponçon ; foil Flare 1050 et wing V3 Pro 5,5, sessions très légères annoncées autour de 7–12 nœuds.",
+          "limits": "Technique de pumping expérimentée ; vent estimé, pas une plage basse garantie."
+        },
+        {
+          "start_s": 538,
+          "end_s": 639,
+          "dimension": "stabilite_depart",
+          "statement_fr": "Départ apprécié mais stabilité à l’arrêt plus délicate dans le clapot malgré 95 L ; glisse facilitant le lancement.",
+          "limits": "Ne pas confondre volume suffisant et équilibre facile ; aucune réduction universelle de foil/wing."
+        },
+        {
+          "start_s": 675,
+          "end_s": 752,
+          "dimension": "limites_commerciales",
+          "statement_fr": "L’auteur remercie Takoon pour l’envoi de matériel. Surf et vent fort sont recommandés, alors que le contexte d’essai décrit est surtout lac et vent léger.",
+          "limits": "Ne pas compter ces programmes extrapolés comme essais réalisés ; traduction anglaise probable du français."
+        }
+      ]
+    },
+    {
+      "video_id": "BqgSD3NDuzU",
+      "model": "Takoon Glide Midlength Air 6’3 110 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "61fc105c9a015f58642a18c66229853f45cf9dcbb031d93af361037e27f13d25",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "board_wing_inflatable",
+      "integration": "deferred",
+      "integration_reason": "110 L ajoutée au catalogue. Rejeter l’équivalence automatique gonflable moins 20 L ; stabilité et sensation de pad documentées avec contexte réel.",
+      "claims": [
+        {
+          "start_s": 167,
+          "end_s": 211,
+          "dimension": "taille",
+          "statement_fr": "Glide Midlength Air 6’3 de 110 L annoncée essayée ; autres tailles 90/100 L uniquement décrites.",
+          "limits": "Traduction probable, dimensions exactes et pression à vérifier dans le manuel de la version."
+        },
+        {
+          "start_s": 248,
+          "end_s": 325,
+          "dimension": "transport",
+          "statement_fr": "Sac compact, pompe et vis spécifiques fournis selon le récit ; sangles du sac frottant au sol signalées.",
+          "limits": "Pas de promesse de poids bagage, résistance absolue ou contenu actuel du colis."
+        },
+        {
+          "start_s": 559,
+          "end_s": 641,
+          "dimension": "contexte_stabilite",
+          "statement_fr": "Rider 80 kg, lagune et mer assez plate au Portugal ; Flare 1400/1050 et wing 5,5. 110 L jugée stable une fois debout.",
+          "limits": "L’équivalence annoncée avec 90 L rigide est une opinion non calibrée ; ne pas soustraire 20 L dans le moteur."
+        },
+        {
+          "start_s": 640,
+          "end_s": 714,
+          "dimension": "depart_rigidite",
+          "statement_fr": "Départ jugé intermédiaire entre Glide Air et Escape Air ; pad épais donnant une sensation plus souple, rigidité liée au gonflage.",
+          "limits": "Pas de protocole identique ni mesure de rigidité ; pression du manuel à respecter."
+        },
+        {
+          "start_s": 714,
+          "end_s": 820,
+          "dimension": "ergonomie_limites",
+          "statement_fr": "Touchettes et manœuvres appréciées ; strap arrière jugé trop reculé pour sa position. Matériel envoyé par Takoon.",
+          "limits": "Wing réellement testée ; SUP/parawing cités comme usages possibles sans essai détaillé distinct."
+        }
+      ]
+    },
+    {
+      "video_id": "dLe2dhRydLo",
+      "model": "Takoon Ultraglide 6’2 80 L / Glide Midlength 5’10 75 L",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "ef11f2da6333a6a246b0afd22b9a722276904e4f7e0b0518f6b3eac12de051ec",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "board_wing_parawing_comparison",
+      "integration": "deferred",
+      "integration_reason": "Deux tailles documentées au catalogue avec différences de pont et redécollage. Pas de règle générale de performance : volumes, poids et longueurs différents.",
+      "claims": [
+        {
+          "start_s": 6,
+          "end_s": 137,
+          "dimension": "tailles",
+          "statement_fr": "Ultraglide 6’2 80 L comparée à Glide Midlength 5’10 75 L ; poids avec pad annoncés environ 5,8 et 5,2 kg.",
+          "limits": "Déclarations du testeur ; pas de contrôle dimensionnel ni mesure FOIL LAB."
+        },
+        {
+          "start_s": 241,
+          "end_s": 342,
+          "dimension": "depart_touchettes",
+          "statement_fr": "L’Ultraglide repart un peu plus tôt et tolère les touchettes dans ses sessions wing/parawing très légères.",
+          "limits": "Vent non mesuré, montage initial partiellement mal transcrit ; aucun seuil de décollage garanti."
+        },
+        {
+          "start_s": 339,
+          "end_s": 469,
+          "dimension": "pont_maniabilite",
+          "statement_fr": "Préférence personnelle pour pont plus creusé, largeur et compacité de la Glide Midlength en carving/surf ; Ultraglide plus élancée.",
+          "limits": "Comparaison 75 L contre 80 L et poids différents ; pas un effet isolé de gamme."
+        },
+        {
+          "start_s": 468,
+          "end_s": 553,
+          "dimension": "programme",
+          "statement_fr": "L’Ultraglide est préférée pour relance dans le très léger et compléter une compacte ; écart moins sensible si pumping actif.",
+          "limits": "Pas de gain de vitesse de freeride démontré, ni d’obligation de changement de board."
+        },
+        {
+          "start_s": 581,
+          "end_s": 662,
+          "dimension": "gabarit",
+          "statement_fr": "Rider 62 kg : 75 L Glide Midlength et 80 L Ultraglide choisies pour parawing ; déconseille ces petites tailles pour un tout débutant.",
+          "limits": "Conseil de réserve de volume propre à ce rider, pas une norme +10/+30 L universelle."
+        }
+      ]
+    },
+    {
+      "video_id": "kOnOMWTcOmI",
+      "model": "Duotone Skybrid SLS 2025 55 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "3439c22cae4d691864d26fd81d696750b6a2406a06fb6be230e9df748ea9c714",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "board_wing_and_foil_drive",
+      "integration": "deferred",
+      "integration_reason": "55 L SLS 2025 au catalogue, séparée de la 2026. Réserve de réception Foil Drive conservée dans le contexte assisté uniquement, pas une propriété universelle du carbone.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 35,
+          "dimension": "provenance",
+          "statement_fr": "Board de démonstration prêtée par Duotone plusieurs mois selon l’auteur.",
+          "limits": "Prêt de marque déclaré, même si l’auteur dit la vidéo non rémunérée."
+        },
+        {
+          "start_s": 72,
+          "end_s": 115,
+          "dimension": "taille",
+          "statement_fr": "Skybrid SLS 2025 de 55 L, annoncée 5’4 et 20 pouces de large.",
+          "limits": "Poids du rider non donné, dimensions du récit non contrôle fabricant."
+        },
+        {
+          "start_s": 172,
+          "end_s": 254,
+          "dimension": "touchettes",
+          "statement_fr": "Récupération des touchettes appréciée en wing et en Foil Drive, volontairement provoquées selon le récit.",
+          "limits": "Sans protocole ni mesures ; ne pas garantir qu’une autre taille rebondit de même."
+        },
+        {
+          "start_s": 356,
+          "end_s": 486,
+          "dimension": "foil_drive",
+          "statement_fr": "Foil Drive peut masquer la poignée ; réception parfois perturbée lorsque la board carbone reste peu émergée.",
+          "limits": "Configuration exacte de batterie/antenne à contrôler ; ne pas extrapoler ce cas à tous les foils assistés."
+        },
+        {
+          "start_s": 522,
+          "end_s": 624,
+          "dimension": "bilan",
+          "statement_fr": "55 L préférée à d’autres 55 L pour son départ et sa polyvalence ; état jugé bon après le prêt.",
+          "limits": "Comparateurs non nommés ; flottabilité ressentie ne prouve pas un volume supérieur ni une durée de vie."
+        }
+      ]
+    },
+    {
+      "video_id": "A7AoRWtxtSI",
+      "model": "Duotone Skybrid · présentation des constructions",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "4a692dcaf7d84d5daf299f2c0f4f74c78ff523016c63b1d7f2c8554c2bd22f03",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "commercial_range_overview",
+      "integration": "deferred",
+      "integration_reason": "Présentation de gamme documentée ; aucun volume exact essayé isolé, donc aucune nouvelle fiche testée. Les attentes sur gonflable ne deviennent pas un essai.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 85,
+          "dimension": "sls",
+          "statement_fr": "Équipe d’un centre de test décrivant une expérience avec Skybrid SLS, dont un exemplaire de préproduction.",
+          "limits": "Volume et montage exacts non donnés ; discours de magasin."
+        },
+        {
+          "start_s": 100,
+          "end_s": 193,
+          "dimension": "gamme",
+          "statement_fr": "Différences de constructions et de volumes disponibles décrites ; rails longs appréciés.",
+          "limits": "Catalogue de la période, pas disponibilité actuelle vérifiée ni comparaison instrumentée."
+        },
+        {
+          "start_s": 191,
+          "end_s": 352,
+          "dimension": "gonflable",
+          "statement_fr": "Version gonflable présentée pour transport et rangement ; attentes favorables exprimées.",
+          "limits": "Pas de session explicitement identifiée sur cette Skybrid gonflable ; autres gonflables cités ne prouvent pas son essai."
+        }
+      ]
+    },
+    {
+      "video_id": "uBKB-yB5FE0",
+      "model": "Duotone Skybrid / Sky Style 2025",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "377818a670488b9db6ef9a273b0bba356224ddef22e3a45fefaa0aa9c26736ef",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "board_range_with_specific_tests",
+      "integration": "deferred",
+      "integration_reason": "Fiches de volumes Skybrid 70/85 et Sky Style SLS 65 / standard 75 documentées selon récit ; variantes historiques séparées de 2026. Skybrid Air non essayée, non marquée testée.",
+      "claims": [
+        {
+          "start_s": 47,
+          "end_s": 147,
+          "dimension": "gammes",
+          "statement_fr": "Sky Style SLS et standard présentées avec constructions et volumes différents.",
+          "limits": "La disponibilité d’une taille ne suffit pas à la compter essayée."
+        },
+        {
+          "start_s": 336,
+          "end_s": 399,
+          "dimension": "skybrid_tailles",
+          "statement_fr": "Rider 76 kg utilise Skybrid 70 L depuis plusieurs mois et décrit aussi un essai en 85 L.",
+          "limits": "Construction exacte des deux exemplaires non isolée dans ce passage ; tailles de 6’/5’10 citées sans volume univoque."
+        },
+        {
+          "start_s": 397,
+          "end_s": 478,
+          "dimension": "programme",
+          "statement_fr": "Skybrid appréciée pour freeride, freefly et courbes ; Sky Style préférée pour freestyle plus compact.",
+          "limits": "Capacité de saut décrite sans garantie de solidité ni validation de montage complet."
+        },
+        {
+          "start_s": 490,
+          "end_s": 578,
+          "dimension": "vent_reel",
+          "statement_fr": "70 L essayée avec Eagle X 1000 et Strike V4 5 m² ; le testeur avertit que les images trompent et que des risées vers 14 nœuds aident au départ.",
+          "limits": "Vent estimé 8–14 nœuds, pas de décollage garanti à 5–7 nœuds."
+        },
+        {
+          "start_s": 602,
+          "end_s": 652,
+          "dimension": "sky_style_sls",
+          "statement_fr": "Sky Style SLS 65 L appréciée pour légèreté ressentie, manœuvres et programme freestyle.",
+          "limits": "Gabarit/réglages pas isolés pour ce passage ; pas de mesure d’amélioration face à l’ancien modèle."
+        },
+        {
+          "start_s": 664,
+          "end_s": 712,
+          "dimension": "sky_style_standard",
+          "statement_fr": "Sky Style standard 75 L essayée, jugée plus encombrante mais intéressante pour stabilité et progression.",
+          "limits": "Préférence liée à l’habitude de boards étroites, pas un classement de qualité."
+        },
+        {
+          "start_s": 710,
+          "end_s": 808,
+          "dimension": "air_non_testee",
+          "statement_fr": "Versions Skybrid standard et Air annoncées pour plus tard ; la gonflable est explicitement encore à essayer.",
+          "limits": "Ne pas inventer une version appelée Skybrid bois ; conserver les désignations et dates du fabricant."
+        }
+      ]
+    },
+    {
+      "video_id": "TLuTPpSWk80",
+      "model": "AFS Evo 950 / 1250 / 1450 / 1650",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "e17cb56c09d54cbc43897fc8af363a3c87519e2f24eb21cfe34c86b583cb0741",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "range_description_with_personal_1450_use",
+      "integration": "deferred",
+      "integration_reason": "1450 reliée au catalogue existant sur usage personnel explicite. Le discours sur les autres tailles reste conseil de gamme, pas quatre essais indépendants ni recommandation automatique de réduction.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 146,
+          "dimension": "perimetre",
+          "statement_fr": "Présentation de gamme Evo de magasin : 950/1250/1450/1650 ; comparaison au Flyer comme étape de progression.",
+          "limits": "Affirmation 90 % des riders non vérifiée ; pas de données de marché ni de premiers vols observés."
+        },
+        {
+          "start_s": 142,
+          "end_s": 165,
+          "dimension": "1450_personnel",
+          "statement_fr": "Le présentateur utilise personnellement l’Evo 1450 de démonstration pour vent léger et navigation tranquille.",
+          "limits": "Poids, vent et montage précis non isolés ; aucune plage de poids garantie."
+        },
+        {
+          "start_s": 303,
+          "end_s": 440,
+          "dimension": "1450_conseil",
+          "statement_fr": "1450 proposée pour progresser depuis Flyer 1800 et travailler manœuvres avec davantage de glisse.",
+          "limits": "Recommandation de magasin et retours de clients, pas essai contrôlé de chaque transition."
+        },
+        {
+          "start_s": 439,
+          "end_s": 528,
+          "dimension": "1250_conseil",
+          "statement_fr": "1250 décrite comme autre option de progression ; absente de l’étagère filmée.",
+          "limits": "Possession/présentation ne prouve pas une session précise ; pas de diminution de surface automatique."
+        },
+        {
+          "start_s": 525,
+          "end_s": 728,
+          "dimension": "950_stabs",
+          "statement_fr": "950 décrite plus vive ; choix de stabilisateurs présenté comme moyen de privilégier contrôle, glisse ou surf.",
+          "limits": "Plusieurs noms mal transcrits ; références et compatibilités à confirmer avant conseil de montage."
+        },
+        {
+          "start_s": 609,
+          "end_s": 668,
+          "dimension": "modele_imaginaire",
+          "statement_fr": "Evo 800 est un souhait du présentateur pour compléter la gamme.",
+          "limits": "Ne pas créer une aile Evo 800 existante à partir de ce souhait."
+        }
+      ]
+    },
+    {
+      "video_id": "8Mf-D-pKrZ8",
+      "model": "AFS Enduro 700 / 900 / 1100",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "f821dac7a0a9ae9211519c2a16579a4e5b05a1b6809b498b81d54a07e0966989",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wingfoil_same_session_size_comparison",
+      "integration": "deferred",
+      "integration_reason": "Trois tailles rattachées au catalogue existant avec observations propres. Le repère 70 kg / 19–23 nœuds ne devient pas un seuil universel ; 1300 seulement conseillée, non essayée.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 107,
+          "dimension": "protocole",
+          "statement_fr": "Comparaison annoncée sur même board, même position, même stab et même wing ; mât UHM 85 choisi pour les trois tailles. 700/900 prêtées par AFS UK.",
+          "limits": "Modèle de stabilisateur non donné ; mât Skinny explicitement écarté du 1100, compatibilité à confirmer au fabricant."
+        },
+        {
+          "start_s": 147,
+          "end_s": 270,
+          "dimension": "1100",
+          "statement_fr": "1100 appréciée pour petites ondes, glisse et pumping entre sections tout en restant joueuse.",
+          "limits": "Vitesse 21 nœuds évoquée d’une autre session, non mesure comparative du jour."
+        },
+        {
+          "start_s": 307,
+          "end_s": 434,
+          "dimension": "900",
+          "statement_fr": "À 70 kg sur midlength 70 L, wing 4 m² et vent voisin de 20 nœuds, 900 jugée plus vive et rapide que 1100 avec encore de la glisse.",
+          "limits": "Vent annoncé 19–23 nœuds ; configuration favorable, aucune facilité universelle déduite."
+        },
+        {
+          "start_s": 519,
+          "end_s": 682,
+          "dimension": "700",
+          "statement_fr": "700 ressentie nettement plus rapide et vive, avec moins de soutien bas et perte du vol malgré le pumping dans une séquence.",
+          "limits": "Sensations qualitatives, sans vitesse comparée mesurée ni vent minimum."
+        },
+        {
+          "start_s": 737,
+          "end_s": 894,
+          "dimension": "bilan_tailles",
+          "statement_fr": "1100 favorise récupération/pumping ; 900 préférée ce jour pour équilibre vitesse/jeu ; 700 plus exigeante et sportive.",
+          "limits": "Le testeur reconnaît l’influence de la houle et de la board ; ne pas classer toutes pratiques avec ces seules sessions."
+        }
+      ]
+    },
+    {
+      "video_id": "8zAMERKef5M",
+      "model": "Slingshot Phantasm Quick Start · pack historique",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "2868812e10e7123875030e8773c38cb3591d0db8b7cfb87e94ad7cc67c9970dd",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "commercial_package_description",
+      "integration": "deferred",
+      "integration_reason": "Présentation de pack documentée sans taille avant identifiable. Aucune fiche testée ni compatibilité intergénération créée ; rechercher référence exacte et essai sur l’eau avant moteur.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 79,
+          "dimension": "pack",
+          "statement_fr": "Magasin présentant un pack Quick Start, mât annoncé 82 cm et board 105 L.",
+          "limits": "Surface/référence d’aile avant non indiquée ; poids du débutant non donné."
+        },
+        {
+          "start_s": 75,
+          "end_s": 154,
+          "dimension": "conseils",
+          "statement_fr": "Soutien à basse vitesse et stabilité présentés comme intérêts du pack pour apprendre.",
+          "limits": "Conseils verbaux de vente, pas un test instrumenté ni première session documentée."
+        },
+        {
+          "start_s": 168,
+          "end_s": 270,
+          "dimension": "evolutivite",
+          "statement_fr": "Évolution par changement d’ailes/stab évoquée ; produit décrit comme fin de stock.",
+          "limits": "Ne pas garantir compatibilité actuelle de tout Phantasm, ni réutiliser prix/promo comme informations actuelles."
+        }
+      ]
     }
   ]
 }

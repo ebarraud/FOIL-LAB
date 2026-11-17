@@ -108,6 +108,46 @@
       "url": "video-analysis/reviews.html?video=l2HmFjc7eiI",
       "method": "Transcription KiteWorld Shop lue intégralement ; audio non vérifié.",
       "limits": "Montage petit fuselage/tail120 avancé. Sauts interdits selon le fabricant ; pas d’équivalence de portance200–300cm²."
+    },
+    {
+      "brand": "AFS",
+      "model": "Evo",
+      "size": 1450,
+      "video_id": "TLuTPpSWk80",
+      "url": "video-analysis/reviews.html?video=TLuTPpSWk80",
+      "method": "Transcription intégralement lue ; audio non vérifié.",
+      "limits": "Avis de magasin, pas de plage de vent/poids garantie ; stabilisateur exact à confirmer.",
+      "reason": "Usage personnel du 1450 en vent léger et navigation tranquille ; montage non isolé."
+    },
+    {
+      "brand": "AFS",
+      "model": "Enduro",
+      "size": 700,
+      "video_id": "8Mf-D-pKrZ8",
+      "url": "video-analysis/reviews.html?video=8Mf-D-pKrZ8",
+      "method": "Transcription intégralement lue ; audio non vérifié.",
+      "limits": "Avis de magasin, pas de plage de vent/poids garantie ; stabilisateur exact à confirmer.",
+      "reason": "Plus rapide et vive, mais moins de soutien bas et de marge au pumping pour ce testeur."
+    },
+    {
+      "brand": "AFS",
+      "model": "Enduro",
+      "size": 900,
+      "video_id": "8Mf-D-pKrZ8",
+      "url": "video-analysis/reviews.html?video=8Mf-D-pKrZ8",
+      "method": "Transcription intégralement lue ; audio non vérifié.",
+      "limits": "Avis de magasin, pas de plage de vent/poids garantie ; stabilisateur exact à confirmer.",
+      "reason": "Préférée ce jour pour vitesse/jeu, avec glisse entre sections ; 70 kg, wing 4 m², vers 20 nœuds."
+    },
+    {
+      "brand": "AFS",
+      "model": "Enduro",
+      "size": 1100,
+      "video_id": "8Mf-D-pKrZ8",
+      "url": "video-analysis/reviews.html?video=8Mf-D-pKrZ8",
+      "method": "Transcription intégralement lue ; audio non vérifié.",
+      "limits": "Avis de magasin, pas de plage de vent/poids garantie ; stabilisateur exact à confirmer.",
+      "reason": "Glisse et récupération au pumping privilégiées ; vitesse ressentie plus limitée que 900/700."
     }
   ]
 }

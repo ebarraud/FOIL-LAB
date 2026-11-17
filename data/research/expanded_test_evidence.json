@@ -866,6 +866,213 @@
         "setup": "Montage non isolé par taille dans ce texte ; 1300/1450 non essayées.",
         "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
       }
+    },
+    {
+      "type": "board",
+      "key": "video|gfFDO4eIPZY|Glide Midlength 6’4 · version du test|95",
+      "brand": "Takoon",
+      "name": "Glide Midlength 6’4 · version du test",
+      "size": 95,
+      "sizeLabel": "95 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          95
+        ],
+        "f": "https://www.youtube.com/watch?v=gfFDO4eIPZY",
+        "i": "video-analysis/reviews.html?video=gfFDO4eIPZY",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Départ apprécié sur lac à 80 kg avec Flare 1050 et wing 5,5.",
+        "lim": "Clapot à l’arrêt plus délicat ; vent estimé et technique du rider, pas de seuil garanti ; matériel fourni.",
+        "setup": "Wing V3 Pro 5,5 ; Flare 1050 selon texte traduit.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|BqgSD3NDuzU|Glide Midlength Air 6’3 · version du test|110",
+      "brand": "Takoon",
+      "name": "Glide Midlength Air 6’3 · version du test",
+      "size": 110,
+      "sizeLabel": "110 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          110
+        ],
+        "f": "https://www.youtube.com/watch?v=BqgSD3NDuzU",
+        "i": "video-analysis/reviews.html?video=BqgSD3NDuzU",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "À 80 kg, stabilité une fois debout et transport appréciés ; sensation de pad souple.",
+        "lim": "Pas d’équivalence universelle gonflable/rigide ; test surtout plat et wing, matériel fourni.",
+        "setup": "Flare 1400/1050 et wing 5,5 ; montage/pression à confirmer par manuel.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|dLe2dhRydLo|Ultraglide 6’2 · version du test|80",
+      "brand": "Takoon",
+      "name": "Ultraglide 6’2 · version du test",
+      "size": 80,
+      "sizeLabel": "80 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          80
+        ],
+        "f": "https://www.youtube.com/watch?v=dLe2dhRydLo",
+        "i": "video-analysis/reviews.html?video=dLe2dhRydLo",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Relance légère privilégiée, pont moins creusé selon testeur.",
+        "lim": "Comparaison de volumes et poids différents ; pas de gain universel de vent ni compatibilité tous foils.",
+        "setup": "Sessions wing/parawing ; dimensions selon récit, pas vérification fabricant.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|dLe2dhRydLo|Glide Midlength 5’10 · version du test|75",
+      "brand": "Takoon",
+      "name": "Glide Midlength 5’10 · version du test",
+      "size": 75,
+      "sizeLabel": "75 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          75
+        ],
+        "f": "https://www.youtube.com/watch?v=dLe2dhRydLo",
+        "i": "video-analysis/reviews.html?video=dLe2dhRydLo",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Compacité, pont et carving préférés par le testeur de 62 kg.",
+        "lim": "Comparaison de volumes et poids différents ; pas de gain universel de vent ni compatibilité tous foils.",
+        "setup": "Sessions wing/parawing ; dimensions selon récit, pas vérification fabricant.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|kOnOMWTcOmI|Skybrid SLS 2025|55",
+      "brand": "Duotone",
+      "name": "Skybrid SLS 2025",
+      "size": 55,
+      "sizeLabel": "55 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          55
+        ],
+        "f": "https://www.youtube.com/watch?v=kOnOMWTcOmI",
+        "i": "video-analysis/reviews.html?video=kOnOMWTcOmI",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Départ et récupération des touchettes appréciés au long cours en wing.",
+        "lim": "Prêt Duotone ; rider non pesé ; réserve de réception pour sa configuration Foil Drive.",
+        "setup": "Wing et Foil Drive Gen 2 annoncés ; interfaces et antenne à confirmer.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|uBKB-yB5FE0|Skybrid 2025 · construction non isolée|70",
+      "brand": "Duotone",
+      "name": "Skybrid 2025 · construction non isolée",
+      "size": 70,
+      "sizeLabel": "70 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          70
+        ],
+        "f": "https://www.youtube.com/watch?v=uBKB-yB5FE0",
+        "i": "video-analysis/reviews.html?video=uBKB-yB5FE0",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Rider 76 kg, Eagle X 1000 / Strike V4 5 ; risées nécessaires au départ.",
+        "lim": "Retour de magasin, vent estimé ; pas d’extrapolation aux versions Air ou 2026.",
+        "setup": "Montage précisé seulement pour Skybrid 70 L dans ce récit.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|uBKB-yB5FE0|Skybrid 2025 · construction non isolée|85",
+      "brand": "Duotone",
+      "name": "Skybrid 2025 · construction non isolée",
+      "size": 85,
+      "sizeLabel": "85 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          85
+        ],
+        "f": "https://www.youtube.com/watch?v=uBKB-yB5FE0",
+        "i": "video-analysis/reviews.html?video=uBKB-yB5FE0",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Contrôle apprécié dans un essai bref, sans montage distinct précisé.",
+        "lim": "Retour de magasin, vent estimé ; pas d’extrapolation aux versions Air ou 2026.",
+        "setup": "Montage précisé seulement pour Skybrid 70 L dans ce récit.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|uBKB-yB5FE0|Sky Style SLS 2025|65",
+      "brand": "Duotone",
+      "name": "Sky Style SLS 2025",
+      "size": 65,
+      "sizeLabel": "65 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          65
+        ],
+        "f": "https://www.youtube.com/watch?v=uBKB-yB5FE0",
+        "i": "video-analysis/reviews.html?video=uBKB-yB5FE0",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Manœuvres et orientation freestyle appréciées.",
+        "lim": "Retour de magasin, vent estimé ; pas d’extrapolation aux versions Air ou 2026.",
+        "setup": "Montage précisé seulement pour Skybrid 70 L dans ce récit.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|uBKB-yB5FE0|Sky Style standard 2025|75",
+      "brand": "Duotone",
+      "name": "Sky Style standard 2025",
+      "size": 75,
+      "sizeLabel": "75 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          75
+        ],
+        "f": "https://www.youtube.com/watch?v=uBKB-yB5FE0",
+        "i": "video-analysis/reviews.html?video=uBKB-yB5FE0",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Stabilité appréciée, plus encombrante selon ce rider.",
+        "lim": "Retour de magasin, vent estimé ; pas d’extrapolation aux versions Air ou 2026.",
+        "setup": "Montage précisé seulement pour Skybrid 70 L dans ce récit.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
     }
   ]
 }
