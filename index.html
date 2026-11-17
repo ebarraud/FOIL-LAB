@@ -627,8 +627,8 @@ fetch('./data/research/pilot_3_video_tests_2026-11-15.json',{cache:'no-cache'}).
  const host=document.getElementById('researchSources');
  if(host){
   const panel=document.createElement('section');panel.className='tip';
-  const title=document.createElement('h3');title.textContent='Essais vidéo par taille : AFS, Duotone et KT';panel.append(title);
-  const note=document.createElement('p');note.className='small';note.textContent='30 observations minutées issues de trois transcriptions. Choisissez une taille pour consulter les sensations, montages et limites. Glide 825 et Halo 670/800 peuvent désormais être proposés sous conditions de niveau et de programme, sans notes numériques de performance.';panel.append(note);
+  const title=document.createElement('h3');title.textContent='Détail des trois essais pilotes : AFS, Duotone et KT';panel.append(title);
+  const note=document.createElement('p');note.className='small';note.textContent='Cet encadré conserve le détail des trois pilotes. L’ensemble des autres analyses, écrites et vidéo, est accessible dans le registre complet des preuves ci-dessous et dans le catalogue.';panel.append(note);
   const select=document.createElement('select');select.setAttribute('aria-label','Consulter les observations vidéo par taille');
   const records=[];
   for(const e of d.entries)for(const size of e.tested_sizes_cm2){const o=document.createElement('option');o.value=String(records.length);o.textContent=e.model+' · '+size+' cm²';select.append(o);records.push({e,size})}

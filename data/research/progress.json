@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T17:44:20.638422+00:00",
+  "updated_at_utc": "2026-11-17T17:50:56.677806+00:00",
   "collection_updated_at_utc": "2026-11-17T17:09:16.872871+00:00",
   "retry_not_before_utc": null,
   "collection_state": "completed_with_unavailable",
@@ -135,7 +135,7 @@
       "name": "KiteWorld Shop",
       "channel_id": "UCjE0wgm69FcpOsVieDqO0-A",
       "url": "https://www.youtube.com/@kiteworldshop",
-      "status": "two_video_links_verified_by_oembed_collection_pending"
+      "status": "three_transcript_reviews_documented"
     },
     {
       "name": "Tonic Mag",
@@ -309,7 +309,7 @@
       "failure": null,
       "integration_reason": "Préférence H130 versus PX145 injectée dans le conseil de montage du Glide 825 selon programme; pas de score ni compatibilité garantie.",
       "review_kind": "technical_review",
-      "publisher": "Pasty Adventures ",
+      "publisher": "Pasty Adventures",
       "channel_id": "UCSOPNqdhYEgErM0vT-9ErEg",
       "activity": {
         "video_id": "pPXyFWHSd-U",
@@ -1846,7 +1846,7 @@
       "failure": null,
       "integration_reason": "Board pertinente mais présentation limitée : vérifier fiche Rocket Team 86 et obtenir un essai contextualisé avant classement.",
       "review_kind": "limited_content",
-      "publisher": "Wingfoil Max ",
+      "publisher": "Wingfoil Max",
       "channel_id": "UCDi02grdN7EOVGDQgfsWf_Q",
       "activity": null,
       "reading_scope": "transcript_review"
@@ -2713,7 +2713,7 @@
       "integration": "pending",
       "claims": 0,
       "discovered_on": "2026-07-07",
-      "publisher": "Hydro Gav ",
+      "publisher": "Hydro Gav",
       "channel_id": "UClKoHRH-qY-A6YZoXe-eGYg",
       "activity": null,
       "review_kind": null,
@@ -2868,7 +2868,7 @@
       "failure": null,
       "integration_reason": "Vérifierfiche86L/générationavantcatalogue. Conservercompromiswing/parawing etpréférencespersonnelles, sansnotedeperformance.",
       "review_kind": "technical_review",
-      "publisher": "Hydro Gav ",
+      "publisher": "Hydro Gav",
       "channel_id": "UClKoHRH-qY-A6YZoXe-eGYg",
       "activity": null,
       "discovered_on": "2026-05-27",
@@ -3124,7 +3124,7 @@
       "failure": null,
       "integration_reason": "Analyse documentée ; ne pas ajouter comme SLS 2026. Le titre annonce 2027 mais le texte mélange longueur 5 pieds 5 et 60 L ; contrôler fiche, génération, poids et notice des valves avant intégration.",
       "review_kind": "technical_review",
-      "publisher": "Paul's Gear Lab ",
+      "publisher": "Paul's Gear Lab",
       "channel_id": "UC5qkQOxnK7o4mZn8h1eqT5A",
       "activity": null,
       "discovered_on": "2026-04-15",

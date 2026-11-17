@@ -32,6 +32,16 @@ class DashboardTests(unittest.TestCase):
 if __name__=='__main__':unittest.main()
 
 class ReadingScopeTests(unittest.TestCase):
+    def test_publisher_spacing_does_not_create_false_missing_channel(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            (root/'research').mkdir()
+            (root/'data/research').mkdir(parents=True)
+            (root/'research/BATCH_STATUS.json').write_text(json.dumps({'results':[{'video_id':'aaaaaaaaaaa','title':'Test','status':'timed_transcript_received'}]}))
+            (root/'data/research/video_publishers.json').write_text(json.dumps({'aaaaaaaaaaa':{'publisher':'Known channel ','channel_id':'channel1'}}))
+            (root/'data/research/monitored_publishers.json').write_text(json.dumps({'publishers':[{'name':'Known channel','channel_id':'channel1'}]}))
+            self.assertEqual(build(root)['videos'][0]['publisher'],'Known channel')
+
     def test_scope_qualification_and_catalogue_are_not_motor_integration(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)

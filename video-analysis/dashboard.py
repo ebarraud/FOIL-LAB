@@ -63,6 +63,7 @@ def build(root=Path('.')):
         elif review.get('integration')=='catalogue_documented':
             video['integration']='catalogue_documented'
     publishers=load(root/'data/research/video_publishers.json',{})
+    publisher_names={p['channel_id']:p['name'].strip() for p in load(root/'data/research/monitored_publishers.json',{}).get('publishers',[]) if p.get('channel_id')}
     for row in load(discovery,{}).get('videos',[]):
         vid=row.get('url','').split('v=')[-1].split('&')[0]
         if row.get('publisher'):
@@ -71,6 +72,8 @@ def build(root=Path('.')):
         metadata=publishers.get(video['video_id'],{})
         video['publisher']=metadata.get('publisher') or video.get('publisher')
         video['channel_id']=metadata.get('channel_id') or video.get('channel_id')
+        if video.get('publisher'):
+            video['publisher']=publisher_names.get(video.get('channel_id'),video['publisher'].strip())
     for relation in load(root/'data/research/translation_links.json',{}).get('links',[]):
         video=next((v for v in videos if v['video_id']==relation['video_id']),None)
         if video and video.get('analysis')=='queued' and relation['related_source_id'] in analyses:

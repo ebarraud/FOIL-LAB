@@ -27,7 +27,7 @@ button.secondary{background:transparent;color:var(--text)}button:disabled{opacit
 <div class="kicker">FOIL LAB EXPERT · LABORATOIRE VIDÉO</div>
 <h1>Analyser un essai, passage par passage.</h1>
 <p class="subtitle">Importer une transcription SRT/VTT autorisée, identifier les passages techniques en français, allemand ou anglais et préparer une fiche de preuves. <b>Aucune note de performance n'est attribuée automatiquement.</b></p>
-<p><a href="../index.html">Retour à FOIL LAB</a> · <a href="evidence.html">Consulter les preuves techniques des 3 essais</a></p>
+<p><a href="../index.html">Retour à FOIL LAB</a> · <a href="evidence.html">Consulter toutes les preuves documentées</a></p>
 <section class="panel" aria-label="Import">
 <h2>1. Ajouter une transcription</h2>
 <label for="preset">Essai pilote — préremplir la fiche</label>
@@ -138,7 +138,7 @@ Der Start ist sehr einfach."></textarea>
    source:'user_supplied_timed_transcript',full_video_watched:false,performance_scores:null,
    timed_cues:cues.length,transcript_format:parsed.format,candidates:matches.map(({start,end,text,categories,url,status})=>({start_s:start,end_s:end,excerpt:text.slice(0,240),categories,url,status,confidence:'unassessed'}))};
   $('total').textContent=String(cues.length);$('candidates').textContent=String(matches.length);$('score').textContent='0';
-  $('results').innerHTML=matches.length?matches.slice(0,120).map(m=>
+  $('results').innerHTML=matches.length?matches.map(m=>
    '<div class="entry"><div class="meta">'+(m.start.toFixed(1))+' s · '+
    m.categories.map(x=>'<span class="mark">'+x+'</span>').join('')+'</div><p>'+
    escaped(m.text.slice(0,240))+'</p>'+(m.url?'<a href="'+escaped(m.url)+'" target="_blank" rel="noopener">Ouvrir ce passage</a>':'')+'</div>').join(''):
