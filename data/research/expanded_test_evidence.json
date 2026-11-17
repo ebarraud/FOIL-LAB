@@ -659,6 +659,213 @@
         "setup": "Montage arrière du passage non détaillé ; géométrie fabricant, fuselage Black requis pour PNG V2.",
         "context": "Transcription intégralement lue, audio non contrôlé ; testeur 80 kg, matériel parfois fourni par AXIS."
       }
+    },
+    {
+      "type": "board",
+      "key": "video|letox5nkMmE|Midi · version du test|96",
+      "brand": "North",
+      "name": "Midi · version du test",
+      "size": 96,
+      "sizeLabel": "96 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          96
+        ],
+        "f": "https://www.youtube.com/watch?v=letox5nkMmE",
+        "i": "video-analysis/reviews.html?video=letox5nkMmE",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Wing/parawing et SUP surf ; volume proche du poids du rider de 96–98 kg.",
+        "lim": "SUP downwind à la rame non essayé dans ce récit ; DropBox ne prend pas toutes les platines.",
+        "setup": "Plusieurs foils cités, modèles et interfaces à confirmer.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|r1dEaIpVD-M|Early Bird · version du test|87",
+      "brand": "Indiana",
+      "name": "Early Bird · version du test",
+      "size": 87,
+      "sizeLabel": "87 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          87
+        ],
+        "f": "https://www.youtube.com/watch?v=r1dEaIpVD-M",
+        "i": "video-analysis/reviews.html?video=r1dEaIpVD-M",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Comparaison en wing à 70 kg avec la Super Fly 74 L.",
+        "lim": "Session 15–20 nœuds annoncés ; pas de garantie offshore ; downwind pas encore essayé.",
+        "setup": "Foil et aile non précisés dans ce récit.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|r1dEaIpVD-M|Super Fly · version du test|74",
+      "brand": "Indiana",
+      "name": "Super Fly · version du test",
+      "size": 74,
+      "sizeLabel": "74 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          74
+        ],
+        "f": "https://www.youtube.com/watch?v=r1dEaIpVD-M",
+        "i": "video-analysis/reviews.html?video=r1dEaIpVD-M",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Comparaison en wing à 70 kg avec la Early Bird 87 L.",
+        "lim": "Session 15–20 nœuds annoncés ; pas de garantie offshore ; downwind pas encore essayé.",
+        "setup": "Foil et aile non précisés dans ce récit.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|TrcLcOY1PA4|Swift 2025|80",
+      "brand": "Cabrinha",
+      "name": "Swift 2025",
+      "size": 80,
+      "sizeLabel": "80 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          80
+        ],
+        "f": "https://www.youtube.com/watch?v=TrcLcOY1PA4",
+        "i": "video-analysis/reviews.html?video=TrcLcOY1PA4",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Départ et touchettes appréciés par un rider de 175 lb venant d’une Code 2022.",
+        "lim": "Ambassadeur de marque ; inserts 2025 incompatibles directement avec ses straps habituels.",
+        "setup": "Foil non isolé ; taille proche du poids du rider, pas recommandation débutant.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "board",
+      "key": "video|kZHjNv8pVfM|HIPE Pro 5’1 · version du récit|95",
+      "brand": "GONG",
+      "name": "HIPE Pro 5’1 · version du récit",
+      "size": 95,
+      "sizeLabel": "95 L",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          95
+        ],
+        "f": "https://www.youtube.com/watch?v=kZHjNv8pVfM",
+        "i": "video-analysis/reviews.html?video=kZHjNv8pVfM",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "À 80 kg, préférence pour transport et maniabilité face à une ancienne 110 L.",
+        "lim": "Millésime non confirmé ; volume différent ; plaque saillante à protéger, longévité non démontrée.",
+        "setup": "Gonflable ; foil non précisé dans ce récit.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|9CUmbgOlufY|Atlas · version du test|790",
+      "brand": "KT",
+      "name": "Atlas · version du test",
+      "size": 790,
+      "sizeLabel": "790 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          790
+        ],
+        "f": "https://www.youtube.com/watch?v=9CUmbgOlufY",
+        "i": "video-analysis/reviews.html?video=9CUmbgOlufY",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Glisse et pumping souple appréciés en wing ; seule 790 réellement testée.",
+        "lim": "Test de magasin, vent et gabarit non précisés ; pas de réduction automatique de surface.",
+        "setup": "Montage proposé 85 carbone / stab 170 / fuselage 63 ; cale à déterminer pour ce montage précis.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|MrxDf-_dCJY|Instinct · version du test|720",
+      "brand": "KT",
+      "name": "Instinct · version du test",
+      "size": 720,
+      "sizeLabel": "720 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          720
+        ],
+        "f": "https://www.youtube.com/watch?v=MrxDf-_dCJY",
+        "i": "video-analysis/reviews.html?video=MrxDf-_dCJY",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Réactif, vitesse à conserver en transition ; usage sportif du testeur.",
+        "lim": "Pas de recommandation premier vol déduite de la gamme ; poids et réglages du rider non détaillés.",
+        "setup": "Montage non isolé par taille dans ce texte ; 1300/1450 non essayées.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|MrxDf-_dCJY|Instinct · version du test|920",
+      "brand": "KT",
+      "name": "Instinct · version du test",
+      "size": 920,
+      "sizeLabel": "920 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          920
+        ],
+        "f": "https://www.youtube.com/watch?v=MrxDf-_dCJY",
+        "i": "video-analysis/reviews.html?video=MrxDf-_dCJY",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Pression avant et contrôle délicat lorsque le testeur pousse le rythme.",
+        "lim": "Pas de recommandation premier vol déduite de la gamme ; poids et réglages du rider non détaillés.",
+        "setup": "Montage non isolé par taille dans ce texte ; 1300/1450 non essayées.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
+    },
+    {
+      "type": "foil",
+      "key": "video|MrxDf-_dCJY|Instinct · version du test|1120",
+      "brand": "KT",
+      "name": "Instinct · version du test",
+      "size": 1120,
+      "sizeLabel": "1120 cm²",
+      "tested": true,
+      "entry": {
+        "q": null,
+        "confidence": "med",
+        "tested": [
+          1120
+        ],
+        "f": "https://www.youtube.com/watch?v=MrxDf-_dCJY",
+        "i": "video-analysis/reviews.html?video=MrxDf-_dCJY",
+        "year": "Version du récit ; millésime à confirmer",
+        "reason": "Vol doux après lancement, départ difficile lors de la session à 12 nœuds annoncés.",
+        "lim": "Pas de recommandation premier vol déduite de la gamme ; poids et réglages du rider non détaillés.",
+        "setup": "Montage non isolé par taille dans ce texte ; 1300/1450 non essayées.",
+        "context": "Transcription lue intégralement par assistant ; audio non vérifié. Dimensions et résultats non mesurés par FOIL LAB."
+      }
     }
   ]
 }

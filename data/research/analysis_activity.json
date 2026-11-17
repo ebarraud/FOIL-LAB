@@ -255,6 +255,22 @@
       "started_at_utc": "2026-11-17T17:26:02.673345+00:00",
       "updated_at_utc": "2026-11-17T17:27:40.513293+00:00",
       "expires_at_utc": "2026-11-17T17:47:40.513293+00:00"
+    },
+    {
+      "video_id": "letox5nkMmE",
+      "status": "completed",
+      "step": "Cinq textes lus ; quatre essais documentés, un montage musical non exploitable ; cinq volumes ajoutés",
+      "started_at_utc": "2026-11-17T17:29:20.442939+00:00",
+      "updated_at_utc": "2026-11-17T17:30:39.138640+00:00",
+      "expires_at_utc": "2026-11-17T17:50:39.138640+00:00"
+    },
+    {
+      "video_id": "9CUmbgOlufY",
+      "status": "completed",
+      "step": "Trois textes KT intégralement lus ; quatre tailles documentées sans extrapolation débutant",
+      "started_at_utc": "2026-11-17T17:30:47.304857+00:00",
+      "updated_at_utc": "2026-11-17T17:31:40.197864+00:00",
+      "expires_at_utc": "2026-11-17T17:51:40.197864+00:00"
     }
   ]
 }

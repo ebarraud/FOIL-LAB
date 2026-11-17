@@ -6079,6 +6079,327 @@
           "limits": "Ne pas publier de verdict de supériorité en pumping à plat ; comparaison qualitative et pratiques différentes."
         }
       ]
+    },
+    {
+      "video_id": "letox5nkMmE",
+      "model": "North Midi 96 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "f64479d88df58a5c6660de06a8cad4939ad15fda7aa3cbde546c6ba72e020b9b",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "board_wing_parawing_sup_surf",
+      "integration": "deferred",
+      "integration_reason": "Fiche de taille 96 L documentée au catalogue. Pas de règle débutant : rider de 96–98 kg, volume proche du poids et retour downwind SUP encore non essayé.",
+      "claims": [
+        {
+          "start_s": 2,
+          "end_s": 68,
+          "dimension": "gabarit_volume",
+          "statement_fr": "Midi 96 L utilisée par un rider annoncé à 96–98 kg ; sensation de petite board en SUP surf mais légère immersion au repos.",
+          "limits": "Pas de flottabilité garantie pour un débutant ; dimensions du récit non vérifiées fabricant."
+        },
+        {
+          "start_s": 64,
+          "end_s": 125,
+          "dimension": "pratiques",
+          "statement_fr": "Wing, parawing et SUP surf déclarés essayés ; départ et relâchement appréciés avec différents foils.",
+          "limits": "Liste Code/F-ONE/Delta : interfaces et générations non isolées, aucune compatibilité universelle."
+        },
+        {
+          "start_s": 169,
+          "end_s": 207,
+          "dimension": "interface",
+          "statement_fr": "Le système DropBox facilite le montage de ses foils, mais le testeur précise que toutes les platines ne fonctionnent pas.",
+          "limits": "Modèles exacts à vérifier au montage ; aucune garantie de compatibilité."
+        },
+        {
+          "start_s": 221,
+          "end_s": 249,
+          "dimension": "limite_downwind",
+          "statement_fr": "Le SUP dans les bumps downwind est encore prévu, non essayé selon le testeur.",
+          "limits": "Ne pas confondre ce projet avec ses sessions de parawing downwind."
+        }
+      ]
+    },
+    {
+      "video_id": "r1dEaIpVD-M",
+      "model": "Indiana Early Bird 87 L / Super Fly 74 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "136fff8f70478b8c67d3a8eba80029abc129faf52bc7542f216d24bd13b68bd7",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "board_wing_offshore",
+      "integration": "deferred",
+      "integration_reason": "Deux volumes documentés au catalogue. Ne pas convertir la préférence du testeur en règle de sécurité offshore ; géométries et versions fabricant à confirmer avant moteur.",
+      "claims": [
+        {
+          "start_s": 7,
+          "end_s": 49,
+          "dimension": "tailles_gabarit",
+          "statement_fr": "Testeur de 70 kg : Super Fly 74 L et Early Bird 87 L comparées, respectivement environ +4 et +17 L par rapport à son poids.",
+          "limits": "La réserve de volume ne constitue pas une garantie de retour ou de sécurité."
+        },
+        {
+          "start_s": 93,
+          "end_s": 168,
+          "dimension": "depart_maniabilite",
+          "statement_fr": "Dans des sessions annoncées à 15–20 nœuds, Super Fly jugée vive et Early Bird favorable au départ sur des risées brèves.",
+          "limits": "Même rider mais deux shapes et deux volumes ; effet du volume non isolé."
+        },
+        {
+          "start_s": 186,
+          "end_s": 222,
+          "dimension": "retour_rame",
+          "statement_fr": "Le testeur trouve la 87 L plus confortable pour les retours à la rame en baisse de vent.",
+          "limits": "Récit personnel offshore ; ne justifie pas une navigation offshore à un autre niveau."
+        },
+        {
+          "start_s": 220,
+          "end_s": 242,
+          "dimension": "limites",
+          "statement_fr": "Des essais en saison downwind sont encore annoncés pour plus tard.",
+          "limits": "Ne pas compter un essai downwind réalisé."
+        }
+      ]
+    },
+    {
+      "video_id": "TrcLcOY1PA4",
+      "model": "Cabrinha Swift 2025 80 L",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "5bd2274be0800bf81cf9dd80485aa38cef662ad59dc7a344d2387a68e060fb12",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "board_wing",
+      "integration": "deferred",
+      "integration_reason": "Fiche Swift 2025 80 L ajoutée avec réserve explicite sur inserts. Moteur non modifié : profil de pratiquant et interfaces à vérifier, prix non repris.",
+      "claims": [
+        {
+          "start_s": 0,
+          "end_s": 23,
+          "dimension": "relation_marque",
+          "statement_fr": "L’auteur se déclare ambassadeur Cabrinha et dit avoir acheté cette board lui-même.",
+          "limits": "Relation commerciale déclarée ; ne pas compter comme source sans lien de marque."
+        },
+        {
+          "start_s": 23,
+          "end_s": 90,
+          "dimension": "gabarit_volume",
+          "statement_fr": "Swift 2025 80 L choisie par un rider de 175 lb, volume proche de son poids ; format compact recherché pour transport.",
+          "limits": "Poids de board déclaré différent de la valeur annoncée ; pas de mesure FOIL LAB ni règle débutant."
+        },
+        {
+          "start_s": 86,
+          "end_s": 156,
+          "dimension": "inserts",
+          "statement_fr": "Inserts revenus en 2025, mais ses straps préférés ne se montent pas directement ; adaptateur seulement envisagé.",
+          "limits": "Ne pas promettre une compatibilité de straps universelle ni un adaptateur disponible."
+        },
+        {
+          "start_s": 174,
+          "end_s": 277,
+          "dimension": "navigation",
+          "statement_fr": "Départ et relâchement des touchettes appréciés face à son ancienne Code 2022 ; nose enfoui décrit comme glissant.",
+          "limits": "Comparaison de deux shapes/générations ; pas d’essai contrôlé, vent non mesuré."
+        }
+      ]
+    },
+    {
+      "video_id": "kZHjNv8pVfM",
+      "model": "GONG HIPE Pro 5’1 95 L",
+      "language_returned": "fr",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "f7aa3f3ce09c95f63000d1df9e63c534c4213eaede28f2073dbdc8bbc04b5c8e",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "board_wing_inflatable",
+      "integration": "deferred",
+      "integration_reason": "Fiche de volume 95 L documentée ; comparaison à ancienne 110 L explicitement confondue par volume. Aucun avantage universel des gonflables ou durée de vie promise.",
+      "claims": [
+        {
+          "start_s": 33,
+          "end_s": 83,
+          "dimension": "taille",
+          "statement_fr": "L’auteur présente une HIPE Pro 5’1 de 95 L, remplaçant sa HIPE Perf de 110 L.",
+          "limits": "Transcription bruitée ; millésime et dimensions fabricant non vérifiés."
+        },
+        {
+          "start_s": 151,
+          "end_s": 221,
+          "dimension": "gabarit_transport",
+          "statement_fr": "À 80 kg, il conserve 95 L pour le retour sans vent et choisit le gonflable pour les contraintes de rangement en camping-car.",
+          "limits": "Préférence personnelle ; ne pas généraliser une instabilité de tout gonflable."
+        },
+        {
+          "start_s": 218,
+          "end_s": 264,
+          "dimension": "comparaison",
+          "statement_fr": "95 L jugée plus maniable et moins sensible au vent que son ancienne 110 L ; l’auteur reconnaît ensuite l’effet possible de la baisse de volume.",
+          "limits": "Construction et volume changent ensemble ; pas de preuve d’un gain intrinsèque de gamme."
+        },
+        {
+          "start_s": 262,
+          "end_s": 332,
+          "dimension": "entretien",
+          "statement_fr": "Plaque carbone saillante marquée après environ vingt sorties : attention à la pose au sol.",
+          "limits": "L’usure future est un projet de suivi, pas une durabilité démontrée."
+        }
+      ]
+    },
+    {
+      "video_id": "9skjalbQEhU",
+      "model": "Duotone Skybrid SLS · montage musical",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "2c54ee6cc19019eba381b7e91c09bc4e05e16e425cfc3d534a5aa02c850af759",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "music_only_no_technical_speech",
+      "integration": "deferred",
+      "integration_reason": "Aucune intégration technique : tout le texte local a été lu, il contient musique et interjections sans taille ni montage. Chercher un essai parlé distinct, ne pas inventer de résultats.",
+      "claims": [
+        {
+          "start_s": 1.7,
+          "end_s": 347.6,
+          "dimension": "contenu_non_exploitable",
+          "statement_fr": "Les 52 segments locaux contiennent musique et interjections ; aucun commentaire technique exploitable sur la Skybrid SLS.",
+          "limits": "La langue anglaise retournée ne prouve ni l’original italien ni sa traduction ; aucune écoute vidéo effectuée."
+        }
+      ]
+    },
+    {
+      "video_id": "9CUmbgOlufY",
+      "model": "KT Atlas 790",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "eb2201d643145f44f8826805c6a88bf89eae5fe76dd2897b476abbe0b4cc5e35",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wingfoil_test_and_setup_description",
+      "integration": "deferred",
+      "integration_reason": "Atlas 790 ajoutée au catalogue avec montage évoqué et limites ; pas de règle de réduction de surface. Vérifier le constructeur pour toute addition au moteur.",
+      "claims": [
+        {
+          "start_s": 23,
+          "end_s": 126,
+          "dimension": "navigation_790",
+          "statement_fr": "Atlas 790 essayée en wing : glisse, soutien à basse vitesse et pumping souple appréciés ; second retour court également favorable.",
+          "limits": "Aucun poids ni vent mesuré ; témoignages du même magasin, pas de mesures indépendantes."
+        },
+        {
+          "start_s": 233,
+          "end_s": 309,
+          "dimension": "taille_reelle",
+          "statement_fr": "Seule 790 est explicitement annoncée essayée ; 570/680/960/1130/1340 sont énumérées comme gamme.",
+          "limits": "Ne pas attribuer aux autres tailles l’essai de la 790."
+        },
+        {
+          "start_s": 306,
+          "end_s": 388,
+          "dimension": "montage_propose",
+          "statement_fr": "Le montage proposé est mât carbone 85, stabilisateur 170 et fuselage 63.",
+          "limits": "Passage de conseil commercial ; pas certitude que chaque séquence sur l’eau emploie exactement ce montage."
+        },
+        {
+          "start_s": 425,
+          "end_s": 541,
+          "dimension": "cales",
+          "statement_fr": "Exemple de réglage donné : mât marqué +0,5 et Atlas 960 marqué 0, pour cale arrière +0,5 selon le présentateur.",
+          "limits": "Démonstration sur 960 non essayée dans ce récit ; pas une cale universelle pour Atlas 790 ou autres générations."
+        }
+      ]
+    },
+    {
+      "video_id": "sXUSWqNX4l4",
+      "model": "KT système de foils · première gamme",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "5a35c30e681840adff184d2fdd780adc0b90745beb3f64daed55649a35671074",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "system_review_wingfoil",
+      "integration": "deferred",
+      "integration_reason": "Notes de système documentées, sans nouvelle taille déclarée testée. Source utile aux réserves de montage KT ; vérifier manuels avant valeur de couple, cale ou compatibilité précise.",
+      "claims": [
+        {
+          "start_s": 21,
+          "end_s": 76,
+          "dimension": "perimetre",
+          "statement_fr": "La vidéo porte sur le système KT ; les revues détaillées des familles sont annoncées séparément.",
+          "limits": "Ne pas compter toutes les tailles Instinct/Nomad/Atlas comme essayées."
+        },
+        {
+          "start_s": 181,
+          "end_s": 268,
+          "dimension": "assemblage",
+          "statement_fr": "Vis M6 pour arrière et M8 pour autres liaisons décrites ; numéros mât/aile avant utilisés pour choisir la cale arrière.",
+          "limits": "Aucun couple chiffré exploitable dans le texte ; longueurs de vis et procédure à confirmer dans le manuel."
+        },
+        {
+          "start_s": 266,
+          "end_s": 328,
+          "dimension": "mat",
+          "statement_fr": "Mât carbone essayé dans clapot et courant ; mât aluminium explicitement non essayé à ce stade.",
+          "limits": "Poids/épaisseur du récit non mesures FOIL LAB ; ne pas transférer le comportement au mât alu."
+        },
+        {
+          "start_s": 344,
+          "end_s": 390,
+          "dimension": "fuselages",
+          "statement_fr": "63 et 56 cm tous deux essayés ; 63 décrit plus rassurant, 56 plus réactif et adapté aux pompes rapides.",
+          "limits": "Pas de niveau de poids universel ni preuve que tout débutant peut contrôler le court."
+        },
+        {
+          "start_s": 387,
+          "end_s": 455,
+          "dimension": "familles",
+          "statement_fr": "Nomad surtout utilisée en wing ; Atlas évoquée pour longues houles/glisse, Instinct à tester ensuite.",
+          "limits": "Impressions de famille provisoires ; pas un essai complet des trois gammes."
+        }
+      ]
+    },
+    {
+      "video_id": "MrxDf-_dCJY",
+      "model": "KT Instinct 720 / 920 / 1120",
+      "language_returned": "en",
+      "language_note": "Langue retournée du cache conservée; traduction probable si le texte diffère de la langue du titre. Sans contrôle audio.",
+      "transcript_sha256": "f877d90b7c49e24be05618d7e66bb5856fc9f5417539ce7a7413751fa03a5be1",
+      "review_method": "Lecture intégrale des segments locaux par assistant; aucun contrôle audio.",
+      "scope": "wingfoil_size_specific_test",
+      "integration": "deferred",
+      "integration_reason": "Trois tailles réellement essayées ajoutées au catalogue, réserves de décollage et contrôle distinctes. Aucune règle débutant globale ; 1300/1450 non essayées.",
+      "claims": [
+        {
+          "start_s": 21,
+          "end_s": 101,
+          "dimension": "perimetre",
+          "statement_fr": "720, 920 et 1120 essayées ; 1300 et 1450 explicitement non essayées.",
+          "limits": "L’étiquette constructeur débutant ne prouve pas que chaque taille convient au premier vol."
+        },
+        {
+          "start_s": 78,
+          "end_s": 144,
+          "dimension": "720",
+          "statement_fr": "720 appréciée pour vitesse, relâchement et sauts par ce testeur avancé ; transitions à faire vite et soutien à basse vitesse limité.",
+          "limits": "Comparaison au Nomad 700 qualitative ; un mot tronqué rend une autre comparaison de départ ambiguë."
+        },
+        {
+          "start_s": 139,
+          "end_s": 215,
+          "dimension": "920",
+          "statement_fr": "920 difficile à lancer pour l’auteur ; pression avant et sorties d’eau incontrôlées lorsqu’il pousse la vitesse et le pop.",
+          "limits": "Récit personnel, réglages/gabarit non détaillés ; ne pas transformer en défaut universel ou en interdiction."
+        },
+        {
+          "start_s": 215,
+          "end_s": 271,
+          "dimension": "1120",
+          "statement_fr": "1120 : départ difficile vers 12 nœuds face à Atlas 1130 lors de la même session, puis vol décrit comme très doux.",
+          "limits": "L’auteur propose ensuite environ 20 nœuds pour progresser : conseil, pas plage de vent mesurée ou garantie."
+        },
+        {
+          "start_s": 268,
+          "end_s": 316,
+          "dimension": "niveau",
+          "statement_fr": "L’auteur doute du classement débutant des petites tailles et distingue clairement le 720 plus sportif du 1120 plus paisible en vol.",
+          "limits": "Aucun essai de vrais primo-débutants ni des grandes tailles dans ce récit."
+        }
+      ]
     }
   ]
 }
