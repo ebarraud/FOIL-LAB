@@ -8,6 +8,16 @@ for(const page of pages){const html=fs.readFileSync(page,'utf8');for(const m of 
 }}
 const evidence=fs.readFileSync('video-analysis/evidence.html','utf8');assert.ok(evidence.includes('evidence_library.js')&&evidence.includes('evidence_page.js'));
 assert.ok(!fs.readFileSync('video-analysis/review.html','utf8').includes('preuves techniques des 3 essais'));
+const centralDoc='docs/FONCTIONNEMENT_ARCHITECTURE_ACCES.md';
+const readme=fs.readFileSync('README.md','utf8'),documentation=fs.readFileSync(centralDoc,'utf8');
+assert.ok(readme.includes(centralDoc),'README must expose the central operating documentation');
+for(const required of ['## 1. Objectif','## 8. Stockage','## 9. Accès et permissions','YOUTUBE_APU','TRANSCRIPT_API_KEY','.transcript-cache/','data/research/progress.json','GitHub Pages']){
+ assert.ok(documentation.includes(required),'Central documentation missing '+required);
+}
+for(const match of documentation.matchAll(/\[[^\]]+\]\(([^)]+)\)/g)){
+ const target=match[1];if(/^(?:https?:|#)/.test(target))continue;
+ assert.ok(fs.existsSync(path.resolve(path.dirname(centralDoc),target)),centralDoc+' points to missing '+target);
+}
 console.log('Local links and script assets:',checked,'links across',pages.length,'pages');
 // Exercise the import form against the actual registry, including fetch failure.
 const vm=require('node:vm');

@@ -1,5 +1,10 @@
 # Journal des évolutions
 
+## 2026-11-19 — Documentation centrale du projet
+- Ajout de `docs/FONCTIONNEMENT_ARCHITECTURE_ACCES.md` : objectif, flux vidéo et écrit, moteur, stockage public/local, accès, secrets, automatisations, publication et reprise après incident.
+- Le README pointe vers ce document et indique désormais correctement que le dépôt et GitHub Pages sont publics.
+- Ajout d’un contrôle de non-régression sur la présence du document, ses liens locaux et ses rubriques opérationnelles essentielles.
+
 ## 2026-11-15 — Transcriptions accessibles et preuves par taille
 - Artefact du run 43732427647 téléchargé et inspecté : 50 extraits conservés pour 159 segments avec mots-clés.
 - Trois transcriptions complètes récupérées anonymement sans crédit; 1 288 segments, empreintes identiques à l'exécution initiale.
