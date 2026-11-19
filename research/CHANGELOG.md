@@ -1,5 +1,12 @@
 # Journal des évolutions
 
+## 2026-11-19 — Corrections issues d’un balayage de 8 100 profils
+- Silk V2 : le repère AFS (750 cm² à 75 kg) ne s’applique plus qu’au programme carving, conformément au tableau AFS (freeride : Enduro). Auparavant, un rider de 85 kg niveau 2 en freeride à 12 nds recevait une Silk V2 850 en tête.
+- Classement : l’écart est aussi mesuré contre la cible générique du rider ; une famille dotée d’un repère constructeur n’obtient plus un écart nul automatique.
+- Freeride : les familles spécialisées (surf, saut, vitesse) passent derrière les familles polyvalentes.
+- Débutants (niveaux 0–1) avec un programme non adapté : 20 % des profils balayés n’obtenaient aucune aile ; l’interface affiche désormais la sélection freeride avec une explication.
+- Limites constatées non corrigées faute de source chiffrée : surfaces des niveaux 3–4 souvent sous le repère SURF Magazin en vent léger ; une seule famille (AFS Evo) au niveau 0.
+
 ## 2026-11-19 — Onglet « Wing et montage »
 - Taille de wing (aile à main) : repère SURF Magazin par poids et type de spot (intérieur 6–15 nds / côte 12–20+ nds), tailles Duotone Unit 2026 dont la plage publiée contient le vent courant, signal « vent au plancher de la plage ».
 - Contrôle indépendant de chaque aile avant retenue contre les tableaux SURF Magazin (débutant/vent léger et expérimenté), avec écart en cm² ; tolérance explicite pour vent soutenu ou programme surf/saut/vitesse.
