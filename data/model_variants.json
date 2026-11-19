@@ -471,6 +471,482 @@
       "score_status": "not_assigned_no_validated_rubric"
     },
     {
+      "id": "foil:GA:Move:600",
+      "type": "foil",
+      "brand": "GA",
+      "model": "Move",
+      "size_cm2": 600,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-ga-move-foil-new-all-rounder-in-full-carbon-fibre/"
+      ],
+      "note": "Aile tout-terrain monobloc de GA, allongement 9,2 constant sur toute la gamme.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:GA:Move:700",
+      "type": "foil",
+      "brand": "GA",
+      "model": "Move",
+      "size_cm2": 700,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-ga-move-foil-new-all-rounder-in-full-carbon-fibre/"
+      ],
+      "note": "Aile tout-terrain monobloc de GA, allongement 9,2 constant sur toute la gamme.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:GA:Move:800",
+      "type": "foil",
+      "brand": "GA",
+      "model": "Move",
+      "size_cm2": 800,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-ga-move-foil-new-all-rounder-in-full-carbon-fibre/"
+      ],
+      "note": "Aile tout-terrain monobloc de GA, allongement 9,2 constant sur toute la gamme.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:GA:Move:900",
+      "type": "foil",
+      "brand": "GA",
+      "model": "Move",
+      "size_cm2": 900,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-ga-move-foil-new-all-rounder-in-full-carbon-fibre/"
+      ],
+      "note": "Aile tout-terrain monobloc de GA, allongement 9,2 constant sur toute la gamme.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:GA:Move:1000",
+      "type": "foil",
+      "brand": "GA",
+      "model": "Move",
+      "size_cm2": 1000,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-ga-move-foil-new-all-rounder-in-full-carbon-fibre/"
+      ],
+      "note": "Aile tout-terrain monobloc de GA, allongement 9,2 constant sur toute la gamme.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:GA:Move:1150",
+      "type": "foil",
+      "brand": "GA",
+      "model": "Move",
+      "size_cm2": 1150,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-ga-move-foil-new-all-rounder-in-full-carbon-fibre/"
+      ],
+      "note": "Aile tout-terrain monobloc de GA, allongement 9,2 constant sur toute la gamme.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:GA:Move:1300",
+      "type": "foil",
+      "brand": "GA",
+      "model": "Move",
+      "size_cm2": 1300,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-ga-move-foil-new-all-rounder-in-full-carbon-fibre/"
+      ],
+      "note": "Aile tout-terrain monobloc de GA, allongement 9,2 constant sur toute la gamme.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Atlas:570",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Atlas",
+      "size_cm2": 570,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://hoenalu.com/en/product/kt/atlas-front-wing"
+      ],
+      "note": "Aile très allongée à fort cambrure de KT, pour la glisse et le pumping.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Atlas:680",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Atlas",
+      "size_cm2": 680,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://hoenalu.com/en/product/kt/atlas-front-wing"
+      ],
+      "note": "Aile très allongée à fort cambrure de KT, pour la glisse et le pumping.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Atlas:790",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Atlas",
+      "size_cm2": 790,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://hoenalu.com/en/product/kt/atlas-front-wing"
+      ],
+      "note": "Aile très allongée à fort cambrure de KT, pour la glisse et le pumping.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Atlas:960",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Atlas",
+      "size_cm2": 960,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://hoenalu.com/en/product/kt/atlas-front-wing"
+      ],
+      "note": "Aile très allongée à fort cambrure de KT, pour la glisse et le pumping.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Atlas:1130",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Atlas",
+      "size_cm2": 1130,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://hoenalu.com/en/product/kt/atlas-front-wing"
+      ],
+      "note": "Aile très allongée à fort cambrure de KT, pour la glisse et le pumping.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Atlas:1340",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Atlas",
+      "size_cm2": 1340,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://hoenalu.com/en/product/kt/atlas-front-wing"
+      ],
+      "note": "Aile très allongée à fort cambrure de KT, pour la glisse et le pumping.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Instinct:720",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Instinct",
+      "size_cm2": 720,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.mackiteboarding.com/kt-instinct-front-wing/"
+      ],
+      "note": "Gamme d’initiation et de progression de KT : sécurité, stabilité et progression facile selon KT.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Instinct:920",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Instinct",
+      "size_cm2": 920,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.mackiteboarding.com/kt-instinct-front-wing/"
+      ],
+      "note": "Gamme d’initiation et de progression de KT : sécurité, stabilité et progression facile selon KT.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Instinct:1120",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Instinct",
+      "size_cm2": 1120,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.mackiteboarding.com/kt-instinct-front-wing/"
+      ],
+      "note": "Gamme d’initiation et de progression de KT : sécurité, stabilité et progression facile selon KT.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Instinct:1300",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Instinct",
+      "size_cm2": 1300,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.mackiteboarding.com/kt-instinct-front-wing/"
+      ],
+      "note": "Gamme d’initiation et de progression de KT : sécurité, stabilité et progression facile selon KT.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Instinct:1450",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Instinct",
+      "size_cm2": 1450,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.mackiteboarding.com/kt-instinct-front-wing/"
+      ],
+      "note": "Gamme d’initiation et de progression de KT : sécurité, stabilité et progression facile selon KT.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Duotone:Carve 3.0 D/LAB:500",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Carve 3.0 D/LAB",
+      "size_cm2": 500,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/products/duotone-front-wing-carve-3-0-d-lab-2025-42250-3844"
+      ],
+      "note": "Aile de carving et de freestyle de Duotone (surf, freestyle, prone, kite).",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Duotone:Carve 3.0 D/LAB:650",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Carve 3.0 D/LAB",
+      "size_cm2": 650,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/products/duotone-front-wing-carve-3-0-d-lab-2025-42250-3844"
+      ],
+      "note": "Aile de carving et de freestyle de Duotone (surf, freestyle, prone, kite).",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Duotone:Carve 3.0 D/LAB:800",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Carve 3.0 D/LAB",
+      "size_cm2": 800,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/products/duotone-front-wing-carve-3-0-d-lab-2025-42250-3844"
+      ],
+      "note": "Aile de carving et de freestyle de Duotone (surf, freestyle, prone, kite).",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Duotone:Carve 3.0 D/LAB:950",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Carve 3.0 D/LAB",
+      "size_cm2": 950,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/products/duotone-front-wing-carve-3-0-d-lab-2025-42250-3844"
+      ],
+      "note": "Aile de carving et de freestyle de Duotone (surf, freestyle, prone, kite).",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Duotone:Carve 3.0 D/LAB:1100",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Carve 3.0 D/LAB",
+      "size_cm2": 1100,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/products/duotone-front-wing-carve-3-0-d-lab-2025-42250-3844"
+      ],
+      "note": "Aile de carving et de freestyle de Duotone (surf, freestyle, prone, kite).",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:North:Sonar SF:680",
+      "type": "foil",
+      "brand": "North",
+      "model": "Sonar SF",
+      "size_cm2": 680,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://northactionsports.com/products/sonar-sf930-front-wing"
+      ],
+      "note": "Série « Surf » de North : glisse à basse vitesse, pumping, vent léger, prone et downwind selon North.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:North:Sonar SF:830",
+      "type": "foil",
+      "brand": "North",
+      "model": "Sonar SF",
+      "size_cm2": 830,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://northactionsports.com/products/sonar-sf930-front-wing"
+      ],
+      "note": "Série « Surf » de North : glisse à basse vitesse, pumping, vent léger, prone et downwind selon North.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:North:Sonar SF:930",
+      "type": "foil",
+      "brand": "North",
+      "model": "Sonar SF",
+      "size_cm2": 930,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://northactionsports.com/products/sonar-sf930-front-wing"
+      ],
+      "note": "Série « Surf » de North : glisse à basse vitesse, pumping, vent léger, prone et downwind selon North.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:North:Sonar SF:1080",
+      "type": "foil",
+      "brand": "North",
+      "model": "Sonar SF",
+      "size_cm2": 1080,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://northactionsports.com/products/sonar-sf930-front-wing"
+      ],
+      "note": "Série « Surf » de North : glisse à basse vitesse, pumping, vent léger, prone et downwind selon North.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:North:Sonar SF:1230",
+      "type": "foil",
+      "brand": "North",
+      "model": "Sonar SF",
+      "size_cm2": 1230,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://northactionsports.com/products/sonar-sf930-front-wing"
+      ],
+      "note": "Série « Surf » de North : glisse à basse vitesse, pumping, vent léger, prone et downwind selon North.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
       "id": "foil:F-ONE:Seven Seas:1100",
       "type": "foil",
       "brand": "F-ONE",
@@ -1648,6 +2124,120 @@
         "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610"
       ],
       "note": "SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Essai 80 L à 83 kg : légèrement immergée au départ, moins stable en roulis que la 85 L 2025. Pas de seuil universel poids+litres.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Arc Pro Carbon:48",
+      "type": "board",
+      "brand": "KT",
+      "model": "Arc Pro Carbon",
+      "volume_l": 48,
+      "length_cm": 162.6,
+      "width_cm": 47.6,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.kiterepublic.com.au/product/kt-arc-pro-carbon/"
+      ],
+      "note": "Midlength de KT pensée pour la parawing, aussi utilisée en wing et foil assist ; pont creusé et plus large que la Super K selon KT. Poids conseillés KT : 68 L 70–90 kg, 78 L 70–90 kg, 88 L 75–95 kg, 98 L 80–115 kg.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Arc Pro Carbon:58",
+      "type": "board",
+      "brand": "KT",
+      "model": "Arc Pro Carbon",
+      "volume_l": 58,
+      "length_cm": 167.6,
+      "width_cm": 48.9,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.kiterepublic.com.au/product/kt-arc-pro-carbon/"
+      ],
+      "note": "Midlength de KT pensée pour la parawing, aussi utilisée en wing et foil assist ; pont creusé et plus large que la Super K selon KT. Poids conseillés KT : 68 L 70–90 kg, 78 L 70–90 kg, 88 L 75–95 kg, 98 L 80–115 kg.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Arc Pro Carbon:68",
+      "type": "board",
+      "brand": "KT",
+      "model": "Arc Pro Carbon",
+      "volume_l": 68,
+      "length_cm": 175.3,
+      "width_cm": 50.8,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.kiterepublic.com.au/product/kt-arc-pro-carbon/"
+      ],
+      "note": "Midlength de KT pensée pour la parawing, aussi utilisée en wing et foil assist ; pont creusé et plus large que la Super K selon KT. Poids conseillés KT : 68 L 70–90 kg, 78 L 70–90 kg, 88 L 75–95 kg, 98 L 80–115 kg.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Arc Pro Carbon:78",
+      "type": "board",
+      "brand": "KT",
+      "model": "Arc Pro Carbon",
+      "volume_l": 78,
+      "length_cm": 180.3,
+      "width_cm": 52.7,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.kiterepublic.com.au/product/kt-arc-pro-carbon/"
+      ],
+      "note": "Midlength de KT pensée pour la parawing, aussi utilisée en wing et foil assist ; pont creusé et plus large que la Super K selon KT. Poids conseillés KT : 68 L 70–90 kg, 78 L 70–90 kg, 88 L 75–95 kg, 98 L 80–115 kg.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Arc Pro Carbon:88",
+      "type": "board",
+      "brand": "KT",
+      "model": "Arc Pro Carbon",
+      "volume_l": 88,
+      "length_cm": 188,
+      "width_cm": 54,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.kiterepublic.com.au/product/kt-arc-pro-carbon/"
+      ],
+      "note": "Midlength de KT pensée pour la parawing, aussi utilisée en wing et foil assist ; pont creusé et plus large que la Super K selon KT. Poids conseillés KT : 68 L 70–90 kg, 78 L 70–90 kg, 88 L 75–95 kg, 98 L 80–115 kg.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Arc Pro Carbon:98",
+      "type": "board",
+      "brand": "KT",
+      "model": "Arc Pro Carbon",
+      "volume_l": 98,
+      "length_cm": 193,
+      "width_cm": 55.4,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.kiterepublic.com.au/product/kt-arc-pro-carbon/"
+      ],
+      "note": "Midlength de KT pensée pour la parawing, aussi utilisée en wing et foil assist ; pont creusé et plus large que la Super K selon KT. Poids conseillés KT : 68 L 70–90 kg, 78 L 70–90 kg, 88 L 75–95 kg, 98 L 80–115 kg.",
       "sync_origin": "engine_embedded_metadata",
       "score_status": "not_assigned_no_validated_rubric"
     },

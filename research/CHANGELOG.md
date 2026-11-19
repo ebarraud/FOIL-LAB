@@ -1,5 +1,11 @@
 # Journal des évolutions
 
+## 2026-11-19 — Les essais vidéo dans le configurateur
+- Chaque carte de recommandation (aile ou board) affiche « Ce qu’en disent les essais vidéo » : jusqu’à cinq essais relus, trois observations minutées chacun avec leurs limites, la taille de l’essai et un lien vers l’analyse complète. Affichage seulement : taille et classement inchangés.
+- Rattachement lecture → famille : `video-analysis/build_review_family_map.py` produit `data/research/review_family_map.json` (génération et construction exactes ; Skybrid SLS 2025/2027, Chimera 2027 et Blackbird Fiber exclus). 56 lectures sur 174 rattachées, contre 0 affichées auparavant sur les cartes.
+- Modèles testés ajoutés au moteur avec dimensions constructeur : GA Move, KT Atlas (consigne KT −10 à −20 % appliquée à 15 %), KT Instinct, Duotone Carve 3.0 D/LAB, North Sonar SF, KT Arc Pro Carbon.
+- Non ajoutés faute de tableau complet : North Midi (largeurs absentes), Gong HIPE First, Gong Curve H V3, Indiana, Tabou, Slingshot Craft, KT Solus, Naish, K-Parts, Sabfoil.
+
 ## 2026-11-19 — Calibrage sourcé des surfaces et ailes débutant
 - Surface générique encadrée par les tableaux SURF Magazin : plancher en vent faible (débutants jusqu’à 20 nds, programme vent léger, vent < 10 nds ; niveau ≥ 2 en freeride/glisse jusqu’à 15 nds), plafond au maximum « vent très léger ». Surf, saut et vitesse sans plancher.
 - AFS Evo : colonne vent fort (> 20 nds) du tableau AFS.

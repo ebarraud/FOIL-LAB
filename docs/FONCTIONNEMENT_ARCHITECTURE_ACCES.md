@@ -138,6 +138,10 @@ Le catalogue est composé de deux ensembles :
 
 `data/model_variants.json` contient une entrée par taille du moteur. Il est maintenu par `node video-analysis/sync_model_variants.js`, qui ajoute les tailles manquantes sans modifier les entrées existantes ; `test_catalogue.js` échoue en cas d’écart. Au chargement, ses métadonnées (confiance, génération, sources, dimensions) remplacent celles embarquées, puis les liens de preuve par taille sont appliqués. Aucune note n’est affichée actuellement. Une valeur `qualitative_scores: null` signifie qu’aucune note défendable n’est publiée.
 
+### 7.0 Avis des essais vidéo sur les cartes
+
+`video-analysis/build_review_family_map.py` rattache chaque lecture de `transcript_reviews.json` à une famille du moteur (même génération et construction) et écrit `data/research/review_family_map.json`. Chaque carte de recommandation affiche alors les observations minutées de ces essais, avec la taille de l’essai et les limites. Ces avis n’influencent ni la taille ni le classement. Relancer le script après toute nouvelle lecture ou toute nouvelle famille ; `test_catalogue.js` échoue si le fichier est périmé.
+
 ### 7.1 Repères de wing et de montage
 
 L’onglet « Wing et montage » ne note aucun modèle. Il affiche des repères recopiés de sources datées et listés dans `data/research/expert_setup_guides.json` : taille de wing par poids et type de spot (SURF Magazin), plages de vent publiées d’un modèle de wing de référence (Duotone Unit 2026, poids de référence non publié), surface d’aile avant de contrôle (SURF Magazin), longueurs de mât et de fuselage (Duotone, SURF Magazin) et allongement visé. `test_expert_setup.js` vérifie que les constantes de `index.html` sont identiques au registre et que chaque source est citée. Aucune règle de taille de stabilisateur n’est publiée faute de source chiffrée.

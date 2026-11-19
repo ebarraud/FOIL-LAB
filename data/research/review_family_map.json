@@ -1,0 +1,1765 @@
+{
+  "schema_version": 1,
+  "generated_by": "video-analysis/build_review_family_map.py",
+  "reviews": {
+    "wrBJfakowLs": {
+      "title": "North Sonar SF 930",
+      "families": [
+        {
+          "family": "North|Sonar SF",
+          "type": "foil",
+          "sizes_tested": [
+            930
+          ],
+          "sizes_mentioned": [
+            930
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "FJsdHDBPLJY": {
+      "title": "GA MOVE",
+      "families": [
+        {
+          "family": "GA|Move",
+          "type": "foil",
+          "sizes_tested": [],
+          "sizes_mentioned": []
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "o-piLekjAHk": {
+      "title": "Duotone Skybrid SLS 2027",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "aZFCW3ms_oU": {
+      "title": "GONG HIPE First 95 L / X-Over V3 XL",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "ZWb49kOlXpo": {
+      "title": "Ozone Pocket Rocket V2 3.6",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "oj8HfuYygDw": {
+      "title": "Naish Chimera 2026",
+      "families": [
+        {
+          "family": "Naish|Chimera 2026",
+          "type": "board",
+          "sizes_tested": [
+            68
+          ],
+          "sizes_mentioned": [
+            68
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "F6BXfqM05yo": {
+      "title": "Indiana Easy Style 66",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "Bb0Nr-RXZlk": {
+      "title": "F-ONE Frigate V2 parawing",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "PkWvig5XIJ0": {
+      "title": "KT Drifter 5 Pro Carbon 70 L",
+      "families": [
+        {
+          "family": "KT|Drifter 5 Pro Carbon",
+          "type": "board",
+          "sizes_tested": [],
+          "sizes_mentioned": [
+            70
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "egezrffjqPk": {
+      "title": "GONG Curve H V3 — identification à confirmer",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "fELF_qseo4g": {
+      "title": "Naish Chimera 2027 — première présentation",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "z8wP9_VnM-8": {
+      "title": "Foil Attitude Early Bird 1690 — introduction seulement",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "_jPvuDQISaA": {
+      "title": "GONG HIPE First 2026 95 L — premier essai",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "R-__gkwwY_I": {
+      "title": "GONG HIPE First — short musical",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "3B4fq8l_8HQ": {
+      "title": "Foil Drive Fusion + Armstrong Integrated Mast / UHA 870",
+      "families": [
+        {
+          "family": "Armstrong|UHA",
+          "type": "foil",
+          "sizes_tested": [
+            870
+          ],
+          "sizes_mentioned": [
+            870
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "RxkvTwobKGE": {
+      "title": "Armstrong MA MkII — taille non précisée",
+      "families": [
+        {
+          "family": "Armstrong|MA Mk II",
+          "type": "foil",
+          "sizes_tested": [],
+          "sizes_mentioned": []
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "-1fBIIm8fpE": {
+      "title": "Duotone Skybrid 100 L — millésime à confirmer",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "YF448nI7QHM": {
+      "title": "Code Foils 1250R / stabilisateur 151",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "vqFSdEKOfFM": {
+      "title": "F-ONE Rocket Crossover — introduction seulement",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "pPXyFWHSd-U": {
+      "title": "Duotone Glide 3.0 700/825 — choix de tail",
+      "families": [
+        {
+          "family": "Duotone|Glide 3.0 D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            825
+          ],
+          "sizes_mentioned": [
+            700,
+            825
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "4znqnlzx0Dg": {
+      "title": "Duotone Crest — session 1050 / présentation 925",
+      "families": [
+        {
+          "family": "Duotone|Crest D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            925,
+            1050
+          ],
+          "sizes_mentioned": [
+            925,
+            1050
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "xB5QMIjU6Ps": {
+      "title": "AFS Enduro — essai 2024 700/1100",
+      "families": [
+        {
+          "family": "AFS|Enduro",
+          "type": "foil",
+          "sizes_tested": [
+            700,
+            1100
+          ],
+          "sizes_mentioned": [
+            700,
+            1100,
+            2024
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "ZEsZKUqHyxE": {
+      "title": "Slingshot One-Lock Glide 725",
+      "families": [
+        {
+          "family": "Slingshot|One-Lock Glide",
+          "type": "foil",
+          "sizes_tested": [
+            725
+          ],
+          "sizes_mentioned": [
+            725
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "93t-YEPyyhc": {
+      "title": "Armstrong MA MkII 690/990",
+      "families": [
+        {
+          "family": "Armstrong|MA Mk II",
+          "type": "foil",
+          "sizes_tested": [
+            690,
+            990
+          ],
+          "sizes_mentioned": [
+            690,
+            990
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "rVRUSW09BD4": {
+      "title": "Armstrong UHA 670/870/1270",
+      "families": [
+        {
+          "family": "Armstrong|UHA",
+          "type": "foil",
+          "sizes_tested": [
+            670,
+            870,
+            1270
+          ],
+          "sizes_mentioned": [
+            670,
+            870,
+            1270
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "pHJ6b-JRCLg": {
+      "title": "KT Nomad 700/1160",
+      "families": [
+        {
+          "family": "KT|Nomad",
+          "type": "foil",
+          "sizes_tested": [
+            700,
+            1160
+          ],
+          "sizes_mentioned": [
+            700,
+            1160
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "QepHH2KIVOY": {
+      "title": "Slingshot One-Lock Glide 1525",
+      "families": [
+        {
+          "family": "Slingshot|One-Lock Glide",
+          "type": "foil",
+          "sizes_tested": [
+            1525
+          ],
+          "sizes_mentioned": [
+            1525
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "3EObhbc9v-o": {
+      "title": "Armstrong Midlength MkII X-Form 55 L",
+      "families": [
+        {
+          "family": "Armstrong|Midlength Mk II X-Form",
+          "type": "board",
+          "sizes_tested": [
+            55
+          ],
+          "sizes_mentioned": [
+            55
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "Oaw3GuMOTb0": {
+      "title": "Armstrong Midlength MkII X-Form 65 L",
+      "families": [
+        {
+          "family": "Armstrong|Midlength Mk II X-Form",
+          "type": "board",
+          "sizes_tested": [
+            65
+          ],
+          "sizes_mentioned": [
+            65
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "oNue1Vm0nWA": {
+      "title": "WING FOIL TEST GONG X-OVER V3 LAGO D’ISEO 2026 #wingfoiling #wingfoil #surf #foiling",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "bPKyMCmDJ4w": {
+      "title": "Wing en setup GONG - Test insta 360 x5 #wing #wingfoil #gong #foil #foiling #insta360",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "7ZPSmL8rvaM": {
+      "title": "Test foot strap Tribord de Decathlon pour wing foil, kite foil, surf foil",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "K6UxTGgPgEo": {
+      "title": "Endlich da! Das neue Tabou Rocket im Test!",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "3OIRoNWHne0": {
+      "title": "Duotone Sky Free 120L und Free2.0 Foil 1900 TEST 2026",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "F_kPaA7RGac": {
+      "title": "Test board sup foil dw ultime : l’AFS blackbird 8’8*16’5 107L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "9G1mKOnFgxA": {
+      "title": "Indiana Barracuda M/L (850/1050 annoncés dans le titre)",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "_W2HhY4gySA": {
+      "title": "Indiana Flow FW Carbon 85/95 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "pvcTK70LaBQ": {
+      "title": "Indiana Superfly CML 89 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "htCy_cztRcs": {
+      "title": "Slingshot Glide Craft V1 80 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "qf2LA6Dw4QI": {
+      "title": "Slingshot Flow Craft V2 65 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "9U1SMtSmTNE": {
+      "title": "Slingshot Laser Craft V1 105 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "RRHYwIpkENs": {
+      "title": "Duotone Skybrid SLS 2026 90 L",
+      "families": [
+        {
+          "family": "Duotone|Skybrid SLS 2026",
+          "type": "board",
+          "sizes_tested": [
+            90
+          ],
+          "sizes_mentioned": [
+            90
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "xpGSWpujoP0": {
+      "title": "Eleveight Evolve V4 75 L / Evolve S 55 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "a-azQlLJlck": {
+      "title": "KT Super K2 Carbon 90 L",
+      "families": [
+        {
+          "family": "KT|Super K 2 Carbon",
+          "type": "board",
+          "sizes_tested": [
+            90
+          ],
+          "sizes_mentioned": [
+            90
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "ut8lby8-QrA": {
+      "title": "Duotone Blitz D/LAB550",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "P2kF4cHQEZ4": {
+      "title": "KT Instinct920/1120",
+      "families": [
+        {
+          "family": "KT|Instinct",
+          "type": "foil",
+          "sizes_tested": [
+            920,
+            1120
+          ],
+          "sizes_mentioned": [
+            920,
+            1120
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "AIA666962GA": {
+      "title": "Slingshot One-Lock Flow800",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "I5UIZAT93qo": {
+      "title": "RRD Beluga ML LTD Y30 85 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "S2boM4B8en8": {
+      "title": "Indiana Early Bird LW104 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "v6Jo8tO5Fq4": {
+      "title": "Appletree Apple Skipper67 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "MnZAlmqfiOo": {
+      "title": "Foil Solution EFS Roll Leash",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "xrEGIa5cgdQ": {
+      "title": "Indiana Marlin XXS",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "vqjLdNT4urA": {
+      "title": "KT Atlas680/790/960/1130",
+      "families": [
+        {
+          "family": "KT|Atlas",
+          "type": "foil",
+          "sizes_tested": [
+            680,
+            790,
+            960,
+            1130
+          ],
+          "sizes_mentioned": [
+            680,
+            790,
+            960,
+            1130
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "TdL2YcSYd1Q": {
+      "title": "Tabou Super Yaka106 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "wIPR7DOgKqQ": {
+      "title": "Duotone Skybrid D/LAB80 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "V5rMLxpKDsg": {
+      "title": "KT Arc78 L",
+      "families": [
+        {
+          "family": "KT|Arc Pro Carbon",
+          "type": "board",
+          "sizes_tested": [
+            78
+          ],
+          "sizes_mentioned": [
+            78
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "2rLx3Ayw9oE": {
+      "title": "Tabou Super Yaka Team86 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "1YrgtfKV2kI": {
+      "title": "Duotone Carve3 D/LAB950",
+      "families": [
+        {
+          "family": "Duotone|Carve 3.0 D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            950
+          ],
+          "sizes_mentioned": [
+            950
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "E1hchZJjKAo": {
+      "title": "KT Atlas790/1130",
+      "families": [
+        {
+          "family": "KT|Atlas",
+          "type": "foil",
+          "sizes_tested": [
+            790,
+            1130
+          ],
+          "sizes_mentioned": [
+            790,
+            1130
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "bw6RziEZQm8": {
+      "title": "Slingshot One-Lock Glide1125",
+      "families": [
+        {
+          "family": "Slingshot|One-Lock Glide",
+          "type": "foil",
+          "sizes_tested": [
+            1125
+          ],
+          "sizes_mentioned": [
+            1125
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "yL-WLJABq_U": {
+      "title": "Indiana Dolphin827/925",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "viZUrrOCL6E": {
+      "title": "GA Move700/900",
+      "families": [
+        {
+          "family": "GA|Move",
+          "type": "foil",
+          "sizes_tested": [
+            700,
+            900
+          ],
+          "sizes_mentioned": [
+            700,
+            900
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "voesArm8I1I": {
+      "title": "Cabrinha Union Prestige905",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "Hzyr_W_mJ1I": {
+      "title": "Duotone Crest675/800/925",
+      "families": [
+        {
+          "family": "Duotone|Crest D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            675,
+            800,
+            925
+          ],
+          "sizes_mentioned": [
+            675,
+            800,
+            925
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "lrW4o4H05tI": {
+      "title": "Duotone Crest D/LAB800/925",
+      "families": [
+        {
+          "family": "Duotone|Crest D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            800,
+            925
+          ],
+          "sizes_mentioned": [
+            800,
+            925
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "DQqbVduXDwA": {
+      "title": "Duotone Glide2 D/LAB900",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "Zo1awVlnOJQ": {
+      "title": "Tabou Twister62 L2026",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "BsQoom43YEk": {
+      "title": "North Midi82 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "laeIus1pFX4": {
+      "title": "North SonarMA V2 1200",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "rLYd4DMS3mw": {
+      "title": "GONG Curve H V3 720/820/920",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "kHYxyUyU4qY": {
+      "title": "Cabrinha Domani960",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "mtwBUIwCP3Q": {
+      "title": "GA Move800/1000/1300",
+      "families": [
+        {
+          "family": "GA|Move",
+          "type": "foil",
+          "sizes_tested": [
+            800,
+            1000,
+            1300
+          ],
+          "sizes_mentioned": [
+            800,
+            1000,
+            1300
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "5HwPFspBteM": {
+      "title": "Duotone Carve3 D/LAB950 et800",
+      "families": [
+        {
+          "family": "Duotone|Carve 3.0 D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            800,
+            950
+          ],
+          "sizes_mentioned": [
+            800,
+            950
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "p57zbjrPPY4": {
+      "title": "Duotone WhizzSLS850/1000/1450",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "eRK72ouHjeM": {
+      "title": "Duotone Foil Assist",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "-6Dnjt6GTqk": {
+      "title": "Duotone Foil Assist NatureKite",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "96bNahQGX54": {
+      "title": "Foil Drive Fusion / Armstrong mast intégré",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "5kRFfdnDyKI": {
+      "title": "Duotone Crest675/800/925/1050",
+      "families": [
+        {
+          "family": "Duotone|Crest D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            675,
+            800,
+            925,
+            1050
+          ],
+          "sizes_mentioned": [
+            675,
+            800,
+            925,
+            1050
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "fnhdMRiW3h4": {
+      "title": "Duotone SkybridSLS2026 80/100 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "l7pHqjOD_Qw": {
+      "title": "Duotone SkyStyle/SkybridSLS/DLAB2026",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "qIjC5-sJSro": {
+      "title": "Duotone SkybridAir2025 85 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "92HaHWul324": {
+      "title": "Takoon GlideMidlength75 L2025",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "OJvTA8lXmDg": {
+      "title": "Slingshot One-Lock Glide725/1125, Turbo180",
+      "families": [
+        {
+          "family": "Slingshot|One-Lock Glide",
+          "type": "foil",
+          "sizes_tested": [
+            725,
+            1125
+          ],
+          "sizes_mentioned": [
+            725,
+            1125
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "NXVH9H10YfM": {
+      "title": "North Midi60L / SonarSF830, guide espagnol",
+      "families": [
+        {
+          "family": "North|Sonar SF",
+          "type": "foil",
+          "sizes_tested": [
+            830
+          ],
+          "sizes_mentioned": [
+            830
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "FklAiCI22lU": {
+      "title": "Duotone2026 : Crest675/800, SkyStyle35, MidFish38",
+      "families": [
+        {
+          "family": "Duotone|Crest D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            675,
+            800
+          ],
+          "sizes_mentioned": [
+            675,
+            800,
+            2026
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "mhetRD3Fl5U": {
+      "title": "K-PARTS AROS560/680/830/980",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "pumUgZ5yfew": {
+      "title": "Duotone TraceSLS, extrait promotionnel",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "sgaqpPq9ExU": {
+      "title": "KT Solus775/930",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "j_uE7K_g5cs": {
+      "title": "Armstrong UHA970 / Glide220",
+      "families": [
+        {
+          "family": "Armstrong|UHA",
+          "type": "foil",
+          "sizes_tested": [
+            970
+          ],
+          "sizes_mentioned": [
+            970
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "iiVHlMfy_rg": {
+      "title": "SROKA PW HybridPro, introduction",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "tB7b_vgctNc": {
+      "title": "K-PARTS Skal, présentation courte",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "YVOXuTKpD50": {
+      "title": "Duotone Glide3, retour néerlandais intitulé2027",
+      "families": [
+        {
+          "family": "Duotone|Glide 3.0 D/LAB",
+          "type": "foil",
+          "sizes_tested": [],
+          "sizes_mentioned": [
+            2027
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "nM6k7_IpC9k": {
+      "title": "Foil Attitude Early Bird1690 / Ultra200",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "hXDV7ssMWlY": {
+      "title": "Armstrong UHA670/870/1270, Tonic",
+      "families": [
+        {
+          "family": "Armstrong|UHA",
+          "type": "foil",
+          "sizes_tested": [
+            670,
+            870,
+            1270
+          ],
+          "sizes_mentioned": [
+            670,
+            870,
+            1270
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "KUlOiIb2Jck": {
+      "title": "SROKA PW HybridPro130 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "_-VHK2Q-JgA": {
+      "title": "KT SuperK2 / Arc78 / Drifter5 60",
+      "families": [
+        {
+          "family": "KT|Super K 2 Carbon",
+          "type": "board",
+          "sizes_tested": [
+            60
+          ],
+          "sizes_mentioned": [
+            60,
+            78
+          ]
+        },
+        {
+          "family": "KT|Drifter 5 Pro Carbon",
+          "type": "board",
+          "sizes_tested": [
+            60
+          ],
+          "sizes_mentioned": [
+            60,
+            78
+          ]
+        },
+        {
+          "family": "KT|Arc Pro Carbon",
+          "type": "board",
+          "sizes_tested": [
+            78
+          ],
+          "sizes_mentioned": [
+            60,
+            78
+          ]
+        }
+      ],
+      "comparative": true,
+      "reason": null
+    },
+    "65ecyxEcNiY": {
+      "title": "GONG Lemon / FluidAtmo810, guide Álvaro Bajo",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "jHWbotOOMsI": {
+      "title": "Ozone PocketRocketV2",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "vQGg5Zv8Pvk": {
+      "title": "Slingshot WF-T / QuickStartwake",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "VdVF_HfnV5o": {
+      "title": "Reptile AquaLift2100",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "0qOf0eEpElM": {
+      "title": "Cabrinha Swift86 L6’0",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "ig3D34ghMq4": {
+      "title": "KT Solus930/630, Atom161 etApex85",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "zGdki04tH2g": {
+      "title": "K-PARTS SKAL 570/690/840/990/1150",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "khXSoXL7ccA": {
+      "title": "KT Drifter 5 Pro Carbon 60 L",
+      "families": [
+        {
+          "family": "KT|Drifter 5 Pro Carbon",
+          "type": "board",
+          "sizes_tested": [
+            60
+          ],
+          "sizes_mentioned": [
+            60
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "mgyh_TWJfIA": {
+      "title": "KT ARC 58 L et Super K v2 60 L",
+      "families": [
+        {
+          "family": "KT|Super K 2 Carbon",
+          "type": "board",
+          "sizes_tested": [
+            60
+          ],
+          "sizes_mentioned": [
+            58,
+            60
+          ]
+        },
+        {
+          "family": "KT|Arc Pro Carbon",
+          "type": "board",
+          "sizes_tested": [
+            58
+          ],
+          "sizes_mentioned": [
+            58,
+            60
+          ]
+        }
+      ],
+      "comparative": true,
+      "reason": null
+    },
+    "pXkQerJEvYA": {
+      "title": "Indiana Dolphin S/M avec HyperDrive 86 et tails 340/370",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "iZo8DO7Z4No": {
+      "title": "Duotone Free 2.0 1300 / PX 195 / mât carbone 82",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "mZtN100cfBs": {
+      "title": "AFS Blackbird Midlength Fiber et Advanced 75 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "Fm3jofwhf-c": {
+      "title": "Naish Excalibur 744/944/1144 et Siren 800/1000/1200",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "ixaogT38-1Y": {
+      "title": "Duotone Skybrid D/LAB annoncée 2027, 5 pieds 5 /60 L à confirmer",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "2f6kjRKFt_k": {
+      "title": "Duotone Skybrid 2026, 70/100 L, construction à confirmer",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "jjmovozkNQs": {
+      "title": "Armstrong UHA 570/670 en towfoil",
+      "families": [
+        {
+          "family": "Armstrong|UHA",
+          "type": "foil",
+          "sizes_tested": [
+            570,
+            670
+          ],
+          "sizes_mentioned": [
+            570,
+            670
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "CNjNA_Tiuz8": {
+      "title": "Sroka V 4 Elite wing gonflable",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "-nlHP65Y-EQ": {
+      "title": "Gants Oceania",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "vmYfbGpB4Bs": {
+      "title": "Ozone Pocket Rocket partie 2",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "2pIbQfLyZCs": {
+      "title": "Ozone Pocket Rocket partie 1",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "wTHDqPnRK24": {
+      "title": "F-ONE ADDIK TEC kite, extrait",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "GXsnqZqD5Co": {
+      "title": "F-ONE ADDIK TEC kite, version longue",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "pjFZjW2IGAY": {
+      "title": "Naish SHA 1133 / stab 135 / fuselage 65",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "qTATXePqrrw": {
+      "title": "Armstrong UHA 670/770 en wing et parawing",
+      "families": [
+        {
+          "family": "Armstrong|UHA",
+          "type": "foil",
+          "sizes_tested": [
+            670,
+            770
+          ],
+          "sizes_mentioned": [
+            670,
+            770
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "8el3ifGXmYU": {
+      "title": "Sabfoil Razor Blackbird 977/1077",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "N-b-KEtL9zo": {
+      "title": "Duotone Skybrid D/LAB 70 L, première version",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "vOvMPu4SbRo": {
+      "title": "Duotone Skybrid SLS 2026 80 L contre 85 L 2025",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "fpheg1qEhg0": {
+      "title": "KT Instinct 920/1300, Nomad 190, mâtcarbone 85",
+      "families": [
+        {
+          "family": "KT|Instinct",
+          "type": "foil",
+          "sizes_tested": [
+            920,
+            1300
+          ],
+          "sizes_mentioned": [
+            920,
+            1300
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "tOCsLl1tS3s": {
+      "title": "Sroka DW 8 pieds 3/7 pieds 2, LW 90 L et PW",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "9ZrGRE-SyuM": {
+      "title": "ENSIS Jive 86 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "JbO6v-GSibQ": {
+      "title": "WAKA Glide77L, KiteWorld Shop",
+      "families": [
+        {
+          "family": "WAKA|Glide TravelFold",
+          "type": "board",
+          "sizes_tested": [
+            77
+          ],
+          "sizes_mentioned": [
+            77
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "l2HmFjc7eiI": {
+      "title": "Code680R, KiteWorld Shop",
+      "families": [
+        {
+          "family": "Code|R Series 680R",
+          "type": "foil",
+          "sizes_tested": [
+            680
+          ],
+          "sizes_mentioned": [
+            680
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "tnIU9QoY5dY": {
+      "title": "F-ONE SK8 V2 750/850, 950 évoquée",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "OXRTfgF_PBA": {
+      "title": "F-ONE Rocket Wing Crossover83L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "P39IzbFmKoo": {
+      "title": "Takoon Flow 700 / 900",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "VG5Q_vXHVYM": {
+      "title": "AFS Evo HA / Enduro · aperçu court",
+      "families": [
+        {
+          "family": "AFS|Enduro",
+          "type": "foil",
+          "sizes_tested": [],
+          "sizes_mentioned": []
+        },
+        {
+          "family": "AFS|Evo",
+          "type": "foil",
+          "sizes_tested": [],
+          "sizes_mentioned": []
+        }
+      ],
+      "comparative": true,
+      "reason": null
+    },
+    "iYxYwu15cuE": {
+      "title": "AXIS PNG / PNG V2, ART / ART V2 / ART Pro, Spitfire, Fireball, Tempo",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "letox5nkMmE": {
+      "title": "North Midi 96 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "r1dEaIpVD-M": {
+      "title": "Indiana Early Bird 87 L / Super Fly 74 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "TrcLcOY1PA4": {
+      "title": "Cabrinha Swift 2025 80 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "kZHjNv8pVfM": {
+      "title": "GONG HIPE Pro 5’1 95 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "9skjalbQEhU": {
+      "title": "Duotone Skybrid SLS · montage musical",
+      "families": [
+        {
+          "family": "Duotone|Skybrid SLS 2026",
+          "type": "board",
+          "sizes_tested": [],
+          "sizes_mentioned": []
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "9CUmbgOlufY": {
+      "title": "KT Atlas 790",
+      "families": [
+        {
+          "family": "KT|Atlas",
+          "type": "foil",
+          "sizes_tested": [
+            790
+          ],
+          "sizes_mentioned": [
+            790
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "sXUSWqNX4l4": {
+      "title": "KT système de foils · première gamme",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "MrxDf-_dCJY": {
+      "title": "KT Instinct 720 / 920 / 1120",
+      "families": [
+        {
+          "family": "KT|Instinct",
+          "type": "foil",
+          "sizes_tested": [
+            720,
+            920,
+            1120
+          ],
+          "sizes_mentioned": [
+            720,
+            920,
+            1120
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "gfFDO4eIPZY": {
+      "title": "Takoon Glide Midlength 6’4 95 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "BqgSD3NDuzU": {
+      "title": "Takoon Glide Midlength Air 6’3 110 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "dLe2dhRydLo": {
+      "title": "Takoon Ultraglide 6’2 80 L / Glide Midlength 5’10 75 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "kOnOMWTcOmI": {
+      "title": "Duotone Skybrid SLS 2025 55 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "A7AoRWtxtSI": {
+      "title": "Duotone Skybrid · présentation des constructions",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "uBKB-yB5FE0": {
+      "title": "Duotone Skybrid / Sky Style 2025",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "TLuTPpSWk80": {
+      "title": "AFS Evo 950 / 1250 / 1450 / 1650",
+      "families": [
+        {
+          "family": "AFS|Evo",
+          "type": "foil",
+          "sizes_tested": [
+            950,
+            1250,
+            1450,
+            1650
+          ],
+          "sizes_mentioned": [
+            950,
+            1250,
+            1450,
+            1650
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "8Mf-D-pKrZ8": {
+      "title": "AFS Enduro 700 / 900 / 1100",
+      "families": [
+        {
+          "family": "AFS|Enduro",
+          "type": "foil",
+          "sizes_tested": [
+            700,
+            900,
+            1100
+          ],
+          "sizes_mentioned": [
+            700,
+            900,
+            1100
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "8zAMERKef5M": {
+      "title": "Slingshot Phantasm Quick Start · pack historique",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "Z10Osbfn4Tk": {
+      "title": "Foil Buddy · outil Torx titane",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "6BItXQiemQo": {
+      "title": "Ozone Pocket Rocket · qualification de périmètre",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "xK4qkT8m6VM": {
+      "title": "Duotone Unit 2025 · qualification de périmètre",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "hxfAwT45T4w": {
+      "title": "Armstrong Surf Foil Board · qualification de périmètre",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "0zlXlLB9G3Q": {
+      "title": "Indiana Airinside Superfly 84 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "qvvLnJBdlC0": {
+      "title": "Indiana Super Fly CML 74 L",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "Sa1RIxicPms": {
+      "title": "Indiana Marlin M 990",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "m9spmeFy0J4": {
+      "title": "Armstrong MA Mk II 790 / 1190",
+      "families": [
+        {
+          "family": "Armstrong|MA Mk II",
+          "type": "foil",
+          "sizes_tested": [
+            790,
+            1190
+          ],
+          "sizes_mentioned": [
+            790,
+            1190
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "3DE97BGarq8": {
+      "title": "Armstrong Midlength FG 65 L · première génération",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "jcu7SOnZblU": {
+      "title": "Omen Agent 900",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "TtzKfkcLM0M": {
+      "title": "Duotone Crest 675 / 1050, taille médiane ambiguë",
+      "families": [
+        {
+          "family": "Duotone|Crest D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            675,
+            1050
+          ],
+          "sizes_mentioned": [
+            675,
+            1050
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "45RROMfJ2bg": {
+      "title": "Indiana Condor S / M",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "-htD7qNM7_k": {
+      "title": "AXIS Surge 890 / 780",
+      "families": [
+        {
+          "family": "AXIS|Surge 890",
+          "type": "foil",
+          "sizes_tested": [],
+          "sizes_mentioned": [
+            780,
+            890
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "ky1rk1QHya0": {
+      "title": "F-ONE Sushi 740 · TITAN 2",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "GTr-5-p176I": {
+      "title": "Duotone AMP 1800 · pumping",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "SzXkVWCbIJs": {
+      "title": "Indiana Easy Carve 80 L · 2026",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "OCj9UCx_b40": {
+      "title": "Slingshot One-Lock · extrait introductif",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "_yTbdv2jU94": {
+      "title": "XEEAOFE · présentation commerciale de kit",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "te8LkhqpFvQ": {
+      "title": "K-PARTS AROS · annonce courte",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "SsgV1te6tUY": {
+      "title": "AFS Enduro / Cabrinha Prestige · comparaison prone et SUP",
+      "families": [
+        {
+          "family": "AFS|Enduro",
+          "type": "foil",
+          "sizes_tested": [],
+          "sizes_mentioned": []
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "QACerU6dA1A": {
+      "title": "SABfoil Leviathan 1350 · Blackbird présérie",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "FvVGPpbGdRk": {
+      "title": "Duotone Crest D/LAB 925 · Big Winds",
+      "families": [
+        {
+          "family": "Duotone|Crest D/LAB",
+          "type": "foil",
+          "sizes_tested": [
+            925
+          ],
+          "sizes_mentioned": [
+            925
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    },
+    "c24c44kl_rE": {
+      "title": "North Sonar MA V2 1200 · allemand",
+      "families": [],
+      "comparative": false,
+      "reason": "Modèle, génération ou construction absent du moteur."
+    },
+    "Xh9mmDExedk": {
+      "title": "AFS Enduro 700 / 900 / 1100 / 1300 · Hadou",
+      "families": [
+        {
+          "family": "AFS|Enduro",
+          "type": "foil",
+          "sizes_tested": [
+            700,
+            900,
+            1100,
+            1300
+          ],
+          "sizes_mentioned": [
+            700,
+            900,
+            1100,
+            1300
+          ]
+        }
+      ],
+      "comparative": false,
+      "reason": null
+    }
+  }
+}

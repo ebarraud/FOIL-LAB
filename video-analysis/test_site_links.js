@@ -36,3 +36,15 @@ async function checkForm(fail){
  assert.ok(get('preset').options.some(v=>/kiteworld/i.test(v.text)));
 }
 Promise.resolve().then(()=>checkForm(false)).then(()=>checkForm(true)).then(()=>console.log('Import form: complete registry, AXIS, KiteWorld Shop and explicit failure verified')).catch(e=>{console.error(e);process.exitCode=1});
+// Avis vidéo sur les cartes : rendu échappé, lien minuté, mention « sans effet sur le classement ».
+{
+ const src=fs.readFileSync('index.html','utf8');
+ const blk=src.slice(src.indexOf('let REVIEW_INDEX='),src.indexOf('function foilMarkup('));
+ const ctx={};require('node:vm').createContext(ctx);require('node:vm').runInContext(blk.replace('let REVIEW_INDEX=','globalThis.REVIEW_INDEX=')+';globalThis.T={buildReviewIndex,reviewsMarkup}',ctx);
+ ctx.REVIEW_INDEX=ctx.T.buildReviewIndex({reviews:{abc:{title:'Test <b>',families:[{family:'X|Y',sizes_tested:[900],sizes_mentioned:[900]}]}}},[{video_id:'abc',claims:[{start_s:75,statement_fr:'Bon <script>',limits:'L'}]}]);
+ const h=ctx.T.reviewsMarkup('X|Y',900,'cm²');
+ assert.ok(h.includes('&lt;script&gt;')&&!h.includes('<script>'),'texte non échappé');
+ assert.ok(h.includes('t=75s')&&h.includes('1:15')&&h.includes('ta taille testée')&&/ni la taille ni le classement/.test(h));
+ assert.match(ctx.T.reviewsMarkup('Z|Z',1,'L'),/aucun essai relu/);
+ console.log('Video review cards: escaping, timestamp links and scope notice');
+}
