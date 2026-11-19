@@ -147,3 +147,21 @@ console.log('Surge 890 uses real 835cm2, skill/ease exclusions and its own evide
  assert.ok(source.includes('Programme adapté à ton niveau'));
  console.log('Sweep fixes: Silk carving scope, fair ranking, freeride specialists, beginner program fallback');
 }
+
+// Calibrage sourcé de la surface (SURF Magazin, AFS Evo) et nouvelles familles débutant.
+{
+ const sb={};vm.createContext(sb);
+ vm.runInContext(source.slice(source.indexOf('const FOILS=['),source.indexOf('function boardTarget(')).replace('const FOILS=','globalThis.FOILS=').replace('const BOARDS=','globalThis.BOARDS=').replace(/^const \$=.*$/m,''),sb);
+ const b={w:75,l:4,wind:12,water:'flat',p:'all',pr:'balance',start:'knee',bt:'auto',b:'all',st:'normal',maxW:0,maxL:0,budget:'all',replace:'all',hardware:''};
+ assert.ok(sb.foilTarget(b)>=1000,'freeride ≤ 15 nds : plancher SURF expérimenté');
+ assert.ok(sb.foilTarget({...b,wind:18})<1000,'au-delà de 15 nds, le niveau garde son effet');
+ assert.ok(sb.foilTarget({...b,p:'surf'})<1000,'surf : pas de plancher');
+ assert.equal(sb.foilTarget({...b,w:83,l:3,p:'light'}),1500);
+ assert.ok(sb.foilTarget({...b,w:84,l:0,pr:'easy'})<=1700,'débutant : plafond SURF');
+ const evo=x=>sb.foilOptions({...x,b:'AFS'}).find(o=>o.f.n==='Evo');
+ assert.equal(evo({...b,l:0,w:80,wind:12}).size,1650);
+ assert.equal(evo({...b,l:0,w:80,wind:22}).size,1450);
+ for(const n of ['Gravity','CF V2'])assert.ok(sb.FOILS.some(f=>f.n===n&&f.range[0]===0),n+' accessible au niveau 0');
+ assert.ok(sb.foilOptions({...b,l:0,w:95}).length>=2,'au moins deux familles proposées à un débutant lourd');
+ console.log('Sourced sizing floor/ceiling, AFS Evo strong wind and beginner families');
+}
