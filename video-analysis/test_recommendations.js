@@ -126,3 +126,24 @@ console.log('Surge 890 uses real 835cm2, skill/ease exclusions and its own evide
  assert.equal(enduro({...base,p:'surf'}).size,1000);
  console.log('AFS reference sizing keeps the light-wind program factor');
 }
+
+// Corrections issues du balayage de 8 100 profils (19/11/2026).
+{
+ const sb={};vm.createContext(sb);
+ vm.runInContext(source.slice(source.indexOf('const FOILS=['),source.indexOf('function boardTarget(')).replace('const FOILS=','globalThis.FOILS=').replace('const BOARDS=','globalThis.BOARDS=').replace(/^const \$=.*$/m,''),sb);
+ const base={w:85,l:2,wind:12,water:'flat',p:'all',pr:'balance',start:'knee',bt:'auto',b:'all',st:'normal',maxW:0,maxL:0,budget:'all',replace:'all',hardware:''};
+ // 1. Silk V2 : le repère AFS 750 @ 75 kg vaut pour le profil carving seulement.
+ const silk=x=>sb.foilOptions({...x,b:'AFS'}).find(o=>o.f.n==='Silk V2');
+ assert.ok(!silk(base)||silk(base).size>850,'Silk V2 freeride ne doit pas reprendre le repère carving');
+ assert.equal(silk({...base,p:'surf'}).size,850);
+ // 2. Une famille dotée d'un repère constructeur ne passe plus en tête par un écart nul à sa propre cible.
+ const first=sb.foilOptions(base)[0];
+ assert.ok(!(first.f.n==='Silk V2'&&first.size===850),'classement biaisé par la cible propre à la famille');
+ // 3. Freeride : les familles spécialisées (sans étiquette « all ») passent derrière les polyvalentes.
+ for(const l of [3,4])for(const w of [65,75,85])assert.ok(sb.foilOptions({...base,l,w})[0].f.tags.includes('all'),`freeride L${l} ${w} kg : 1re aile spécialisée`);
+ // 4. Débutant + programme non adapté : le moteur ne renvoie rien, l'interface bascule sur le freeride avec explication.
+ assert.equal(sb.foilOptions({...base,l:0,p:'surf'}).length,0);
+ assert.ok(sb.foilOptions({...base,l:0,p:'all'}).length>0);
+ assert.ok(source.includes('Programme adapté à ton niveau'));
+ console.log('Sweep fixes: Silk carving scope, fair ranking, freeride specialists, beginner program fallback');
+}
