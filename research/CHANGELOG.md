@@ -1,5 +1,11 @@
 # Journal des évolutions
 
+## 2026-11-19 — Cohérence catalogue, moteur et documentation
+- `data/model_variants.json` couvre désormais les 149 tailles du moteur (40 ajoutées depuis les métadonnées embarquées, entrées existantes inchangées, aucune note). Nouvel outil `video-analysis/sync_model_variants.js` et contrôle `--check` dans `test_catalogue.js`.
+- Comparateur : les lignes de notes 1–5 ne s’affichent plus lorsqu’aucune taille sélectionnée n’est notée ; les textes précisent qu’aucune note n’est publiée actuellement.
+- Moteur : les repères AFS Enduro et Silk V2 conservent le facteur « vent léger » (1,18) déjà appliqué à la cible générique. Avant, ce programme était ignoré pour ces deux familles. Test de non-régression ajouté ; aucune nouvelle valeur ni note.
+- README réécrit (mentions obsolètes de dépôt privé, Pages non activé et branche de travail retirées) ; pied de page daté du 19 novembre.
+
 ## 2026-11-19 — Documentation centrale du projet
 - Ajout de `docs/FONCTIONNEMENT_ARCHITECTURE_ACCES.md` : objectif, flux vidéo et écrit, moteur, stockage public/local, accès, secrets, automatisations, publication et reprise après incident.
 - Le README pointe vers ce document et indique désormais correctement que le dépôt et GitHub Pages sont publics.

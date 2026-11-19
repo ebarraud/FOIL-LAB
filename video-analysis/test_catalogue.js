@@ -36,3 +36,11 @@ for(const r of axisPng){assert.equal(r.size,r.manufacturer_geometry.true_area_cm
 const axisReview=JSON.parse(fs.readFileSync('data/research/transcript_reviews.json','utf8')).reviews.find(r=>r.video_id==='iYxYwu15cuE');
 assert.ok(axisReview.claims.some(c=>c.dimension==='tempo_1020_pratiques'&&c.statement_fr.includes('surf non essayé')));
 console.log('AXIS span/area separation and Tempo practice limitations passed');
+
+// data/model_variants.json doit couvrir exactement les tailles du moteur (node video-analysis/sync_model_variants.js pour corriger).
+{
+ const {spawnSync}=require('child_process');
+ const r=spawnSync(process.execPath,['video-analysis/sync_model_variants.js','--check'],{encoding:'utf8'});
+ assert.equal(r.status,0,'model_variants.json désynchronisé du moteur : '+r.stdout);
+ console.log('model_variants.json synchronised with engine variants');
+}
