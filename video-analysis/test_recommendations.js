@@ -114,3 +114,15 @@ assert.ok(!sandbox.foilOptions({...axisProfile,pr:'easy'}).some(o=>o.f.n==='Surg
 assert.ok(!sandbox.foilOptions({...axisProfile,p:'jump'}).some(o=>o.f.n==='Surge 890'));
 assert.match(surgeOptions.find(o=>o.f.n==='Surge 890').evidence.url,/-htD7qNM7_k/);
 console.log('Surge 890 uses real 835cm2, skill/ease exclusions and its own evidence');
+
+// Repères AFS : le programme « vent léger » choisi doit agrandir la cible Enduro / Silk V2 comme la cible générique.
+{
+ const sb={};vm.createContext(sb);
+ vm.runInContext(source.slice(source.indexOf('const FOILS=['),source.indexOf('function boardTarget(')).replace('const FOILS=','globalThis.FOILS=').replace('const BOARDS=','globalThis.BOARDS=').replace(/^const \$=.*$/m,''),sb);
+ const base={w:83,l:2,wind:12,water:'flat',p:'all',pr:'balance',start:'knee',bt:'auto',b:'AFS',st:'normal',maxW:0,maxL:0,budget:'all',replace:'all',hardware:''};
+ const enduro=x=>sb.foilOptions(x).find(o=>o.f.n==='Enduro');
+ assert.equal(enduro(base).size,1100);
+ assert.ok(enduro({...base,p:'light'}).size>enduro(base).size,'Enduro: le programme vent léger doit relever la taille');
+ assert.equal(enduro({...base,p:'surf'}).size,1000);
+ console.log('AFS reference sizing keeps the light-wind program factor');
+}

@@ -1,10 +1,95 @@
 {
   "schema_version": 1,
-  "generated_from": "index.html V4 knowledge base",
-  "as_of": "2026-11-14",
+  "generated_from": "index.html (FOILS, BOARDS, KB_FOILS, KB_BOARDS, VERIFY) via video-analysis/sync_model_variants.js",
+  "as_of": "2026-11-19",
   "methodology": "docs/METHODOLOGY.md",
   "warning": "Métadonnées héritées ; anciennes notes non validées retirées. Aucune note remplacée ou inventée. Les preuves récentes et générations distinctes sont chargées depuis les registres research.",
   "variants": [
+    {
+      "id": "foil:AXIS:Surge 890:835",
+      "type": "foil",
+      "brand": "AXIS",
+      "model": "Surge 890",
+      "size_cm2": 835,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://axisfoils.com/collections/surge"
+      ],
+      "note": "Surge 890 : 835 cm² réels, 89 cm d’envergure. Glisse et maniabilité appréciées sur le montage essayé; option expérimentée, sans note de performance.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Code:R Series 680R:680",
+      "type": "foil",
+      "brand": "Code",
+      "model": "R Series 680R",
+      "size_cm2": 680,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://codefoils.com/product/r-series-front-wing/"
+      ],
+      "note": "680R : glisse et pumping appréciés par KiteWorld Shop. Petit fuselage + tail120 nerveux ; niveau avancé et montage à confirmer.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Duotone:Glide 3.0 D/LAB:825",
+      "type": "foil",
+      "brand": "Duotone",
+      "model": "Glide 3.0 D/LAB",
+      "size_cm2": 825,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/ch/products/duotone-front-wing-glide-3-0-d-lab-2027-42270-3842"
+      ],
+      "note": "Essai 825 : glisse et pumping appréciés; H130/43 et H150/40 comparés. Le choix du montage compte.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Halo:670",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Halo",
+      "size_cm2": 670,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/foils/wings/halo/"
+      ],
+      "note": "Essai 670/800 : conduite joueuse surf/freestyle, avec contrôle actif du tangage selon fuselage et stabilisateur.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:KT:Halo:800",
+      "type": "foil",
+      "brand": "KT",
+      "model": "Halo",
+      "size_cm2": 800,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/foils/wings/halo/"
+      ],
+      "note": "Essai 670/800 : conduite joueuse surf/freestyle, avec contrôle actif du tangage selon fuselage et stabilisateur.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
     {
       "id": "foil:AFS:Evo:950",
       "type": "foil",
@@ -1196,6 +1281,671 @@
         "https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/"
       ],
       "note": "Notes éditoriales par famille; taille non essayée extrapolée.",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:WAKA:Glide TravelFold:66",
+      "type": "board",
+      "brand": "WAKA",
+      "model": "Glide TravelFold",
+      "volume_l": 66,
+      "length_cm": 183,
+      "width_cm": 48,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://waka.surf/products/waka-glide-board"
+      ],
+      "note": "Planche carbone pliable orientée voyage. Essai KiteWorld Shop : 77 L à 76 kg, rigidité appréciée ; attention au nose et au clapot latéral. Assemblage à trois vis, entretien et serrage selon notice. Autres volumes : dimensions fabricant, sans essai isolé. Dimensions cm arrondies publiées par WAKA.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:WAKA:Glide TravelFold:77",
+      "type": "board",
+      "brand": "WAKA",
+      "model": "Glide TravelFold",
+      "volume_l": 77,
+      "length_cm": 190,
+      "width_cm": 50,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://waka.surf/products/waka-glide-board"
+      ],
+      "note": "Planche carbone pliable orientée voyage. Essai KiteWorld Shop : 77 L à 76 kg, rigidité appréciée ; attention au nose et au clapot latéral. Assemblage à trois vis, entretien et serrage selon notice. Autres volumes : dimensions fabricant, sans essai isolé. Dimensions cm arrondies publiées par WAKA.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:WAKA:Glide TravelFold:88",
+      "type": "board",
+      "brand": "WAKA",
+      "model": "Glide TravelFold",
+      "volume_l": 88,
+      "length_cm": 198,
+      "width_cm": 52,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://waka.surf/products/waka-glide-board"
+      ],
+      "note": "Planche carbone pliable orientée voyage. Essai KiteWorld Shop : 77 L à 76 kg, rigidité appréciée ; attention au nose et au clapot latéral. Assemblage à trois vis, entretien et serrage selon notice. Autres volumes : dimensions fabricant, sans essai isolé. Dimensions cm arrondies publiées par WAKA.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:WAKA:Glide TravelFold:99",
+      "type": "board",
+      "brand": "WAKA",
+      "model": "Glide TravelFold",
+      "volume_l": 99,
+      "length_cm": 206,
+      "width_cm": 54,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://waka.surf/products/waka-glide-board"
+      ],
+      "note": "Planche carbone pliable orientée voyage. Essai KiteWorld Shop : 77 L à 76 kg, rigidité appréciée ; attention au nose et au clapot latéral. Assemblage à trois vis, entretien et serrage selon notice. Autres volumes : dimensions fabricant, sans essai isolé. Dimensions cm arrondies publiées par WAKA.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:WAKA:Glide TravelFold:111",
+      "type": "board",
+      "brand": "WAKA",
+      "model": "Glide TravelFold",
+      "volume_l": 111,
+      "length_cm": 213,
+      "width_cm": 56,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://waka.surf/products/waka-glide-board"
+      ],
+      "note": "Planche carbone pliable orientée voyage. Essai KiteWorld Shop : 77 L à 76 kg, rigidité appréciée ; attention au nose et au clapot latéral. Assemblage à trois vis, entretien et serrage selon notice. Autres volumes : dimensions fabricant, sans essai isolé. Dimensions cm arrondies publiées par WAKA.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Drifter 5 Pro Carbon:60",
+      "type": "board",
+      "brand": "KT",
+      "model": "Drifter 5 Pro Carbon",
+      "volume_l": 60,
+      "length_cm": 165.1,
+      "width_cm": 55.88,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/boards/drifter-5-pro-carbon/"
+      ],
+      "note": "Volume 60 L contrôlé chez KT : essai pour pratiquant avancé en vagues et clapot. Stabilité pré-envol appréciée face à une Drifter 4 de 56 L, sans équivalence de volume mesurée. Seule la 60 L est référencée ici; pas un conseil débutant.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Duotone:Skybrid SLS 2026:45",
+      "type": "board",
+      "brand": "Duotone",
+      "model": "Skybrid SLS 2026",
+      "volume_l": 45,
+      "length_cm": 157.48,
+      "width_cm": 45.72,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610"
+      ],
+      "note": "SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Essai 80 L à 83 kg : légèrement immergée au départ, moins stable en roulis que la 85 L 2025. Pas de seuil universel poids+litres.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Duotone:Skybrid SLS 2026:60",
+      "type": "board",
+      "brand": "Duotone",
+      "model": "Skybrid SLS 2026",
+      "volume_l": 60,
+      "length_cm": 165.1,
+      "width_cm": 50.8,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610"
+      ],
+      "note": "SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Essai 80 L à 83 kg : légèrement immergée au départ, moins stable en roulis que la 85 L 2025. Pas de seuil universel poids+litres.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Duotone:Skybrid SLS 2026:70",
+      "type": "board",
+      "brand": "Duotone",
+      "model": "Skybrid SLS 2026",
+      "volume_l": 70,
+      "length_cm": 170.18,
+      "width_cm": 52.07,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610"
+      ],
+      "note": "SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Essai 80 L à 83 kg : légèrement immergée au départ, moins stable en roulis que la 85 L 2025. Pas de seuil universel poids+litres.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Duotone:Skybrid SLS 2026:80",
+      "type": "board",
+      "brand": "Duotone",
+      "model": "Skybrid SLS 2026",
+      "volume_l": 80,
+      "length_cm": 175.26,
+      "width_cm": 53.34,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610"
+      ],
+      "note": "SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Essai 80 L à 83 kg : légèrement immergée au départ, moins stable en roulis que la 85 L 2025. Pas de seuil universel poids+litres.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Duotone:Skybrid SLS 2026:90",
+      "type": "board",
+      "brand": "Duotone",
+      "model": "Skybrid SLS 2026",
+      "volume_l": 90,
+      "length_cm": 180.34,
+      "width_cm": 54.61,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610"
+      ],
+      "note": "SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Essai 80 L à 83 kg : légèrement immergée au départ, moins stable en roulis que la 85 L 2025. Pas de seuil universel poids+litres.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Duotone:Skybrid SLS 2026:100",
+      "type": "board",
+      "brand": "Duotone",
+      "model": "Skybrid SLS 2026",
+      "volume_l": 100,
+      "length_cm": 185.42,
+      "width_cm": 55.88,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610"
+      ],
+      "note": "SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Essai 80 L à 83 kg : légèrement immergée au départ, moins stable en roulis que la 85 L 2025. Pas de seuil universel poids+litres.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Duotone:Skybrid SLS 2026:115",
+      "type": "board",
+      "brand": "Duotone",
+      "model": "Skybrid SLS 2026",
+      "volume_l": 115,
+      "length_cm": 193.04,
+      "width_cm": 58.42,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610"
+      ],
+      "note": "SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Essai 80 L à 83 kg : légèrement immergée au départ, moins stable en roulis que la 85 L 2025. Pas de seuil universel poids+litres.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Duotone:Skybrid SLS 2026:130",
+      "type": "board",
+      "brand": "Duotone",
+      "model": "Skybrid SLS 2026",
+      "volume_l": 130,
+      "length_cm": 200.66,
+      "width_cm": 60.96,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.duotonesports.com/en/us/products/duotone-skybrid-sls-2026-42260-3610"
+      ],
+      "note": "SLS carbone/PVC distincte de la Skybrid époxy et de la D/LAB creuse. Essais 80/90/100 L : compromis stabilité/accélération, choix selon largeur et niveau. Avis nuancés après stage; initiation pure exclue par précaution. Essai 80 L à 83 kg : légèrement immergée au départ, moins stable en roulis que la 85 L 2025. Pas de seuil universel poids+litres.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:30",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 30,
+      "length_cm": 142.24,
+      "width_cm": 44.196,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:40",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 40,
+      "length_cm": 154.94,
+      "width_cm": 45.212,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:50",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 50,
+      "length_cm": 160.02,
+      "width_cm": 46.736,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:60",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 60,
+      "length_cm": 165.1,
+      "width_cm": 47.244,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:65",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 65,
+      "length_cm": 167.64,
+      "width_cm": 48.387,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:70",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 70,
+      "length_cm": 172.72,
+      "width_cm": 49.53,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:80",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 80,
+      "length_cm": 177.8,
+      "width_cm": 50.8,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:90",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 90,
+      "length_cm": 187.96,
+      "width_cm": 51.816,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:95",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 95,
+      "length_cm": 190.5,
+      "width_cm": 52.578,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:104",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 104,
+      "length_cm": 195.58,
+      "width_cm": 53.34,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:110",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 110,
+      "length_cm": 200.66,
+      "width_cm": 54.483,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:KT:Super K 2 Carbon:120",
+      "type": "board",
+      "brand": "KT",
+      "model": "Super K 2 Carbon",
+      "volume_l": 120,
+      "length_cm": 203.2,
+      "width_cm": 55.88,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://ktfoiling.com/wp-content/uploads/2025/08/super-k-2-carbon-specs.pdf"
+      ],
+      "note": "Essai 90 L : départ actif/passif apprécié, mais largeur étroite exigeant départ et jibe maîtrisés. Pas une board d’initiation; longueur pénalisant les rotations. Retours sur Carbon, pas Carbon Pro.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Armstrong:Midlength Mk II X-Form:38",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "volume_l": 38,
+      "length_cm": 142.24,
+      "width_cm": 46.038,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board"
+      ],
+      "note": "Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Armstrong:Midlength Mk II X-Form:45",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "volume_l": 45,
+      "length_cm": 152.4,
+      "width_cm": 47.307,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board"
+      ],
+      "note": "Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Armstrong:Midlength Mk II X-Form:55",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "volume_l": 55,
+      "length_cm": 162.56,
+      "width_cm": 48.578,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board"
+      ],
+      "note": "Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Armstrong:Midlength Mk II X-Form:65",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "volume_l": 65,
+      "length_cm": 172.72,
+      "width_cm": 49.848,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board"
+      ],
+      "note": "Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Armstrong:Midlength Mk II X-Form:75",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "volume_l": 75,
+      "length_cm": 182.88,
+      "width_cm": 51.752,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board"
+      ],
+      "note": "Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Armstrong:Midlength Mk II X-Form:85",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "volume_l": 85,
+      "length_cm": 193.04,
+      "width_cm": 54.293,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board"
+      ],
+      "note": "Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Armstrong:Midlength Mk II X-Form:100",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "volume_l": 100,
+      "length_cm": 203.2,
+      "width_cm": 56.515,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board"
+      ],
+      "note": "Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Armstrong:Midlength Mk II X-Form:115",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "volume_l": 115,
+      "length_cm": 210.82,
+      "width_cm": 57.785,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board"
+      ],
+      "note": "Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "board:Armstrong:Midlength Mk II X-Form:130",
+      "type": "board",
+      "brand": "Armstrong",
+      "model": "Midlength Mk II X-Form",
+      "volume_l": 130,
+      "length_cm": 218.44,
+      "width_cm": 59.055,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://armstrongfoils.com/en-intl/products/midlength-mk-ii-x-form-board"
+      ],
+      "note": "Dimensions constructeur MkII X-Form contrôlées. Essais identifiés 55 L (rider 62 kg avancé), 65 L (pratiquant expérimenté en vent fort), 85 L (rider annonçant 85 kg). Choisir volume et largeur selon le profil; les petites tailles ne deviennent pas des conseils débutant.",
+      "sync_origin": "engine_embedded_metadata",
       "score_status": "not_assigned_no_validated_rubric"
     },
     {

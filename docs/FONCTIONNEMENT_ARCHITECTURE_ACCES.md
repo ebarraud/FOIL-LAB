@@ -136,7 +136,7 @@ Le catalogue est composé de deux ensembles :
 - familles et tailles embarquées dans `index.html`, utilisées par le moteur ;
 - fiches complémentaires de `expanded_test_evidence.json`, visibles dans le catalogue sans devenir automatiquement des recommandations.
 
-`data/model_variants.json` fournit les métadonnées synchronisées du catalogue. Une valeur `qualitative_scores: null` signifie qu’aucune note défendable n’est publiée.
+`data/model_variants.json` contient une entrée par taille du moteur. Il est maintenu par `node video-analysis/sync_model_variants.js`, qui ajoute les tailles manquantes sans modifier les entrées existantes ; `test_catalogue.js` échoue en cas d’écart. Au chargement, ses métadonnées (confiance, génération, sources, dimensions) remplacent celles embarquées, puis les liens de preuve par taille sont appliqués. Aucune note n’est affichée actuellement. Une valeur `qualitative_scores: null` signifie qu’aucune note défendable n’est publiée.
 
 ## 8. Stockage
 
