@@ -1,5 +1,12 @@
 # Journal des évolutions
 
+## 2026-11-19 — Calibrage sourcé des surfaces et ailes débutant
+- Surface générique encadrée par les tableaux SURF Magazin : plancher en vent faible (débutants jusqu’à 20 nds, programme vent léger, vent < 10 nds ; niveau ≥ 2 en freeride/glisse jusqu’à 15 nds), plafond au maximum « vent très léger ». Surf, saut et vitesse sans plancher.
+- AFS Evo : colonne vent fort (> 20 nds) du tableau AFS.
+- Ajout F-ONE Gravity (1800, 2200) et Armstrong CF V2 (950, 1200, 1600, 2050), dimensions constructeur, sans essai relié ni note : le niveau 0 n’avait qu’une famille.
+- Balayage : premiers choix à plus de 150 cm² hors repère SURF ramenés de 382 à 36 profils (freeride/vent léger/glisse).
+- Toujours absents : Gong, Sabfoil, Takuma, Indiana, North (tableaux de tailles officiels non relevés).
+
 ## 2026-11-19 — Corrections issues d’un balayage de 8 100 profils
 - Silk V2 : le repère AFS (750 cm² à 75 kg) ne s’applique plus qu’au programme carving, conformément au tableau AFS (freeride : Enduro). Auparavant, un rider de 85 kg niveau 2 en freeride à 12 nds recevait une Silk V2 850 en tête.
 - Classement : l’écart est aussi mesuré contre la cible générique du rider ; une famille dotée d’un repère constructeur n’obtient plus un écart nul automatique.

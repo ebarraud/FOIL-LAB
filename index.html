@@ -116,6 +116,8 @@ const FOILS=[
  {b:'AFS',n:'Evo',sizes:[950,1250,1450,1650],range:[0,1],tags:['all','light'],ar:'7,5–8,1',lift:1,quote:'Confort et décollage progressif ; la stabilité prime sur la vitesse.',risk:'À dépasser lorsque vitesse, carve et surf deviennent prioritaires.',src:'https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026',e:'constructeur',weightAnchor:1650},
  {b:'AFS',n:'Enduro',sizes:[600,700,800,900,1000,1100,1300],range:[1,2,3,4],tags:['all','light','glide','surf'],ar:'11',lift:.93,quote:'Glisse, relance et freefly. À 75 kg, AFS situe le freeride vers 1000 et le freefly vers 900.',risk:'Allongement 11 : ne pas confondre efficacité et facilité d’initiation.',src:'https://afs-foiling.com/fr/blog/meilleur-foil-wing-2026',e:'fabricant + retours',weightAnchor:1000},
  {b:'AFS',n:'Silk V2',sizes:[650,750,850,950,1050,1150],range:[2,3,4],tags:['surf','all'],ar:'9',lift:1.02,quote:'Carving progressif et maîtrise en courbe, testé aussi par Foiling Magazine.',risk:'Moins adapté qu’un véritable foil de glisse pour le downwind longue distance.',src:'https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/',e:'essai indépendant',weightAnchor:850},
+ {b:'F-ONE',n:'Gravity',sizes:[1800,2200],range:[0,1],tags:['all','light'],ar:'5 (1800 FCT)',lift:1,quote:'Aile d’initiation F-ONE : portance à très basse vitesse, délivrée progressivement pour garder l’équilibre.',risk:'Grande surface à faible allongement : glisse et vitesse limitées une fois le vol maîtrisé. Génération (Carbon / FCT) à vérifier.',src:'https://www.f-one.world/product/gravity-1800/',e:'fabricant',weightAnchor:1800},
+ {b:'Armstrong',n:'CF V2',sizes:[950,1200,1600,2050],range:[0,1,2],tags:['all','light'],ar:'4,8–5',lift:1,quote:'Gamme Carving Free-ride d’Armstrong : vol stable et tolérant à basse vitesse, de l’initiation à la progression.',risk:'Génération présentée en 2022 : disponibilité et compatibilité A+ System à vérifier. La 950 vise le pumping de riders avancés.',src:'https://cdn.shopify.com/s/files/1/0077/1270/2564/files/CF-V2-Range-Info.pdf',e:'fabricant',weightAnchor:1600},
  {b:'F-ONE',n:'Seven Seas',sizes:[1100,1200,1300,1400,1500,1600],range:[1,2,3],tags:['all','light','glide'],ar:'≈ 8 selon version',lift:1,quote:'Famille de progression et freeride glissant, plus tolérante que les ailes de vitesse.',risk:'Tailles et génération à contrôler avant achat : la nomenclature évolue.',src:'https://www.f-one.world/en/foil/front-wings/seven-seas.html',e:'fabricant',weightAnchor:1300},
  {b:'F-ONE',n:'SK8',sizes:[550,650,750,850,950,1050,1150],range:[2,3,4],tags:['surf','all','jump'],ar:'selon génération',lift:1,quote:'Carving et sensation surf, fonctionnement actif à moyenne/haute vitesse.',risk:'L’apprentissage et le vent marginal ne sont pas ses programmes centraux.',src:'https://www.f-one.world/en/foil/front-wings/SK8.html',e:'fabricant',weightAnchor:950},
  {b:'F-ONE',n:'Eagle',sizes:[690,790,890,990,1090,1190,1290],range:[2,3,4],tags:['glide','speed','light'],ar:'haut',lift:.92,quote:'Longue glisse et transfert d’énergie.',risk:'Plus d’envergure et une technique de relance adaptée nécessaires.',src:'https://www.f-one.world/en/foil/front-wings/eagle.html',e:'fabricant',weightAnchor:1090},
@@ -142,6 +144,8 @@ const BOARDS=[
 ];
 // Série d’envergures publiée par les fabricants. Les valeurs absentes ne sont pas déduites.
 const VERIFY={
+ 'F-ONE|Gravity':{year:'Gravity FCT · fiche F-ONE consultée le 19/11/2026',span:{1800:95},aspect:5,system:'Connexion Fusion Link (FCT) : vérifier fuselage et mât F-ONE',primary:'https://www.f-one.world/product/gravity-1800/',confidence:'Dimensions constructeur (1800) · 2200 à confirmer · aucun essai relié',note:'F-ONE conseille la 2200 aux riders de plus de 80 kg (fiche Gravity 2200).'},
+ 'Armstrong|CF V2':{year:'CF V2 · gamme présentée en 2022',span:{950:67,1200:74.6,1600:85.6,2050:97.2},aspect:4.85,system:'Armstrong A+ System : vérifier mât, fuselage et génération',primary:'https://cdn.shopify.com/s/files/1/0077/1270/2564/files/CF-V2-Range-Info.pdf',confidence:'Dimensions constructeur · aucun essai relié',note:'Armstrong : CF2050 pour débutants de 78 kg et plus ; CF950 pour riders avancés en pumping.'},
  'AXIS|Surge 890':{year:'Gamme Surge · tableau fabricant contrôlé le 17 novembre 2026',span:{835:89},aspect:9.5,system:'Vérifier fuselage, mât et tail AXIS exacts; aucune compatibilité de tout ancien montage déduite du discours.',primary:'https://axisfoils.com/collections/surge',independent:'https://www.youtube.com/watch?v=-htD7qNM7_k',confidence:'Dimensions fabricant · comportement attribué au testeur',note:'890 = envergure 890 mm; surface développée 835 cm², projetée 834 cm². Seule la 835 entre ici au moteur; 780/643 au catalogue sans extrapolation de niveau.'},
  'AFS|Enduro':{year:'Gamme en cours en 2026',span:{600:81.3,700:87.7,800:94,900:99.4,1000:105,1100:110,1300:119},aspect:11,system:'AFS Fuselink, ou Performer avec fuselage Switch (configuration à confirmer)',primary:'https://afs-foiling.com/fr/produit/aile-avant-enduro',independent:'https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/',confidence:'Élevée (dimensions) · Modérée (comportement)',note:'Fuselage court conseillé par AFS pour la manœuvrabilité, standard pour la glisse. Le constructeur donne un repère freefly Enduro 900.'},
  'AFS|Silk V2':{year:'2026',span:{650:77,750:82,850:88,950:93,1050:97,1150:102},aspect:9,system:'AFS Fuselink — contrôler le tail et les vis',primary:'https://afs-foiling.com/fr/detail-et-dimensions-foils-planches',independent:'https://www.thefoilingmagazine.com/just-in/best-foils-2026-the-ultimate-buyers-guide/',confidence:'Élevée (tailles) · Modérée (programme)',note:'Orientation surf / carving, choix du stab déterminant.'},
@@ -177,12 +181,41 @@ const clamp=(x,a,b)=>Math.min(b,Math.max(a,x));
 const ids=['weight','level','wind','water','program','priority','start','boardtype','brand','stability','maxwidth','maxlength','budget','replace','hardware'];
 const c=()=>({w:+$('weight').value,l:+$('level').value,wind:+$('wind').value,water:$('water').value,p:$('program').value,pr:$('priority').value,start:$('start').value,bt:$('boardtype').value,b:$('brand').value,st:$('stability').value,maxW:+$('maxwidth').value||0,maxL:+$('maxlength').value||0,budget:$('budget').value,replace:$('replace').value,hardware:$('hardware').value.trim()});
 let tab='foil';
+// ===== Repères experts sourcés : wing (aile à main), mât, fuselage, allongement, contrôle de la surface d'aile avant =====
+// Valeurs recopiées des sources citées, sans interpolation ni seuil inventé. Voir data/research/expert_setup_guides.json.
+const EXPERT_SRC={
+ surfWing:{url:'https://www.surf-magazin.de/en/wingsurfing/how-to/tips-and-tricks/learning-to-wing-surf-size-grips-valve-system-how-to-find-the-right-wing/',label:'SURF Magazin, guide taille de wing (27/08/2026)'},
+ surfFoil:{url:'https://www.surf-magazin.de/en/wingsurfing/how-to/tips-and-tricks/learn-to-wingsurf-how-to-find-the-right-foil-basics-and-advice/',label:'SURF Magazin, guide foil (25/08/2026)'},
+ surfMast:{url:'https://www.surf-magazin.de/en/wingsurfing/how-to/tutorials/foils-for-wingsurfing-which-length-makes-sense-for-a-foil-mast/',label:'SURF Magazin, longueur de mât'},
+ duoMast:{url:'https://duotone-wing-and-foiling-helpcenter.gorgias.help/en-US/mast-and-fuselage-length---what-suits-me-463036',label:'Duotone, centre d’aide mât et fuselage'},
+ duoUnit:{url:'https://hoenalu.com/en/product/duotone/unit-2026',label:'Duotone Unit 2026, plages publiées (reprises par Hoenalu ; page officielle à rendu dynamique)',official:'https://www.duotonesports.com/en/products/duotone-unit-2026-42260-3519'}
+};
+// SURF Magazin : une seule wing couvrant la plus large plage, pratiquant débutant. Intérieur = vent dominant 6–15 nds ; côte = 12 à plus de 20 nds.
+const WING_GUIDE={inland:[[60,4.5,5],[75,5,5.5],[95,5.5,6.5],[Infinity,6,7]],coastal:[[60,4,4.5],[75,4.5,5],[95,5,5.5],[Infinity,5.5,6.5]]};
+// Duotone Unit 2026 : taille (m²) et plage de vent publiée (nds). Référence de poids du rider non publiée.
+const UNIT_2026=[[2.0,27,45],[2.5,23,40],[3.0,19,37],[3.5,16,33],[4.0,14,30],[4.5,12,28],[5.0,10,25],[5.5,9,22],[6.0,8,20],[6.5,7,18]];
+// SURF Magazin : aile avant pour couvrir la plus large plage avec une seule aile.
+const FOIL_GUIDE={light:{wind:'8–15 nds',rows:[[70,1300,1500],[85,1500,1700],[Infinity,1700,2000]]},experienced:{wind:'10–20 nds',rows:[[70,900,1200],[85,1000,1300],[Infinity,1200,1500]]}};
+// Bornes : « moins de X » exclusif, plage « X–Y » incluant Y, dernière ligne « plus de Y ».
+function guideRow(rows,w){return w<rows[0][0]?rows[0]:rows.slice(1).find(r=>w<=r[0])||rows[rows.length-1]}
+const weightBand=guideRow;
 function foilTarget(x){
  const m=[22,18,14,11,9.7][x.l];let a=x.w*m;
  a*=x.p==='light'?1.18:x.p==='glide'?1.08:x.p==='surf'?.91:x.p==='speed'?.83:x.p==='jump'?.85:1;
  a*=x.wind<11?1.19:x.wind<15?1.09:x.wind>25?.83:x.wind>20?.91:1;
  a*=x.pr==='easy'?1.08:x.pr==='perf'?.91:1;
- return clamp(a,550,2300);
+ // Plafond sourcé : jamais au-delà du haut du tableau SURF « débutant / priorité vent très léger » pour ce poids.
+ return clamp(Math.min(Math.max(a,foilFloor(x).area),guideRow(FOIL_GUIDE.light.rows,x.w)[2]),550,2300);
+}
+// Plancher sourcé (SURF Magazin, tableaux d'aile avant unique) : corrige la sous-estimation en vent faible.
+// Débutants jusqu'à 20 nds (au-delà, repères AFS Evo vent fort), programme vent léger ou vent < 10 nds : tableau « débutant / priorité vent très léger » (8–15 nds).
+// Niveau ≥ 2 en freeride ou glisse jusqu'à 15 nds : tableau « expérimenté » (10–20 nds).
+// Surf, saut et vitesse : pas de plancher, ces programmes choisissent volontairement plus petit.
+function foilFloor(x){
+ if(['surf','jump','speed'].includes(x.p))return {area:0,table:null};
+ if((x.l<=1&&x.wind<=20)||x.p==='light'||x.wind<10)return {area:guideRow(FOIL_GUIDE.light.rows,x.w)[1],table:'light'};
+ if(x.wind<=15)return {area:guideRow(FOIL_GUIDE.experienced.rows,x.w)[1],table:'experienced'};
+ return {area:0,table:null};
 }
 function transcriptSuitability(f,size,x){
  const rule={minimumSize:null,reason:'',caution:'',url:''};
@@ -284,7 +317,8 @@ function foilOptions(x){
   if(f.b==='AFS'&&f.n==='Enduro'&&x.l>=2){let reference=x.p==='surf'?900:1000; target=reference*x.w/75*(x.wind<12?1.12:x.wind>23?.88:1)*afsProgram;}
   // AFS publie Silk V2 750 à 75 kg pour le profil « carving » uniquement (freeride : Enduro) : ne pas l'appliquer aux autres programmes.
   if(f.b==='AFS'&&f.n==='Silk V2'&&x.l>=2&&x.p==='surf')target=750*x.w/75*(x.wind<12?1.15:x.wind>23?.88:1)*afsProgram;
-  if(f.b==='AFS'&&f.n==='Evo'&&x.l<=1)target=x.w<60?1250:x.w<75?1450:1650;
+  // Tableau AFS Evo : vent léger 10–20 nds / vent fort > 20 nds.
+  if(f.b==='AFS'&&f.n==='Evo'&&x.l<=1)target=x.wind>20?(x.w<75?1250:x.w<=90?1450:1650):(x.w<60?1250:x.w<75?1450:1650);
   // Prevent false equivalence: each family has its own size response, a broad surface formula is only a prior.
   if(f.b==='KT'&&f.n==='Nomad')target*=.87;
   let size=f.sizes.reduce((best,v)=>Math.abs(Math.log(v/target))<Math.abs(Math.log(best/target))?v:best,f.sizes[0]);
@@ -334,24 +368,6 @@ function boardOptions(x){const target=boardTarget(x),kind=boardKind(x),res=[];
  const bestByFamily=[];res.sort((a,b)=>a.loss-b.loss).forEach(o=>{if(!bestByFamily.find(z=>z.b.b===o.b.b&&z.b.n===o.b.n))bestByFamily.push(o)});
  return bestByFamily.slice(0,3);
 }
-// ===== Repères experts sourcés : wing (aile à main), mât, fuselage, allongement, contrôle de la surface d'aile avant =====
-// Valeurs recopiées des sources citées, sans interpolation ni seuil inventé. Voir data/research/expert_setup_guides.json.
-const EXPERT_SRC={
- surfWing:{url:'https://www.surf-magazin.de/en/wingsurfing/how-to/tips-and-tricks/learning-to-wing-surf-size-grips-valve-system-how-to-find-the-right-wing/',label:'SURF Magazin, guide taille de wing (27/08/2026)'},
- surfFoil:{url:'https://www.surf-magazin.de/en/wingsurfing/how-to/tips-and-tricks/learn-to-wingsurf-how-to-find-the-right-foil-basics-and-advice/',label:'SURF Magazin, guide foil (25/08/2026)'},
- surfMast:{url:'https://www.surf-magazin.de/en/wingsurfing/how-to/tutorials/foils-for-wingsurfing-which-length-makes-sense-for-a-foil-mast/',label:'SURF Magazin, longueur de mât'},
- duoMast:{url:'https://duotone-wing-and-foiling-helpcenter.gorgias.help/en-US/mast-and-fuselage-length---what-suits-me-463036',label:'Duotone, centre d’aide mât et fuselage'},
- duoUnit:{url:'https://hoenalu.com/en/product/duotone/unit-2026',label:'Duotone Unit 2026, plages publiées (reprises par Hoenalu ; page officielle à rendu dynamique)',official:'https://www.duotonesports.com/en/products/duotone-unit-2026-42260-3519'}
-};
-// SURF Magazin : une seule wing couvrant la plus large plage, pratiquant débutant. Intérieur = vent dominant 6–15 nds ; côte = 12 à plus de 20 nds.
-const WING_GUIDE={inland:[[60,4.5,5],[75,5,5.5],[95,5.5,6.5],[Infinity,6,7]],coastal:[[60,4,4.5],[75,4.5,5],[95,5,5.5],[Infinity,5.5,6.5]]};
-// Duotone Unit 2026 : taille (m²) et plage de vent publiée (nds). Référence de poids du rider non publiée.
-const UNIT_2026=[[2.0,27,45],[2.5,23,40],[3.0,19,37],[3.5,16,33],[4.0,14,30],[4.5,12,28],[5.0,10,25],[5.5,9,22],[6.0,8,20],[6.5,7,18]];
-// SURF Magazin : aile avant pour couvrir la plus large plage avec une seule aile.
-const FOIL_GUIDE={light:{wind:'8–15 nds',rows:[[70,1300,1500],[85,1500,1700],[Infinity,1700,2000]]},experienced:{wind:'10–20 nds',rows:[[70,900,1200],[85,1000,1300],[Infinity,1200,1500]]}};
-// Bornes : « moins de X » exclusif, plage « X–Y » incluant Y, dernière ligne « plus de Y ».
-function guideRow(rows,w){return w<rows[0][0]?rows[0]:rows.slice(1).find(r=>w<=r[0])||rows[rows.length-1]}
-const weightBand=guideRow;
 function expertWing(x){
  const regime=x.wind<=15?'inland':'coastal',[,min,max]=weightBand(WING_GUIDE[regime],x.w);
  const covering=UNIT_2026.filter(([,lo,hi])=>x.wind>=lo&&x.wind<=hi).map(([s,lo,hi])=>({size:s,lo,hi,low:x.wind-lo<=2,inGuide:s>=min&&s<=max}));
@@ -436,7 +452,7 @@ function profileInputErrors(){return ['maxwidth','maxlength'].filter(id=>!$(id).
 function render(){const errors=profileInputErrors();if(errors.length){$('intro').textContent=errors.join(' ');['foilResults','boardResults','setupResults','systemNotes','compare'].forEach(id=>$(id).replaceChildren());return}const x=c(),ft=foilTarget(x),bt=boardTarget(x),fk=boardKind(x),bo=boardOptions(x);let fo=foilOptions(x),programNote='';
  if(!fo.length&&x.l<=1&&!['all','light'].includes(x.p)){fo=foilOptions({...x,p:'all'});programNote=`<div class="alert"><b>Programme adapté à ton niveau :</b> aucune aile du catalogue n’est indiquée pour « ${$('program').selectedOptions[0].text} » au niveau ${x.l}. Sélection affichée pour le freeride / progression, à reprendre quand les transitions seront acquises.</div>`;}
  $('weighttxt').textContent=x.w+' kg';$('windtxt').textContent=x.wind+' nds';
- $('intro').innerHTML=`<div class="tip"><b>Lecture experte :</b> pour ${x.w} kg à ${x.wind} nœuds, le calcul générique donne ≈ ${Math.round(ft/50)*50} cm² d’aile avant et ≈ ${Math.round(bt/5)*5} L en premier repère. <b>Ces valeurs ne sont pas un classement direct des modèles :</b> le moteur recalcule selon les familles puis élimine les programmes et tailles inadaptés. Shape de board étudié : <b>${fk==='midi'?'midlength':fk==='dw'?'downwind':'compact'}</b>.</div>`;
+ $('intro').innerHTML=`<div class="tip"><b>Lecture experte :</b> pour ${x.w} kg à ${x.wind} nœuds, le calcul générique, encadré par les tableaux SURF Magazin (plancher en vent faible, plafond « vent très léger »), donne ≈ ${Math.round(ft/50)*50} cm² d’aile avant et ≈ ${Math.round(bt/5)*5} L en premier repère. <b>Ces valeurs ne sont pas un classement direct des modèles :</b> le moteur recalcule selon les familles puis élimine les programmes et tailles inadaptés. Shape de board étudié : <b>${fk==='midi'?'midlength':fk==='dw'?'downwind':'compact'}</b>.</div>`;
  $('foilResults').innerHTML=`<div class="resulthead"><h2>Sélection : ailes avant</h2><span class="counter">${fo.length} option(s)</span></div>${programNote}${fo.length?fo.map((o,i)=>foilMarkup(o,i,x)).join(''):'<div class="noresult">Aucun modèle du catalogue vérifié ne satisfait suffisamment ces contraintes. Plutôt que proposer une aile arbitraire, augmente la plage de marques, adapte le programme ou recherche un modèle supplémentaire.</div>'}<div class="alert"><b>À vérifier avant achat :</b> stabilisateur, fuselage, interface de mât, génération, disponibilité et essai sur ton spot. La surface n’est pas à elle seule un indicateur de portance.</div>`;
  $('boardResults').innerHTML=`<div class="resulthead"><h2>Sélection : boards</h2><span class="counter">${bo.length} option(s)</span></div>${bo.length?bo.map((o,i)=>boardMarkup(o,i,x)).join(''):'<div class="noresult">Aucune board aux dimensions documentées ne satisfait les restrictions. Vérifie en particulier largeur/longueur maximales, niveau, clapot et shape imposé. Ne pas improviser un volume ou une largeur absente de la fiche.</div>'}<div class="alert"><b>Attention :</b> la stabilité dépend aussi de la répartition des volumes et de la carène. À volume égal une midlength étroite peut être plus délicate en roulis qu’une compacte large ; un essai reste nécessaire. Les dimensions indiquées sont des mesures constructeurs, pas des tests indépendants.</div>`;
  $('systemNotes').innerHTML=`<details><summary>Comprendre les arbitrages et les exclusions</summary><p>Le moteur utilise une cible de surface grossière poids × facteur de niveau, modulée par vent et discipline. Il la corrige par famille (ex. AFS : repères publiés de poids/programme). Les modèles incompatibles avec le niveau ou la discipline sont exclus. Il sélectionne les tailles réelles documentées, refuse les écarts extrêmes et limite le résultat à trois. Pour la board, il exige une dimension catalogue exacte, croise volume, shape, largeur, clapot, niveau, départ et transport.</p><p>La recherche ne fournit pas de mesures homogènes de vitesse de décrochage, de rigidité ou de portance pour toutes les marques : elle ne peut donc pas certifier qu’une aile A fera décoller deux nœuds plus tôt que B. Les différences réelles entre riders, stabs et boards l'interdisent.</p></details><details><summary>Montage et compatibilité</summary><p>Double rail US de la board : fréquent, mais la longueur des vis, la platine et les boîtiers doivent être contrôlés. Les attaches aile/mât/fuselage/stab ne sont généralement pas universelles. Une marque conservée ne garantit pas une interface identique sur toutes les années. Évaluer aussi la rigidité du mât sous charge, la taille du stab, le fuselage et la position dans les rails.</p></details>`;

@@ -369,6 +369,108 @@
       "score_status": "not_assigned_no_validated_rubric"
     },
     {
+      "id": "foil:F-ONE:Gravity:1800",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Gravity",
+      "size_cm2": 1800,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/product/gravity-1800/"
+      ],
+      "note": "Aile d’initiation F-ONE : portance à très basse vitesse, délivrée progressivement pour garder l’équilibre.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:F-ONE:Gravity:2200",
+      "type": "foil",
+      "brand": "F-ONE",
+      "model": "Gravity",
+      "size_cm2": 2200,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://www.f-one.world/product/gravity-1800/"
+      ],
+      "note": "Aile d’initiation F-ONE : portance à très basse vitesse, délivrée progressivement pour garder l’équilibre.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Armstrong:CF V2:950",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "CF V2",
+      "size_cm2": 950,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://cdn.shopify.com/s/files/1/0077/1270/2564/files/CF-V2-Range-Info.pdf"
+      ],
+      "note": "Gamme Carving Free-ride d’Armstrong : vol stable et tolérant à basse vitesse, de l’initiation à la progression.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Armstrong:CF V2:1200",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "CF V2",
+      "size_cm2": 1200,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://cdn.shopify.com/s/files/1/0077/1270/2564/files/CF-V2-Range-Info.pdf"
+      ],
+      "note": "Gamme Carving Free-ride d’Armstrong : vol stable et tolérant à basse vitesse, de l’initiation à la progression.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Armstrong:CF V2:1600",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "CF V2",
+      "size_cm2": 1600,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://cdn.shopify.com/s/files/1/0077/1270/2564/files/CF-V2-Range-Info.pdf"
+      ],
+      "note": "Gamme Carving Free-ride d’Armstrong : vol stable et tolérant à basse vitesse, de l’initiation à la progression.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
+      "id": "foil:Armstrong:CF V2:2050",
+      "type": "foil",
+      "brand": "Armstrong",
+      "model": "CF V2",
+      "size_cm2": 2050,
+      "year": "Génération à vérifier dans la source",
+      "qualitative_scores": null,
+      "confidence": "low",
+      "independently_tested_exact_size": false,
+      "sources": [
+        "https://cdn.shopify.com/s/files/1/0077/1270/2564/files/CF-V2-Range-Info.pdf"
+      ],
+      "note": "Gamme Carving Free-ride d’Armstrong : vol stable et tolérant à basse vitesse, de l’initiation à la progression.",
+      "sync_origin": "engine_embedded_metadata",
+      "score_status": "not_assigned_no_validated_rubric"
+    },
+    {
       "id": "foil:F-ONE:Seven Seas:1100",
       "type": "foil",
       "brand": "F-ONE",
