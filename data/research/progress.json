@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-19T20:34:05.828906+00:00",
+  "updated_at_utc": "2026-11-19T20:38:06.811943+00:00",
   "collection_updated_at_utc": "2026-11-17T19:10:08.707990+00:00",
   "retry_not_before_utc": null,
   "collection_state": "completed_with_unavailable",
@@ -194,7 +194,7 @@
   ],
   "written_research": {
     "leads": 80,
-    "new_articles_read": 17,
+    "new_articles_read": 18,
     "evidence_url": "data/research/expanded_test_evidence.json"
   },
   "videos": [
