@@ -127,7 +127,7 @@ Der Start ist sehr einfach."></textarea>
   return {cues:yt.filter(x=>x.text),format:'youtube_timestamped_copy'};
  }
  function timestamp(url,s){
-  try {const u=new URL(url);if(['youtube.com','www.youtube.com','m.youtube.com','youtu.be'].includes(u.hostname)){u.searchParams.set('t',Math.floor(s)+'s');return u.href}return u.href}
+  try {const u=new URL(url);if(!['http:','https:'].includes(u.protocol))return null;if(['youtube.com','www.youtube.com','m.youtube.com','youtu.be'].includes(u.hostname)){u.searchParams.set('t',Math.floor(s)+'s');return u.href}return u.href}
   catch {return null}
  }
  let last=null;
@@ -139,12 +139,14 @@ Der Start ist sehr einfach."></textarea>
  });
  $('clear').addEventListener('click',()=>{
   ['preset','video','title','transcript','upload'].forEach(id=>$(id).value='');
+  $('lang').value='auto';$('results').replaceChildren();
   $('output').hidden=true;$('error').textContent='';last=null;
  });
  $('analyze').addEventListener('click',()=>{
   $('error').textContent='';const parsed=cuesFrom($('transcript').value);let cues=parsed.cues;
   if(!cues.length){$('error').textContent='Aucun passage horodaté reconnu. Fourni un SRT, VTT ou texte YouTube avec minutages.';return}
   const url=$('video').value.trim();
+  if(url&&!timestamp(url,0)){$('error').textContent='Saisis un lien vidéo valide commençant par https:// ou http://.';return}
   const matches=cues.flatMap(cue=>{
     const categories=Object.entries(patterns).filter(([k,p])=>p.test(cue.text)).map(([k])=>k);
     return categories.length?[{...cue,categories,url:timestamp(url,cue.start),status:'candidate_not_validated'}]:[];
