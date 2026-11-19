@@ -53,7 +53,7 @@ Le navigateur charge les pages HTML et les JSON publics directement depuis GitHu
 
 | Page | Rôle |
 |---|---|
-| `index.html` | Configurateur, catalogue, sources et règles de recommandation. |
+| `index.html` | Configurateur, catalogue, sources, règles de recommandation et onglet « Wing et montage ». |
 | `progress.html` | Tableau de bord des vidéos, éditeurs, langues, étapes, délais et améliorations. |
 | `video-analysis/evidence.html` | Registre unifié des dossiers vidéo et écrits réellement documentés. |
 | `video-analysis/reviews.html` | Lecture détaillée des analyses de transcriptions vidéo. |
@@ -137,6 +137,10 @@ Le catalogue est composé de deux ensembles :
 - fiches complémentaires de `expanded_test_evidence.json`, visibles dans le catalogue sans devenir automatiquement des recommandations.
 
 `data/model_variants.json` contient une entrée par taille du moteur. Il est maintenu par `node video-analysis/sync_model_variants.js`, qui ajoute les tailles manquantes sans modifier les entrées existantes ; `test_catalogue.js` échoue en cas d’écart. Au chargement, ses métadonnées (confiance, génération, sources, dimensions) remplacent celles embarquées, puis les liens de preuve par taille sont appliqués. Aucune note n’est affichée actuellement. Une valeur `qualitative_scores: null` signifie qu’aucune note défendable n’est publiée.
+
+### 7.1 Repères de wing et de montage
+
+L’onglet « Wing et montage » ne note aucun modèle. Il affiche des repères recopiés de sources datées et listés dans `data/research/expert_setup_guides.json` : taille de wing par poids et type de spot (SURF Magazin), plages de vent publiées d’un modèle de wing de référence (Duotone Unit 2026, poids de référence non publié), surface d’aile avant de contrôle (SURF Magazin), longueurs de mât et de fuselage (Duotone, SURF Magazin) et allongement visé. `test_expert_setup.js` vérifie que les constantes de `index.html` sont identiques au registre et que chaque source est citée. Aucune règle de taille de stabilisateur n’est publiée faute de source chiffrée.
 
 ## 8. Stockage
 
@@ -231,6 +235,7 @@ node video-analysis/test_catalogue.js
 node video-analysis/test_evidence_library.js
 node video-analysis/test_site_links.js
 node video-analysis/test_forms.js
+node video-analysis/test_expert_setup.js
 ```
 
 Le message d’aide imprimé par un test de protection du mode `fetch` est attendu ; la suite doit néanmoins se terminer par `OK`.

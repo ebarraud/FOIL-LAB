@@ -1,5 +1,12 @@
 # Journal des évolutions
 
+## 2026-11-19 — Onglet « Wing et montage »
+- Taille de wing (aile à main) : repère SURF Magazin par poids et type de spot (intérieur 6–15 nds / côte 12–20+ nds), tailles Duotone Unit 2026 dont la plage publiée contient le vent courant, signal « vent au plancher de la plage ».
+- Contrôle indépendant de chaque aile avant retenue contre les tableaux SURF Magazin (débutant/vent léger et expérimenté), avec écart en cm² ; tolérance explicite pour vent soutenu ou programme surf/saut/vitesse.
+- Mât (75 / 75–85 / 82–85 / 85–90 / 90 cm), fuselage et allongement visé selon niveau, plan d’eau et programme (Duotone, SURF Magazin).
+- Registre `data/research/expert_setup_guides.json`, test `test_expert_setup.js` (parité registre/code, bornes de poids, logique, sources) ajouté à la CI.
+- Non intégré : taille de stabilisateur (aucune règle chiffrée dans les sources consultées) ; Gong Cruzader Point LW (la fiche officielle 2026 ne publie les dimensions complètes que pour la 5'9 80 L).
+
 ## 2026-11-19 — Cohérence catalogue, moteur et documentation
 - `data/model_variants.json` couvre désormais les 149 tailles du moteur (40 ajoutées depuis les métadonnées embarquées, entrées existantes inchangées, aucune note). Nouvel outil `video-analysis/sync_model_variants.js` et contrôle `--check` dans `test_catalogue.js`.
 - Comparateur : les lignes de notes 1–5 ne s’affichent plus lorsqu’aucune taille sélectionnée n’est notée ; les textes précisent qu’aucune note n’est publiée actuellement.

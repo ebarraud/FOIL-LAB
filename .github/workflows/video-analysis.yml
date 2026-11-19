@@ -42,6 +42,7 @@ jobs:
           node video-analysis/test_evidence_library.js
           node video-analysis/test_site_links.js
           node video-analysis/test_forms.js
+          node video-analysis/test_expert_setup.js
       - name: Validate manifest
         run: |
           python - <<'PY'

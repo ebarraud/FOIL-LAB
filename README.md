@@ -8,11 +8,12 @@ Configurateur indépendant d'aide au choix de **foils et boards de wingfoil**.
 Le dépôt et le site GitHub Pages sont publics. Les transcriptions intégrales, caches locaux et secrets restent hors Git.
 
 ## Objectif
-Proposer une sélection restreinte (jusqu'à trois ailes avant et trois boards) adaptée au rider, en distinguant les spécifications constructeur, les essais indépendants, les retours des pratiquants et les extrapolations.
+Proposer une sélection restreinte (jusqu'à trois ailes avant et trois boards) adaptée au rider, complétée par la taille de wing et le montage (mât, fuselage, allongement) d'après des repères sourcés, en distinguant les spécifications constructeur, les essais indépendants, les retours des pratiquants et les extrapolations.
 
 ## Organisation
 - `index.html` — configurateur mobile (profil, conditions, matériel), moteur de recommandation et catalogue embarqué.
 - `data/model_variants.json` — une entrée par taille du moteur : métadonnées, confiance, sources. Aucune note de performance n'est publiée (`qualitative_scores: null`).
+- `data/research/expert_setup_guides.json` — repères sourcés de l'onglet « Wing et montage » (tailles de wing, plages constructeur, mât, fuselage, allongement), vérifiés par `test_expert_setup.js`.
 - `data/research/` — registres publics des preuves (transcriptions lues, essais écrits, liens preuve → taille, décisions).
 - `progress.html`, `video-analysis/evidence.html`, `video-analysis/reviews.html`, `video-analysis/review.html` — suivi, registre des preuves, lectures et import local.
 - `docs/METHODOLOGY.md` — méthode d'évaluation ; `research/CHANGELOG.md` — historique.
@@ -34,6 +35,7 @@ node video-analysis/test_catalogue.js
 node video-analysis/test_evidence_library.js
 node video-analysis/test_site_links.js
 node video-analysis/test_forms.js
+node video-analysis/test_expert_setup.js
 ```
 
 ## Précautions
