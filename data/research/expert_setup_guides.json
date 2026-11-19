@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-19",
+  "purpose": "Repères sourcés utilisés par l’onglet « Wing et montage » de index.html (EXPERT_SRC, WING_GUIDE, UNIT_2026, FOIL_GUIDE). Valeurs recopiées des sources, sans interpolation.",
+  "guides": [
+    {
+      "id": "surf_wing_size_2026",
+      "source_url": "https://www.surf-magazin.de/en/wingsurfing/how-to/tips-and-tricks/learning-to-wing-surf-size-grips-valve-system-how-to-find-the-right-wing/",
+      "publisher": "SURF Magazin (Manuel Vogel), 27/08/2026",
+      "scope": "Débutant souhaitant une seule wing couvrant la plus large plage ; une wing couvre 10 à 15 nœuds.",
+      "inland_6_15_kn_m2": {"<60 kg": [4.5, 5], "60–75 kg": [5, 5.5], "75–95 kg": [5.5, 6.5], ">95 kg": [6, 7]},
+      "coastal_12_20plus_kn_m2": {"<60 kg": [4, 4.5], "60–75 kg": [4.5, 5], "75–95 kg": [5, 5.5], ">95 kg": [5.5, 6.5]},
+      "limits": "Pas de règle chiffrée pour un quiver de deux wings. Le tableau est choisi par le moteur selon le vent courant (≤ 15 nds : intérieur)."
+    },
+    {
+      "id": "duotone_unit_2026_wind_ranges",
+      "source_url": "https://hoenalu.com/en/product/duotone/unit-2026",
+      "official_url": "https://www.duotonesports.com/en/products/duotone-unit-2026-42260-3519",
+      "corroboration": ["https://www.mackiteboarding.com/2026-duotone-unit-wing/"],
+      "publisher": "Duotone (plages reprises par revendeurs ; tableau officiel rendu dynamiquement)",
+      "sizes_m2_wind_kn": [[2.0,27,45],[2.5,23,40],[3.0,19,37],[3.5,16,33],[4.0,14,30],[4.5,12,28],[5.0,10,25],[5.5,9,22],[6.0,8,20],[6.5,7,18]],
+      "limits": "Poids du rider de référence non publié. Plages propres à ce modèle ; non transposables à une autre marque."
+    },
+    {
+      "id": "surf_foil_size_2026",
+      "source_url": "https://www.surf-magazin.de/en/wingsurfing/how-to/tips-and-tricks/learn-to-wingsurf-how-to-find-the-right-foil-basics-and-advice/",
+      "publisher": "SURF Magazin (Manuel Vogel), 25/08/2026",
+      "beginner_or_light_wind_8_15_kn_cm2": {"<70 kg": [1300, 1500], "70–85 kg": [1500, 1700], ">85 kg": [1700, 2000]},
+      "experienced_10_20_kn_cm2": {"<70 kg": [900, 1200], "70–85 kg": [1000, 1300], ">85 kg": [1200, 1500]},
+      "aspect_ratio": {"low": "< 6.5 : débutant, vent léger", "mid": "6.5–9 : compromis", "high": "> 9 : au-delà du stade débutant, downwind"},
+      "fuselage_total_length": "≥ 65 cm pour débutants et progression ; 55–65 cm pour freestyle et vagues expérimentés",
+      "mast": "75–85 cm le plus courant ; 85–100 cm pour garde et vitesse ; < 65 cm hauts-fonds, inadapté au clapot",
+      "limits": "Repères pour une seule aile avant couvrant la plus large plage ; pas de règle de taille de stabilisateur."
+    },
+    {
+      "id": "surf_mast_length",
+      "source_url": "https://www.surf-magazin.de/en/wingsurfing/how-to/tutorials/foils-for-wingsurfing-which-length-makes-sense-for-a-foil-mast/",
+      "publisher": "SURF Magazin (Manuel Vogel), 11/09/2023",
+      "summary": "Même débutant, sur plan d’eau plat, acheter un mât de 75 à 85 cm ; mâts courts pour cours et hauts-fonds."
+    },
+    {
+      "id": "duotone_mast_fuselage",
+      "source_url": "https://duotone-wing-and-foiling-helpcenter.gorgias.help/en-US/mast-and-fuselage-length---what-suits-me-463036",
+      "publisher": "Duotone, centre d’aide",
+      "mast_cm": {"75": "hauts-fonds, contrôle facilité", "82": "freeride, freestyle, vagues", "90": "houle plus forte, vitesse de pointe"},
+      "fuselage": "Débutant : 66 ou 74 cm. Court : maniabilité, pop. Long : stabilité directionnelle à haute vitesse et en tangage."
+    }
+  ]
+}
