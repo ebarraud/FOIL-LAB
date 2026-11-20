@@ -1,9 +1,9 @@
 """Agrège le ressenti d'utilisation (data/research/ride_feel_annotations.json) par gamme.
 
-Pour chaque gamme et chaque critère de la grille : avis favorables / défavorables / nuancés,
+Vidéos (annotations) et essais écrits (written_annotations). Pour chaque gamme et chaque critère de la grille : avis favorables / défavorables / nuancés,
 nombre de sources distinctes (chaînes), dont indépendantes (ni revendeur, ni lien commercial déclaré),
 et un statut :
-  - « concordant »  : au moins 2 sources distinctes et au moins 75 % des avis tranchés dans le même sens ;
+  - « concordant »  : au moins 75 % des avis tranchés dans le même sens, exprimés par au moins 2 sources distinctes ;
   - « divergent »   : avis tranchés dans les deux sens, sans majorité de 75 % ;
   - « isolé »       : une seule source.
 Écrit data/research/ride_feel_summary.json et affiche un rapport.
@@ -15,12 +15,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 D = ROOT / 'data/research'
 
-# Chaînes de magasins, écoles ou distributeurs (vendent le matériel testé).
+# Chaînes identifiées comme magasins, écoles ou distributeurs (vendent le matériel testé).
+# Les chaînes non identifiées sont classées « créateur » ; seuls les liens commerciaux déclarés dans les lectures sont détectés.
 RETAILERS = {
     'Andy Biggs Watersports', 'KitePaddleSurf', 'Nature Kite', 'Sport al Centro', 'Liquid Blue Cabarete',
     'Viking Surfcenter', 'MACkiteboarding', 'KiteWorld Shop', 'bigwinds', 'Green Hat Kiteboarding',
     'Worthing Watersports', 'Flukes Kitesurfing', 'The SUP Company', 'The Foil Shop', 'Reactive Team',
-    'Freeride Attitude', 'Wingsurfer', 'wingpassion', 'Foil Island', 'Ridge & River', 'Unbox Ecc',
 }
 MEDIA = {'Gleiten tv', 'Sup Passion // Foil Magazine', 'Tonic Mag', 'wingSURF world'}
 COMMERCIAL = re.compile(r"ambassadeur|envoi de matériel|envoyé par|prêtée? par|code de remise|vendent ces|vendre ces|"
@@ -72,6 +72,17 @@ def build():
                                           'independent': independent, 'video_id': vid,
                                           'start_s': a.get('start_s'), 'compared_to': a.get('compared_to')})
 
+    for w in ann.get('written_annotations', []):
+        G = groups[w['family']]
+        G['in_engine'] = True
+        G['videos'].add(w['source_url'])
+        G['sources'].add(w['publisher'])
+        independent = w['publisher_kind'] != 'revendeur'
+        for c in w['criteria']:
+            G['criteria'][c['c']].append({'pol': c['pol'], 'int': c['int'], 'source': w['publisher'],
+                                          'independent': independent, 'video_id': None, 'url': w['source_url'],
+                                          'start_s': None, 'compared_to': w.get('compared_to')})
+
     summary = {}
     for g, G in groups.items():
         crits = {}
@@ -83,9 +94,11 @@ def build():
             indep = {o['source'] for o in ops if o['independent']}
             decided = len(pos) + len(neg)
             share = max(len(pos), len(neg)) / decided if decided else 0
+            major = pos if len(pos) >= len(neg) else neg
+            major_srcs = {o['source'] for o in major}
             if len(srcs) < 2:
                 status = 'isolé'
-            elif decided and share >= 0.75:
+            elif decided and share >= 0.75 and len(major_srcs) >= 2:
                 status = 'concordant'
             elif pos and neg:
                 status = 'divergent'
@@ -94,11 +107,16 @@ def build():
             crits[code] = {
                 'favorable': len(pos), 'defavorable': len(neg), 'nuance': len(nua),
                 'sources': len(srcs), 'sources_independantes': len(indep), 'statut': status,
+                'sources_majoritaires': len(major_srcs) if decided else 0,
+                'sources_majoritaires_independantes': len({o['source'] for o in major if o['independent']}) if decided else 0,
                 'sens': ('+' if len(pos) > len(neg) else '-' if len(neg) > len(pos) else '~') if decided else '~',
                 'avec_comparaison': sum(1 for o in ops if o['compared_to']),
             }
         summary[g] = {'in_engine': G['in_engine'], 'videos': len(G['videos']), 'sources': len(G['sources']),
-                      'criteria': crits}
+                      'criteria': crits,
+                      'evidence': {code: [{k: o[k] for k in ('pol', 'source', 'independent', 'video_id', 'start_s', 'compared_to') if o.get(k) is not None}
+                                          | ({'url': o['url']} if o.get('url') else {})
+                                          for o in ops] for code, ops in G['criteria'].items()}}
     return ann, summary, unattributed
 
 

@@ -1,5 +1,10 @@
 # Journal des évolutions
 
+## 2026-11-20 — Ressenti des essais affiché sur les cartes
+- Chaque carte de recommandation affiche « Ressenti des essais » : critères concordants (≥ 75 % des avis tranchés dans le même sens, portés par ≥ 2 sources distinctes) avec le nombre de sources, celles sans lien commercial déclaré et leurs noms, puis les avis partagés. Aucun effet sur la taille ni le classement.
+- Essais écrits ajoutés à la grille : SURF Magazin (One-Lock Glide 925, GA Move), MACkiteboarding (Seven Seas, KT Arc, Super K 2). Écartés pour génération différente : Eagle (The Inertia, 2025), Seven Seas 2022 et SK8 2023 (Tonic Mag).
+- Résultat : 39 critères concordants sur 15 gammes du moteur, dont 29 portés par au moins deux sources indépendantes ; 17 avis partagés.
+
 ## 2026-11-20 — Grille de ressenti d’utilisation (mesure, pas encore affichée)
 - Grille fixe : ailes (décollage, tangage, tolérance, maniabilité, glisse/pumping, vitesse, clapot, effort) et boards (stabilité à l’arrêt, décollage, poids ressenti, maniabilité/touchettes) ; sens, intensité, point de comparaison explicite.
 - 388 des 775 observations relues contiennent un ressenti (570 mentions de critère, 27 % avec comparaison explicite). Reclassement par l’assistant, sans réécoute ni validation humaine.

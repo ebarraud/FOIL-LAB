@@ -71,7 +71,7 @@ body[data-screen] .topline a.counter{font-size:12px}
  body[data-screen="print"] .layout{display:block!important}
  body[data-screen="print"] [hidden]{display:block!important}
 }
-details.reviews{margin:10px 0;padding:8px 10px;border:1px solid var(--border);border-radius:10px}details.reviews summary{cursor:pointer}details.reviews ul{margin:6px 0 4px 18px;padding:0}details.reviews li{margin:4px 0}</style></head><body><div class="shell"><div class="topline"><div class="eyebrow">FOIL LAB EXPERT · BASE DE CONNAISSANCES NOVEMBRE 2026</div><a class="counter" href="progress.html">Suivi des vidéos et améliorations</a><nav aria-label="Navigation documentaire" style="display:flex;gap:8px;flex-wrap:wrap"><a class="counter" href="video-analysis/evidence.html" style="text-decoration:none;color:#9de6d5">Essais vérifiables et sources</a><a class="counter" href="video-analysis/review.html" style="text-decoration:none;color:#9de6d5">Analyser une transcription</a></nav></div><div class="hero"><h1>Choisir <span>le bon foil.</span><br>Pas juste des cm².</h1><p class="subtitle">Un avis technique argumenté qui aboutit à un choix restreint <b>d'ailes avant précises</b> et de <b>boards en volumes précis</b>, complété par la <b>taille de wing</b> et le <b>montage</b> (mât, fuselage, allongement) d’après des repères sourcés. Les recommandations sont conditionnelles : pas de fausse garantie de décollage et pas de classement basé sur la publicité ou les vues YouTube.</p></div><div class="layout"><aside class="panel controls"><h2>Ton profil et tes contraintes</h2><p class="small">Chaque paramètre compte. Les incompatibilités et tailles non adaptées sont écartées avant classement.</p>
+.feel{margin:10px 0;padding:8px 10px;border-left:3px solid var(--accent,#0a7);background:rgba(0,120,90,.05);border-radius:6px}.feel ul{margin:6px 0 4px 18px;padding:0}.feel li{margin:3px 0}details.reviews{margin:10px 0;padding:8px 10px;border:1px solid var(--border);border-radius:10px}details.reviews summary{cursor:pointer}details.reviews ul{margin:6px 0 4px 18px;padding:0}details.reviews li{margin:4px 0}</style></head><body><div class="shell"><div class="topline"><div class="eyebrow">FOIL LAB EXPERT · BASE DE CONNAISSANCES NOVEMBRE 2026</div><a class="counter" href="progress.html">Suivi des vidéos et améliorations</a><nav aria-label="Navigation documentaire" style="display:flex;gap:8px;flex-wrap:wrap"><a class="counter" href="video-analysis/evidence.html" style="text-decoration:none;color:#9de6d5">Essais vérifiables et sources</a><a class="counter" href="video-analysis/review.html" style="text-decoration:none;color:#9de6d5">Analyser une transcription</a></nav></div><div class="hero"><h1>Choisir <span>le bon foil.</span><br>Pas juste des cm².</h1><p class="subtitle">Un avis technique argumenté qui aboutit à un choix restreint <b>d'ailes avant précises</b> et de <b>boards en volumes précis</b>, complété par la <b>taille de wing</b> et le <b>montage</b> (mât, fuselage, allongement) d’après des repères sourcés. Les recommandations sont conditionnelles : pas de fausse garantie de décollage et pas de classement basé sur la publicité ou les vues YouTube.</p></div><div class="layout"><aside class="panel controls"><h2>Ton profil et tes contraintes</h2><p class="small">Chaque paramètre compte. Les incompatibilités et tailles non adaptées sont écartées avant classement.</p>
 <div class="field"><label for="weight">Poids en navigation <small>(avec combinaison)</small></label><input id="weight" type="range" min="45" max="125" value="78"><b id="weighttxt">78 kg</b></div>
 <div class="field"><label for="level">Niveau technique</label><select id="level"><option value="0">0 · Débutant / premiers vols</option><option value="1">1 · Vols réguliers, jibes en cours</option><option value="2" selected>2 · Jibes fiables / intermédiaire</option><option value="3">3 · Carving / freefly / transitions avancées</option><option value="4">4 · Expert / engagement</option></select></div>
 <div class="field"><label for="wind">Vent courant <small>(nœuds établis)</small></label><input id="wind" type="range" min="7" max="35" value="15"><b id="windtxt">15 nds</b></div>
@@ -460,6 +460,27 @@ function reviewsMarkup(key,size,unit){
   return `<div class="mini"><b>${esc(r.title)}</b> · ${r.tested.includes(size)?'<b>ta taille testée</b>':'taille testée : '+esc(sizes)}${r.comparative?' · essai comparatif':''}<ul>${claims}</ul><a href="video-analysis/reviews.html?video=${encodeURIComponent(r.id)}">Lire l’analyse complète</a></div>`;}).join('');
  return `<details class="reviews"><summary><b>Ce qu’en disent les essais vidéo</b> · ${list.length} essai${list.length>1?'s':''} relu${list.length>1?'s':''}${onSize?`, dont ${onSize} sur cette taille`:', aucun sur cette taille'}</summary>${items}${list.length>5?`<p class="small">${list.length-5} autre(s) essai(s) dans le registre des preuves.</p>`:''}<p class="small">Observations relues par l’assistant à partir des transcriptions, sans écoute audio ni validation humaine. Une observation sur une autre taille ne vaut pas pour la tienne. Elles n’ont modifié ni la taille ni le classement.</p></details>`;
 }
+// ===== Ressenti d'utilisation agrégé (data/research/ride_feel_summary.json) =====
+// Affichage seulement : critères concordants (≥ 2 sources dans le même sens) et avis partagés. Aucun effet sur le classement.
+let FEEL_INDEX={};
+const FEEL_TEXT={DEC:['Décollage précoce, portance à basse vitesse','Décollage exigeant'],TAN:['Stable en tangage','Tangage sensible, à piloter'],
+ TOL:['Tolérante, accessible','Peu tolérante, demande de l’expérience'],MAN:['Maniable en courbe et en saut','Peu maniable, grands rayons'],
+ GLI:['Bonne glisse et relance au pumping','Glisse et pumping limités'],VIT:['Rapide','Vitesse de pointe limitée'],CLA:['Confortable dans le clapot','Sensible au clapot'],
+ EFF:['Demande peu d’effort','Physique, appui avant marqué'],BST:['Stable à l’arrêt et au départ','Instable à l’arrêt, demande de l’équilibre'],
+ BDE:['Décolle facilement','Décollage exigeant'],BPO:['Légère, peu d’inertie','Lourde, inertie marquée'],BMA:['Maniable, reprend bien les touchettes','Moins maniable, touchettes freinantes']};
+const FEEL_LABEL={DEC:'décollage',TAN:'tangage',TOL:'tolérance',MAN:'maniabilité',GLI:'glisse / pumping',VIT:'vitesse',CLA:'clapot',EFF:'effort',BST:'stabilité à l’arrêt',BDE:'décollage',BPO:'poids',BMA:'maniabilité'};
+function feelMarkup(key){
+ const f=FEEL_INDEX[key];if(!f)return '';
+ const entries=Object.entries(f.criteria||{});
+ const conc=entries.filter(([,c])=>c.statut==='concordant').sort((a,b)=>b[1].sources_majoritaires-a[1].sources_majoritaires);
+ const div=entries.filter(([,c])=>c.statut==='divergent');
+ const isolated=entries.filter(([,c])=>c.statut==='isolé').length;
+ if(!conc.length&&!div.length)return `<div class="small"><b>Ressenti des essais :</b> ${isolated?isolated+' critère(s) cité(s) par une seule source, pas encore de consensus.':'aucun ressenti exploitable.'}</div>`;
+ const names=code=>[...new Set((f.evidence?.[code]||[]).filter(o=>o.pol===(f.criteria[code].sens)).map(o=>o.source))].join(', ');
+ const li=conc.map(([k,c])=>`<li>${c.sens==='+'?'✓':'✗'} <b>${FEEL_TEXT[k][c.sens==='+'?0:1]}</b> <span class="small">— ${c.sources_majoritaires} sources concordantes${c.sources_majoritaires_independantes<c.sources_majoritaires?`, dont ${c.sources_majoritaires_independantes} sans lien commercial déclaré`:''} (${esc(names(k))})</span></li>`).join('');
+ const dv=div.map(([k,c])=>`${FEEL_LABEL[k]} (${c.favorable} favorable${c.favorable>1?'s':''}, ${c.defavorable} défavorable${c.defavorable>1?'s':''})`).join(' ; ');
+ return `<div class="feel"><b>Ressenti des essais</b> · ${f.sources} source${f.sources>1?'s':''}<ul>${li}</ul>${dv?`<p class="small"><b>Avis partagés :</b> ${dv}.</p>`:''}<p class="small">Synthèse de l’assistant à partir des essais vidéo et écrits relus, regroupés par gamme toutes tailles confondues ; sans effet sur le classement.</p></div>`;
+}
 function foilMarkup(o,i,x){
  const f=o.f,v=VERIFY[f.b+'|'+f.n],cp=compatibility(f,x);
  const span=v?.span?.[o.size],ar=v?.aspect||f.ar;
@@ -474,7 +495,7 @@ function foilMarkup(o,i,x){
  <div class="mini"><b>Interface :</b> ${v?.system||'Interface exacte non documentée pour ce modèle : référence à vérifier.'}</div>
  <div class="small"><b>Essais / réglages :</b> ${v?.note||'Aucune mesure comparative indépendante homogène disponible : essai réel recommandé.'}</div>
  <p><a target="_blank" rel="noopener" href="${v?.primary||f.src}">Fiche / données ↗</a> ${v?.independent?` · <a target="_blank" rel="noopener" href="${v.independent}">Contre-expertise ↗</a>`:''}</p>
- ${reviewsMarkup(f.b+'|'+f.n,o.size,'cm²')}
+ ${feelMarkup(f.b+'|'+f.n)} ${reviewsMarkup(f.b+'|'+f.n,o.size,'cm²')}
  <label class="pick"><input type="checkbox" data-pick="foil" value="${f.b}|${f.n}|${o.size}"/> Comparer ce modèle</label></article>`;
 }
 function boardMarkup(o,i,x){const bv=boardVerify[o.b.b+'|'+o.b.n]||{};const delta=o.v-x.w;
@@ -482,7 +503,7 @@ return `<article class="${i?'runner':'leader'}"><div class="resulthead"><span cl
 <div class="stat">${bv.year||'Année à contrôler'} · ${o.len} × ${fmt(o.wid)} cm · ${o.b.kind==='midi'?'midlength':o.b.kind==='dw'?'downwind':'compacte'} · Flottabilité théorique ${delta>=0?'+':''}${delta} L vs masse du rider</div>
 <p class="why"><b>Pourquoi :</b> ${o.why}</p><p class="downside"><b>Limite :</b> ${o.caveat}</p><p class="mini"><b>Lecture expert :</b> un différentiel de volume de ${delta} L ne préjuge pas de la stabilité : considérer aussi les ${fmt(o.wid)} cm de largeur, la forme des rails, le clapot et le poids du foil.</p>
 <p><a href="${o.b.src}" rel="noopener" target="_blank">Données constructeur ↗</a>${bv.test?` · <a href="${bv.test}" rel="noopener" target="_blank">${bv.testLabel||'Essais / témoignages'} ↗</a>`:''}</p>
-${reviewsMarkup(o.b.b+'|'+o.b.n,o.v,'L')}
+${feelMarkup(o.b.b+'|'+o.b.n)}${reviewsMarkup(o.b.b+'|'+o.b.n,o.v,'L')}
 <label class="pick"><input type="checkbox" data-pick="board" value="${o.b.b}|${o.b.n}|${o.v}"/> Comparer ce modèle</label></article>`}
 function renderComparison(){const chosen=[...document.querySelectorAll('input[data-pick]:checked')].map(e=>({type:e.dataset.pick,raw:e.value}));const c=$('compare');if(!chosen.length){c.innerHTML='<div class="small">Coche les propositions pour préparer une comparaison personnalisée. Les comparaisons portent sur les attributs vérifiés, pas sur des scores de vitesse inventés.</div>';return;} c.innerHTML='<h3>Ma liste restreinte</h3>'+chosen.map(a=>`<div class="mini">${a.type==='foil'?'Aile avant':'Board'} : <b>${a.raw.split('|').join(' · ')}</b></div>`).join('')+'<button class="action" id="copycompare">Copier la shortlist</button>'; $('copycompare').onclick=()=>{const t=chosen.map(a=>(a.type==='foil'?'Aile avant':'Board')+' : '+a.raw.split('|').join(' — ')).join('\n');if(navigator.clipboard)navigator.clipboard.writeText(t).then(()=>alert('Shortlist copiée')).catch(()=>prompt('Copier la liste',t));else prompt('Copier la liste',t)};}
 function profileInputErrors(){return ['maxwidth','maxlength'].filter(id=>!$(id).validity.valid).map(id=>id==='maxwidth'?'Largeur maximale : saisir une valeur entre 38 et 95 cm.':'Longueur maximale : saisir une valeur entre 120 et 300 cm.')}
@@ -603,13 +624,14 @@ function renderResearchStudies(term=''){
  const a=document.createElement('a');a.textContent='Lire les preuves et le contexte';a.href=r.url;details.append(a);host.append(details)}
 }
 async function syncResearchCatalogue(){
- const files=['expanded_test_evidence.json','transcript_reviews.json','written_test_evidence_2026.json','catalogue_evidence_links.json','review_family_map.json'];
+ const files=['expanded_test_evidence.json','transcript_reviews.json','written_test_evidence_2026.json','catalogue_evidence_links.json','review_family_map.json','ride_feel_summary.json'];
  const results=await Promise.allSettled(files.map(async name=>{const r=await fetch('./data/research/'+name,{cache:'no-cache'});if(!r.ok)throw Error(name+' HTTP '+r.status);return [name,await r.json()]}));
  const errors=[];
  const loaded=Object.fromEntries(results.filter(r=>r.status==='fulfilled').map(r=>r.value));
+ if(loaded['ride_feel_summary.json'])FEEL_INDEX=loaded['ride_feel_summary.json'].families||{};
  if(loaded['review_family_map.json']&&loaded['transcript_reviews.json'])REVIEW_INDEX=buildReviewIndex(loaded['review_family_map.json'],loaded['transcript_reviews.json'].reviews);
  for(const result of results){if(result.status!=='fulfilled'){errors.push(String(result.reason));continue}const [name,data]=result.value;
- if(name==='review_family_map.json')continue;
+ if(name==='review_family_map.json'||name==='ride_feel_summary.json')continue;
  if(name==='catalogue_evidence_links.json')for(const link of data.links||[]){const o=KB_RECORDS.find(o=>o.brand===link.brand&&o.name===link.model&&o.size===link.size);if(o){o.tested=true;o.entry={...o.entry,i:link.url,confidence:'med',context:link.method+' '+link.limits,reason:link.reason||o.entry.reason,setup:link.setup||o.entry.setup,lim:o.entry.lim+' '+link.limits}}}
  if(name==='expanded_test_evidence.json')for(const r of data.catalogue_records||[])if(!KB_RECORDS.some(o=>o.key===r.key))KB_RECORDS.push(r);
  for(const r of data.reviews||[]){const video=!!r.video_id;RESEARCH_STUDIES.push({model:(r.brand?r.brand+' ':'')+(r.model||r.id),publisher:r.publisher||r.source_author||(video?'Transcription vidéo':'Essai écrit'),method:r.review_method||(r.source_type==='publisher_overview_not_test'?'Présentation éditoriale lue, pas un essai sur l’eau':r.read_status?'Corps de l’article lu ; synthèse attribuée':r.source_type||''),summary:r.summary_fr||(r.claims||[]).map(c=>c.statement_fr||c.summary).join(' '),limits:r.limits||r.integration_reason||(r.claims||[]).map(c=>c.limits).join(' '),url:video?'video-analysis/reviews.html?video='+r.video_id:r.source_url})}

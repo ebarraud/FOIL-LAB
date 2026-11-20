@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "as_of": "2026-11-20",
- "method": "Reclassement par l’assistant des observations déjà relues (transcript_reviews.json) selon une grille fixe ; aucune réécoute des vidéos ni validation humaine. Une observation peut porter plusieurs critères. « compared_to » n’est renseigné que si la comparaison est explicite.",
+ "method": "Reclassement par l’assistant des observations déjà relues (transcript_reviews.json) selon une grille fixe ; aucune réécoute des vidéos ni validation humaine. Une observation peut porter plusieurs critères. « compared_to » n’est renseigné que si la comparaison est explicite. Les essais écrits (written_annotations) sont paraphrasés et rattachés seulement si la génération correspond au moteur (Eagle 2025, Seven Seas 2022 et SK8 2023 écartés).",
  "grid": {
   "foil": {
    "DEC": "Décollage / portance à basse vitesse",
@@ -5978,6 +5978,330 @@
     }
    ],
    "compared_to": null
+  }
+ ],
+ "written_annotations": [
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Portance qui s’installe progressivement, départ accessible."
+  },
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "stab Flare 175",
+   "note_fr": "Avec le stab Turbo 180, vol calme en ligne droite même sous puissance."
+  },
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Départ accessible, mais aile destinée aux riders sortis de l’initiation."
+  },
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Courbes larges et fluides, point fort de l’aile ; plus vive avec le Flare 175."
+  },
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "stab Flare 175",
+   "note_fr": "Vitesse jugée bonne sans plus avec le Turbo 180."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Portance fiable à vitesse relativement faible, relance rapide au pumping."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Bon équilibre sur tous les axes ; ne remonte pas vers la surface dans les rafales."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Réservée aux riders qui maîtrisent virements et jibes ; d’autres GA pour débuter."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Enchaînement des courbes, 360 serrés et premiers sauts faciles ; bref temps de reprise après réception."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Bonne glisse, exploite les petites vagues ; la 800 glisse moins."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "modèles de même surface d’autres marques",
+   "note_fr": "Vitesse bonne sans être exceptionnelle."
+  },
+  {
+   "source_type": "written",
+   "family": "F-ONE|Seven Seas",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/whats-new-with-fone-foils-eagle-x-and-seven-seas-updates-explained/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Vol régulier à vitesse soutenue."
+  },
+  {
+   "source_type": "written",
+   "family": "F-ONE|Seven Seas",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/whats-new-with-fone-foils-eagle-x-and-seven-seas-updates-explained/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Pumping correct, sans plus."
+  },
+  {
+   "source_type": "written",
+   "family": "F-ONE|Seven Seas",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/whats-new-with-fone-foils-eagle-x-and-seven-seas-updates-explained/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Présentée comme aile unique cohérente pour un rider intermédiaire."
+  },
+  {
+   "source_type": "written",
+   "family": "KT|Arc Pro Carbon",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/kt-arc-pro-carbon-board-review-with-tucker-jeff/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Super K",
+   "note_fr": "Décollage demandant de pomper la board en même temps que la wing."
+  },
+  {
+   "source_type": "written",
+   "family": "KT|Super K 2 Carbon",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/kt-arc-pro-carbon-board-review-with-tucker-jeff/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "KT Arc",
+   "note_fr": "Plus de vitesse initiale de la board sans action particulière."
   }
  ]
 }
