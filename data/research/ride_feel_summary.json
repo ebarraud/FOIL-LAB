@@ -1,0 +1,3995 @@
+{
+ "as_of": "2026-11-20",
+ "totals": {
+  "observations": 775,
+  "observations_ressenti": 388,
+  "mentions_critere": 569,
+  "avec_comparaison": 104,
+  "non_attribuables_comparatifs": 6,
+  "gammes": 93,
+  "gammes_moteur": 22,
+  "criteres_par_statut": {
+   "isolé": 276,
+   "concordant": 39,
+   "nuancé": 1,
+   "divergent": 15
+  },
+  "frequence_criteres": {
+   "DEC": 54,
+   "TAN": 35,
+   "GLI": 72,
+   "MAN": 92,
+   "TOL": 77,
+   "BST": 65,
+   "BMA": 74,
+   "BPO": 9,
+   "BDE": 50,
+   "EFF": 13,
+   "VIT": 23,
+   "CLA": 5
+  }
+ },
+ "families": {
+  "North|Sonar SF": {
+   "in_engine": true,
+   "videos": 2,
+   "sources": 2,
+   "criteria": {
+    "DEC": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "TAN": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    },
+    "GLI": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "GA|Move": {
+   "in_engine": true,
+   "videos": 3,
+   "sources": 3,
+   "criteria": {
+    "TAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "DEC": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 3,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TOL": {
+     "favorable": 3,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 3,
+     "sources": 3,
+     "sources_independantes": 3,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "EFF": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "VIT": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Duotone Skybrid SLS": {
+   "in_engine": false,
+   "videos": 2,
+   "sources": 2,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 3,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 0,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "Naish|Chimera 2026": {
+   "in_engine": true,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BPO": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Easy Style": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 2,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "KT|Drifter 5 Pro Carbon": {
+   "in_engine": true,
+   "videos": 2,
+   "sources": 2,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "BST": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "BMA": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BPO": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|GONG Curve H V3": {
+   "in_engine": false,
+   "videos": 2,
+   "sources": 2,
+   "criteria": {
+    "TAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 2,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "nuancé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Naish Chimera": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|GONG HIPE First": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "Armstrong|MA Mk II": {
+   "in_engine": true,
+   "videos": 3,
+   "sources": 3,
+   "criteria": {
+    "GLI": {
+     "favorable": 2,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 1,
+     "statut": "divergent",
+     "sens": "~",
+     "avec_comparaison": 3
+    },
+    "TAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "MAN": {
+     "favorable": 4,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "divergent",
+     "sens": "~",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "Duotone|Glide 3.0 D/LAB": {
+   "in_engine": true,
+   "videos": 2,
+   "sources": 2,
+   "criteria": {
+    "DEC": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "GLI": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "MAN": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 2
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "EFF": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "Duotone|Crest D/LAB": {
+   "in_engine": true,
+   "videos": 6,
+   "sources": 6,
+   "criteria": {
+    "DEC": {
+     "favorable": 2,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 4,
+     "sources_independantes": 3,
+     "statut": "divergent",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "TOL": {
+     "favorable": 3,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 4,
+     "sources_independantes": 3,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 2,
+     "sources": 5,
+     "sources_independantes": 4,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TAN": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 1,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "-",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 4,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 4,
+     "sources_independantes": 3,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "AFS|Enduro": {
+   "in_engine": true,
+   "videos": 4,
+   "sources": 4,
+   "criteria": {
+    "DEC": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 4,
+     "nuance": 1,
+     "sources": 3,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "-",
+     "avec_comparaison": 2
+    },
+    "MAN": {
+     "favorable": 2,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 2,
+     "statut": "divergent",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "EFF": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "divergent",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 5,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "VIT": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "Slingshot|One-Lock Glide": {
+   "in_engine": true,
+   "videos": 3,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "EFF": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 3
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "VIT": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "Armstrong|UHA": {
+   "in_engine": true,
+   "videos": 5,
+   "sources": 4,
+   "criteria": {
+    "DEC": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "GLI": {
+     "favorable": 5,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 3,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 3,
+     "defavorable": 2,
+     "nuance": 1,
+     "sources": 3,
+     "sources_independantes": 2,
+     "statut": "divergent",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "divergent",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "divergent",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "CLA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "KT|Nomad": {
+   "in_engine": true,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "EFF": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "Armstrong|Midlength Mk II X-Form": {
+   "in_engine": true,
+   "videos": 2,
+   "sources": 2,
+   "criteria": {
+    "BMA": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Endlich da! Das neue Tabou Rocket im Test!": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Test board sup foil dw ultime : l’AFS blackbird": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Barracuda M": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Flow FW Carbon": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Indiana Superfly CML": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Slingshot Glide Craft V1": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Slingshot Flow Craft V2": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 2,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 2
+    }
+   }
+  },
+  "hors moteur|Slingshot Laser Craft V1": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "Duotone|Skybrid SLS 2026": {
+   "in_engine": true,
+   "videos": 4,
+   "sources": 4,
+   "criteria": {
+    "BDE": {
+     "favorable": 2,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 1,
+     "statut": "divergent",
+     "sens": "~",
+     "avec_comparaison": 3
+    },
+    "BST": {
+     "favorable": 3,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 2,
+     "statut": "divergent",
+     "sens": "+",
+     "avec_comparaison": 3
+    },
+    "BMA": {
+     "favorable": 4,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    }
+   }
+  },
+  "hors moteur|Eleveight Evolve V4": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "KT|Super K 2 Carbon": {
+   "in_engine": true,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Duotone Blitz D": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "TAN": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "KT|Instinct": {
+   "in_engine": true,
+   "videos": 3,
+   "sources": 3,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "divergent",
+     "sens": "-",
+     "avec_comparaison": 1
+    },
+    "TAN": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "MAN": {
+     "favorable": 3,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TOL": {
+     "favorable": 2,
+     "defavorable": 3,
+     "nuance": 1,
+     "sources": 3,
+     "sources_independantes": 1,
+     "statut": "divergent",
+     "sens": "-",
+     "avec_comparaison": 1
+    },
+    "GLI": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Slingshot One-Lock Flow800": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 2
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "EFF": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|RRD Beluga ML LTD Y30": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Indiana Early Bird LW104 L": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Appletree Apple Skipper67 L": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Marlin XXS": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "KT|Atlas": {
+   "in_engine": true,
+   "videos": 3,
+   "sources": 3,
+   "criteria": {
+    "VIT": {
+     "favorable": 2,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "divergent",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "DEC": {
+     "favorable": 4,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 3,
+     "nuance": 1,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "-",
+     "avec_comparaison": 2
+    },
+    "TOL": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "CLA": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 3,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "EFF": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Tabou Super Yaka106 L": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Duotone Skybrid D": {
+   "in_engine": false,
+   "videos": 3,
+   "sources": 3,
+   "criteria": {
+    "BDE": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 1,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 4,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BPO": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 4,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 3,
+     "sources_independantes": 2,
+     "statut": "divergent",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "CLA": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "KT|Arc Pro Carbon": {
+   "in_engine": true,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Tabou Super Yaka Team86 L": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "Duotone|Carve 3.0 D/LAB": {
+   "in_engine": true,
+   "videos": 2,
+   "sources": 2,
+   "criteria": {
+    "DEC": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TAN": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 4,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 4
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 2,
+     "sources_independantes": 2,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 2
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Indiana Dolphin827": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Cabrinha Union Prestige905": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Duotone Glide2 D": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Tabou Twister62 L2026": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|North Midi82 L": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 0,
+     "defavorable": 3,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|North SonarMA V2": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "EFF": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Cabrinha Domani960": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "GLI": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Duotone WhizzSLS850": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "TAN": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Duotone SkybridAir2025": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BMA": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Takoon GlideMidlength75 L2025": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BPO": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|K-PARTS AROS560": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "EFF": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|KT Solus775": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Foil Attitude Early Bird1690": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "EFF": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    },
+    "GLI": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|SROKA PW HybridPro130 L": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|GONG Lemon": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Reptile AquaLift2100": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Cabrinha Swift86 L6’0": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BPO": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|KT Solus930": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "CLA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|K-PARTS SKAL": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Dolphin S": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Duotone Free": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    },
+    "GLI": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|AFS Blackbird Midlength Fiber et Advanced": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Naish Excalibur": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "GLI": {
+     "favorable": 2,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 3
+    },
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 2
+    },
+    "DEC": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 3
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 2,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 2
+    }
+   }
+  },
+  "hors moteur|Duotone Skybrid": {
+   "in_engine": false,
+   "videos": 2,
+   "sources": 2,
+   "criteria": {
+    "BST": {
+     "favorable": 2,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 0,
+     "statut": "divergent",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 2,
+     "sources_independantes": 0,
+     "statut": "concordant",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BPO": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Naish SHA": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Sabfoil Razor Blackbird": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Sroka DW": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BMA": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|ENSIS Jive": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 2,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "WAKA|Glide TravelFold": {
+   "in_engine": true,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BMA": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "Code|R Series 680R": {
+   "in_engine": true,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|F-ONE SK8 V2": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "VIT": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Takoon Flow": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "DEC": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|AXIS PNG": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "MAN": {
+     "favorable": 3,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "GLI": {
+     "favorable": 3,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "DEC": {
+     "favorable": 4,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TOL": {
+     "favorable": 4,
+     "defavorable": 3,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 4
+    },
+    "VIT": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "EFF": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "CLA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "TAN": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|North Midi": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Early Bird": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Cabrinha Swift": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|GONG HIPE Pro": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Takoon Glide Midlength": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Takoon Glide Midlength Air": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Takoon Ultraglide": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BDE": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 2
+    }
+   }
+  },
+  "AFS|Evo": {
+   "in_engine": true,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Slingshot Phantasm Quick Start": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Super Fly CML": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Marlin M": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Armstrong Midlength FG": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 0,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "-",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|Omen Agent": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Condor S": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "TAN": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "AXIS|Surge 890": {
+   "in_engine": true,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 2,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|F-ONE Sushi": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|Indiana Easy Carve": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "BST": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "BDE": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "BMA": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    }
+   }
+  },
+  "hors moteur|SABfoil Leviathan": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "GLI": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    },
+    "VIT": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 0,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 1
+    }
+   }
+  },
+  "hors moteur|North Sonar MA V2": {
+   "in_engine": false,
+   "videos": 1,
+   "sources": 1,
+   "criteria": {
+    "DEC": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "EFF": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "VIT": {
+     "favorable": 1,
+     "defavorable": 1,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    },
+    "TOL": {
+     "favorable": 2,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "MAN": {
+     "favorable": 1,
+     "defavorable": 0,
+     "nuance": 0,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "+",
+     "avec_comparaison": 0
+    },
+    "GLI": {
+     "favorable": 0,
+     "defavorable": 0,
+     "nuance": 1,
+     "sources": 1,
+     "sources_independantes": 1,
+     "statut": "isolé",
+     "sens": "~",
+     "avec_comparaison": 0
+    }
+   }
+  }
+ }
+}

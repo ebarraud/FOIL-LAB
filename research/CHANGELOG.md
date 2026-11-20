@@ -1,5 +1,11 @@
 # Journal des évolutions
 
+## 2026-11-20 — Grille de ressenti d’utilisation (mesure, pas encore affichée)
+- Grille fixe : ailes (décollage, tangage, tolérance, maniabilité, glisse/pumping, vitesse, clapot, effort) et boards (stabilité à l’arrêt, décollage, poids ressenti, maniabilité/touchettes) ; sens, intensité, point de comparaison explicite.
+- 388 des 775 observations relues contiennent un ressenti (570 mentions de critère, 27 % avec comparaison explicite). Reclassement par l’assistant, sans réécoute ni validation humaine.
+- `video-analysis/ride_feel_report.py` agrège par gamme et par source (revendeur, média, créateur ; liens commerciaux déclarés) : 39 critères concordants (≥ 2 sources, ≥ 75 % d’avis dans le même sens), dont 22 portés par au moins deux sources indépendantes ; 13 divergents ; 283 isolés.
+- Rattachements corrigés : Skybrid SLS 2026 (titres sans espace), SK8 V2 exclue (moteur en V3).
+
 ## 2026-11-19 — Les essais vidéo dans le configurateur
 - Chaque carte de recommandation (aile ou board) affiche « Ce qu’en disent les essais vidéo » : jusqu’à cinq essais relus, trois observations minutées chacun avec leurs limites, la taille de l’essai et un lien vers l’analyse complète. Affichage seulement : taille et classement inchangés.
 - Rattachement lecture → famille : `video-analysis/build_review_family_map.py` produit `data/research/review_family_map.json` (génération et construction exactes ; Skybrid SLS 2025/2027, Chimera 2027 et Blackbird Fiber exclus). 56 lectures sur 174 rattachées, contre 0 affichées auparavant sur les cartes.
