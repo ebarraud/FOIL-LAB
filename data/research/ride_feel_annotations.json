@@ -1,0 +1,6307 @@
+{
+ "schema_version": 1,
+ "as_of": "2026-11-20",
+ "method": "Reclassement par l’assistant des observations déjà relues (transcript_reviews.json) selon une grille fixe ; aucune réécoute des vidéos ni validation humaine. Une observation peut porter plusieurs critères. « compared_to » n’est renseigné que si la comparaison est explicite. Les essais écrits (written_annotations) sont paraphrasés et rattachés seulement si la génération correspond au moteur (Eagle 2025, Seven Seas 2022 et SK8 2023 écartés).",
+ "grid": {
+  "foil": {
+   "DEC": "Décollage / portance à basse vitesse",
+   "TAN": "Stabilité en tangage",
+   "TOL": "Tolérance aux erreurs / accessibilité",
+   "MAN": "Maniabilité, virages, sauts",
+   "GLI": "Glisse et pumping",
+   "VIT": "Vitesse de pointe",
+   "CLA": "Confort dans le clapot / l’eau agitée",
+   "EFF": "Effort physique, appui pied avant"
+  },
+  "board": {
+   "BST": "Stabilité à l’arrêt et au départ",
+   "BDE": "Facilité de décollage",
+   "BPO": "Poids / inertie ressentis",
+   "BMA": "Maniabilité, touchettes, réceptions"
+  },
+  "polarity": {
+   "+": "favorable",
+   "-": "défavorable",
+   "~": "nuancé / dépend du montage"
+  },
+  "intensity": {
+   "1": "léger",
+   "2": "net"
+  }
+ },
+ "annotations": [
+  {
+   "video_id": "wrBJfakowLs",
+   "claim_index": 0,
+   "start_s": 225,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "stab Surf plus grand"
+  },
+  {
+   "video_id": "wrBJfakowLs",
+   "claim_index": 1,
+   "start_s": 300.53,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "wrBJfakowLs",
+   "claim_index": 2,
+   "start_s": 446.4,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "wrBJfakowLs",
+   "claim_index": 3,
+   "start_s": 479.86,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "wrBJfakowLs",
+   "claim_index": 4,
+   "start_s": 530.89,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "stabs Surf 185/215"
+  },
+  {
+   "video_id": "FJsdHDBPLJY",
+   "claim_index": 0,
+   "start_s": 414.72,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "FJsdHDBPLJY",
+   "claim_index": 2,
+   "start_s": 493.52,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "FJsdHDBPLJY",
+   "claim_index": 3,
+   "start_s": 552.3,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "FJsdHDBPLJY",
+   "claim_index": 4,
+   "start_s": 630.4,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "o-piLekjAHk",
+   "claim_index": 0,
+   "start_s": 28.6,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "o-piLekjAHk",
+   "claim_index": 1,
+   "start_s": 68.92,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "génération précédente"
+  },
+  {
+   "video_id": "o-piLekjAHk",
+   "claim_index": 2,
+   "start_s": 109.84,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "oj8HfuYygDw",
+   "claim_index": 0,
+   "start_s": 165.2,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "oj8HfuYygDw",
+   "claim_index": 1,
+   "start_s": 199.8,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "oj8HfuYygDw",
+   "claim_index": 4,
+   "start_s": 395.1,
+   "criteria": [
+    {
+     "c": "BPO",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "F6BXfqM05yo",
+   "claim_index": 0,
+   "start_s": 77.8,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "F6BXfqM05yo",
+   "claim_index": 1,
+   "start_s": 165.6,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "F6BXfqM05yo",
+   "claim_index": 2,
+   "start_s": 222.8,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "F6BXfqM05yo",
+   "claim_index": 3,
+   "start_s": 306,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "F6BXfqM05yo",
+   "claim_index": 4,
+   "start_s": 418.4,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "PkWvig5XIJ0",
+   "claim_index": 0,
+   "start_s": 96.4,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "modèle précédent"
+  },
+  {
+   "video_id": "PkWvig5XIJ0",
+   "claim_index": 2,
+   "start_s": 328.8,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "PkWvig5XIJ0",
+   "claim_index": 3,
+   "start_s": 398.7,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BPO",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "PkWvig5XIJ0",
+   "claim_index": 4,
+   "start_s": 589.1,
+   "criteria": [
+    {
+     "c": "BPO",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "version standard"
+  },
+  {
+   "video_id": "egezrffjqPk",
+   "claim_index": 1,
+   "start_s": 163.6,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "egezrffjqPk",
+   "claim_index": 2,
+   "start_s": 235.9,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "fELF_qseo4g",
+   "claim_index": 2,
+   "start_s": 226.9,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Chimera 2026"
+  },
+  {
+   "video_id": "_jPvuDQISaA",
+   "claim_index": 1,
+   "start_s": 128,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "_jPvuDQISaA",
+   "claim_index": 2,
+   "start_s": 164.8,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "RxkvTwobKGE",
+   "claim_index": 1,
+   "start_s": 20.2,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": "ancienne MA"
+  },
+  {
+   "video_id": "RxkvTwobKGE",
+   "claim_index": 2,
+   "start_s": 40.7,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "certains HA"
+  },
+  {
+   "video_id": "RxkvTwobKGE",
+   "claim_index": 3,
+   "start_s": 64.6,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pPXyFWHSd-U",
+   "claim_index": 1,
+   "start_s": 45.2,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Crest"
+  },
+  {
+   "video_id": "pPXyFWHSd-U",
+   "claim_index": 3,
+   "start_s": 150.4,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Crest"
+  },
+  {
+   "video_id": "4znqnlzx0Dg",
+   "claim_index": 2,
+   "start_s": 58.9,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "xB5QMIjU6Ps",
+   "claim_index": 0,
+   "start_s": 203.3,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide"
+  },
+  {
+   "video_id": "xB5QMIjU6Ps",
+   "claim_index": 1,
+   "start_s": 307.4,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "EFF",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "xB5QMIjU6Ps",
+   "claim_index": 2,
+   "start_s": 363.8,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "xB5QMIjU6Ps",
+   "claim_index": 3,
+   "start_s": 435.6,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ZEsZKUqHyxE",
+   "claim_index": 0,
+   "start_s": 212.5,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "EFF",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ZEsZKUqHyxE",
+   "claim_index": 2,
+   "start_s": 381.9,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Flow"
+  },
+  {
+   "video_id": "93t-YEPyyhc",
+   "claim_index": 1,
+   "start_s": 253.9,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "MA 1re génération ; léger avantage Crest"
+  },
+  {
+   "video_id": "93t-YEPyyhc",
+   "claim_index": 2,
+   "start_s": 333.7,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "MA 1re génération"
+  },
+  {
+   "video_id": "93t-YEPyyhc",
+   "claim_index": 4,
+   "start_s": 606.9,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "93t-YEPyyhc",
+   "claim_index": 5,
+   "start_s": 716.6,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "rVRUSW09BD4",
+   "claim_index": 1,
+   "start_s": 211.6,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "rVRUSW09BD4",
+   "claim_index": 2,
+   "start_s": 267.6,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "rVRUSW09BD4",
+   "claim_index": 3,
+   "start_s": 534.4,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "MA"
+  },
+  {
+   "video_id": "rVRUSW09BD4",
+   "claim_index": 4,
+   "start_s": 637.8,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pHJ6b-JRCLg",
+   "claim_index": 1,
+   "start_s": 198.8,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "TOL",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Atlas"
+  },
+  {
+   "video_id": "pHJ6b-JRCLg",
+   "claim_index": 2,
+   "start_s": 280,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "EFF",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pHJ6b-JRCLg",
+   "claim_index": 4,
+   "start_s": 539.2,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "QepHH2KIVOY",
+   "claim_index": 1,
+   "start_s": 180.3,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "QepHH2KIVOY",
+   "claim_index": 3,
+   "start_s": 406.9,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "3EObhbc9v-o",
+   "claim_index": 3,
+   "start_s": 621.4,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "3EObhbc9v-o",
+   "claim_index": 4,
+   "start_s": 759.3,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Oaw3GuMOTb0",
+   "claim_index": 1,
+   "start_s": 518.8,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Oaw3GuMOTb0",
+   "claim_index": 2,
+   "start_s": 676.2,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Oaw3GuMOTb0",
+   "claim_index": 3,
+   "start_s": 689.8,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "ancienne midlength"
+  },
+  {
+   "video_id": "K6UxTGgPgEo",
+   "claim_index": 1,
+   "start_s": 104.84,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "F_kPaA7RGac",
+   "claim_index": 1,
+   "start_s": 57.96,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "F_kPaA7RGac",
+   "claim_index": 2,
+   "start_s": 113.439,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "9G1mKOnFgxA",
+   "claim_index": 1,
+   "start_s": 194.26,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "9G1mKOnFgxA",
+   "claim_index": 2,
+   "start_s": 394.32,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "9G1mKOnFgxA",
+   "claim_index": 3,
+   "start_s": 523.46,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "_W2HhY4gySA",
+   "claim_index": 0,
+   "start_s": 104.41,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "_W2HhY4gySA",
+   "claim_index": 1,
+   "start_s": 188.78,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "KT Drifter"
+  },
+  {
+   "video_id": "_W2HhY4gySA",
+   "claim_index": 2,
+   "start_s": 345.88,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "_W2HhY4gySA",
+   "claim_index": 3,
+   "start_s": 449.79,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "ancienne Wingfoil 80"
+  },
+  {
+   "video_id": "pvcTK70LaBQ",
+   "claim_index": 0,
+   "start_s": 131.79,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pvcTK70LaBQ",
+   "claim_index": 2,
+   "start_s": 264.28,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pvcTK70LaBQ",
+   "claim_index": 3,
+   "start_s": 452.82,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pvcTK70LaBQ",
+   "claim_index": 4,
+   "start_s": 557.82,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Flow FW85"
+  },
+  {
+   "video_id": "htCy_cztRcs",
+   "claim_index": 0,
+   "start_s": 76.96,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "htCy_cztRcs",
+   "claim_index": 1,
+   "start_s": 337.44,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Flow Craft"
+  },
+  {
+   "video_id": "htCy_cztRcs",
+   "claim_index": 2,
+   "start_s": 423.8,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "qf2LA6Dw4QI",
+   "claim_index": 0,
+   "start_s": 78.76,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "qf2LA6Dw4QI",
+   "claim_index": 1,
+   "start_s": 169.96,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "qf2LA6Dw4QI",
+   "claim_index": 2,
+   "start_s": 317.88,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Superfly, Beluga ML"
+  },
+  {
+   "video_id": "qf2LA6Dw4QI",
+   "claim_index": 3,
+   "start_s": 388.72,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "V1 compacte"
+  },
+  {
+   "video_id": "qf2LA6Dw4QI",
+   "claim_index": 4,
+   "start_s": 638.04,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "9U1SMtSmTNE",
+   "claim_index": 0,
+   "start_s": 134.44,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "9U1SMtSmTNE",
+   "claim_index": 2,
+   "start_s": 322.6,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "9U1SMtSmTNE",
+   "claim_index": 3,
+   "start_s": 487.87,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "KT Super K, midlengths courtes"
+  },
+  {
+   "video_id": "RRHYwIpkENs",
+   "claim_index": 1,
+   "start_s": 163.64,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "KT Super K ; ancienne Skybrid"
+  },
+  {
+   "video_id": "RRHYwIpkENs",
+   "claim_index": 2,
+   "start_s": 361.36,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "modèle précédent"
+  },
+  {
+   "video_id": "RRHYwIpkENs",
+   "claim_index": 3,
+   "start_s": 436.76,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "RRHYwIpkENs",
+   "claim_index": 4,
+   "start_s": 555.6,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BDE",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "meilleurs shapes à déplacement"
+  },
+  {
+   "video_id": "xpGSWpujoP0",
+   "claim_index": 0,
+   "start_s": 120.12,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "xpGSWpujoP0",
+   "claim_index": 1,
+   "start_s": 276.64,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "xpGSWpujoP0",
+   "claim_index": 2,
+   "start_s": 372.56,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "a-azQlLJlck",
+   "claim_index": 0,
+   "start_s": 119.8,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "BST",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "a-azQlLJlck",
+   "claim_index": 1,
+   "start_s": 203.52,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "a-azQlLJlck",
+   "claim_index": 2,
+   "start_s": 489.76,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "a-azQlLJlck",
+   "claim_index": 3,
+   "start_s": 554.32,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ut8lby8-QrA",
+   "claim_index": 1,
+   "start_s": 235.46,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "-",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ut8lby8-QrA",
+   "claim_index": 2,
+   "start_s": 323.65,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ut8lby8-QrA",
+   "claim_index": 3,
+   "start_s": 423.82,
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ut8lby8-QrA",
+   "claim_index": 4,
+   "start_s": 623.74,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "P2kF4cHQEZ4",
+   "claim_index": 1,
+   "start_s": 156.12,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "P2kF4cHQEZ4",
+   "claim_index": 2,
+   "start_s": 296.76,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "P2kF4cHQEZ4",
+   "claim_index": 3,
+   "start_s": 385.48,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "P2kF4cHQEZ4",
+   "claim_index": 4,
+   "start_s": 511.72,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "AIA666962GA",
+   "claim_index": 1,
+   "start_s": 243.12,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "AIA666962GA",
+   "claim_index": 2,
+   "start_s": 312,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide 725"
+  },
+  {
+   "video_id": "AIA666962GA",
+   "claim_index": 3,
+   "start_s": 425.92,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "EFF",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "AIA666962GA",
+   "claim_index": 4,
+   "start_s": 472.64,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide 725"
+  },
+  {
+   "video_id": "I5UIZAT93qo",
+   "claim_index": 0,
+   "start_s": 133.44,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "I5UIZAT93qo",
+   "claim_index": 1,
+   "start_s": 240.6,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "I5UIZAT93qo",
+   "claim_index": 2,
+   "start_s": 422.36,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "long midlength / compacte"
+  },
+  {
+   "video_id": "S2boM4B8en8",
+   "claim_index": 0,
+   "start_s": 115.32,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "S2boM4B8en8",
+   "claim_index": 1,
+   "start_s": 168.32,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Le Doigt"
+  },
+  {
+   "video_id": "S2boM4B8en8",
+   "claim_index": 2,
+   "start_s": 409.52,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "S2boM4B8en8",
+   "claim_index": 3,
+   "start_s": 525.72,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "modèle précédent"
+  },
+  {
+   "video_id": "v6Jo8tO5Fq4",
+   "claim_index": 1,
+   "start_s": 313.24,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "v6Jo8tO5Fq4",
+   "claim_index": 2,
+   "start_s": 443.2,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "compacte"
+  },
+  {
+   "video_id": "v6Jo8tO5Fq4",
+   "claim_index": 3,
+   "start_s": 532.16,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "xrEGIa5cgdQ",
+   "claim_index": 1,
+   "start_s": 196.08,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "vqjLdNT4urA",
+   "claim_index": 1,
+   "start_s": 143.48,
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Nomad 700"
+  },
+  {
+   "video_id": "vqjLdNT4urA",
+   "claim_index": 2,
+   "start_s": 198.32,
+   "criteria": [
+    {
+     "c": "CLA",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "vqjLdNT4urA",
+   "claim_index": 3,
+   "start_s": 248.84,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Nomad"
+  },
+  {
+   "video_id": "vqjLdNT4urA",
+   "claim_index": 4,
+   "start_s": 283.72,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Instinct 1120"
+  },
+  {
+   "video_id": "TdL2YcSYd1Q",
+   "claim_index": 1,
+   "start_s": 123.28,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "wIPR7DOgKqQ",
+   "claim_index": 1,
+   "start_s": 125.6,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Super K"
+  },
+  {
+   "video_id": "wIPR7DOgKqQ",
+   "claim_index": 2,
+   "start_s": 296,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "wIPR7DOgKqQ",
+   "claim_index": 3,
+   "start_s": 401.48,
+   "criteria": [
+    {
+     "c": "BPO",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "wIPR7DOgKqQ",
+   "claim_index": 4,
+   "start_s": 607.6,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "V5rMLxpKDsg",
+   "claim_index": 1,
+   "start_s": 225.06,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Super K ; Paradox"
+  },
+  {
+   "video_id": "V5rMLxpKDsg",
+   "claim_index": 2,
+   "start_s": 472.46,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "2rLx3Ayw9oE",
+   "claim_index": 0,
+   "start_s": 114.76,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Super K 90"
+  },
+  {
+   "video_id": "2rLx3Ayw9oE",
+   "claim_index": 2,
+   "start_s": 495.76,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "2rLx3Ayw9oE",
+   "claim_index": 3,
+   "start_s": 568.52,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "1YrgtfKV2kI",
+   "claim_index": 1,
+   "start_s": 195.56,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "1YrgtfKV2kI",
+   "claim_index": 2,
+   "start_s": 293.36,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Carve 2"
+  },
+  {
+   "video_id": "1YrgtfKV2kI",
+   "claim_index": 3,
+   "start_s": 373.88,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Carve 2"
+  },
+  {
+   "video_id": "1YrgtfKV2kI",
+   "claim_index": 4,
+   "start_s": 502.16,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "MA"
+  },
+  {
+   "video_id": "E1hchZJjKAo",
+   "claim_index": 1,
+   "start_s": 202.16,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "E1hchZJjKAo",
+   "claim_index": 2,
+   "start_s": 270.88,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "E1hchZJjKAo",
+   "claim_index": 3,
+   "start_s": 468.08,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "E1hchZJjKAo",
+   "claim_index": 4,
+   "start_s": 556.88,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "bw6RziEZQm8",
+   "claim_index": 1,
+   "start_s": 246.76,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "bw6RziEZQm8",
+   "claim_index": 2,
+   "start_s": 373.72,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "allongements 10+"
+  },
+  {
+   "video_id": "bw6RziEZQm8",
+   "claim_index": 3,
+   "start_s": 457.96,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "bw6RziEZQm8",
+   "claim_index": 4,
+   "start_s": 579.44,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide, Enduro 1100"
+  },
+  {
+   "video_id": "yL-WLJABq_U",
+   "claim_index": 1,
+   "start_s": 204.24,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Marlin / Barracuda"
+  },
+  {
+   "video_id": "yL-WLJABq_U",
+   "claim_index": 2,
+   "start_s": 328.4,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "yL-WLJABq_U",
+   "claim_index": 3,
+   "start_s": 466.04,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "viZUrrOCL6E",
+   "claim_index": 1,
+   "start_s": 234.04,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "viZUrrOCL6E",
+   "claim_index": 3,
+   "start_s": 428,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "EFF",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "UHA"
+  },
+  {
+   "video_id": "viZUrrOCL6E",
+   "claim_index": 4,
+   "start_s": 493.28,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Carve 3 / Skate"
+  },
+  {
+   "video_id": "voesArm8I1I",
+   "claim_index": 1,
+   "start_s": 199.64,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "voesArm8I1I",
+   "claim_index": 2,
+   "start_s": 312.96,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "voesArm8I1I",
+   "claim_index": 3,
+   "start_s": 378.24,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "voesArm8I1I",
+   "claim_index": 4,
+   "start_s": 542.68,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "lrW4o4H05tI",
+   "claim_index": 1,
+   "start_s": 240.2,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": "foil de glisse 1100"
+  },
+  {
+   "video_id": "lrW4o4H05tI",
+   "claim_index": 2,
+   "start_s": 312.8,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "lrW4o4H05tI",
+   "claim_index": 3,
+   "start_s": 500.04,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "lrW4o4H05tI",
+   "claim_index": 4,
+   "start_s": 652,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "DQqbVduXDwA",
+   "claim_index": 1,
+   "start_s": 190.44,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "génération précédente"
+  },
+  {
+   "video_id": "DQqbVduXDwA",
+   "claim_index": 3,
+   "start_s": 549.16,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Carve 2"
+  },
+  {
+   "video_id": "Zo1awVlnOJQ",
+   "claim_index": 0,
+   "start_s": 55.32,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Zo1awVlnOJQ",
+   "claim_index": 2,
+   "start_s": 268.92,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "BsQoom43YEk",
+   "claim_index": 1,
+   "start_s": 235.6,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 2
+    },
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "BsQoom43YEk",
+   "claim_index": 2,
+   "start_s": 340,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "BsQoom43YEk",
+   "claim_index": 3,
+   "start_s": 385.56,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "BsQoom43YEk",
+   "claim_index": 4,
+   "start_s": 512.04,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "laeIus1pFX4",
+   "claim_index": 1,
+   "start_s": 186.48,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "EFF",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "laeIus1pFX4",
+   "claim_index": 2,
+   "start_s": 264.16,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "laeIus1pFX4",
+   "claim_index": 3,
+   "start_s": 437.92,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "laeIus1pFX4",
+   "claim_index": 4,
+   "start_s": 499.52,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "rLYd4DMS3mw",
+   "claim_index": 1,
+   "start_s": 390.04,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "rLYd4DMS3mw",
+   "claim_index": 2,
+   "start_s": 449.16,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "kHYxyUyU4qY",
+   "claim_index": 2,
+   "start_s": 224.24,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Prestige 905"
+  },
+  {
+   "video_id": "kHYxyUyU4qY",
+   "claim_index": 3,
+   "start_s": 346.2,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "kHYxyUyU4qY",
+   "claim_index": 5,
+   "start_s": 630.08,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mtwBUIwCP3Q",
+   "claim_index": 2,
+   "start_s": 479.91,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mtwBUIwCP3Q",
+   "claim_index": 3,
+   "start_s": 602.96,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mtwBUIwCP3Q",
+   "claim_index": 4,
+   "start_s": 764.4,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mtwBUIwCP3Q",
+   "claim_index": 5,
+   "start_s": 897.21,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "5HwPFspBteM",
+   "claim_index": 1,
+   "start_s": 188.28,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "5HwPFspBteM",
+   "claim_index": 2,
+   "start_s": 332.2,
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Carve 2 ; Glide"
+  },
+  {
+   "video_id": "5HwPFspBteM",
+   "claim_index": 3,
+   "start_s": 450.36,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "5HwPFspBteM",
+   "claim_index": 5,
+   "start_s": 659.52,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide ; Whizz"
+  },
+  {
+   "video_id": "p57zbjrPPY4",
+   "claim_index": 3,
+   "start_s": 404.54,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "p57zbjrPPY4",
+   "claim_index": 4,
+   "start_s": 468.38,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "p57zbjrPPY4",
+   "claim_index": 6,
+   "start_s": 996.84,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "5kRFfdnDyKI",
+   "claim_index": 1,
+   "start_s": 994.12,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "5kRFfdnDyKI",
+   "claim_index": 2,
+   "start_s": 1140.4,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "5kRFfdnDyKI",
+   "claim_index": 3,
+   "start_s": 1234.96,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "fnhdMRiW3h4",
+   "claim_index": 3,
+   "start_s": 882.64,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "fnhdMRiW3h4",
+   "claim_index": 5,
+   "start_s": 1210.76,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "l7pHqjOD_Qw",
+   "claim_index": 1,
+   "start_s": 116.92,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Sky Style"
+  },
+  {
+   "video_id": "qIjC5-sJSro",
+   "claim_index": 3,
+   "start_s": 753.37,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "92HaHWul324",
+   "claim_index": 2,
+   "start_s": 374.6,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "92HaHWul324",
+   "claim_index": 4,
+   "start_s": 817.52,
+   "criteria": [
+    {
+     "c": "BPO",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "F-ONE 82 L bambou"
+  },
+  {
+   "video_id": "NXVH9H10YfM",
+   "claim_index": 1,
+   "start_s": 644.04,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "NXVH9H10YfM",
+   "claim_index": 3,
+   "start_s": 980.48,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "FklAiCI22lU",
+   "claim_index": 3,
+   "start_s": 633.64,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "FklAiCI22lU",
+   "claim_index": 4,
+   "start_s": 807.2,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "FklAiCI22lU",
+   "claim_index": 5,
+   "start_s": 936.92,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "FklAiCI22lU",
+   "claim_index": 6,
+   "start_s": 1086.2,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mhetRD3Fl5U",
+   "claim_index": 3,
+   "start_s": 787.17,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mhetRD3Fl5U",
+   "claim_index": 7,
+   "start_s": 1433.17,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mhetRD3Fl5U",
+   "claim_index": 8,
+   "start_s": 1642.95,
+   "criteria": [
+    {
+     "c": "EFF",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "sgaqpPq9ExU",
+   "claim_index": 1,
+   "start_s": 240.74,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "sgaqpPq9ExU",
+   "claim_index": 2,
+   "start_s": 350.16,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "sgaqpPq9ExU",
+   "claim_index": 3,
+   "start_s": 438.7,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "sgaqpPq9ExU",
+   "claim_index": 4,
+   "start_s": 539.62,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "sgaqpPq9ExU",
+   "claim_index": 5,
+   "start_s": 625.69,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "j_uE7K_g5cs",
+   "claim_index": 0,
+   "start_s": 7.48,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "YVOXuTKpD50",
+   "claim_index": 2,
+   "start_s": 108.56,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide 2"
+  },
+  {
+   "video_id": "YVOXuTKpD50",
+   "claim_index": 3,
+   "start_s": 138.72,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "EFF",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "nM6k7_IpC9k",
+   "claim_index": 3,
+   "start_s": 479.6,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "EFF",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "nM6k7_IpC9k",
+   "claim_index": 4,
+   "start_s": 564.72,
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "ailes plus allongées"
+  },
+  {
+   "video_id": "hXDV7ssMWlY",
+   "claim_index": 1,
+   "start_s": 105.44,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "hXDV7ssMWlY",
+   "claim_index": 2,
+   "start_s": 165.28,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "DW Performance 685"
+  },
+  {
+   "video_id": "hXDV7ssMWlY",
+   "claim_index": 4,
+   "start_s": 288.52,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "KUlOiIb2Jck",
+   "claim_index": 2,
+   "start_s": 474.2,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "KUlOiIb2Jck",
+   "claim_index": 3,
+   "start_s": 570.32,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "_-VHK2Q-JgA",
+   "claim_index": 0,
+   "start_s": 185.96,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Drifter"
+  },
+  {
+   "video_id": "_-VHK2Q-JgA",
+   "claim_index": 1,
+   "start_s": 280.88,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Super K 95"
+  },
+  {
+   "video_id": "_-VHK2Q-JgA",
+   "claim_index": 2,
+   "start_s": 401.76,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Drifter 4 56"
+  },
+  {
+   "video_id": "65ecyxEcNiY",
+   "claim_index": 2,
+   "start_s": 559.62,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "65ecyxEcNiY",
+   "claim_index": 5,
+   "start_s": 955.45,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Carve (Gong)"
+  },
+  {
+   "video_id": "VdVF_HfnV5o",
+   "claim_index": 1,
+   "start_s": 356.43,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "VdVF_HfnV5o",
+   "claim_index": 2,
+   "start_s": 443.81,
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "VdVF_HfnV5o",
+   "claim_index": 3,
+   "start_s": 503.98,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "0qOf0eEpElM",
+   "claim_index": 1,
+   "start_s": 175.4,
+   "criteria": [
+    {
+     "c": "BPO",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "0qOf0eEpElM",
+   "claim_index": 2,
+   "start_s": 231.64,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "0qOf0eEpElM",
+   "claim_index": 3,
+   "start_s": 384.92,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "0qOf0eEpElM",
+   "claim_index": 4,
+   "start_s": 456.2,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ig3D34ghMq4",
+   "claim_index": 2,
+   "start_s": 293.48,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ig3D34ghMq4",
+   "claim_index": 3,
+   "start_s": 395.04,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ig3D34ghMq4",
+   "claim_index": 4,
+   "start_s": 614.24,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ig3D34ghMq4",
+   "claim_index": 5,
+   "start_s": 755.52,
+   "criteria": [
+    {
+     "c": "CLA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "zGdki04tH2g",
+   "claim_index": 0,
+   "start_s": 816,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "zGdki04tH2g",
+   "claim_index": 4,
+   "start_s": 1313,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "zGdki04tH2g",
+   "claim_index": 7,
+   "start_s": 1731.36,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "AROS 980"
+  },
+  {
+   "video_id": "khXSoXL7ccA",
+   "claim_index": 0,
+   "start_s": 14.94,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": "Drifter 4 56 L"
+  },
+  {
+   "video_id": "khXSoXL7ccA",
+   "claim_index": 1,
+   "start_s": 54.28,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Arc, Super K v2"
+  },
+  {
+   "video_id": "khXSoXL7ccA",
+   "claim_index": 2,
+   "start_s": 78.25,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mgyh_TWJfIA",
+   "claim_index": 0,
+   "start_s": 12.41,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Super K v2 60"
+  },
+  {
+   "video_id": "mgyh_TWJfIA",
+   "claim_index": 1,
+   "start_s": 46.18,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mgyh_TWJfIA",
+   "claim_index": 3,
+   "start_s": 107.27,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pXkQerJEvYA",
+   "claim_index": 3,
+   "start_s": 378.84,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pXkQerJEvYA",
+   "claim_index": 5,
+   "start_s": 590.68,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pXkQerJEvYA",
+   "claim_index": 7,
+   "start_s": 817.48,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pXkQerJEvYA",
+   "claim_index": 8,
+   "start_s": 1003.2,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iZo8DO7Z4No",
+   "claim_index": 2,
+   "start_s": 321.8,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iZo8DO7Z4No",
+   "claim_index": 3,
+   "start_s": 393.4,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Crest, Carve"
+  },
+  {
+   "video_id": "iZo8DO7Z4No",
+   "claim_index": 4,
+   "start_s": 481.04,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Crest (+) ; Carve (−)"
+  },
+  {
+   "video_id": "iZo8DO7Z4No",
+   "claim_index": 6,
+   "start_s": 644.72,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": "Carve 1100"
+  },
+  {
+   "video_id": "mZtN100cfBs",
+   "claim_index": 2,
+   "start_s": 307.52,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "mZtN100cfBs",
+   "claim_index": 4,
+   "start_s": 530.84,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Fm3jofwhf-c",
+   "claim_index": 2,
+   "start_s": 144.72,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Fm3jofwhf-c",
+   "claim_index": 3,
+   "start_s": 408.4,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Excalibur 1144"
+  },
+  {
+   "video_id": "Fm3jofwhf-c",
+   "claim_index": 4,
+   "start_s": 629.56,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "944/1144"
+  },
+  {
+   "video_id": "Fm3jofwhf-c",
+   "claim_index": 5,
+   "start_s": 929.04,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Excalibur"
+  },
+  {
+   "video_id": "Fm3jofwhf-c",
+   "claim_index": 6,
+   "start_s": 1061.52,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Siren 1200"
+  },
+  {
+   "video_id": "Fm3jofwhf-c",
+   "claim_index": 7,
+   "start_s": 1183.84,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Siren 1000"
+  },
+  {
+   "video_id": "ixaogT38-1Y",
+   "claim_index": 1,
+   "start_s": 180.6,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BPO",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ixaogT38-1Y",
+   "claim_index": 2,
+   "start_s": 226,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "CLA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ixaogT38-1Y",
+   "claim_index": 5,
+   "start_s": 483.28,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "2f6kjRKFt_k",
+   "claim_index": 1,
+   "start_s": 72.76,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "2f6kjRKFt_k",
+   "claim_index": 2,
+   "start_s": 118.52,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "2f6kjRKFt_k",
+   "claim_index": 3,
+   "start_s": 153.32,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "jjmovozkNQs",
+   "claim_index": 1,
+   "start_s": 79.16,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "jjmovozkNQs",
+   "claim_index": 2,
+   "start_s": 113.4,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pjFZjW2IGAY",
+   "claim_index": 1,
+   "start_s": 327.8,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "pjFZjW2IGAY",
+   "claim_index": 3,
+   "start_s": 439.32,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "qTATXePqrrw",
+   "claim_index": 0,
+   "start_s": 69.36,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "qTATXePqrrw",
+   "claim_index": 1,
+   "start_s": 151.68,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "HA"
+  },
+  {
+   "video_id": "qTATXePqrrw",
+   "claim_index": 2,
+   "start_s": 239.88,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "CLA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "ailes de plus petite envergure"
+  },
+  {
+   "video_id": "qTATXePqrrw",
+   "claim_index": 3,
+   "start_s": 364.72,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "qTATXePqrrw",
+   "claim_index": 4,
+   "start_s": 453.4,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "8el3ifGXmYU",
+   "claim_index": 2,
+   "start_s": 575.44,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "8el3ifGXmYU",
+   "claim_index": 3,
+   "start_s": 660.04,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "N-b-KEtL9zo",
+   "claim_index": 2,
+   "start_s": 349.08,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "N-b-KEtL9zo",
+   "claim_index": 3,
+   "start_s": 505.24,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "N-b-KEtL9zo",
+   "claim_index": 4,
+   "start_s": 611.6,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "N-b-KEtL9zo",
+   "claim_index": 5,
+   "start_s": 855.24,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "vOvMPu4SbRo",
+   "claim_index": 1,
+   "start_s": 219.52,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Skybrid 85 L 2025"
+  },
+  {
+   "video_id": "vOvMPu4SbRo",
+   "claim_index": 2,
+   "start_s": 290.96,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Skybrid 2025"
+  },
+  {
+   "video_id": "vOvMPu4SbRo",
+   "claim_index": 3,
+   "start_s": 404.16,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "fpheg1qEhg0",
+   "claim_index": 2,
+   "start_s": 399,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "foil de vagues spécialisé"
+  },
+  {
+   "video_id": "tOCsLl1tS3s",
+   "claim_index": 1,
+   "start_s": 52.84,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "tOCsLl1tS3s",
+   "claim_index": 3,
+   "start_s": 422.08,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "tOCsLl1tS3s",
+   "claim_index": 4,
+   "start_s": 610.72,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Sroka LW"
+  },
+  {
+   "video_id": "9ZrGRE-SyuM",
+   "claim_index": 1,
+   "start_s": 199.2,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "9ZrGRE-SyuM",
+   "claim_index": 2,
+   "start_s": 436,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "9ZrGRE-SyuM",
+   "claim_index": 3,
+   "start_s": 528.2,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "JbO6v-GSibQ",
+   "claim_index": 1,
+   "start_s": 79.36,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "JbO6v-GSibQ",
+   "claim_index": 2,
+   "start_s": 176.96,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "JbO6v-GSibQ",
+   "claim_index": 3,
+   "start_s": 237.52,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Project Drag"
+  },
+  {
+   "video_id": "l2HmFjc7eiI",
+   "claim_index": 1,
+   "start_s": 172.96,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "l2HmFjc7eiI",
+   "claim_index": 2,
+   "start_s": 241.28,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "l2HmFjc7eiI",
+   "claim_index": 4,
+   "start_s": 485.68,
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "tnIU9QoY5dY",
+   "claim_index": 2,
+   "start_s": 204.64,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "SK8 V1"
+  },
+  {
+   "video_id": "P39IzbFmKoo",
+   "claim_index": 1,
+   "start_s": 203,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "P39IzbFmKoo",
+   "claim_index": 2,
+   "start_s": 245,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "DEC",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "P39IzbFmKoo",
+   "claim_index": 3,
+   "start_s": 297,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Flare"
+  },
+  {
+   "video_id": "P39IzbFmKoo",
+   "claim_index": 4,
+   "start_s": 385,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "P39IzbFmKoo",
+   "claim_index": 5,
+   "start_s": 524,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 0,
+   "start_s": 88,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 1,
+   "start_s": 275,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 2,
+   "start_s": 333,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 3,
+   "start_s": 486,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "PNG 1150 original"
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 4,
+   "start_s": 622,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 5,
+   "start_s": 747,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "EFF",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 6,
+   "start_s": 864,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 8,
+   "start_s": 1474,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "ART / ART Pro"
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 11,
+   "start_s": 1775,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 12,
+   "start_s": 1893,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "CLA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "ART original ; Spitfire"
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 13,
+   "start_s": 2332,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 15,
+   "start_s": 2680,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "iYxYwu15cuE",
+   "claim_index": 16,
+   "start_s": 2917,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Tempo"
+  },
+  {
+   "video_id": "letox5nkMmE",
+   "claim_index": 0,
+   "start_s": 2,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "letox5nkMmE",
+   "claim_index": 1,
+   "start_s": 64,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "r1dEaIpVD-M",
+   "claim_index": 1,
+   "start_s": 93,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "r1dEaIpVD-M",
+   "claim_index": 2,
+   "start_s": 186,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "TrcLcOY1PA4",
+   "claim_index": 3,
+   "start_s": 174,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Code 2022"
+  },
+  {
+   "video_id": "kZHjNv8pVfM",
+   "claim_index": 2,
+   "start_s": 218,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "HIPE Perf 110 L"
+  },
+  {
+   "video_id": "9CUmbgOlufY",
+   "claim_index": 0,
+   "start_s": 23,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "EFF",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "MrxDf-_dCJY",
+   "claim_index": 1,
+   "start_s": 78,
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "MrxDf-_dCJY",
+   "claim_index": 2,
+   "start_s": 139,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "MrxDf-_dCJY",
+   "claim_index": 3,
+   "start_s": 215,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Atlas 1130"
+  },
+  {
+   "video_id": "MrxDf-_dCJY",
+   "claim_index": 4,
+   "start_s": 268,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "gfFDO4eIPZY",
+   "claim_index": 3,
+   "start_s": 538,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "BqgSD3NDuzU",
+   "claim_index": 2,
+   "start_s": 559,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "BqgSD3NDuzU",
+   "claim_index": 3,
+   "start_s": 640,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide Air / Escape Air"
+  },
+  {
+   "video_id": "BqgSD3NDuzU",
+   "claim_index": 4,
+   "start_s": 714,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "dLe2dhRydLo",
+   "claim_index": 1,
+   "start_s": 241,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide Midlength 5’10"
+  },
+  {
+   "video_id": "dLe2dhRydLo",
+   "claim_index": 2,
+   "start_s": 339,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide Midlength"
+  },
+  {
+   "video_id": "dLe2dhRydLo",
+   "claim_index": 3,
+   "start_s": 468,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "kOnOMWTcOmI",
+   "claim_index": 2,
+   "start_s": 172,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "kOnOMWTcOmI",
+   "claim_index": 3,
+   "start_s": 356,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "kOnOMWTcOmI",
+   "claim_index": 4,
+   "start_s": 522,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "uBKB-yB5FE0",
+   "claim_index": 2,
+   "start_s": 397,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "uBKB-yB5FE0",
+   "claim_index": 4,
+   "start_s": 602,
+   "criteria": [
+    {
+     "c": "BPO",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "uBKB-yB5FE0",
+   "claim_index": 5,
+   "start_s": 664,
+   "criteria": [
+    {
+     "c": "BPO",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Sky Style SLS"
+  },
+  {
+   "video_id": "TLuTPpSWk80",
+   "claim_index": 1,
+   "start_s": 142,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "TLuTPpSWk80",
+   "claim_index": 2,
+   "start_s": 303,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "TLuTPpSWk80",
+   "claim_index": 4,
+   "start_s": 525,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "8Mf-D-pKrZ8",
+   "claim_index": 1,
+   "start_s": 147,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "8Mf-D-pKrZ8",
+   "claim_index": 2,
+   "start_s": 307,
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Enduro 1100"
+  },
+  {
+   "video_id": "8Mf-D-pKrZ8",
+   "claim_index": 3,
+   "start_s": 519,
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "8Mf-D-pKrZ8",
+   "claim_index": 4,
+   "start_s": 737,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "8zAMERKef5M",
+   "claim_index": 1,
+   "start_s": 75,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "qvvLnJBdlC0",
+   "claim_index": 2,
+   "start_s": 475,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "qvvLnJBdlC0",
+   "claim_index": 4,
+   "start_s": 665,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Sa1RIxicPms",
+   "claim_index": 2,
+   "start_s": 326,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Sa1RIxicPms",
+   "claim_index": 3,
+   "start_s": 430,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "m9spmeFy0J4",
+   "claim_index": 1,
+   "start_s": 194,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "anciennes MA"
+  },
+  {
+   "video_id": "m9spmeFy0J4",
+   "claim_index": 2,
+   "start_s": 442,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "HA"
+  },
+  {
+   "video_id": "m9spmeFy0J4",
+   "claim_index": 4,
+   "start_s": 552,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "3DE97BGarq8",
+   "claim_index": 2,
+   "start_s": 459,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "-",
+     "int": 1
+    },
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "3DE97BGarq8",
+   "claim_index": 4,
+   "start_s": 603,
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "FG"
+  },
+  {
+   "video_id": "jcu7SOnZblU",
+   "claim_index": 1,
+   "start_s": 115,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "jcu7SOnZblU",
+   "claim_index": 2,
+   "start_s": 212,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "TtzKfkcLM0M",
+   "claim_index": 0,
+   "start_s": 195,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide"
+  },
+  {
+   "video_id": "TtzKfkcLM0M",
+   "claim_index": 1,
+   "start_s": 253,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "TtzKfkcLM0M",
+   "claim_index": 2,
+   "start_s": 296,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "Glide"
+  },
+  {
+   "video_id": "TtzKfkcLM0M",
+   "claim_index": 3,
+   "start_s": 414,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "TtzKfkcLM0M",
+   "claim_index": 5,
+   "start_s": 592,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "TtzKfkcLM0M",
+   "claim_index": 6,
+   "start_s": 682,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "45RROMfJ2bg",
+   "claim_index": 1,
+   "start_s": 86,
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "45RROMfJ2bg",
+   "claim_index": 3,
+   "start_s": 405,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "45RROMfJ2bg",
+   "claim_index": 4,
+   "start_s": 500,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "45RROMfJ2bg",
+   "claim_index": 7,
+   "start_s": 965,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "-htD7qNM7_k",
+   "claim_index": 2,
+   "start_s": 363.3,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "-htD7qNM7_k",
+   "claim_index": 3,
+   "start_s": 483.2,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "-htD7qNM7_k",
+   "claim_index": 4,
+   "start_s": 708.3,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ky1rk1QHya0",
+   "claim_index": 2,
+   "start_s": 207.3,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ky1rk1QHya0",
+   "claim_index": 3,
+   "start_s": 263.5,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "ky1rk1QHya0",
+   "claim_index": 4,
+   "start_s": 439,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "SzXkVWCbIJs",
+   "claim_index": 0,
+   "start_s": 90,
+   "criteria": [
+    {
+     "c": "BST",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "SzXkVWCbIJs",
+   "claim_index": 2,
+   "start_s": 269.5,
+   "criteria": [
+    {
+     "c": "BMA",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "SsgV1te6tUY",
+   "claim_index": 4,
+   "start_s": 771,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "grand Code"
+  },
+  {
+   "video_id": "QACerU6dA1A",
+   "claim_index": 1,
+   "start_s": 101,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "ancienne version"
+  },
+  {
+   "video_id": "FvVGPpbGdRk",
+   "claim_index": 0,
+   "start_s": 0.6,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "c24c44kl_rE",
+   "claim_index": 1,
+   "start_s": 173.4,
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    },
+    {
+     "c": "EFF",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "c24c44kl_rE",
+   "claim_index": 2,
+   "start_s": 329.2,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "c24c44kl_rE",
+   "claim_index": 3,
+   "start_s": 453.8,
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    },
+    {
+     "c": "VIT",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "c24c44kl_rE",
+   "claim_index": 4,
+   "start_s": 614.3,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Xh9mmDExedk",
+   "claim_index": 2,
+   "start_s": 778.1,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    },
+    {
+     "c": "MAN",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Silk"
+  },
+  {
+   "video_id": "Xh9mmDExedk",
+   "claim_index": 3,
+   "start_s": 875.6,
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": "Silk 850"
+  },
+  {
+   "video_id": "Xh9mmDExedk",
+   "claim_index": 4,
+   "start_s": 1061.9,
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  },
+  {
+   "video_id": "Xh9mmDExedk",
+   "claim_index": 5,
+   "start_s": 1242.2,
+   "criteria": [
+    {
+     "c": "EFF",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null
+  }
+ ],
+ "written_annotations": [
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Portance qui s’installe progressivement, départ accessible."
+  },
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "stab Flare 175",
+   "note_fr": "Avec le stab Turbo 180, vol calme en ligne droite même sous puissance."
+  },
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Départ accessible, mais aile destinée aux riders sortis de l’initiation."
+  },
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Courbes larges et fluides, point fort de l’aile ; plus vive avec le Flare 175."
+  },
+  {
+   "source_type": "written",
+   "family": "Slingshot|One-Lock Glide",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-easy-mounting-smooth-turns-slingshot-one-lock-glide-in-test/",
+   "date": "2025-07-16",
+   "sizes": [
+    925
+   ],
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "stab Flare 175",
+   "note_fr": "Vitesse jugée bonne sans plus avec le Turbo 180."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "DEC",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Portance fiable à vitesse relativement faible, relance rapide au pumping."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Bon équilibre sur tous les axes ; ne remonte pas vers la surface dans les rafales."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "-",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Réservée aux riders qui maîtrisent virements et jibes ; d’autres GA pour débuter."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "MAN",
+     "pol": "+",
+     "int": 2
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Enchaînement des courbes, 360 serrés et premiers sauts faciles ; bref temps de reprise après réception."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Bonne glisse, exploite les petites vagues ; la 800 glisse moins."
+  },
+  {
+   "source_type": "written",
+   "family": "GA|Move",
+   "publisher": "SURF Magazin",
+   "publisher_kind": "média",
+   "source_url": "https://www.surf-magazin.de/en/wingsurfing/foils/foils-2026-one-for-all-testing-the-ga-move-foil/",
+   "date": "2026-06-27",
+   "sizes": [
+    800,
+    1000,
+    1300
+   ],
+   "criteria": [
+    {
+     "c": "VIT",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "modèles de même surface d’autres marques",
+   "note_fr": "Vitesse bonne sans être exceptionnelle."
+  },
+  {
+   "source_type": "written",
+   "family": "F-ONE|Seven Seas",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/whats-new-with-fone-foils-eagle-x-and-seven-seas-updates-explained/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "TAN",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Vol régulier à vitesse soutenue."
+  },
+  {
+   "source_type": "written",
+   "family": "F-ONE|Seven Seas",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/whats-new-with-fone-foils-eagle-x-and-seven-seas-updates-explained/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "GLI",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Pumping correct, sans plus."
+  },
+  {
+   "source_type": "written",
+   "family": "F-ONE|Seven Seas",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/whats-new-with-fone-foils-eagle-x-and-seven-seas-updates-explained/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "TOL",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": null,
+   "note_fr": "Présentée comme aile unique cohérente pour un rider intermédiaire."
+  },
+  {
+   "source_type": "written",
+   "family": "KT|Arc Pro Carbon",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/kt-arc-pro-carbon-board-review-with-tucker-jeff/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "~",
+     "int": 1
+    }
+   ],
+   "compared_to": "Super K",
+   "note_fr": "Décollage demandant de pomper la board en même temps que la wing."
+  },
+  {
+   "source_type": "written",
+   "family": "KT|Super K 2 Carbon",
+   "publisher": "MACkiteboarding",
+   "publisher_kind": "revendeur",
+   "source_url": "https://www.mackiteboarding.com/news/kt-arc-pro-carbon-board-review-with-tucker-jeff/",
+   "date": null,
+   "sizes": [],
+   "criteria": [
+    {
+     "c": "BDE",
+     "pol": "+",
+     "int": 1
+    }
+   ],
+   "compared_to": "KT Arc",
+   "note_fr": "Plus de vitesse initiale de la board sans action particulière."
+  }
+ ]
+}

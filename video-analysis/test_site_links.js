@@ -48,3 +48,17 @@ Promise.resolve().then(()=>checkForm(false)).then(()=>checkForm(true)).then(()=>
  assert.match(ctx.T.reviewsMarkup('Z|Z',1,'L'),/aucun essai relu/);
  console.log('Video review cards: escaping, timestamp links and scope notice');
 }
+// Ressenti agrégé sur les cartes : seulement concordants et avis partagés, sources nommées et échappées.
+{
+ const src=fs.readFileSync('index.html','utf8');
+ const vm=require('node:vm');const ctx={};vm.createContext(ctx);
+ vm.runInContext(src.slice(src.indexOf('const esc='),src.indexOf('function mmss('))+src.slice(src.indexOf('let FEEL_INDEX='),src.indexOf('function foilMarkup(')).replace('let FEEL_INDEX=','globalThis.FEEL_INDEX=')+';globalThis.T={feelMarkup}',ctx);
+ ctx.FEEL_INDEX={'X|Y':{sources:3,criteria:{TOL:{statut:'concordant',sens:'-',sources_majoritaires:2,sources_majoritaires_independantes:1,favorable:0,defavorable:2},MAN:{statut:'divergent',favorable:1,defavorable:1},GLI:{statut:'isolé'}},
+  evidence:{TOL:[{pol:'-',source:'A <x>'},{pol:'-',source:'B'}]}}};
+ const h=ctx.T.feelMarkup('X|Y');
+ assert.ok(h.includes('Peu tolérante')&&h.includes('2 sources concordantes')&&h.includes('dont 1 sans lien commercial déclaré'));
+ assert.ok(h.includes('A &lt;x&gt;')&&!h.includes('<x>'),'source non échappée');
+ assert.ok(h.includes('Avis partagés')&&h.includes('maniabilité (1 favorable, 1 défavorable)')&&!h.includes('glisse'));
+ assert.equal(ctx.T.feelMarkup('Z|Z'),'');
+ console.log('Ride feel cards: concordant/divergent only, escaped sources, scope notice');
+}

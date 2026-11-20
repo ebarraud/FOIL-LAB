@@ -836,15 +836,35 @@
     },
     "fnhdMRiW3h4": {
       "title": "Duotone SkybridSLS2026 80/100 L",
-      "families": [],
+      "families": [
+        {
+          "family": "Duotone|Skybrid SLS 2026",
+          "type": "board",
+          "sizes_tested": [
+            80,
+            100
+          ],
+          "sizes_mentioned": [
+            80,
+            100
+          ]
+        }
+      ],
       "comparative": false,
-      "reason": "Modèle, génération ou construction absent du moteur."
+      "reason": null
     },
     "l7pHqjOD_Qw": {
       "title": "Duotone SkyStyle/SkybridSLS/DLAB2026",
-      "families": [],
+      "families": [
+        {
+          "family": "Duotone|Skybrid SLS 2026",
+          "type": "board",
+          "sizes_tested": [],
+          "sizes_mentioned": []
+        }
+      ],
       "comparative": false,
-      "reason": "Modèle, génération ou construction absent du moteur."
+      "reason": null
     },
     "qIjC5-sJSro": {
       "title": "Duotone SkybridAir2025 85 L",
@@ -1267,9 +1287,21 @@
     },
     "vOvMPu4SbRo": {
       "title": "Duotone Skybrid SLS 2026 80 L contre 85 L 2025",
-      "families": [],
+      "families": [
+        {
+          "family": "Duotone|Skybrid SLS 2026",
+          "type": "board",
+          "sizes_tested": [
+            80
+          ],
+          "sizes_mentioned": [
+            80,
+            85
+          ]
+        }
+      ],
       "comparative": false,
-      "reason": "Modèle, génération ou construction absent du moteur."
+      "reason": null
     },
     "fpheg1qEhg0": {
       "title": "KT Instinct 920/1300, Nomad 190, mâtcarbone 85",
