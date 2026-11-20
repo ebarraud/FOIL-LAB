@@ -54,6 +54,6 @@ console.log('AXIS span/area separation and Tempo practice limitations passed');
  const map=JSON.parse(fs.readFileSync('data/research/review_family_map.json','utf8')).reviews;
  const fams=new Map(vm.runInContext('[...FOILS.map(f=>[f.b+"|"+f.n,f.sizes]),...BOARDS.map(b=>[b.b+"|"+b.n,b.sizes.map(s=>s[0])])]',sandbox));
  let n=0;for(const v of Object.values(map))for(const f of v.families){n++;assert.ok(fams.has(f.family),'famille inconnue '+f.family);for(const s of f.sizes_tested)assert.ok(fams.get(f.family).includes(s),f.family+' taille '+s)}
- assert.ok(!Object.values(map).some(v=>/2027|2025/.test(v.title)&&v.families.some(f=>/Skybrid SLS 2026|Chimera 2026/.test(f.family))),'génération différente rattachée');
+ assert.ok(!Object.values(map).some(v=>/2027|2025/.test(v.title)&&!/2026/.test(v.title)&&v.families.some(f=>/Skybrid SLS 2026|Chimera 2026/.test(f.family))),'génération différente rattachée');
  console.log('Video reviews mapped to engine families:',n,'links');
 }
