@@ -156,7 +156,9 @@ console.log('Surge 890 uses real 835cm2, skill/ease exclusions and its own evide
  assert.ok(sb.foilTarget(b)>=1000,'freeride ≤ 15 nds : plancher SURF expérimenté');
  assert.ok(sb.foilTarget({...b,wind:18})<1000,'au-delà de 15 nds, le niveau garde son effet');
  assert.ok(sb.foilTarget({...b,p:'surf'})<1000,'surf : pas de plancher');
- assert.equal(sb.foilTarget({...b,w:83,l:3,p:'light'}),1500);
+ const lw=sb.foilTarget({...b,w:83,l:3,p:'light'});
+ assert.ok(lw>1000&&lw<1300,'vent léger 12 nds niveau 3 : tableau expérimenté, pas « vent très léger » ('+lw+')');
+ assert.equal(sb.foilTarget({...b,w:83,l:3,p:'light',wind:9}),1500,'sous 10 nds : tableau vent très léger');
  assert.ok(sb.foilTarget({...b,w:84,l:0,pr:'easy'})<=1700,'débutant : plafond SURF');
  const evo=x=>sb.foilOptions({...x,b:'AFS'}).find(o=>o.f.n==='Evo');
  assert.equal(evo({...b,l:0,w:80,wind:12}).size,1650);

@@ -220,12 +220,13 @@ function foilTarget(x){
  return clamp(Math.min(Math.max(a,foilFloor(x).area),guideRow(FOIL_GUIDE.light.rows,x.w)[2]),550,2300);
 }
 // Plancher sourcé (SURF Magazin, tableaux d'aile avant unique) : corrige la sous-estimation en vent faible.
-// Débutants jusqu'à 20 nds (au-delà, repères AFS Evo vent fort), programme vent léger ou vent < 10 nds : tableau « débutant / priorité vent très léger » (8–15 nds).
-// Niveau ≥ 2 en freeride ou glisse jusqu'à 15 nds : tableau « expérimenté » (10–20 nds).
+// Débutants jusqu'à 20 nds (au-delà, repères AFS Evo vent fort) ou vent < 10 nds : tableau « débutant / priorité vent très léger » (8–15 nds).
+// Niveau ≥ 2 en freeride, vent léger ou glisse de 10 à 15 nds : tableau « expérimenté » (10–20 nds).
+// Le programme vent léger seul ne justifie pas le tableau « vent très léger » : à 10–15 nds, il agrandit déjà la cible générique (× 1,18).
 // Surf, saut et vitesse : pas de plancher, ces programmes choisissent volontairement plus petit.
 function foilFloor(x){
  if(['surf','jump','speed'].includes(x.p))return {area:0,table:null};
- if((x.l<=1&&x.wind<=20)||x.p==='light'||x.wind<10)return {area:guideRow(FOIL_GUIDE.light.rows,x.w)[1],table:'light'};
+ if((x.l<=1&&x.wind<=20)||x.wind<10)return {area:guideRow(FOIL_GUIDE.light.rows,x.w)[1],table:'light'};
  if(x.wind<=15)return {area:guideRow(FOIL_GUIDE.experienced.rows,x.w)[1],table:'experienced'};
  return {area:0,table:null};
 }
