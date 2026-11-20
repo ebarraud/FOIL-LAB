@@ -1,5 +1,8 @@
 # Journal des évolutions
 
+## 2026-11-20 — Plancher « vent très léger » limité au vent < 10 nds
+- Le programme vent léger seul n’impose plus le tableau SURF « vent très léger » aux niveaux ≥ 2 : il ne s’applique qu’en dessous de 10 nds (ou aux débutants). Exemple : 83 kg, niveau 3, vent léger, 12 nds : cible 1500 → ≈ 1175 cm² (One-Lock Glide 1125, Eagle 1290, Crest 1050) ; à 9 nds la cible reste 1500.
+
 ## 2026-11-20 — Ressenti des essais affiché sur les cartes
 - Chaque carte de recommandation affiche « Ressenti des essais » : critères concordants (≥ 75 % des avis tranchés dans le même sens, portés par ≥ 2 sources distinctes) avec le nombre de sources, celles sans lien commercial déclaré et leurs noms, puis les avis partagés. Aucun effet sur la taille ni le classement.
 - Essais écrits ajoutés à la grille : SURF Magazin (One-Lock Glide 925, GA Move), MACkiteboarding (Seven Seas, KT Arc, Super K 2). Écartés pour génération différente : Eagle (The Inertia, 2025), Seven Seas 2022 et SK8 2023 (Tonic Mag).
