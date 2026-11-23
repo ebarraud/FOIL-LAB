@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T17:11:40.069859+00:00",
+  "updated_at_utc": "2026-11-23T19:12:35.860356+00:00",
   "status": "attempted",
   "queries": 18,
   "errors": [],
@@ -203,7 +203,7 @@
     {
       "publisher": "wingpassion",
       "channel_id": "UCQOnp2pO-IyQ5mYl_wGSmtw",
-      "retained_candidates": 4,
+      "retained_candidates": 3,
       "errors": [],
       "coverage": "bounded_search_not_full_channel_archive"
     },
