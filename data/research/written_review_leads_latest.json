@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T17:11:28.891907+00:00",
+  "generated_at": "2026-11-23T19:27:02.871382+00:00",
   "source_window_months": 24,
   "article_leads": 80,
   "technical_assertions_created": 0,
@@ -46,7 +46,7 @@
     {
       "source": "MACkite",
       "access": "html_fallback",
-      "items_on_index": 368,
+      "items_on_index": 369,
       "errors": []
     }
   ],
@@ -702,7 +702,7 @@
     },
     {
       "title": "View Test >>",
-      "url": "https://www.thefoilingmagazine.com/test-center/ppc-orbit-parawing-2027/",
+      "url": "https://www.thefoilingmagazine.com/test-center/ppc-orbit-parawing-2026/",
       "category": "needs_scope_review",
       "published_on": null,
       "date_verified_from": "not_verified",
